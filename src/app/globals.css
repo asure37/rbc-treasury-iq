@@ -1,26 +1,283 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --rbc-blue: #0051a5;
+  --rbc-blue-2: #0066cc;
+  --rbc-cyan: #00b6f1;
+  --rbc-cyan-2: #5ce1ff;
+  --rbc-gold: #ffc72c;
+
+  --bg-void: #05070d;
+  --bg-base: #070c16;
+  --bg-surface: #0c1424;
+  --bg-surface-2: #121d33;
+  --bg-surface-3: #182746;
+
+  --border-soft: rgba(140, 175, 220, 0.14);
+  --border-glow: rgba(0, 182, 241, 0.35);
+
+  --text-primary: #eef4fc;
+  --text-secondary: #a8bbd6;
+  --text-muted: #6b7f9e;
+
+  --up: #2dd4bf;
+  --down: #fb7185;
+  --warn: #fbbf24;
+  --neutral: #8ca0be;
+
+  --shadow-glow-blue: 0 0 40px -8px rgba(0, 182, 241, 0.35);
+  --shadow-glow-blue-lg: 0 0 80px -12px rgba(0, 102, 204, 0.45);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--bg-base);
+  --color-foreground: var(--text-primary);
+
+  --color-rbc-blue: var(--rbc-blue);
+  --color-rbc-blue-2: var(--rbc-blue-2);
+  --color-rbc-cyan: var(--rbc-cyan);
+  --color-rbc-cyan-2: var(--rbc-cyan-2);
+  --color-rbc-gold: var(--rbc-gold);
+
+  --color-void: var(--bg-void);
+  --color-base: var(--bg-base);
+  --color-surface: var(--bg-surface);
+  --color-surface-2: var(--bg-surface-2);
+  --color-surface-3: var(--bg-surface-3);
+
+  --color-border-soft: var(--border-soft);
+  --color-border-glow: var(--border-glow);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+
+  --color-up: var(--up);
+  --color-down: var(--down);
+  --color-warn: var(--warn);
+  --color-neutral: var(--neutral);
+
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains);
+  --font-display: var(--font-sora);
+
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-shimmer: shimmer 2.5s linear infinite;
+  --animate-pulse-glow: pulse-glow 3s ease-in-out infinite;
+  --animate-drift: drift 24s linear infinite;
+  --animate-count-in: count-in 0.5s ease-out both;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+@keyframes drift {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-120px, -80px);
+  }
+}
+
+@keyframes count-in {
+  from {
+    opacity: 0;
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+* {
+  border-color: var(--border-soft);
+}
+
+html {
+  color-scheme: dark;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  min-height: 100dvh;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(1200px 700px at 12% -10%, rgba(0, 102, 204, 0.25), transparent 60%),
+    radial-gradient(900px 600px at 110% 10%, rgba(0, 182, 241, 0.16), transparent 60%),
+    radial-gradient(1000px 800px at 50% 120%, rgba(0, 81, 165, 0.22), transparent 60%),
+    var(--bg-void);
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: -10%;
+  z-index: -1;
+  background-image:
+    linear-gradient(rgba(140, 175, 220, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(140, 175, 220, 0.05) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 40%, transparent 90%);
+  animation: drift 40s linear infinite;
+}
+
+::selection {
+  background: rgba(0, 182, 241, 0.35);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-surface-3);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #223759;
+  background-clip: padding-box;
+}
+
+.glass-panel {
+  background: linear-gradient(160deg, rgba(18, 29, 51, 0.75), rgba(12, 20, 36, 0.65));
+  border: 1px solid var(--border-soft);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.glow-ring {
+  box-shadow: var(--shadow-glow-blue);
+}
+
+.text-gradient-blue {
+  background: linear-gradient(90deg, var(--rbc-cyan-2), var(--rbc-blue-2) 60%, var(--rbc-blue));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+.shimmer-text {
+  background: linear-gradient(
+    90deg,
+    var(--text-secondary) 0%,
+    #ffffff 50%,
+    var(--text-secondary) 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: var(--animate-shimmer);
+}
+
+.chart-line-glow {
+  filter: drop-shadow(0 0 6px rgba(92, 225, 255, 0.55)) drop-shadow(0 0 14px rgba(0, 102, 204, 0.35));
+}
+
+.chart-ring-glow {
+  filter: drop-shadow(0 0 10px rgba(0, 182, 241, 0.45)) drop-shadow(0 0 22px rgba(0, 81, 165, 0.3));
+}
+
+.chat-markdown p {
+  margin: 0 0 0.5em;
+}
+.chat-markdown p:last-child {
+  margin-bottom: 0;
+}
+.chat-markdown ul,
+.chat-markdown ol {
+  margin: 0.25em 0 0.5em;
+  padding-left: 1.1em;
+}
+.chat-markdown li {
+  margin: 0.2em 0;
+}
+.chat-markdown li::marker {
+  color: var(--rbc-cyan);
+}
+.chat-markdown strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+.chat-markdown a {
+  color: var(--rbc-cyan-2);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.chat-markdown code {
+  background: rgba(140, 175, 220, 0.12);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  font-size: 0.9em;
+}
+.chat-markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5em 0;
+  font-size: 0.92em;
+}
+.chat-markdown th,
+.chat-markdown td {
+  border: 1px solid var(--border-soft);
+  padding: 0.3em 0.5em;
+  text-align: left;
+}
+.chat-markdown h1,
+.chat-markdown h2,
+.chat-markdown h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  margin: 0.4em 0 0.3em;
+  color: var(--text-primary);
 }

@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-07-02T00:00:00.000Z",
+  "sourceMethodology": "Regulatory minimums per OSFI Capital Adequacy Requirements (CAR) 2026 guideline and Basel III global standards. D-SIB supervisory target reflects the Domestic Stability Buffer set by OSFI (0-4% of RWA, reviewed semi-annually each June/December); current DSB = 3.0% effective June 19, 2026.",
+  "metrics": [
+    {
+      "key": "cet1Ratio",
+      "label": "Common Equity Tier 1 (CET1) Ratio",
+      "shortLabel": "CET1 Ratio",
+      "unit": "%",
+      "description": "Core equity capital as a percentage of risk-weighted assets. The primary measure of a bank's capital strength and loss-absorbing capacity.",
+      "higherIsBetter": true,
+      "regulatoryMinimum": 7.0,
+      "supervisoryTarget": 11.0,
+      "decimals": 1
+    },
+    {
+      "key": "tier1CapitalRatio",
+      "label": "Tier 1 Capital Ratio",
+      "shortLabel": "Tier 1 Ratio",
+      "unit": "%",
+      "description": "CET1 plus Additional Tier 1 capital, as a percentage of risk-weighted assets.",
+      "higherIsBetter": true,
+      "regulatoryMinimum": 8.5,
+      "supervisoryTarget": 12.5,
+      "decimals": 1
+    },
+    {
+      "key": "totalCapitalRatio",
+      "label": "Total Capital Ratio",
+      "shortLabel": "Total Capital",
+      "unit": "%",
+      "description": "Tier 1 plus Tier 2 capital, as a percentage of risk-weighted assets. Broadest regulatory capital adequacy measure.",
+      "higherIsBetter": true,
+      "regulatoryMinimum": 10.5,
+      "supervisoryTarget": 14.5,
+      "decimals": 1
+    },
+    {
+      "key": "leverageRatio",
+      "label": "Basel III Leverage Ratio",
+      "shortLabel": "Leverage Ratio",
+      "unit": "%",
+      "description": "Tier 1 capital as a percentage of total (non-risk-weighted) exposure. Guards against excessive on- and off-balance-sheet leverage.",
+      "higherIsBetter": true,
+      "regulatoryMinimum": 3.5,
+      "decimals": 1
+    },
+    {
+      "key": "tlacRatio",
+      "label": "Total Loss-Absorbing Capacity (TLAC) Ratio",
+      "shortLabel": "TLAC Ratio",
+      "unit": "%",
+      "description": "Capital and eligible long-term debt available to absorb losses in a resolution scenario, as a percentage of risk-weighted assets. Applies to Canada's D-SIBs.",
+      "higherIsBetter": true,
+      "regulatoryMinimum": 21.5,
+      "decimals": 1
+    },
+    {
+      "key": "lcr",
+      "label": "Liquidity Coverage Ratio (LCR)",
+      "shortLabel": "LCR",
+      "unit": "%",
+      "description": "High-quality liquid assets available to cover net cash outflows over a 30-day stress scenario.",
+      "higherIsBetter": true,
+      "regulatoryMinimum": 100,
+      "decimals": 0
+    },
+    {
+      "key": "nsfr",
+      "label": "Net Stable Funding Ratio (NSFR)",
+      "shortLabel": "NSFR",
+      "unit": "%",
+      "description": "Available stable funding relative to required stable funding over a one-year horizon. Measures structural, longer-term liquidity resilience.",
+      "higherIsBetter": true,
+      "regulatoryMinimum": 100,
+      "decimals": 0
+    },
+    {
+      "key": "roe",
+      "label": "Return on Equity (ROE)",
+      "shortLabel": "ROE",
+      "unit": "%",
+      "description": "Net income attributable to common shareholders as a percentage of average common shareholders' equity.",
+      "higherIsBetter": true,
+      "decimals": 1
+    },
+    {
+      "key": "nim",
+      "label": "Net Interest Margin (NIM)",
+      "shortLabel": "NIM",
+      "unit": "%",
+      "description": "Net interest income as a percentage of average interest-earning assets.",
+      "higherIsBetter": true,
+      "decimals": 2
+    },
+    {
+      "key": "efficiencyRatio",
+      "label": "Efficiency Ratio",
+      "shortLabel": "Efficiency",
+      "unit": "%",
+      "description": "Non-interest expense as a percentage of total revenue. Lower indicates better cost discipline.",
+      "higherIsBetter": false,
+      "decimals": 1
+    },
+    {
+      "key": "loansToAssetsPct",
+      "label": "Loans as % of Total Assets",
+      "shortLabel": "Loans/Assets",
+      "unit": "%",
+      "description": "Gross loans as a percentage of total balance sheet assets — a proxy for balance sheet lending intensity vs. trading/securities/other assets.",
+      "higherIsBetter": null,
+      "decimals": 1
+    },
+    {
+      "key": "totalAssetsBillions",
+      "label": "Total Assets",
+      "shortLabel": "Total Assets",
+      "unit": "$B",
+      "description": "Total balance sheet assets at period end, in billions of reporting currency.",
+      "higherIsBetter": null,
+      "decimals": 0
+    },
+    {
+      "key": "netIncomeMillions",
+      "label": "Net Income",
+      "shortLabel": "Net Income",
+      "unit": "$M",
+      "description": "Net income attributable to shareholders for the quarter, in millions of reporting currency.",
+      "higherIsBetter": true,
+      "decimals": 0
+    },
+    {
+      "key": "loanToDepositRatio",
+      "label": "Loan-to-Deposit Ratio",
+      "shortLabel": "Loan/Deposit",
+      "unit": "%",
+      "description": "Gross loans as a percentage of total deposits. A core funding-structure gauge: a ratio well above 100% signals reliance on non-deposit (wholesale) funding to support lending; a low ratio signals surplus deposit funding.",
+      "higherIsBetter": null,
+      "decimals": 1
+    },
+    {
+      "key": "wholesaleFundingPct",
+      "label": "Wholesale Funding (% of Total Assets)",
+      "shortLabel": "Wholesale Funding",
+      "unit": "%",
+      "description": "Wholesale funding (interbank deposits, wholesale/institutional deposit notes, covered bonds, securitization, senior/subordinated debt, repo) as a percentage of total assets. Lower generally indicates a more stable, less market-dependent funding profile.",
+      "higherIsBetter": false,
+      "decimals": 1
+    },
+    {
+      "key": "retailDepositsPct",
+      "label": "Retail Deposits (% of Total Deposits)",
+      "shortLabel": "Retail Deposits",
+      "unit": "%",
+      "description": "Personal/retail deposits as a percentage of total deposits. Retail deposits are typically more stable and lower-cost than wholesale/commercial deposits.",
+      "higherIsBetter": true,
+      "decimals": 1
+    },
+    {
+      "key": "wholesaleDepositsPct",
+      "label": "Wholesale/Commercial Deposits (% of Total Deposits)",
+      "shortLabel": "Wholesale Deposits",
+      "unit": "%",
+      "description": "Wholesale, commercial, and institutional deposits as a percentage of total deposits.",
+      "higherIsBetter": false,
+      "decimals": 1
+    },
+    {
+      "key": "stableDepositsPct",
+      "label": "Stable Deposits (% of Total Deposits, LCR Basis)",
+      "shortLabel": "Stable Deposits",
+      "unit": "%",
+      "description": "Deposits classified as 'stable' under Basel/OSFI LCR deposit-runoff categorization (e.g., fully insured, established relationship) as a percentage of total deposits — lower expected outflow rate in a 30-day stress scenario.",
+      "higherIsBetter": true,
+      "decimals": 1
+    },
+    {
+      "key": "lessStableDepositsPct",
+      "label": "Less Stable Deposits (% of Total Deposits, LCR Basis)",
+      "shortLabel": "Less Stable Deposits",
+      "unit": "%",
+      "description": "Deposits classified as 'less stable' under Basel/OSFI LCR deposit-runoff categorization as a percentage of total deposits — higher expected outflow rate in a 30-day stress scenario.",
+      "higherIsBetter": false,
+      "decimals": 1
+    },
+    {
+      "key": "operationalDepositsPct",
+      "label": "Operational Deposits (% of Total Deposits)",
+      "shortLabel": "Operational Deposits",
+      "unit": "%",
+      "description": "Deposits tied to an operational relationship (clearing, custody, cash management) as a percentage of total deposits — these receive preferential (lower) LCR runoff rates due to their stickiness.",
+      "higherIsBetter": true,
+      "decimals": 1
+    },
+    {
+      "key": "nonOperationalDepositsPct",
+      "label": "Non-Operational Deposits (% of Total Deposits)",
+      "shortLabel": "Non-Op. Deposits",
+      "unit": "%",
+      "description": "Wholesale deposits with no operational relationship as a percentage of total deposits — these receive higher LCR runoff rates, reflecting greater flight risk in stress.",
+      "higherIsBetter": false,
+      "decimals": 1
+    },
+    {
+      "key": "irrbbEveSensitivityPct",
+      "label": "IRRBB — ΔEVE Sensitivity (% of Tier 1 Capital)",
+      "shortLabel": "ΔEVE Sensitivity",
+      "unit": "%",
+      "description": "Change in Economic Value of Equity under the most adverse interest-rate shock the bank discloses, as a percentage of Tier 1 capital. OSFI's IRRBB 'outlier' test flags a bank for supervisory review if the full six-scenario measure exceeds 15%. All six Canadian D-SIBs disclose a +/-100bp parallel-shock version of this every quarter in their Reports to Shareholders (RBC and National show additional scenarios); the standardized six-scenario Basel/OSFI template is annual where disclosed. Values here use each bank's most-adverse disclosed scenario — see per-point notes.",
+      "higherIsBetter": false,
+      "decimals": 1
+    },
+    {
+      "key": "irrbbNiiSensitivityPct",
+      "label": "IRRBB — ΔNII Sensitivity (12-Month)",
+      "shortLabel": "ΔNII Sensitivity",
+      "unit": "%",
+      "description": "Projected change in 12-month net interest income under a prescribed parallel interest rate shock (commonly +/-100bps), as a percentage of Tier 1 capital. All six Canadian D-SIBs disclose this every quarter in their Reports to Shareholders. Sign, shock direction, and scope vary by bank disclosure (some report the +100bp scenario, others the most-adverse) — see notes per data point.",
+      "higherIsBetter": null,
+      "decimals": 1
+    }
+  ]
+}

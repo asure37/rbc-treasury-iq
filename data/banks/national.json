@@ -1,0 +1,1173 @@
+{
+  "bankId": "national",
+  "bankName": "National Bank of Canada",
+  "ticker": "NA",
+  "isHomeInstitution": false,
+  "colorHex": "#8A94A6",
+  "quarters": [
+    {
+      "period": "Q3 2024",
+      "periodEnd": "2024-07-31",
+      "reportName": "Q3 2024 Report to Shareholders",
+      "reportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+      "supplementaryReportName": "Q3 2024 Supplementary Regulatory Capital Disclosure",
+      "supplementaryReportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-regulatory-capital-q3-2024.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.5,
+        "tier1CapitalRatio": 15.7,
+        "totalCapitalRatio": 16.9,
+        "leverageRatio": 4.4,
+        "tlacRatio": 29.7,
+        "lcr": 152,
+        "nsfr": 120,
+        "roe": 18.4,
+        "nim": 2.31,
+        "efficiencyRatio": 51.4,
+        "loansToAssetsPct": 53.1,
+        "totalAssetsBillions": 453.9,
+        "netIncomeMillions": 1033,
+        "loanToDepositRatio": 75.13,
+        "wholesaleFundingPct": 30.43,
+        "retailDepositsPct": 29.38,
+        "wholesaleDepositsPct": 70.62,
+        "stableDepositsPct": 8.63,
+        "lessStableDepositsPct": 11.26,
+        "operationalDepositsPct": 10.96,
+        "nonOperationalDepositsPct": 22.1,
+        "irrbbEveSensitivityPct": -1.67,
+        "irrbbNiiSensitivityPct": -0.52
+      },
+      "notes": {
+        "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.31%), as National Bank does not publish a single consolidated whole-bank NIM headline figure; segment NIM is the standard metric cited by the bank and analysts.",
+        "tlacRatio": "TLAC (RWA-based) disclosure was already in place for this quarter per National Bank's Supplementary Financial Information trend table.",
+        "loansToAssetsPct": "Computed as gross loans (sum of loan categories before allowance for credit losses, per Consolidated Balance Sheet) divided by total assets; reconciled against disclosed net loans figure.",
+        "source": "All figures pulled from the 10-quarter trend table in National Bank's Q2 2026 Supplementary Financial Information package (Highlights page), cross-verified against the Bank's own Q3 2024 Report to Shareholders (net income, ROE, CET1, leverage ratio matched exactly).",
+        "loanToDepositRatio": "Gross loans $240,844M (net loans $239,549M per SFI trend table + allowance for credit losses $1,295M) ÷ total deposits $320,587M, both as at Jul 31, 2024.",
+        "wholesaleFundingPct": "Computed as [Residual Contractual Maturities of Wholesale Funding table total, $96,324M: deposits from banks + CP/wholesale deposit notes + senior unsecured MTNs/structured notes + covered bonds + mortgage/credit-card securitization + subordinated debt] + [repo obligations $41,781M] = $138,105M, ÷ total assets $453,900M. EDTF table alone (excl. repo) = 21.2%.",
+        "retailDepositsPct": "Personal deposits $94,186M ÷ total deposits $320,587M (Consolidated Balance Sheet, as at Jul 31, 2024).",
+        "wholesaleDepositsPct": "Business and government deposits ($220,915M) + deposit-taking institutions ($5,486M) = $226,401M ÷ total deposits $320,587M.",
+        "stableDepositsPct": "From LCR Disclosure Requirements table (quarterly average unweighted values, quarter ended Jul 31 2024): stable retail deposits $27,654M ÷ total balance-sheet deposits $320,587M. Caveat: LCR unweighted values are 30-day-outflow-relevant quarterly-average balances, not the full point-in-time deposit base — retail+wholesale LCR-recognized balances ($178,067M) are well below total deposits since term deposits with maturity beyond 30 days can be excluded from LCR outflow assumptions. As % of the retail LCR bucket alone (stable/(stable+less stable)), stable = 43.4%.",
+        "lessStableDepositsPct": "Less stable retail deposits $36,084M (LCR table) ÷ total deposits $320,587M. Same LCR-scope caveat as stableDepositsPct.",
+        "operationalDepositsPct": "Operational deposits (all counterparties) $35,127M (LCR table) ÷ total deposits $320,587M. Same LCR-scope caveat.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $70,848M (LCR table) ÷ total deposits $320,587M. Same LCR-scope caveat.",
+        "irrbbEveSensitivityPct": "National Bank discloses only a single +/-100bp parallel shock (not the full 6-scenario Basel/OSFI framework). Most adverse = +100bp increase scenario, EVE impact -$366M (before tax, total CAD+other currencies) as at Jul 31 2024, per 'Interest Rate Sensitivity - Non-Trading Activities' table. Bank does not itself express this as a %; computed here as -$366M / Tier 1 capital $21,855M (CC1 table, Q1 2025 supplementary disclosure trend column).",
+        "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease scenario, NII impact -$114M (before-tax, 12-month projection). +100bp scenario impact was +$80M. Computed as % of Tier 1 capital ($21,855M) for comparability; bank does not publish this as a ratio.",
+        "newMetricsSource": "Q3 2024 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "searchText": "$240,844"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "searchText": "$96,324"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "searchText": "$94,186"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "searchText": "$220,915"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "searchText": "$27,654"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "searchText": "$36,084"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "searchText": "$35,127"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "searchText": "$70,848"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "searchText": "$366"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "searchText": "$114"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.5"
+        },
+        "tier1CapitalRatio": {
+          "page": 29,
+          "searchText": "15.7"
+        },
+        "totalCapitalRatio": {
+          "page": 29,
+          "searchText": "16.9"
+        },
+        "leverageRatio": {
+          "page": 1,
+          "searchText": "4.4"
+        },
+        "tlacRatio": {
+          "page": 11,
+          "searchText": "29.7"
+        },
+        "lcr": {
+          "page": 11,
+          "searchText": "152"
+        },
+        "nsfr": {
+          "page": 11,
+          "searchText": "120"
+        },
+        "nim": {
+          "page": 2,
+          "searchText": "2.31"
+        },
+        "efficiencyRatio": {
+          "page": 11,
+          "searchText": "51.4"
+        },
+        "roe": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "page": 1,
+          "searchText": "18.4 %"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "page": 1,
+          "searchText": "1,033"
+        }
+      }
+    },
+    {
+      "period": "Q4 2024",
+      "periodEnd": "2024-10-31",
+      "reportName": "FY2024 / Q4 2024 Supplementary Financial Information",
+      "reportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+      "supplementaryReportName": "Q4 2024 Supplementary Regulatory Capital Disclosure",
+      "supplementaryReportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-regulatory-capital-q4-2024.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.7,
+        "tier1CapitalRatio": 15.9,
+        "totalCapitalRatio": 17,
+        "leverageRatio": 4.4,
+        "tlacRatio": 31.2,
+        "lcr": 150,
+        "nsfr": 122,
+        "roe": 16.4,
+        "nim": 2.3,
+        "efficiencyRatio": 54.1,
+        "loansToAssetsPct": 52.9,
+        "totalAssetsBillions": 462.2,
+        "netIncomeMillions": 955,
+        "loanToDepositRatio": 73.27,
+        "wholesaleFundingPct": 30.59,
+        "retailDepositsPct": 28.54,
+        "wholesaleDepositsPct": 71.46,
+        "stableDepositsPct": 8.33,
+        "lessStableDepositsPct": 11.06,
+        "operationalDepositsPct": 10.63,
+        "nonOperationalDepositsPct": 22.53,
+        "irrbbEveSensitivityPct": -1.94,
+        "irrbbNiiSensitivityPct": -0.61
+      },
+      "notes": {
+        "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
+        "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.30%); no single consolidated whole-bank NIM headline figure is published.",
+        "loansToAssetsPct": "Computed as gross loans (sum of loan categories before allowance for credit losses, per Consolidated Balance Sheet) divided by total assets.",
+        "source": "All figures pulled from the 10-quarter trend table in National Bank's Q2 2026 Supplementary Financial Information package (Highlights page).",
+        "loanToDepositRatio": "Gross loans $244,373M (Table 9, 'Distribution of Gross Loans by Borrower Category', 2024 Annual Report) ÷ total deposits $333,545M (Table 12, 'Deposits'), both as at Oct 31, 2024. Cross-validated against SFI 10-quarter trend table.",
+        "wholesaleFundingPct": "[EDTF wholesale funding table total $103,232M] + [repo obligations $38,177M] = $141,409M ÷ total assets $462,200M. EDTF table alone (excl. repo) = 22.3%.",
+        "retailDepositsPct": "Personal deposits $95,181M (28.5% as directly disclosed) ÷ total deposits $333,545M, Table 12, 2024 Annual Report.",
+        "wholesaleDepositsPct": "Business and government ($232,730M, 69.8% as disclosed) + deposit-taking institutions ($5,634M, 1.7%) = $238,364M ÷ $333,545M.",
+        "stableDepositsPct": "LCR table, quarter ended Oct 31 2024: stable retail deposits $27,781M ÷ total deposits $333,545M. Same LCR-scope caveat as Q3 2024. As % of retail LCR bucket alone: 43.0%.",
+        "lessStableDepositsPct": "Less stable retail deposits $36,883M ÷ total deposits $333,545M.",
+        "operationalDepositsPct": "Operational deposits $35,445M ÷ total deposits $333,545M.",
+        "nonOperationalDepositsPct": "Non-operational deposits $75,157M ÷ total deposits $333,545M.",
+        "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$435M (before tax) as at Oct 31 2024, 'Interest Rate Sensitivity' table, 2024 Annual Report pp.93-94. Computed as % of Tier 1 capital $22,470M (CC1 table).",
+        "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$136M (before-tax, 12-month). +100bp scenario = +$99M. As % of FY2024 whole-bank consolidated Net Interest Income ($2,939M): -4.6%. As % of Tier 1 capital ($22,470M): -0.6%.",
+        "newMetricsSource": "2024 Annual Report (fiscal year ended October 31, 2024) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
+          "searchText": "$244,373"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
+          "searchText": "$103,232"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
+          "searchText": "$95,181"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
+          "searchText": "$232,730"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
+          "searchText": "$27,781"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
+          "searchText": "$36,883"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
+          "searchText": "$35,445"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
+          "searchText": "$75,157"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
+          "searchText": "$435"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
+          "searchText": "$136"
+        },
+        "cet1Ratio": {
+          "page": 4,
+          "searchText": "13.7"
+        },
+        "leverageRatio": {
+          "page": 4,
+          "searchText": "4.4"
+        },
+        "tlacRatio": {
+          "page": 4,
+          "searchText": "31.2"
+        },
+        "lcr": {
+          "page": 4,
+          "searchText": "150"
+        },
+        "nsfr": {
+          "page": 4,
+          "searchText": "122"
+        },
+        "nim": {
+          "page": 8,
+          "searchText": "2.30"
+        },
+        "efficiencyRatio": {
+          "page": 4,
+          "searchText": "54.1"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "page": 4,
+          "searchText": "15.9%"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "page": 4,
+          "searchText": "17.0%"
+        },
+        "roe": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "page": 4,
+          "searchText": "16.4%"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "page": 4,
+          "searchText": "955"
+        }
+      }
+    },
+    {
+      "period": "Q1 2025",
+      "periodEnd": "2025-01-31",
+      "reportName": "Q1 2025 Report to Shareholders",
+      "reportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+      "supplementaryReportName": "Q1 2025 Supplementary Regulatory Capital Disclosure",
+      "supplementaryReportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-regulatory-capital-q1-2025.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.6,
+        "tier1CapitalRatio": 15.5,
+        "totalCapitalRatio": 17.1,
+        "leverageRatio": 4.3,
+        "tlacRatio": 31.2,
+        "lcr": 154,
+        "nsfr": 123,
+        "roe": 16.7,
+        "nim": 2.28,
+        "efficiencyRatio": 51.7,
+        "loansToAssetsPct": 51.3,
+        "totalAssetsBillions": 483.8,
+        "netIncomeMillions": 997,
+        "loanToDepositRatio": 70.67,
+        "wholesaleFundingPct": 31.07,
+        "retailDepositsPct": 28.16,
+        "wholesaleDepositsPct": 71.84,
+        "stableDepositsPct": 8.12,
+        "lessStableDepositsPct": 11.29,
+        "operationalDepositsPct": 10.56,
+        "nonOperationalDepositsPct": 21.49,
+        "irrbbEveSensitivityPct": -1.99,
+        "irrbbNiiSensitivityPct": -0.56
+      },
+      "notes": {
+        "cwbAcquisition": "CWB acquisition closed Feb 3, 2025, after this period end (Jan 31, 2025); figures below do not yet reflect CWB consolidation.",
+        "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.28%); no single consolidated whole-bank NIM headline figure is published.",
+        "loansToAssetsPct": "Computed as gross loans (sum of loan categories before allowance for credit losses, per Consolidated Balance Sheet) divided by total assets.",
+        "source": "Cross-verified: CET1 (13.6%) matches exactly between the Q1 2025 Report to Shareholders and the Q2 2026 Supplementary Financial Information 10-quarter trend table.",
+        "loanToDepositRatio": "Gross loans $248,103M ÷ total deposits $351,095M, as at Jan 31, 2025 (SFI trend table / Q1 2025 Report to Shareholders).",
+        "wholesaleFundingPct": "[EDTF wholesale funding table total $112,967M] + [repo $37,359M] = $150,326M ÷ total assets $483,800M. EDTF-only = 23.3%.",
+        "retailDepositsPct": "Personal deposits $98,861M ÷ total deposits $351,095M.",
+        "wholesaleDepositsPct": "Business and government $246,450M + deposit-taking institutions $5,784M = $252,234M ÷ $351,095M.",
+        "stableDepositsPct": "LCR table, quarter ended Jan 31 2025: stable retail deposits $28,502M ÷ total deposits $351,095M. Same LCR-scope caveat as other periods.",
+        "lessStableDepositsPct": "Less stable retail deposits $39,635M ÷ total deposits $351,095M.",
+        "operationalDepositsPct": "Operational deposits $37,067M ÷ total deposits $351,095M.",
+        "nonOperationalDepositsPct": "Non-operational deposits $75,448M ÷ total deposits $351,095M.",
+        "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$458M as at Jan 31 2025. Computed as % of Tier 1 capital $22,986M (CC1 table, Q1 2025 supplementary regulatory capital disclosure).",
+        "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$128M (before-tax, 12-month). +100bp = +$99M. As % of Tier 1 capital $22,986M.",
+        "newMetricsSource": "Q1 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "searchText": "$248,103"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "searchText": "$112,967"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "searchText": "$98,861"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "searchText": "$246,450"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "searchText": "$28,502"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "searchText": "$39,635"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "searchText": "$37,067"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "searchText": "$75,448"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "searchText": "$458"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "searchText": "$128"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.6"
+        },
+        "tier1CapitalRatio": {
+          "page": 26,
+          "searchText": "15.5"
+        },
+        "totalCapitalRatio": {
+          "page": 26,
+          "searchText": "17.1"
+        },
+        "leverageRatio": {
+          "page": 1,
+          "searchText": "4.3"
+        },
+        "tlacRatio": {
+          "page": 11,
+          "searchText": "31.2"
+        },
+        "lcr": {
+          "page": 11,
+          "searchText": "154"
+        },
+        "nsfr": {
+          "page": 11,
+          "searchText": "123"
+        },
+        "roe": {
+          "page": 1,
+          "searchText": "16.7"
+        },
+        "nim": {
+          "page": 2,
+          "searchText": "2.28"
+        },
+        "efficiencyRatio": {
+          "page": 11,
+          "searchText": "51.7"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "page": 1,
+          "searchText": "997"
+        }
+      }
+    },
+    {
+      "period": "Q2 2025",
+      "periodEnd": "2025-04-30",
+      "reportName": "Q2 2025 Report to Shareholders",
+      "reportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+      "supplementaryReportName": "Q2 2025 Supplementary Regulatory Capital Disclosure",
+      "supplementaryReportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-regulatory-capital-q2-2025.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.4,
+        "tier1CapitalRatio": 15.1,
+        "totalCapitalRatio": 16.9,
+        "leverageRatio": 4.7,
+        "tlacRatio": 28.2,
+        "lcr": 166,
+        "nsfr": 127,
+        "roe": 11.9,
+        "nim": 2.3,
+        "efficiencyRatio": 53.2,
+        "loansToAssetsPct": 53.6,
+        "totalAssetsBillions": 536.2,
+        "netIncomeMillions": 896,
+        "loanToDepositRatio": 74.15,
+        "wholesaleFundingPct": 30.09,
+        "retailDepositsPct": 31.45,
+        "wholesaleDepositsPct": 68.55,
+        "stableDepositsPct": 7.85,
+        "lessStableDepositsPct": 13.26,
+        "operationalDepositsPct": 9.67,
+        "nonOperationalDepositsPct": 21.89,
+        "irrbbEveSensitivityPct": -2.04,
+        "irrbbNiiSensitivityPct": -0.45
+      },
+      "notes": {
+        "cwbAcquisition": "First quarter reflecting CWB consolidation (closed Feb 3, 2025). Deposits, Tier 1 capital and wholesale funding all step up materially vs. Q1 2025.",
+        "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.30%); no single consolidated whole-bank NIM headline figure is published.",
+        "loansToAssetsPct": "Computed as gross loans (sum of loan categories before allowance for credit losses, per Consolidated Balance Sheet) divided by total assets.",
+        "source": "Figures drawn from the Q2 2026 Supplementary Financial Information 10-quarter trend table; narrative details on CWB impact drawn directly from the Bank's own Q2 2025 Report to Shareholders.",
+        "loanToDepositRatio": "Gross loans $287,666M ÷ total deposits $387,974M, as at Apr 30, 2025.",
+        "wholesaleFundingPct": "[EDTF wholesale funding table total $120,372M] + [repo $40,984M] = $161,356M ÷ total assets $536,200M. EDTF-only = 22.5%.",
+        "retailDepositsPct": "Personal deposits $122,008M ÷ total deposits $387,974M.",
+        "wholesaleDepositsPct": "Business and government $258,089M + deposit-taking institutions $7,877M = $265,966M ÷ $387,974M.",
+        "stableDepositsPct": "LCR table, quarter ended Apr 30 2025: stable retail deposits $30,447M ÷ total deposits $387,974M.",
+        "lessStableDepositsPct": "Less stable retail deposits $51,449M ÷ total deposits $387,974M (jump from Q1 2025 reflects CWB retail deposit consolidation).",
+        "operationalDepositsPct": "Operational deposits $37,508M ÷ total deposits $387,974M.",
+        "nonOperationalDepositsPct": "Non-operational deposits $84,921M ÷ total deposits $387,974M.",
+        "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$563M as at Apr 30 2025. As % of Tier 1 capital $27,603M (CC1 table trend, Q2 2026 supplementary regulatory capital disclosure).",
+        "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$125M. +100bp = +$111M. As % of Tier 1 capital $27,603M.",
+        "newMetricsSource": "Q2 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "searchText": "$287,666"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "searchText": "$120,372"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "searchText": "$122,008"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "searchText": "$258,089"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "searchText": "$30,447"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "searchText": "$51,449"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "searchText": "$37,508"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "searchText": "$84,921"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "searchText": "$563"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "searchText": "$125"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.4"
+        },
+        "tier1CapitalRatio": {
+          "page": 87,
+          "searchText": "15.1"
+        },
+        "totalCapitalRatio": {
+          "page": 30,
+          "searchText": "16.9"
+        },
+        "leverageRatio": {
+          "page": 1,
+          "searchText": "4.7"
+        },
+        "tlacRatio": {
+          "page": 13,
+          "searchText": "28.2"
+        },
+        "lcr": {
+          "page": 13,
+          "searchText": "166"
+        },
+        "nsfr": {
+          "page": 13,
+          "searchText": "127"
+        },
+        "nim": {
+          "page": 2,
+          "searchText": "2.30"
+        },
+        "efficiencyRatio": {
+          "page": 13,
+          "searchText": "53.2"
+        },
+        "roe": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "page": 1,
+          "searchText": "11.9 %"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "page": 1,
+          "searchText": "896"
+        }
+      }
+    },
+    {
+      "period": "Q3 2025",
+      "periodEnd": "2025-07-31",
+      "reportName": "Q3 2025 Report to Shareholders",
+      "reportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+      "supplementaryReportName": "Q3 2025 Supplementary Regulatory Capital Disclosure",
+      "supplementaryReportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-regulatory-capital-q3-2025.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.9,
+        "tier1CapitalRatio": 15.6,
+        "totalCapitalRatio": 17.8,
+        "leverageRatio": 4.7,
+        "tlacRatio": 30,
+        "lcr": 161,
+        "nsfr": 123,
+        "roe": 13.6,
+        "nim": 2.25,
+        "efficiencyRatio": 55.8,
+        "loansToAssetsPct": 53.3,
+        "totalAssetsBillions": 552.6,
+        "netIncomeMillions": 1065,
+        "loanToDepositRatio": 73.26,
+        "wholesaleFundingPct": 31.24,
+        "retailDepositsPct": 30.31,
+        "wholesaleDepositsPct": 69.69,
+        "stableDepositsPct": 7.68,
+        "lessStableDepositsPct": 13.01,
+        "operationalDepositsPct": 9.79,
+        "nonOperationalDepositsPct": 21.61,
+        "irrbbEveSensitivityPct": -2.16,
+        "irrbbNiiSensitivityPct": -0.35
+      },
+      "notes": {
+        "cwbAcquisition": "First full quarter with CWB fully consolidated for the entire reporting period (CWB closed Feb 3, 2025).",
+        "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.25%); no single consolidated whole-bank NIM headline figure is published.",
+        "loansToAssetsPct": "Computed as gross loans (sum of loan categories before allowance for credit losses, per Consolidated Balance Sheet) divided by total assets.",
+        "source": "Figures pulled from the 10-quarter trend table in National Bank's Q2 2026 Supplementary Financial Information package (Highlights page).",
+        "loanToDepositRatio": "Gross loans $294,727M ÷ total deposits $402,286M, as at Jul 31, 2025.",
+        "wholesaleFundingPct": "[EDTF wholesale funding table total $126,584M] + [repo $46,031M] = $172,615M ÷ total assets $552,600M. EDTF-only = 22.9%.",
+        "retailDepositsPct": "Personal deposits $121,921M ÷ total deposits $402,286M.",
+        "wholesaleDepositsPct": "Business and government $274,461M + deposit-taking institutions $5,904M = $280,365M ÷ $402,286M.",
+        "stableDepositsPct": "LCR table, quarter ended Jul 31 2025: stable retail deposits $30,886M ÷ total deposits $402,286M.",
+        "lessStableDepositsPct": "Less stable retail deposits $52,348M ÷ total deposits $402,286M.",
+        "operationalDepositsPct": "Operational deposits $39,366M ÷ total deposits $402,286M.",
+        "nonOperationalDepositsPct": "Non-operational deposits $86,933M ÷ total deposits $402,286M.",
+        "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$616M as at Jul 31 2025. As % of Tier 1 capital $28,488M.",
+        "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$99M. +100bp = +$88M. As % of Tier 1 capital $28,488M.",
+        "newMetricsSource": "Q3 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "searchText": "$294,727"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "searchText": "$126,584"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "searchText": "$121,921"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "searchText": "$274,461"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "searchText": "$30,886"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "searchText": "$52,348"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "searchText": "$39,366"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "searchText": "$86,933"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "searchText": "$616"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "searchText": "$99"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.9"
+        },
+        "tier1CapitalRatio": {
+          "page": 26,
+          "searchText": "15.6"
+        },
+        "totalCapitalRatio": {
+          "page": 26,
+          "searchText": "17.8"
+        },
+        "leverageRatio": {
+          "page": 1,
+          "searchText": "4.7"
+        },
+        "tlacRatio": {
+          "page": 13,
+          "searchText": "30.0"
+        },
+        "lcr": {
+          "page": 13,
+          "searchText": "161"
+        },
+        "nsfr": {
+          "page": 13,
+          "searchText": "123"
+        },
+        "nim": {
+          "page": 2,
+          "searchText": "2.25"
+        },
+        "efficiencyRatio": {
+          "page": 13,
+          "searchText": "55.8"
+        },
+        "roe": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "page": 1,
+          "searchText": "13.6 %"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "page": 1,
+          "searchText": "1,065"
+        }
+      }
+    },
+    {
+      "period": "Q4 2025",
+      "periodEnd": "2025-10-31",
+      "reportName": "FY2025 / Q4 2025 Supplementary Financial Information",
+      "reportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
+      "supplementaryReportName": "Q4 2025 Supplementary Regulatory Capital Disclosure",
+      "supplementaryReportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-regulatory-capital-q4-2025.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.8,
+        "tier1CapitalRatio": 15.1,
+        "totalCapitalRatio": 17.3,
+        "leverageRatio": 4.5,
+        "tlacRatio": 29.7,
+        "lcr": 173,
+        "nsfr": 124,
+        "roe": 13.3,
+        "nim": 2.25,
+        "efficiencyRatio": 56.4,
+        "loansToAssetsPct": 52.8,
+        "totalAssetsBillions": 576.9,
+        "netIncomeMillions": 1059,
+        "loanToDepositRatio": 71.2,
+        "wholesaleFundingPct": 31.37,
+        "retailDepositsPct": 29.07,
+        "wholesaleDepositsPct": 70.93,
+        "stableDepositsPct": 7.28,
+        "lessStableDepositsPct": 12.5,
+        "operationalDepositsPct": 10.09,
+        "nonOperationalDepositsPct": 20.72,
+        "irrbbEveSensitivityPct": -2.39,
+        "irrbbNiiSensitivityPct": -0.35
+      },
+      "notes": {
+        "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
+        "leverageRatio": "As at October 31, 2025, the leverage ratio reflected the redemption of Limited Recourse Capital Notes Series 1 completed November 17, 2025, per the Bank's own footnote.",
+        "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.25%); no single consolidated whole-bank NIM headline figure is published.",
+        "loansToAssetsPct": "Computed as gross loans (sum of loan categories before allowance for credit losses, per Consolidated Balance Sheet) divided by total assets.",
+        "source": "Figures pulled from the 10-quarter trend table in National Bank's Q2 2026 Supplementary Financial Information package (Highlights page).",
+        "loanToDepositRatio": "Gross loans $304,754M (Table 9, 2025 Annual Report) ÷ total deposits $428,003M (Table 12), both as at Oct 31, 2025. Cross-validated against SFI trend table.",
+        "wholesaleFundingPct": "[EDTF wholesale funding table total $139,622M] + [repo $41,356M] = $180,978M ÷ total assets $576,900M. EDTF-only = 24.2%.",
+        "retailDepositsPct": "Personal deposits $124,417M (29.1% as directly disclosed) ÷ total deposits $428,003M, Table 12, 2025 Annual Report.",
+        "wholesaleDepositsPct": "Business and government $297,512M (69.5% as disclosed) + deposit-taking institutions $6,074M (1.4%) = $303,586M ÷ $428,003M.",
+        "stableDepositsPct": "LCR table, quarter ended Oct 31 2025: stable retail deposits $31,166M ÷ total deposits $428,003M.",
+        "lessStableDepositsPct": "Less stable retail deposits $53,517M ÷ total deposits $428,003M.",
+        "operationalDepositsPct": "Operational deposits $43,187M ÷ total deposits $428,003M.",
+        "nonOperationalDepositsPct": "Non-operational deposits $88,687M ÷ total deposits $428,003M.",
+        "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$683M (before tax) as at Oct 31 2025, 2025 Annual Report pp.99-100. As % of Tier 1 capital $28,559M (CC1 table).",
+        "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$99M. +100bp = +$86M. As % of FY2025 whole-bank consolidated Net Interest Income ($4,518M): -2.2%. As % of Tier 1 capital: -0.35%.",
+        "newMetricsSource": "2025 Annual Report (fiscal year ended October 31, 2025) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
+          "searchText": "$304,754"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
+          "searchText": "$139,622"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
+          "searchText": "$124,417"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
+          "searchText": "$297,512"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
+          "searchText": "$31,166"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
+          "searchText": "$53,517"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
+          "searchText": "$43,187"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
+          "searchText": "$88,687"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
+          "searchText": "$683"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
+          "searchText": "$99"
+        },
+        "cet1Ratio": {
+          "page": 4,
+          "searchText": "13.8"
+        },
+        "leverageRatio": {
+          "page": 4,
+          "searchText": "4.5"
+        },
+        "tlacRatio": {
+          "page": 4,
+          "searchText": "29.7"
+        },
+        "lcr": {
+          "page": 4,
+          "searchText": "173"
+        },
+        "nsfr": {
+          "page": 4,
+          "searchText": "124"
+        },
+        "nim": {
+          "page": 8,
+          "searchText": "2.25"
+        },
+        "efficiencyRatio": {
+          "page": 4,
+          "searchText": "56.4"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
+          "page": 4,
+          "searchText": "15.1%"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
+          "page": 4,
+          "searchText": "17.3%"
+        },
+        "roe": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
+          "page": 4,
+          "searchText": "13.3%"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
+          "page": 4,
+          "searchText": "1,059"
+        }
+      }
+    },
+    {
+      "period": "Q1 2026",
+      "periodEnd": "2026-01-31",
+      "reportName": "Q1 2026 Report to Shareholders",
+      "reportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+      "supplementaryReportName": "Q1 2026 Supplementary Regulatory Capital Disclosure",
+      "supplementaryReportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q1-2026.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.7,
+        "tier1CapitalRatio": 15.1,
+        "totalCapitalRatio": 17.3,
+        "leverageRatio": 4.3,
+        "tlacRatio": 32.5,
+        "lcr": 189,
+        "nsfr": 120,
+        "roe": 15.7,
+        "nim": 2.27,
+        "efficiencyRatio": 51.7,
+        "loansToAssetsPct": 50.6,
+        "totalAssetsBillions": 605.9,
+        "netIncomeMillions": 1254,
+        "loanToDepositRatio": 68.7,
+        "wholesaleFundingPct": 34.38,
+        "retailDepositsPct": 28.23,
+        "wholesaleDepositsPct": 71.77,
+        "stableDepositsPct": 7.06,
+        "lessStableDepositsPct": 12.65,
+        "operationalDepositsPct": 10.34,
+        "nonOperationalDepositsPct": 19.93,
+        "irrbbEveSensitivityPct": -2.51,
+        "irrbbNiiSensitivityPct": -0.33
+      },
+      "notes": {
+        "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.27%); no single consolidated whole-bank NIM headline figure is published.",
+        "loansToAssetsPct": "Computed as gross loans (sum of loan categories before allowance for credit losses, per Consolidated Balance Sheet) divided by total assets.",
+        "source": "Figures pulled from the 10-quarter trend table in National Bank's Q2 2026 Supplementary Financial Information package (Highlights page); also cross-checked against news coverage citing net income of $1,254 million and ROE of 16.6% (adjusted)/16.7%(as reported, per trend table) for Q1 2026.",
+        "loanToDepositRatio": "Gross loans $306,329M ÷ total deposits $445,874M, as at Jan 31, 2026.",
+        "wholesaleFundingPct": "[EDTF wholesale funding table total $149,645M] + [repo $58,661M] = $208,306M ÷ total assets $605,900M. Repo balance rose sharply vs prior quarters. EDTF-only = 24.7%.",
+        "retailDepositsPct": "Personal deposits $125,878M ÷ total deposits $445,874M.",
+        "wholesaleDepositsPct": "Business and government $313,895M + deposit-taking institutions $6,101M = $319,996M ÷ $445,874M.",
+        "stableDepositsPct": "LCR table, quarter ended Jan 31 2026: stable retail deposits $31,471M ÷ total deposits $445,874M.",
+        "lessStableDepositsPct": "Less stable retail deposits $56,387M ÷ total deposits $445,874M.",
+        "operationalDepositsPct": "Operational deposits $46,105M ÷ total deposits $445,874M.",
+        "nonOperationalDepositsPct": "Non-operational deposits $88,853M ÷ total deposits $445,874M.",
+        "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$719M as at Jan 31 2026. As % of Tier 1 capital $28,619M.",
+        "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$95M. +100bp = +$81M. As % of Tier 1 capital $28,619M.",
+        "newMetricsSource": "Q1 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "searchText": "$306,329"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "searchText": "$149,645"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "searchText": "$125,878"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "searchText": "$313,895"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "searchText": "$31,471"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "searchText": "$56,387"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "searchText": "$46,105"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "searchText": "$88,853"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "searchText": "$719"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "searchText": "$95"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.7"
+        },
+        "totalCapitalRatio": {
+          "page": 29,
+          "searchText": "17.3"
+        },
+        "leverageRatio": {
+          "page": 1,
+          "searchText": "4.3"
+        },
+        "tlacRatio": {
+          "page": 13,
+          "searchText": "32.5"
+        },
+        "lcr": {
+          "page": 13,
+          "searchText": "189"
+        },
+        "nsfr": {
+          "page": 13,
+          "searchText": "120"
+        },
+        "roe": {
+          "page": 15,
+          "searchText": "15.7"
+        },
+        "nim": {
+          "page": 2,
+          "searchText": "2.27"
+        },
+        "efficiencyRatio": {
+          "page": 13,
+          "searchText": "51.7"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "page": 13,
+          "searchText": "15.1 %"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "page": 1,
+          "searchText": "1,254"
+        }
+      }
+    },
+    {
+      "period": "Q2 2026",
+      "periodEnd": "2026-04-30",
+      "reportName": "Q2 2026 Report to Shareholders",
+      "reportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+      "supplementaryReportName": "Q2 2026 Supplementary Regulatory Capital Disclosure",
+      "supplementaryReportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q2-2026.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.5,
+        "tier1CapitalRatio": 14.9,
+        "totalCapitalRatio": 17,
+        "leverageRatio": 4.3,
+        "tlacRatio": 31.5,
+        "lcr": 170,
+        "nsfr": 118,
+        "roe": 15.9,
+        "nim": 2.26,
+        "efficiencyRatio": 52.7,
+        "loansToAssetsPct": 50.9,
+        "totalAssetsBillions": 617.7,
+        "netIncomeMillions": 1234,
+        "loanToDepositRatio": 69.72,
+        "wholesaleFundingPct": 33.37,
+        "retailDepositsPct": 28.36,
+        "wholesaleDepositsPct": 71.64,
+        "stableDepositsPct": 7.04,
+        "lessStableDepositsPct": 12.75,
+        "operationalDepositsPct": 10.39,
+        "nonOperationalDepositsPct": 20.9,
+        "irrbbEveSensitivityPct": -2.64,
+        "irrbbNiiSensitivityPct": -0.22
+      },
+      "notes": {
+        "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.26%); no single consolidated whole-bank NIM headline figure is published. On a total consolidated balance-sheet basis (including trading assets), National Bank's Supplementary Financial Information also discloses a lower 'Net Interest Margin' of 0.90% for Q2 2026 -- this reflects a different denominator (all average interest-bearing assets including trading books) and is not comparable to the P&C segment NIM used here.",
+        "roe": "Reported (non-adjusted) ROE of 15.9%; adjusted ROE (excluding specified items mainly related to the CWB acquisition) was 16.8% for the quarter.",
+        "loansToAssetsPct": "Computed as gross loans (sum of loan categories before allowance for credit losses, per Consolidated Balance Sheet) divided by total assets.",
+        "source": "Primary source: National Bank's own Q2 2026 Report to Shareholders and Supplementary Financial Information package, published May 27, 2026.",
+        "loanToDepositRatio": "Gross loans $314,250M ÷ total deposits $450,711M, as at Apr 30, 2026.",
+        "wholesaleFundingPct": "[EDTF wholesale funding table total $146,820M] + [repo $59,330M] = $206,150M ÷ total assets $617,700M. EDTF-only = 23.8%.",
+        "retailDepositsPct": "Personal deposits $127,836M ÷ total deposits $450,711M.",
+        "wholesaleDepositsPct": "Business and government $317,344M + deposit-taking institutions $5,531M = $322,875M ÷ $450,711M.",
+        "stableDepositsPct": "LCR table, quarter ended Apr 30 2026: stable retail deposits $31,731M ÷ total deposits $450,711M.",
+        "lessStableDepositsPct": "Less stable retail deposits $57,451M ÷ total deposits $450,711M.",
+        "operationalDepositsPct": "Operational deposits $46,808M ÷ total deposits $450,711M.",
+        "nonOperationalDepositsPct": "Non-operational deposits $94,210M ÷ total deposits $450,711M.",
+        "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$765M as at Apr 30 2026 (largest sensitivity in the trend, consistent with continued balance-sheet growth post-CWB). As % of Tier 1 capital $28,925M.",
+        "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$64M (magnitude notably smaller than prior quarters; +100bp scenario = +$65M, near-symmetric). As % of Tier 1 capital $28,925M.",
+        "newMetricsSource": "Q2 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "searchText": "$314,250"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "searchText": "$146,820"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "searchText": "$127,836"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "searchText": "$317,344"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "searchText": "$31,731"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "searchText": "$57,451"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "searchText": "$46,808"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "searchText": "$94,210"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "searchText": "$765"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "searchText": "$64"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.5"
+        },
+        "totalCapitalRatio": {
+          "page": 30,
+          "searchText": "17.0"
+        },
+        "leverageRatio": {
+          "page": 1,
+          "searchText": "4.3"
+        },
+        "tlacRatio": {
+          "page": 13,
+          "searchText": "31.5"
+        },
+        "lcr": {
+          "page": 13,
+          "searchText": "170"
+        },
+        "nsfr": {
+          "page": 13,
+          "searchText": "118"
+        },
+        "roe": {
+          "page": 1,
+          "searchText": "15.9"
+        },
+        "nim": {
+          "page": 2,
+          "searchText": "2.26"
+        },
+        "efficiencyRatio": {
+          "page": 13,
+          "searchText": "52.7"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "page": 13,
+          "searchText": "14.9 %"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "page": 1,
+          "searchText": "1,234"
+        }
+      }
+    }
+  ],
+  "irrbbDisclosureNote": "National Bank discloses IRRBB via a single 'Interest Rate Sensitivity - Non-Trading Activities (Before Tax)' table, published every quarter in the Report to Shareholders MD&A Risk Management section (and annually in the Annual Report), rather than the full Basel/OSFI six-scenario standardized framework (parallel up/down, steepener, flattener, short-rate up/down) some larger Canadian peers disclose. It shows only one prescribed shock: an immediate and sustained parallel +/-100bp shift in interest rates. Both Economic Value of Equity impact and projected 12-month Net Interest Income impact are shown, before tax, split between Canadian-dollar and other-currency books, calculated daily and assuming no further hedging. Unlike the Basel IRRBB outlier-test convention (15% of Tier 1/CET1), National Bank reports these sensitivities strictly in absolute CAD-millions dollar terms, never as a percentage of any capital base; its own Supplementary Regulatory Capital and Pillar 3 Disclosure package explicitly cross-references the IRRBB disclosure to specific pages of the Report to Shareholders/Annual Report rather than including a standalone Basel IRRBB1 template of its own.",
+  "irrbbDisclosureSourceName": "National Bank of Canada 2024 Annual Report (Risk Management section, pp.93-94); 2025 Annual Report (pp.99-100)",
+  "irrbbDisclosureSourceUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
+  "creditRatings": {
+    "asOf": "2026-05-12",
+    "ratingType": "Non-bail-inable senior debt / deposit",
+    "sourceName": "National Bank of Canada — Investors: Capital & Debt (Credit Ratings)",
+    "sourceUrl": "https://www.nbc.ca/about-us/investors/capital-debt.html",
+    "note": "From National Bank's 'Long-term non-bail-inable senior debt/deposit' row. Bail-inable senior debt is rated A2 / A- / AA (low) / A+. S&P upgraded several NBC ratings on Oct 17, 2025. Page 'Updated: May 12, 2026'.",
+    "agencies": {
+      "moodys": {
+        "rating": "Aa2",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.nbc.ca/about-us/investors/capital-debt.html",
+        "sourceLabel": "National Bank of Canada — Investors: Capital & Debt (Credit Ratings)",
+        "verifiedText": "Non-bail-inable senior debt / deposit — Moody's: Aa2; Outlook: Stable (National Bank of Canada — Investors: Capital & Debt (Credit Ratings))"
+      },
+      "sp": {
+        "rating": "A+",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.nbc.ca/about-us/investors/capital-debt.html",
+        "sourceLabel": "National Bank of Canada — Investors: Capital & Debt (Credit Ratings)",
+        "verifiedText": "Non-bail-inable senior debt / deposit — S&P: A+; Outlook: Stable (National Bank of Canada — Investors: Capital & Debt (Credit Ratings))"
+      },
+      "dbrs": {
+        "rating": "AA",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.nbc.ca/about-us/investors/capital-debt.html",
+        "sourceLabel": "National Bank of Canada — Investors: Capital & Debt (Credit Ratings)",
+        "verifiedText": "Non-bail-inable senior debt / deposit — DBRS: AA; Outlook: Stable (National Bank of Canada — Investors: Capital & Debt (Credit Ratings))"
+      },
+      "fitch": {
+        "rating": "AA",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.nbc.ca/about-us/investors/capital-debt.html",
+        "sourceLabel": "National Bank of Canada — Investors: Capital & Debt (Credit Ratings)",
+        "verifiedText": "Non-bail-inable senior debt / deposit — Fitch: AA; Outlook: Stable (National Bank of Canada — Investors: Capital & Debt (Credit Ratings))"
+      }
+    }
+  },
+  "marketData": {
+    "yahooSymbol": "NA.TO",
+    "bookValuePerShare": 80.31,
+    "bvpsAsOf": "Q2 2026 (as at Apr 30, 2026)",
+    "bvpsNote": "\"Book value per share\" $80.31 as disclosed in National Bank's Q2 2026 Report to Shareholders financial highlights (as at Apr 30, 2026).",
+    "bvpsSourceUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+    "refClosePrice": 205.04,
+    "refCloseDate": "2026-04-30"
+  }
+}

@@ -1,0 +1,992 @@
+{
+  "bankId": "bmo",
+  "bankName": "Bank of Montreal",
+  "ticker": "BMO",
+  "isHomeInstitution": false,
+  "colorHex": "#0279c1",
+  "quarters": [
+    {
+      "period": "Q3 2024",
+      "periodEnd": "2024-07-31",
+      "reportName": "Q3 2024 Report to Shareholders / Earnings Release",
+      "reportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-third-quarter-2024-results-302231467.html",
+      "supplementaryReportName": "Q3 2024 Supplementary Regulatory Capital Disclosure (figures corroborated via Q4 2024 press release comparatives)",
+      "supplementaryReportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-fourth-quarter-and-fiscal-2024-results-302323727.html",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13,
+        "tier1CapitalRatio": 14.8,
+        "totalCapitalRatio": 17.1,
+        "leverageRatio": 4.3,
+        "tlacRatio": 28.5,
+        "lcr": 129,
+        "nsfr": 116,
+        "roe": 10,
+        "nim": 1.51,
+        "efficiencyRatio": 57.3,
+        "loansToAssetsPct": 48.11,
+        "totalAssetsBillions": 1440.3,
+        "netIncomeMillions": 1865,
+        "retailDepositsPct": 34.02,
+        "wholesaleDepositsPct": 65.98,
+        "loanToDepositRatio": 70.24,
+        "irrbbEveSensitivityPct": -2.56,
+        "irrbbNiiSensitivityPct": -0.46,
+        "stableDepositsPct": 24,
+        "lessStableDepositsPct": 27.42,
+        "operationalDepositsPct": 25.33,
+        "nonOperationalDepositsPct": 23.26,
+        "wholesaleFundingPct": 17.86
+      },
+      "notes": {
+        "tier1CapitalRatio": "Tier 1 capital ratio %, BMO Q3 2024 Report to Shareholders capital table (Q3-2024).",
+        "totalCapitalRatio": "Total capital ratio %, BMO Q3 2024 Report to Shareholders capital table (Q3-2024).",
+        "tlacRatio": "risk-based TLAC ratio; TLAC leverage ratio was 8.2% (not included as separate field)",
+        "lcr": "Average daily LCR for the quarter ended July 31, 2024 = 129%, BMO Q3 2024 Report to Shareholders Liquidity and Funding Risk section.",
+        "nsfr": "NSFR = 116% as at July 31, 2024, BMO Q3 2024 Report to Shareholders Liquidity and Funding Risk section.",
+        "roe": "reported ROE used (10.0%); adjusted ROE was 10.6%",
+        "efficiencyRatio": "adjusted efficiency ratio (57.3%); reported efficiency ratio not found in accessible sources",
+        "loansToAssetsPct": "Computed: net loans and acceptances ($673,719M) ÷ total assets ($1,400,470M) as at July 31, 2024, from the BMO Q3 2024 Report to Shareholders Consolidated Balance Sheet. (Note: the total-assets figure shown elsewhere in this dataset for Q3 2024 appears to be a prior data-entry error; this ratio uses the balance-sheet figures from BMO's own Q3 2024 report.)",
+        "retailDepositsPct": "Individuals (personal) deposits $328,380M ÷ total deposits $965,239M, from the BMO Q3 2024 Report to Shareholders Deposits note + balance sheet.",
+        "wholesaleDepositsPct": "Bank ($29,596M) + Business & government ($607,263M) deposits ÷ total deposits $965,239M, BMO Q3 2024 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.)",
+        "loanToDepositRatio": "Gross loans and acceptances $677,995M ÷ total deposits $965,239M, BMO Q3 2024 Report to Shareholders balance sheet.",
+        "irrbbEveSensitivityPct": "Most adverse of BMO's two disclosed shocks (+100bp / -100bp parallel) Economic Value Sensitivity, Total = $-1629M, ÷ Tier 1 capital $63,598M = -2.56%. From the Structural Interest Rate Sensitivity table in the BMO Q3 2024 Report to Shareholders — BMO discloses this quarterly (not only annually). Normalized to % of Tier 1 capital for cross-bank comparability.",
+        "irrbbNiiSensitivityPct": "Most adverse of BMO's two disclosed shocks Earnings (12-month NII) Sensitivity, Total = $-294M, ÷ Tier 1 capital $63,598M = -0.46%. Structural Interest Rate Sensitivity table, BMO Q3 2024 Report to Shareholders (quarterly disclosure). Normalized to % of Tier 1 capital to match the RBC/TD/CIBC/National convention.",
+        "stableDepositsPct": "Stable deposits: unweighted average $138.9B ÷ sum of the four LCR deposit categories ($578.8B) = 24%. From the LCR common disclosure template in the BMO Q3 2024 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted average $158.7B ÷ sum of the four LCR deposit categories ($578.8B) = 27.42%. From the LCR common disclosure template in the BMO Q3 2024 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $146.6B ÷ sum of the four LCR deposit categories ($578.8B) = 25.33%. From the LCR common disclosure template in the BMO Q3 2024 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $134.6B ÷ sum of the four LCR deposit categories ($578.8B) = 23.26%. From the LCR common disclosure template in the BMO Q3 2024 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $257.3 billion (Q3 2024 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1440.3 billion = 17.86%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter."
+      },
+      "sourceRefs": {
+        "tier1CapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "14.8"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "17.1"
+        },
+        "lcr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "129"
+        },
+        "nsfr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "116"
+        },
+        "loansToAssetsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "48.11"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "34.02"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "65.98"
+        },
+        "loanToDepositRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "70.24"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "1,629"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "294"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "138.9"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "158.7"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "146.6"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "134.6"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "searchText": "$257.3 billion"
+        }
+      }
+    },
+    {
+      "period": "Q4 2024",
+      "periodEnd": "2024-10-31",
+      "reportName": "Q4 2024 / Fiscal 2024 Report to Shareholders and Earnings Release",
+      "reportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-fourth-quarter-and-fiscal-2024-results-302323727.html",
+      "supplementaryReportName": "Q4 2024 Capital and Liquidity Measures table (within earnings release)",
+      "supplementaryReportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-fourth-quarter-and-fiscal-2024-results-302323727.html",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.6,
+        "tier1CapitalRatio": 15.4,
+        "totalCapitalRatio": 17.6,
+        "leverageRatio": 4.4,
+        "tlacRatio": 29.3,
+        "lcr": 132,
+        "nsfr": 117,
+        "roe": 11.4,
+        "nim": 1.7,
+        "efficiencyRatio": 49.4,
+        "loansToAssetsPct": 48.12,
+        "totalAssetsBillions": 1409.6,
+        "netIncomeMillions": 2304,
+        "loanToDepositRatio": 69.46,
+        "wholesaleFundingPct": 18.13,
+        "retailDepositsPct": 33.63,
+        "wholesaleDepositsPct": 66.37,
+        "stableDepositsPct": 23.48,
+        "lessStableDepositsPct": 27.26,
+        "operationalDepositsPct": 25.76,
+        "nonOperationalDepositsPct": 23.5,
+        "irrbbEveSensitivityPct": -2.29,
+        "irrbbNiiSensitivityPct": -0.32
+      },
+      "notes": {
+        "roe": "reported ROE used (11.4%); adjusted ROE was notably lower (7.4%) this quarter due to a large positive one-time item (reversal of a prior legal provision) boosting reported income above adjusted income",
+        "efficiencyRatio": "reported efficiency ratio (49.4%), unusually low this quarter due to the same one-time reported-income boost; adjusted efficiency ratio was 58.3%",
+        "loansToAssetsPct": "Computed: net loans and acceptances at Oct 31 2024 ($678,375M, from the BMO Q1 2025 Report to Shareholders balance sheet prior-year-end column) ÷ total assets ($1,409,647M).",
+        "loanToDepositRatio": "Computed: gross loans $682,372mm (Table 26, Net Loans) ÷ total deposits $982,440mm (Table 27, Deposits), both as at Oct 31, 2024. Not a figure BMO discloses directly as a ratio.",
+        "wholesaleFundingPct": "BMO's own disclosed 'Total secured and unsecured wholesale funding outstanding' of $255,511mm (Table 53, Wholesale Funding Maturities) ÷ total assets $1,409,647mm. Scope note: BMO explicitly states this figure excludes repo transactions and bankers' acceptances. It includes interbank deposits, CP/CD, bearer deposit notes, ABCP, senior unsecured MTNs/structured notes, mortgage/HELOC securitizations, covered bonds, other ABS, FHLB advances, and subordinated debt. Including repo ($110,791mm) per the broader task definition raises this to ~25.99% — the narrower, BMO-defined figure is reported as primary.",
+        "retailDepositsPct": "Individuals deposits $330,413mm ÷ total deposits $982,440mm (Table 27, as at Oct 31, 2024, as originally reported in the FY2024 AIF). Note: BMO's FY2025 AIF later reclassified/restated this comparative to $320,767mm and introduced a new 'Deposits at FVTPL' line not broken out in the original FY2024 filing — the figure here uses the as-originally-disclosed FY2024 classification.",
+        "wholesaleDepositsPct": "(Banks $33,266mm + Businesses and governments $618,761mm) ÷ total deposits $982,440mm, as originally reported for FY2024.",
+        "stableDepositsPct": "From BMO's LCR disclosure (Table 55, as at Oct 31, 2024, quarterly-average unweighted values): Stable deposits $139.9B. Denominator = sum of the four LCR deposit categories in the same table (Retail Stable + Retail Less Stable + Operational + Non-operational = $595.8B), not the balance-sheet total deposits figure, since the LCR table captures only deposits/funding subject to the 30-day outflow horizon.",
+        "lessStableDepositsPct": "Less stable deposits $162.4B ÷ $595.8B (same LCR Table 55 basis as stableDepositsPct).",
+        "operationalDepositsPct": "Operational deposits (all counterparties) and deposits in networks of cooperative banks, $153.5B ÷ $595.8B (same LCR Table 55 basis).",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $140.0B ÷ $595.8B (same LCR Table 55 basis). LCR table also separately shows 'Unsecured debt' of $19.2B and 'Secured wholesale funding' (weighted only, $23.0B), excluded from this deposits-only denominator.",
+        "irrbbEveSensitivityPct": "BMO does not disclose the 6-scenario Basel/OSFI IRRBB1 template at the consolidated enterprise level (confirmed absent from BMO's and CIBC's OSFI Pillar 3 disclosures alike). Its Annual Report/AIF Market Risk section (Table 45, 'Structural Interest Rate Sensitivity', as at Oct 31, 2024) discloses only 2 of the 6 scenarios: an immediate parallel +100bp and -100bp shift, constant balance sheet, pre-tax C$. More adverse scenario (+100bp): Economic Value Sensitivity Total = -$1,483mm ÷ Tier 1 Capital $64,735mm (Table 30, CC1) = -2.29%. Computed ratio; BMO does not itself express EVE sensitivity as % of Tier 1 capital.",
+        "irrbbNiiSensitivityPct": "Most adverse (-100bp) 12-month NII sensitivity $-210M ÷ Tier 1 capital $64,735M = -0.32%. Re-based to % of Tier 1 capital (from the earlier % of annual NII) to match the cross-bank convention used by RBC/TD/CIBC/National.",
+        "newMetricsSource": "BMO 2024 Annual Report / Annual Information Form (Exhibit 99.2 to Form 40-F) — https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
+          "searchText": "$682,372"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
+          "searchText": "$255,511"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
+          "searchText": "$330,413"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
+          "searchText": "$33,266"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
+          "searchText": "$139.9"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
+          "searchText": "$162.4"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
+          "searchText": "$153.5"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
+          "searchText": "$140.0"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
+          "searchText": "$1,483"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
+          "searchText": "$367"
+        },
+        "loansToAssetsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "48.12"
+        }
+      }
+    },
+    {
+      "period": "Q1 2025",
+      "periodEnd": "2025-01-31",
+      "reportName": "Q1 2025 Report to Shareholders / Earnings Release",
+      "reportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-first-quarter-2025-results-302384566.html",
+      "supplementaryReportName": "Q1 2025 Supplementary Regulatory Capital Disclosure (figures corroborated via Q2 2025 and Q1 2026 press release comparatives)",
+      "supplementaryReportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-second-quarter-2025-results-302466955.html",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.6,
+        "tier1CapitalRatio": 15.4,
+        "totalCapitalRatio": 17.6,
+        "leverageRatio": 4.4,
+        "tlacRatio": 29.8,
+        "lcr": 128,
+        "nsfr": 116,
+        "roe": 10.6,
+        "nim": 1.62,
+        "efficiencyRatio": 58.6,
+        "loansToAssetsPct": 46.95,
+        "totalAssetsBillions": 1468.093,
+        "netIncomeMillions": 2138,
+        "retailDepositsPct": 33.02,
+        "wholesaleDepositsPct": 61.29,
+        "loanToDepositRatio": 69.62,
+        "irrbbEveSensitivityPct": -2.43,
+        "irrbbNiiSensitivityPct": -0.35,
+        "stableDepositsPct": 23.08,
+        "lessStableDepositsPct": 27.11,
+        "operationalDepositsPct": 26.02,
+        "nonOperationalDepositsPct": 23.79,
+        "wholesaleFundingPct": 17.94
+      },
+      "notes": {
+        "lcr": "Average daily LCR for the quarter ended January 31, 2025 = 128%, BMO Q1 2025 Report to Shareholders.",
+        "nsfr": "NSFR = 116% as at January 31, 2025, BMO Q1 2025 Report to Shareholders.",
+        "roe": "reported ROE used (10.6%); adjusted ROE was 11.3%",
+        "nim": "Net interest margin on average earning assets %, BMO Q1 2025 Report to Shareholders Financial Highlights (Q1-2025).",
+        "efficiencyRatio": "reported efficiency ratio (58.6%, confirmed as unchanged year-over-year in the Q1 2026 release); adjusted efficiency ratio was 56.3%",
+        "totalAssetsBillions": "Total assets as at Jan 31 2025, BMO Q1 2025 Report to Shareholders Consolidated Balance Sheet ($1,468,093M).",
+        "loansToAssetsPct": "Computed: net loans and acceptances ($689,235M) ÷ total assets ($1,468,093M) as at Jan 31 2025, BMO Q1 2025 Report to Shareholders.",
+        "retailDepositsPct": "Individuals (personal) deposits $329,201M ÷ total deposits $996,832M, from the BMO Q1 2025 Report to Shareholders Deposits note + balance sheet.",
+        "wholesaleDepositsPct": "Bank ($32,616M) + Business & government ($578,369M) deposits ÷ total deposits $996,832M, BMO Q1 2025 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.)",
+        "loanToDepositRatio": "Gross loans and acceptances $694,027M ÷ total deposits $996,832M, BMO Q1 2025 Report to Shareholders balance sheet.",
+        "irrbbEveSensitivityPct": "Most adverse of BMO's two disclosed shocks (+100bp / -100bp parallel) Economic Value Sensitivity, Total = $-1627M, ÷ Tier 1 capital $66,849M = -2.43%. From the Structural Interest Rate Sensitivity table in the BMO Q1 2025 Report to Shareholders — BMO discloses this quarterly (not only annually). Normalized to % of Tier 1 capital for cross-bank comparability.",
+        "irrbbNiiSensitivityPct": "Most adverse of BMO's two disclosed shocks Earnings (12-month NII) Sensitivity, Total = $-236M, ÷ Tier 1 capital $66,849M = -0.35%. Structural Interest Rate Sensitivity table, BMO Q1 2025 Report to Shareholders (quarterly disclosure). Normalized to % of Tier 1 capital to match the RBC/TD/CIBC/National convention.",
+        "stableDepositsPct": "Stable deposits: unweighted average $143B ÷ sum of the four LCR deposit categories ($619.6B) = 23.08%. From the LCR common disclosure template in the BMO Q1 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted average $168B ÷ sum of the four LCR deposit categories ($619.6B) = 27.11%. From the LCR common disclosure template in the BMO Q1 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $161.2B ÷ sum of the four LCR deposit categories ($619.6B) = 26.02%. From the LCR common disclosure template in the BMO Q1 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $147.4B ÷ sum of the four LCR deposit categories ($619.6B) = 23.79%. From the LCR common disclosure template in the BMO Q1 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $263.4 billion (Q1 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1468.093 billion = 17.94%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter."
+      },
+      "sourceRefs": {
+        "nim": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "1.62"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "1468.093"
+        },
+        "lcr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "128"
+        },
+        "nsfr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "116"
+        },
+        "loansToAssetsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "46.95"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "33.02"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "61.29"
+        },
+        "loanToDepositRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "69.62"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "1,627"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "236"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "143"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "168"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "161.2"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "147.4"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "searchText": "$263.4 billion"
+        }
+      }
+    },
+    {
+      "period": "Q2 2025",
+      "periodEnd": "2025-04-30",
+      "reportName": "Q2 2025 Report to Shareholders / Earnings Release",
+      "reportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-second-quarter-2025-results-302466955.html",
+      "supplementaryReportName": "Q2 2025 Supplementary Regulatory Capital Disclosure (Tier 1/Total Capital/Leverage/TLAC figures corroborated via subsequent quarter comparatives)",
+      "supplementaryReportUrl": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/SuppRegCapitalDisclosure_Q225.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.5,
+        "tier1CapitalRatio": 15.3,
+        "totalCapitalRatio": 17.9,
+        "leverageRatio": 4.4,
+        "tlacRatio": 29.9,
+        "lcr": 134,
+        "nsfr": 117,
+        "roe": 9.4,
+        "nim": 1.6,
+        "efficiencyRatio": 57.8,
+        "loansToAssetsPct": 46.95,
+        "totalAssetsBillions": 1440.269,
+        "netIncomeMillions": 1962,
+        "adjustedEfficiencyRatio": 56.5,
+        "retailDepositsPct": 33.16,
+        "wholesaleDepositsPct": 61.42,
+        "loanToDepositRatio": 71.08,
+        "irrbbEveSensitivityPct": -2.46,
+        "irrbbNiiSensitivityPct": -0.37,
+        "stableDepositsPct": 23.55,
+        "lessStableDepositsPct": 27.76,
+        "operationalDepositsPct": 25.64,
+        "nonOperationalDepositsPct": 23.05,
+        "wholesaleFundingPct": 17.97
+      },
+      "notes": {
+        "lcr": "Average daily LCR for the quarter ended April 30, 2025 = 134%, BMO Q2 2025 Report to Shareholders.",
+        "nsfr": "NSFR = 117% as at April 30, 2025, BMO Q2 2025 Report to Shareholders.",
+        "roe": "reported ROE used (9.4%); adjusted ROE was 9.8%",
+        "efficiencyRatio": "Efficiency ratio %, Q2 2026 Report to Shareholders Financial Highlights (Table 1, Q2-2025 column). Anchor: Q1-2026 column (58.6) matches our existing Q1 2026 value.",
+        "totalAssetsBillions": "Total assets as at Apr 30 2025, BMO Q2 2025 Report to Shareholders Consolidated Balance Sheet ($1,440,269M).",
+        "loansToAssetsPct": "Computed: net loans and acceptances ($676,142M) ÷ total assets ($1,440,269M) as at Apr 30 2025, BMO Q2 2025 Report to Shareholders.",
+        "retailDepositsPct": "Individuals (personal) deposits $317,797M ÷ total deposits $958,267M, from the BMO Q2 2025 Report to Shareholders Deposits note + balance sheet.",
+        "wholesaleDepositsPct": "Bank ($27,781M) + Business & government ($560,755M) deposits ÷ total deposits $958,267M, BMO Q2 2025 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.)",
+        "loanToDepositRatio": "Gross loans and acceptances $681,102M ÷ total deposits $958,267M, BMO Q2 2025 Report to Shareholders balance sheet.",
+        "irrbbEveSensitivityPct": "Most adverse of BMO's two disclosed shocks (+100bp / -100bp parallel) Economic Value Sensitivity, Total = $-1603M, ÷ Tier 1 capital $65,107M = -2.46%. From the Structural Interest Rate Sensitivity table in the BMO Q2 2025 Report to Shareholders — BMO discloses this quarterly (not only annually). Normalized to % of Tier 1 capital for cross-bank comparability.",
+        "irrbbNiiSensitivityPct": "Most adverse of BMO's two disclosed shocks Earnings (12-month NII) Sensitivity, Total = $-242M, ÷ Tier 1 capital $65,107M = -0.37%. Structural Interest Rate Sensitivity table, BMO Q2 2025 Report to Shareholders (quarterly disclosure). Normalized to % of Tier 1 capital to match the RBC/TD/CIBC/National convention.",
+        "stableDepositsPct": "Stable deposits: unweighted average $144.6B ÷ sum of the four LCR deposit categories ($613.9B) = 23.55%. From the LCR common disclosure template in the BMO Q2 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted average $170.4B ÷ sum of the four LCR deposit categories ($613.9B) = 27.76%. From the LCR common disclosure template in the BMO Q2 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $157.4B ÷ sum of the four LCR deposit categories ($613.9B) = 25.64%. From the LCR common disclosure template in the BMO Q2 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $141.5B ÷ sum of the four LCR deposit categories ($613.9B) = 23.05%. From the LCR common disclosure template in the BMO Q2 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $258.8 billion (Q2 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1440.269 billion = 17.97%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter."
+      },
+      "sourceRefs": {
+        "efficiencyRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "57.8"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "1440.269"
+        },
+        "lcr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "134"
+        },
+        "nsfr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "117"
+        },
+        "loansToAssetsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "46.95"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "33.16"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "61.42"
+        },
+        "loanToDepositRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "71.08"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "1,603"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "242"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "144.6"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "170.4"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "157.4"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "141.5"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "searchText": "$258.8 billion"
+        }
+      }
+    },
+    {
+      "period": "Q3 2025",
+      "periodEnd": "2025-07-31",
+      "reportName": "Q3 2025 Report to Shareholders / Earnings Release",
+      "reportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-third-quarter-2025-results-302538751.html",
+      "supplementaryReportName": "Q4 2025 earnings release Capital and Liquidity Measures table (contains Q3-2025 comparative column)",
+      "supplementaryReportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-fourth-quarter-and-fiscal-2025-results-302632944.html",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.5,
+        "tier1CapitalRatio": 15.5,
+        "totalCapitalRatio": 17.8,
+        "leverageRatio": 4.5,
+        "tlacRatio": 29.5,
+        "lcr": 130,
+        "nsfr": 118,
+        "roe": 11.6,
+        "nim": 1.69,
+        "efficiencyRatio": 56.8,
+        "loansToAssetsPct": 47.33,
+        "totalAssetsBillions": 1431.6,
+        "netIncomeMillions": 2330,
+        "adjustedEfficiencyRatio": 55.8,
+        "retailDepositsPct": 32.67,
+        "wholesaleDepositsPct": 61.59,
+        "loanToDepositRatio": 71.46,
+        "irrbbEveSensitivityPct": -2.61,
+        "irrbbNiiSensitivityPct": -0.53,
+        "stableDepositsPct": 23.49,
+        "lessStableDepositsPct": 27.36,
+        "operationalDepositsPct": 26.19,
+        "nonOperationalDepositsPct": 22.96,
+        "wholesaleFundingPct": 17.35
+      },
+      "notes": {
+        "efficiencyRatio": "Efficiency ratio %, BMO Q3 2025 Report to Shareholders Financial Highlights (Q3-2025).",
+        "roe": "reported ROE used (11.6%); adjusted ROE was 12.0%",
+        "loansToAssetsPct": "Computed: net loans and acceptances ($677,585M) ÷ total assets ($1,431,553M) as at Jul 31 2025, BMO Q3 2025 Report to Shareholders.",
+        "retailDepositsPct": "Individuals (personal) deposits $312,144M ÷ total deposits $955,363M, from the BMO Q3 2025 Report to Shareholders Deposits note + balance sheet.",
+        "wholesaleDepositsPct": "Bank ($31,033M) + Business & government ($557,410M) deposits ÷ total deposits $955,363M, BMO Q3 2025 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.)",
+        "loanToDepositRatio": "Gross loans and acceptances $682,750M ÷ total deposits $955,363M, BMO Q3 2025 Report to Shareholders balance sheet.",
+        "irrbbEveSensitivityPct": "Most adverse of BMO's two disclosed shocks (+100bp / -100bp parallel) Economic Value Sensitivity, Total = $-1744M, ÷ Tier 1 capital $66,720M = -2.61%. From the Structural Interest Rate Sensitivity table in the BMO Q3 2025 Report to Shareholders — BMO discloses this quarterly (not only annually). Normalized to % of Tier 1 capital for cross-bank comparability.",
+        "irrbbNiiSensitivityPct": "Most adverse of BMO's two disclosed shocks Earnings (12-month NII) Sensitivity, Total = $-353M, ÷ Tier 1 capital $66,720M = -0.53%. Structural Interest Rate Sensitivity table, BMO Q3 2025 Report to Shareholders (quarterly disclosure). Normalized to % of Tier 1 capital to match the RBC/TD/CIBC/National convention.",
+        "stableDepositsPct": "Stable deposits: unweighted average $141.8B ÷ sum of the four LCR deposit categories ($603.7B) = 23.49%. From the LCR common disclosure template in the BMO Q3 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted average $165.2B ÷ sum of the four LCR deposit categories ($603.7B) = 27.36%. From the LCR common disclosure template in the BMO Q3 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $158.1B ÷ sum of the four LCR deposit categories ($603.7B) = 26.19%. From the LCR common disclosure template in the BMO Q3 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $138.6B ÷ sum of the four LCR deposit categories ($603.7B) = 22.96%. From the LCR common disclosure template in the BMO Q3 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $248.4 billion (Q3 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1431.6 billion = 17.35%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter."
+      },
+      "sourceRefs": {
+        "efficiencyRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "searchText": "56.8"
+        },
+        "loansToAssetsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "searchText": "47.33"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "searchText": "32.67"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "searchText": "61.59"
+        },
+        "loanToDepositRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "searchText": "71.46"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "searchText": "1,744"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "searchText": "353"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "searchText": "141.8"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "searchText": "165.2"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "searchText": "158.1"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "searchText": "138.6"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "searchText": "$248.4 billion"
+        }
+      }
+    },
+    {
+      "period": "Q4 2025",
+      "periodEnd": "2025-10-31",
+      "reportName": "Q4 2025 / Fiscal 2025 Report to Shareholders and Earnings Release",
+      "reportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-fourth-quarter-and-fiscal-2025-results-302632944.html",
+      "supplementaryReportName": "Q4 2025 Capital and Liquidity Measures table (within earnings release)",
+      "supplementaryReportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-fourth-quarter-and-fiscal-2025-results-302632944.html",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.3,
+        "tier1CapitalRatio": 15,
+        "totalCapitalRatio": 17.3,
+        "leverageRatio": 4.3,
+        "tlacRatio": 29.7,
+        "lcr": 132,
+        "nsfr": 117,
+        "roe": 10.7,
+        "nim": 1.67,
+        "efficiencyRatio": 59.5,
+        "loansToAssetsPct": 45.9,
+        "totalAssetsBillions": 1476.8,
+        "netIncomeMillions": 2295,
+        "adjustedEfficiencyRatio": 56.7,
+        "fullYearNetIncomeMillions": 8725,
+        "loanToDepositRatio": 69.96,
+        "wholesaleFundingPct": 17.51,
+        "retailDepositsPct": 31.44,
+        "wholesaleDepositsPct": 62.81,
+        "stableDepositsPct": 23.16,
+        "lessStableDepositsPct": 26.94,
+        "operationalDepositsPct": 26.73,
+        "nonOperationalDepositsPct": 23.17,
+        "irrbbEveSensitivityPct": -2.63,
+        "irrbbNiiSensitivityPct": -0.49
+      },
+      "notes": {
+        "roe": "reported ROE used (10.7%); adjusted ROE was 11.8%",
+        "netIncomeMillions": "quarterly reported net income; full fiscal-year 2025 reported net income was $8,725 million (see fullYearNetIncomeMillions)",
+        "loansToAssetsPct": "Computed: net loans and acceptances at Oct 31 2025 ($677,872M, from the BMO Q1 2026 Report to Shareholders balance sheet prior-year-end column) ÷ total assets ($1,476,802M).",
+        "loanToDepositRatio": "Computed: gross loans $682,922mm (Table 25, Net Loans and Acceptances) ÷ total deposits $976,202mm (Table 26, Deposits), both as at Oct 31, 2025.",
+        "wholesaleFundingPct": "BMO's disclosed 'Total secured and unsecured wholesale funding outstanding' of $258.6B ($68.2B secured + $190.4B unsecured) ÷ total assets $1,476.802B. Same scope caveat as FY2024: excludes repo and bankers' acceptances. Including repo ($134,967mm) would give ~26.65%.",
+        "retailDepositsPct": "Individuals deposits $306,922mm ÷ total deposits $976,202mm (Table 26, as at Oct 31, 2025). This year's table separately breaks out a new 'Deposits at FVTPL' line ($56,162mm, 5.75% of total) not classified by depositor type, excluded from both retail and wholesale figures — so retailDepositsPct + wholesaleDepositsPct do not sum to 100%.",
+        "wholesaleDepositsPct": "(Banks $27,621mm + Businesses and governments $585,497mm) ÷ total deposits $976,202mm. Excludes the $56,162mm 'Deposits at FVTPL' line (see retailDepositsPct note).",
+        "stableDepositsPct": "From BMO's LCR disclosure (Table 52, as at Oct 31, 2025, quarterly-average unweighted values): Stable deposits $141.2B ÷ sum of the four LCR deposit categories ($141.2B+$164.3B+$163.0B+$141.3B = $609.8B). Same denominator-scope caveat as FY2024 applies.",
+        "lessStableDepositsPct": "Less stable deposits $164.3B ÷ $609.8B (same LCR Table 52 basis).",
+        "operationalDepositsPct": "Operational deposits (all counterparties) and deposits in networks of cooperative banks, $163.0B ÷ $609.8B (same LCR Table 52 basis).",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $141.3B ÷ $609.8B (same LCR Table 52 basis).",
+        "irrbbEveSensitivityPct": "Same scope caveat as Q4 2024 (only 2 of 6 Basel scenarios disclosed). Most adverse scenario in BMO's Table 44 ('Structural Interest Rate Sensitivity', as at Oct 31, 2025): +100bp Economic Value Sensitivity Total = -$1,736mm ÷ Tier 1 Capital $65,890mm = -2.63%.",
+        "irrbbNiiSensitivityPct": "Most adverse (-100bp) 12-month NII sensitivity $-322M ÷ Tier 1 capital $65,890M = -0.49%. Re-based to % of Tier 1 capital (from the earlier % of annual NII) to match the cross-bank convention used by RBC/TD/CIBC/National.",
+        "newMetricsSource": "BMO 2025 Annual Report / Annual Information Form (Exhibit 99.2 to Form 40-F) — https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+          "searchText": "$682,922"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+          "searchText": "$258.6"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+          "searchText": "$306,922"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+          "searchText": "$27,621"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+          "searchText": "$141.2"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+          "searchText": "$164.3"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+          "searchText": "$163.0"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+          "searchText": "$141.3"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+          "searchText": "$1,736"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+          "searchText": "$357"
+        },
+        "loansToAssetsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "45.9"
+        }
+      }
+    },
+    {
+      "period": "Q1 2026",
+      "periodEnd": "2026-01-31",
+      "reportName": "Q1 2026 Report to Shareholders / Earnings Release",
+      "reportUrl": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+      "supplementaryReportName": "Q1 2026 Supplementary Regulatory Capital Disclosure",
+      "supplementaryReportUrl": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/SuppRegCapitalDisclosure_Q126.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.1,
+        "tier1CapitalRatio": 14.8,
+        "totalCapitalRatio": 16.9,
+        "leverageRatio": 4.4,
+        "tlacRatio": 29.1,
+        "lcr": 126,
+        "nsfr": 116,
+        "roe": 12.1,
+        "nim": 1.68,
+        "efficiencyRatio": 58.6,
+        "loansToAssetsPct": 45.9,
+        "totalAssetsBillions": 1458.132,
+        "netIncomeMillions": 2489,
+        "adjustedEfficiencyRatio": 57.8,
+        "retailDepositsPct": 31.19,
+        "wholesaleDepositsPct": 62.76,
+        "loanToDepositRatio": 70.63,
+        "irrbbEveSensitivityPct": -3.17,
+        "irrbbNiiSensitivityPct": -0.4,
+        "stableDepositsPct": 22.67,
+        "lessStableDepositsPct": 26.16,
+        "operationalDepositsPct": 27.88,
+        "nonOperationalDepositsPct": 23.28,
+        "wholesaleFundingPct": 17.39
+      },
+      "notes": {
+        "lcr": "Average daily LCR for the quarter ended January 31, 2026 = 126%, BMO Q1 2026 Report to Shareholders.",
+        "nsfr": "NSFR = 116% as at January 31, 2026, BMO Q1 2026 Report to Shareholders.",
+        "roe": "reported ROE used (12.1%); adjusted ROE was 12.4%",
+        "nim": "Net interest margin on average earning assets %, Q2 2026 Report to Shareholders Financial Highlights (Table 1, Q1-2026 column).",
+        "totalAssetsBillions": "Total assets as at Jan 31 2026, BMO Q1 2026 Report to Shareholders Consolidated Balance Sheet ($1,458,132M).",
+        "loansToAssetsPct": "Computed: net loans and acceptances ($669,316M) ÷ total assets ($1,458,132M) as at Jan 31 2026, BMO Q1 2026 Report to Shareholders.",
+        "retailDepositsPct": "Individuals (personal) deposits $297,789M ÷ total deposits $954,789M, from the BMO Q1 2026 Report to Shareholders Deposits note + balance sheet.",
+        "wholesaleDepositsPct": "Bank ($27,500M) + Business & government ($571,700M) deposits ÷ total deposits $954,789M, BMO Q1 2026 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.)",
+        "loanToDepositRatio": "Gross loans and acceptances $674,383M ÷ total deposits $954,789M, BMO Q1 2026 Report to Shareholders balance sheet.",
+        "irrbbEveSensitivityPct": "Most adverse of BMO's two disclosed shocks (+100bp / -100bp parallel) Economic Value Sensitivity, Total = $-2077M, ÷ Tier 1 capital $65,425M = -3.17%. From the Structural Interest Rate Sensitivity table in the BMO Q1 2026 Report to Shareholders — BMO discloses this quarterly (not only annually). Normalized to % of Tier 1 capital for cross-bank comparability.",
+        "irrbbNiiSensitivityPct": "Most adverse of BMO's two disclosed shocks Earnings (12-month NII) Sensitivity, Total = $-260M, ÷ Tier 1 capital $65,425M = -0.4%. Structural Interest Rate Sensitivity table, BMO Q1 2026 Report to Shareholders (quarterly disclosure). Normalized to % of Tier 1 capital to match the RBC/TD/CIBC/National convention.",
+        "stableDepositsPct": "Stable deposits: unweighted average $141.1B ÷ sum of the four LCR deposit categories ($622.3B) = 22.67%. From the LCR common disclosure template in the BMO Q1 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted average $162.8B ÷ sum of the four LCR deposit categories ($622.3B) = 26.16%. From the LCR common disclosure template in the BMO Q1 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $173.5B ÷ sum of the four LCR deposit categories ($622.3B) = 27.88%. From the LCR common disclosure template in the BMO Q1 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $144.9B ÷ sum of the four LCR deposit categories ($622.3B) = 23.28%. From the LCR common disclosure template in the BMO Q1 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $253.6 billion (Q1 2026 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1458.132 billion = 17.39%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter."
+      },
+      "sourceRefs": {
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.1"
+        },
+        "tier1CapitalRatio": {
+          "page": 6,
+          "searchText": "14.8"
+        },
+        "totalCapitalRatio": {
+          "page": 6,
+          "searchText": "16.9"
+        },
+        "leverageRatio": {
+          "page": 6,
+          "searchText": "4.4"
+        },
+        "tlacRatio": {
+          "page": 6,
+          "searchText": "29.1"
+        },
+        "roe": {
+          "page": 1,
+          "searchText": "12.1"
+        },
+        "efficiencyRatio": {
+          "page": 6,
+          "searchText": "58.6"
+        },
+        "nim": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "1.68"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "1458.132"
+        },
+        "lcr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "126"
+        },
+        "nsfr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "116"
+        },
+        "loansToAssetsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "45.9"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "31.19"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "62.76"
+        },
+        "loanToDepositRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "70.63"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "2,077"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "260"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "141.1"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "162.8"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "173.5"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "144.9"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "searchText": "$253.6 billion"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "2,489"
+        }
+      }
+    },
+    {
+      "period": "Q2 2026",
+      "periodEnd": "2026-04-30",
+      "reportName": "Q2 2026 Report to Shareholders / Earnings Release",
+      "reportUrl": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+      "supplementaryReportName": "Q2 2026 6-K filing (StockTitan mirror) and press release",
+      "supplementaryReportUrl": "https://www.stocktitan.net/news/BMO/bmo-financial-group-reports-second-quarter-2026-sbiw2i8qrgp3.html",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13,
+        "tier1CapitalRatio": 14.7,
+        "totalCapitalRatio": 16.9,
+        "leverageRatio": 4.3,
+        "tlacRatio": 29,
+        "lcr": 128,
+        "nsfr": 114,
+        "roe": 13,
+        "nim": 1.61,
+        "efficiencyRatio": 55.7,
+        "loansToAssetsPct": 45.34,
+        "totalAssetsBillions": 1499.5,
+        "netIncomeMillions": 2630,
+        "adjustedEfficiencyRatio": 54.4,
+        "tlacLeverageRatio": 8.4,
+        "retailDepositsPct": 30.41,
+        "wholesaleDepositsPct": 63.13,
+        "loanToDepositRatio": 70.85,
+        "irrbbEveSensitivityPct": -3.15,
+        "irrbbNiiSensitivityPct": -0.43,
+        "stableDepositsPct": 22.93,
+        "lessStableDepositsPct": 25.91,
+        "operationalDepositsPct": 27.28,
+        "nonOperationalDepositsPct": 23.88,
+        "wholesaleFundingPct": 17.65
+      },
+      "notes": {
+        "tier1CapitalRatio": "Tier 1 capital ratio %, Q2 2026 Report to Shareholders capital table (Q2-2026). Anchors: Q1-2026=14.8 and Q2-2025=15.3 both match our existing values.",
+        "totalCapitalRatio": "Total capital ratio %, Q2 2026 Report to Shareholders capital table (Q2-2026). Anchors: Q1-2026=16.9 and Q2-2025=17.9 both match our existing values.",
+        "lcr": "Average daily LCR for the quarter ended April 30, 2026 = 128%, stated in the Liquidity and Funding Risk section of the Q2 2026 Report to Shareholders.",
+        "nsfr": "NSFR = 114% as at April 30, 2026 (a $95.2B surplus above the 100% minimum), stated in the Liquidity and Funding Risk section of the Q2 2026 Report to Shareholders.",
+        "roe": "reported ROE used (13.0%); adjusted ROE was 13.5%",
+        "nim": "Net interest margin on average earning assets %, Q2 2026 Report to Shareholders Financial Highlights (Table 1, Q2-2026). Whole-bank basis (BMO also discloses an 'excluding Global Markets and Insurance' NIM of 2.29% — not used here for consistency).",
+        "loansToAssetsPct": "Computed: net loans and acceptances ($679,945M) ÷ total assets ($1,499,543M) as at April 30, 2026, from the Q2 2026 Report to Shareholders Consolidated Balance Sheet. Consistent with the net-loans/total-assets method used for other banks.",
+        "retailDepositsPct": "Individuals (personal) deposits $294,037M ÷ total deposits $966,901M, from the BMO Q2 2026 Report to Shareholders Deposits note + balance sheet.",
+        "wholesaleDepositsPct": "Bank ($32,565M) + Business & government ($577,833M) deposits ÷ total deposits $966,901M, BMO Q2 2026 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.)",
+        "loanToDepositRatio": "Gross loans and acceptances $685,009M ÷ total deposits $966,901M, BMO Q2 2026 Report to Shareholders balance sheet.",
+        "irrbbEveSensitivityPct": "Most adverse of BMO's two disclosed shocks (+100bp / -100bp parallel) Economic Value Sensitivity, Total = $-2059M, ÷ Tier 1 capital $65,410M = -3.15%. From the Structural Interest Rate Sensitivity table in the BMO Q2 2026 Report to Shareholders — BMO discloses this quarterly (not only annually). Normalized to % of Tier 1 capital for cross-bank comparability.",
+        "irrbbNiiSensitivityPct": "Most adverse of BMO's two disclosed shocks Earnings (12-month NII) Sensitivity, Total = $-282M, ÷ Tier 1 capital $65,410M = -0.43%. Structural Interest Rate Sensitivity table, BMO Q2 2026 Report to Shareholders (quarterly disclosure). Normalized to % of Tier 1 capital to match the RBC/TD/CIBC/National convention.",
+        "stableDepositsPct": "Stable deposits: unweighted average $139.7B ÷ sum of the four LCR deposit categories ($609.3B) = 22.93%. From the LCR common disclosure template in the BMO Q2 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted average $157.9B ÷ sum of the four LCR deposit categories ($609.3B) = 25.91%. From the LCR common disclosure template in the BMO Q2 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $166.2B ÷ sum of the four LCR deposit categories ($609.3B) = 27.28%. From the LCR common disclosure template in the BMO Q2 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $145.5B ÷ sum of the four LCR deposit categories ($609.3B) = 23.88%. From the LCR common disclosure template in the BMO Q2 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
+        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $264.6 billion (Q2 2026 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1499.5 billion = 17.65%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter."
+      },
+      "sourceRefs": {
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.0"
+        },
+        "leverageRatio": {
+          "page": 7,
+          "searchText": "4.3"
+        },
+        "tlacRatio": {
+          "page": 7,
+          "searchText": "29.0"
+        },
+        "roe": {
+          "page": 1,
+          "searchText": "13.0"
+        },
+        "efficiencyRatio": {
+          "page": 7,
+          "searchText": "55.7"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "14.7"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "16.9"
+        },
+        "nim": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "1.61"
+        },
+        "lcr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "128"
+        },
+        "nsfr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "114"
+        },
+        "loansToAssetsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "45.34"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "30.41"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "63.13"
+        },
+        "loanToDepositRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "70.85"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "2,059"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "282"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "139.7"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "157.9"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "166.2"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "145.5"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "searchText": "$264.6 billion"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "2,630"
+        }
+      }
+    }
+  ],
+  "irrbbDisclosureNote": "BMO discloses interest rate risk in the banking book every quarter, in the Structural (Non-Trading) Market Risk section of its Report to Shareholders (and Annual Report) under 'Structural Interest Rate Sensitivity'. It shows 2 of the 6 Basel shock scenarios — an immediate parallel +100bp and -100bp shift (rates floored at zero, constant balance sheet) — reporting both Economic Value Sensitivity (ΔEVE) and 12-month Earnings Sensitivity (ΔNII), split by Canada and the United States, pre-tax in C$ millions. BMO does not itself express these as a percentage of Tier 1 capital; the %-of-Tier-1 figures in this dataset are computed by dividing BMO's disclosed dollar sensitivities by its Tier 1 capital, matching the normalization used for the other banks.",
+  "irrbbDisclosureSourceName": "BMO Q2 2026 Report to Shareholders, Structural (Non-Trading) Market Risk — Structural Interest Rate Sensitivity (Table 27)",
+  "irrbbDisclosureSourceUrl": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+  "creditRatings": {
+    "asOf": "2026-07-22",
+    "ratingType": "Issuer rating · non-bail-inable senior",
+    "sourceName": "BMO Investor Relations — Fixed Income Investors: Credit Ratings",
+    "sourceUrl": "https://www.bmo.com/main/about-bmo/investor-relations/fixed-income-investors",
+    "note": "From BMO's 'Issuer Rating (1)' row (footnote 1: 'Issuer rating is applicable to any long-term senior unsecured debt … excluded from the Bank Recapitalization (Bail-in) Regime'). Bail-inable senior debt is rated A2 / A- / AA (low) / AA-. IR page is undated; verified live on 2026-07-22.",
+    "agencies": {
+      "moodys": {
+        "rating": "Aa2",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.bmo.com/main/about-bmo/investor-relations/fixed-income-investors",
+        "sourceLabel": "BMO Investor Relations — Fixed Income Investors: Credit Ratings",
+        "verifiedText": "Issuer rating · non-bail-inable senior — Moody's: Aa2; Outlook: Stable (BMO Investor Relations — Fixed Income Investors: Credit Ratings)"
+      },
+      "sp": {
+        "rating": "A+",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.bmo.com/main/about-bmo/investor-relations/fixed-income-investors",
+        "sourceLabel": "BMO Investor Relations — Fixed Income Investors: Credit Ratings",
+        "verifiedText": "Issuer rating · non-bail-inable senior — S&P: A+; Outlook: Stable (BMO Investor Relations — Fixed Income Investors: Credit Ratings)"
+      },
+      "dbrs": {
+        "rating": "AA",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.bmo.com/main/about-bmo/investor-relations/fixed-income-investors",
+        "sourceLabel": "BMO Investor Relations — Fixed Income Investors: Credit Ratings",
+        "verifiedText": "Issuer rating · non-bail-inable senior — DBRS: AA; Outlook: Stable (BMO Investor Relations — Fixed Income Investors: Credit Ratings)"
+      },
+      "fitch": {
+        "rating": "AA+",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.bmo.com/main/about-bmo/investor-relations/fixed-income-investors",
+        "sourceLabel": "BMO Investor Relations — Fixed Income Investors: Credit Ratings",
+        "verifiedText": "Issuer rating · non-bail-inable senior — Fitch: AA+; Outlook: Stable (BMO Investor Relations — Fixed Income Investors: Credit Ratings)"
+      }
+    }
+  },
+  "marketData": {
+    "yahooSymbol": "BMO.TO",
+    "bookValuePerShare": 111.17,
+    "bvpsAsOf": "Q2 2026 (as at Apr 30, 2026)",
+    "bvpsNote": "\"Book value per share\" $111.17 as disclosed in BMO's Q2 2026 Report to Shareholders financial highlights (as at Apr 30, 2026).",
+    "bvpsSourceUrl": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+    "refClosePrice": 206.84,
+    "refCloseDate": "2026-04-30"
+  }
+}

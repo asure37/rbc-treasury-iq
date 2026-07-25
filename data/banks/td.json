@@ -1,0 +1,965 @@
+{
+  "bankId": "td",
+  "bankName": "Toronto-Dominion Bank",
+  "ticker": "TD",
+  "isHomeInstitution": false,
+  "colorHex": "#54b946",
+  "quarters": [
+    {
+      "period": "Q3 2024",
+      "periodEnd": "2024-07-31",
+      "reportName": "Q3 2024 Earnings News Release",
+      "reportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-earnings-newsrelease-en.pdf",
+      "supplementaryReportName": "Q4 2025 Supplemental Financial Information (prior-period comparative columns)",
+      "supplementaryReportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+      "retrievedAt": "2026-07-03T01:51:36.000Z",
+      "metrics": {
+        "cet1Ratio": 12.8,
+        "tier1CapitalRatio": 14.6,
+        "totalCapitalRatio": 16.3,
+        "leverageRatio": 4.1,
+        "tlacRatio": 29.1,
+        "lcr": 129,
+        "nsfr": 115,
+        "roe": -1,
+        "nim": 1.7,
+        "efficiencyRatio": 77.7,
+        "loansToAssetsPct": 47.7,
+        "totalAssetsBillions": 1967.2,
+        "netIncomeMillions": -181,
+        "loanToDepositRatio": 77.52,
+        "retailDepositsPct": 51.67,
+        "wholesaleDepositsPct": 48.33,
+        "irrbbEveSensitivityPct": -2.8,
+        "irrbbNiiSensitivityPct": 0.88,
+        "stableDepositsPct": 21.52,
+        "lessStableDepositsPct": 18.21,
+        "operationalDepositsPct": 10.49,
+        "nonOperationalDepositsPct": 16.8
+      },
+      "notes": {
+        "roe": "Reported ROE was negative (-1.0%) this quarter due to a reported net loss of $181 million, driven primarily by a US$2.6 billion provision related to the U.S. BSA/AML investigations. Adjusted ROE (non-GAAP) was 14.1% for comparison. Net income figure shown is the reported consolidated net income (loss); net income attributable to common shareholders (reported) was -$250 million.",
+        "efficiencyRatio": "Reported efficiency ratio of 77.7% was elevated due to the AML-related charge; adjusted efficiency ratio net of ISE was 57.3%.",
+        "cet1Ratio": "Figures for this quarter were sourced from the comparative-period columns in TD's Q4 2025 Supplemental Financial Information package (which restates/repeats prior quarters), cross-checked against the Q3 2024 earnings release commentary.",
+        "loansToAssetsPct": "Computed as loans net of allowance for loan losses ($938,325mm) divided by total assets ($1,967,181mm) per the Q2 2026 SFI balance sheet table (which carries 8 quarters of comparatives).",
+        "loanToDepositRatio": "Computed as gross loans ($946,136mm) / total deposits ($1,220,550mm) from the consolidated Balance Sheet table in TD's Q2 2026 Supplemental Financial Information (which carries 9 quarters of comparatives back to Q2 2024).",
+        "retailDepositsPct": "Personal deposits (non-term $490,695mm + term $139,954mm = $630,649mm) / total deposits ($1,220,550mm).",
+        "wholesaleDepositsPct": "Banks ($36,239mm) + Business and government ($553,662mm) = $589,901mm / total deposits ($1,220,550mm).",
+        "newMetricsSource": "Q2 2026 Supplemental Financial Information (Balance Sheet table, prior-period comparative column) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+        "irrbbEveSensitivityPct": "TD Table 31 \"Structural Interest Rate Sensitivity Measures\" (Q3 2024 Report to Shareholders, disclosed quarterly). TD discloses only a +/-100bp parallel shock, not the six-scenario Basel/OSFI IRRBB template. Most adverse: +100bp parallel increase, before-tax EVE impact -$2,485mm (total) ÷ Net Tier 1 Capital $88,898mm (Basel III CC1 capital table, same report) = -2.8%. This %-of-Tier-1 framing is computed here, not disclosed by TD.",
+        "irrbbNiiSensitivityPct": "Same Table 31: +100bp parallel increase → 12-month NII impact +$785mm (total) ÷ Net Tier 1 Capital $88,898mm = 0.88%. Recorded at the +100bp shock (same direction as the EVE figure) for consistency with TD's own Q4 disclosure; a derived ratio, not published by TD.",
+        "stableDepositsPct": "Stable deposits: unweighted average $262,642mm (OSFI LCR common disclosure template, TD Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,220,550mm (period-end balance sheet) = 21.52%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted average $222,292mm (OSFI LCR common disclosure template, TD Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,220,550mm (period-end balance sheet) = 18.21%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $128,024mm (OSFI LCR common disclosure template, TD Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,220,550mm (period-end balance sheet) = 10.49%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $205,057mm (OSFI LCR common disclosure template, TD Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,220,550mm (period-end balance sheet) = 16.8%. Denominator = total balance-sheet deposits, matching TD's existing method."
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$946,136"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$490,695"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$36,239"
+        },
+        "cet1Ratio": {
+          "page": 2,
+          "searchText": "12.8"
+        },
+        "tier1CapitalRatio": {
+          "page": 4,
+          "searchText": "14.6"
+        },
+        "totalCapitalRatio": {
+          "page": 4,
+          "searchText": "16.3"
+        },
+        "leverageRatio": {
+          "page": 4,
+          "searchText": "4.1"
+        },
+        "tlacRatio": {
+          "page": 4,
+          "searchText": "29.1"
+        },
+        "efficiencyRatio": {
+          "page": 4,
+          "searchText": "77.7"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
+          "searchText": "(1,880) $ (2,485)"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
+          "searchText": "346 $ 785"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
+          "searchText": "262,642"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
+          "searchText": "222,292"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
+          "searchText": "128,024"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
+          "searchText": "205,057"
+        }
+      }
+    },
+    {
+      "period": "Q4 2024",
+      "periodEnd": "2024-10-31",
+      "reportName": "Q4 2024 / Fiscal 2024 Earnings News Release",
+      "reportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-q4-earnings-newsrelease-en.pdf",
+      "supplementaryReportName": "Q4 2025 Supplemental Financial Information (prior-period comparative columns)",
+      "supplementaryReportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+      "retrievedAt": "2026-07-03T01:51:36.000Z",
+      "metrics": {
+        "cet1Ratio": 13.1,
+        "tier1CapitalRatio": 14.8,
+        "totalCapitalRatio": 16.8,
+        "leverageRatio": 4.2,
+        "tlacRatio": 28.7,
+        "lcr": 138,
+        "nsfr": 116,
+        "roe": 13.4,
+        "nim": 1.72,
+        "efficiencyRatio": 51.9,
+        "loansToAssetsPct": 46.06,
+        "totalAssetsBillions": 2061.8,
+        "netIncomeMillions": 3635,
+        "loanToDepositRatio": 75.48,
+        "retailDepositsPct": 50.58,
+        "wholesaleDepositsPct": 49.42,
+        "wholesaleFundingPct": 22.19,
+        "stableDepositsPct": 20.72,
+        "lessStableDepositsPct": 17.6,
+        "operationalDepositsPct": 10.47,
+        "nonOperationalDepositsPct": 16.98,
+        "irrbbEveSensitivityPct": -2.67,
+        "irrbbNiiSensitivityPct": 0.77
+      },
+      "notes": {
+        "roe": "Reported (GAAP) ROE shown; adjusted ROE was 11.7% for this quarter.",
+        "netIncomeMillions": "Net income - reported (consolidated). Net income attributable to common shareholders (reported) was $3,442 million.",
+        "loanToDepositRatio": "Gross loans $957,643mm / total deposits $1,268,680mm, from Q2 2026 SFI Balance Sheet table comparative column (as at Oct 31, 2024). Matches the deposit total independently found in the 2024 and 2025 Annual Reports' balance-sheet maturity tables.",
+        "retailDepositsPct": "Personal deposits (non-term $497,909mm + term $143,758mm = $641,667mm) / total deposits ($1,268,680mm). This figure independently matches the 'Personal' deposit-funding figure in the FY2024 and FY2025 Annual Reports.",
+        "wholesaleDepositsPct": "Banks ($57,698mm) + Business and government ($569,315mm) = $627,013mm / total deposits ($1,268,680mm).",
+        "wholesaleFundingPct": "TD's own disclosed 'Wholesale Funding' Table 57 total of $457,506mm (deposits from banks, bearer deposit notes, certificates of deposit, commercial paper, covered bonds, mortgage securitization, senior notes, term ABS, other — excludes repo/reverse-repo funding and subordinated debt per TD's own footnotes) / total assets $2,061,751mm = 22.19%. If repo ($201,900mm) and subordinated notes ($11,473mm) are added per the task's broader definition, wholesale funding rises to 32.54% of total assets. Annual disclosure only (as at Oct 31, 2024), from the 2024 Annual Report MD&A.",
+        "stableDepositsPct": "From Table 53 'Average Liquidity Coverage Ratio' (2024 Annual Report), average for 3 months ended Oct 31, 2024: unweighted 'Stable deposits' $262,831mm. Expressed as % of total bank deposits ($1,268,680mm) = 20.72%. As % of the LCR-scope 'Retail deposits and deposits from small business customers' total ($486,164mm) instead, stable deposits = 54.06%. Annual disclosure only.",
+        "lessStableDepositsPct": "Same Table 53: unweighted 'Less stable deposits' $223,333mm / total bank deposits $1,268,680mm = 17.60%; or 45.94% of the LCR retail-deposit total.",
+        "operationalDepositsPct": "Same Table 53: unweighted 'Operational deposits (all counterparties) and deposits in networks of cooperative banks' $132,853mm / total bank deposits $1,268,680mm = 10.47%; or 38.14% of (operational + non-operational) combined ($348,315mm).",
+        "nonOperationalDepositsPct": "Same Table 53: unweighted 'Non-operational deposits (all counterparties)' $215,462mm / total bank deposits $1,268,680mm = 16.98%; or 61.86% of (operational + non-operational) combined.",
+        "irrbbEveSensitivityPct": "TD discloses only a +/-100bps parallel shock EVE/NII sensitivity (Table 45, 'Structural Interest Rate Sensitivity Measures'), not the full six-scenario Basel/OSFI IRRBB template — confirmed absent from the FY2024 Annual Report, FY2025 Annual Report, and Q4 2025 Pillar 3 Supplemental Regulatory Disclosure. Most adverse of the two disclosed scenarios is the +100bps parallel increase: EVE impact -$2,489mm. Tier 1 Capital as at Oct 31, 2024 was $93,248mm (Capital Position Basel III (CC1) table, Q4 2025 Supplemental Regulatory Disclosure, prior-period comparative column) → -2489/93248 = -2.67%. This %-of-Tier-1 framing is computed here, not disclosed by TD. The -100bps decrease scenario gave EVE +$1,914mm (+2.05% of T1), less adverse.",
+        "irrbbNiiSensitivityPct": "Same Table 45: +100bps parallel increase → NII impact +$720mm / Tier 1 Capital $93,248mm = 0.77%. The -100bps decrease scenario gave NII -$983mm (-1.05% of T1), a larger-magnitude (more adverse) NII impact than the increase scenario.",
+        "newMetricsSource": "TD Bank Group Annual Report 2024 (Management's Discussion and Analysis) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
+          "searchText": "$957,643"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
+          "searchText": "$457,506"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
+          "searchText": "$497,909"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
+          "searchText": "$57,698"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
+          "searchText": "$262,831"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
+          "searchText": "$223,333"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
+          "searchText": "$132,853"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
+          "searchText": "$215,462"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
+          "searchText": "$2,489"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
+          "searchText": "$720"
+        },
+        "cet1Ratio": {
+          "page": 2,
+          "searchText": "13.1"
+        },
+        "tier1CapitalRatio": {
+          "page": 4,
+          "searchText": "14.8"
+        },
+        "totalCapitalRatio": {
+          "page": 4,
+          "searchText": "16.8"
+        },
+        "leverageRatio": {
+          "page": 4,
+          "searchText": "4.2"
+        },
+        "tlacRatio": {
+          "page": 4,
+          "searchText": "28.7"
+        },
+        "roe": {
+          "page": 4,
+          "searchText": "13.4"
+        },
+        "efficiencyRatio": {
+          "page": 4,
+          "searchText": "51.9"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-q4-earnings-newsrelease-en.pdf",
+          "page": 1,
+          "searchText": "3,635"
+        }
+      }
+    },
+    {
+      "period": "Q1 2025",
+      "periodEnd": "2025-01-31",
+      "reportName": "Q1 2025 Report to Shareholders / Earnings News Release",
+      "reportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+      "supplementaryReportName": "Q4 2025 Supplemental Financial Information (prior-period comparative columns)",
+      "supplementaryReportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+      "retrievedAt": "2026-07-03T01:51:36.000Z",
+      "metrics": {
+        "cet1Ratio": 13.1,
+        "tier1CapitalRatio": 14.7,
+        "totalCapitalRatio": 17,
+        "leverageRatio": 4.2,
+        "tlacRatio": 29.5,
+        "lcr": 141,
+        "nsfr": 116,
+        "roe": 10.1,
+        "nim": 1.66,
+        "efficiencyRatio": 57.4,
+        "loansToAssetsPct": 46.11,
+        "totalAssetsBillions": 2093.6,
+        "netIncomeMillions": 2793,
+        "loanToDepositRatio": 75.47,
+        "retailDepositsPct": 51.18,
+        "wholesaleDepositsPct": 48.82,
+        "irrbbEveSensitivityPct": -2.69,
+        "irrbbNiiSensitivityPct": 0.62,
+        "stableDepositsPct": 21.04,
+        "lessStableDepositsPct": 18.18,
+        "operationalDepositsPct": 10.62,
+        "nonOperationalDepositsPct": 18.28
+      },
+      "notes": {
+        "roe": "Reported (GAAP) ROE shown; adjusted ROE was 13.2% for this quarter.",
+        "netIncomeMillions": "Net income - reported (consolidated). Net income attributable to common shareholders (reported) was $2,707 million.",
+        "loanToDepositRatio": "Gross loans $973,966mm / total deposits $1,290,486mm, from Q2 2026 SFI Balance Sheet table comparative column (as at Jan 31, 2025).",
+        "retailDepositsPct": "Personal (non-term $518,578mm + term $141,894mm = $660,472mm) / total deposits ($1,290,486mm).",
+        "wholesaleDepositsPct": "Banks ($50,696mm) + Business and government ($579,318mm) = $630,014mm / total deposits ($1,290,486mm).",
+        "newMetricsSource": "Q2 2026 Supplemental Financial Information (Balance Sheet table, prior-period comparative column) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+        "irrbbEveSensitivityPct": "TD Table 31 \"Structural Interest Rate Sensitivity Measures\" (Q1 2025 Report to Shareholders, disclosed quarterly). TD discloses only a +/-100bp parallel shock, not the six-scenario Basel/OSFI IRRBB template. Most adverse: +100bp parallel increase, before-tax EVE impact -$2,573mm (total) ÷ Net Tier 1 Capital $95,589mm (Basel III CC1 capital table, same report) = -2.69%. This %-of-Tier-1 framing is computed here, not disclosed by TD.",
+        "irrbbNiiSensitivityPct": "Same Table 31: +100bp parallel increase → 12-month NII impact +$597mm (total) ÷ Net Tier 1 Capital $95,589mm = 0.62%. Recorded at the +100bp shock (same direction as the EVE figure) for consistency with TD's own Q4 disclosure; a derived ratio, not published by TD.",
+        "stableDepositsPct": "Stable deposits: unweighted average $271,520mm (OSFI LCR common disclosure template, TD Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,290,486mm (period-end balance sheet) = 21.04%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted average $234,645mm (OSFI LCR common disclosure template, TD Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,290,486mm (period-end balance sheet) = 18.18%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $137,010mm (OSFI LCR common disclosure template, TD Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,290,486mm (period-end balance sheet) = 10.62%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $235,903mm (OSFI LCR common disclosure template, TD Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,290,486mm (period-end balance sheet) = 18.28%. Denominator = total balance-sheet deposits, matching TD's existing method."
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$973,966"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$518,578"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$50,696"
+        },
+        "cet1Ratio": {
+          "page": 2,
+          "searchText": "13.1"
+        },
+        "tier1CapitalRatio": {
+          "page": 5,
+          "searchText": "14.7"
+        },
+        "totalCapitalRatio": {
+          "page": 5,
+          "searchText": "17.0"
+        },
+        "leverageRatio": {
+          "page": 5,
+          "searchText": "4.2"
+        },
+        "tlacRatio": {
+          "page": 5,
+          "searchText": "29.5"
+        },
+        "lcr": {
+          "page": 41,
+          "searchText": "141"
+        },
+        "nsfr": {
+          "page": 41,
+          "searchText": "116"
+        },
+        "roe": {
+          "page": 5,
+          "searchText": "10.1"
+        },
+        "nim": {
+          "page": 23,
+          "searchText": "1.66"
+        },
+        "efficiencyRatio": {
+          "page": 5,
+          "searchText": "57.4"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "searchText": "(1,934) $ (2,573)"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "searchText": "463 $ 597"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "searchText": "271,520"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "searchText": "234,645"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "searchText": "137,010"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "searchText": "235,903"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "page": 1,
+          "searchText": "2,793"
+        }
+      }
+    },
+    {
+      "period": "Q2 2025",
+      "periodEnd": "2025-04-30",
+      "reportName": "Q2 2025 Report to Shareholders / Earnings News Release",
+      "reportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+      "supplementaryReportName": "Q2 2025 Supplemental Financial Information",
+      "supplementaryReportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-financial-supppack-en.pdf",
+      "retrievedAt": "2026-07-03T01:51:36.000Z",
+      "metrics": {
+        "cet1Ratio": 14.9,
+        "tier1CapitalRatio": 16.6,
+        "totalCapitalRatio": 18.5,
+        "leverageRatio": 4.7,
+        "tlacRatio": 31,
+        "lcr": 141,
+        "nsfr": 119,
+        "roe": 39.1,
+        "nim": 1.76,
+        "efficiencyRatio": 35.5,
+        "loansToAssetsPct": 45.36,
+        "totalAssetsBillions": 2064.3,
+        "netIncomeMillions": 11129,
+        "loanToDepositRatio": 74.54,
+        "retailDepositsPct": 51.15,
+        "wholesaleDepositsPct": 48.85,
+        "irrbbEveSensitivityPct": -2.52,
+        "irrbbNiiSensitivityPct": 0.66,
+        "stableDepositsPct": 21.51,
+        "lessStableDepositsPct": 18.88,
+        "operationalDepositsPct": 11.15,
+        "nonOperationalDepositsPct": 18.05
+      },
+      "notes": {
+        "roe": "Reported ROE of 39.1% and reported net income of $11,129 million are both massively inflated by a large one-time gain on the sale of TD's remaining investment in The Charles Schwab Corporation, which increased CET1 capital by ~238 bps. Adjusted (non-GAAP) ROE, which excludes this item of note, was 12.3% and adjusted net income was $3,626 million -- likely more representative of underlying performance for benchmarking purposes.",
+        "efficiencyRatio": "Reported efficiency ratio of 35.5% is similarly distorted by the Schwab sale gain inflating revenue; adjusted efficiency ratio net of ISE was 57.6%.",
+        "loanToDepositRatio": "Gross loans $944,991mm / total deposits $1,267,748mm, from Q2 2026 SFI Balance Sheet table comparative column (as at Apr 30, 2025).",
+        "retailDepositsPct": "Personal (non-term $510,591mm + term $137,913mm = $648,504mm) / total deposits ($1,267,748mm).",
+        "wholesaleDepositsPct": "Banks ($44,949mm) + Business and government ($574,295mm) = $619,244mm / total deposits ($1,267,748mm).",
+        "newMetricsSource": "Q2 2026 Supplemental Financial Information (Balance Sheet table, prior-period comparative column) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+        "irrbbEveSensitivityPct": "TD Table 31 \"Structural Interest Rate Sensitivity Measures\" (Q2 2025 Report to Shareholders, disclosed quarterly). TD discloses only a +/-100bp parallel shock, not the six-scenario Basel/OSFI IRRBB template. Most adverse: +100bp parallel increase, before-tax EVE impact -$2,612mm (total) ÷ Net Tier 1 Capital $103,459mm (Basel III CC1 capital table, same report) = -2.52%. This %-of-Tier-1 framing is computed here, not disclosed by TD.",
+        "irrbbNiiSensitivityPct": "Same Table 31: +100bp parallel increase → 12-month NII impact +$679mm (total) ÷ Net Tier 1 Capital $103,459mm = 0.66%. Recorded at the +100bp shock (same direction as the EVE figure) for consistency with TD's own Q4 disclosure; a derived ratio, not published by TD.",
+        "stableDepositsPct": "Stable deposits: unweighted average $272,752mm (OSFI LCR common disclosure template, TD Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,267,748mm (period-end balance sheet) = 21.51%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted average $239,328mm (OSFI LCR common disclosure template, TD Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,267,748mm (period-end balance sheet) = 18.88%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $141,371mm (OSFI LCR common disclosure template, TD Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,267,748mm (period-end balance sheet) = 11.15%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $228,778mm (OSFI LCR common disclosure template, TD Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,267,748mm (period-end balance sheet) = 18.05%. Denominator = total balance-sheet deposits, matching TD's existing method."
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$944,991"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$510,591"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$44,949"
+        },
+        "cet1Ratio": {
+          "page": 2,
+          "searchText": "14.9"
+        },
+        "tier1CapitalRatio": {
+          "page": 5,
+          "searchText": "16.6"
+        },
+        "totalCapitalRatio": {
+          "page": 5,
+          "searchText": "18.5"
+        },
+        "leverageRatio": {
+          "page": 5,
+          "searchText": "4.7"
+        },
+        "tlacRatio": {
+          "page": 5,
+          "searchText": "31.0"
+        },
+        "lcr": {
+          "page": 43,
+          "searchText": "141"
+        },
+        "nsfr": {
+          "page": 44,
+          "searchText": "119"
+        },
+        "roe": {
+          "page": 5,
+          "searchText": "39.1"
+        },
+        "nim": {
+          "page": 26,
+          "searchText": "1.76"
+        },
+        "efficiencyRatio": {
+          "page": 5,
+          "searchText": "35.5"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "searchText": "(1,837) $ (2,612)"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "searchText": "546 $ 679"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "searchText": "272,752"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "searchText": "239,328"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "searchText": "141,371"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "searchText": "228,778"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "page": 1,
+          "searchText": "11,129"
+        }
+      }
+    },
+    {
+      "period": "Q3 2025",
+      "periodEnd": "2025-07-31",
+      "reportName": "Q3 2025 Report to Shareholders / Earnings News Release",
+      "reportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/q3-2025-news-release-en.pdf",
+      "supplementaryReportName": "Q4 2025 Supplemental Financial Information (prior-period comparative columns)",
+      "supplementaryReportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+      "retrievedAt": "2026-07-03T01:51:36.000Z",
+      "metrics": {
+        "cet1Ratio": 14.8,
+        "tier1CapitalRatio": 16.5,
+        "totalCapitalRatio": 18.4,
+        "leverageRatio": 4.6,
+        "tlacRatio": 30.9,
+        "lcr": 138,
+        "nsfr": 117,
+        "roe": 11.3,
+        "nim": 1.82,
+        "efficiencyRatio": 55.7,
+        "loansToAssetsPct": 46,
+        "totalAssetsBillions": 2035.2,
+        "netIncomeMillions": 3336,
+        "loanToDepositRatio": 75.17,
+        "retailDepositsPct": 51.73,
+        "wholesaleDepositsPct": 48.27,
+        "irrbbEveSensitivityPct": -3.23,
+        "irrbbNiiSensitivityPct": 0.51,
+        "stableDepositsPct": 21.29,
+        "lessStableDepositsPct": 18.93,
+        "operationalDepositsPct": 11.28,
+        "nonOperationalDepositsPct": 17.87
+      },
+      "notes": {
+        "roe": "Reported (GAAP) ROE shown; adjusted ROE was 13.2% for this quarter.",
+        "netIncomeMillions": "Net income - reported (consolidated). Net income attributable to common shareholders (reported) was $3,248 million.",
+        "loanToDepositRatio": "Gross loans $944,772mm / total deposits $1,256,922mm, from Q2 2026 SFI Balance Sheet table comparative column (as at Jul 31, 2025).",
+        "retailDepositsPct": "Personal (non-term $512,993mm + term $137,192mm = $650,185mm) / total deposits ($1,256,922mm).",
+        "wholesaleDepositsPct": "Banks ($33,307mm) + Business and government ($573,430mm) = $606,737mm / total deposits ($1,256,922mm).",
+        "newMetricsSource": "Q2 2026 Supplemental Financial Information (Balance Sheet table, prior-period comparative column) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+        "irrbbEveSensitivityPct": "TD Table 31 \"Structural Interest Rate Sensitivity Measures\" (Q3 2025 Report to Shareholders, disclosed quarterly). TD discloses only a +/-100bp parallel shock, not the six-scenario Basel/OSFI IRRBB template. Most adverse: +100bp parallel increase, before-tax EVE impact -$3,330mm (total) ÷ Net Tier 1 Capital $103,206mm (Basel III CC1 capital table, same report) = -3.23%. This %-of-Tier-1 framing is computed here, not disclosed by TD.",
+        "irrbbNiiSensitivityPct": "Same Table 31: +100bp parallel increase → 12-month NII impact +$527mm (total) ÷ Net Tier 1 Capital $103,206mm = 0.51%. Recorded at the +100bp shock (same direction as the EVE figure) for consistency with TD's own Q4 disclosure; a derived ratio, not published by TD.",
+        "stableDepositsPct": "Stable deposits: unweighted average $267,590mm (OSFI LCR common disclosure template, TD Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,256,922mm (period-end balance sheet) = 21.29%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted average $237,893mm (OSFI LCR common disclosure template, TD Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,256,922mm (period-end balance sheet) = 18.93%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $141,728mm (OSFI LCR common disclosure template, TD Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,256,922mm (period-end balance sheet) = 11.28%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $224,566mm (OSFI LCR common disclosure template, TD Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,256,922mm (period-end balance sheet) = 17.87%. Denominator = total balance-sheet deposits, matching TD's existing method."
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$944,772"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$512,993"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$33,307"
+        },
+        "cet1Ratio": {
+          "page": 2,
+          "searchText": "14.8"
+        },
+        "tier1CapitalRatio": {
+          "page": 4,
+          "searchText": "16.5"
+        },
+        "totalCapitalRatio": {
+          "page": 4,
+          "searchText": "18.4"
+        },
+        "leverageRatio": {
+          "page": 4,
+          "searchText": "4.6"
+        },
+        "tlacRatio": {
+          "page": 4,
+          "searchText": "30.9"
+        },
+        "roe": {
+          "page": 4,
+          "searchText": "11.3"
+        },
+        "efficiencyRatio": {
+          "page": 4,
+          "searchText": "55.7"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
+          "searchText": "(2,379) $ (3,330)"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
+          "searchText": "167 $ 527"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
+          "searchText": "267,590"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
+          "searchText": "237,893"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
+          "searchText": "141,728"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
+          "searchText": "224,566"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/q3-2025-news-release-en.pdf",
+          "page": 1,
+          "searchText": "3,336"
+        }
+      }
+    },
+    {
+      "period": "Q4 2025",
+      "periodEnd": "2025-10-31",
+      "reportName": "Q4 2025 / Fiscal 2025 Earnings News Release",
+      "reportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-news-release-en.pdf",
+      "supplementaryReportName": "Q4 2025 Supplemental Financial Information",
+      "supplementaryReportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+      "retrievedAt": "2026-07-03T01:51:36.000Z",
+      "metrics": {
+        "cet1Ratio": 14.7,
+        "tier1CapitalRatio": 16.4,
+        "totalCapitalRatio": 18.4,
+        "leverageRatio": 4.6,
+        "tlacRatio": 31.8,
+        "lcr": 130,
+        "nsfr": 117,
+        "roe": 10.7,
+        "nim": 1.82,
+        "efficiencyRatio": 56.8,
+        "loansToAssetsPct": 45.5,
+        "totalAssetsBillions": 2094.6,
+        "netIncomeMillions": 3280,
+        "loanToDepositRatio": 75.9,
+        "retailDepositsPct": 51.33,
+        "wholesaleDepositsPct": 48.67,
+        "wholesaleFundingPct": 21,
+        "stableDepositsPct": 21.37,
+        "lessStableDepositsPct": 18.81,
+        "operationalDepositsPct": 11.4,
+        "nonOperationalDepositsPct": 17.82,
+        "irrbbEveSensitivityPct": -2.41,
+        "irrbbNiiSensitivityPct": 0.76
+      },
+      "notes": {
+        "roe": "Reported (GAAP) ROE shown; adjusted ROE was 12.8% for this quarter. Full fiscal-year 2025 reported ROE was 17.8% (inflated by the Q2 2025 Schwab sale gain); FY2025 adjusted ROE was 12.9%.",
+        "netIncomeMillions": "Net income - reported (consolidated). Net income attributable to common shareholders (reported) was $3,089 million. Full fiscal year 2025 reported net income was $20,538 million.",
+        "loanToDepositRatio": "Gross loans $961,701mm / total deposits $1,267,104mm, from Table 58 'Remaining Contractual Maturity' (2025 Annual Report) and cross-checked against the Q2 2026 SFI Balance Sheet table (identical figures).",
+        "retailDepositsPct": "Personal deposits $650,396mm / total deposits $1,267,104mm. This figure independently matches Table 55 'Summary of Deposit Funding' in the 2025 Annual Report ('Personal' channel deposits).",
+        "wholesaleDepositsPct": "Banks ($27,233mm) + Business and government ($589,475mm) = $616,708mm / total deposits ($1,267,104mm).",
+        "wholesaleFundingPct": "TD's own disclosed Table 57 'Wholesale Funding' total of $439,815mm (excludes repo/reverse-repo funding and subordinated debt per TD's footnotes) / total assets $2,094,558mm = 21.00%. Using the broader definition (adding repo $221,150mm and subordinated notes $10,733mm), wholesale funding = 32.07% of total assets. Annual disclosure only (as at Oct 31, 2025), 2025 Annual Report MD&A.",
+        "stableDepositsPct": "Table 53 'Average Liquidity Coverage Ratio' (2025 Annual Report), average for 3 months ended Oct 31, 2025: unweighted 'Stable deposits' $270,781mm / total bank deposits $1,267,104mm = 21.37%; or 53.19% of the LCR-scope 'Retail deposits and deposits from small business customers' total ($509,076mm). Annual disclosure only.",
+        "lessStableDepositsPct": "Same table: unweighted 'Less stable deposits' $238,295mm / total bank deposits $1,267,104mm = 18.81%; or 46.81% of the LCR retail-deposit total.",
+        "operationalDepositsPct": "Same table: unweighted 'Operational deposits (all counterparties) and deposits in networks of cooperative banks' $144,433mm / total bank deposits $1,267,104mm = 11.40%; or 39.01% of (operational + non-operational) combined ($370,269mm).",
+        "nonOperationalDepositsPct": "Same table: unweighted 'Non-operational deposits (all counterparties)' $225,836mm / total bank deposits $1,267,104mm = 17.82%; or 60.99% of (operational + non-operational) combined.",
+        "irrbbEveSensitivityPct": "TD discloses only a +/-100bps parallel shock (Table 45, 'Structural Interest Rate Sensitivity Measures'), not the six-scenario Basel/OSFI IRRBB template — confirmed absent from the 2025 Annual Report and Q4 2025 Pillar 3 Supplemental Regulatory Disclosure. Most adverse: +100bps parallel increase, EVE impact -$2,515mm (CAD -$957mm + USD -$1,558mm; excludes Wholesale Banking exposures). Tier 1 Capital as at Oct 31, 2025 = $104,502mm (Capital Position Basel III (CC1) table) → -2515/104502 = -2.41%. This %-of-Tier-1 framing is computed here, not disclosed by TD. The -100bps decrease scenario gave EVE +$2,092mm (+2.00% of T1), less adverse.",
+        "irrbbNiiSensitivityPct": "Same Table 45: +100bps parallel increase → NII impact +$790mm (CAD +$400mm + USD +$390mm) / Tier 1 Capital $104,502mm = 0.76%. The -100bps decrease scenario gave NII -$860mm (-0.82% of T1), a larger-magnitude, more adverse NII impact than the increase scenario. Effective July 31, 2025, TD began reporting these sensitivities split by currency.",
+        "newMetricsSource": "TD Bank Group Annual Report 2025 (Management's Discussion and Analysis) and Q4 2025 Supplemental Regulatory Disclosure (Pillar 3) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
+          "searchText": "$961,701"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
+          "searchText": "$439,815"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
+          "searchText": "$650,396"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
+          "searchText": "$27,233"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
+          "searchText": "$270,781"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
+          "searchText": "$238,295"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
+          "searchText": "$144,433"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
+          "searchText": "$225,836"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
+          "searchText": "$2,515"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
+          "searchText": "$790"
+        },
+        "cet1Ratio": {
+          "page": 2,
+          "searchText": "14.7"
+        },
+        "tier1CapitalRatio": {
+          "page": 4,
+          "searchText": "16.4"
+        },
+        "totalCapitalRatio": {
+          "page": 4,
+          "searchText": "18.4"
+        },
+        "leverageRatio": {
+          "page": 4,
+          "searchText": "4.6"
+        },
+        "tlacRatio": {
+          "page": 4,
+          "searchText": "31.8"
+        },
+        "roe": {
+          "page": 4,
+          "searchText": "10.7"
+        },
+        "efficiencyRatio": {
+          "page": 4,
+          "searchText": "56.8"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-news-release-en.pdf",
+          "page": 1,
+          "searchText": "3,280"
+        }
+      }
+    },
+    {
+      "period": "Q1 2026",
+      "periodEnd": "2026-01-31",
+      "reportName": "Q1 2026 Earnings News Release",
+      "reportUrl": "https://td.mediaroom.com/2026-02-26-TD-Bank-Group-Reports-First-Quarter-2026-Results",
+      "supplementaryReportName": "Q1 2026 Supplemental Financial Information",
+      "supplementaryReportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-financial-supppack-en.pdf",
+      "retrievedAt": "2026-07-03T01:51:36.000Z",
+      "metrics": {
+        "cet1Ratio": 14.5,
+        "tier1CapitalRatio": 16.3,
+        "totalCapitalRatio": 18.1,
+        "leverageRatio": 4.5,
+        "tlacRatio": 31.1,
+        "lcr": 137,
+        "nsfr": 115,
+        "roe": 13.6,
+        "nim": 1.85,
+        "efficiencyRatio": 52.8,
+        "loansToAssetsPct": 45.66,
+        "totalAssetsBillions": 2099.3,
+        "netIncomeMillions": 4043,
+        "loanToDepositRatio": 77.67,
+        "retailDepositsPct": 51.27,
+        "wholesaleDepositsPct": 48.73,
+        "irrbbEveSensitivityPct": -2.44,
+        "irrbbNiiSensitivityPct": 0.72,
+        "stableDepositsPct": 21.59,
+        "lessStableDepositsPct": 19.54,
+        "operationalDepositsPct": 12.16,
+        "nonOperationalDepositsPct": 18.08
+      },
+      "notes": {
+        "roe": "Reported (GAAP) ROE shown; adjusted ROE was 14.2% for this quarter.",
+        "netIncomeMillions": "Net income - reported (consolidated). Net income attributable to common shareholders (reported) was $3,942 million.",
+        "loanToDepositRatio": "Gross loans $967,052mm / total deposits $1,245,144mm, from Q2 2026 SFI Balance Sheet table comparative column (as at Jan 31, 2026).",
+        "retailDepositsPct": "Personal (non-term $505,962mm + term $132,464mm = $638,426mm) / total deposits ($1,245,144mm).",
+        "wholesaleDepositsPct": "Banks ($24,529mm) + Business and government ($582,189mm) = $606,718mm / total deposits ($1,245,144mm).",
+        "newMetricsSource": "Q2 2026 Supplemental Financial Information (Balance Sheet table, prior-period comparative column) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+        "irrbbEveSensitivityPct": "TD Table 31 \"Structural Interest Rate Sensitivity Measures\" (Q1 2026 Report to Shareholders, disclosed quarterly). TD discloses only a +/-100bp parallel shock, not the six-scenario Basel/OSFI IRRBB template. Most adverse: +100bp parallel increase, before-tax EVE impact -$2,521mm (total) ÷ Net Tier 1 Capital $103,312mm (Basel III CC1 capital table, same report) = -2.44%. This %-of-Tier-1 framing is computed here, not disclosed by TD.",
+        "irrbbNiiSensitivityPct": "Same Table 31: +100bp parallel increase → 12-month NII impact +$745mm (total) ÷ Net Tier 1 Capital $103,312mm = 0.72%. Recorded at the +100bp shock (same direction as the EVE figure) for consistency with TD's own Q4 disclosure; a derived ratio, not published by TD.",
+        "stableDepositsPct": "Stable deposits: unweighted average $268,789mm (OSFI LCR common disclosure template, TD Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,245,144mm (period-end balance sheet) = 21.59%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted average $243,347mm (OSFI LCR common disclosure template, TD Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,245,144mm (period-end balance sheet) = 19.54%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $151,468mm (OSFI LCR common disclosure template, TD Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,245,144mm (period-end balance sheet) = 12.16%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $225,074mm (OSFI LCR common disclosure template, TD Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,245,144mm (period-end balance sheet) = 18.08%. Denominator = total balance-sheet deposits, matching TD's existing method."
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$967,052"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$505,962"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$24,529"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "searchText": "(1,500) $ (2,521)"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "searchText": "363 $ 745"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "searchText": "268,789"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "searchText": "243,347"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "searchText": "151,468"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "searchText": "225,074"
+        }
+      }
+    },
+    {
+      "period": "Q2 2026",
+      "periodEnd": "2026-04-30",
+      "reportName": "Q2 2026 Earnings News Release",
+      "reportUrl": "https://td.mediaroom.com/2026-05-28-TD-Bank-Group-Reports-Second-Quarter-2026-Results",
+      "supplementaryReportName": "Q2 2026 Supplemental Financial Information",
+      "supplementaryReportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+      "retrievedAt": "2026-07-03T01:51:36.000Z",
+      "metrics": {
+        "cet1Ratio": 14.3,
+        "tier1CapitalRatio": 16,
+        "totalCapitalRatio": 17.8,
+        "leverageRatio": 4.5,
+        "tlacRatio": 31.1,
+        "lcr": 130,
+        "nsfr": 117,
+        "roe": 14.7,
+        "nim": 1.95,
+        "efficiencyRatio": 53,
+        "loansToAssetsPct": 46.25,
+        "totalAssetsBillions": 2085.1,
+        "netIncomeMillions": 4251,
+        "loanToDepositRatio": 78.23,
+        "retailDepositsPct": 51.62,
+        "wholesaleDepositsPct": 48.38,
+        "irrbbEveSensitivityPct": -3.59,
+        "irrbbNiiSensitivityPct": 0.4,
+        "stableDepositsPct": 21.71,
+        "lessStableDepositsPct": 19.48,
+        "operationalDepositsPct": 11.63,
+        "nonOperationalDepositsPct": 17.73
+      },
+      "notes": {
+        "roe": "Reported (GAAP) ROE shown; adjusted ROE was 14.4% for this quarter.",
+        "netIncomeMillions": "Net income - reported (consolidated). Net income attributable to common shareholders (reported) was $4,049 million.",
+        "loanToDepositRatio": "Gross loans $972,708mm / total deposits $1,243,431mm, from Q2 2026 SFI Balance Sheet table (as at Apr 30, 2026).",
+        "retailDepositsPct": "Personal (non-term $509,217mm + term $132,610mm = $641,827mm) / total deposits ($1,243,431mm).",
+        "wholesaleDepositsPct": "Banks ($25,537mm) + Business and government ($576,067mm) = $601,604mm / total deposits ($1,243,431mm).",
+        "newMetricsSource": "Q2 2026 Supplemental Financial Information (Balance Sheet table) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+        "irrbbEveSensitivityPct": "TD Table 31 \"Structural Interest Rate Sensitivity Measures\" (Q2 2026 Report to Shareholders, disclosed quarterly). TD discloses only a +/-100bp parallel shock, not the six-scenario Basel/OSFI IRRBB template. Most adverse: +100bp parallel increase, before-tax EVE impact -$3,683mm (total) ÷ Net Tier 1 Capital $102,585mm (Basel III CC1 capital table, same report) = -3.59%. This %-of-Tier-1 framing is computed here, not disclosed by TD.",
+        "irrbbNiiSensitivityPct": "Same Table 31: +100bp parallel increase → 12-month NII impact +$411mm (total) ÷ Net Tier 1 Capital $102,585mm = 0.4%. Recorded at the +100bp shock (same direction as the EVE figure) for consistency with TD's own Q4 disclosure; a derived ratio, not published by TD.",
+        "stableDepositsPct": "Stable deposits: unweighted average $269,909mm (OSFI LCR common disclosure template, TD Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,243,431mm (period-end balance sheet) = 21.71%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted average $242,164mm (OSFI LCR common disclosure template, TD Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,243,431mm (period-end balance sheet) = 19.48%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $144,650mm (OSFI LCR common disclosure template, TD Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,243,431mm (period-end balance sheet) = 11.63%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $220,464mm (OSFI LCR common disclosure template, TD Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,243,431mm (period-end balance sheet) = 17.73%. Denominator = total balance-sheet deposits, matching TD's existing method."
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$972,708"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$509,217"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
+          "searchText": "$25,537"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "searchText": "(2,492) $ (3,683)"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "searchText": "57 $ 411"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "searchText": "269,909"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "searchText": "242,164"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "searchText": "144,650"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "searchText": "220,464"
+        }
+      }
+    }
+  ],
+  "irrbbDisclosureNote": "TD discloses IRRBB every quarter in its Report to Shareholders MD&A under the 'Structural Interest Rate Sensitivity Measures' table (Table 31 in the interim reports; Table 45 in the year-end Annual Report). It does not use the standardized six-scenario Basel/OSFI IRRBB1 template (parallel up, parallel down, steepener, flattener, short rate up, short rate down) — that template could not be found in TD's quarterly Reports to Shareholders, the FY2024/FY2025 Annual Reports, or the Q4 2025 Pillar 3 Supplemental Regulatory Disclosure, despite TD being a G-SIB/D-SIB subject to OSFI's Pillar 3 guideline. Instead, TD shows both Economic Value of Shareholders' Equity (EVE) Sensitivity and Net Interest Income (NII) Sensitivity for a single prescribed shock: an immediate and sustained +/-100 basis point parallel shift, before-tax. Effective July 31, 2025, TD began splitting the two sensitivity measures by currency (Canadian dollar vs. U.S. dollar) in addition to the total. Both measures explicitly exclude exposures from the Wholesale Banking segment. TD does not itself express either sensitivity as a percentage of any capital base — the %-of-Tier-1 figures in this dataset were computed by dividing TD's disclosed dollar sensitivity by TD's Net Tier 1 Capital from the same quarter's Basel III Capital Position (CC1) table.",
+  "irrbbDisclosureSourceName": "TD Bank Group Q3 2025 Report to Shareholders, MD&A, Table 31 'Structural Interest Rate Sensitivity Measures'",
+  "irrbbDisclosureSourceUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
+  "creditRatings": {
+    "asOf": "2026-06-03",
+    "ratingType": "Deposits / counterparty · legacy senior-equivalent",
+    "sourceName": "TD Investor Relations — Fixed Income Investor: Credit Ratings",
+    "sourceUrl": "https://www.td.com/ca/en/about-td/for-investors/investor-relations/fixed-income-investor/credit-ratings",
+    "note": "TD's page shows no separate non-bail-inable senior row, so values are from its 'Deposits/Counterparty' row — the legacy-equivalent long-term rating. Bail-inable senior debt is rated A2 / A- / AA (low) / AA-. Information as of June 3, 2026. Note: despite the U.S. AML/BSA settlement, TD's live IR page shows a Stable outlook across all four agencies.",
+    "agencies": {
+      "moodys": {
+        "rating": "Aa1",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.td.com/ca/en/about-td/for-investors/investor-relations/fixed-income-investor/credit-ratings",
+        "sourceLabel": "TD Investor Relations — Fixed Income Investor: Credit Ratings",
+        "verifiedText": "Deposits / counterparty · legacy senior-equivalent — Moody's: Aa1; Outlook: Stable (TD Investor Relations — Fixed Income Investor: Credit Ratings)"
+      },
+      "sp": {
+        "rating": "A+",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.td.com/ca/en/about-td/for-investors/investor-relations/fixed-income-investor/credit-ratings",
+        "sourceLabel": "TD Investor Relations — Fixed Income Investor: Credit Ratings",
+        "verifiedText": "Deposits / counterparty · legacy senior-equivalent — S&P: A+; Outlook: Stable (TD Investor Relations — Fixed Income Investor: Credit Ratings)"
+      },
+      "dbrs": {
+        "rating": "AA",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.td.com/ca/en/about-td/for-investors/investor-relations/fixed-income-investor/credit-ratings",
+        "sourceLabel": "TD Investor Relations — Fixed Income Investor: Credit Ratings",
+        "verifiedText": "Deposits / counterparty · legacy senior-equivalent — DBRS: AA; Outlook: Stable (TD Investor Relations — Fixed Income Investor: Credit Ratings)"
+      },
+      "fitch": {
+        "rating": "AA+",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.td.com/ca/en/about-td/for-investors/investor-relations/fixed-income-investor/credit-ratings",
+        "sourceLabel": "TD Investor Relations — Fixed Income Investor: Credit Ratings",
+        "verifiedText": "Deposits / counterparty · legacy senior-equivalent — Fitch: AA+; Outlook: Stable (TD Investor Relations — Fixed Income Investor: Credit Ratings)"
+      }
+    }
+  },
+  "marketData": {
+    "yahooSymbol": "TD.TO",
+    "bookValuePerShare": 68.22,
+    "bvpsAsOf": "Q2 2026 (as at Apr 30, 2026)",
+    "bvpsNote": "\"Book value per share\" $68.22 as disclosed in TD's Q2 2026 Report to Shareholders financial highlights (as at Apr 30, 2026).",
+    "bvpsSourceUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+    "refClosePrice": 146.33,
+    "refCloseDate": "2026-04-30"
+  }
+}

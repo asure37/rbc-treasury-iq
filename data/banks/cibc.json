@@ -1,0 +1,1022 @@
+{
+  "bankId": "cibc",
+  "bankName": "Canadian Imperial Bank of Commerce",
+  "ticker": "CM",
+  "isHomeInstitution": false,
+  "colorHex": "#c41f3e",
+  "quarters": [
+    {
+      "period": "Q3 2024",
+      "periodEnd": "2024-07-31",
+      "reportName": "CIBC Announces Third Quarter 2024 Results",
+      "reportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324newsrelease-en.pdf",
+      "supplementaryReportName": "Supplementary Financial Information trend table (as republished in Q2 2026 Supplementary Financial Information)",
+      "supplementaryReportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.3,
+        "tier1CapitalRatio": 14.8,
+        "totalCapitalRatio": 17.1,
+        "leverageRatio": 4.3,
+        "tlacRatio": 30.1,
+        "lcr": 126,
+        "nsfr": 116,
+        "roe": 13.2,
+        "nim": 1.5,
+        "efficiencyRatio": 55.8,
+        "loansToAssetsPct": 53.86,
+        "totalAssetsBillions": 1021.407,
+        "netIncomeMillions": 1786,
+        "loanToDepositRatio": 74.51,
+        "retailDepositsPct": 33.66,
+        "wholesaleDepositsPct": 66.34,
+        "irrbbEveSensitivityPct": -2.72,
+        "irrbbNiiSensitivityPct": -0.56,
+        "wholesaleFundingPct": 19.62,
+        "stableDepositsPct": 22.9,
+        "lessStableDepositsPct": 27.05,
+        "operationalDepositsPct": 25.47,
+        "nonOperationalDepositsPct": 24.58
+      },
+      "notes": {
+        "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
+        "nim": "Net interest margin on average interest-earning assets, as disclosed by CIBC.",
+        "netIncomeMillions": "Net income attributable to equity shareholders.",
+        "source": "All ratios/figures pulled from the nine-quarter 'Financial Highlights' and 'Balance sheet quality and liquidity measures' trend tables in CIBC's Q2 2026 Supplementary Financial Information package (which restates Q3/24 alongside Q2/26), cross-checked against the Q3 2024 news release for revenue/net income figures.",
+        "loanToDepositRatio": "Computed as gross loans (residential mortgages $277,246M + personal $46,388M + credit card $20,226M + business & government $210,047M = $553,907M, before allowance for credit losses) ÷ total deposits ($743,446M), per CIBC's unaudited consolidated balance sheet as at July 31, 2024.",
+        "retailDepositsPct": "Personal deposits ($250,231M) ÷ total deposits ($743,446M) per balance sheet Deposits note.",
+        "wholesaleDepositsPct": "Business and government ($414,178M) + Bank ($27,503M) + Secured borrowings ($51,534M) = $492,215M, ÷ total deposits $743,446M. 'Secured borrowings' (covered bond/securitization deposit notes) is treated as wholesale since it is not personal/retail.",
+        "newMetricsSource": "CIBC Report to Shareholders for the Third Quarter, 2024 (unaudited interim consolidated financial statements) — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
+        "irrbbEveSensitivityPct": "CIBC \"Structural interest rate sensitivity – measures\" table (Q3 2024 Report to Shareholders, disclosed quarterly). CIBC discloses only a +/-100bp parallel shock (2 of the 6 Basel scenarios). Most adverse: +100bp parallel increase gives EVE impact of -$1,325M (pre-tax, total CAD+USD) ÷ Tier 1 capital $48,751M (same report's capital table / Pillar 3 KM1) = -2.72%. Not equivalent to the worst of six Basel scenarios — CIBC shows only 2 of the 6 standard shocks. This %-of-Tier-1 framing is ours.",
+        "irrbbNiiSensitivityPct": "Same +/-100bp parallel-shock table. Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$271M (pre-tax, total CAD+USD) ÷ Tier 1 capital $48,751M = -0.56%. A derived ratio for cross-bank comparability; CIBC does not itself express NII sensitivity as a percentage of any base.",
+        "wholesaleFundingPct": "CIBC's disclosed \"wholesale funding sources\" contractual-maturity table total of $200,394M at carrying value (Q3 2024 Report to Shareholders) ÷ total assets $1,021,407M = 19.62%. Excludes repo (CIBC's own table scope), matching CIBC's existing method. CIBC discloses this table every quarter.",
+        "stableDepositsPct": "Stable deposits: unweighted $99,127M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 22.9%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted $117,113M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 27.05%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $110,273M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 25.47%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $106,399M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 24.58%. Denominator = sum of the four LCR categories, matching CIBC's existing method."
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
+          "searchText": "$277,246"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
+          "searchText": "$250,231"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
+          "searchText": "$414,178"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.3"
+        },
+        "leverageRatio": {
+          "page": 1,
+          "searchText": "4.3"
+        },
+        "lcr": {
+          "page": 1,
+          "searchText": "126"
+        },
+        "roe": {
+          "page": 1,
+          "searchText": "13.2"
+        },
+        "nim": {
+          "page": 1,
+          "searchText": "1.50"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
+          "searchText": "(1,325)"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
+          "searchText": "(80) (271)"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
+          "searchText": "62,345 $ 200,394"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
+          "searchText": "99,127"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
+          "searchText": "117,113"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
+          "searchText": "110,273"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
+          "searchText": "106,399"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324newsrelease-en.pdf",
+          "page": 3,
+          "searchText": "1,786"
+        }
+      }
+    },
+    {
+      "period": "Q4 2024",
+      "periodEnd": "2024-10-31",
+      "reportName": "CIBC announces fourth quarter and fiscal 2024 results",
+      "reportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
+      "supplementaryReportName": "Supplementary Financial Information trend table (as republished in Q2 2026 Supplementary Financial Information)",
+      "supplementaryReportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.3,
+        "tier1CapitalRatio": 14.8,
+        "totalCapitalRatio": 17,
+        "leverageRatio": 4.3,
+        "tlacRatio": 30.3,
+        "lcr": 129,
+        "nsfr": 115,
+        "roe": 13.3,
+        "nim": 1.5,
+        "efficiencyRatio": 57.3,
+        "loansToAssetsPct": 53.58,
+        "totalAssetsBillions": 1041.985,
+        "netIncomeMillions": 1874,
+        "loanToDepositRatio": 73.51,
+        "wholesaleFundingPct": 20.66,
+        "retailDepositsPct": 33.06,
+        "wholesaleDepositsPct": 66.94,
+        "stableDepositsPct": 22.55,
+        "lessStableDepositsPct": 27.15,
+        "operationalDepositsPct": 26.4,
+        "nonOperationalDepositsPct": 23.91,
+        "irrbbEveSensitivityPct": -2.74,
+        "irrbbNiiSensitivityPct": -0.49
+      },
+      "notes": {
+        "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
+        "nim": "Net interest margin on average interest-earning assets, as disclosed by CIBC.",
+        "netIncomeMillions": "Net income attributable to equity shareholders.",
+        "source": "All ratios/figures pulled from the nine-quarter 'Financial Highlights' and 'Balance sheet quality and liquidity measures' trend tables in CIBC's Q2 2026 Supplementary Financial Information package, cross-checked against the Q4/FY2024 news release.",
+        "loanToDepositRatio": "Gross loans (res. mortgages $280,672M + personal $46,681M + credit card $20,551M + business & government $214,299M = $562,203M) ÷ total deposits ($764,857M), per CIBC 2024 Annual Report consolidated balance sheet, Oct 31 2024.",
+        "wholesaleFundingPct": "CIBC's own disclosed 'wholesale funding sources' contractual-maturity table (deposits from banks, CDs/commercial paper, bearer deposit notes/BAs, senior unsecured MTNs/structured notes, covered bonds, mortgage/cards securitization, subordinated liabilities) totaled $215,317M at carrying value as at Oct 31, 2024 ÷ total assets $1,041,985M. This CIBC-defined figure excludes repo ($110,153M); including repo per the broader task definition gives (215,317+110,153)/1,041,985 = 31.23%. Reporting the narrower, CIBC-labeled figure as primary.",
+        "retailDepositsPct": "Personal deposits ($252,894M) ÷ total deposits ($764,857M), balance sheet basis.",
+        "wholesaleDepositsPct": "Business & government ($435,499M) + Bank ($20,009M) + Secured borrowings ($56,455M) ÷ total deposits $764,857M, balance sheet basis. An alternative LCR-scope calc (see stable/less-stable/operational/non-operational below) gives retail 49.70%/wholesale 50.30% on a 3-month-average, LCR-defined-category basis — materially different because the LCR categorization uses average balances and different bucketing rules.",
+        "stableDepositsPct": "OSFI LCR common disclosure template, average of the three months ended Oct 31 2024: Stable deposits $98,592M (unweighted) as % of total LCR-scope deposits (stable+less stable+operational+non-operational = $437,287M).",
+        "lessStableDepositsPct": "Less stable deposits $118,722M (unweighted) / $437,287M LCR-scope deposit total.",
+        "operationalDepositsPct": "Operational deposits (all counterparties, incl. cooperative bank networks) $115,421M (unweighted) / $437,287M.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $104,552M (unweighted) / $437,287M.",
+        "irrbbEveSensitivityPct": "CIBC does not disclose the full 6-scenario Basel/OSFI IRRBB1 template (parallel up/down, steepener, flattener, short rate up/down) — it only discloses a +/-100bp parallel shock under 'Structural Interest Rate Risk (SIRR)'. Most adverse of the two disclosed scenarios: +100bp parallel increase gives EVE impact of -$1,356M (pre-tax, total CAD+USD), vs -100bp giving +$1,237M. -$1,356M / Tier 1 capital $49,481M (Q4/25 Pillar 3 KM1 table, Q4/24 column) = -2.74%. Not equivalent to 'worst of six Basel scenarios' — CIBC only shows 2 of the 6 standard shocks.",
+        "irrbbNiiSensitivityPct": "Same +/-100bp parallel shock table. Worse of the two scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$242M (pre-tax, total). As % of Tier 1 capital ($49,481M) for comparability = -0.49%; CIBC itself does not express NII sensitivity as a % of any capital or income base — this is a derived ratio.",
+        "newMetricsSource": "CIBC 2024 Annual Report (audited consolidated financial statements and MD&A) and CIBC Q4/25 Pillar 3 Report — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
+          "searchText": "$280,672"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
+          "searchText": "$215,317"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
+          "searchText": "$252,894"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
+          "searchText": "$435,499"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
+          "searchText": "$98,592"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
+          "searchText": "$118,722"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
+          "searchText": "$115,421"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
+          "searchText": "$104,552"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
+          "searchText": "$1,356"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
+          "searchText": "$242"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.3"
+        },
+        "tier1CapitalRatio": {
+          "page": 4,
+          "searchText": "14.8"
+        },
+        "totalCapitalRatio": {
+          "page": 3,
+          "searchText": "17.0"
+        },
+        "leverageRatio": {
+          "page": 3,
+          "searchText": "4.3"
+        },
+        "lcr": {
+          "page": 3,
+          "searchText": "129"
+        },
+        "nsfr": {
+          "page": 4,
+          "searchText": "115"
+        },
+        "roe": {
+          "page": 1,
+          "searchText": "13.3"
+        },
+        "nim": {
+          "page": 1,
+          "searchText": "1.50"
+        },
+        "efficiencyRatio": {
+          "page": 4,
+          "searchText": "57.3"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
+          "page": 4,
+          "searchText": "1,041,985"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
+          "page": 4,
+          "searchText": "1,874"
+        }
+      }
+    },
+    {
+      "period": "Q1 2025",
+      "periodEnd": "2025-01-31",
+      "reportName": "CIBC Announces First Quarter 2025 Results",
+      "reportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125newsrelease-en.pdf",
+      "supplementaryReportName": "Supplementary Financial Information trend table (as republished in Q1 2026 Supplementary Financial Information)",
+      "supplementaryReportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.5,
+        "tier1CapitalRatio": 15.1,
+        "totalCapitalRatio": 17.3,
+        "leverageRatio": 4.3,
+        "tlacRatio": 31.4,
+        "lcr": 132,
+        "nsfr": 113,
+        "roe": 15.2,
+        "nim": 1.5,
+        "efficiencyRatio": 53.3,
+        "loansToAssetsPct": 52.48,
+        "totalAssetsBillions": 1082.464,
+        "netIncomeMillions": 2163,
+        "loanToDepositRatio": 73.16,
+        "retailDepositsPct": 33.07,
+        "wholesaleDepositsPct": 66.93,
+        "irrbbEveSensitivityPct": -2.94,
+        "irrbbNiiSensitivityPct": -0.42,
+        "wholesaleFundingPct": 20.75,
+        "stableDepositsPct": 21.86,
+        "lessStableDepositsPct": 27.33,
+        "operationalDepositsPct": 27.14,
+        "nonOperationalDepositsPct": 23.68
+      },
+      "notes": {
+        "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table; also confirmed in Q1 2026 news release comparative column (15.2%).",
+        "nim": "Net interest margin on average interest-earning assets, as disclosed by CIBC.",
+        "netIncomeMillions": "Net income attributable to equity shareholders.",
+        "loanToDepositRatio": "Gross loans ($282,675+46,482+20,182+222,884 = $572,223M) ÷ total deposits ($782,176M), per CIBC Q1 2025 Report to Shareholders balance sheet, Jan 31 2025.",
+        "retailDepositsPct": "Personal deposits ($258,666M) ÷ total deposits ($782,176M).",
+        "wholesaleDepositsPct": "Business & government ($443,533M) + Bank ($20,109M) + Secured borrowings ($59,868M) ÷ total deposits $782,176M.",
+        "newMetricsSource": "CIBC Report to Shareholders for the First Quarter, 2025 — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
+        "irrbbEveSensitivityPct": "CIBC \"Structural interest rate sensitivity – measures\" table (Q1 2025 Report to Shareholders, disclosed quarterly). CIBC discloses only a +/-100bp parallel shock (2 of the 6 Basel scenarios). Most adverse: +100bp parallel increase gives EVE impact of -$1,515M (pre-tax, total CAD+USD) ÷ Tier 1 capital $51,574M (same report's capital table / Pillar 3 KM1) = -2.94%. Not equivalent to the worst of six Basel scenarios — CIBC shows only 2 of the 6 standard shocks. This %-of-Tier-1 framing is ours.",
+        "irrbbNiiSensitivityPct": "Same +/-100bp parallel-shock table. Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$218M (pre-tax, total CAD+USD) ÷ Tier 1 capital $51,574M = -0.42%. A derived ratio for cross-bank comparability; CIBC does not itself express NII sensitivity as a percentage of any base.",
+        "wholesaleFundingPct": "CIBC's disclosed \"wholesale funding sources\" contractual-maturity table total of $224,579M at carrying value (Q1 2025 Report to Shareholders) ÷ total assets $1,082,464M = 20.75%. Excludes repo (CIBC's own table scope), matching CIBC's existing method. CIBC discloses this table every quarter.",
+        "stableDepositsPct": "Stable deposits: unweighted $100,045M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 21.86%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted $125,108M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 27.33%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $124,217M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 27.14%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $108,389M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 23.68%. Denominator = sum of the four LCR categories, matching CIBC's existing method."
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
+          "searchText": "$282,675"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
+          "searchText": "$258,666"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
+          "searchText": "$443,533"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.5"
+        },
+        "leverageRatio": {
+          "page": 1,
+          "searchText": "4.3"
+        },
+        "lcr": {
+          "page": 1,
+          "searchText": "132"
+        },
+        "roe": {
+          "page": 1,
+          "searchText": "15.2"
+        },
+        "nim": {
+          "page": 1,
+          "searchText": "1.50"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
+          "searchText": "(1,515)"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
+          "searchText": "(44) (218)"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
+          "searchText": "64,212 $ 224,579"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
+          "searchText": "100,045"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
+          "searchText": "125,108"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
+          "searchText": "124,217"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
+          "searchText": "108,389"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125newsrelease-en.pdf",
+          "page": 3,
+          "searchText": "2,163"
+        }
+      }
+    },
+    {
+      "period": "Q2 2025",
+      "periodEnd": "2025-04-30",
+      "reportName": "CIBC Announces Second Quarter 2025 Results",
+      "reportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225newsrelease-en.pdf",
+      "supplementaryReportName": "Supplementary Financial Information trend table (as republished in Q2 2026 Supplementary Financial Information)",
+      "supplementaryReportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.4,
+        "tier1CapitalRatio": 15.2,
+        "totalCapitalRatio": 17.8,
+        "leverageRatio": 4.3,
+        "tlacRatio": 32.2,
+        "lcr": 131,
+        "nsfr": 113,
+        "roe": 13.8,
+        "nim": 1.54,
+        "efficiencyRatio": 54.4,
+        "loansToAssetsPct": 52.44,
+        "totalAssetsBillions": 1090.143,
+        "netIncomeMillions": 1998,
+        "loanToDepositRatio": 73.39,
+        "retailDepositsPct": 32.57,
+        "wholesaleDepositsPct": 67.43,
+        "irrbbEveSensitivityPct": -2.92,
+        "irrbbNiiSensitivityPct": -0.37,
+        "wholesaleFundingPct": 20.73,
+        "stableDepositsPct": 21.49,
+        "lessStableDepositsPct": 28.13,
+        "operationalDepositsPct": 27.44,
+        "nonOperationalDepositsPct": 22.94
+      },
+      "notes": {
+        "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
+        "nim": "Net interest margin on average interest-earning assets, as disclosed by CIBC.",
+        "netIncomeMillions": "Net income attributable to equity shareholders.",
+        "loanToDepositRatio": "Gross loans ($283,437+46,856+20,784+224,753 = $575,830M) ÷ total deposits ($784,627M), per CIBC Q2 2025 Report to Shareholders balance sheet, Apr 30 2025.",
+        "retailDepositsPct": "Personal deposits ($255,523M) ÷ total deposits ($784,627M).",
+        "wholesaleDepositsPct": "Business & government ($441,342M) + Bank ($27,401M) + Secured borrowings ($60,361M) ÷ total deposits $784,627M.",
+        "newMetricsSource": "CIBC Report to Shareholders for the Second Quarter, 2025 — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
+        "irrbbEveSensitivityPct": "CIBC \"Structural interest rate sensitivity – measures\" table (Q2 2025 Report to Shareholders, disclosed quarterly). CIBC discloses only a +/-100bp parallel shock (2 of the 6 Basel scenarios). Most adverse: +100bp parallel increase gives EVE impact of -$1,512M (pre-tax, total CAD+USD) ÷ Tier 1 capital $51,756M (same report's capital table / Pillar 3 KM1) = -2.92%. Not equivalent to the worst of six Basel scenarios — CIBC shows only 2 of the 6 standard shocks. This %-of-Tier-1 framing is ours.",
+        "irrbbNiiSensitivityPct": "Same +/-100bp parallel-shock table. Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$189M (pre-tax, total CAD+USD) ÷ Tier 1 capital $51,756M = -0.37%. A derived ratio for cross-bank comparability; CIBC does not itself express NII sensitivity as a percentage of any base.",
+        "wholesaleFundingPct": "CIBC's disclosed \"wholesale funding sources\" contractual-maturity table total of $225,937M at carrying value (Q2 2025 Report to Shareholders) ÷ total assets $1,090,143M = 20.73%. Excludes repo (CIBC's own table scope), matching CIBC's existing method. CIBC discloses this table every quarter.",
+        "stableDepositsPct": "Stable deposits: unweighted $99,431M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 21.49%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted $130,149M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 28.13%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $126,997M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 27.44%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $106,165M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 22.94%. Denominator = sum of the four LCR categories, matching CIBC's existing method."
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
+          "searchText": "$283,437"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
+          "searchText": "$255,523"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
+          "searchText": "$441,342"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.4"
+        },
+        "leverageRatio": {
+          "page": 1,
+          "searchText": "4.3"
+        },
+        "lcr": {
+          "page": 1,
+          "searchText": "131"
+        },
+        "roe": {
+          "page": 1,
+          "searchText": "13.8"
+        },
+        "nim": {
+          "page": 1,
+          "searchText": "1.54"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
+          "searchText": "(1,512)"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
+          "searchText": "(41) (189)"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
+          "searchText": "64,741 $ 225,937"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
+          "searchText": "99,431"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
+          "searchText": "130,149"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
+          "searchText": "126,997"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
+          "searchText": "106,165"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225newsrelease-en.pdf",
+          "page": 1,
+          "searchText": "15.2%"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225newsrelease-en.pdf",
+          "page": 3,
+          "searchText": "1,998"
+        }
+      }
+    },
+    {
+      "period": "Q3 2025",
+      "periodEnd": "2025-07-31",
+      "reportName": "CIBC Announces Third Quarter 2025 Results",
+      "reportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325newsrelease-en.pdf",
+      "supplementaryReportName": "Supplementary Financial Information trend table (as republished in Q2 2026 Supplementary Financial Information)",
+      "supplementaryReportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.4,
+        "tier1CapitalRatio": 15.3,
+        "totalCapitalRatio": 17.6,
+        "leverageRatio": 4.3,
+        "tlacRatio": 32.9,
+        "lcr": 127,
+        "nsfr": 115,
+        "roe": 14.2,
+        "nim": 1.58,
+        "efficiencyRatio": 54.8,
+        "loansToAssetsPct": 52.77,
+        "totalAssetsBillions": 1102.255,
+        "netIncomeMillions": 2094,
+        "loanToDepositRatio": 73.92,
+        "retailDepositsPct": 32.31,
+        "wholesaleDepositsPct": 67.69,
+        "irrbbEveSensitivityPct": -2.84,
+        "irrbbNiiSensitivityPct": -0.42,
+        "wholesaleFundingPct": 20.92,
+        "stableDepositsPct": 21.73,
+        "lessStableDepositsPct": 27.72,
+        "operationalDepositsPct": 28.14,
+        "nonOperationalDepositsPct": 22.41
+      },
+      "notes": {
+        "roe": "Reported ROE (annualized) 14.2% per CIBC Supplementary Financial Information nine-quarter trend table (matches reported and adjusted ROE for this quarter).",
+        "nim": "Net interest margin on average interest-earning assets, as disclosed by CIBC.",
+        "netIncomeMillions": "Net income attributable to equity shareholders.",
+        "loanToDepositRatio": "Gross loans ($285,935+47,259+21,321+231,414 = $585,929M) ÷ total deposits ($792,672M), per CIBC Q3 2025 Report to Shareholders balance sheet, Jul 31 2025.",
+        "retailDepositsPct": "Personal deposits ($256,135M) ÷ total deposits ($792,672M).",
+        "wholesaleDepositsPct": "Business & government ($448,861M) + Bank ($27,061M) + Secured borrowings ($60,615M) ÷ total deposits $792,672M.",
+        "newMetricsSource": "CIBC Report to Shareholders for the Third Quarter, 2025 — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
+        "irrbbEveSensitivityPct": "CIBC \"Structural interest rate sensitivity – measures\" table (Q3 2025 Report to Shareholders, disclosed quarterly). CIBC discloses only a +/-100bp parallel shock (2 of the 6 Basel scenarios). Most adverse: +100bp parallel increase gives EVE impact of -$1,513M (pre-tax, total CAD+USD) ÷ Tier 1 capital $53,303M (same report's capital table / Pillar 3 KM1) = -2.84%. Not equivalent to the worst of six Basel scenarios — CIBC shows only 2 of the 6 standard shocks. This %-of-Tier-1 framing is ours.",
+        "irrbbNiiSensitivityPct": "Same +/-100bp parallel-shock table. Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$225M (pre-tax, total CAD+USD) ÷ Tier 1 capital $53,303M = -0.42%. A derived ratio for cross-bank comparability; CIBC does not itself express NII sensitivity as a percentage of any base.",
+        "wholesaleFundingPct": "CIBC's disclosed \"wholesale funding sources\" contractual-maturity table total of $230,581M at carrying value (Q3 2025 Report to Shareholders) ÷ total assets $1,102,255M = 20.92%. Excludes repo (CIBC's own table scope), matching CIBC's existing method. CIBC discloses this table every quarter.",
+        "stableDepositsPct": "Stable deposits: unweighted $100,556M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 21.73%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted $128,284M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 27.72%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $130,187M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 28.14%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $103,695M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 22.41%. Denominator = sum of the four LCR categories, matching CIBC's existing method."
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
+          "searchText": "$285,935"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
+          "searchText": "$256,135"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
+          "searchText": "$448,861"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.4"
+        },
+        "leverageRatio": {
+          "page": 1,
+          "searchText": "4.3"
+        },
+        "lcr": {
+          "page": 1,
+          "searchText": "127"
+        },
+        "roe": {
+          "page": 1,
+          "searchText": "14.2"
+        },
+        "nim": {
+          "page": 1,
+          "searchText": "1.58"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
+          "searchText": "(1,513)"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
+          "searchText": "(34) (225)"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
+          "searchText": "66,947 $ 230,581"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
+          "searchText": "100,556"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
+          "searchText": "128,284"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
+          "searchText": "130,187"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
+          "searchText": "103,695"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325newsrelease-en.pdf",
+          "page": 3,
+          "searchText": "2,094"
+        }
+      }
+    },
+    {
+      "period": "Q4 2025",
+      "periodEnd": "2025-10-31",
+      "reportName": "CIBC announces fourth quarter and fiscal 2025 results",
+      "reportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+      "supplementaryReportName": "Supplementary Financial Information for the period ended October 31, 2025",
+      "supplementaryReportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425financials-en.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.3,
+        "tier1CapitalRatio": 15.1,
+        "totalCapitalRatio": 17.4,
+        "leverageRatio": 4.3,
+        "tlacRatio": 31.9,
+        "lcr": 132,
+        "nsfr": 116,
+        "roe": 14.1,
+        "nim": 1.59,
+        "efficiencyRatio": 55.2,
+        "loansToAssetsPct": 52.78,
+        "totalAssetsBillions": 1116.938,
+        "netIncomeMillions": 2174,
+        "loanToDepositRatio": 73.49,
+        "wholesaleFundingPct": 20.75,
+        "retailDepositsPct": 31.94,
+        "wholesaleDepositsPct": 68.06,
+        "stableDepositsPct": 21.72,
+        "lessStableDepositsPct": 28.26,
+        "operationalDepositsPct": 29.78,
+        "nonOperationalDepositsPct": 20.24,
+        "irrbbEveSensitivityPct": -3.1,
+        "irrbbNiiSensitivityPct": -0.46
+      },
+      "notes": {
+        "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table (Q1 2026 vintage), cross-checked against Q4/FY2025 news release (14.1%, up from 13.3% YoY).",
+        "nim": "Net interest margin on average interest-earning assets, as disclosed by CIBC.",
+        "netIncomeMillions": "Net income attributable to equity shareholders.",
+        "loanToDepositRatio": "Gross loans (res. mortgages $287,033M + personal $47,866M + credit card $21,581M + business & government $237,416M = $593,896M) ÷ total deposits ($808,124M), per CIBC 2025 Annual Report consolidated balance sheet, Oct 31 2025.",
+        "wholesaleFundingPct": "CIBC's disclosed 'wholesale funding sources' table totaled $231,802M at carrying value as at Oct 31, 2025 ÷ total assets $1,116,938M. Excludes repo ($130,042M); including repo would give (231,802+130,042)/1,116,938 = 32.39%.",
+        "retailDepositsPct": "Personal deposits ($258,139M) ÷ total deposits ($808,124M), balance sheet basis.",
+        "wholesaleDepositsPct": "Business & government ($457,284M) + Bank ($26,723M) + Secured borrowings ($65,978M) ÷ total deposits $808,124M, balance sheet basis. LCR-scope alternative (3-month average) gives retail 49.98%/wholesale 50.02% — different scope/methodology, not directly comparable to the balance-sheet split.",
+        "stableDepositsPct": "OSFI LCR common disclosure template, average of the three months ended Oct 31 2025: Stable deposits $100,387M (unweighted) / total LCR-scope deposits (stable+less stable+operational+non-operational = $462,270M).",
+        "lessStableDepositsPct": "Less stable deposits $130,642M (unweighted) / $462,270M.",
+        "operationalDepositsPct": "Operational deposits (all counterparties, incl. cooperative bank networks) $137,665M (unweighted) / $462,270M.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $93,576M (unweighted) / $462,270M.",
+        "irrbbEveSensitivityPct": "CIBC discloses only a +/-100bp parallel shock (not the 6-scenario Basel IRRBB1 template). Most adverse: +100bp parallel increase gives EVE impact of -$1,678M (pre-tax, total CAD+USD) vs -100bp giving +$1,525M. -$1,678M / Tier 1 capital $54,105M (Q4/25 Pillar 3 KM1 table) = -3.10%.",
+        "irrbbNiiSensitivityPct": "Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$249M (pre-tax, total). As % of Tier 1 capital ($54,105M) = -0.46% — a derived ratio; CIBC does not itself express NII sensitivity as a percentage of any base.",
+        "newMetricsSource": "CIBC 2025 Annual Report (audited consolidated financial statements and MD&A) and CIBC Q4/25 Pillar 3 Report and Supplementary Regulatory Capital Disclosure — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf"
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
+          "searchText": "$287,033"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
+          "searchText": "$231,802"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
+          "searchText": "$258,139"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
+          "searchText": "$457,284"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
+          "searchText": "$100,387"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
+          "searchText": "$130,642"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
+          "searchText": "$137,665"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
+          "searchText": "$93,576"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
+          "searchText": "$1,678"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
+          "searchText": "$249"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.3"
+        },
+        "tier1CapitalRatio": {
+          "page": 4,
+          "searchText": "15.1"
+        },
+        "totalCapitalRatio": {
+          "page": 2,
+          "searchText": "17.4"
+        },
+        "leverageRatio": {
+          "page": 2,
+          "searchText": "4.3"
+        },
+        "tlacRatio": {
+          "page": 4,
+          "searchText": "31.9"
+        },
+        "lcr": {
+          "page": 2,
+          "searchText": "132"
+        },
+        "nsfr": {
+          "page": 4,
+          "searchText": "116"
+        },
+        "roe": {
+          "page": 1,
+          "searchText": "14.1"
+        },
+        "nim": {
+          "page": 1,
+          "searchText": "1.59"
+        },
+        "efficiencyRatio": {
+          "page": 4,
+          "searchText": "55.2"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "page": 4,
+          "searchText": "1,116,938"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "page": 4,
+          "searchText": "2,174"
+        }
+      }
+    },
+    {
+      "period": "Q1 2026",
+      "periodEnd": "2026-01-31",
+      "reportName": "CIBC Announces First Quarter 2026 Results",
+      "reportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126newsrelease-en.pdf",
+      "supplementaryReportName": "Supplementary Financial Information for the period ended January 31, 2026",
+      "supplementaryReportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.4,
+        "tier1CapitalRatio": 15.4,
+        "totalCapitalRatio": 17.7,
+        "leverageRatio": 4.4,
+        "tlacRatio": 32.1,
+        "lcr": 133,
+        "nsfr": 114,
+        "roe": 20.2,
+        "nim": 1.61,
+        "efficiencyRatio": 51.6,
+        "loansToAssetsPct": 52.31,
+        "totalAssetsBillions": 1132.577,
+        "netIncomeMillions": 3093,
+        "loanToDepositRatio": 73.16,
+        "retailDepositsPct": 31.73,
+        "wholesaleDepositsPct": 68.27,
+        "irrbbEveSensitivityPct": -2.68,
+        "irrbbNiiSensitivityPct": -0.54,
+        "wholesaleFundingPct": 20.33,
+        "stableDepositsPct": 21.27,
+        "lessStableDepositsPct": 28.06,
+        "operationalDepositsPct": 29.89,
+        "nonOperationalDepositsPct": 20.78
+      },
+      "notes": {
+        "roe": "Reported ROE (GAAP, annualized) was unusually high at 20.2% mainly due to $422 million of income tax recoveries (capital gains distribution and utilization of capital losses) recognized in the quarter; adjusted ROE excluding this and other items of note was 17.4%. Used reported per instructions, but flagging the distortion.",
+        "netIncomeMillions": "Net income attributable to equity shareholders; reported net income of $3,100 million included $422 million of favorable one-time income tax items.",
+        "nim": "Net interest margin on average interest-earning assets, as disclosed by CIBC.",
+        "loanToDepositRatio": "Gross loans ($287,585+47,664+21,246+240,405 = $596,900M) ÷ total deposits ($815,891M), per CIBC Q1 2026 Report to Shareholders balance sheet, Jan 31 2026.",
+        "retailDepositsPct": "Personal deposits ($258,878M) ÷ total deposits ($815,891M).",
+        "wholesaleDepositsPct": "Business & government ($466,390M) + Bank ($27,579M) + Secured borrowings ($63,044M) ÷ total deposits $815,891M.",
+        "newMetricsSource": "CIBC Report to Shareholders for the First Quarter, 2026 — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
+        "irrbbEveSensitivityPct": "CIBC \"Structural interest rate sensitivity – measures\" table (Q1 2026 Report to Shareholders, disclosed quarterly). CIBC discloses only a +/-100bp parallel shock (2 of the 6 Basel scenarios). Most adverse: +100bp parallel increase gives EVE impact of -$1,494M (pre-tax, total CAD+USD) ÷ Tier 1 capital $55,823M (same report's capital table / Pillar 3 KM1) = -2.68%. Not equivalent to the worst of six Basel scenarios — CIBC shows only 2 of the 6 standard shocks. This %-of-Tier-1 framing is ours.",
+        "irrbbNiiSensitivityPct": "Same +/-100bp parallel-shock table. Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$303M (pre-tax, total CAD+USD) ÷ Tier 1 capital $55,823M = -0.54%. A derived ratio for cross-bank comparability; CIBC does not itself express NII sensitivity as a percentage of any base.",
+        "wholesaleFundingPct": "CIBC's disclosed \"wholesale funding sources\" contractual-maturity table total of $230,299M at carrying value (Q1 2026 Report to Shareholders) ÷ total assets $1,132,577M = 20.33%. Excludes repo (CIBC's own table scope), matching CIBC's existing method. CIBC discloses this table every quarter.",
+        "stableDepositsPct": "Stable deposits: unweighted $102,077M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 21.27%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted $134,672M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 28.06%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $143,468M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 29.89%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $99,715M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 20.78%. Denominator = sum of the four LCR categories, matching CIBC's existing method."
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
+          "searchText": "$287,585"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
+          "searchText": "$258,878"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
+          "searchText": "$466,390"
+        },
+        "cet1Ratio": {
+          "page": 1,
+          "searchText": "13.4"
+        },
+        "leverageRatio": {
+          "page": 1,
+          "searchText": "4.4"
+        },
+        "lcr": {
+          "page": 1,
+          "searchText": "133"
+        },
+        "roe": {
+          "page": 1,
+          "searchText": "20.2"
+        },
+        "nim": {
+          "page": 1,
+          "searchText": "1.61"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
+          "searchText": "(1,494)"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
+          "searchText": "(75) (303)"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
+          "searchText": "72,472 $ 230,299"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
+          "searchText": "102,077"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
+          "searchText": "134,672"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
+          "searchText": "143,468"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
+          "searchText": "99,715"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126newsrelease-en.pdf",
+          "page": 3,
+          "searchText": "3,093"
+        }
+      }
+    },
+    {
+      "period": "Q2 2026",
+      "periodEnd": "2026-04-30",
+      "reportName": "CIBC Announces Second Quarter 2026 Results",
+      "reportUrl": "https://www.newswire.ca/news-releases/cibc-announces-second-quarter-2026-results-870327332.html",
+      "supplementaryReportName": "Supplementary Financial Information for the period ended April 30, 2026",
+      "supplementaryReportUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+      "retrievedAt": "2026-07-02T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.6,
+        "tier1CapitalRatio": 15.6,
+        "totalCapitalRatio": 17.6,
+        "leverageRatio": 4.3,
+        "tlacRatio": 32.7,
+        "lcr": 131,
+        "nsfr": 114,
+        "roe": 16.4,
+        "nim": 1.67,
+        "efficiencyRatio": 52.4,
+        "loansToAssetsPct": 51.78,
+        "totalAssetsBillions": 1160.56,
+        "netIncomeMillions": 2457,
+        "loanToDepositRatio": 72.71,
+        "retailDepositsPct": 31.39,
+        "wholesaleDepositsPct": 68.61,
+        "irrbbEveSensitivityPct": -2.75,
+        "irrbbNiiSensitivityPct": -0.29,
+        "wholesaleFundingPct": 19.6,
+        "stableDepositsPct": 20.79,
+        "lessStableDepositsPct": 28.04,
+        "operationalDepositsPct": 29.49,
+        "nonOperationalDepositsPct": 21.68
+      },
+      "notes": {
+        "roe": "Reported ROE (annualized) 16.4%, which equals adjusted ROE this quarter (up 250 bps YoY per management commentary).",
+        "nim": "Net interest margin on average interest-earning assets, as disclosed by CIBC.",
+        "netIncomeMillions": "Net income attributable to equity shareholders.",
+        "loanToDepositRatio": "Gross loans ($289,048+48,098+21,924+246,430 = $605,500M) ÷ total deposits ($832,770M), per CIBC Q2 2026 Report to Shareholders balance sheet, Apr 30 2026.",
+        "retailDepositsPct": "Personal deposits ($261,409M) ÷ total deposits ($832,770M).",
+        "wholesaleDepositsPct": "Business & government ($480,414M) + Bank ($30,710M) + Secured borrowings ($60,237M) ÷ total deposits $832,770M.",
+        "newMetricsSource": "CIBC Report to Shareholders for the Second Quarter, 2026 — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+        "irrbbEveSensitivityPct": "CIBC \"Structural interest rate sensitivity – measures\" table (Q2 2026 Report to Shareholders, disclosed quarterly). CIBC discloses only a +/-100bp parallel shock (2 of the 6 Basel scenarios). Most adverse: +100bp parallel increase gives EVE impact of -$1,542M (pre-tax, total CAD+USD) ÷ Tier 1 capital $56,067M (same report's capital table / Pillar 3 KM1) = -2.75%. Not equivalent to the worst of six Basel scenarios — CIBC shows only 2 of the 6 standard shocks. This %-of-Tier-1 framing is ours.",
+        "irrbbNiiSensitivityPct": "Same +/-100bp parallel-shock table. Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$164M (pre-tax, total CAD+USD) ÷ Tier 1 capital $56,067M = -0.29%. A derived ratio for cross-bank comparability; CIBC does not itself express NII sensitivity as a percentage of any base.",
+        "wholesaleFundingPct": "CIBC's disclosed \"wholesale funding sources\" contractual-maturity table total of $227,468M at carrying value (Q2 2026 Report to Shareholders) ÷ total assets $1,160,560M = 19.6%. Excludes repo (CIBC's own table scope), matching CIBC's existing method. CIBC discloses this table every quarter.",
+        "stableDepositsPct": "Stable deposits: unweighted $102,406M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 20.79%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "lessStableDepositsPct": "Less stable deposits: unweighted $138,131M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 28.04%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $145,304M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 29.49%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $106,834M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 21.68%. Denominator = sum of the four LCR categories, matching CIBC's existing method."
+      },
+      "sourceRefs": {
+        "loanToDepositRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "searchText": "$289,048"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "searchText": "$261,409"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "searchText": "$480,414"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "searchText": "(1,542)"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "searchText": "(50) (164)"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "searchText": "71,732 $ 227,468"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "searchText": "102,406"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "searchText": "138,131"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "searchText": "145,304"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "searchText": "106,834"
+        }
+      }
+    }
+  ],
+  "irrbbDisclosureNote": "CIBC discloses interest rate risk in the banking book under the heading 'Structural interest rate sensitivity' in the MD&A of its Report to Shareholders every quarter (and again in the Annual Report at the Oct 31 fiscal year-end). It shows a single prescribed shock size (immediate and sustained +/-100 basis points, floored at zero), reporting both the projected 12-month pre-tax ΔNII and the pre-tax ΔEVE for each direction, split by CAD and USD. It does not publish the full Basel Committee six-scenario IRRBB1 standardized table (parallel up/down, steepener, flattener, short-rate up/down). This is industry-wide in Canada, not CIBC-specific: OSFI's Pillar 3 Disclosure Guideline for D-SIBs is only now (2026 consultation, comment period closed July 20, 2026) proposing to adopt the BCBS IRRBB1 template, with an expected effective date of fiscal Q4 2027 — so no current Canadian D-SIB publicly discloses the full six-scenario table yet. CIBC's disclosed sensitivities are not expressed as a percentage of any capital base by CIBC itself; the %-of-Tier-1 figures here are derived by dividing CIBC's disclosed dollar sensitivities by Tier 1 capital from the same report's capital table, for cross-bank comparability.",
+  "irrbbDisclosureSourceName": "CIBC Q3 2025 Report to Shareholders, MD&A — Structural interest rate sensitivity (also in the Annual Report at year-end)",
+  "irrbbDisclosureSourceUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
+  "creditRatings": {
+    "asOf": "2026-07-22",
+    "ratingType": "Issuer / senior debt · non-bail-inable",
+    "sourceName": "CIBC Investor Relations — Credit Ratings",
+    "sourceUrl": "https://www.cibc.com/en/about-cibc/investor-relations/debt-information/credit-ratings.html",
+    "note": "From CIBC's 'Issuer rating / Senior debt' row (footnote: 'senior unsecured debt which is excluded from the bail-in regime'); matches CIBC's deposit/counterparty rating. Bail-inable senior debt is rated A2 / A- / AA (low) / AA-. IR page is undated; verified live on 2026-07-22.",
+    "agencies": {
+      "moodys": {
+        "rating": "Aa2",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.cibc.com/en/about-cibc/investor-relations/debt-information/credit-ratings.html",
+        "sourceLabel": "CIBC Investor Relations — Credit Ratings",
+        "verifiedText": "Issuer / senior debt · non-bail-inable — Moody's: Aa2; Outlook: Stable (CIBC Investor Relations — Credit Ratings)"
+      },
+      "sp": {
+        "rating": "A+",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.cibc.com/en/about-cibc/investor-relations/debt-information/credit-ratings.html",
+        "sourceLabel": "CIBC Investor Relations — Credit Ratings",
+        "verifiedText": "Issuer / senior debt · non-bail-inable — S&P: A+; Outlook: Stable (CIBC Investor Relations — Credit Ratings)"
+      },
+      "dbrs": {
+        "rating": "AA",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.cibc.com/en/about-cibc/investor-relations/debt-information/credit-ratings.html",
+        "sourceLabel": "CIBC Investor Relations — Credit Ratings",
+        "verifiedText": "Issuer / senior debt · non-bail-inable — DBRS: AA; Outlook: Stable (CIBC Investor Relations — Credit Ratings)"
+      },
+      "fitch": {
+        "rating": "AA+",
+        "outlook": "Stable",
+        "sourceUrl": "https://www.cibc.com/en/about-cibc/investor-relations/debt-information/credit-ratings.html",
+        "sourceLabel": "CIBC Investor Relations — Credit Ratings",
+        "verifiedText": "Issuer / senior debt · non-bail-inable — Fitch: AA+; Outlook: Stable (CIBC Investor Relations — Credit Ratings)"
+      }
+    }
+  },
+  "marketData": {
+    "yahooSymbol": "CM.TO",
+    "bookValuePerShare": 63.77,
+    "bvpsAsOf": "Q2 2026 (as at Apr 30, 2026)",
+    "bvpsNote": "\"Book value per share\" $63.77 as disclosed in CIBC's Q2 2026 Report to Shareholders financial highlights (as at Apr 30, 2026).",
+    "bvpsSourceUrl": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+    "refClosePrice": 151.57,
+    "refCloseDate": "2026-04-30"
+  }
+}
