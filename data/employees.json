@@ -19,9 +19,6 @@
     { "employeeId": "richardbaek", "firstName": "Richard" },
     { "employeeId": "akshayhanda", "firstName": "Akshay" },
     { "employeeId": "rajneeshsharma", "firstName": "Rajneesh" },
-    { "employeeId": "sarahmeshreqy", "firstName": "Sarah" },
-    
-    
-    
+    { "employeeId": "sarahmeshreqy", "firstName": "Sarah" }
   ]
 }
