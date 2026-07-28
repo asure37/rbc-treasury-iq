@@ -1,0 +1,23 @@
+# Render Blueprint — one-file deploy config for a persistent Node web service.
+# Render builds Next.js natively (no Docker), on a normal *.onrender.com domain
+# that corporate firewalls treat as an ordinary website (unlike tunnels).
+# This keeps ALL functionality: AI chat, live market data, PDF source viewer,
+# and the refresh "Apply" (writable filesystem at runtime).
+#
+# Deploy: Render dashboard → New + → Blueprint → connect this repo → it reads
+# this file → paste your ANTHROPIC_API_KEY when prompted → Apply.
+services:
+  - type: web
+    name: rbc-treasury-iq
+    runtime: node
+    plan: free # free tier sleeps after ~15 min idle (≈50s cold start); use "starter" ($7/mo) for always-on
+    region: oregon
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false # Render prompts you to paste this at deploy time; it is never committed
+      - key: NODE_VERSION
+        value: "22"
