@@ -1,6 +1,7 @@
 "use client";
 
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ReferenceLine, ResponsiveContainer, Cell, LabelList } from "recharts";
+import type { LabelProps } from "recharts";
 import { ChartTooltip } from "./ChartTooltip";
 import type { BankData, MetricMeta } from "@/types/metrics";
 
@@ -14,6 +15,11 @@ interface PeerBarChartProps {
 // Neutral, desaturated tone for the "average of displayed banks" reference line —
 // deliberately distinct from every bank colour and the reg-min reference line.
 const PEER_AVG_COLOR = "#c9d4e6";
+
+// Left edge of the plot area (YAxis width 48 + left margin 6). A value label must
+// never be drawn past this, or it collides with the bank ticker labels.
+const PLOT_LEFT = 54;
+
 
 export function PeerBarChart({ banks, period, metric, height = 320 }: PeerBarChartProps) {
   const data = banks
@@ -34,6 +40,57 @@ export function PeerBarChart({ banks, period, metric, height = 320 }: PeerBarCha
   const peerAvg = data.length >= 2 ? data.reduce((s, d) => s + d.value!, 0) / data.length : null;
   const unitSuffix = metric.unit === "%" ? "%" : "";
 
+  // Recharts gives negative bars a negative width (x stays on the zero baseline), so a
+  // fixed position="right" drops the label at the bar's far tip — on top of the bank
+  // ticker labels for all-negative metrics like IRRBB ΔEVE. Place each label relative to
+  // the bar's own value end instead: outside it when there's room in the plot, otherwise
+  // inside the bar (white on the fill) so it never crowds the axis.
+  const renderValueLabel = (props: LabelProps) => {
+    const { x, y, width, height, value } = props;
+    if (value == null || typeof value === "boolean" || Array.isArray(value) || x == null || y == null || width == null || height == null)
+      return null;
+
+    const barX = Number(x);
+    const barW = Number(width);
+    const text = `${Number(value).toFixed(metric.decimals)}${unitSuffix}`;
+    const tipX = barX + barW; // the value end of the bar (left end when negative)
+    const midY = Number(y) + Number(height) / 2;
+    const negative = barW < 0;
+    const textW = text.length * 6.4 + 8; // approximate rendered width
+    const outsideX = negative ? tipX - 6 : tipX + 6;
+    // Keep the label inside the bar when placing it outside would overlap the ticker
+    // gutter, or when the bar is long enough to hold it comfortably.
+    const inside = negative && (outsideX - textW < PLOT_LEFT || Math.abs(barW) > textW + 12);
+
+    if (inside) {
+      return (
+        <text
+          x={tipX + 8}
+          y={midY}
+          fill="#ffffff"
+          fontSize={11}
+          fontWeight={600}
+          textAnchor="start"
+          dominantBaseline="central"
+        >
+          {text}
+        </text>
+      );
+    }
+    return (
+      <text
+        x={outsideX}
+        y={midY}
+        fill="#eef4fc"
+        fontSize={11}
+        textAnchor={negative ? "end" : "start"}
+        dominantBaseline="central"
+      >
+        {text}
+      </text>
+    );
+  };
+
   return (
     <ResponsiveContainer width="100%" height={height}>
       <BarChart data={data} layout="vertical" margin={{ top: 18, right: 40, bottom: 6, left: 6 }}>
@@ -48,13 +105,7 @@ export function PeerBarChart({ banks, period, metric, height = 320 }: PeerBarCha
           {data.map((d) => (
             <Cell key={d.bankId} fill={d.color} fillOpacity={d.home ? 1 : 0.65} stroke={d.home ? "#fff" : "none"} strokeOpacity={0.2} />
           ))}
-          <LabelList
-            dataKey="value"
-            position="right"
-            formatter={(v) => (v == null ? "" : `${Number(v).toFixed(metric.decimals)}${metric.unit === "%" ? "%" : ""}`)}
-            fill="#eef4fc"
-            fontSize={11}
-          />
+          <LabelList dataKey="value" content={renderValueLabel} />
         </Bar>
         {peerAvg != null && (
           <ReferenceLine
