@@ -283,9 +283,22 @@ export function SourceViewerModal({ target, onClose }: { target: SourceViewerTar
                 {rect && (
                   <div
                     ref={highlightRef}
-                    className="pointer-events-none absolute animate-pulse-glow rounded-md border-2 border-rbc-cyan bg-rbc-cyan/20 shadow-[0_0_30px_rgba(0,182,241,0.6)]"
-                    style={{ left: rect.left, top: rect.top, width: rect.width, height: rect.height }}
-                  />
+                    className="pointer-events-none absolute rounded-[3px] border-2 border-[#f59e0b]"
+                    style={{
+                      left: rect.left,
+                      top: rect.top,
+                      width: rect.width,
+                      height: rect.height,
+                      boxShadow: "0 0 0 4px rgba(250, 204, 21, 0.6), 0 0 26px 8px rgba(250, 204, 21, 0.45)",
+                    }}
+                  >
+                    {/* Highlighter-marker fill: multiply keeps the underlying figure
+                        crisp and dark instead of washing it out with a flat overlay. */}
+                    <div
+                      className="absolute inset-0 rounded-[2px]"
+                      style={{ backgroundColor: "rgba(250, 204, 21, 0.5)", mixBlendMode: "multiply" }}
+                    />
+                  </div>
                 )}
               </div>
             )}
