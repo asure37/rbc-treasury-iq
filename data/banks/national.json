@@ -58,79 +58,110 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
-          "searchText": "$240,844"
+          "searchText": "$240,844",
+          "page": 21,
+          "anchorText": "loans and acceptances"
         },
         "wholesaleFundingPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
-          "searchText": "$96,324"
+          "page": 40
         },
         "retailDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
-          "searchText": "$94,186"
+          "searchText": "$94,186",
+          "page": 42
         },
         "wholesaleDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
-          "searchText": "$220,915"
+          "searchText": "$220,915",
+          "page": 42,
+          "anchorText": "business and government"
         },
         "stableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
-          "searchText": "$27,654"
+          "searchText": "$27,654",
+          "page": 38,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
-          "searchText": "$36,084"
+          "searchText": "$36,084",
+          "page": 38,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
-          "searchText": "$35,127"
+          "searchText": "$35,127",
+          "page": 38,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
-          "searchText": "$70,848"
+          "searchText": "$70,848",
+          "page": 38
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
-          "searchText": "$366"
+          "searchText": "$366",
+          "page": 2
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
-          "searchText": "$114"
+          "searchText": "$114",
+          "page": 35,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.5"
+          "searchText": "13.5",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "anchorText": "cet1 capital ratio"
         },
         "tier1CapitalRatio": {
           "page": 29,
-          "searchText": "15.7"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf"
         },
         "totalCapitalRatio": {
           "page": 29,
-          "searchText": "16.9"
+          "searchText": "16.9",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 1,
-          "searchText": "4.4"
+          "searchText": "4.4",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 11,
-          "searchText": "29.7"
+          "searchText": "29.7",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "anchorText": "tlac ratio"
         },
         "lcr": {
           "page": 11,
-          "searchText": "152"
+          "searchText": "152",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "page": 11,
-          "searchText": "120"
+          "searchText": "120",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "nim": {
           "page": 2,
-          "searchText": "2.31"
+          "searchText": "2.31",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "page": 11,
-          "searchText": "51.4"
+          "searchText": "51.4",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "anchorText": "efficiency ratio"
         },
         "roe": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
@@ -140,7 +171,8 @@
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
           "page": 1,
-          "searchText": "1,033"
+          "searchText": "1,033",
+          "anchorText": "net income"
         }
       }
     },
@@ -197,91 +229,119 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
-          "searchText": "$244,373"
+          "searchText": "$244,373",
+          "page": 183,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
-          "searchText": "$103,232"
+          "page": 106
         },
         "retailDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
-          "searchText": "$95,181"
+          "searchText": "$95,181",
+          "page": 131
         },
         "wholesaleDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
-          "searchText": "$232,730"
+          "searchText": "$232,730",
+          "page": 131,
+          "anchorText": "business and government"
         },
         "stableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
-          "searchText": "$27,781"
+          "searchText": "$27,781",
+          "page": 102,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
-          "searchText": "$36,883"
+          "searchText": "$36,883",
+          "page": 102,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
-          "searchText": "$35,445"
+          "searchText": "$35,445",
+          "page": 102,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
-          "searchText": "$75,157"
+          "searchText": "$75,157",
+          "page": 102,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
-          "searchText": "$435"
+          "searchText": "$435",
+          "page": 65
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
-          "searchText": "$136"
+          "searchText": "$136",
+          "page": 96,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 4,
-          "searchText": "13.7"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf"
         },
         "leverageRatio": {
           "page": 4,
-          "searchText": "4.4"
+          "searchText": "4.4",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 4,
-          "searchText": "31.2"
+          "searchText": "31.2",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "anchorText": "tlac ratio"
         },
         "lcr": {
           "page": 4,
-          "searchText": "150"
+          "searchText": "150",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "page": 4,
-          "searchText": "122"
+          "searchText": "122",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "nim": {
           "page": 8,
-          "searchText": "2.30"
+          "searchText": "2.30",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "page": 4,
-          "searchText": "54.1"
+          "searchText": "54.1",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "anchorText": "efficiency ratio"
         },
         "tier1CapitalRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
-          "page": 4,
-          "searchText": "15.9%"
+          "page": 4
         },
         "totalCapitalRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
-          "page": 4,
-          "searchText": "17.0%"
+          "page": 4
         },
         "roe": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
           "page": 4,
-          "searchText": "16.4%"
+          "searchText": "16.4%",
+          "anchorText": "return on common shareholders' equity"
         },
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
           "page": 4,
-          "searchText": "955"
+          "searchText": "955",
+          "anchorText": "net income"
         }
       }
     },
@@ -338,88 +398,121 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
-          "searchText": "$248,103"
+          "searchText": "$248,103",
+          "page": 19
         },
         "wholesaleFundingPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
-          "searchText": "$112,967"
+          "page": 38
         },
         "retailDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
-          "searchText": "$98,861"
+          "searchText": "$98,861",
+          "page": 40
         },
         "wholesaleDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
-          "searchText": "$246,450"
+          "searchText": "$246,450",
+          "page": 40,
+          "anchorText": "business and government"
         },
         "stableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
-          "searchText": "$28,502"
+          "searchText": "$28,502",
+          "page": 36,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
-          "searchText": "$39,635"
+          "searchText": "$39,635",
+          "page": 36,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
-          "searchText": "$37,067"
+          "searchText": "$37,067",
+          "page": 36,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
-          "searchText": "$75,448"
+          "searchText": "$75,448",
+          "page": 36,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
-          "searchText": "$458"
+          "searchText": "$458",
+          "page": 33
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
-          "searchText": "$128"
+          "searchText": "$128",
+          "page": 33,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.6"
+          "searchText": "13.6",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "anchorText": "cet1 capital ratio"
         },
         "tier1CapitalRatio": {
           "page": 26,
-          "searchText": "15.5"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf"
         },
         "totalCapitalRatio": {
           "page": 26,
-          "searchText": "17.1"
+          "searchText": "17.1",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 1,
-          "searchText": "4.3"
+          "searchText": "4.3",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 11,
-          "searchText": "31.2"
+          "searchText": "31.2",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "anchorText": "tlac ratio"
         },
         "lcr": {
           "page": 11,
-          "searchText": "154"
+          "searchText": "154",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "page": 11,
-          "searchText": "123"
+          "searchText": "123",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
           "page": 1,
-          "searchText": "16.7"
+          "searchText": "16.7",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf"
         },
         "nim": {
           "page": 2,
-          "searchText": "2.28"
+          "searchText": "2.28",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "page": 11,
-          "searchText": "51.7"
+          "searchText": "51.7",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "anchorText": "efficiency ratio"
         },
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
           "page": 1,
-          "searchText": "997"
+          "searchText": "997",
+          "anchorText": "net income"
         }
       }
     },
@@ -476,79 +569,112 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
-          "searchText": "$287,666"
+          "searchText": "$287,666",
+          "page": 72,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
-          "searchText": "$120,372"
+          "page": 41
         },
         "retailDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
-          "searchText": "$122,008"
+          "searchText": "$122,008",
+          "page": 43
         },
         "wholesaleDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
-          "searchText": "$258,089"
+          "searchText": "$258,089",
+          "page": 43,
+          "anchorText": "business and government"
         },
         "stableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
-          "searchText": "$30,447"
+          "searchText": "$30,447",
+          "page": 39,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
-          "searchText": "$51,449"
+          "searchText": "$51,449",
+          "page": 39,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
-          "searchText": "$37,508"
+          "searchText": "$37,508",
+          "page": 39,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
-          "searchText": "$84,921"
+          "searchText": "$84,921",
+          "page": 39,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
-          "searchText": "$563"
+          "searchText": "$563",
+          "page": 36
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
-          "searchText": "$125"
+          "searchText": "$125",
+          "page": 36,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.4"
+          "searchText": "13.4",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "anchorText": "cet1 capital ratio"
         },
         "tier1CapitalRatio": {
           "page": 87,
-          "searchText": "15.1"
+          "searchText": "15.1",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf"
         },
         "totalCapitalRatio": {
           "page": 30,
-          "searchText": "16.9"
+          "searchText": "16.9",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 1,
-          "searchText": "4.7"
+          "searchText": "4.7",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 13,
-          "searchText": "28.2"
+          "searchText": "28.2",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "anchorText": "tlac ratio"
         },
         "lcr": {
           "page": 13,
-          "searchText": "166"
+          "searchText": "166",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "page": 13,
-          "searchText": "127"
+          "searchText": "127",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "nim": {
           "page": 2,
-          "searchText": "2.30"
+          "searchText": "2.30",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "page": 13,
-          "searchText": "53.2"
+          "searchText": "53.2",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "anchorText": "efficiency ratio"
         },
         "roe": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
@@ -558,7 +684,8 @@
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
           "page": 1,
-          "searchText": "896"
+          "searchText": "896",
+          "anchorText": "net income"
         }
       }
     },
@@ -615,79 +742,112 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
-          "searchText": "$294,727"
+          "searchText": "$294,727",
+          "page": 74,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
-          "searchText": "$126,584"
+          "page": 43
         },
         "retailDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
-          "searchText": "$121,921"
+          "searchText": "$121,921",
+          "page": 45
         },
         "wholesaleDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
-          "searchText": "$274,461"
+          "searchText": "$274,461",
+          "page": 45,
+          "anchorText": "business and government"
         },
         "stableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
-          "searchText": "$30,886"
+          "searchText": "$30,886",
+          "page": 41,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
-          "searchText": "$52,348"
+          "searchText": "$52,348",
+          "page": 41,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
-          "searchText": "$39,366"
+          "searchText": "$39,366",
+          "page": 41,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
-          "searchText": "$86,933"
+          "searchText": "$86,933",
+          "page": 41,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
-          "searchText": "$616"
+          "searchText": "$616",
+          "page": 38
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
-          "searchText": "$99"
+          "searchText": "$99",
+          "page": 4,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.9"
+          "searchText": "13.9",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "anchorText": "cet1 capital ratio"
         },
         "tier1CapitalRatio": {
           "page": 26,
-          "searchText": "15.6"
+          "searchText": "15.6",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf"
         },
         "totalCapitalRatio": {
-          "page": 26,
-          "searchText": "17.8"
+          "page": 31,
+          "searchText": "17.8",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 1,
-          "searchText": "4.7"
+          "searchText": "4.7",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 13,
-          "searchText": "30.0"
+          "searchText": "30.0",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "anchorText": "tlac ratio"
         },
         "lcr": {
           "page": 13,
-          "searchText": "161"
+          "searchText": "161",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "page": 13,
-          "searchText": "123"
+          "searchText": "123",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "nim": {
           "page": 2,
-          "searchText": "2.25"
+          "searchText": "2.25",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "page": 13,
-          "searchText": "55.8"
+          "searchText": "55.8",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "anchorText": "efficiency ratio"
         },
         "roe": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
@@ -697,7 +857,8 @@
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
           "page": 1,
-          "searchText": "1,065"
+          "searchText": "1,065",
+          "anchorText": "net income"
         }
       }
     },
@@ -755,91 +916,119 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
-          "searchText": "$304,754"
+          "searchText": "$304,754",
+          "page": 189,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
-          "searchText": "$139,622"
+          "page": 110
         },
         "retailDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
-          "searchText": "$124,417"
+          "searchText": "$124,417",
+          "page": 135
         },
         "wholesaleDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
-          "searchText": "$297,512"
+          "searchText": "$297,512",
+          "page": 135,
+          "anchorText": "business and government"
         },
         "stableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
-          "searchText": "$31,166"
+          "searchText": "$31,166",
+          "page": 106,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
-          "searchText": "$53,517"
+          "searchText": "$53,517",
+          "page": 106,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
-          "searchText": "$43,187"
+          "searchText": "$43,187",
+          "page": 106,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
-          "searchText": "$88,687"
+          "searchText": "$88,687",
+          "page": 106,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
-          "searchText": "$683"
+          "searchText": "$683",
+          "page": 100
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
-          "searchText": "$99"
+          "searchText": "$99",
+          "page": 55,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 4,
-          "searchText": "13.8"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf"
         },
         "leverageRatio": {
           "page": 4,
-          "searchText": "4.5"
+          "searchText": "4.5",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 4,
-          "searchText": "29.7"
+          "searchText": "29.7",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
+          "anchorText": "tlac ratio"
         },
         "lcr": {
           "page": 4,
-          "searchText": "173"
+          "searchText": "173",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "page": 4,
-          "searchText": "124"
+          "searchText": "124",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "nim": {
           "page": 8,
-          "searchText": "2.25"
+          "searchText": "2.25",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "page": 4,
-          "searchText": "56.4"
+          "searchText": "56.4",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
+          "anchorText": "efficiency ratio"
         },
         "tier1CapitalRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
-          "page": 4,
-          "searchText": "15.1%"
+          "page": 4
         },
         "totalCapitalRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
-          "page": 4,
-          "searchText": "17.3%"
+          "page": 4
         },
         "roe": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
           "page": 4,
-          "searchText": "13.3%"
+          "searchText": "13.3%",
+          "anchorText": "return on common shareholders' equity"
         },
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
           "page": 4,
-          "searchText": "1,059"
+          "searchText": "1,059",
+          "anchorText": "net income"
         }
       }
     },
@@ -895,89 +1084,122 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "searchText": "$306,329"
+          "searchText": "$306,329",
+          "page": 69,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "searchText": "$149,645"
+          "page": 41
         },
         "retailDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "searchText": "$125,878"
+          "searchText": "$125,878",
+          "page": 43
         },
         "wholesaleDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "searchText": "$313,895"
+          "searchText": "$313,895",
+          "page": 43,
+          "anchorText": "business and government"
         },
         "stableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "searchText": "$31,471"
+          "searchText": "$31,471",
+          "page": 39,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "searchText": "$56,387"
+          "searchText": "$56,387",
+          "page": 39,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "searchText": "$46,105"
+          "searchText": "$46,105",
+          "page": 39,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "searchText": "$88,853"
+          "searchText": "$88,853",
+          "page": 39,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "searchText": "$719"
+          "searchText": "$719",
+          "page": 36
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "searchText": "$95"
+          "searchText": "$95",
+          "page": 36,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.7"
+          "searchText": "13.7",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "anchorText": "cet1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 29,
-          "searchText": "17.3"
+          "searchText": "17.3",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 1,
-          "searchText": "4.3"
+          "searchText": "4.3",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 13,
-          "searchText": "32.5"
+          "searchText": "32.5",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "anchorText": "tlac ratio"
         },
         "lcr": {
           "page": 13,
-          "searchText": "189"
+          "searchText": "189",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "page": 13,
-          "searchText": "120"
+          "searchText": "120",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
           "page": 15,
-          "searchText": "15.7"
+          "searchText": "15.7",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf"
         },
         "nim": {
           "page": 2,
-          "searchText": "2.27"
+          "searchText": "2.27",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "page": 13,
-          "searchText": "51.7"
+          "searchText": "51.7",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "anchorText": "efficiency ratio"
         },
         "tier1CapitalRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "page": 13,
-          "searchText": "15.1 %"
+          "page": 13
         },
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
           "page": 1,
-          "searchText": "1,254"
+          "searchText": "1,254",
+          "anchorText": "net income"
         }
       }
     },
@@ -1034,79 +1256,112 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
-          "searchText": "$314,250"
+          "searchText": "$314,250",
+          "page": 66,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
-          "searchText": "$146,820"
+          "page": 41
         },
         "retailDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
-          "searchText": "$127,836"
+          "searchText": "$127,836",
+          "page": 77
         },
         "wholesaleDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
-          "searchText": "$317,344"
+          "searchText": "$317,344",
+          "page": 77,
+          "anchorText": "business and government"
         },
         "stableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
-          "searchText": "$31,731"
+          "searchText": "$31,731",
+          "page": 39,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
-          "searchText": "$57,451"
+          "searchText": "$57,451",
+          "page": 39,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
-          "searchText": "$46,808"
+          "searchText": "$46,808",
+          "page": 39,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
-          "searchText": "$94,210"
+          "searchText": "$94,210",
+          "page": 39,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
-          "searchText": "$765"
+          "searchText": "$765",
+          "page": 11
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
-          "searchText": "$64"
+          "searchText": "$64",
+          "page": 10,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.5"
+          "searchText": "13.5",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "anchorText": "cet1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 30,
-          "searchText": "17.0"
+          "searchText": "17.0",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 1,
-          "searchText": "4.3"
+          "searchText": "4.3",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 13,
-          "searchText": "31.5"
+          "searchText": "31.5",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "anchorText": "tlac ratio"
         },
         "lcr": {
           "page": 13,
-          "searchText": "170"
+          "searchText": "170",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "page": 13,
-          "searchText": "118"
+          "searchText": "118",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
           "page": 1,
-          "searchText": "15.9"
+          "searchText": "15.9",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf"
         },
         "nim": {
           "page": 2,
-          "searchText": "2.26"
+          "searchText": "2.26",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "page": 13,
-          "searchText": "52.7"
+          "searchText": "52.7",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "anchorText": "efficiency ratio"
         },
         "tier1CapitalRatio": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
@@ -1116,7 +1371,8 @@
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
           "page": 1,
-          "searchText": "1,234"
+          "searchText": "1,234",
+          "anchorText": "net income"
         }
       }
     }

@@ -9,6 +9,10 @@ export interface SourceViewerTarget {
   url: string;
   page?: number; // when known, jump straight there; otherwise we search for searchText across the document
   searchText?: string;
+  // Label text preceding the figure. When present the value is located *after* this
+  // anchor, so a value that appears several times on a page (e.g. BMO reporting both
+  // ROE and CET1 at 13.0%) still highlights the correct line.
+  anchorText?: string;
   label: string;
 }
 
@@ -25,17 +29,79 @@ function normalize(s: string): string {
   return s.toLowerCase().replace(/\s+/g, " ").trim();
 }
 
-async function pageContainsText(page: import("pdfjs-dist").PDFPageProxy, searchText: string): Promise<boolean> {
+// Maximum distance (in normalized characters) between a label anchor and its value.
+// Wide enough to cross a table row's intervening columns, tight enough that we never
+// pair a label with a value from a different section.
+const ANCHOR_WINDOW = 240;
+
+// pdf.js emits a leading "$" as its own text item, so "$619,452" in the data becomes
+// "$ 619,452" in the extracted stream. Try the recorded form, the spaced form, and the
+// bare number so a currency figure still resolves.
+function valueVariants(searchText: string): string[] {
+  const v = normalize(searchText);
+  const out = [v];
+  if (v.includes("$")) {
+    out.push(v.replace(/\$\s*/g, "$ "));
+    out.push(v.replace(/\$\s*/g, "").trim());
+  }
+  return out.filter((s, i, a) => s && a.indexOf(s) === i);
+}
+
+// Index and matched length of the value belonging to `anchorText`. Falls back to the
+// first occurrence when no anchor is supplied or the anchor isn't on this page.
+function locateValue(combined: string, searchText: string, anchorText?: string): { idx: number; len: number } {
+  const variants = valueVariants(searchText);
+  if (anchorText) {
+    const anchor = normalize(anchorText);
+    let from = 0;
+    while (from <= combined.length) {
+      const aIdx = combined.indexOf(anchor, from);
+      if (aIdx === -1) break;
+      const searchStart = aIdx + anchor.length;
+      for (const value of variants) {
+        const vIdx = combined.indexOf(value, searchStart);
+        if (vIdx !== -1 && vIdx - searchStart <= ANCHOR_WINDOW) return { idx: vIdx, len: value.length };
+      }
+      from = aIdx + 1;
+    }
+  }
+  for (const value of variants) {
+    const i = combined.indexOf(value);
+    if (i !== -1) return { idx: i, len: value.length };
+  }
+  return { idx: -1, len: 0 };
+}
+
+// Normalized text of a page, plus per-item offsets, in one consistent space.
+async function pageText(page: import("pdfjs-dist").PDFPageProxy): Promise<string> {
   const textContent = await page.getTextContent();
-  const combined = (textContent.items as { str: string }[]).map((i) => i.str).join(" ");
-  return normalize(combined).includes(normalize(searchText));
+  return (textContent.items as { str: string }[])
+    .map((i) => normalize(i.str))
+    .filter(Boolean)
+    .join(" ");
+}
+
+async function pageContainsText(
+  page: import("pdfjs-dist").PDFPageProxy,
+  searchText: string,
+  anchorText?: string
+): Promise<boolean> {
+  const combined = (await pageText(page)) + " ";
+  if (anchorText && !combined.includes(normalize(anchorText))) return false;
+  return locateValue(combined, searchText, anchorText).idx !== -1;
 }
 
 // Renders one page of a PDF to canvas and, when a searchText is given, finds
 // it among that page's text items and returns a pixel rect (in viewport
 // space) to draw a highlight over — this is real text search against the
 // actual document content, not a guess.
-async function findHighlightRect(pdfjsLib: typeof import("pdfjs-dist"), page: import("pdfjs-dist").PDFPageProxy, viewport: import("pdfjs-dist").PageViewport, searchText: string): Promise<Rect | null> {
+async function findHighlightRect(
+  pdfjsLib: typeof import("pdfjs-dist"),
+  page: import("pdfjs-dist").PDFPageProxy,
+  viewport: import("pdfjs-dist").PageViewport,
+  searchText: string,
+  anchorText?: string
+): Promise<Rect | null> {
   const textContent = await page.getTextContent();
   const items = textContent.items as { str: string; transform: number[]; width: number; height: number }[];
 
@@ -55,10 +121,12 @@ async function findHighlightRect(pdfjsLib: typeof import("pdfjs-dist"), page: im
   }
 
   const normalizedSearch = normalize(searchText);
-  const idx = combined.indexOf(normalizedSearch);
+  // Anchored lookup: highlight the value that follows this metric's own label, not
+  // simply the first matching number on the page.
+  const { idx, len } = locateValue(combined, searchText, anchorText);
   if (idx === -1 || !normalizedSearch) return null;
 
-  const matchEnd = idx + normalizedSearch.length;
+  const matchEnd = idx + len;
   const matchingItems = ranges.filter((r) => r.end > idx && r.start < matchEnd).map((r) => r.item);
   if (matchingItems.length === 0) return null;
 
@@ -124,7 +192,7 @@ export function SourceViewerModal({ target, onClose }: { target: SourceViewerTar
           for (let p = 1; p <= cap; p++) {
             if (cancelled) return;
             const page = await doc.getPage(p);
-            if (await pageContainsText(page, target.searchText)) {
+            if (await pageContainsText(page, target.searchText, target.anchorText)) {
               setCurrentPage(p);
               found = true;
               break;
@@ -167,7 +235,7 @@ export function SourceViewerModal({ target, onClose }: { target: SourceViewerTar
       if (cancelled) return;
 
       if (target.searchText) {
-        const found = await findHighlightRect(pdfjsLib, page, viewport, target.searchText);
+        const found = await findHighlightRect(pdfjsLib, page, viewport, target.searchText, target.anchorText);
         if (cancelled) return;
         setRect(found);
         if (found) setSearchMissed(false);
@@ -179,7 +247,7 @@ export function SourceViewerModal({ target, onClose }: { target: SourceViewerTar
     return () => {
       cancelled = true;
     };
-  }, [status, currentPage, target.searchText]);
+  }, [status, currentPage, target.searchText, target.anchorText]);
 
   // If a known page number didn't contain the search text, try its immediate
   // neighbors once — reports are occasionally off-by-one against the page
@@ -195,7 +263,7 @@ export function SourceViewerModal({ target, onClose }: { target: SourceViewerTar
           if (candidate < 1 || candidate > numPages) continue;
           const page = await doc.getPage(candidate);
           const viewport = page.getViewport({ scale: 1.6 });
-          const found = await findHighlightRect(pdfjsLib, page, viewport, target.searchText!);
+          const found = await findHighlightRect(pdfjsLib, page, viewport, target.searchText!, target.anchorText);
           if (found && !cancelled) {
             setCurrentPage(candidate);
             return;

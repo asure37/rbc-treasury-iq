@@ -56,93 +56,132 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
-          "searchText": "$619,452"
+          "searchText": "$619,452",
+          "page": 24,
+          "anchorText": "deposits"
         },
         "wholesaleFundingPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
-          "searchText": "$345,178"
+          "searchText": "$345,178",
+          "page": 35
         },
         "retailDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
-          "searchText": "$401,452"
+          "searchText": "$401,452",
+          "page": 37,
+          "anchorText": "retail deposits"
         },
         "wholesaleDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
-          "searchText": "$170,428"
+          "searchText": "$170,428",
+          "page": 37,
+          "anchorText": "banks"
         },
         "stableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
-          "searchText": "$130,360"
+          "searchText": "$130,360",
+          "page": 37,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
-          "searchText": "$271,092"
+          "searchText": "$271,092",
+          "page": 37,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
-          "searchText": "$170,428"
+          "searchText": "$170,428",
+          "page": 37,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
-          "searchText": "$247,916"
+          "searchText": "$247,916",
+          "page": 37,
+          "anchorText": "non-operational deposits"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
-          "searchText": "$1,822"
+          "searchText": "$1,822",
+          "page": 30
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
-          "searchText": "$425"
+          "searchText": "$425",
+          "page": 30
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.0"
+          "searchText": "13.0",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
+          "anchorText": "cet1 ratio"
         },
         "tier1CapitalRatio": {
           "page": 4,
-          "searchText": "14.5"
+          "searchText": "14.5",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 4,
-          "searchText": "16.3"
+          "searchText": "16.3",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 4,
-          "searchText": "4.2"
+          "searchText": "4.2",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 4,
-          "searchText": "28.4"
+          "searchText": "28.4",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
         },
         "lcr": {
           "page": 1,
-          "searchText": "126"
+          "searchText": "126",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
+          "anchorText": "lcr"
         },
         "nsfr": {
           "page": 4,
-          "searchText": "114"
+          "searchText": "114",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
-          "page": 1,
-          "searchText": "15.5"
+          "page": 4,
+          "searchText": "15.5",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
+          "anchorText": "return on common equity (roe)"
         },
         "nim": {
           "page": 4,
-          "searchText": "1.58"
+          "searchText": "1.58",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
+          "anchorText": "net interest margin (nim)"
         },
         "efficiencyRatio": {
           "page": 11,
-          "searchText": "58.8"
+          "searchText": "58.8",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
+          "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
           "page": 4,
-          "searchText": "2,076,107"
+          "searchText": "2,076,107",
+          "anchorText": "total assets"
         },
         "netIncomeMillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
           "page": 1,
-          "searchText": "4,486"
+          "searchText": "4,486",
+          "anchorText": "net income"
         }
       }
     },
@@ -197,89 +236,126 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
-          "searchText": "$987,417"
+          "searchText": "$987,417",
+          "page": 187,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
-          "searchText": "$356,417"
+          "page": 91
         },
         "retailDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
-          "searchText": "$404,173"
+          "searchText": "$404,173",
+          "page": 98,
+          "anchorText": "retail deposits"
         },
         "wholesaleDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
-          "searchText": "$171,270"
+          "searchText": "$171,270",
+          "page": 98,
+          "anchorText": "banks"
         },
         "stableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
-          "searchText": "$129,256"
+          "searchText": "$129,256",
+          "page": 98,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
-          "searchText": "$274,917"
+          "searchText": "$274,917",
+          "page": 98,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
-          "searchText": "$171,270"
+          "searchText": "$171,270",
+          "page": 98,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
-          "searchText": "$256,251"
+          "searchText": "$256,251",
+          "page": 98,
+          "anchorText": "non-operational deposits"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
-          "searchText": "$2,076"
+          "searchText": "$2,076",
+          "page": 88
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
-          "searchText": "$502"
+          "searchText": "$502",
+          "page": 26,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 3,
-          "searchText": "13.2"
+          "searchText": "13.2",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "cet1 ratio"
         },
         "tier1CapitalRatio": {
           "page": 3,
-          "searchText": "14.6"
+          "searchText": "14.6",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 3,
-          "searchText": "16.4"
+          "searchText": "16.4",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 3,
-          "searchText": "4.2"
+          "searchText": "4.2",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 3,
-          "searchText": "29.3"
+          "searchText": "29.3",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
         },
         "lcr": {
           "page": 3,
-          "searchText": "128"
+          "searchText": "128",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "lcr"
         },
         "nsfr": {
           "page": 3,
-          "searchText": "114"
+          "searchText": "114",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "nsfr"
         },
         "roe": {
           "page": 3,
-          "searchText": "14.3"
+          "searchText": "14.3",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "return on common equity (roe)"
         },
         "nim": {
           "page": 3,
-          "searchText": "1.68"
+          "searchText": "1.68",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "net interest margin (nim)"
         },
         "totalAssetsBillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
           "page": 3,
-          "searchText": "2,171,582"
+          "searchText": "2,171,582",
+          "anchorText": "total assets"
         },
         "netIncomeMillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
           "page": 3,
-          "searchText": "4,222"
+          "searchText": "4,222",
+          "anchorText": "net income"
         }
       }
     },
@@ -333,93 +409,132 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
-          "searchText": "$1,012,650"
+          "searchText": "$1,012,650",
+          "page": 48
         },
         "wholesaleFundingPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
-          "searchText": "$379,641"
+          "searchText": "$379,641",
+          "page": 31
         },
         "retailDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
-          "searchText": "$420,412"
+          "searchText": "$420,412",
+          "page": 33,
+          "anchorText": "retail deposits"
         },
         "wholesaleDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
-          "searchText": "$173,949"
+          "searchText": "$173,949",
+          "page": 33,
+          "anchorText": "banks"
         },
         "stableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
-          "searchText": "$131,221"
+          "searchText": "$131,221",
+          "page": 33,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
-          "searchText": "$289,191"
+          "searchText": "$289,191",
+          "page": 33,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
-          "searchText": "$173,949"
+          "searchText": "$173,949",
+          "page": 33,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
-          "searchText": "$284,418"
+          "searchText": "$284,418",
+          "page": 33,
+          "anchorText": "non-operational deposits"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
-          "searchText": "$2,107"
+          "searchText": "$2,107",
+          "page": 26
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
-          "searchText": "$589"
+          "searchText": "$589",
+          "page": 6,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.2"
+          "searchText": "13.2",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "anchorText": "cet1 ratio"
         },
         "tier1CapitalRatio": {
           "page": 4,
-          "searchText": "14.6"
+          "searchText": "14.6",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 4,
-          "searchText": "16.4"
+          "searchText": "16.4",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 4,
-          "searchText": "4.4"
+          "searchText": "4.4",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 4,
-          "searchText": "29.8"
+          "searchText": "29.8",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "anchorText": "tlac ratio"
         },
         "lcr": {
           "page": 1,
-          "searchText": "128"
+          "searchText": "128",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "anchorText": "lcr"
         },
         "nsfr": {
           "page": 4,
-          "searchText": "115"
+          "searchText": "115",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
-          "page": 1,
-          "searchText": "16.8"
+          "page": 4,
+          "searchText": "16.8",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "anchorText": "return on common equity (roe)"
         },
         "nim": {
           "page": 4,
-          "searchText": "1.60"
+          "searchText": "1.60",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "anchorText": "net interest margin (nim)"
         },
         "efficiencyRatio": {
           "page": 10,
-          "searchText": "55.3"
+          "searchText": "55.3",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
           "page": 4,
-          "searchText": "2,191,026"
+          "searchText": "2,191,026",
+          "anchorText": "total assets"
         },
         "netIncomeMillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
           "page": 1,
-          "searchText": "5,131"
+          "searchText": "5,131",
+          "anchorText": "net income"
         }
       }
     },
@@ -474,93 +589,132 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
-          "searchText": "$1,014,431"
+          "searchText": "$1,014,431",
+          "page": 51
         },
         "wholesaleFundingPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
-          "searchText": "$387,336"
+          "searchText": "$387,336",
+          "page": 35
         },
         "retailDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
-          "searchText": "$419,251"
+          "searchText": "$419,251",
+          "page": 37,
+          "anchorText": "retail deposits"
         },
         "wholesaleDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
-          "searchText": "$175,308"
+          "searchText": "$175,308",
+          "page": 37,
+          "anchorText": "banks"
         },
         "stableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
-          "searchText": "$132,181"
+          "searchText": "$132,181",
+          "page": 37,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
-          "searchText": "$287,070"
+          "searchText": "$287,070",
+          "page": 37,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
-          "searchText": "$175,308"
+          "searchText": "$175,308",
+          "page": 37,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
-          "searchText": "$298,343"
+          "searchText": "$298,343",
+          "page": 37,
+          "anchorText": "non-operational deposits"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
-          "searchText": "$2,436"
+          "searchText": "$2,436",
+          "page": 30
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
-          "searchText": "$521"
+          "searchText": "$521",
+          "page": 7,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.2"
+          "searchText": "13.2",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "cet1 ratio"
         },
         "tier1CapitalRatio": {
           "page": 5,
-          "searchText": "14.7"
+          "searchText": "14.7",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 5,
-          "searchText": "16.5"
+          "searchText": "16.5",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 5,
-          "searchText": "4.3"
+          "searchText": "4.3",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 5,
-          "searchText": "31.0"
+          "searchText": "31.0",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
         },
         "lcr": {
           "page": 1,
-          "searchText": "131"
+          "searchText": "131",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "lcr"
         },
         "nsfr": {
           "page": 5,
-          "searchText": "116"
+          "searchText": "116",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
           "page": 5,
-          "searchText": "14.2"
+          "searchText": "14.2",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "return on common equity (roe)"
         },
         "nim": {
           "page": 5,
-          "searchText": "1.64"
+          "searchText": "1.64",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "net interest margin (nim)"
         },
         "efficiencyRatio": {
           "page": 11,
-          "searchText": "55.7"
+          "searchText": "55.7",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
           "page": 5,
-          "searchText": "2,242,133"
+          "searchText": "2,242,133",
+          "anchorText": "total assets"
         },
         "netIncomeMillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "page": 2,
-          "searchText": "4,390"
+          "page": 5,
+          "searchText": "4,390",
+          "anchorText": "net income"
         }
       }
     },
@@ -614,93 +768,131 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "searchText": "$1,032,732"
+          "searchText": "$1,032,732",
+          "page": 51
         },
         "wholesaleFundingPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "searchText": "$406,600"
+          "searchText": "$406,600",
+          "page": 35
         },
         "retailDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "searchText": "$407,402"
+          "searchText": "$407,402",
+          "page": 37,
+          "anchorText": "retail deposits"
         },
         "wholesaleDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "searchText": "$184,293"
+          "searchText": "$184,293",
+          "page": 37,
+          "anchorText": "banks"
         },
         "stableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "searchText": "$133,815"
+          "searchText": "$133,815",
+          "page": 37,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "searchText": "$273,587"
+          "searchText": "$273,587",
+          "page": 37,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "searchText": "$184,293"
+          "searchText": "$184,293",
+          "page": 37,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "searchText": "$313,956"
+          "searchText": "$313,956",
+          "page": 37,
+          "anchorText": "non-operational deposits"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "searchText": "$2,506"
+          "searchText": "$2,506",
+          "page": 30
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "searchText": "$389"
+          "searchText": "$389",
+          "page": 30
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.2"
+          "searchText": "13.2",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "cet1 ratio"
         },
         "tier1CapitalRatio": {
           "page": 5,
-          "searchText": "14.8"
+          "searchText": "14.8",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 5,
-          "searchText": "16.6"
+          "searchText": "16.6",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 5,
-          "searchText": "4.5"
+          "searchText": "4.5",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 5,
-          "searchText": "30.9"
+          "searchText": "30.9",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
         },
         "lcr": {
           "page": 1,
-          "searchText": "129"
+          "searchText": "129",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "lcr"
         },
         "nsfr": {
           "page": 5,
-          "searchText": "114"
+          "searchText": "114",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
-          "page": 1,
-          "searchText": "17.3"
+          "page": 5,
+          "searchText": "17.3",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "return on common equity (roe)"
         },
         "nim": {
           "page": 5,
-          "searchText": "1.61"
+          "searchText": "1.61",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "net interest margin (nim)"
         },
         "efficiencyRatio": {
           "page": 11,
-          "searchText": "54.4"
+          "searchText": "54.4",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
           "page": 5,
-          "searchText": "2,227,893"
+          "searchText": "2,227,893",
+          "anchorText": "total assets"
         },
         "netIncomeMillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
           "page": 2,
-          "searchText": "5,414"
+          "searchText": "5,414",
+          "anchorText": "net income"
         }
       }
     },
@@ -755,89 +947,126 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
-          "searchText": "$1,049,515"
+          "searchText": "$1,049,515",
+          "page": 182,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
-          "searchText": "$415,852"
+          "searchText": "$415,852",
+          "page": 96
         },
         "retailDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
-          "searchText": "$414,423"
+          "searchText": "$414,423",
+          "page": 98,
+          "anchorText": "retail deposits"
         },
         "wholesaleDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
-          "searchText": "$185,037"
+          "searchText": "$185,037",
+          "page": 98,
+          "anchorText": "banks"
         },
         "stableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
-          "searchText": "$135,160"
+          "searchText": "$135,160",
+          "page": 98,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
-          "searchText": "$279,263"
+          "searchText": "$279,263",
+          "page": 98,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
-          "searchText": "$185,037"
+          "searchText": "$185,037",
+          "page": 98,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
-          "searchText": "$317,728"
+          "searchText": "$317,728",
+          "page": 98,
+          "anchorText": "non-operational deposits"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
-          "searchText": "$2,648"
+          "searchText": "$2,648",
+          "page": 88
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
-          "searchText": "$373"
+          "searchText": "$373",
+          "page": 62
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.5"
+          "searchText": "13.5",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "cet1 ratio"
         },
         "tier1CapitalRatio": {
           "page": 3,
-          "searchText": "15.1"
+          "searchText": "15.1",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 3,
-          "searchText": "16.8"
+          "searchText": "16.8",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 3,
-          "searchText": "4.4"
+          "searchText": "4.4",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 3,
-          "searchText": "31.5"
+          "searchText": "31.5",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
         },
         "lcr": {
           "page": 1,
-          "searchText": "127"
+          "searchText": "127",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "lcr"
         },
         "nsfr": {
           "page": 3,
-          "searchText": "112"
+          "searchText": "112",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "nsfr"
         },
         "roe": {
-          "page": 2,
-          "searchText": "16.8"
+          "page": 3,
+          "searchText": "16.8",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "return on common equity (roe)"
         },
         "nim": {
           "page": 3,
-          "searchText": "1.62"
+          "searchText": "1.62",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "anchorText": "net interest margin (nim)"
         },
         "totalAssetsBillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
           "page": 3,
-          "searchText": "2,325,006"
+          "searchText": "2,325,006",
+          "anchorText": "total assets"
         },
         "netIncomeMillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
           "page": 2,
-          "searchText": "5,434"
+          "searchText": "5,434",
+          "anchorText": "net income"
         }
       }
     },
@@ -892,69 +1121,92 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
-          "searchText": "$1,062,282"
+          "searchText": "$1,062,282",
+          "page": 48
         },
         "wholesaleFundingPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
-          "searchText": "$431,622"
+          "searchText": "$431,622",
+          "page": 31
         },
         "retailDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
-          "searchText": "$417,179"
+          "searchText": "$417,179",
+          "page": 33,
+          "anchorText": "retail deposits"
         },
         "wholesaleDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
-          "searchText": "$191,339"
+          "searchText": "$191,339",
+          "page": 33,
+          "anchorText": "banks"
         },
         "stableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
-          "searchText": "$136,532"
+          "searchText": "$136,532",
+          "page": 33,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
-          "searchText": "$280,647"
+          "searchText": "$280,647",
+          "page": 33,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
-          "searchText": "$191,339"
+          "searchText": "$191,339",
+          "page": 33,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
-          "searchText": "$331,915"
+          "searchText": "$331,915",
+          "page": 33,
+          "anchorText": "non-operational deposits"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
-          "searchText": "$2,641"
+          "searchText": "$2,641",
+          "page": 27
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
-          "searchText": "$397"
+          "searchText": "$397",
+          "page": 19
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.7"
+          "searchText": "13.7",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1release.pdf",
+          "anchorText": "cet1 ratio"
         },
         "lcr": {
           "page": 1,
-          "searchText": "124"
+          "searchText": "124",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1release.pdf",
+          "anchorText": "lcr"
         },
         "nsfr": {
           "page": 3,
-          "searchText": "111"
+          "searchText": "111",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1release.pdf",
+          "anchorText": "nsfr"
         },
         "roe": {
           "page": 1,
-          "searchText": "17.6"
+          "searchText": "17.6",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1release.pdf"
         },
         "totalCapitalRatio": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1release.pdf",
-          "page": 5,
-          "searchText": "16.8%"
+          "page": 5
         },
         "netIncomeMillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1release.pdf",
           "page": 2,
-          "searchText": "5,785"
+          "searchText": "5,785",
+          "anchorText": "net income"
         }
       }
     },
@@ -1008,93 +1260,131 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
-          "searchText": "$1,085,470"
+          "searchText": "$1,085,470",
+          "page": 47
         },
         "wholesaleFundingPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
-          "searchText": "$444,147"
+          "searchText": "$444,147",
+          "page": 33
         },
         "retailDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
-          "searchText": "$421,538"
+          "searchText": "$421,538",
+          "page": 35,
+          "anchorText": "retail deposits"
         },
         "wholesaleDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
-          "searchText": "$189,673"
+          "searchText": "$189,673",
+          "page": 35,
+          "anchorText": "banks"
         },
         "stableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
-          "searchText": "$149,885"
+          "searchText": "$149,885",
+          "page": 35,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
-          "searchText": "$271,653"
+          "searchText": "$271,653",
+          "page": 35,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
-          "searchText": "$189,673"
+          "searchText": "$189,673",
+          "page": 35,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
-          "searchText": "$333,390"
+          "searchText": "$333,390",
+          "page": 35,
+          "anchorText": "non-operational deposits"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
-          "searchText": "$2,711"
+          "searchText": "$2,711",
+          "page": 27
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
-          "searchText": "$381"
+          "searchText": "$381",
+          "page": 27
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.5"
+          "searchText": "13.5",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "anchorText": "cet1 ratio"
         },
         "tier1CapitalRatio": {
           "page": 4,
-          "searchText": "15.0"
+          "searchText": "15.0",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 4,
-          "searchText": "16.9"
+          "searchText": "16.9",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 4,
-          "searchText": "4.3"
+          "searchText": "4.3",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 4,
-          "searchText": "31.4"
+          "searchText": "31.4",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
         },
         "lcr": {
           "page": 1,
-          "searchText": "126"
+          "searchText": "126",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "anchorText": "lcr"
         },
         "nsfr": {
           "page": 4,
-          "searchText": "111"
+          "searchText": "111",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
-          "page": 1,
-          "searchText": "17.2"
+          "page": 4,
+          "searchText": "17.2",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "anchorText": "return on common equity (roe)"
         },
         "nim": {
           "page": 4,
-          "searchText": "1.58"
+          "searchText": "1.58",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "anchorText": "net interest margin (nim)"
         },
         "efficiencyRatio": {
           "page": 10,
-          "searchText": "54.1"
+          "searchText": "54.1",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
           "page": 4,
-          "searchText": "2,396,080"
+          "searchText": "2,396,080",
+          "anchorText": "total assets"
         },
         "netIncomeMillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
-          "page": 2,
-          "searchText": "5,509"
+          "page": 4,
+          "searchText": "5,509",
+          "anchorText": "net income"
         }
       }
     }

@@ -61,63 +61,83 @@
       "sourceRefs": {
         "tier1CapitalRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "14.8"
+          "searchText": "14.8",
+          "page": 7,
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "17.1"
+          "searchText": "17.1",
+          "page": 7,
+          "anchorText": "total capital ratio"
         },
         "lcr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "129"
+          "searchText": "129",
+          "page": 7,
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "116"
+          "searchText": "116",
+          "page": 7,
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "loansToAssetsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "48.11"
+          "page": 3
         },
         "retailDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "34.02"
+          "page": 45
         },
         "wholesaleDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "65.98"
+          "page": 6
         },
         "loanToDepositRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "70.24"
+          "page": 7
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "1,629"
+          "searchText": "1,629",
+          "page": 41
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "294"
+          "searchText": "294",
+          "page": 26
         },
         "stableDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "138.9"
+          "searchText": "138.9",
+          "page": 45,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "158.7"
+          "searchText": "158.7",
+          "page": 45,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "146.6"
+          "searchText": "146.6",
+          "page": 45,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "134.6"
+          "searchText": "134.6",
+          "page": 45,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "wholesaleFundingPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "searchText": "$257.3 billion"
+          "searchText": "$257.3 billion",
+          "page": 43,
+          "anchorText": "wholesale funding"
         }
       }
     },
@@ -172,48 +192,49 @@
       },
       "sourceRefs": {
         "loanToDepositRatio": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
-          "searchText": "$682,372"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "searchText": "$682,372",
+          "page": 25
         },
         "wholesaleFundingPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
-          "searchText": "$255,511"
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
         },
         "retailDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
-          "searchText": "$330,413"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Suppq424.pdf",
+          "searchText": "$330,413",
+          "page": 21,
+          "anchorText": "individuals"
         },
         "wholesaleDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
-          "searchText": "$33,266"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Suppq424.pdf",
+          "searchText": "$33,266",
+          "page": 21,
+          "anchorText": "banks"
         },
         "stableDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
-          "searchText": "$139.9"
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
         },
         "lessStableDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
-          "searchText": "$162.4"
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
         },
         "operationalDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
-          "searchText": "$153.5"
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
         },
         "nonOperationalDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
-          "searchText": "$140.0"
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
         },
         "irrbbEveSensitivityPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
-          "searchText": "$1,483"
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
         },
         "irrbbNiiSensitivityPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
-          "searchText": "$367"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "searchText": "$367",
+          "page": 20,
+          "anchorText": "net interest income"
         },
         "loansToAssetsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "48.12"
+          "page": 2
         }
       }
     },
@@ -272,63 +293,81 @@
       "sourceRefs": {
         "nim": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "1.62"
+          "searchText": "1.62",
+          "page": 6,
+          "anchorText": "net interest margin"
         },
         "totalAssetsBillions": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "1468.093"
+          "page": 2
         },
         "lcr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "128"
+          "searchText": "128",
+          "page": 6,
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "116"
+          "searchText": "116",
+          "page": 6,
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "loansToAssetsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "46.95"
+          "page": 2
         },
         "retailDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "33.02"
+          "page": 37
         },
         "wholesaleDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "61.29"
+          "page": 3
         },
         "loanToDepositRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "69.62"
+          "page": 6
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "1,627"
+          "searchText": "1,627",
+          "page": 33
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "236"
+          "searchText": "236",
+          "page": 27
         },
         "stableDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "143"
+          "searchText": "143",
+          "page": 37,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "168"
+          "searchText": "168",
+          "page": 37,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "161.2"
+          "searchText": "161.2",
+          "page": 37,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "147.4"
+          "searchText": "147.4",
+          "page": 37,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "wholesaleFundingPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "searchText": "$263.4 billion"
+          "searchText": "$263.4 billion",
+          "page": 35,
+          "anchorText": "wholesale funding"
         }
       }
     },
@@ -387,63 +426,82 @@
       "sourceRefs": {
         "efficiencyRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "57.8"
+          "searchText": "57.8",
+          "page": 7,
+          "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "1440.269"
+          "page": 2
         },
         "lcr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "134"
+          "searchText": "134",
+          "page": 6,
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "117"
+          "searchText": "117",
+          "page": 6,
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "loansToAssetsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "46.95"
+          "page": 2
         },
         "retailDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "33.16"
+          "page": 38
         },
         "wholesaleDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "61.42"
+          "page": 5
         },
         "loanToDepositRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "71.08"
+          "page": 6
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "1,603"
+          "searchText": "1,603",
+          "page": 33
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "242"
+          "searchText": "242",
+          "page": 12,
+          "anchorText": "net interest income"
         },
         "stableDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "144.6"
+          "searchText": "144.6",
+          "page": 38,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "170.4"
+          "searchText": "170.4",
+          "page": 38,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "157.4"
+          "searchText": "157.4",
+          "page": 38,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "141.5"
+          "searchText": "141.5",
+          "page": 38,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "wholesaleFundingPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "searchText": "$258.8 billion"
+          "searchText": "$258.8 billion",
+          "page": 36,
+          "anchorText": "wholesale funding"
         }
       }
     },
@@ -499,51 +557,66 @@
       "sourceRefs": {
         "efficiencyRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "searchText": "56.8"
+          "searchText": "56.8",
+          "page": 6,
+          "anchorText": "efficiency ratio"
         },
         "loansToAssetsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "searchText": "47.33"
+          "page": 2
         },
         "retailDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "searchText": "32.67"
+          "page": 1
         },
         "wholesaleDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "searchText": "61.59"
+          "page": 3
         },
         "loanToDepositRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "searchText": "71.46"
+          "page": 6
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "searchText": "1,744"
+          "searchText": "1,744",
+          "page": 37
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "searchText": "353"
+          "searchText": "353",
+          "page": 22,
+          "anchorText": "net interest income"
         },
         "stableDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "searchText": "141.8"
+          "searchText": "141.8",
+          "page": 41,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "searchText": "165.2"
+          "searchText": "165.2",
+          "page": 41,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "searchText": "158.1"
+          "searchText": "158.1",
+          "page": 41,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "searchText": "138.6"
+          "searchText": "138.6",
+          "page": 41,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "wholesaleFundingPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "searchText": "$248.4 billion"
+          "searchText": "$248.4 billion",
+          "page": 39,
+          "anchorText": "wholesale funding"
         }
       }
     },
@@ -600,48 +673,49 @@
       },
       "sourceRefs": {
         "loanToDepositRatio": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
-          "searchText": "$682,922"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "searchText": "$682,922",
+          "page": 4,
+          "anchorText": "loans and acceptances"
         },
         "wholesaleFundingPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
-          "searchText": "$258.6"
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
         },
         "retailDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
-          "searchText": "$306,922"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Suppq425.pdf",
+          "searchText": "$306,922",
+          "page": 21,
+          "anchorText": "individuals"
         },
         "wholesaleDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
-          "searchText": "$27,621"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Suppq425.pdf",
+          "searchText": "$27,621",
+          "page": 21,
+          "anchorText": "banks"
         },
         "stableDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
-          "searchText": "$141.2"
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
         },
         "lessStableDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
-          "searchText": "$164.3"
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
         },
         "operationalDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
-          "searchText": "$163.0"
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
         },
         "nonOperationalDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
-          "searchText": "$141.3"
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
         },
         "irrbbEveSensitivityPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
-          "searchText": "$1,736"
+          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
         },
         "irrbbNiiSensitivityPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
-          "searchText": "$357"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "searchText": "$357",
+          "page": 6
         },
         "loansToAssetsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "45.9"
+          "page": 2
         }
       }
     },
@@ -700,96 +774,129 @@
       "sourceRefs": {
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.1"
+          "searchText": "13.1",
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "anchorText": "common equity tier 1 (cet1) ratio"
         },
         "tier1CapitalRatio": {
           "page": 6,
-          "searchText": "14.8"
+          "searchText": "14.8",
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 6,
-          "searchText": "16.9"
+          "searchText": "16.9",
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 6,
-          "searchText": "4.4"
+          "searchText": "4.4",
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 6,
-          "searchText": "29.1"
+          "searchText": "29.1",
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "anchorText": "tlac ratio"
         },
         "roe": {
           "page": 1,
-          "searchText": "12.1"
+          "searchText": "12.1",
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "anchorText": "reported return on equity (roe)"
         },
         "efficiencyRatio": {
           "page": 6,
-          "searchText": "58.6"
+          "searchText": "58.6",
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "anchorText": "efficiency ratio"
         },
         "nim": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "1.68"
+          "searchText": "1.68",
+          "page": 7,
+          "anchorText": "net interest margin"
         },
         "totalAssetsBillions": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "1458.132"
+          "page": 2
         },
         "lcr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "126"
+          "searchText": "126",
+          "page": 6,
+          "anchorText": "liquidity coverage ratio"
         },
         "nsfr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "116"
+          "searchText": "116",
+          "page": 6,
+          "anchorText": "net stable funding ratio"
         },
         "loansToAssetsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "45.9"
+          "page": 2
         },
         "retailDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "31.19"
+          "page": 33
         },
         "wholesaleDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "62.76"
+          "page": 3
         },
         "loanToDepositRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "70.63"
+          "page": 6
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "2,077"
+          "searchText": "2,077",
+          "page": 30
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "260"
+          "searchText": "260",
+          "page": 19
         },
         "stableDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "141.1"
+          "searchText": "141.1",
+          "page": 33,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "162.8"
+          "searchText": "162.8",
+          "page": 33,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "173.5"
+          "searchText": "173.5",
+          "page": 33,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "144.9"
+          "searchText": "144.9",
+          "page": 33,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "wholesaleFundingPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "searchText": "$253.6 billion"
+          "searchText": "$253.6 billion",
+          "page": 31,
+          "anchorText": "wholesale funding"
         },
         "netIncomeMillions": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
           "page": 1,
-          "searchText": "2,489"
+          "searchText": "2,489",
+          "anchorText": "reported net income"
         }
       }
     },
@@ -850,92 +957,125 @@
       "sourceRefs": {
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.0"
+          "searchText": "13.0",
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "anchorText": "common equity tier 1 (cet1) ratio"
         },
         "leverageRatio": {
           "page": 7,
-          "searchText": "4.3"
+          "searchText": "4.3",
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 7,
-          "searchText": "29.0"
+          "searchText": "29.0",
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "anchorText": "tlac ratio"
         },
         "roe": {
           "page": 1,
-          "searchText": "13.0"
+          "searchText": "13.0",
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "anchorText": "reported return on equity (roe)"
         },
         "efficiencyRatio": {
           "page": 7,
-          "searchText": "55.7"
+          "searchText": "55.7",
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
+          "anchorText": "efficiency ratio"
         },
         "tier1CapitalRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "14.7"
+          "searchText": "14.7",
+          "page": 7,
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "16.9"
+          "searchText": "16.9",
+          "page": 7,
+          "anchorText": "total capital ratio"
         },
         "nim": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "1.61"
+          "searchText": "1.61",
+          "page": 7,
+          "anchorText": "net interest margin"
         },
         "lcr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "128"
+          "searchText": "128",
+          "page": 7,
+          "anchorText": "liquidity coverage ratio"
         },
         "nsfr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "114"
+          "searchText": "114",
+          "page": 7,
+          "anchorText": "net stable funding ratio"
         },
         "loansToAssetsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "45.34"
+          "page": 3
         },
         "retailDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "30.41"
+          "page": 38
         },
         "wholesaleDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "63.13"
+          "page": 15
         },
         "loanToDepositRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "70.85"
+          "page": 7
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "2,059"
+          "searchText": "2,059",
+          "page": 34
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "282"
+          "searchText": "282",
+          "page": 32
         },
         "stableDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "139.7"
+          "searchText": "139.7",
+          "page": 38,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "157.9"
+          "searchText": "157.9",
+          "page": 38,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "166.2"
+          "searchText": "166.2",
+          "page": 38,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "145.5"
+          "searchText": "145.5",
+          "page": 38,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "wholesaleFundingPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "searchText": "$264.6 billion"
+          "searchText": "$264.6 billion",
+          "page": 36,
+          "anchorText": "wholesale funding"
         },
         "netIncomeMillions": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
           "page": 1,
-          "searchText": "2,630"
+          "searchText": "2,630",
+          "anchorText": "reported net income"
         }
       }
     }

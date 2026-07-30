@@ -56,63 +56,90 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$946,136"
+          "searchText": "$946,136",
+          "page": 19
         },
         "retailDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$490,695"
+          "searchText": "$490,695",
+          "page": 19
         },
         "wholesaleDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$36,239"
+          "searchText": "$36,239",
+          "page": 19
         },
         "cet1Ratio": {
           "page": 2,
-          "searchText": "12.8"
+          "searchText": "12.8",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-earnings-newsrelease-en.pdf",
+          "anchorText": "common equity tier 1 capital ratio"
         },
         "tier1CapitalRatio": {
           "page": 4,
-          "searchText": "14.6"
+          "searchText": "14.6",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-earnings-newsrelease-en.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 4,
-          "searchText": "16.3"
+          "searchText": "16.3",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-earnings-newsrelease-en.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 4,
-          "searchText": "4.1"
+          "searchText": "4.1",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-earnings-newsrelease-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 4,
-          "searchText": "29.1"
+          "searchText": "29.1",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-earnings-newsrelease-en.pdf",
+          "anchorText": "tlac ratio"
         },
         "efficiencyRatio": {
           "page": 4,
-          "searchText": "77.7"
+          "searchText": "77.7",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-earnings-newsrelease-en.pdf",
+          "anchorText": "efficiency ratio"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
-          "searchText": "(1,880) $ (2,485)"
+          "searchText": "(1,880) $ (2,485)",
+          "page": 32,
+          "anchorText": "eve sensitivity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
-          "searchText": "346 $ 785"
+          "searchText": "346 $ 785",
+          "page": 32,
+          "anchorText": "nii sensitivity"
         },
         "stableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
-          "searchText": "262,642"
+          "searchText": "262,642",
+          "page": 38,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
-          "searchText": "222,292"
+          "searchText": "222,292",
+          "page": 38,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
-          "searchText": "128,024"
+          "searchText": "128,024",
+          "page": 38,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
-          "searchText": "205,057"
+          "searchText": "205,057",
+          "page": 38,
+          "anchorText": "non-operational deposits (all counterparties)"
         }
       }
     },
@@ -167,76 +194,108 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
-          "searchText": "$957,643"
+          "searchText": "$957,643",
+          "page": 125,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
-          "searchText": "$457,506"
+          "page": 124
         },
         "retailDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
-          "searchText": "$497,909"
+          "searchText": "$497,909",
+          "page": 125
         },
         "wholesaleDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
-          "searchText": "$57,698"
+          "searchText": "$57,698",
+          "page": 125,
+          "anchorText": "banks"
         },
         "stableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
-          "searchText": "$262,831"
+          "searchText": "$262,831",
+          "page": 121,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
-          "searchText": "$223,333"
+          "searchText": "$223,333",
+          "page": 121,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
-          "searchText": "$132,853"
+          "searchText": "$132,853",
+          "page": 121,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
-          "searchText": "$215,462"
+          "searchText": "$215,462",
+          "page": 121,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
-          "searchText": "$2,489"
+          "searchText": "$2,489",
+          "page": 111,
+          "anchorText": "eve sensitivity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
-          "searchText": "$720"
+          "searchText": "$720",
+          "page": 111,
+          "anchorText": "nii sensitivity"
         },
         "cet1Ratio": {
           "page": 2,
-          "searchText": "13.1"
+          "searchText": "13.1",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-q4-earnings-newsrelease-en.pdf",
+          "anchorText": "common equity tier 1 capital ratio"
         },
         "tier1CapitalRatio": {
           "page": 4,
-          "searchText": "14.8"
+          "searchText": "14.8",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-q4-earnings-newsrelease-en.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 4,
-          "searchText": "16.8"
+          "searchText": "16.8",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-q4-earnings-newsrelease-en.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 4,
-          "searchText": "4.2"
+          "searchText": "4.2",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-q4-earnings-newsrelease-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 4,
-          "searchText": "28.7"
+          "searchText": "28.7",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-q4-earnings-newsrelease-en.pdf",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
         },
         "roe": {
           "page": 4,
-          "searchText": "13.4"
+          "searchText": "13.4",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-q4-earnings-newsrelease-en.pdf",
+          "anchorText": "return on common equity (roe)"
         },
         "efficiencyRatio": {
           "page": 4,
-          "searchText": "51.9"
+          "searchText": "51.9",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-q4-earnings-newsrelease-en.pdf",
+          "anchorText": "efficiency ratio"
         },
         "netIncomeMillions": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-q4-earnings-newsrelease-en.pdf",
           "page": 1,
-          "searchText": "3,635"
+          "searchText": "3,635",
+          "anchorText": "reported net income"
         }
       }
     },
@@ -289,84 +348,119 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$973,966"
+          "searchText": "$973,966",
+          "page": 19
         },
         "retailDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$518,578"
+          "searchText": "$518,578",
+          "page": 19
         },
         "wholesaleDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$50,696"
+          "searchText": "$50,696",
+          "page": 19
         },
         "cet1Ratio": {
           "page": 2,
-          "searchText": "13.1"
+          "searchText": "13.1",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "anchorText": "common equity tier 1 capital ratio"
         },
         "tier1CapitalRatio": {
           "page": 5,
-          "searchText": "14.7"
+          "searchText": "14.7",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 5,
-          "searchText": "17.0"
+          "searchText": "17.0",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 5,
-          "searchText": "4.2"
+          "searchText": "4.2",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 5,
-          "searchText": "29.5"
+          "searchText": "29.5",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "anchorText": "tlac ratio"
         },
         "lcr": {
           "page": 41,
-          "searchText": "141"
+          "searchText": "141",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "anchorText": "liquidity coverage ratio"
         },
         "nsfr": {
-          "page": 41,
-          "searchText": "116"
+          "page": 42,
+          "searchText": "116",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "anchorText": "net stable funding ratio"
         },
         "roe": {
           "page": 5,
-          "searchText": "10.1"
+          "searchText": "10.1",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "anchorText": "return on common equity (roe)"
         },
         "nim": {
           "page": 23,
-          "searchText": "1.66"
+          "searchText": "1.66",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "page": 5,
-          "searchText": "57.4"
+          "searchText": "57.4",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "anchorText": "efficiency ratio"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
-          "searchText": "(1,934) $ (2,573)"
+          "searchText": "(1,934) $ (2,573)",
+          "page": 36
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
-          "searchText": "463 $ 597"
+          "searchText": "463 $ 597",
+          "page": 36,
+          "anchorText": "nii sensitivity"
         },
         "stableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
-          "searchText": "271,520"
+          "searchText": "271,520",
+          "page": 41,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
-          "searchText": "234,645"
+          "searchText": "234,645",
+          "page": 41,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
-          "searchText": "137,010"
+          "searchText": "137,010",
+          "page": 41,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
-          "searchText": "235,903"
+          "searchText": "235,903",
+          "page": 41,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "netIncomeMillions": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
           "page": 1,
-          "searchText": "2,793"
+          "searchText": "2,793",
+          "anchorText": "reported net income"
         }
       }
     },
@@ -419,84 +513,119 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$944,991"
+          "searchText": "$944,991",
+          "page": 19
         },
         "retailDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$510,591"
+          "searchText": "$510,591",
+          "page": 19
         },
         "wholesaleDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$44,949"
+          "searchText": "$44,949",
+          "page": 19
         },
         "cet1Ratio": {
           "page": 2,
-          "searchText": "14.9"
+          "searchText": "14.9",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "anchorText": "common equity tier 1 capital ratio"
         },
         "tier1CapitalRatio": {
           "page": 5,
-          "searchText": "16.6"
+          "searchText": "16.6",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 5,
-          "searchText": "18.5"
+          "searchText": "18.5",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 5,
-          "searchText": "4.7"
+          "searchText": "4.7",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 5,
-          "searchText": "31.0"
+          "searchText": "31.0",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "anchorText": "tlac ratio"
         },
         "lcr": {
           "page": 43,
-          "searchText": "141"
+          "searchText": "141",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "anchorText": "liquidity coverage ratio"
         },
         "nsfr": {
           "page": 44,
-          "searchText": "119"
+          "searchText": "119",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "anchorText": "net stable funding ratio"
         },
         "roe": {
           "page": 5,
-          "searchText": "39.1"
+          "searchText": "39.1",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "anchorText": "return on common equity (roe)"
         },
         "nim": {
           "page": 26,
-          "searchText": "1.76"
+          "searchText": "1.76",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "page": 5,
-          "searchText": "35.5"
+          "searchText": "35.5",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
+          "anchorText": "efficiency ratio"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
-          "searchText": "(1,837) $ (2,612)"
+          "searchText": "(1,837) $ (2,612)",
+          "page": 38
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
-          "searchText": "546 $ 679"
+          "searchText": "546 $ 679",
+          "page": 38,
+          "anchorText": "nii sensitivity"
         },
         "stableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
-          "searchText": "272,752"
+          "searchText": "272,752",
+          "page": 43,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
-          "searchText": "239,328"
+          "searchText": "239,328",
+          "page": 43,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
-          "searchText": "141,371"
+          "searchText": "141,371",
+          "page": 43,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
-          "searchText": "228,778"
+          "searchText": "228,778",
+          "page": 43,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "netIncomeMillions": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
           "page": 1,
-          "searchText": "11,129"
+          "searchText": "11,129",
+          "anchorText": "reported net income"
         }
       }
     },
@@ -549,72 +678,102 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$944,772"
+          "searchText": "$944,772",
+          "page": 19
         },
         "retailDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$512,993"
+          "searchText": "$512,993",
+          "page": 19
         },
         "wholesaleDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$33,307"
+          "searchText": "$33,307",
+          "page": 19
         },
         "cet1Ratio": {
           "page": 2,
-          "searchText": "14.8"
+          "searchText": "14.8",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/q3-2025-news-release-en.pdf",
+          "anchorText": "common equity tier 1 capital ratio"
         },
         "tier1CapitalRatio": {
           "page": 4,
-          "searchText": "16.5"
+          "searchText": "16.5",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/q3-2025-news-release-en.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 4,
-          "searchText": "18.4"
+          "searchText": "18.4",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/q3-2025-news-release-en.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 4,
-          "searchText": "4.6"
+          "searchText": "4.6",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/q3-2025-news-release-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 4,
-          "searchText": "30.9"
+          "searchText": "30.9",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/q3-2025-news-release-en.pdf",
+          "anchorText": "tlac ratio"
         },
         "roe": {
           "page": 4,
-          "searchText": "11.3"
+          "searchText": "11.3",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/q3-2025-news-release-en.pdf",
+          "anchorText": "return on common equity (roe)"
         },
         "efficiencyRatio": {
           "page": 4,
-          "searchText": "55.7"
+          "searchText": "55.7",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/q3-2025-news-release-en.pdf",
+          "anchorText": "efficiency ratio"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
-          "searchText": "(2,379) $ (3,330)"
+          "searchText": "(2,379) $ (3,330)",
+          "page": 38,
+          "anchorText": "eve sensitivity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
-          "searchText": "167 $ 527"
+          "searchText": "167 $ 527",
+          "page": 38,
+          "anchorText": "nii sensitivity"
         },
         "stableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
-          "searchText": "267,590"
+          "searchText": "267,590",
+          "page": 43,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
-          "searchText": "237,893"
+          "searchText": "237,893",
+          "page": 43,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
-          "searchText": "141,728"
+          "searchText": "141,728",
+          "page": 43,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
-          "searchText": "224,566"
+          "searchText": "224,566",
+          "page": 43,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "netIncomeMillions": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/q3-2025-news-release-en.pdf",
           "page": 1,
-          "searchText": "3,336"
+          "searchText": "3,336",
+          "anchorText": "reported net income"
         }
       }
     },
@@ -669,76 +828,108 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
-          "searchText": "$961,701"
+          "searchText": "$961,701",
+          "page": 123,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
-          "searchText": "$439,815"
+          "page": 122
         },
         "retailDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
-          "searchText": "$650,396"
+          "searchText": "$650,396",
+          "page": 121
         },
         "wholesaleDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
-          "searchText": "$27,233"
+          "searchText": "$27,233",
+          "page": 123,
+          "anchorText": "banks"
         },
         "stableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
-          "searchText": "$270,781"
+          "searchText": "$270,781",
+          "page": 119,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
-          "searchText": "$238,295"
+          "searchText": "$238,295",
+          "page": 119,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
-          "searchText": "$144,433"
+          "searchText": "$144,433",
+          "page": 119,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
-          "searchText": "$225,836"
+          "searchText": "$225,836",
+          "page": 119,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
-          "searchText": "$2,515"
+          "searchText": "$2,515",
+          "page": 109,
+          "anchorText": "eve sensitivity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
-          "searchText": "$790"
+          "searchText": "$790",
+          "page": 41,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 2,
-          "searchText": "14.7"
+          "searchText": "14.7",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-news-release-en.pdf",
+          "anchorText": "common equity tier 1 capital ratio"
         },
         "tier1CapitalRatio": {
           "page": 4,
-          "searchText": "16.4"
+          "searchText": "16.4",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-news-release-en.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 4,
-          "searchText": "18.4"
+          "searchText": "18.4",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-news-release-en.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 4,
-          "searchText": "4.6"
+          "searchText": "4.6",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-news-release-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 4,
-          "searchText": "31.8"
+          "searchText": "31.8",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-news-release-en.pdf",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
         },
         "roe": {
           "page": 4,
-          "searchText": "10.7"
+          "searchText": "10.7",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-news-release-en.pdf",
+          "anchorText": "return on common equity (roe)"
         },
         "efficiencyRatio": {
           "page": 4,
-          "searchText": "56.8"
+          "searchText": "56.8",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-news-release-en.pdf",
+          "anchorText": "efficiency ratio"
         },
         "netIncomeMillions": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-news-release-en.pdf",
           "page": 1,
-          "searchText": "3,280"
+          "searchText": "3,280",
+          "anchorText": "reported net income"
         }
       }
     },
@@ -791,39 +982,54 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$967,052"
+          "searchText": "$967,052",
+          "page": 19
         },
         "retailDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$505,962"
+          "searchText": "$505,962",
+          "page": 19
         },
         "wholesaleDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$24,529"
+          "searchText": "$24,529",
+          "page": 19
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
-          "searchText": "(1,500) $ (2,521)"
+          "searchText": "(1,500) $ (2,521)",
+          "page": 34,
+          "anchorText": "eve sensitivity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
-          "searchText": "363 $ 745"
+          "searchText": "363 $ 745",
+          "page": 34,
+          "anchorText": "nii sensitivity"
         },
         "stableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
-          "searchText": "268,789"
+          "searchText": "268,789",
+          "page": 39,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
-          "searchText": "243,347"
+          "searchText": "243,347",
+          "page": 39,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
-          "searchText": "151,468"
+          "searchText": "151,468",
+          "page": 39,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
-          "searchText": "225,074"
+          "searchText": "225,074",
+          "page": 39,
+          "anchorText": "non-operational deposits (all counterparties)"
         }
       }
     },
@@ -876,39 +1082,54 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$972,708"
+          "searchText": "$972,708",
+          "page": 19
         },
         "retailDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$509,217"
+          "searchText": "$509,217",
+          "page": 19
         },
         "wholesaleDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
-          "searchText": "$25,537"
+          "searchText": "$25,537",
+          "page": 19
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
-          "searchText": "(2,492) $ (3,683)"
+          "searchText": "(2,492) $ (3,683)",
+          "page": 36,
+          "anchorText": "eve sensitivity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
-          "searchText": "57 $ 411"
+          "searchText": "57 $ 411",
+          "page": 36,
+          "anchorText": "nii sensitivity"
         },
         "stableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
-          "searchText": "269,909"
+          "searchText": "269,909",
+          "page": 41,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
-          "searchText": "242,164"
+          "searchText": "242,164",
+          "page": 41,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
-          "searchText": "144,650"
+          "searchText": "144,650",
+          "page": 41,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
-          "searchText": "220,464"
+          "searchText": "220,464",
+          "page": 41,
+          "anchorText": "non-operational deposits (all counterparties)"
         }
       }
     }

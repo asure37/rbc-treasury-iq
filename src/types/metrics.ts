@@ -45,6 +45,11 @@ export interface SourceRef {
   url?: string; // overrides reportUrl/supplementaryReportUrl when the figure comes from a different document
   page?: number; // 1-indexed PDF page number
   searchText?: string; // distinctive phrase/figure to locate and highlight on that page
+  // Label text that precedes the figure on the page (e.g. "common equity tier 1 (cet1) ratio").
+  // Required whenever searchText alone is ambiguous — several metrics can share the same
+  // value on one page (BMO Q2 2026 reports ROE and CET1 both at 13.0%), and without an
+  // anchor the viewer would highlight whichever occurrence came first.
+  anchorText?: string;
 }
 
 export interface QuarterMetrics {

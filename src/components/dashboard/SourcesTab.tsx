@@ -30,6 +30,7 @@ export function SourcesTab() {
       url: ref?.url ?? q.reportUrl,
       page: ref?.page,
       searchText: ref?.searchText,
+      anchorText: ref?.anchorText,
       label: `${bank.bankName} · ${q.period} · ${m.label}`,
     };
   }

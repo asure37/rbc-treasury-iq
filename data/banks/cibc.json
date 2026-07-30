@@ -58,68 +58,95 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
-          "searchText": "$277,246"
+          "searchText": "$277,246",
+          "page": 58,
+          "anchorText": "deposits"
         },
         "retailDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
-          "searchText": "$250,231"
+          "searchText": "$250,231",
+          "page": 58
         },
         "wholesaleDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
-          "searchText": "$414,178"
+          "searchText": "$414,178",
+          "page": 58,
+          "anchorText": "business and government"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.3"
+          "searchText": "13.3",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324newsrelease-en.pdf",
+          "anchorText": "common equity tier 1 (cet1) ratio"
         },
         "leverageRatio": {
           "page": 1,
-          "searchText": "4.3"
+          "searchText": "4.3",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324newsrelease-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "lcr": {
           "page": 1,
-          "searchText": "126"
+          "searchText": "126",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324newsrelease-en.pdf",
+          "anchorText": "liquidity coverage ratio"
         },
         "roe": {
           "page": 1,
-          "searchText": "13.2"
+          "searchText": "13.2",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324newsrelease-en.pdf"
         },
         "nim": {
           "page": 1,
-          "searchText": "1.50"
+          "searchText": "1.50",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324newsrelease-en.pdf",
+          "anchorText": "net interest margin"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
-          "searchText": "(1,325)"
+          "searchText": "(1,325)",
+          "page": 41,
+          "anchorText": "increase (decrease) in eve"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
-          "searchText": "(80) (271)"
+          "searchText": "(80) (271)",
+          "page": 41,
+          "anchorText": "increase (decrease) in net interest income"
         },
         "wholesaleFundingPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
-          "searchText": "62,345 $ 200,394"
+          "page": 46
         },
         "stableDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
-          "searchText": "99,127"
+          "searchText": "99,127",
+          "page": 44,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
-          "searchText": "117,113"
+          "searchText": "117,113",
+          "page": 44,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
-          "searchText": "110,273"
+          "searchText": "110,273",
+          "page": 44,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324report-en.pdf",
-          "searchText": "106,399"
+          "searchText": "106,399",
+          "page": 44,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "netIncomeMillions": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q324newsrelease-en.pdf",
           "page": 3,
-          "searchText": "1,786"
+          "searchText": "1,786",
+          "anchorText": "net income attributable to"
         }
       }
     },
@@ -175,90 +202,100 @@
       },
       "sourceRefs": {
         "loanToDepositRatio": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
-          "searchText": "$280,672"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf"
         },
         "wholesaleFundingPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
-          "searchText": "$215,317"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf"
         },
         "retailDepositsPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
-          "searchText": "$252,894"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf"
         },
         "wholesaleDepositsPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
-          "searchText": "$435,499"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf"
         },
         "stableDepositsPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
-          "searchText": "$98,592"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf"
         },
         "lessStableDepositsPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
-          "searchText": "$118,722"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf"
         },
         "operationalDepositsPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
-          "searchText": "$115,421"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf"
         },
         "nonOperationalDepositsPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
-          "searchText": "$104,552"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf"
         },
         "irrbbEveSensitivityPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
-          "searchText": "$1,356"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf"
         },
         "irrbbNiiSensitivityPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
-          "searchText": "$242"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.3"
+          "searchText": "13.3",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
+          "anchorText": "common equity tier 1 (cet1) ratio"
         },
         "tier1CapitalRatio": {
           "page": 4,
-          "searchText": "14.8"
+          "searchText": "14.8",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 3,
-          "searchText": "17.0"
+          "searchText": "17.0",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 3,
-          "searchText": "4.3"
+          "searchText": "4.3",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "lcr": {
           "page": 3,
-          "searchText": "129"
+          "searchText": "129",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
+          "anchorText": "liquidity coverage ratio"
         },
         "nsfr": {
           "page": 4,
-          "searchText": "115"
+          "searchText": "115",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
-          "page": 1,
-          "searchText": "13.3"
+          "page": 4,
+          "searchText": "13.3",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
+          "anchorText": "return on common shareholders' equity"
         },
         "nim": {
           "page": 1,
-          "searchText": "1.50"
+          "searchText": "1.50",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "page": 4,
-          "searchText": "57.3"
+          "searchText": "57.3",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
+          "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
           "page": 4,
-          "searchText": "1,041,985"
+          "searchText": "1,041,985",
+          "anchorText": "total assets"
         },
         "netIncomeMillions": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
           "page": 4,
-          "searchText": "1,874"
+          "searchText": "1,874",
+          "anchorText": "net income attributable to"
         }
       }
     },
@@ -314,68 +351,95 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
-          "searchText": "$282,675"
+          "searchText": "$282,675",
+          "page": 52,
+          "anchorText": "deposits"
         },
         "retailDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
-          "searchText": "$258,666"
+          "searchText": "$258,666",
+          "page": 52
         },
         "wholesaleDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
-          "searchText": "$443,533"
+          "searchText": "$443,533",
+          "page": 52,
+          "anchorText": "business and government"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.5"
+          "searchText": "13.5",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125newsrelease-en.pdf",
+          "anchorText": "common equity tier 1 (cet1) ratio"
         },
         "leverageRatio": {
           "page": 1,
-          "searchText": "4.3"
+          "searchText": "4.3",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125newsrelease-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "lcr": {
           "page": 1,
-          "searchText": "132"
+          "searchText": "132",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125newsrelease-en.pdf",
+          "anchorText": "liquidity coverage ratio"
         },
         "roe": {
           "page": 1,
-          "searchText": "15.2"
+          "searchText": "15.2",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125newsrelease-en.pdf"
         },
         "nim": {
           "page": 1,
-          "searchText": "1.50"
+          "searchText": "1.50",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125newsrelease-en.pdf",
+          "anchorText": "net interest margin"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
-          "searchText": "(1,515)"
+          "searchText": "(1,515)",
+          "page": 35,
+          "anchorText": "increase (decrease) in eve"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
-          "searchText": "(44) (218)"
+          "searchText": "(44) (218)",
+          "page": 35,
+          "anchorText": "increase (decrease) in net interest income"
         },
         "wholesaleFundingPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
-          "searchText": "64,212 $ 224,579"
+          "page": 40
         },
         "stableDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
-          "searchText": "100,045"
+          "searchText": "100,045",
+          "page": 38,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
-          "searchText": "125,108"
+          "searchText": "125,108",
+          "page": 38,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
-          "searchText": "124,217"
+          "searchText": "124,217",
+          "page": 38,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125report-en.pdf",
-          "searchText": "108,389"
+          "searchText": "108,389",
+          "page": 38,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "netIncomeMillions": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q125newsrelease-en.pdf",
           "page": 3,
-          "searchText": "2,163"
+          "searchText": "2,163",
+          "anchorText": "net income attributable to"
         }
       }
     },
@@ -431,63 +495,89 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
-          "searchText": "$283,437"
+          "searchText": "$283,437",
+          "page": 56,
+          "anchorText": "deposits"
         },
         "retailDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
-          "searchText": "$255,523"
+          "searchText": "$255,523",
+          "page": 56
         },
         "wholesaleDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
-          "searchText": "$441,342"
+          "searchText": "$441,342",
+          "page": 56,
+          "anchorText": "business and government"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.4"
+          "searchText": "13.4",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225newsrelease-en.pdf",
+          "anchorText": "common equity tier 1 (cet1) ratio"
         },
         "leverageRatio": {
           "page": 1,
-          "searchText": "4.3"
+          "searchText": "4.3",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225newsrelease-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "lcr": {
           "page": 1,
-          "searchText": "131"
+          "searchText": "131",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225newsrelease-en.pdf",
+          "anchorText": "liquidity coverage ratio"
         },
         "roe": {
           "page": 1,
-          "searchText": "13.8"
+          "searchText": "13.8",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225newsrelease-en.pdf"
         },
         "nim": {
           "page": 1,
-          "searchText": "1.54"
+          "searchText": "1.54",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225newsrelease-en.pdf",
+          "anchorText": "net interest margin"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
-          "searchText": "(1,512)"
+          "searchText": "(1,512)",
+          "page": 39,
+          "anchorText": "increase (decrease) in eve"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
-          "searchText": "(41) (189)"
+          "searchText": "(41) (189)",
+          "page": 39,
+          "anchorText": "increase (decrease) in net interest income"
         },
         "wholesaleFundingPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
-          "searchText": "64,741 $ 225,937"
+          "page": 44
         },
         "stableDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
-          "searchText": "99,431"
+          "searchText": "99,431",
+          "page": 42,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
-          "searchText": "130,149"
+          "searchText": "130,149",
+          "page": 42,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
-          "searchText": "126,997"
+          "searchText": "126,997",
+          "page": 42,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225report-en.pdf",
-          "searchText": "106,165"
+          "searchText": "106,165",
+          "page": 42,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "tier1CapitalRatio": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225newsrelease-en.pdf",
@@ -497,7 +587,8 @@
         "netIncomeMillions": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q225newsrelease-en.pdf",
           "page": 3,
-          "searchText": "1,998"
+          "searchText": "1,998",
+          "anchorText": "net income attributable to"
         }
       }
     },
@@ -552,69 +643,68 @@
       },
       "sourceRefs": {
         "loanToDepositRatio": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
-          "searchText": "$285,935"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf"
         },
         "retailDepositsPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
-          "searchText": "$256,135"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf"
         },
         "wholesaleDepositsPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
-          "searchText": "$448,861"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.4"
+          "searchText": "13.4",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325newsrelease-en.pdf",
+          "anchorText": "common equity tier 1 (cet1) ratio"
         },
         "leverageRatio": {
           "page": 1,
-          "searchText": "4.3"
+          "searchText": "4.3",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325newsrelease-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "lcr": {
           "page": 1,
-          "searchText": "127"
+          "searchText": "127",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325newsrelease-en.pdf",
+          "anchorText": "liquidity coverage ratio"
         },
         "roe": {
           "page": 1,
-          "searchText": "14.2"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325newsrelease-en.pdf"
         },
         "nim": {
           "page": 1,
-          "searchText": "1.58"
+          "searchText": "1.58",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325newsrelease-en.pdf",
+          "anchorText": "net interest margin"
         },
         "irrbbEveSensitivityPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
-          "searchText": "(1,513)"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf"
         },
         "irrbbNiiSensitivityPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
-          "searchText": "(34) (225)"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf"
         },
         "wholesaleFundingPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
-          "searchText": "66,947 $ 230,581"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf"
         },
         "stableDepositsPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
-          "searchText": "100,556"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf"
         },
         "lessStableDepositsPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
-          "searchText": "128,284"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf"
         },
         "operationalDepositsPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
-          "searchText": "130,187"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf"
         },
         "nonOperationalDepositsPct": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf",
-          "searchText": "103,695"
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325report-en.pdf"
         },
         "netIncomeMillions": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325newsrelease-en.pdf",
           "page": 3,
-          "searchText": "2,094"
+          "searchText": "2,094",
+          "anchorText": "net income attributable to"
         }
       }
     },
@@ -670,93 +760,132 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
-          "searchText": "$287,033"
+          "searchText": "$287,033",
+          "page": 104,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
-          "searchText": "$231,802"
+          "page": 88
         },
         "retailDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
-          "searchText": "$258,139"
+          "searchText": "$258,139",
+          "page": 122
         },
         "wholesaleDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
-          "searchText": "$457,284"
+          "searchText": "$457,284",
+          "page": 122,
+          "anchorText": "business and government"
         },
         "stableDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
-          "searchText": "$100,387"
+          "searchText": "$100,387",
+          "page": 85,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
-          "searchText": "$130,642"
+          "searchText": "$130,642",
+          "page": 85,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
-          "searchText": "$137,665"
+          "searchText": "$137,665",
+          "page": 85,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
-          "searchText": "$93,576"
+          "searchText": "$93,576",
+          "page": 85,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
-          "searchText": "$1,678"
+          "searchText": "$1,678",
+          "page": 82,
+          "anchorText": "increase (decrease) in eve"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
-          "searchText": "$249"
+          "searchText": "$249",
+          "page": 22,
+          "anchorText": "net interest income"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.3"
+          "searchText": "13.3",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "anchorText": "common equity tier 1 (cet1) ratio"
         },
         "tier1CapitalRatio": {
           "page": 4,
-          "searchText": "15.1"
+          "searchText": "15.1",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "page": 2,
-          "searchText": "17.4"
+          "searchText": "17.4",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "anchorText": "total capital ratio"
         },
         "leverageRatio": {
           "page": 2,
-          "searchText": "4.3"
+          "searchText": "4.3",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 4,
-          "searchText": "31.9"
+          "searchText": "31.9",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
         },
         "lcr": {
           "page": 2,
-          "searchText": "132"
+          "searchText": "132",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "page": 4,
-          "searchText": "116"
+          "searchText": "116",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
-          "page": 1,
-          "searchText": "14.1"
+          "page": 4,
+          "searchText": "14.1",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "anchorText": "return on common shareholders' equity"
         },
         "nim": {
           "page": 1,
-          "searchText": "1.59"
+          "searchText": "1.59",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "page": 4,
-          "searchText": "55.2"
+          "searchText": "55.2",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
           "page": 4,
-          "searchText": "1,116,938"
+          "searchText": "1,116,938",
+          "anchorText": "total assets"
         },
         "netIncomeMillions": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
           "page": 4,
-          "searchText": "2,174"
+          "searchText": "2,174",
+          "anchorText": "net income attributable to"
         }
       }
     },
@@ -812,68 +941,95 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
-          "searchText": "$287,585"
+          "searchText": "$287,585",
+          "page": 52,
+          "anchorText": "deposits"
         },
         "retailDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
-          "searchText": "$258,878"
+          "searchText": "$258,878",
+          "page": 52
         },
         "wholesaleDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
-          "searchText": "$466,390"
+          "searchText": "$466,390",
+          "page": 52,
+          "anchorText": "business and government"
         },
         "cet1Ratio": {
           "page": 1,
-          "searchText": "13.4"
+          "searchText": "13.4",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126newsrelease-en.pdf",
+          "anchorText": "common equity tier 1 (cet1) ratio"
         },
         "leverageRatio": {
           "page": 1,
-          "searchText": "4.4"
+          "searchText": "4.4",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126newsrelease-en.pdf",
+          "anchorText": "leverage ratio"
         },
         "lcr": {
           "page": 1,
-          "searchText": "133"
+          "searchText": "133",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126newsrelease-en.pdf",
+          "anchorText": "liquidity coverage ratio"
         },
         "roe": {
           "page": 1,
-          "searchText": "20.2"
+          "searchText": "20.2",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126newsrelease-en.pdf"
         },
         "nim": {
           "page": 1,
-          "searchText": "1.61"
+          "searchText": "1.61",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126newsrelease-en.pdf",
+          "anchorText": "net interest margin"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
-          "searchText": "(1,494)"
+          "searchText": "(1,494)",
+          "page": 36,
+          "anchorText": "increase (decrease) in eve"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
-          "searchText": "(75) (303)"
+          "searchText": "(75) (303)",
+          "page": 36,
+          "anchorText": "increase (decrease) in net interest income"
         },
         "wholesaleFundingPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
-          "searchText": "72,472 $ 230,299"
+          "page": 41
         },
         "stableDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
-          "searchText": "102,077"
+          "searchText": "102,077",
+          "page": 39,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
-          "searchText": "134,672"
+          "searchText": "134,672",
+          "page": 39,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
-          "searchText": "143,468"
+          "searchText": "143,468",
+          "page": 39,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126report-en.pdf",
-          "searchText": "99,715"
+          "searchText": "99,715",
+          "page": 39,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "netIncomeMillions": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126newsrelease-en.pdf",
           "page": 3,
-          "searchText": "3,093"
+          "searchText": "3,093",
+          "anchorText": "net income attributable to"
         }
       }
     },
@@ -929,43 +1085,60 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
-          "searchText": "$289,048"
+          "searchText": "$289,048",
+          "page": 56,
+          "anchorText": "deposits"
         },
         "retailDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
-          "searchText": "$261,409"
+          "searchText": "$261,409",
+          "page": 56
         },
         "wholesaleDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
-          "searchText": "$480,414"
+          "searchText": "$480,414",
+          "page": 56,
+          "anchorText": "business and government"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
-          "searchText": "(1,542)"
+          "searchText": "(1,542)",
+          "page": 41,
+          "anchorText": "increase (decrease) in eve"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
-          "searchText": "(50) (164)"
+          "searchText": "(50) (164)",
+          "page": 41,
+          "anchorText": "increase (decrease) in net interest income"
         },
         "wholesaleFundingPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
-          "searchText": "71,732 $ 227,468"
+          "page": 46
         },
         "stableDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
-          "searchText": "102,406"
+          "searchText": "102,406",
+          "page": 44,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
-          "searchText": "138,131"
+          "searchText": "138,131",
+          "page": 44,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
-          "searchText": "145,304"
+          "searchText": "145,304",
+          "page": 44,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
-          "searchText": "106,834"
+          "searchText": "106,834",
+          "page": 44,
+          "anchorText": "non-operational deposits (all counterparties)"
         }
       }
     }

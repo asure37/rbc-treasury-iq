@@ -60,47 +60,67 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$765,793"
+          "searchText": "$765,793",
+          "page": 17
         },
         "retailDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$296,750"
+          "searchText": "$296,750",
+          "page": 18
         },
         "wholesaleDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$606,964"
+          "searchText": "$606,964",
+          "page": 18,
+          "anchorText": "business and government"
         },
         "nsfr": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "117"
+          "searchText": "117",
+          "page": 5,
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "stableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
-          "searchText": "99,000"
+          "searchText": "99,000",
+          "page": 45,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
-          "searchText": "141,503"
+          "searchText": "141,503",
+          "page": 45,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
-          "searchText": "117,695"
+          "searchText": "117,695",
+          "page": 45,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
-          "searchText": "171,775"
+          "searchText": "171,775",
+          "page": 45,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
-          "searchText": "(1,427)"
+          "searchText": "(1,427)",
+          "page": 41,
+          "anchorText": "economic value of equity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
-          "searchText": "(54) $(436)"
+          "searchText": "(54) $(436)",
+          "page": 41,
+          "anchorText": "net interest income"
         },
         "wholesaleFundingPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
-          "searchText": "270,764"
+          "searchText": "270,764",
+          "page": 48,
+          "anchorText": "total wholesale funding sources"
         }
       }
     },
@@ -157,43 +177,62 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
-          "searchText": "$767,365"
+          "searchText": "$767,365",
+          "page": 186,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
-          "searchText": "$269,507"
+          "searchText": "$269,507",
+          "page": 106,
+          "anchorText": "total wholesale funding sources"
         },
         "retailDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
-          "searchText": "$298,821"
+          "searchText": "$298,821",
+          "page": 107
         },
         "wholesaleDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
-          "searchText": "$600,114"
+          "searchText": "$600,114",
+          "page": 145,
+          "anchorText": "business and government"
         },
         "stableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
-          "searchText": "$100,986"
+          "searchText": "$100,986",
+          "page": 103,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
-          "searchText": "$142,492"
+          "searchText": "$142,492",
+          "page": 103,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
-          "searchText": "$114,881"
+          "searchText": "$114,881",
+          "page": 103,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
-          "searchText": "$169,414"
+          "searchText": "$169,414",
+          "page": 103,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
-          "searchText": "$1,338"
+          "searchText": "$1,338",
+          "page": 96,
+          "anchorText": "economic value of equity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
-          "searchText": "$21"
+          "searchText": "$21",
+          "page": 21,
+          "anchorText": "net interest income"
         }
       }
     },
@@ -254,80 +293,112 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$773,162"
+          "searchText": "$773,162",
+          "page": 17
         },
         "retailDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$303,798"
+          "searchText": "$303,798",
+          "page": 18
         },
         "wholesaleDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$617,874"
+          "searchText": "$617,874",
+          "page": 18,
+          "anchorText": "business and government"
         },
         "cet1Ratio": {
-          "page": 1,
-          "searchText": "12.9"
+          "page": 4,
+          "searchText": "12.9",
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Quarterly_Press_Release-EN.pdf",
+          "anchorText": "cet1 capital ratio"
         },
         "leverageRatio": {
           "page": 4,
-          "searchText": "4.4"
+          "searchText": "4.4",
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Quarterly_Press_Release-EN.pdf",
+          "anchorText": "leverage ratio"
         },
         "tlacRatio": {
           "page": 4,
-          "searchText": "28.8"
+          "searchText": "28.8",
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Quarterly_Press_Release-EN.pdf"
         },
         "roe": {
           "page": 1,
-          "searchText": "5.5"
+          "searchText": "5.5",
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Quarterly_Press_Release-EN.pdf",
+          "anchorText": "return on equity"
         },
         "tier1CapitalRatio": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "15.1"
+          "searchText": "15.1",
+          "page": 5,
+          "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "16.8"
+          "searchText": "16.8",
+          "page": 5,
+          "anchorText": "total capital ratio"
         },
         "nsfr": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "117"
+          "searchText": "117",
+          "page": 5,
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "loansToAssetsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "53.26"
+          "page": 5
         },
         "stableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Shareholders_Report-EN.pdf",
-          "searchText": "103,304"
+          "searchText": "103,304",
+          "page": 40,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Shareholders_Report-EN.pdf",
-          "searchText": "146,126"
+          "searchText": "146,126",
+          "page": 40,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Shareholders_Report-EN.pdf",
-          "searchText": "113,037"
+          "searchText": "113,037",
+          "page": 40,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Shareholders_Report-EN.pdf",
-          "searchText": "168,839"
+          "searchText": "168,839",
+          "page": 40,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Shareholders_Report-EN.pdf",
-          "searchText": "(1,147)"
+          "searchText": "(1,147)",
+          "page": 37,
+          "anchorText": "economic value of equity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Shareholders_Report-EN.pdf",
-          "searchText": "102 $(118)"
+          "searchText": "102 $(118)",
+          "page": 37,
+          "anchorText": "net interest income"
         },
         "wholesaleFundingPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Shareholders_Report-EN.pdf",
-          "searchText": "278,878"
+          "searchText": "278,878",
+          "page": 43,
+          "anchorText": "total wholesale funding sources"
         },
         "netIncomeMillions": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Quarterly_Press_Release-EN.pdf",
           "page": 1,
-          "searchText": "993"
+          "searchText": "993",
+          "anchorText": "net income"
         }
       }
     },
@@ -385,47 +456,65 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$763,456"
+          "searchText": "$763,456",
+          "page": 17
         },
         "retailDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$301,069"
+          "searchText": "$301,069",
+          "page": 18
         },
         "wholesaleDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$604,307"
+          "searchText": "$604,307",
+          "page": 18,
+          "anchorText": "business and government"
         },
         "loansToAssetsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "53.45"
+          "page": 5
         },
         "stableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
-          "searchText": "105,364"
+          "searchText": "105,364",
+          "page": 46,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
-          "searchText": "153,729"
+          "searchText": "153,729",
+          "page": 46,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
-          "searchText": "113,351"
+          "searchText": "113,351",
+          "page": 46,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
-          "searchText": "163,721"
+          "searchText": "163,721",
+          "page": 46,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
-          "searchText": "(1,299)"
+          "searchText": "(1,299)",
+          "page": 43,
+          "anchorText": "economic value of equity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
-          "searchText": "174 $(303)"
+          "searchText": "174 $(303)",
+          "page": 43,
+          "anchorText": "net interest income"
         },
         "wholesaleFundingPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
-          "searchText": "271,055"
+          "searchText": "271,055",
+          "page": 50,
+          "anchorText": "total wholesale funding sources"
         }
       }
     },
@@ -484,59 +573,81 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$768,757"
+          "searchText": "$768,757",
+          "page": 17
         },
         "retailDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$301,464"
+          "searchText": "$301,464",
+          "page": 18
         },
         "wholesaleDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$605,934"
+          "searchText": "$605,934",
+          "page": 18,
+          "anchorText": "business and government"
         },
         "lcr": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "126"
+          "searchText": "126",
+          "page": 5,
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "120"
+          "searchText": "120",
+          "page": 5,
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "loansToAssetsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "53.84"
+          "page": 5
         },
         "totalAssetsBillions": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "1414.7"
+          "page": 5
         },
         "stableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
-          "searchText": "106,518"
+          "searchText": "106,518",
+          "page": 47,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
-          "searchText": "156,135"
+          "searchText": "156,135",
+          "page": 47,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
-          "searchText": "110,141"
+          "searchText": "110,141",
+          "page": 47,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
-          "searchText": "162,721"
+          "searchText": "162,721",
+          "page": 47,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
-          "searchText": "(1,559)"
+          "searchText": "(1,559)",
+          "page": 43,
+          "anchorText": "economic value of equity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
-          "searchText": "137 $(603)"
+          "searchText": "137 $(603)",
+          "page": 43,
+          "anchorText": "net interest income"
         },
         "wholesaleFundingPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
-          "searchText": "265,537"
+          "searchText": "265,537",
+          "page": 50,
+          "anchorText": "total wholesale funding sources"
         }
       }
     },
@@ -593,43 +704,62 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
-          "searchText": "$778,508"
+          "searchText": "$778,508",
+          "page": 190,
+          "anchorText": "total loans"
         },
         "wholesaleFundingPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
-          "searchText": "$270,771"
+          "searchText": "$270,771",
+          "page": 111,
+          "anchorText": "total wholesale funding sources"
         },
         "retailDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
-          "searchText": "$301,718"
+          "searchText": "$301,718",
+          "page": 112
         },
         "wholesaleDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
-          "searchText": "$627,667"
+          "searchText": "$627,667",
+          "page": 149,
+          "anchorText": "business and government"
         },
         "stableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
-          "searchText": "$106,841"
+          "searchText": "$106,841",
+          "page": 108,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
-          "searchText": "$158,125"
+          "searchText": "$158,125",
+          "page": 108,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
-          "searchText": "$110,842"
+          "searchText": "$110,842",
+          "page": 108,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
-          "searchText": "$159,368"
+          "searchText": "$159,368",
+          "page": 108,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
-          "searchText": "$1,568"
+          "searchText": "$1,568",
+          "page": 101,
+          "anchorText": "economic value of equity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
-          "searchText": "$236"
+          "searchText": "$236",
+          "page": 101,
+          "anchorText": "net interest income"
         }
       }
     },
@@ -678,27 +808,37 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$762,477"
+          "searchText": "$762,477",
+          "page": 17
         },
         "retailDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$295,199"
+          "searchText": "$295,199",
+          "page": 18
         },
         "wholesaleDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$631,375"
+          "searchText": "$631,375",
+          "page": 18,
+          "anchorText": "business and government"
         },
         "nsfr": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "115"
+          "searchText": "115",
+          "page": 5,
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
-          "searchText": "(1,603)"
+          "searchText": "(1,603)",
+          "page": 44,
+          "anchorText": "economic value of equity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
-          "searchText": "215 $(1,603)"
+          "searchText": "215 $(1,603)",
+          "page": 44,
+          "anchorText": "net interest income"
         }
       }
     },
@@ -759,67 +899,93 @@
       "sourceRefs": {
         "loanToDepositRatio": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$764,584"
+          "searchText": "$764,584",
+          "page": 17
         },
         "retailDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$295,240"
+          "searchText": "$295,240",
+          "page": 18
         },
         "wholesaleDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "$644,305"
+          "searchText": "$644,305",
+          "page": 18,
+          "anchorText": "business and government"
         },
         "lcr": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "124"
+          "searchText": "124",
+          "page": 5,
+          "anchorText": "liquidity coverage ratio (lcr)"
         },
         "nsfr": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "116"
+          "searchText": "116",
+          "page": 5,
+          "anchorText": "net stable funding ratio (nsfr)"
         },
         "nim": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "2.49"
+          "searchText": "2.49",
+          "page": 5,
+          "anchorText": "net interest margin"
         },
         "efficiencyRatio": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "52.8"
+          "searchText": "52.8",
+          "page": 5,
+          "anchorText": "productivity ratio"
         },
         "loansToAssetsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "49.79"
+          "page": 5
         },
         "totalAssetsBillions": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "searchText": "1521.5"
+          "page": 5
         },
         "stableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
-          "searchText": "105,699"
+          "searchText": "105,699",
+          "page": 48,
+          "anchorText": "stable deposits"
         },
         "lessStableDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
-          "searchText": "161,551"
+          "searchText": "161,551",
+          "page": 48,
+          "anchorText": "less stable deposits"
         },
         "operationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
-          "searchText": "118,568"
+          "searchText": "118,568",
+          "page": 48,
+          "anchorText": "operational deposits (all counterparties)"
         },
         "nonOperationalDepositsPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
-          "searchText": "161,721"
+          "searchText": "161,721",
+          "page": 48,
+          "anchorText": "non-operational deposits (all counterparties)"
         },
         "irrbbEveSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
-          "searchText": "(1,871)"
+          "searchText": "(1,871)",
+          "page": 44,
+          "anchorText": "economic value of equity"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
-          "searchText": "197 $(897)"
+          "searchText": "197 $(897)",
+          "page": 44,
+          "anchorText": "net interest income"
         },
         "wholesaleFundingPct": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
-          "searchText": "298,214"
+          "searchText": "298,214",
+          "page": 51,
+          "anchorText": "total wholesale funding sources"
         }
       }
     }
