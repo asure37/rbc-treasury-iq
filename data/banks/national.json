@@ -118,8 +118,10 @@
           "anchorText": "cet1 capital ratio"
         },
         "tier1CapitalRatio": {
-          "page": 29,
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf"
+          "page": 5,
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-regulatory-capital-q3-2024.pdf",
+          "searchText": "15.7%",
+          "anchorText": "tier 1 ratio"
         },
         "totalCapitalRatio": {
           "page": 29,
@@ -173,6 +175,12 @@
           "page": 1,
           "searchText": "1,033",
           "anchorText": "net income"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+          "page": 21,
+          "searchText": "453.9",
+          "anchorText": "total assets"
         }
       }
     },
@@ -284,8 +292,10 @@
           "anchorText": "net interest income"
         },
         "cet1Ratio": {
-          "page": 4,
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf"
+          "page": 5,
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-regulatory-capital-q4-2024.pdf",
+          "searchText": "13.7%",
+          "anchorText": "cet1 ratio"
         },
         "leverageRatio": {
           "page": 4,
@@ -324,12 +334,16 @@
           "anchorText": "efficiency ratio"
         },
         "tier1CapitalRatio": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
-          "page": 4
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-regulatory-capital-q4-2024.pdf",
+          "page": 5,
+          "searchText": "15.9%",
+          "anchorText": "tier 1 ratio"
         },
         "totalCapitalRatio": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
-          "page": 4
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-regulatory-capital-q4-2024.pdf",
+          "page": 5,
+          "searchText": "17.0%",
+          "anchorText": "total capital ratio"
         },
         "roe": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
@@ -342,6 +356,12 @@
           "page": 4,
           "searchText": "955",
           "anchorText": "net income"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "page": 4,
+          "searchText": "462",
+          "anchorText": "total assets"
         }
       }
     },
@@ -458,8 +478,10 @@
           "anchorText": "cet1 capital ratio"
         },
         "tier1CapitalRatio": {
-          "page": 26,
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf"
+          "page": 5,
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-regulatory-capital-q1-2025.pdf",
+          "searchText": "15.5%",
+          "anchorText": "tier 1 ratio"
         },
         "totalCapitalRatio": {
           "page": 26,
@@ -513,6 +535,12 @@
           "page": 1,
           "searchText": "997",
           "anchorText": "net income"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+          "page": 18,
+          "searchText": "483.8",
+          "anchorText": "total assets"
         }
       }
     },
@@ -686,6 +714,12 @@
           "page": 1,
           "searchText": "896",
           "anchorText": "net income"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+          "page": 13,
+          "searchText": "536",
+          "anchorText": "total assets"
         }
       }
     },
@@ -859,6 +893,12 @@
           "page": 1,
           "searchText": "1,065",
           "anchorText": "net income"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+          "page": 23,
+          "searchText": "552.6",
+          "anchorText": "total assets"
         }
       }
     },
@@ -971,8 +1011,10 @@
           "anchorText": "net interest income"
         },
         "cet1Ratio": {
-          "page": 4,
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf"
+          "page": 5,
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-regulatory-capital-q4-2025.pdf",
+          "searchText": "13.8%",
+          "anchorText": "cet1 ratio"
         },
         "leverageRatio": {
           "page": 4,
@@ -1011,12 +1053,16 @@
           "anchorText": "efficiency ratio"
         },
         "tier1CapitalRatio": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
-          "page": 4
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-regulatory-capital-q4-2025.pdf",
+          "page": 5,
+          "searchText": "15.1%",
+          "anchorText": "tier 1 ratio"
         },
         "totalCapitalRatio": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
-          "page": 4
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-regulatory-capital-q4-2025.pdf",
+          "page": 5,
+          "searchText": "17.3%",
+          "anchorText": "total capital ratio"
         },
         "roe": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
@@ -1192,14 +1238,22 @@
           "anchorText": "efficiency ratio"
         },
         "tier1CapitalRatio": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "page": 13
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q1-2026.pdf",
+          "page": 5,
+          "searchText": "15.1%",
+          "anchorText": "tier 1 ratio"
         },
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
           "page": 1,
           "searchText": "1,254",
           "anchorText": "net income"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+          "page": 21,
+          "searchText": "605.9",
+          "anchorText": "total assets"
         }
       }
     },
@@ -1373,6 +1427,12 @@
           "page": 1,
           "searchText": "1,234",
           "anchorText": "net income"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+          "page": 23,
+          "searchText": "617.7",
+          "anchorText": "total assets"
         }
       }
     }

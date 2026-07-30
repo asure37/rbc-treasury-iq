@@ -356,6 +356,12 @@
           "page": 3,
           "searchText": "4,222",
           "anchorText": "net income"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "page": 10,
+          "searchText": "59.8%",
+          "anchorText": "efficiency ratio"
         }
       }
     },
@@ -1199,14 +1205,52 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1release.pdf"
         },
         "totalCapitalRatio": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1release.pdf",
-          "page": 5
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "page": 4,
+          "searchText": "16.8%",
+          "anchorText": "total capital ratio"
         },
         "netIncomeMillions": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1release.pdf",
           "page": 2,
           "searchText": "5,785",
           "anchorText": "net income"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "page": 4,
+          "searchText": "15.2%",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "page": 4,
+          "searchText": "4.4%",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "page": 4,
+          "searchText": "30.9%",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "nim": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "page": 4,
+          "searchText": "1.55%",
+          "anchorText": "net interest margin (nim)"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "page": 10,
+          "searchText": "52.7%",
+          "anchorText": "efficiency ratio"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "page": 4,
+          "searchText": "2,342,393",
+          "anchorText": "total assets"
         }
       }
     },

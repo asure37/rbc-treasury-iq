@@ -121,6 +121,66 @@
           "searchText": "270,764",
           "page": 48,
           "anchorText": "total wholesale funding sources"
+        },
+        "cet1Ratio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
+          "page": 52,
+          "searchText": "13.3",
+          "anchorText": "common equity tier 1 capital ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "15.3",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "17.1",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "4.5",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "29.1",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "lcr": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "133",
+          "anchorText": "liquidity coverage ratio (lcr)"
+        },
+        "roe": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "9.8",
+          "anchorText": "return on equity"
+        },
+        "nim": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
+          "page": 12,
+          "searchText": "2.52%",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "56.0",
+          "anchorText": "productivity ratio"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q3/Q324_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "1,756",
+          "anchorText": "net income attributable to"
         }
       }
     },
@@ -233,6 +293,78 @@
           "searchText": "$21",
           "page": 21,
           "anchorText": "net interest income"
+        },
+        "cet1Ratio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+          "page": 17,
+          "searchText": "13.1%",
+          "anchorText": "common equity tier 1 (cet1) ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+          "page": 21,
+          "searchText": "15.0",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+          "page": 21,
+          "searchText": "16.7",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+          "page": 21,
+          "searchText": "4.4",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+          "page": 21,
+          "searchText": "29.7",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "lcr": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+          "page": 21,
+          "searchText": "131",
+          "anchorText": "liquidity coverage ratio (lcr)"
+        },
+        "nsfr": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+          "page": 21,
+          "searchText": "119",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "roe": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+          "page": 128,
+          "searchText": "8.3",
+          "anchorText": "return on equity"
+        },
+        "nim": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+          "page": 38,
+          "searchText": "2.15%",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+          "page": 38,
+          "searchText": "62.1%",
+          "anchorText": "productivity ratio"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+          "page": 21,
+          "searchText": "1,412,027",
+          "anchorText": "total assets"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+          "page": 37,
+          "searchText": "1,521",
+          "anchorText": "net income attributable to"
         }
       }
     },
@@ -399,6 +531,18 @@
           "page": 1,
           "searchText": "993",
           "anchorText": "net income"
+        },
+        "lcr": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Scotiabank_Investor_Factsheet.pdf",
+          "page": 1,
+          "searchText": "128%",
+          "anchorText": "liquidity coverage ratio"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Scotiabank_Investor_Factsheet.pdf",
+          "page": 1,
+          "searchText": "69.3",
+          "anchorText": "productivity ratio"
         }
       }
     },
@@ -515,6 +659,72 @@
           "searchText": "271,055",
           "page": 50,
           "anchorText": "total wholesale funding sources"
+        },
+        "cet1Ratio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
+          "page": 53,
+          "searchText": "13.2",
+          "anchorText": "common equity tier 1 capital ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "15.4",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "17.1",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "4.5",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "30.3",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "lcr": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "129",
+          "anchorText": "liquidity coverage ratio (lcr)"
+        },
+        "nsfr": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "120",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "roe": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "10.1",
+          "anchorText": "return on equity"
+        },
+        "nim": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "2.31",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "56.3",
+          "anchorText": "productivity ratio"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "1,841",
+          "anchorText": "net income attributable to"
         }
       }
     },
@@ -648,6 +858,60 @@
           "searchText": "265,537",
           "page": 50,
           "anchorText": "total wholesale funding sources"
+        },
+        "cet1Ratio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
+          "page": 53,
+          "searchText": "13.3",
+          "anchorText": "common equity tier 1 capital ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "15.2",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "16.9",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "4.5",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "29.0",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "roe": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "12.2",
+          "anchorText": "return on equity"
+        },
+        "nim": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "2.36",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "53.7",
+          "anchorText": "productivity ratio"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q3/Q325_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "2,313",
+          "anchorText": "net income attributable to"
         }
       }
     },
@@ -760,6 +1024,78 @@
           "searchText": "$236",
           "page": 101,
           "anchorText": "net interest income"
+        },
+        "cet1Ratio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+          "page": 17,
+          "searchText": "13.2%",
+          "anchorText": "common equity tier 1 (cet1) ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+          "page": 21,
+          "searchText": "15.3",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+          "page": 21,
+          "searchText": "17.1",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+          "page": 21,
+          "searchText": "4.5",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+          "page": 21,
+          "searchText": "29.1",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "lcr": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+          "page": 21,
+          "searchText": "128",
+          "anchorText": "liquidity coverage ratio (lcr)"
+        },
+        "nsfr": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+          "page": 21,
+          "searchText": "116",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "roe": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+          "page": 132,
+          "searchText": "11.0",
+          "anchorText": "return on equity"
+        },
+        "nim": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+          "page": 41,
+          "searchText": "2.40%",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+          "page": 41,
+          "searchText": "59.4%",
+          "anchorText": "productivity ratio"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+          "page": 21,
+          "searchText": "1,460,042",
+          "anchorText": "total assets"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+          "page": 40,
+          "searchText": "2,104",
+          "anchorText": "net income attributable to"
         }
       }
     },
@@ -839,6 +1175,60 @@
           "searchText": "215 $(1,603)",
           "page": 44,
           "anchorText": "net interest income"
+        },
+        "cet1Ratio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q1/Q126_Shareholders_Report-EN.pdf",
+          "page": 48,
+          "searchText": "13.3%",
+          "anchorText": "cet1 capital ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q1/Q126_Shareholders_Report-EN.pdf",
+          "page": 75,
+          "searchText": "15.4%",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q1/Q126_Shareholders_Report-EN.pdf",
+          "page": 48,
+          "searchText": "17.0%",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q1/Q126_Shareholders_Report-EN.pdf",
+          "page": 48,
+          "searchText": "4.4%",
+          "anchorText": "leverage ratio"
+        },
+        "lcr": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q1/Q126_Shareholders_Report-EN.pdf",
+          "page": 42,
+          "searchText": "122%",
+          "anchorText": "liquidity coverage ratio"
+        },
+        "roe": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q1/Q126_Shareholders_Report-EN.pdf",
+          "page": 14,
+          "searchText": "11.1%",
+          "anchorText": "return on equity"
+        },
+        "nim": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q1/Q126_Shareholders_Report-EN.pdf",
+          "page": 16,
+          "searchText": "2.45%",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q1/Q126_Shareholders_Report-EN.pdf",
+          "page": 18,
+          "searchText": "52.3%",
+          "anchorText": "productivity ratio"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q1/Q126_Shareholders_Report-EN.pdf",
+          "page": 12,
+          "searchText": "2,155",
+          "anchorText": "reported net income"
         }
       }
     },
@@ -986,6 +1376,48 @@
           "searchText": "298,214",
           "page": 51,
           "anchorText": "total wholesale funding sources"
+        },
+        "cet1Ratio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
+          "page": 52,
+          "searchText": "13.3",
+          "anchorText": "common equity tier 1 capital ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "15.4",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "17.0",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "4.3",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "28.6",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "roe": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "13.1",
+          "anchorText": "return on equity"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "2,468",
+          "anchorText": "net income attributable to"
         }
       }
     }

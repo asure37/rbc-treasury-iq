@@ -140,6 +140,24 @@
           "searchText": "205,057",
           "page": 38,
           "anchorText": "non-operational deposits (all counterparties)"
+        },
+        "lcr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 4,
+          "searchText": "129",
+          "anchorText": "liquidity coverage ratio (lcr)"
+        },
+        "nsfr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 4,
+          "searchText": "115",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "nim": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 5,
+          "searchText": "1.70",
+          "anchorText": "net interest margin"
         }
       }
     },
@@ -296,6 +314,24 @@
           "page": 1,
           "searchText": "3,635",
           "anchorText": "reported net income"
+        },
+        "lcr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 4,
+          "searchText": "138",
+          "anchorText": "liquidity coverage ratio (lcr)"
+        },
+        "nsfr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 4,
+          "searchText": "116",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "nim": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 5,
+          "searchText": "1.72",
+          "anchorText": "net interest margin"
         }
       }
     },
@@ -774,6 +810,24 @@
           "page": 1,
           "searchText": "3,336",
           "anchorText": "reported net income"
+        },
+        "lcr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 4,
+          "searchText": "138",
+          "anchorText": "liquidity coverage ratio (lcr)"
+        },
+        "nsfr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 4,
+          "searchText": "117",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "nim": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 5,
+          "searchText": "1.82",
+          "anchorText": "net interest margin"
         }
       }
     },
@@ -930,6 +984,24 @@
           "page": 1,
           "searchText": "3,280",
           "anchorText": "reported net income"
+        },
+        "lcr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 4,
+          "searchText": "130",
+          "anchorText": "liquidity coverage ratio (lcr)"
+        },
+        "nsfr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 4,
+          "searchText": "117",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "nim": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 5,
+          "searchText": "1.82",
+          "anchorText": "net interest margin"
         }
       }
     },
@@ -1030,6 +1102,72 @@
           "searchText": "225,074",
           "page": 39,
           "anchorText": "non-operational deposits (all counterparties)"
+        },
+        "cet1Ratio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "page": 2,
+          "searchText": "14.5%",
+          "anchorText": "common equity tier 1 capital ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "16.3",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "18.1",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "4.5",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "31.1",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "lcr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "page": 39,
+          "searchText": "137%",
+          "anchorText": "liquidity coverage ratio"
+        },
+        "nsfr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "page": 40,
+          "searchText": "115 %",
+          "anchorText": "net stable funding ratio"
+        },
+        "roe": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "13.6 %",
+          "anchorText": "return on common equity (roe)"
+        },
+        "nim": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "page": 21,
+          "searchText": "1.85",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "52.8",
+          "anchorText": "efficiency ratio"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "page": 1,
+          "searchText": "4,043",
+          "anchorText": "reported net income"
         }
       }
     },
@@ -1130,6 +1268,72 @@
           "searchText": "220,464",
           "page": 41,
           "anchorText": "non-operational deposits (all counterparties)"
+        },
+        "cet1Ratio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "page": 2,
+          "searchText": "14.3%",
+          "anchorText": "common equity tier 1 capital ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "16.0",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "17.8",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "4.5",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "31.1",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "lcr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "page": 41,
+          "searchText": "130%",
+          "anchorText": "liquidity coverage ratio"
+        },
+        "nsfr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "page": 42,
+          "searchText": "117 %",
+          "anchorText": "net stable funding ratio"
+        },
+        "roe": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "14.7 %",
+          "anchorText": "return on common equity (roe)"
+        },
+        "nim": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "page": 24,
+          "searchText": "1.95 %",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "53.0",
+          "anchorText": "efficiency ratio"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "page": 1,
+          "searchText": "4,251",
+          "anchorText": "reported net income"
         }
       }
     }

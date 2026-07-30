@@ -147,6 +147,42 @@
           "page": 3,
           "searchText": "1,786",
           "anchorText": "net income attributable to"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "14.8%",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "17.1%",
+          "anchorText": "total capital ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "30.1%",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "nsfr": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "116%",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "55.8%",
+          "anchorText": "efficiency ratio"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "1,021,407",
+          "anchorText": "total assets"
         }
       }
     },
@@ -296,6 +332,12 @@
           "page": 4,
           "searchText": "1,874",
           "anchorText": "net income attributable to"
+        },
+        "tlacRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "30.3%",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
         }
       }
     },
@@ -440,6 +482,42 @@
           "page": 3,
           "searchText": "2,163",
           "anchorText": "net income attributable to"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 7,
+          "searchText": "15.1%",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 7,
+          "searchText": "17.3%",
+          "anchorText": "total capital ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 7,
+          "searchText": "31.4%",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "nsfr": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 7,
+          "searchText": "113%",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 6,
+          "searchText": "53.3%",
+          "anchorText": "efficiency ratio"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 7,
+          "searchText": "1,082,464",
+          "anchorText": "total assets"
         }
       }
     },
@@ -589,6 +667,36 @@
           "page": 3,
           "searchText": "1,998",
           "anchorText": "net income attributable to"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "17.8%",
+          "anchorText": "total capital ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "32.2%",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "nsfr": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "113%",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "54.4%",
+          "anchorText": "efficiency ratio"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "1,090,143",
+          "anchorText": "total assets"
         }
       }
     },
@@ -670,8 +778,10 @@
           "anchorText": "liquidity coverage ratio"
         },
         "roe": {
-          "page": 1,
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q325newsrelease-en.pdf"
+          "page": 6,
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "searchText": "14.2%",
+          "anchorText": "return on common shareholders' equity"
         },
         "nim": {
           "page": 1,
@@ -705,6 +815,42 @@
           "page": 3,
           "searchText": "2,094",
           "anchorText": "net income attributable to"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "15.3%",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "17.6%",
+          "anchorText": "total capital ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "32.9%",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "nsfr": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "115%",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "54.8%",
+          "anchorText": "efficiency ratio"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "1,102,255",
+          "anchorText": "total assets"
         }
       }
     },
@@ -1030,6 +1176,42 @@
           "page": 3,
           "searchText": "3,093",
           "anchorText": "net income attributable to"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 7,
+          "searchText": "15.4%",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 7,
+          "searchText": "17.7%",
+          "anchorText": "total capital ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 7,
+          "searchText": "32.1%",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "nsfr": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 7,
+          "searchText": "114%",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 6,
+          "searchText": "51.6%",
+          "anchorText": "efficiency ratio"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 7,
+          "searchText": "1,132,577",
+          "anchorText": "total assets"
         }
       }
     },
@@ -1139,6 +1321,78 @@
           "searchText": "106,834",
           "page": 44,
           "anchorText": "non-operational deposits (all counterparties)"
+        },
+        "cet1Ratio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "page": 1,
+          "searchText": "13.6%",
+          "anchorText": "common equity tier 1 (cet1) ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "page": 5,
+          "searchText": "15.6 %",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "page": 5,
+          "searchText": "17.6 %",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "page": 1,
+          "searchText": "4.3%",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "page": 5,
+          "searchText": "32.7 %",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "lcr": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "page": 1,
+          "searchText": "131%",
+          "anchorText": "liquidity coverage ratio"
+        },
+        "nsfr": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "page": 5,
+          "searchText": "114 %",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "roe": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "16.4%",
+          "anchorText": "return on common shareholders' equity"
+        },
+        "nim": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "page": 1,
+          "searchText": "1.67%",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "page": 5,
+          "searchText": "52.4 %",
+          "anchorText": "efficiency ratio"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "page": 5,
+          "searchText": "1,160,560",
+          "anchorText": "total assets"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "page": 5,
+          "searchText": "2,457",
+          "anchorText": "net income attributable to"
         }
       }
     }

@@ -138,6 +138,48 @@
           "searchText": "$257.3 billion",
           "page": 43,
           "anchorText": "wholesale funding"
+        },
+        "cet1Ratio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "13.0%",
+          "anchorText": "common equity tier 1 (cet1) ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "page": 7,
+          "searchText": "4.3",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "page": 7,
+          "searchText": "28.5",
+          "anchorText": "tlac ratio"
+        },
+        "roe": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "10.0%",
+          "anchorText": "return on equity (roe)"
+        },
+        "nim": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "page": 7,
+          "searchText": "1.51",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "page": 7,
+          "searchText": "57.3",
+          "anchorText": "efficiency ratio"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "1,865",
+          "anchorText": "net income"
         }
       }
     },
@@ -235,6 +277,72 @@
         "loansToAssetsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
           "page": 2
+        },
+        "cet1Ratio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "page": 1,
+          "searchText": "13.6%",
+          "anchorText": "common equity tier 1 (cet1) ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "page": 5,
+          "searchText": "15.4",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "page": 5,
+          "searchText": "17.6",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "page": 5,
+          "searchText": "4.4",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "page": 5,
+          "searchText": "29.3",
+          "anchorText": "tlac ratio"
+        },
+        "lcr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "page": 5,
+          "searchText": "132",
+          "anchorText": "liquidity coverage ratio (lcr)"
+        },
+        "nsfr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "page": 5,
+          "searchText": "117",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "roe": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "page": 1,
+          "searchText": "11.4%",
+          "anchorText": "return on equity (roe)"
+        },
+        "nim": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "page": 5,
+          "searchText": "1.70",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "page": 5,
+          "searchText": "49.4",
+          "anchorText": "efficiency ratio"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
+          "page": 1,
+          "searchText": "2,304",
+          "anchorText": "net income"
         }
       }
     },
@@ -299,7 +407,9 @@
         },
         "totalAssetsBillions": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "page": 2
+          "page": 15,
+          "searchText": "1,468,093",
+          "anchorText": "total assets"
         },
         "lcr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
@@ -368,6 +478,54 @@
           "searchText": "$263.4 billion",
           "page": 35,
           "anchorText": "wholesale funding"
+        },
+        "cet1Ratio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "13.6%",
+          "anchorText": "common equity tier 1 (cet1) ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "15.4",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "17.6",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "4.4",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "29.8",
+          "anchorText": "tlac ratio"
+        },
+        "roe": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "10.6%",
+          "anchorText": "return on equity (roe)"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "58.6",
+          "anchorText": "efficiency ratio"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "2,138",
+          "anchorText": "reported net income"
         }
       }
     },
@@ -432,7 +590,9 @@
         },
         "totalAssetsBillions": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "page": 2
+          "page": 16,
+          "searchText": "1,440,269",
+          "anchorText": "total assets"
         },
         "lcr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
@@ -502,6 +662,54 @@
           "searchText": "$258.8 billion",
           "page": 36,
           "anchorText": "wholesale funding"
+        },
+        "cet1Ratio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "13.5%",
+          "anchorText": "common equity tier 1 (cet1) ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "15.3",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "17.9",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "4.4",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "29.9",
+          "anchorText": "tlac ratio"
+        },
+        "roe": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "9.4%",
+          "anchorText": "reported return on equity (roe)"
+        },
+        "nim": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "1.60",
+          "anchorText": "net interest margin"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "1,962",
+          "anchorText": "reported net income"
         }
       }
     },
@@ -617,6 +825,66 @@
           "searchText": "$248.4 billion",
           "page": 39,
           "anchorText": "wholesale funding"
+        },
+        "cet1Ratio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "13.5%",
+          "anchorText": "common equity tier 1 (cet1) ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "15.5",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "17.8",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "4.5",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "29.5",
+          "anchorText": "tlac ratio"
+        },
+        "lcr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "130",
+          "anchorText": "liquidity coverage ratio (lcr)"
+        },
+        "nsfr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "118",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "roe": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "11.6%",
+          "anchorText": "reported return on equity (roe)"
+        },
+        "nim": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "1.69",
+          "anchorText": "net interest margin"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
+          "page": 1,
+          "searchText": "2,330",
+          "anchorText": "reported net income"
         }
       }
     },
@@ -716,6 +984,72 @@
         "loansToAssetsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
           "page": 2
+        },
+        "cet1Ratio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "page": 1,
+          "searchText": "13.3%",
+          "anchorText": "common equity tier 1 (cet1) ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "page": 4,
+          "searchText": "15.0",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "page": 4,
+          "searchText": "17.3",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "page": 4,
+          "searchText": "4.3",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "page": 4,
+          "searchText": "29.7",
+          "anchorText": "tlac ratio"
+        },
+        "lcr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "page": 4,
+          "searchText": "132",
+          "anchorText": "liquidity coverage ratio"
+        },
+        "nsfr": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "page": 4,
+          "searchText": "117",
+          "anchorText": "net stable funding ratio"
+        },
+        "roe": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "page": 1,
+          "searchText": "10.7%",
+          "anchorText": "reported return on equity (roe)"
+        },
+        "nim": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "page": 4,
+          "searchText": "1.67",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "page": 4,
+          "searchText": "59.5",
+          "anchorText": "efficiency ratio"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
+          "page": 1,
+          "searchText": "2,295",
+          "anchorText": "reported net income"
         }
       }
     },
@@ -822,7 +1156,9 @@
         },
         "totalAssetsBillions": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "page": 2
+          "page": 14,
+          "searchText": "1,458,132",
+          "anchorText": "total assets"
         },
         "lcr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
