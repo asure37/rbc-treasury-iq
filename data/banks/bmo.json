@@ -8,10 +8,10 @@
     {
       "period": "Q3 2024",
       "periodEnd": "2024-07-31",
-      "reportName": "Q3 2024 Report to Shareholders / Earnings Release",
-      "reportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-third-quarter-2024-results-302231467.html",
+      "reportName": "Q3 2024 Report to Shareholders",
+      "reportUrl": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
       "supplementaryReportName": "Q3 2024 Supplementary Regulatory Capital Disclosure (figures corroborated via Q4 2024 press release comparatives)",
-      "supplementaryReportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-fourth-quarter-and-fiscal-2024-results-302323727.html",
+      "supplementaryReportUrl": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Suppq324.pdf",
       "retrievedAt": "2026-07-02T00:00:00.000Z",
       "metrics": {
         "cet1Ratio": 13,
@@ -144,10 +144,10 @@
     {
       "period": "Q4 2024",
       "periodEnd": "2024-10-31",
-      "reportName": "Q4 2024 / Fiscal 2024 Report to Shareholders and Earnings Release",
-      "reportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-fourth-quarter-and-fiscal-2024-results-302323727.html",
+      "reportName": "Q4 2024 Earnings Release",
+      "reportUrl": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
       "supplementaryReportName": "Q4 2024 Capital and Liquidity Measures table (within earnings release)",
-      "supplementaryReportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-fourth-quarter-and-fiscal-2024-results-302323727.html",
+      "supplementaryReportUrl": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Suppq424.pdf",
       "retrievedAt": "2026-07-02T00:00:00.000Z",
       "metrics": {
         "cet1Ratio": 13.6,
@@ -197,7 +197,7 @@
           "page": 25
         },
         "wholesaleFundingPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf"
         },
         "retailDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Suppq424.pdf",
@@ -212,19 +212,19 @@
           "anchorText": "banks"
         },
         "stableDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf"
         },
         "lessStableDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf"
         },
         "operationalDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf"
         },
         "nonOperationalDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf"
         },
         "irrbbEveSensitivityPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
@@ -241,10 +241,10 @@
     {
       "period": "Q1 2025",
       "periodEnd": "2025-01-31",
-      "reportName": "Q1 2025 Report to Shareholders / Earnings Release",
-      "reportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-first-quarter-2025-results-302384566.html",
+      "reportName": "Q1 2025 Report to Shareholders",
+      "reportUrl": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
       "supplementaryReportName": "Q1 2025 Supplementary Regulatory Capital Disclosure (figures corroborated via Q2 2025 and Q1 2026 press release comparatives)",
-      "supplementaryReportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-second-quarter-2025-results-302466955.html",
+      "supplementaryReportUrl": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Suppq125.pdf",
       "retrievedAt": "2026-07-02T00:00:00.000Z",
       "metrics": {
         "cet1Ratio": 13.6,
@@ -374,8 +374,8 @@
     {
       "period": "Q2 2025",
       "periodEnd": "2025-04-30",
-      "reportName": "Q2 2025 Report to Shareholders / Earnings Release",
-      "reportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-second-quarter-2025-results-302466955.html",
+      "reportName": "Q2 2025 Report to Shareholders",
+      "reportUrl": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
       "supplementaryReportName": "Q2 2025 Supplementary Regulatory Capital Disclosure (Tier 1/Total Capital/Leverage/TLAC figures corroborated via subsequent quarter comparatives)",
       "supplementaryReportUrl": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/SuppRegCapitalDisclosure_Q225.pdf",
       "retrievedAt": "2026-07-02T00:00:00.000Z",
@@ -508,10 +508,10 @@
     {
       "period": "Q3 2025",
       "periodEnd": "2025-07-31",
-      "reportName": "Q3 2025 Report to Shareholders / Earnings Release",
-      "reportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-third-quarter-2025-results-302538751.html",
+      "reportName": "Q3 2025 Report to Shareholders",
+      "reportUrl": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
       "supplementaryReportName": "Q4 2025 earnings release Capital and Liquidity Measures table (contains Q3-2025 comparative column)",
-      "supplementaryReportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-fourth-quarter-and-fiscal-2025-results-302632944.html",
+      "supplementaryReportUrl": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Suppq325.pdf",
       "retrievedAt": "2026-07-02T00:00:00.000Z",
       "metrics": {
         "cet1Ratio": 13.5,
@@ -623,10 +623,10 @@
     {
       "period": "Q4 2025",
       "periodEnd": "2025-10-31",
-      "reportName": "Q4 2025 / Fiscal 2025 Report to Shareholders and Earnings Release",
-      "reportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-fourth-quarter-and-fiscal-2025-results-302632944.html",
+      "reportName": "Q4 2025 Earnings Release",
+      "reportUrl": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
       "supplementaryReportName": "Q4 2025 Capital and Liquidity Measures table (within earnings release)",
-      "supplementaryReportUrl": "https://www.prnewswire.com/news-releases/bmo-financial-group-reports-fourth-quarter-and-fiscal-2025-results-302632944.html",
+      "supplementaryReportUrl": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Suppq425.pdf",
       "retrievedAt": "2026-07-02T00:00:00.000Z",
       "metrics": {
         "cet1Ratio": 13.3,
@@ -679,7 +679,7 @@
           "anchorText": "loans and acceptances"
         },
         "wholesaleFundingPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf"
         },
         "retailDepositsPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Suppq425.pdf",
@@ -694,19 +694,19 @@
           "anchorText": "banks"
         },
         "stableDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf"
         },
         "lessStableDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf"
         },
         "operationalDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf"
         },
         "nonOperationalDepositsPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf"
         },
         "irrbbEveSensitivityPct": {
-          "url": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf"
         },
         "irrbbNiiSensitivityPct": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
@@ -906,7 +906,7 @@
       "reportName": "Q2 2026 Report to Shareholders / Earnings Release",
       "reportUrl": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
       "supplementaryReportName": "Q2 2026 6-K filing (StockTitan mirror) and press release",
-      "supplementaryReportUrl": "https://www.stocktitan.net/news/BMO/bmo-financial-group-reports-second-quarter-2026-sbiw2i8qrgp3.html",
+      "supplementaryReportUrl": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
       "retrievedAt": "2026-07-02T00:00:00.000Z",
       "metrics": {
         "cet1Ratio": 13,
