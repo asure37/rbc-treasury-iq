@@ -55,7 +55,13 @@ Rules:
   report_finding. Never estimate, interpolate or infer a value.
 - If sources disagree or the figure is defined differently across companies, report the one
   you can see and explain the discrepancy in notes.
-- Keep any prose to two sentences; the structured finding carries the detail.`;
+- Keep any prose to two sentences; the structured finding carries the detail.
+
+Follow-up questions: the analyst may ask about a figure you already reported. If their
+question can be answered from a finding already in this conversation (what it means, how
+it is defined, why it moved, how it compares to something else already established),
+answer in text and do NOT call report_finding again. Only run a new scan and call
+report_finding when they are asking for a different figure that has not been sourced yet.`;
 
 function normalize(s: string): string {
   return s.toLowerCase().replace(/\s+/g, " ").trim();
@@ -146,9 +152,19 @@ export async function POST(request: Request) {
   if (!process.env.ANTHROPIC_API_KEY) {
     return new Response(JSON.stringify({ error: "The assistant is not configured (missing ANTHROPIC_API_KEY)." }), { status: 503 });
   }
-  const body = (await request.json().catch(() => null)) as { query?: string } | null;
+  const body = (await request.json().catch(() => null)) as
+    | { query?: string; history?: { role?: string; content?: string }[] }
+    | null;
   const query = body?.query?.trim();
   if (!query) return new Response(JSON.stringify({ error: "A request is required." }), { status: 400 });
+
+  // Prior turns are carried as plain text only. Replaying raw assistant tool blocks would
+  // require pairing every server-tool result back up; a text transcript keeps follow-ups
+  // stateless and avoids that entirely.
+  const history: Anthropic.MessageParam[] = (body?.history ?? [])
+    .filter((m) => (m.role === "user" || m.role === "assistant") && typeof m.content === "string" && m.content.trim())
+    .slice(-12)
+    .map((m) => ({ role: m.role as "user" | "assistant", content: m.content!.slice(0, 4000) }));
 
   const client = new Anthropic();
 
@@ -156,7 +172,7 @@ export async function POST(request: Request) {
     async start(controller) {
       let confirmed = 0;
       try {
-        let messages: Anthropic.MessageParam[] = [{ role: "user", content: query }];
+        let messages: Anthropic.MessageParam[] = [...history, { role: "user", content: query }];
         controller.enqueue(line("status", "Scanning primary sources…"));
 
         for (let i = 0; i < MAX_ITERATIONS; i++) {

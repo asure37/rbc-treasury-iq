@@ -159,6 +159,7 @@ export function SourceViewerModal({ target, onClose }: { target: SourceViewerTar
   const highlightRef = useRef<HTMLDivElement>(null);
   const pdfRef = useRef<import("pdfjs-dist").PDFDocumentProxy | null>(null);
   const loadingTaskRef = useRef<import("pdfjs-dist").PDFDocumentLoadingTask | null>(null);
+  const renderTaskRef = useRef<import("pdfjs-dist").RenderTask | null>(null);
 
   const [status, setStatus] = useState<"loading" | "searching" | "ready" | "error">("loading");
   const [currentPage, setCurrentPage] = useState(target.page ?? 1);
@@ -231,7 +232,16 @@ export function SourceViewerModal({ target, onClose }: { target: SourceViewerTar
       canvas.height = viewport.height;
       const ctx = canvas.getContext("2d");
       if (!ctx) return;
-      await page.render({ canvasContext: ctx, viewport, canvas }).promise;
+      // Two renders must never share a canvas: pdf.js composites into it, so an
+      // un-cancelled earlier task corrupts the output (it renders mirrored/garbled).
+      renderTaskRef.current?.cancel();
+      const task = page.render({ canvasContext: ctx, viewport, canvas });
+      renderTaskRef.current = task;
+      try {
+        await task.promise;
+      } catch {
+        return; // superseded by a newer render
+      }
       if (cancelled) return;
 
       if (target.searchText) {
@@ -246,6 +256,8 @@ export function SourceViewerModal({ target, onClose }: { target: SourceViewerTar
 
     return () => {
       cancelled = true;
+      renderTaskRef.current?.cancel();
+      renderTaskRef.current = null;
     };
   }, [status, currentPage, target.searchText, target.anchorText]);
 
