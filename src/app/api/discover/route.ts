@@ -157,7 +157,7 @@ export async function POST(request: Request) {
       let confirmed = 0;
       try {
         let messages: Anthropic.MessageParam[] = [{ role: "user", content: query }];
-        controller.enqueue(line("status", "Searching primary sources…"));
+        controller.enqueue(line("status", "Scanning primary sources…"));
 
         for (let i = 0; i < MAX_ITERATIONS; i++) {
           const s = client.messages.stream({
@@ -177,7 +177,7 @@ export async function POST(request: Request) {
 
           for await (const ev of s) {
             if (ev.type === "content_block_start" && ev.content_block.type === "server_tool_use") {
-              controller.enqueue(line("status", ev.content_block.name === "web_fetch" ? "Opening the source document…" : "Searching…"));
+              controller.enqueue(line("status", ev.content_block.name === "web_fetch" ? "Opening the source document…" : "Scanning sources…"));
             }
             if (ev.type === "content_block_start" && ev.content_block.type === "tool_use" && ev.content_block.name === "report_finding") {
               controller.enqueue(line("status", "Verifying the figure against the source…"));

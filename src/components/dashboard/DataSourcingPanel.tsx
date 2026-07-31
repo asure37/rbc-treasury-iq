@@ -2,7 +2,7 @@
 
 import { useCallback, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { Search, ShieldCheck, ShieldAlert, ShieldQuestion, FileSearch, ExternalLink, Loader2, Radar } from "lucide-react";
+import { Search, ShieldCheck, ShieldAlert, ShieldQuestion, FileSearch, ExternalLink, Loader2, ScanSearch } from "lucide-react";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { SourceViewerModal, type SourceViewerTarget } from "./SourceViewerModal";
 
@@ -129,14 +129,16 @@ export function DataSourcingPanel() {
     <GlassCard className="p-5">
       <div className="mb-3 flex items-start gap-3">
         <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-rbc-cyan/10">
-          <Radar className="size-5 text-rbc-cyan" />
+          <ScanSearch className="size-5 text-rbc-cyan" />
         </div>
         <div className="min-w-0">
-          <h3 className="font-display text-base font-semibold text-text-primary">Source Any Figure</h3>
+          <h3 className="font-display text-base font-semibold text-text-primary">
+            MRI Scan <span className="text-sm font-normal text-text-muted">&mdash; Metrics, Reporting &amp; Insights</span>
+          </h3>
           <p className="text-xs text-text-muted">
-            Ask for any metric, any company, any period. Treasury IQ searches primary sources — investor
+            Scan for any metric, any company, any period. Treasury IQ searches primary sources — investor
             reports, supplementary financials, regulatory filings, earnings releases and calls — reads the
-            document, verifies the figure is really in it, and shows you exactly where.
+            document, verifies the figure is really in it, and shows you exactly where it came from.
           </p>
         </div>
       </div>
@@ -164,7 +166,7 @@ export function DataSourcingPanel() {
           className="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-rbc-blue to-rbc-cyan px-4 py-2.5 text-sm font-semibold text-white transition-transform hover:scale-[1.02] active:scale-95 disabled:opacity-50"
         >
           {busy ? <Loader2 className="size-4 animate-spin" /> : <FileSearch className="size-4" />}
-          {busy ? "Sourcing…" : "Find & verify"}
+          {busy ? "Scanning…" : "Run MRI Scan"}
         </button>
       </form>
 
