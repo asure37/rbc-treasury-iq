@@ -35,8 +35,9 @@ function normalize(s: string): string {
 const ANCHOR_WINDOW = 240;
 
 // pdf.js emits a leading "$" as its own text item, so "$619,452" in the data becomes
-// "$ 619,452" in the extracted stream. Try the recorded form, the spaced form, and the
-// bare number so a currency figure still resolves.
+// "$ 619,452" in the extracted stream; some documents likewise split the trailing "%"
+// off its number. Try the recorded form first, then those spaced forms, then the bare
+// number — most specific to least, so the tightest match wins.
 function valueVariants(searchText: string): string[] {
   const v = normalize(searchText);
   const out = [v];
@@ -44,11 +45,41 @@ function valueVariants(searchText: string): string[] {
     out.push(v.replace(/\$\s*/g, "$ "));
     out.push(v.replace(/\$\s*/g, "").trim());
   }
+  if (v.includes("%")) {
+    out.push(v.replace(/\s*%/g, " %"));
+    out.push(v.replace(/\s*%/g, "").trim());
+  }
   return out.filter((s, i, a) => s && a.indexOf(s) === i);
 }
 
-// Index and matched length of the value belonging to `anchorText`. Falls back to the
-// first occurrence when no anchor is supplied or the anchor isn't on this page.
+// A figure must not be a fragment of a longer number. Plain substring search happily
+// finds "4.2" inside "c$4.233 billion", "4.7" inside "184.7 million shares" and "4.3"
+// inside "$14.36 million" — all of which highlight a number we never cited.
+function isWholeNumberMatch(hay: string, idx: number, len: number): boolean {
+  const before = idx > 0 ? hay[idx - 1] : "";
+  const after = hay[idx + len] ?? "";
+  if (/[0-9.,]/.test(before)) return false;
+  if (/[0-9]/.test(after)) return false;
+  // "13.2" must not match the head of "13.25" / "13,250".
+  if (/[.,]/.test(after) && /[0-9]/.test(hay[idx + len + 1] ?? "")) return false;
+  return true;
+}
+
+function indexOfValue(hay: string, needle: string, from = 0): number {
+  let i = hay.indexOf(needle, from);
+  while (i !== -1) {
+    if (isWholeNumberMatch(hay, i, needle.length)) return i;
+    i = hay.indexOf(needle, i + 1);
+  }
+  return -1;
+}
+
+// Index and matched length of the value belonging to `anchorText`.
+//
+// When an anchor is given it is REQUIRED: if this page doesn't carry the metric's own
+// label, we highlight nothing rather than the first number that happens to look right.
+// Falling back to a bare match is how a leverage ratio of 4.3% ends up pointing at
+// "the unemployment rate remained at 4.3% in April 2026" a page earlier.
 function locateValue(combined: string, searchText: string, anchorText?: string): { idx: number; len: number } {
   const variants = valueVariants(searchText);
   if (anchorText) {
@@ -59,14 +90,15 @@ function locateValue(combined: string, searchText: string, anchorText?: string):
       if (aIdx === -1) break;
       const searchStart = aIdx + anchor.length;
       for (const value of variants) {
-        const vIdx = combined.indexOf(value, searchStart);
+        const vIdx = indexOfValue(combined, value, searchStart);
         if (vIdx !== -1 && vIdx - searchStart <= ANCHOR_WINDOW) return { idx: vIdx, len: value.length };
       }
       from = aIdx + 1;
     }
+    return { idx: -1, len: 0 };
   }
   for (const value of variants) {
-    const i = combined.indexOf(value);
+    const i = indexOfValue(combined, value);
     if (i !== -1) return { idx: i, len: value.length };
   }
   return { idx: -1, len: 0 };
@@ -166,6 +198,11 @@ export function SourceViewerModal({ target, onClose }: { target: SourceViewerTar
   const [numPages, setNumPages] = useState(0);
   const [rect, setRect] = useState<Rect | null>(null);
   const [searchMissed, setSearchMissed] = useState(false);
+  // Which page we have actually finished searching. The neighbour-page fallback must
+  // wait for this: rendering the cited page is far slower than reading a neighbour's
+  // text layer, so an ungated fallback wins the race and navigates away from a page
+  // whose highlight was about to resolve correctly.
+  const [probedPage, setProbedPage] = useState<number | null>(null);
 
   const proxiedUrl = `/api/pdf-proxy?url=${encodeURIComponent(target.url)}`;
 
@@ -248,9 +285,11 @@ export function SourceViewerModal({ target, onClose }: { target: SourceViewerTar
         const found = await findHighlightRect(pdfjsLib, page, viewport, target.searchText, target.anchorText);
         if (cancelled) return;
         setRect(found);
-        if (found) setSearchMissed(false);
+        setProbedPage(currentPage);
+        setSearchMissed(!found);
       } else {
         setRect(null);
+        setProbedPage(currentPage);
       }
     })();
 
@@ -261,11 +300,23 @@ export function SourceViewerModal({ target, onClose }: { target: SourceViewerTar
     };
   }, [status, currentPage, target.searchText, target.anchorText]);
 
-  // If a known page number didn't contain the search text, try its immediate
-  // neighbors once — reports are occasionally off-by-one against the page
-  // number recorded during research.
+  // If the recorded page genuinely didn't contain the figure, try its immediate
+  // neighbours once — reports are occasionally off-by-one against the page number
+  // recorded during research. Two guards keep this honest: it only runs once the
+  // cited page has actually been searched (probedPage), and only for refs carrying a
+  // label anchor, so a neighbour can only win by matching label AND value. Without
+  // both, this fallback silently relocates correct citations onto lookalike numbers.
   useEffect(() => {
-    if (!rect && status === "ready" && target.page && target.searchText && currentPage === target.page && numPages) {
+    if (
+      !rect &&
+      status === "ready" &&
+      target.page &&
+      target.searchText &&
+      target.anchorText &&
+      currentPage === target.page &&
+      probedPage === target.page &&
+      numPages
+    ) {
       let cancelled = false;
       (async () => {
         const pdfjsLib = await import("pdfjs-dist");
@@ -288,7 +339,7 @@ export function SourceViewerModal({ target, onClose }: { target: SourceViewerTar
       };
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [rect, status]);
+  }, [rect, status, probedPage]);
 
   useEffect(() => {
     if (rect) {

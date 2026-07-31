@@ -292,68 +292,68 @@
           "anchorText": "net interest income"
         },
         "cet1Ratio": {
-          "page": 3,
+          "page": 1,
           "searchText": "13.2",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q4release.pdf",
           "anchorText": "cet1 ratio"
         },
         "tier1CapitalRatio": {
-          "page": 3,
+          "page": 5,
           "searchText": "14.6",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q4release.pdf",
           "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
-          "page": 3,
+          "page": 5,
           "searchText": "16.4",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q4release.pdf",
           "anchorText": "total capital ratio"
         },
         "leverageRatio": {
-          "page": 3,
+          "page": 5,
           "searchText": "4.2",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q4release.pdf",
           "anchorText": "leverage ratio"
         },
         "tlacRatio": {
-          "page": 3,
+          "page": 5,
           "searchText": "29.3",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q4release.pdf",
           "anchorText": "total loss absorbing capacity (tlac) ratio"
         },
         "lcr": {
-          "page": 3,
+          "page": 1,
           "searchText": "128",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q4release.pdf",
           "anchorText": "lcr"
         },
         "nsfr": {
-          "page": 3,
+          "page": 4,
           "searchText": "114",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q4release.pdf",
           "anchorText": "nsfr"
         },
         "roe": {
-          "page": 3,
+          "page": 5,
           "searchText": "14.3",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q4release.pdf",
           "anchorText": "return on common equity (roe)"
         },
         "nim": {
-          "page": 3,
+          "page": 5,
           "searchText": "1.68",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q4release.pdf",
           "anchorText": "net interest margin (nim)"
         },
         "totalAssetsBillions": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
-          "page": 3,
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q4release.pdf",
+          "page": 5,
           "searchText": "2,171,582",
           "anchorText": "total assets"
         },
         "netIncomeMillions": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
-          "page": 3,
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q4release.pdf",
+          "page": 2,
           "searchText": "4,222",
           "anchorText": "net income"
         },
@@ -653,72 +653,72 @@
         "cet1Ratio": {
           "page": 1,
           "searchText": "13.2",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
           "anchorText": "cet1 ratio"
         },
         "tier1CapitalRatio": {
-          "page": 5,
+          "page": 4,
           "searchText": "14.7",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
           "anchorText": "tier 1 capital ratio"
         },
         "totalCapitalRatio": {
-          "page": 5,
+          "page": 4,
           "searchText": "16.5",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
           "anchorText": "total capital ratio"
         },
         "leverageRatio": {
-          "page": 5,
+          "page": 4,
           "searchText": "4.3",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
           "anchorText": "leverage ratio"
         },
         "tlacRatio": {
-          "page": 5,
+          "page": 4,
           "searchText": "31.0",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
           "anchorText": "total loss absorbing capacity (tlac) ratio"
         },
         "lcr": {
           "page": 1,
           "searchText": "131",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
           "anchorText": "lcr"
         },
         "nsfr": {
-          "page": 5,
+          "page": 4,
           "searchText": "116",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
           "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
-          "page": 5,
+          "page": 4,
           "searchText": "14.2",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
           "anchorText": "return on common equity (roe)"
         },
         "nim": {
-          "page": 5,
+          "page": 4,
           "searchText": "1.64",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
           "anchorText": "net interest margin (nim)"
         },
         "efficiencyRatio": {
           "page": 11,
           "searchText": "55.7",
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
           "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "page": 5,
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
+          "page": 4,
           "searchText": "2,242,133",
           "anchorText": "total assets"
         },
         "netIncomeMillions": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
-          "page": 5,
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
+          "page": 1,
           "searchText": "4,390",
           "anchorText": "net income"
         }
@@ -1205,7 +1205,7 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1release.pdf"
         },
         "totalCapitalRatio": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
           "page": 4,
           "searchText": "16.8%",
           "anchorText": "total capital ratio"
@@ -1217,37 +1217,37 @@
           "anchorText": "net income"
         },
         "tier1CapitalRatio": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
           "page": 4,
           "searchText": "15.2%",
           "anchorText": "tier 1 capital ratio"
         },
         "leverageRatio": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
           "page": 4,
           "searchText": "4.4%",
           "anchorText": "leverage ratio"
         },
         "tlacRatio": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
           "page": 4,
           "searchText": "30.9%",
           "anchorText": "total loss absorbing capacity (tlac) ratio"
         },
         "nim": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
           "page": 4,
           "searchText": "1.55%",
           "anchorText": "net interest margin (nim)"
         },
         "efficiencyRatio": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
           "page": 10,
           "searchText": "52.7%",
           "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
           "page": 4,
           "searchText": "2,342,393",
           "anchorText": "total assets"
