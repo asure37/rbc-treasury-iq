@@ -52,11 +52,11 @@ export function ExportDeckPage({ onClose }: { onClose: () => void }) {
   );
 
   const slideCount = useMemo(() => {
-    let n = 2; // title + sources
+    let n = 4; // title + contents + executive summary + sources
     if (charts.table) n += 1;
     if (charts.heatmap) n += 1;
-    if (charts.ranking) n += metricKeys.length;
-    if (charts.trend) n += metricKeys.length;
+    if (charts.ranking) n += metricKeys.length + 1; // + section divider
+    if (charts.trend) n += metricKeys.length + 1;
     return n;
   }, [charts, metricKeys.length]);
 
