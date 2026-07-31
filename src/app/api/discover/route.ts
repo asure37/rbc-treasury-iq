@@ -1,10 +1,30 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { registerDiscoveredSource, isSafePublicHttpUrl } from "@/lib/discovered-sources";
+import { resolveCompany, findTags, getFactValues } from "@/lib/sec-edgar";
 
 export const runtime = "nodejs";
 export const maxDuration = 300;
 
-const MAX_ITERATIONS = 12;
+const MAX_ITERATIONS = 10;
+
+// Structured filing data (SEC EDGAR XBRL). Gives the agent exact reported values with
+// the filing accession attached, instead of relying on reading prose off a web page.
+const SEC_XBRL_TOOL: Anthropic.Tool = {
+  name: "sec_xbrl",
+  description:
+    "Look up exact figures a company reported to the SEC in XBRL (the structured data behind its filings). Use this FIRST for any SEC registrant — it returns authoritative values with the filing they came from. Workflow: resolve_company -> find_tags (search by keyword, e.g. 'deposits', 'equity', 'revenue') -> get_values. Canadian banks file IFRS tags (taxonomy 'ifrs-full'); US filers use 'us-gaap'.",
+  input_schema: {
+    type: "object",
+    properties: {
+      action: { type: "string", enum: ["resolve_company", "find_tags", "get_values"] },
+      query: { type: "string", description: "resolve_company: company name or ticker. find_tags: keyword to search tag names/labels." },
+      cik: { type: "string", description: "10-digit CIK from resolve_company (required for find_tags and get_values)." },
+      taxonomy: { type: "string", description: "get_values: e.g. 'ifrs-full' or 'us-gaap'." },
+      tag: { type: "string", description: "get_values: the XBRL tag name." },
+    },
+    required: ["action"],
+  },
+};
 
 // The model must return its answer through this tool, so every finding arrives as
 // structured, checkable fields rather than prose we would have to parse.
@@ -25,6 +45,10 @@ const REPORT_FINDING_TOOL: Anthropic.Tool = {
       sourceUrl: { type: "string", description: "Direct https URL to the source document (PDF preferred)." },
       sourceType: { type: "string", enum: ["investor_report", "supplementary_financials", "regulatory_filing", "earnings_release", "earnings_call", "press_release", "website", "other"] },
       asOf: { type: "string", description: "Date the figure is as-of, if stated." },
+      xbrlCik: { type: "string", description: "If the figure came from sec_xbrl, the 10-digit CIK." },
+      xbrlTaxonomy: { type: "string", description: "If from sec_xbrl, the taxonomy (e.g. 'ifrs-full')." },
+      xbrlTag: { type: "string", description: "If from sec_xbrl, the XBRL tag name." },
+      xbrlPeriodEnd: { type: "string", description: "If from sec_xbrl, the periodEnd of the value (YYYY-MM-DD)." },
       notes: { type: "string", description: "Any caveat: basis, restatement, definition differences, or why the number may not be comparable." },
     },
     required: ["label", "entity", "period", "value", "quote", "sourceName", "sourceUrl", "sourceType"],
@@ -36,7 +60,19 @@ const SYSTEM = `You are the Treasury IQ data-sourcing agent for RBC's CFO group.
 Given a request for a specific figure — any metric, any company, any period, from investor
 reports, supplementary financials, regulatory filings, earnings releases/calls or public
 financial sources — you must:
-1. Search for the figure.
+0. If the company files with the SEC, try the sec_xbrl tool FIRST. It returns the exact
+   values the company reported in XBRL, each tagged with the filing it came from, which is
+   more reliable than reading a number off a web page. Resolve the company, search tags by
+   keyword, then read values. Canadian banks use the 'ifrs-full' taxonomy.
+   ALWAYS call report_finding for a figure obtained this way — set sourceType to
+   'regulatory_filing', use the filingUrl as sourceUrl, pass xbrlCik / xbrlTaxonomy /
+   xbrlTag / xbrlPeriodEnd so it can be checked against the filed data, and put the tag,
+   period and accession number in notes. Report a single reported tag rather than summing
+   several tags together; if the analyst needs a total that is not itself reported, give
+   the components as separate findings and explain the arithmetic in text.
+   XBRL values are reported in absolute units (e.g. 1085470000000 = $1,085,470 million) —
+   state the value as reported and explain the scale in notes.
+1. Otherwise, search for the figure.
 2. OPEN the actual source document and read the figure in it. Never report a number you
    have not seen in the source you cite.
 3. Strongly prefer the issuing organisation's own disclosure over aggregator/third-party
@@ -81,6 +117,7 @@ const AGGREGATORS = ["prnewswire", "newswire", "businesswire", "globenewswire", 
 function provenanceOf(entity: string, url: string): "first_party" | "third_party" {
   let host = "";
   try { host = new URL(url).hostname.toLowerCase(); } catch { return "third_party"; }
+  if (host.endsWith("sec.gov")) return "first_party"; // the regulator's copy of the company's own filing
   if (AGGREGATORS.some((a) => host.includes(a))) return "third_party";
   const tokens = entity.toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/)
     .filter((t) => t.length > 3 && !["financial", "corporation", "group", "bank", "inc", "the", "company", "holdings", "limited"].includes(t));
@@ -177,15 +214,18 @@ export async function POST(request: Request) {
 
         for (let i = 0; i < MAX_ITERATIONS; i++) {
           const s = client.messages.stream({
-            // Haiku is the cheapest model that can drive this loop. It does not support
-            // adaptive thinking or the newer programmatic server-tool versions, so the
-            // basic web_search/web_fetch variants are required here.
-            model: "claude-haiku-4-5",
+            // Sonnet 5 has a 1M-token context — five times Haiku's — so opening several
+            // large filings in one scan no longer overruns the window.
+            model: "claude-sonnet-5",
             max_tokens: 3000,
+            thinking: { type: "adaptive" },
             system: SYSTEM,
             tools: [
-              { type: "web_search_20250305", name: "web_search", max_uses: 8 },
-              { type: "web_fetch_20250910", name: "web_fetch", max_uses: 8 },
+              { type: "web_search_20260209", name: "web_search", max_uses: 6 },
+              // Still capped per document so a 300-page annual report doesn't dominate
+              // the window (or the bill) on its own.
+              { type: "web_fetch_20260209", name: "web_fetch", max_uses: 6, max_content_tokens: 40000 },
+              SEC_XBRL_TOOL,
               REPORT_FINDING_TOOL,
             ],
             messages,
@@ -217,12 +257,59 @@ export async function POST(request: Request) {
 
           const results: Anthropic.ToolResultBlockParam[] = [];
           for (const c of calls) {
+            if (c.name === "sec_xbrl") {
+              const a = c.input as { action: string; query?: string; cik?: string; taxonomy?: string; tag?: string };
+              try {
+                let payload: unknown;
+                if (a.action === "resolve_company") {
+                  controller.enqueue(line("status", "Resolving the filer on SEC EDGAR…"));
+                  payload = await resolveCompany(a.query ?? "");
+                } else if (a.action === "find_tags") {
+                  controller.enqueue(line("status", "Searching reported XBRL tags…"));
+                  payload = await findTags(a.cik ?? "", a.query ?? "");
+                } else if (a.action === "get_values") {
+                  controller.enqueue(line("status", "Reading reported values from the filing…"));
+                  payload = await getFactValues(a.cik ?? "", a.taxonomy ?? "", a.tag ?? "");
+                } else {
+                  payload = { error: "Unknown action." };
+                }
+                results.push({ type: "tool_result", tool_use_id: c.id, content: JSON.stringify(payload).slice(0, 8000) });
+              } catch {
+                results.push({ type: "tool_result", tool_use_id: c.id, content: "EDGAR lookup failed.", is_error: true });
+              }
+              continue;
+            }
             if (c.name !== "report_finding") {
               results.push({ type: "tool_result", tool_use_id: c.id, content: "Unknown tool.", is_error: true });
               continue;
             }
             const f = c.input as Record<string, string>;
-            const verification = await verifyFinding(f.sourceUrl, f.value, f.quote ?? "");
+            // A figure taken from XBRL is checked against the filed data itself — stronger
+            // than text-matching, since an EDGAR index page never contains the number.
+            let verification: Verification;
+            if (f.xbrlTag && f.xbrlCik && f.xbrlTaxonomy) {
+              const { values } = await getFactValues(f.xbrlCik, f.xbrlTaxonomy, f.xbrlTag, 40);
+              const target = Number(String(f.value).replace(/[^0-9.-]/g, ""));
+              const match = values.find((v) => {
+                if (f.xbrlPeriodEnd && v.periodEnd !== f.xbrlPeriodEnd) return false;
+                if (!Number.isFinite(target) || target === 0) return false;
+                // accept the figure stated in units or in millions
+                return Math.abs(v.value - target) < 1 || Math.abs(v.value / 1e6 - target) < 1;
+              });
+              verification = match
+                ? {
+                    status: "confirmed",
+                    detail: `Matched the value ${match.value.toLocaleString()} reported under XBRL tag ${f.xbrlTag} for period ending ${match.periodEnd} (${match.form ?? "filing"} ${match.accession ?? ""}).`,
+                    isPdf: false,
+                  }
+                : {
+                    status: "not_found",
+                    detail: `No value matching ${f.value} was reported under ${f.xbrlTag}${f.xbrlPeriodEnd ? ` for period ending ${f.xbrlPeriodEnd}` : ""}.`,
+                    isPdf: false,
+                  };
+            } else {
+              verification = await verifyFinding(f.sourceUrl, f.value, f.quote ?? "");
+            }
             if (verification.status === "confirmed" && verification.isPdf) registerDiscoveredSource(f.sourceUrl);
             const provenance = provenanceOf(f.entity ?? "", f.sourceUrl ?? "");
             if (verification.status === "confirmed") confirmed++;
@@ -246,8 +333,15 @@ export async function POST(request: Request) {
         }
         controller.enqueue(line("done", true));
       } catch (err) {
-        if (confirmed > 0) controller.enqueue(line("done", true));
-        else controller.enqueue(line("error", err instanceof Error ? err.message : "Discovery failed."));
+        if (confirmed > 0) {
+          controller.enqueue(line("done", true));
+        } else {
+          const raw = err instanceof Error ? err.message : "Scan failed.";
+          const friendly = /prompt is too long|context/i.test(raw)
+            ? "The documents opened during this scan exceeded the model's context. Try narrowing the request (name the company, period and exact metric)."
+            : raw;
+          controller.enqueue(line("error", friendly));
+        }
       } finally {
         controller.close();
       }
