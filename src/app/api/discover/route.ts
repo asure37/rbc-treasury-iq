@@ -161,13 +161,15 @@ export async function POST(request: Request) {
 
         for (let i = 0; i < MAX_ITERATIONS; i++) {
           const s = client.messages.stream({
-            model: "claude-sonnet-5",
+            // Haiku is the cheapest model that can drive this loop. It does not support
+            // adaptive thinking or the newer programmatic server-tool versions, so the
+            // basic web_search/web_fetch variants are required here.
+            model: "claude-haiku-4-5",
             max_tokens: 3000,
-            thinking: { type: "adaptive" },
             system: SYSTEM,
             tools: [
-              { type: "web_search_20260209", name: "web_search", max_uses: 8 },
-              { type: "web_fetch_20260209", name: "web_fetch", max_uses: 8 },
+              { type: "web_search_20250305", name: "web_search", max_uses: 8 },
+              { type: "web_fetch_20250910", name: "web_fetch", max_uses: 8 },
               REPORT_FINDING_TOOL,
             ],
             messages,
