@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Search, ShieldCheck, ShieldAlert, ShieldQuestion, FileSearch, ExternalLink, Loader2, Radar } from "lucide-react";
 import { GlassCard } from "@/components/ui/GlassCard";
@@ -11,6 +11,7 @@ interface Verification {
   page?: number;
   detail: string;
   isPdf: boolean;
+  matched?: string;
 }
 interface Finding {
   label: string;
@@ -56,6 +57,19 @@ export function DataSourcingPanel() {
   const [viewer, setViewer] = useState<SourceViewerTarget | null>(null);
   const abortRef = useRef<AbortController | null>(null);
 
+  // Highlight the exact text the server matched in the document, falling back to the
+  // value as the model rendered it.
+  const targetFor = useCallback(
+    (f: Finding): SourceViewerTarget => ({
+      url: f.sourceUrl,
+      page: f.verification.page,
+      searchText: f.verification.matched ?? f.value,
+      anchorText: f.labelText,
+      label: `${f.entity} · ${f.period} · ${f.label}`,
+    }),
+    []
+  );
+
   async function run(q: string) {
     if (!q.trim() || busy) return;
     setBusy(true);
@@ -90,7 +104,15 @@ export function DataSourcingPanel() {
           const msg = JSON.parse(l) as { event: string; data: unknown };
           if (msg.event === "status") setStatus(msg.data as string);
           else if (msg.event === "text") setText((t) => t + (msg.data as string));
-          else if (msg.event === "finding") setFindings((f) => [...f, msg.data as Finding]);
+          else if (msg.event === "finding") {
+            const found = msg.data as Finding;
+            setFindings((f) => [...f, found]);
+            // Open the source straight away so the analyst sees the figure highlighted
+            // in the document it came from — the lineage is the point.
+            if (found.verification.status === "confirmed" && found.verification.isPdf) {
+              setViewer(targetFor(found));
+            }
+          }
           else if (msg.event === "error") setError(msg.data as string);
           else if (msg.event === "done") setStatus(null);
         }
@@ -229,15 +251,7 @@ export function DataSourcingPanel() {
             <div className="mt-3 flex flex-wrap gap-2">
               {ok && v.isPdf && (
                 <button
-                  onClick={() =>
-                    setViewer({
-                      url: f.sourceUrl,
-                      page: v.page,
-                      searchText: f.value,
-                      anchorText: f.labelText,
-                      label: `${f.entity} · ${f.period} · ${f.label}`,
-                    })
-                  }
+                  onClick={() => setViewer(targetFor(f))}
                   className="flex items-center gap-1.5 rounded-lg border border-rbc-cyan/40 bg-rbc-cyan/10 px-2.5 py-1.5 text-xs font-medium text-rbc-cyan transition-colors hover:bg-rbc-cyan/20"
                 >
                   <FileSearch className="size-3.5" /> View highlighted in source

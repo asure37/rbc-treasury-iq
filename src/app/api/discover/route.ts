@@ -86,6 +86,9 @@ interface Verification {
   page?: number;
   detail: string;
   isPdf: boolean;
+  // The exact string that was found in the document. The viewer highlights this rather
+  // than the model's rendering of the value, so the box lands on the real characters.
+  matched?: string;
 }
 
 // Independently re-open the cited document server-side and confirm the figure is
@@ -115,8 +118,9 @@ async function verifyFinding(url: string, value: string, quote: string): Promise
         const page = await doc.getPage(p);
         const tc = await page.getTextContent();
         const text = normalize((tc.items as { str: string }[]).map((i) => i.str).join(" "));
-        if (needles.some((n) => text.includes(n))) {
-          return { status: "confirmed", page: p, detail: `Figure located on page ${p} of the source PDF.`, isPdf: true };
+        const hit = needles.find((n) => text.includes(n));
+        if (hit) {
+          return { status: "confirmed", page: p, detail: `Figure located on page ${p} of the source PDF.`, isPdf: true, matched: hit };
         }
       }
       return { status: "not_found", detail: "Opened the PDF but could not locate this figure in its text.", isPdf: true };
@@ -128,7 +132,8 @@ async function verifyFinding(url: string, value: string, quote: string): Promise
   try {
     const html = await res.text();
     const text = normalize(html.replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " "));
-    if (needles.some((n) => text.includes(n))) return { status: "confirmed", detail: "Figure found in the page content.", isPdf: false };
+    const hit = needles.find((n) => text.includes(n));
+    if (hit) return { status: "confirmed", detail: "Figure found in the page content.", isPdf: false, matched: hit };
     return { status: "not_found", detail: "Opened the page but could not locate this figure in its text.", isPdf: false };
   } catch {
     return { status: "unreachable", detail: "Source page could not be read.", isPdf: false };

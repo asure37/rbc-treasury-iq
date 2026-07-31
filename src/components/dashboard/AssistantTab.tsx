@@ -98,8 +98,6 @@ export function AssistantTab() {
         </button>
       </div>
 
-      <DataSourcingPanel />
-
       <GlassCard className="flex min-h-[28rem] flex-1 flex-col overflow-hidden">
         <div ref={scrollRef} className="min-h-0 flex-1 space-y-4 overflow-y-auto p-6">
           {messages.length === 0 && (
@@ -166,6 +164,7 @@ export function AssistantTab() {
           </button>
         </form>
       </GlassCard>
+      <DataSourcingPanel />
     </div>
   );
 }
