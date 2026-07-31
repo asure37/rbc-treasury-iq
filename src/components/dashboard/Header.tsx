@@ -1,16 +1,19 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { Download, LogOut } from "lucide-react";
+import { Download, LogOut, Presentation } from "lucide-react";
 import { useDashboardData } from "@/lib/data-context";
 import { exportRawCsv } from "@/lib/export";
 import { Mark } from "@/components/ui/Mark";
 import { useAuthStore } from "@/lib/auth-store";
+import { ExportDeckPage } from "./ExportDeckPage";
 
 export function Header() {
   const { banks, metricsMeta } = useDashboardData();
   const firstName = useAuthStore((s) => s.firstName);
   const logout = useAuthStore((s) => s.logout);
+  const [deckOpen, setDeckOpen] = useState(false);
 
   return (
     <motion.header
@@ -49,6 +52,13 @@ export function Header() {
             Export Data
           </button>
           <button
+            onClick={() => setDeckOpen(true)}
+            className="flex items-center gap-1.5 rounded-full border border-rbc-cyan/40 bg-rbc-cyan/10 px-3.5 py-1.5 text-xs font-semibold text-rbc-cyan transition-colors hover:bg-rbc-cyan/20"
+          >
+            <Presentation className="size-3.5" />
+            Export PowerPoint
+          </button>
+          <button
             onClick={logout}
             title="Sign out"
             className="flex items-center justify-center rounded-full border border-border-soft bg-surface/60 p-2 text-text-muted transition-colors hover:border-down/40 hover:text-down"
@@ -57,6 +67,7 @@ export function Header() {
           </button>
         </div>
       </div>
+      {deckOpen && <ExportDeckPage onClose={() => setDeckOpen(false)} />}
     </motion.header>
   );
 }
