@@ -9,6 +9,7 @@ import { useSpeechRecognition } from "@/lib/use-speech-recognition";
 import { speakText, stopSpeaking } from "@/lib/speech-synthesis";
 import { cn } from "@/lib/cn";
 import { GlassCard } from "@/components/ui/GlassCard";
+import { DataSourcingPanel } from "./DataSourcingPanel";
 import { ChatMessage } from "@/components/chat/ChatMessage";
 
 const STARTER_PROMPTS = [
@@ -69,7 +70,7 @@ export function AssistantTab() {
   }
 
   return (
-    <div className="flex h-[calc(100vh-11rem)] flex-col gap-4">
+    <div className="flex min-h-[calc(100vh-11rem)] flex-col gap-4">
       <div className="flex items-center justify-between gap-3">
         <div className="flex items-center gap-3">
           <span className="flex size-10 items-center justify-center rounded-full bg-gradient-to-br from-rbc-blue to-rbc-cyan shadow-[0_0_24px_-6px_rgba(0,182,241,0.7)]">
@@ -97,7 +98,9 @@ export function AssistantTab() {
         </button>
       </div>
 
-      <GlassCard className="flex min-h-0 flex-1 flex-col overflow-hidden">
+      <DataSourcingPanel />
+
+      <GlassCard className="flex min-h-[28rem] flex-1 flex-col overflow-hidden">
         <div ref={scrollRef} className="min-h-0 flex-1 space-y-4 overflow-y-auto p-6">
           {messages.length === 0 && (
             <div className="mx-auto max-w-2xl space-y-4 pt-6">

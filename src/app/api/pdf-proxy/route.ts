@@ -1,4 +1,5 @@
 import { getAllBankData } from "@/lib/data";
+import { isDiscoveredSource, isSafePublicHttpUrl } from "@/lib/discovered-sources";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -32,9 +33,12 @@ export async function GET(request: Request) {
     return new Response("Missing url parameter", { status: 400 });
   }
 
+  // Either a URL from our own dataset, or one the discovery endpoint already fetched
+  // and verified this session (it only registers public https documents in which it
+  // actually located the cited figure) — so this never becomes an open SSRF relay.
   const allowed = await buildAllowedUrlSet();
-  if (!allowed.has(target)) {
-    return new Response("URL not recognized as a dataset source", { status: 403 });
+  if (!allowed.has(target) && !(isDiscoveredSource(target) && isSafePublicHttpUrl(target))) {
+    return new Response("URL not recognized as a dataset or verified source", { status: 403 });
   }
 
   let upstream: Response;
