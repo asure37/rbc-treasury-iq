@@ -8,7 +8,13 @@ export const maxDuration = 60;
 // third-party CORS restrictions. Only ever proxies URLs that actually appear
 // somewhere in our own dataset — never an arbitrary caller-supplied URL —
 // to avoid this becoming an open SSRF proxy.
+let allowedCache: { at: number; urls: Set<string> } | null = null;
+const ALLOWLIST_TTL = 5 * 60 * 1000;
+
 async function buildAllowedUrlSet(): Promise<Set<string>> {
+  // Memoized: an evidence-pack export fires this once per source document, and
+  // re-parsing ~500 KB of bank JSON in front of every upstream fetch is pure latency.
+  if (allowedCache && Date.now() - allowedCache.at < ALLOWLIST_TTL) return allowedCache.urls;
   const banks = await getAllBankData();
   const urls = new Set<string>();
   for (const bank of banks) {
@@ -23,6 +29,7 @@ async function buildAllowedUrlSet(): Promise<Set<string>> {
       }
     }
   }
+  allowedCache = { at: Date.now(), urls };
   return urls;
 }
 

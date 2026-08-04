@@ -1,10 +1,13 @@
 "use client";
 
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { Search, ShieldCheck, ShieldAlert, ShieldQuestion, FileSearch, ExternalLink, Loader2, ScanSearch, Send, RotateCcw } from "lucide-react";
+import { Search, ShieldCheck, ShieldAlert, ShieldQuestion, FileSearch, ExternalLink, Loader2, ScanSearch, Send, RotateCcw, FileCheck2 } from "lucide-react";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { SourceViewerModal, type SourceViewerTarget } from "./SourceViewerModal";
+import { EvidencePackDialog } from "./EvidencePackDialog";
+import { useAuthStore } from "@/lib/auth-store";
+import type { EvidenceItem } from "@/lib/evidence-pack";
 
 interface Verification {
   status: "confirmed" | "not_found" | "unreachable" | "unsupported";
@@ -27,6 +30,11 @@ interface Finding {
   notes?: string;
   verification: Verification;
   provenance?: "first_party" | "third_party";
+  // The discover route spreads these through when a figure came from SEC XBRL.
+  xbrlCik?: string;
+  xbrlTaxonomy?: string;
+  xbrlTag?: string;
+  xbrlPeriodEnd?: string;
 }
 /** One exchange: what was asked, the prose answer, and any figures sourced for it. */
 interface Turn {
@@ -74,6 +82,8 @@ export function DataSourcingPanel() {
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [viewer, setViewer] = useState<SourceViewerTarget | null>(null);
+  const [packOpen, setPackOpen] = useState(false);
+  const firstName = useAuthStore((s) => s.firstName);
   const abortRef = useRef<AbortController | null>(null);
 
   const targetFor = useCallback(
@@ -85,6 +95,36 @@ export function DataSourcingPanel() {
       label: `${f.entity} · ${f.period} · ${f.label}`,
     }),
     []
+  );
+
+  // Every figure this session sourced, in the order it was found.
+  const evidenceItems = useMemo<EvidenceItem[]>(
+    () =>
+      turns.flatMap((t, ti) =>
+        t.findings.map((f, fi) => ({
+          id: `mri:${ti}:${fi}`,
+          entity: f.entity,
+          period: f.period,
+          metric: f.label,
+          value: f.value,
+          documentName: f.sourceName,
+          documentUrl: f.sourceUrl,
+          page: f.verification.page,
+          searchText: f.verification.matched ?? f.value,
+          anchorText: f.labelText,
+          quote: f.quote,
+          retrievedAt: f.asOf,
+          note: f.notes,
+          provenance: f.provenance,
+          verification: `${f.verification.status}: ${f.verification.detail}`,
+          isPdf: f.verification.isPdf,
+          xbrl: f.xbrlTag
+            ? { cik: f.xbrlCik, taxonomy: f.xbrlTaxonomy, tag: f.xbrlTag, periodEnd: f.xbrlPeriodEnd }
+            : undefined,
+          origin: "mri" as const,
+        }))
+      ),
+    [turns]
   );
 
   const run = useCallback(
@@ -171,6 +211,16 @@ export function DataSourcingPanel() {
             </p>
           </div>
         </div>
+        <div className="flex shrink-0 items-center gap-2">
+        {evidenceItems.length > 0 && !busy && (
+          <button
+            onClick={() => setPackOpen(true)}
+            title="Export an audit pack for every figure this scan sourced"
+            className="flex shrink-0 items-center gap-1.5 rounded-lg border border-up/40 bg-up/10 px-2.5 py-1.5 text-xs font-semibold text-up transition-colors hover:bg-up/20"
+          >
+            <FileCheck2 className="size-3.5" /> Export evidence
+          </button>
+        )}
         {started && !busy && (
           <button
             onClick={() => {
@@ -182,6 +232,7 @@ export function DataSourcingPanel() {
             <RotateCcw className="size-3.5" /> New scan
           </button>
         )}
+        </div>
       </div>
 
       {turns.map((turn, ti) => (
@@ -317,6 +368,19 @@ export function DataSourcingPanel() {
       )}
 
       {viewer && <SourceViewerModal target={viewer} onClose={() => setViewer(null)} />}
+      {packOpen && (
+        <EvidencePackDialog
+          title="MRI Scan evidence pack"
+          subtitle="Every figure this scan sourced, re-checked against its source at export time"
+          scopeLabel={`${evidenceItems.length} figure${evidenceItems.length === 1 ? "" : "s"} from ${turns.length} question${
+            turns.length === 1 ? "" : "s"
+          } this session`}
+          items={evidenceItems}
+          preparedBy={firstName ? `${firstName} · RBC Corporate Treasury` : "RBC Corporate Treasury"}
+          fileStem="rbc-mri-scan"
+          onClose={() => setPackOpen(false)}
+        />
+      )}
     </GlassCard>
   );
 }

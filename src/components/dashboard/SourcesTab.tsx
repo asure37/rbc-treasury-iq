@@ -1,28 +1,90 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { ChevronDown, ExternalLink, ShieldCheck, Download, FileSearch } from "lucide-react";
+import { ChevronDown, ExternalLink, ShieldCheck, Download, FileSearch, FileCheck2 } from "lucide-react";
 import { useDashboardData } from "@/lib/data-context";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { exportRawCsv } from "@/lib/export";
 import { cn } from "@/lib/cn";
+import { useAuthStore } from "@/lib/auth-store";
 import { SourceViewerModal, type SourceViewerTarget } from "./SourceViewerModal";
 import { RefreshDataPanel } from "./RefreshDataPanel";
 import { CreditRatingsLineage } from "./CreditRatingsLineage";
+import { EvidencePackDialog } from "./EvidencePackDialog";
+import type { EvidenceItem } from "@/lib/evidence-pack";
 import type { BankData, QuarterMetrics, MetricMeta } from "@/types/metrics";
+
+const hostOf = (url: string) => {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+};
 
 export function SourcesTab() {
   const { banks, metricsMeta } = useDashboardData();
+  const firstName = useAuthStore((s) => s.firstName);
   const [openKey, setOpenKey] = useState<string | null>(null);
   const [bankFilter, setBankFilter] = useState<string>("all");
+  const [periodFilter, setPeriodFilter] = useState<string>("all");
   const [viewerTarget, setViewerTarget] = useState<SourceViewerTarget | null>(null);
+  const [packOpen, setPackOpen] = useState(false);
+
+  const periods = useMemo(() => {
+    const map = new Map<string, string>();
+    for (const b of banks) for (const q of b.quarters) map.set(q.period, q.periodEnd);
+    return [...map.entries()].sort((a, b) => b[1].localeCompare(a[1])).map(([p]) => p);
+  }, [banks]);
 
   const rows = useMemo(() => {
     const list = banks
       .filter((b) => bankFilter === "all" || b.bankId === bankFilter)
-      .flatMap((bank) => bank.quarters.map((q) => ({ bank, q })));
+      .flatMap((bank) => bank.quarters.filter((q) => periodFilter === "all" || q.period === periodFilter).map((q) => ({ bank, q })));
     return list.sort((a, b) => b.q.periodEnd.localeCompare(a.q.periodEnd));
-  }, [banks, bankFilter]);
+  }, [banks, bankFilter, periodFilter]);
+
+  // Every figure currently in view, in the order it is shown, as evidence items.
+  const evidenceItems = useMemo<EvidenceItem[]>(() => {
+    const out: EvidenceItem[] = [];
+    for (const { bank, q } of rows) {
+      const homeHost = hostOf(q.reportUrl);
+      for (const m of metricsMeta) {
+        const v = q.metrics[m.key];
+        if (v == null) continue;
+        const ref = q.sourceRefs?.[m.key];
+        const url = ref?.url ?? q.reportUrl;
+        const name =
+          url === q.supplementaryReportUrl && q.supplementaryReportName
+            ? q.supplementaryReportName
+            : url === q.reportUrl
+              ? q.reportName
+              : `${q.period} disclosure`;
+        out.push({
+          id: `${bank.bankId}:${q.period}:${m.key}`,
+          entity: bank.bankName,
+          period: q.period,
+          metric: m.label,
+          value: `${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : ""}`,
+          documentName: name,
+          documentUrl: url,
+          page: ref?.page,
+          searchText: ref?.searchText,
+          anchorText: ref?.anchorText,
+          retrievedAt: q.retrievedAt,
+          note: q.notes?.[m.key],
+          // Judged from the document's own host rather than asserted.
+          provenance: hostOf(url) === homeHost ? "first_party" : "unknown",
+          origin: "dataset",
+        });
+      }
+    }
+    return out;
+  }, [rows, metricsMeta]);
+
+  const scopeLabel = `${bankFilter === "all" ? "All institutions" : banks.find((b) => b.bankId === bankFilter)?.bankName ?? bankFilter} · ${
+    periodFilter === "all" ? `${periods.length} quarters` : periodFilter
+  } · ${evidenceItems.length} figures`;
 
   function resolveTarget(bank: BankData, q: QuarterMetrics, m: MetricMeta): SourceViewerTarget {
     const ref = q.sourceRefs?.[m.key];
@@ -62,6 +124,24 @@ export function SourcesTab() {
               </option>
             ))}
           </select>
+          <select
+            value={periodFilter}
+            onChange={(e) => setPeriodFilter(e.target.value)}
+            className="rounded-lg border border-border-soft bg-surface px-3 py-1.5 text-sm text-text-primary outline-none focus:border-rbc-cyan/60"
+          >
+            <option value="all">All quarters</option>
+            {periods.map((p) => (
+              <option key={p} value={p}>
+                {p}
+              </option>
+            ))}
+          </select>
+          <button
+            onClick={() => setPackOpen(true)}
+            className="flex items-center gap-1.5 rounded-lg border border-up/40 bg-up/10 px-3 py-1.5 text-xs font-semibold text-up transition-colors hover:bg-up/20"
+          >
+            <FileCheck2 className="size-3.5" /> Export evidence pack
+          </button>
           <button
             onClick={() => exportRawCsv(banks, metricsMeta)}
             className="flex items-center gap-1.5 rounded-lg border border-border-soft bg-surface px-3 py-1.5 text-xs font-medium text-text-secondary transition-colors hover:border-rbc-cyan/50 hover:text-text-primary"
@@ -156,6 +236,17 @@ export function SourcesTab() {
       <CreditRatingsLineage />
 
       {viewerTarget && <SourceViewerModal target={viewerTarget} onClose={() => setViewerTarget(null)} />}
+      {packOpen && (
+        <EvidencePackDialog
+          title="Data lineage evidence pack"
+          subtitle="Every figure traced to the page of the disclosure it was taken from"
+          scopeLabel={scopeLabel}
+          items={evidenceItems}
+          preparedBy={firstName ? `${firstName} · RBC Corporate Treasury` : "RBC Corporate Treasury"}
+          fileStem="rbc-treasury-lineage"
+          onClose={() => setPackOpen(false)}
+        />
+      )}
     </div>
   );
 }
