@@ -13,7 +13,14 @@ export interface Rect {
 }
 
 export function normalize(s: string): string {
-  return s.toLowerCase().replace(/\s+/g, " ").trim();
+  return s
+    .toLowerCase()
+    // Typographic quotes render differently in a PDF's text layer than in text we
+    // captured elsewhere; folding them makes an anchor match either form.
+    .replace(/[\u2018\u2019\u201B]/g, "'")
+    .replace(/[\u201C\u201D]/g, '"')
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 // Maximum distance (in normalized characters) between a label anchor and its value.
@@ -289,7 +296,18 @@ export async function resolveRef(
   pdfjsLib: typeof import("pdfjs-dist"),
   doc: import("pdfjs-dist").PDFDocumentProxy,
   ref: { page?: number; searchText?: string; anchorText?: string },
-  opts: { maxScanPages?: number } = {}
+  opts: {
+    maxScanPages?: number;
+    /**
+     * When the cited page and its neighbours don't carry the figure, search the rest of
+     * the document for the label + figure together. Off by default: the curated
+     * dataset's page numbers were verified against these documents, so a miss there is
+     * a finding worth reporting, not a cue to go looking elsewhere. Turn it on for
+     * citations whose page number came from a live agent, where the page can disagree
+     * with where the quoted sentence actually sits.
+     */
+    scanBeyondCitedPage?: boolean;
+  } = {}
 ): Promise<RefLocation> {
   const { page: pageCited, searchText, anchorText } = ref;
   if (!searchText) {
@@ -358,6 +376,17 @@ export async function resolveRef(
         const near = await tryPage(candidate);
         if (near?.status === "located") return { ...near, detail: `Not on the cited page ${pageCited}; found on page ${candidate}.` };
       }
+      // Widen to the whole document, when the caller allows it. Safe only because an
+      // anchored match is self-validating — the metric's own label and the figure have
+      // to appear together — so a hit elsewhere is evidence the recorded page was
+      // wrong, not a lookalike number.
+      const cap = opts.scanBeyondCitedPage ? Math.min(doc.numPages, opts.maxScanPages ?? MAX_SCAN_PAGES) : 0;
+      for (let p = 1; p <= cap; p++) {
+        if (p === pageCited || p === pageCited + 1 || p === pageCited - 1) continue;
+        const hit = await tryPage(p);
+        if (hit?.status === "located")
+          return { ...hit, detail: `Not on the cited page ${pageCited}; found on page ${p}. The recorded page reference is wrong.` };
+      }
     }
     return {
       status: "value_not_found",
@@ -365,8 +394,13 @@ export async function resolveRef(
       pageCited,
       pageResolved: pageCited,
       detail: anchorText
-        ? `The label "${anchorText}" followed by ${searchText} was not found on page ${pageCited} or either neighbouring page.`
-        : `${searchText} was not found on page ${pageCited}. No label anchor is recorded for this figure, so neighbouring pages were not searched.`,
+        ? opts.scanBeyondCitedPage
+          ? `The label "${anchorText}" followed by ${searchText} was not found on page ${pageCited}, nor anywhere in the first ${Math.min(
+              doc.numPages,
+              opts.maxScanPages ?? MAX_SCAN_PAGES
+            )} pages.`
+          : `The label "${anchorText}" followed by ${searchText} was not found on page ${pageCited} or either neighbouring page.`
+        : `${searchText} was not found on page ${pageCited}. No label anchor is recorded for this figure, so no other page was searched.`,
     };
   }
 

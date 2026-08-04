@@ -429,7 +429,15 @@ export async function collectEvidence(
         r.reverifiedAt = new Date().toISOString();
 
         try {
-          const loc = await resolveRef(pdfjsLib, doc, { page: item.page, searchText: item.searchText, anchorText: item.anchorText });
+          const loc = await resolveRef(
+            pdfjsLib,
+            doc,
+            { page: item.page, searchText: item.searchText, anchorText: item.anchorText },
+            // An MRI Scan's page number is whatever the live verifier reported, which can
+            // differ from where the quoted sentence sits. The curated dataset's pages
+            // were verified against these same documents, so a miss there stands.
+            { scanBeyondCitedPage: item.origin === "mri" }
+          );
           r.matchMethod = loc.matchMethod;
           r.pageResolved = loc.pageResolved;
           r.occurrencesOnPage = loc.occurrencesOnPage;
@@ -437,7 +445,8 @@ export async function collectEvidence(
           r.detail = loc.detail;
 
           if (loc.ambiguous) r.exceptions.push("AMBIGUOUS");
-          if (loc.matchMethod === "anchored_neighbour_page") r.exceptions.push("PAGE_DRIFT");
+          if (loc.matchMethod === "anchored_neighbour_page" || (loc.matchMethod === "anchored_scan" && loc.pageCited))
+            r.exceptions.push("PAGE_DRIFT");
           if (loc.status === "page_out_of_range") r.exceptions.push("PAGE_OUT_OF_RANGE");
           if (loc.status === "no_text_layer") r.exceptions.push("NO_TEXT_LAYER");
           if (loc.status === "value_not_found") r.exceptions.push("VALUE_NOT_FOUND");

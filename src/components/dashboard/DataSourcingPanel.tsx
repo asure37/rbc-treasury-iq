@@ -61,6 +61,28 @@ const SOURCE_TYPE_LABEL: Record<string, string> = {
   other: "Source",
 };
 
+/**
+ * An anchor for the evidence pack, taken from the words immediately before the figure
+ * inside the finding's verbatim quote.
+ *
+ * A finding's `labelText` is the agent's description of the label and is often a
+ * paraphrase, so it may not appear on the page at all. The quote is verbatim — the
+ * server-side verifier confirmed the figure inside it — which makes text lifted from
+ * the quote a far more reliable anchor.
+ */
+function anchorFromQuote(quote: string | undefined, value: string): string | undefined {
+  if (!quote) return undefined;
+  const norm = (x: string) => x.toLowerCase().replace(/\s+/g, " ").trim();
+  const q = norm(quote);
+  const i = q.indexOf(norm(value));
+  if (i <= 0) return undefined;
+  const lead = q.slice(Math.max(0, i - 45), i).trim();
+  // Start at a word boundary so we don't anchor on half a word.
+  const cut = lead.indexOf(" ");
+  const anchor = cut > 0 ? lead.slice(cut + 1) : lead;
+  return anchor.length >= 8 ? anchor : undefined;
+}
+
 // Compact text transcript of a turn, so the agent keeps context on follow-ups without
 // us replaying tool blocks.
 function turnToAssistantText(t: Turn): string {
@@ -111,7 +133,7 @@ export function DataSourcingPanel() {
           documentUrl: f.sourceUrl,
           page: f.verification.page,
           searchText: f.verification.matched ?? f.value,
-          anchorText: f.labelText,
+          anchorText: anchorFromQuote(f.quote, f.verification.matched ?? f.value) ?? f.labelText,
           quote: f.quote,
           retrievedAt: f.asOf,
           note: f.notes,
