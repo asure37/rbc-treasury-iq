@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { safeErrorText } from "@/lib/api-errors";
 import type { ChatViewContext } from "@/lib/chat-context";
 import type { ChartSpec } from "@/types/chart-spec";
 
@@ -91,12 +92,34 @@ export function useChatStream(initialMessages: ChatStreamMessage[] = [], onCompl
           } else if (chunk.t === "error") {
             setMessages((prev) => {
               const next = [...prev];
-              next[next.length - 1] = { role: "assistant", content: chunk.v, isError: true };
+              next[next.length - 1] = {
+                role: "assistant",
+                // Guarded even though the routes now send prose: an unaudited path must
+                // never be able to paint a raw payload as the assistant's answer.
+                content: safeErrorText(chunk.v, "The assistant hit a temporary problem answering that. Please try again."),
+                isError: true,
+              };
               return next;
             });
           }
         }
       }
+      // A stream that ends having produced nothing would otherwise leave the placeholder
+      // message stuck on its animated status forever.
+      setMessages((prev) => {
+        const next = [...prev];
+        const last = next[next.length - 1];
+        if (last?.role === "assistant" && !last.isError && !last.content && !(last.blocks?.length)) {
+          next[next.length - 1] = {
+            role: "assistant",
+            content: "The assistant didn't return an answer for that. Please try again.",
+            isError: true,
+          };
+        } else if (last?.role === "assistant" && last.status) {
+          next[next.length - 1] = { ...last, status: undefined };
+        }
+        return next;
+      });
       if (textRef.current) onComplete?.(textRef.current);
     } catch {
       setMessages((prev) => {

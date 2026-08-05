@@ -104,7 +104,12 @@ export function EvidencePackDialog({ title, subtitle, scopeLabel, items, prepare
         ],
       });
     } catch (e) {
-      setError(e instanceof Error ? e.message : "The pack could not be built.");
+      const m = e instanceof Error ? e.message : "";
+      setError(
+        /memory|allocation|Invalid string length/i.test(m)
+          ? "The pack was too large to assemble in the browser. Reduce the page-image limit, or narrow the scope, and try again."
+          : "The pack could not be built. Try again, or use the register-only option."
+      );
     } finally {
       setBusy(false);
     }

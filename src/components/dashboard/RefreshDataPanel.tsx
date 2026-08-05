@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { safeErrorText } from "@/lib/api-errors";
 import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { RefreshCw, X, ShieldCheck, ShieldAlert, ShieldQuestion, Loader2, CheckCircle2, AlertTriangle, CircleSlash } from "lucide-react";
@@ -64,7 +65,7 @@ function BankResultCard({ result, metricsMeta }: { result: ProposedQuarter; metr
         <p className="text-sm font-semibold text-text-primary">
           {result.bankName} <span className="text-text-muted">· {result.targetPeriod}</span>
         </p>
-        <p className="mt-1 text-xs text-down">{result.message ?? "Couldn't pull this bank."}</p>
+        <p className="mt-1 text-xs text-down">{safeErrorText(result.message, "Couldn't pull this bank — the model service may be busy. Try the refresh again.")}</p>
       </div>
     );
   }
@@ -172,9 +173,26 @@ export function RefreshDataPanel() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ updates: proposed }),
       });
-      const data = (await res.json()) as { outcomes?: { bankId: string; applied: boolean; reason?: string }[] };
-      const appliedCount = data.outcomes?.filter((o) => o.applied).length ?? 0;
-      setApplyMessage(`${appliedCount} of ${proposed.length} update${proposed.length === 1 ? "" : "s"} written. Reload to see them on the dashboard.`);
+      const data = (await res.json().catch(() => null)) as
+        | { outcomes?: { bankId: string; applied: boolean; reason?: string }[] }
+        | null;
+      if (!res.ok || !Array.isArray(data?.outcomes)) {
+        setApplyMessage("The updates could not be written. Nothing on the dashboard has changed.");
+        return;
+      }
+      const applied = data.outcomes.filter((o) => o.applied);
+      if (applied.length === 0) {
+        // Reporting "0 of N written" in success styling read as though it had worked.
+        const why = data.outcomes.find((o) => o.reason)?.reason;
+        setApplyMessage(`Nothing was written${why ? ` — ${safeErrorText(why, "the server rejected the updates")}` : ""}. The dashboard is unchanged.`);
+        return;
+      }
+      const skipped = data.outcomes.length - applied.length;
+      setApplyMessage(
+        `${applied.length} of ${proposed.length} update${proposed.length === 1 ? "" : "s"} written${
+          skipped ? `, ${skipped} skipped` : ""
+        }. Reload to see them on the dashboard.`
+      );
     } catch {
       setApplyMessage("Failed to write updates.");
     } finally {

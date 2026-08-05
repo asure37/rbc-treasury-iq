@@ -1,4 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { friendlyApiError, isRetryableApiError, API_RETRY_BACKOFF_MS } from "@/lib/api-errors";
 import { getAllBankData, getMetricsMeta, getAllPeriods } from "@/lib/data";
 import { buildChatSystemPrompt, type ChatViewContext } from "@/lib/chat-context";
 import { RENDER_CHART_TOOL, buildChartSpecFromToolInput } from "@/lib/chart-tool";
@@ -53,30 +54,43 @@ export async function POST(request: Request) {
         let currentMessages: Anthropic.MessageParam[] = history.map((m) => ({ role: m.role, content: m.content }));
 
         for (let iteration = 0; iteration < MAX_TOOL_ITERATIONS; iteration++) {
-          const stream = client.messages.stream({
-            model: "claude-sonnet-5",
-            max_tokens: 2048,
-            thinking: { type: "adaptive" },
-            system,
-            tools: [{ type: "web_search_20260209", name: "web_search" }, RENDER_CHART_TOOL],
-            messages: currentMessages,
-          });
-          activeStream = stream;
+          // Retried per iteration. A transient overload arrives as an SSE error frame
+          // after the HTTP 200, which the SDK's own retry never sees.
+          let finalMessage: Anthropic.Message | undefined;
+          for (let attempt = 0; ; attempt++) {
+            try {
+              const stream = client.messages.stream({
+                model: "claude-sonnet-5",
+                max_tokens: 2048,
+                thinking: { type: "adaptive" },
+                system,
+                tools: [{ type: "web_search_20260209", name: "web_search" }, RENDER_CHART_TOOL],
+                messages: currentMessages,
+              });
+              activeStream = stream;
 
-          for await (const event of stream) {
-            if (event.type === "content_block_start") {
-              if (event.content_block.type === "server_tool_use") {
-                controller.enqueue(sseLine("status", "Searching the web..."));
-              } else if (event.content_block.type === "tool_use" && event.content_block.name === "render_chart") {
-                controller.enqueue(sseLine("status", "Preparing a chart..."));
+              for await (const event of stream) {
+                if (event.type === "content_block_start") {
+                  if (event.content_block.type === "server_tool_use") {
+                    controller.enqueue(sseLine("status", "Searching the web..."));
+                  } else if (event.content_block.type === "tool_use" && event.content_block.name === "render_chart") {
+                    controller.enqueue(sseLine("status", "Preparing a chart..."));
+                  }
+                }
+                if (event.type === "content_block_delta" && event.delta.type === "text_delta") {
+                  controller.enqueue(sseLine("text", event.delta.text));
+                }
               }
-            }
-            if (event.type === "content_block_delta" && event.delta.type === "text_delta") {
-              controller.enqueue(sseLine("text", event.delta.text));
+
+              finalMessage = await stream.finalMessage();
+              break;
+            } catch (err) {
+              if (!isRetryableApiError(err) || attempt >= API_RETRY_BACKOFF_MS.length) throw err;
+              controller.enqueue(sseLine("status", "The model service is busy — retrying..."));
+              await new Promise((r) => setTimeout(r, API_RETRY_BACKOFF_MS[attempt]));
             }
           }
-
-          const finalMessage = await stream.finalMessage();
+          if (!finalMessage) break;
 
           if (finalMessage.stop_reason === "pause_turn") {
             currentMessages = [...currentMessages, { role: "assistant", content: finalMessage.content }];
@@ -112,8 +126,8 @@ export async function POST(request: Request) {
           currentMessages = [...currentMessages, { role: "user", content: toolResults }];
         }
       } catch (err) {
-        const message = err instanceof Anthropic.APIError ? err.message : "The assistant hit an unexpected error. Please try again.";
-        controller.enqueue(sseLine("error", message));
+        console.error("[api/chat]", err);
+        controller.enqueue(sseLine("error", friendlyApiError(err)));
       } finally {
         controller.enqueue(sseLine("done", ""));
         controller.close();

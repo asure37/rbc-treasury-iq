@@ -1,4 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { friendlyApiError } from "@/lib/api-errors";
 import { getAllBankData, getMetricsMeta } from "@/lib/data";
 import { getNextQuarter, isLikelyReported, expectedReportDate, type ProposedQuarter, type MetricCheck } from "@/lib/quarters";
 import { buildExtractionPrompt, parseExtraction, coerceMetrics, checkSanity } from "@/lib/refresh";
@@ -113,8 +114,8 @@ async function refreshBank(
     if (ac.signal.aborted && !outerSignal.aborted) {
       return { ...base, status: "error", message: `Timed out finding ${target.period} for ${bank.bankName} — try again, or check its investor-relations site manually.` };
     }
-    const msg = err instanceof Anthropic.APIError ? err.message : "Extraction failed.";
-    return { ...base, status: "error", message: msg };
+    console.error("[api/refresh]", bank.bankId, err);
+    return { ...base, status: "error", message: friendlyApiError(err, `The refresh for ${bank.bankName}`) };
   } finally {
     clearTimeout(timer);
     clearInterval(onOuterAbort);
@@ -173,7 +174,8 @@ export async function POST(request: Request) {
   const metricsMeta = (await getMetricsMeta()).metrics;
   const banks = body.bankIds?.length ? allBanks.filter((b) => body.bankIds!.includes(b.bankId)) : allBanks;
 
-  const client = new Anthropic();
+  // Up to six sequential requests per bank across six banks — the default of 2 is thin.
+  const client = new Anthropic({ maxRetries: 5 });
   const signal = { aborted: false };
 
   const readable = new ReadableStream<Uint8Array>({

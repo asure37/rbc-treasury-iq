@@ -50,18 +50,37 @@ export async function GET(request: Request) {
 
   let upstream: Response;
   try {
-    upstream = await fetch(target, { headers: { "User-Agent": "Mozilla/5.0 (compatible; TreasuryIQ-Dashboard/1.0)" } });
-  } catch {
-    return new Response("Failed to fetch source document", { status: 502 });
+    // Without a deadline a stalled host holds the request open indefinitely and the
+    // viewer sits on "Loading source document…" forever, never reaching its error state.
+    upstream = await fetch(target, {
+      headers: { "User-Agent": "Mozilla/5.0 (compatible; TreasuryIQ-Dashboard/1.0)" },
+      signal: AbortSignal.timeout(25_000),
+    });
+  } catch (err) {
+    const timedOut = (err as Error)?.name === "TimeoutError" || (err as Error)?.name === "AbortError";
+    return new Response(timedOut ? "The source host did not respond in time" : "Failed to fetch source document", { status: 504 });
   }
 
   if (!upstream.ok || !upstream.body) {
     return new Response("Source document unavailable", { status: 502 });
   }
 
-  return new Response(upstream.body, {
+  // Relabelling any 200 as a PDF and caching it for an hour meant one HTML error or
+  // consent page poisoned the viewer for that document until the cache expired. Check
+  // the signature, and never long-cache something unverified.
+  const buf = await upstream.arrayBuffer();
+  const signature = new TextDecoder().decode(new Uint8Array(buf.slice(0, 5)));
+  if (signature !== "%PDF-") {
+    return new Response("The source URL did not return a PDF", {
+      status: 502,
+      headers: { "Cache-Control": "no-store" },
+    });
+  }
+
+  return new Response(buf, {
     headers: {
       "Content-Type": "application/pdf",
+      "Content-Length": String(buf.byteLength),
       "Cache-Control": "public, max-age=3600",
     },
   });

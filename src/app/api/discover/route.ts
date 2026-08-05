@@ -1,6 +1,9 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { registerDiscoveredSource, isSafePublicHttpUrl } from "@/lib/discovered-sources";
 import { resolveCompany, findTags, getFactValues } from "@/lib/sec-edgar";
+import { getAllBankData } from "@/lib/data";
+import { indexOfValue } from "@/lib/source-match";
+import { friendlyApiError, isRetryableApiError, API_RETRY_BACKOFF_MS } from "@/lib/api-errors";
 
 export const runtime = "nodejs";
 export const maxDuration = 300;
@@ -112,16 +115,67 @@ function valueVariants(v: string): string[] {
   return [...out].filter(Boolean);
 }
 
+/**
+ * What to look for in the document. A finding's value usually carries a currency symbol
+ * and a unit word — "$1,484 million" — while the statement itself prints "$ 1,484" in a
+ * column, so the bare number has to be one of the candidates. Matching is
+ * boundary-aware, so "1,484" cannot be satisfied by "21,484".
+ */
+function verificationNeedles(value: string, quote: string): string[] {
+  const out = new Set(valueVariants(value));
+  const core = normalize(value)
+    .replace(/[$€£]/g, "")
+    .replace(/\b(million|billion|thousand|mm|bn)\b/g, "")
+    .trim();
+  if (core) out.add(core);
+  // Agents often elide the middle of a quote with "..."; the longest intact run is more
+  // likely to appear verbatim than the whole thing.
+  const runs = normalize(quote).split(/\.{3,}|…/).map((r) => r.trim());
+  const longest = runs.sort((a, b) => b.length - a.length)[0] ?? "";
+  if (longest.length > 12) out.add(longest.slice(0, 80));
+  return [...out].filter((n) => n.length > 1);
+}
+
 // Is the citation on the issuing organisation's own site, or a third-party aggregator?
 const AGGREGATORS = ["prnewswire", "newswire", "businesswire", "globenewswire", "stocktitan", "tradingview", "yahoo", "marketwatch", "reuters", "bloomberg", "seekingalpha", "investing.com", "macrotrends", "wsj"];
-function provenanceOf(entity: string, url: string): "first_party" | "third_party" {
+const nameTokens = (s: string) =>
+  s.toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/)
+    .filter((t) => t.length > 3 && !["financial", "corporation", "group", "bank", "inc", "the", "company", "holdings", "limited"].includes(t));
+
+// A bank's own domain rarely contains a word from its name: "Royal Bank of Canada"
+// yields royal/canada, neither of which is in rbc.com, so RBC's own Report to
+// Shareholders was being labelled a third-party source. The dataset already records
+// each issuer's document domain, so use it rather than guessing from the name.
+let issuerDomains: { host: string; tokens: string[] }[] | null = null;
+async function knownIssuers() {
+  if (issuerDomains) return issuerDomains;
+  try {
+    const banks = await getAllBankData();
+    issuerDomains = banks
+      .map((b) => {
+        let host = "";
+        try { host = new URL(b.quarters[0]?.reportUrl ?? "").hostname.toLowerCase().replace(/^www\./, ""); } catch { /* skip */ }
+        return { host, tokens: [b.ticker.toLowerCase(), ...nameTokens(b.bankName)] };
+      })
+      .filter((x) => x.host);
+  } catch {
+    issuerDomains = [];
+  }
+  return issuerDomains;
+}
+
+async function provenanceOf(entity: string, url: string): Promise<"first_party" | "third_party"> {
   let host = "";
-  try { host = new URL(url).hostname.toLowerCase(); } catch { return "third_party"; }
+  try { host = new URL(url).hostname.toLowerCase().replace(/^www\./, ""); } catch { return "third_party"; }
   if (host.endsWith("sec.gov")) return "first_party"; // the regulator's copy of the company's own filing
   if (AGGREGATORS.some((a) => host.includes(a))) return "third_party";
-  const tokens = entity.toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/)
-    .filter((t) => t.length > 3 && !["financial", "corporation", "group", "bank", "inc", "the", "company", "holdings", "limited"].includes(t));
-  return tokens.some((t) => host.includes(t)) ? "first_party" : "third_party";
+
+  const known = (await knownIssuers()).find((k) => host === k.host || host.endsWith("." + k.host));
+  if (known) {
+    const e = entity.toLowerCase();
+    if (known.tokens.some((t) => e.includes(t))) return "first_party";
+  }
+  return nameTokens(entity).some((t) => host.includes(t)) ? "first_party" : "third_party";
 }
 
 interface Verification {
@@ -149,7 +203,7 @@ async function verifyFinding(url: string, value: string, quote: string): Promise
 
   const ctype = (res.headers.get("content-type") ?? "").toLowerCase();
   const isPdf = ctype.includes("pdf") || url.toLowerCase().split("?")[0].endsWith(".pdf");
-  const needles = [...valueVariants(value), normalize(quote).slice(0, 80)].filter((s) => s.length > 1);
+  const needles = verificationNeedles(value, quote);
 
   if (isPdf) {
     try {
@@ -161,7 +215,7 @@ async function verifyFinding(url: string, value: string, quote: string): Promise
         const page = await doc.getPage(p);
         const tc = await page.getTextContent();
         const text = normalize((tc.items as { str: string }[]).map((i) => i.str).join(" "));
-        const hit = needles.find((n) => text.includes(n));
+        const hit = needles.find((n) => indexOfValue(text, n) !== -1);
         if (hit) {
           return { status: "confirmed", page: p, detail: `Figure located on page ${p} of the source PDF.`, isPdf: true, matched: hit };
         }
@@ -175,7 +229,7 @@ async function verifyFinding(url: string, value: string, quote: string): Promise
   try {
     const html = await res.text();
     const text = normalize(html.replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " "));
-    const hit = needles.find((n) => text.includes(n));
+    const hit = needles.find((n) => indexOfValue(text, n) !== -1);
     if (hit) return { status: "confirmed", detail: "Figure found in the page content.", isPdf: false, matched: hit };
     return { status: "not_found", detail: "Opened the page but could not locate this figure in its text.", isPdf: false };
   } catch {
@@ -184,6 +238,8 @@ async function verifyFinding(url: string, value: string, quote: string): Promise
 }
 
 const line = (event: string, data: unknown) => new TextEncoder().encode(JSON.stringify({ event, data }) + "\n");
+
+
 
 export async function POST(request: Request) {
   if (!process.env.ANTHROPIC_API_KEY) {
@@ -203,7 +259,10 @@ export async function POST(request: Request) {
     .slice(-12)
     .map((m) => ({ role: m.role as "user" | "assistant", content: m.content!.slice(0, 4000) }));
 
-  const client = new Anthropic();
+  // Covers connection-level failures. It does NOT cover a mid-stream overload: the SDK
+  // decides retries from the HTTP response, and an SSE error frame arrives after the
+  // 200 has been committed. The explicit retry around each iteration handles that.
+  const client = new Anthropic({ maxRetries: 4 });
 
   const stream = new ReadableStream<Uint8Array>({
     async start(controller) {
@@ -218,38 +277,52 @@ export async function POST(request: Request) {
         controller.enqueue(line("status", "Scanning primary sources…"));
 
         for (let i = 0; i < MAX_ITERATIONS; i++) {
-          const s = client.messages.stream({
-            // Sonnet 5 has a 1M-token context — five times Haiku's — so opening several
-            // large filings in one scan no longer overruns the window.
-            model: "claude-sonnet-5",
-            max_tokens: 3000,
-            thinking: { type: "adaptive" },
-            system: SYSTEM,
-            tools: [
-              { type: "web_search_20260209", name: "web_search", max_uses: 6 },
-              // Still capped per document so a 300-page annual report doesn't dominate
-              // the window (or the bill) on its own.
-              { type: "web_fetch_20260209", name: "web_fetch", max_uses: 6, max_content_tokens: 40000 },
-              SEC_XBRL_TOOL,
-              REPORT_FINDING_TOOL,
-            ],
-            ...(containerId ? { container: containerId } : {}),
-            messages,
-          });
+          // One iteration, retried on transient service failures. A 529 part-way through
+          // a multi-step scan used to abort the whole run and print the API's raw JSON
+          // body into the transcript; now it waits and tries the step again.
+          let final: Anthropic.Message | undefined;
+          for (let attempt = 0; ; attempt++) {
+            try {
+              const s = client.messages.stream({
+                // Sonnet 5 has a 1M-token context — five times Haiku's — so opening several
+                // large filings in one scan no longer overruns the window.
+                model: "claude-sonnet-5",
+                max_tokens: 3000,
+                thinking: { type: "adaptive" },
+                system: SYSTEM,
+                tools: [
+                  { type: "web_search_20260209", name: "web_search", max_uses: 6 },
+                  // Still capped per document so a 300-page annual report doesn't dominate
+                  // the window (or the bill) on its own.
+                  { type: "web_fetch_20260209", name: "web_fetch", max_uses: 6, max_content_tokens: 40000 },
+                  SEC_XBRL_TOOL,
+                  REPORT_FINDING_TOOL,
+                ],
+                ...(containerId ? { container: containerId } : {}),
+                messages,
+              });
 
-          for await (const ev of s) {
-            if (ev.type === "content_block_start" && ev.content_block.type === "server_tool_use") {
-              controller.enqueue(line("status", ev.content_block.name === "web_fetch" ? "Opening the source document…" : "Scanning sources…"));
-            }
-            if (ev.type === "content_block_start" && ev.content_block.type === "tool_use" && ev.content_block.name === "report_finding") {
-              controller.enqueue(line("status", "Verifying the figure against the source…"));
-            }
-            if (ev.type === "content_block_delta" && ev.delta.type === "text_delta") {
-              controller.enqueue(line("text", ev.delta.text));
+              for await (const ev of s) {
+                if (ev.type === "content_block_start" && ev.content_block.type === "server_tool_use") {
+                  controller.enqueue(line("status", ev.content_block.name === "web_fetch" ? "Opening the source document…" : "Scanning sources…"));
+                }
+                if (ev.type === "content_block_start" && ev.content_block.type === "tool_use" && ev.content_block.name === "report_finding") {
+                  controller.enqueue(line("status", "Verifying the figure against the source…"));
+                }
+                if (ev.type === "content_block_delta" && ev.delta.type === "text_delta") {
+                  controller.enqueue(line("text", ev.delta.text));
+                }
+              }
+
+              final = await s.finalMessage();
+              break;
+            } catch (err) {
+              if (!isRetryableApiError(err) || attempt >= API_RETRY_BACKOFF_MS.length) throw err;
+              controller.enqueue(line("status", "The model service is busy — retrying…"));
+              await new Promise((r) => setTimeout(r, API_RETRY_BACKOFF_MS[attempt]));
             }
           }
-
-          const final = await s.finalMessage();
+          if (!final) break;
           if (final.container?.id) containerId = final.container.id;
 
           if (final.stop_reason === "pause_turn") {
@@ -318,7 +391,7 @@ export async function POST(request: Request) {
               verification = await verifyFinding(f.sourceUrl, f.value, f.quote ?? "");
             }
             if (verification.status === "confirmed" && verification.isPdf) registerDiscoveredSource(f.sourceUrl);
-            const provenance = provenanceOf(f.entity ?? "", f.sourceUrl ?? "");
+            const provenance = await provenanceOf(f.entity ?? "", f.sourceUrl ?? "");
             if (verification.status === "confirmed") confirmed++;
 
             controller.enqueue(line("finding", { ...f, verification, provenance }));
@@ -343,11 +416,7 @@ export async function POST(request: Request) {
         if (confirmed > 0) {
           controller.enqueue(line("done", true));
         } else {
-          const raw = err instanceof Error ? err.message : "Scan failed.";
-          const friendly = /prompt is too long|context/i.test(raw)
-            ? "The documents opened during this scan exceeded the model's context. Try narrowing the request (name the company, period and exact metric)."
-            : raw;
-          controller.enqueue(line("error", friendly));
+          controller.enqueue(line("error", friendlyApiError(err, "The scan")));
         }
       } finally {
         controller.close();
