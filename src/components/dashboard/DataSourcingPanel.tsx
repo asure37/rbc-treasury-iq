@@ -226,12 +226,10 @@ export function DataSourcingPanel() {
               e-MRI Scan <span className="text-sm font-normal text-text-muted">&mdash; External Metrics, Reporting &amp; Insights</span>
             </h3>
             <p className="text-xs text-text-muted">
-              Scan for any metric, any company, any period — not just treasury. Treasury IQ searches primary
-              sources — investor reports, supplementary financials, regulatory filings, earnings releases and
-              calls — reads the document, verifies the figure is really in it, and shows you exactly where it
-              came from. The same lineage applies to any financial figure the CFO Group needs, so it extends
-              beyond Corporate Treasury to Finance, Investor Relations and Risk. Then ask follow-up questions
-              about what it found.
+              Scan for any metric, any company, any period. Treasury IQ searches primary sources — investor
+              reports, supplementary financials, regulatory filings, earnings releases and calls — reads the
+              document, verifies the figure is really in it, and shows you exactly where it came from. Then
+              ask follow-up questions about what it found.
             </p>
           </div>
         </div>
