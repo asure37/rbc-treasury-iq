@@ -28,7 +28,7 @@ export interface EvidenceItem {
   page?: number;
   searchText?: string;
   anchorText?: string;
-  /** A quote captured when the figure was sourced (MRI Scan findings carry one). */
+  /** A quote captured when the figure was sourced (e-MRI Scan findings carry one). */
   quote?: string;
   retrievedAt?: string;
   /** Caveat or derivation note shown alongside the figure in the dashboard. */
@@ -433,7 +433,7 @@ export async function collectEvidence(
             pdfjsLib,
             doc,
             { page: item.page, searchText: item.searchText, anchorText: item.anchorText },
-            // An MRI Scan's page number is whatever the live verifier reported, which can
+            // An e-MRI Scan's page number is whatever the live verifier reported, which can
             // differ from where the quoted sentence sits. The curated dataset's pages
             // were verified against these same documents, so a miss there stands.
             { scanBeyondCitedPage: item.origin === "mri" }

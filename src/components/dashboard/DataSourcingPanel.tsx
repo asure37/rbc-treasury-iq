@@ -223,13 +223,15 @@ export function DataSourcingPanel() {
           </div>
           <div className="min-w-0">
             <h3 className="font-display text-base font-semibold text-text-primary">
-              MRI Scan <span className="text-sm font-normal text-text-muted">&mdash; Metrics, Reporting &amp; Insights</span>
+              e-MRI Scan <span className="text-sm font-normal text-text-muted">&mdash; External Metrics, Reporting &amp; Insights</span>
             </h3>
             <p className="text-xs text-text-muted">
-              Scan for any metric, any company, any period. Treasury IQ searches primary sources — investor
-              reports, supplementary financials, regulatory filings, earnings releases and calls — reads the
-              document, verifies the figure is really in it, and shows you exactly where it came from. Then
-              ask follow-up questions about what it found.
+              Scan for any metric, any company, any period — not just treasury. Treasury IQ searches primary
+              sources — investor reports, supplementary financials, regulatory filings, earnings releases and
+              calls — reads the document, verifies the figure is really in it, and shows you exactly where it
+              came from. The same lineage applies to any financial figure the CFO Group needs, so it extends
+              beyond Corporate Treasury to Finance, Investor Relations and Risk. Then ask follow-up questions
+              about what it found.
             </p>
           </div>
         </div>
@@ -371,7 +373,7 @@ export function DataSourcingPanel() {
           className="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-rbc-blue to-rbc-cyan px-4 py-2.5 text-sm font-semibold text-white transition-transform hover:scale-[1.02] active:scale-95 disabled:opacity-50"
         >
           {busy ? <Loader2 className="size-4 animate-spin" /> : started ? <Send className="size-4" /> : <FileSearch className="size-4" />}
-          {busy ? "Scanning…" : started ? "Send" : "Run MRI Scan"}
+          {busy ? "Scanning…" : started ? "Send" : "Run e-MRI Scan"}
         </button>
       </form>
 
@@ -392,14 +394,14 @@ export function DataSourcingPanel() {
       {viewer && <SourceViewerModal target={viewer} onClose={() => setViewer(null)} />}
       {packOpen && (
         <EvidencePackDialog
-          title="MRI Scan evidence pack"
+          title="e-MRI Scan evidence pack"
           subtitle="Every figure this scan sourced, re-checked against its source at export time"
           scopeLabel={`${evidenceItems.length} figure${evidenceItems.length === 1 ? "" : "s"} from ${turns.length} question${
             turns.length === 1 ? "" : "s"
           } this session`}
           items={evidenceItems}
           preparedBy={firstName ? `${firstName} · RBC Corporate Treasury` : "RBC Corporate Treasury"}
-          fileStem="rbc-mri-scan"
+          fileStem="rbc-emri-scan"
           onClose={() => setPackOpen(false)}
         />
       )}
