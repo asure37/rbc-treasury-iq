@@ -29,6 +29,7 @@
     { "employeeId": "rishikapur", "firstName": "Rishi" },
     { "employeeId": "rohitsharma", "firstName": "Rohit" },
     { "employeeId": "tedtomkowiak", "firstName": "Ted" },
-    { "employeeId": "yanivbitton", "firstName": "Yaniv" }
+    { "employeeId": "yanivbitton", "firstName": "Yaniv" },
+    { "employeeId": "tlap", "firstName": "TLAP Team" }
   ]
 }
