@@ -19,6 +19,16 @@
     { "employeeId": "richardbaek", "firstName": "Richard" },
     { "employeeId": "akshayhanda", "firstName": "Akshay" },
     { "employeeId": "rajneeshsharma", "firstName": "Rajneesh" },
-    { "employeeId": "sarahmeshreqy", "firstName": "Sarah" }
+    { "employeeId": "sarahmeshreqy", "firstName": "Sarah" },
+    { "employeeId": "katherinegibson", "firstName": "Katherine" },
+    { "employeeId": "adamburke", "firstName": "Adam" },
+    { "employeeId": "asimimran", "firstName": "Asim" },
+    { "employeeId": "manishbhandari", "firstName": "Manish" },
+    { "employeeId": "matthewpagano", "firstName": "Matthew" },
+    { "employeeId": "nicktomovski", "firstName": "Nick" },
+    { "employeeId": "rishikapur", "firstName": "Rishi" },
+    { "employeeId": "rohitsharma", "firstName": "Rohit" },
+    { "employeeId": "tedtomkowiak", "firstName": "Ted" },
+    { "employeeId": "yanivbitton", "firstName": "Yaniv" }
   ]
 }

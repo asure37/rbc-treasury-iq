@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check": "tsc --noEmit && eslint src && next build",
+    "stats": "python3 scripts/dataset-stats.py",
+    "probe": "node --disable-warning=ExperimentalWarning scripts/lineage-probe.mts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.110.0",

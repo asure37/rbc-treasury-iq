@@ -40,3 +40,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# lineage probe PDF cache (scripts/lineage-probe.mts)
+.cache/
