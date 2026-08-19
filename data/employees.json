@@ -30,6 +30,7 @@
     { "employeeId": "rohitsharma", "firstName": "Rohit" },
     { "employeeId": "tedtomkowiak", "firstName": "Ted" },
     { "employeeId": "yanivbitton", "firstName": "Yaniv" },
-    { "employeeId": "tlap", "firstName": "TLAP Team" }
+    { "employeeId": "tlap", "firstName": "TLAP Team" },
+    { "employeeId": "cmtreasury", "firstName": "CM Treasury" }
   ]
 }
