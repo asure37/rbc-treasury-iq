@@ -35,7 +35,9 @@
         "stableDepositsPct": 21.52,
         "lessStableDepositsPct": 18.21,
         "operationalDepositsPct": 10.49,
-        "nonOperationalDepositsPct": 16.8
+        "nonOperationalDepositsPct": 16.8,
+        "tlacLeverageRatio": 8.3,
+        "dividendPayoutRatio": null
       },
       "notes": {
         "roe": "Reported ROE was negative (-1.0%) this quarter due to a reported net loss of $181 million, driven primarily by a US$2.6 billion provision related to the U.S. BSA/AML investigations. Adjusted ROE (non-GAAP) was 14.1% for comparison. Net income figure shown is the reported consolidated net income (loss); net income attributable to common shareholders (reported) was -$250 million.",
@@ -51,7 +53,9 @@
         "stableDepositsPct": "Stable deposits: unweighted average $262,642mm (OSFI LCR common disclosure template, TD Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,220,550mm (period-end balance sheet) = 21.52%. Denominator = total balance-sheet deposits, matching TD's existing method.",
         "lessStableDepositsPct": "Less stable deposits: unweighted average $222,292mm (OSFI LCR common disclosure template, TD Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,220,550mm (period-end balance sheet) = 18.21%. Denominator = total balance-sheet deposits, matching TD's existing method.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $128,024mm (OSFI LCR common disclosure template, TD Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,220,550mm (period-end balance sheet) = 10.49%. Denominator = total balance-sheet deposits, matching TD's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $205,057mm (OSFI LCR common disclosure template, TD Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,220,550mm (period-end balance sheet) = 16.8%. Denominator = total balance-sheet deposits, matching TD's existing method."
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $205,057mm (OSFI LCR common disclosure template, TD Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,220,550mm (period-end balance sheet) = 16.8%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -158,6 +162,11 @@
           "page": 5,
           "searchText": "1.70",
           "anchorText": "net interest margin"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "8.3",
+          "anchorText": "tlac leverage ratio"
         }
       }
     },
@@ -192,7 +201,9 @@
         "operationalDepositsPct": 10.47,
         "nonOperationalDepositsPct": 16.98,
         "irrbbEveSensitivityPct": -2.67,
-        "irrbbNiiSensitivityPct": 0.77
+        "irrbbNiiSensitivityPct": 0.77,
+        "tlacLeverageRatio": 8.1,
+        "dividendPayoutRatio": 51.8
       },
       "notes": {
         "roe": "Reported (GAAP) ROE shown; adjusted ROE was 11.7% for this quarter.",
@@ -207,7 +218,9 @@
         "nonOperationalDepositsPct": "Same Table 53: unweighted 'Non-operational deposits (all counterparties)' $215,462mm / total bank deposits $1,268,680mm = 16.98%; or 61.86% of (operational + non-operational) combined.",
         "irrbbEveSensitivityPct": "TD discloses only a +/-100bps parallel shock EVE/NII sensitivity (Table 45, 'Structural Interest Rate Sensitivity Measures'), not the full six-scenario Basel/OSFI IRRBB template — confirmed absent from the FY2024 Annual Report, FY2025 Annual Report, and Q4 2025 Pillar 3 Supplemental Regulatory Disclosure. Most adverse of the two disclosed scenarios is the +100bps parallel increase: EVE impact -$2,489mm. Tier 1 Capital as at Oct 31, 2024 was $93,248mm (Capital Position Basel III (CC1) table, Q4 2025 Supplemental Regulatory Disclosure, prior-period comparative column) → -2489/93248 = -2.67%. This %-of-Tier-1 framing is computed here, not disclosed by TD. The -100bps decrease scenario gave EVE +$1,914mm (+2.05% of T1), less adverse.",
         "irrbbNiiSensitivityPct": "Same Table 45: +100bps parallel increase → NII impact +$720mm / Tier 1 Capital $93,248mm = 0.77%. The -100bps decrease scenario gave NII -$983mm (-1.05% of T1), a larger-magnitude (more adverse) NII impact than the increase scenario.",
-        "newMetricsSource": "TD Bank Group Annual Report 2024 (Management's Discussion and Analysis) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf"
+        "newMetricsSource": "TD Bank Group Annual Report 2024 (Management's Discussion and Analysis) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -332,6 +345,17 @@
           "page": 5,
           "searchText": "1.72",
           "anchorText": "net interest margin"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "8.1",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 5,
+          "searchText": "51.8",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -365,7 +389,9 @@
         "stableDepositsPct": 21.04,
         "lessStableDepositsPct": 18.18,
         "operationalDepositsPct": 10.62,
-        "nonOperationalDepositsPct": 18.28
+        "nonOperationalDepositsPct": 18.28,
+        "tlacLeverageRatio": 8.5,
+        "dividendPayoutRatio": 67.8
       },
       "notes": {
         "roe": "Reported (GAAP) ROE shown; adjusted ROE was 13.2% for this quarter.",
@@ -379,7 +405,9 @@
         "stableDepositsPct": "Stable deposits: unweighted average $271,520mm (OSFI LCR common disclosure template, TD Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,290,486mm (period-end balance sheet) = 21.04%. Denominator = total balance-sheet deposits, matching TD's existing method.",
         "lessStableDepositsPct": "Less stable deposits: unweighted average $234,645mm (OSFI LCR common disclosure template, TD Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,290,486mm (period-end balance sheet) = 18.18%. Denominator = total balance-sheet deposits, matching TD's existing method.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $137,010mm (OSFI LCR common disclosure template, TD Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,290,486mm (period-end balance sheet) = 10.62%. Denominator = total balance-sheet deposits, matching TD's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $235,903mm (OSFI LCR common disclosure template, TD Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,290,486mm (period-end balance sheet) = 18.28%. Denominator = total balance-sheet deposits, matching TD's existing method."
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $235,903mm (OSFI LCR common disclosure template, TD Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,290,486mm (period-end balance sheet) = 18.28%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -497,6 +525,17 @@
           "page": 1,
           "searchText": "2,793",
           "anchorText": "reported net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 5,
+          "searchText": "8.5",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 5,
+          "searchText": "67.8",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -530,7 +569,9 @@
         "stableDepositsPct": 21.51,
         "lessStableDepositsPct": 18.88,
         "operationalDepositsPct": 11.15,
-        "nonOperationalDepositsPct": 18.05
+        "nonOperationalDepositsPct": 18.05,
+        "tlacLeverageRatio": 8.7,
+        "dividendPayoutRatio": 16.6
       },
       "notes": {
         "roe": "Reported ROE of 39.1% and reported net income of $11,129 million are both massively inflated by a large one-time gain on the sale of TD's remaining investment in The Charles Schwab Corporation, which increased CET1 capital by ~238 bps. Adjusted (non-GAAP) ROE, which excludes this item of note, was 12.3% and adjusted net income was $3,626 million -- likely more representative of underlying performance for benchmarking purposes.",
@@ -544,7 +585,9 @@
         "stableDepositsPct": "Stable deposits: unweighted average $272,752mm (OSFI LCR common disclosure template, TD Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,267,748mm (period-end balance sheet) = 21.51%. Denominator = total balance-sheet deposits, matching TD's existing method.",
         "lessStableDepositsPct": "Less stable deposits: unweighted average $239,328mm (OSFI LCR common disclosure template, TD Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,267,748mm (period-end balance sheet) = 18.88%. Denominator = total balance-sheet deposits, matching TD's existing method.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $141,371mm (OSFI LCR common disclosure template, TD Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,267,748mm (period-end balance sheet) = 11.15%. Denominator = total balance-sheet deposits, matching TD's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $228,778mm (OSFI LCR common disclosure template, TD Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,267,748mm (period-end balance sheet) = 18.05%. Denominator = total balance-sheet deposits, matching TD's existing method."
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $228,778mm (OSFI LCR common disclosure template, TD Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,267,748mm (period-end balance sheet) = 18.05%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -662,6 +705,17 @@
           "page": 1,
           "searchText": "11,129",
           "anchorText": "reported net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 5,
+          "searchText": "8.7",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 5,
+          "searchText": "16.6",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -695,7 +749,9 @@
         "stableDepositsPct": 21.29,
         "lessStableDepositsPct": 18.93,
         "operationalDepositsPct": 11.28,
-        "nonOperationalDepositsPct": 17.87
+        "nonOperationalDepositsPct": 17.87,
+        "tlacLeverageRatio": 8.7,
+        "dividendPayoutRatio": 55.4
       },
       "notes": {
         "roe": "Reported (GAAP) ROE shown; adjusted ROE was 13.2% for this quarter.",
@@ -709,7 +765,9 @@
         "stableDepositsPct": "Stable deposits: unweighted average $267,590mm (OSFI LCR common disclosure template, TD Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,256,922mm (period-end balance sheet) = 21.29%. Denominator = total balance-sheet deposits, matching TD's existing method.",
         "lessStableDepositsPct": "Less stable deposits: unweighted average $237,893mm (OSFI LCR common disclosure template, TD Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,256,922mm (period-end balance sheet) = 18.93%. Denominator = total balance-sheet deposits, matching TD's existing method.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $141,728mm (OSFI LCR common disclosure template, TD Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,256,922mm (period-end balance sheet) = 11.28%. Denominator = total balance-sheet deposits, matching TD's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $224,566mm (OSFI LCR common disclosure template, TD Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,256,922mm (period-end balance sheet) = 17.87%. Denominator = total balance-sheet deposits, matching TD's existing method."
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $224,566mm (OSFI LCR common disclosure template, TD Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,256,922mm (period-end balance sheet) = 17.87%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -828,6 +886,17 @@
           "page": 5,
           "searchText": "1.82",
           "anchorText": "net interest margin"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "8.7",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 5,
+          "searchText": "55.4",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -862,7 +931,9 @@
         "operationalDepositsPct": 11.4,
         "nonOperationalDepositsPct": 17.82,
         "irrbbEveSensitivityPct": -2.41,
-        "irrbbNiiSensitivityPct": 0.76
+        "irrbbNiiSensitivityPct": 0.76,
+        "tlacLeverageRatio": 8.9,
+        "dividendPayoutRatio": 57.6
       },
       "notes": {
         "roe": "Reported (GAAP) ROE shown; adjusted ROE was 12.8% for this quarter. Full fiscal-year 2025 reported ROE was 17.8% (inflated by the Q2 2025 Schwab sale gain); FY2025 adjusted ROE was 12.9%.",
@@ -877,7 +948,9 @@
         "nonOperationalDepositsPct": "Same table: unweighted 'Non-operational deposits (all counterparties)' $225,836mm / total bank deposits $1,267,104mm = 17.82%; or 60.99% of (operational + non-operational) combined.",
         "irrbbEveSensitivityPct": "TD discloses only a +/-100bps parallel shock (Table 45, 'Structural Interest Rate Sensitivity Measures'), not the six-scenario Basel/OSFI IRRBB template — confirmed absent from the 2025 Annual Report and Q4 2025 Pillar 3 Supplemental Regulatory Disclosure. Most adverse: +100bps parallel increase, EVE impact -$2,515mm (CAD -$957mm + USD -$1,558mm; excludes Wholesale Banking exposures). Tier 1 Capital as at Oct 31, 2025 = $104,502mm (Capital Position Basel III (CC1) table) → -2515/104502 = -2.41%. This %-of-Tier-1 framing is computed here, not disclosed by TD. The -100bps decrease scenario gave EVE +$2,092mm (+2.00% of T1), less adverse.",
         "irrbbNiiSensitivityPct": "Same Table 45: +100bps parallel increase → NII impact +$790mm (CAD +$400mm + USD +$390mm) / Tier 1 Capital $104,502mm = 0.76%. The -100bps decrease scenario gave NII -$860mm (-0.82% of T1), a larger-magnitude, more adverse NII impact than the increase scenario. Effective July 31, 2025, TD began reporting these sensitivities split by currency.",
-        "newMetricsSource": "TD Bank Group Annual Report 2025 (Management's Discussion and Analysis) and Q4 2025 Supplemental Regulatory Disclosure (Pillar 3) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf"
+        "newMetricsSource": "TD Bank Group Annual Report 2025 (Management's Discussion and Analysis) and Q4 2025 Supplemental Regulatory Disclosure (Pillar 3) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1002,6 +1075,17 @@
           "page": 5,
           "searchText": "1.82",
           "anchorText": "net interest margin"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "8.9",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
+          "page": 5,
+          "searchText": "57.6",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -1035,7 +1119,9 @@
         "stableDepositsPct": 21.59,
         "lessStableDepositsPct": 19.54,
         "operationalDepositsPct": 12.16,
-        "nonOperationalDepositsPct": 18.08
+        "nonOperationalDepositsPct": 18.08,
+        "tlacLeverageRatio": 8.6,
+        "dividendPayoutRatio": 45.9
       },
       "notes": {
         "roe": "Reported (GAAP) ROE shown; adjusted ROE was 14.2% for this quarter.",
@@ -1049,7 +1135,9 @@
         "stableDepositsPct": "Stable deposits: unweighted average $268,789mm (OSFI LCR common disclosure template, TD Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,245,144mm (period-end balance sheet) = 21.59%. Denominator = total balance-sheet deposits, matching TD's existing method.",
         "lessStableDepositsPct": "Less stable deposits: unweighted average $243,347mm (OSFI LCR common disclosure template, TD Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,245,144mm (period-end balance sheet) = 19.54%. Denominator = total balance-sheet deposits, matching TD's existing method.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $151,468mm (OSFI LCR common disclosure template, TD Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,245,144mm (period-end balance sheet) = 12.16%. Denominator = total balance-sheet deposits, matching TD's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $225,074mm (OSFI LCR common disclosure template, TD Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,245,144mm (period-end balance sheet) = 18.08%. Denominator = total balance-sheet deposits, matching TD's existing method."
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $225,074mm (OSFI LCR common disclosure template, TD Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,245,144mm (period-end balance sheet) = 18.08%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1168,6 +1256,17 @@
           "page": 1,
           "searchText": "4,043",
           "anchorText": "reported net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 5,
+          "searchText": "8.6",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "45.9",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -1201,7 +1300,9 @@
         "stableDepositsPct": 21.71,
         "lessStableDepositsPct": 19.48,
         "operationalDepositsPct": 11.63,
-        "nonOperationalDepositsPct": 17.73
+        "nonOperationalDepositsPct": 17.73,
+        "tlacLeverageRatio": 8.8,
+        "dividendPayoutRatio": 44.1
       },
       "notes": {
         "roe": "Reported (GAAP) ROE shown; adjusted ROE was 14.4% for this quarter.",
@@ -1215,7 +1316,9 @@
         "stableDepositsPct": "Stable deposits: unweighted average $269,909mm (OSFI LCR common disclosure template, TD Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,243,431mm (period-end balance sheet) = 21.71%. Denominator = total balance-sheet deposits, matching TD's existing method.",
         "lessStableDepositsPct": "Less stable deposits: unweighted average $242,164mm (OSFI LCR common disclosure template, TD Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,243,431mm (period-end balance sheet) = 19.48%. Denominator = total balance-sheet deposits, matching TD's existing method.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $144,650mm (OSFI LCR common disclosure template, TD Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,243,431mm (period-end balance sheet) = 11.63%. Denominator = total balance-sheet deposits, matching TD's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $220,464mm (OSFI LCR common disclosure template, TD Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,243,431mm (period-end balance sheet) = 17.73%. Denominator = total balance-sheet deposits, matching TD's existing method."
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $220,464mm (OSFI LCR common disclosure template, TD Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total bank deposits $1,243,431mm (period-end balance sheet) = 17.73%. Denominator = total balance-sheet deposits, matching TD's existing method.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1334,6 +1437,16 @@
           "page": 1,
           "searchText": "4,251",
           "anchorText": "reported net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 5,
+          "searchText": "8.8",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 5,
+          "searchText": "44.1",
+          "anchorText": "dividend payout ratio"
         }
       }
     }

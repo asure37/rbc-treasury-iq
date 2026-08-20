@@ -36,7 +36,7 @@ Runs `tsc --noEmit`, `eslint src` and `next build` — all three must be clean. 
 
 ```bash
 npm run stats     # dataset coverage — every number quoted in the handbook
-npm run probe     # re-resolves all 1,034 citations against their real PDFs
+npm run probe     # re-resolves all 1,121 citations against their real PDFs
 ```
 
 `npm run probe` is the one that matters. It re-opens every cited document and checks that each figure still highlights on the page it claims — see [§13 of the handbook](./HANDBOOK.md#13-verification-playbook). First run needs `-- --download` to fetch the PDFs.
@@ -45,7 +45,7 @@ npm run probe     # re-resolves all 1,034 citations against their real PDFs
 
 > **Never fabricate, estimate, or interpolate a metric.** Every figure either traces to a real, cited public disclosure, or it stays `null` and the UI says so.
 
-This is the product's entire claim. A single invented number destroys the credibility of all 1,093 of them.
+This is the product's entire claim. A single invented number destroys the credibility of all 1,180 of them.
 
 ## Layout
 

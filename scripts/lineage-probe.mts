@@ -39,7 +39,7 @@ const CACHE = path.join(ROOT, ".cache", "pdfs");
  * Update deliberately when the data genuinely changes -- never to make a red run pass.
  */
 const BASELINE = {
-  anchored_cited_page: 829,
+  anchored_cited_page: 916,
   unanchored_cited_page: 108,
   neighbour: 0,
   misses: 97, // 81 refs record no searchText at all; 16 record one that isn't on the page
@@ -190,8 +190,10 @@ async function main() {
     moved.slice(0, 20).forEach((m) => console.log(`  ${m}`));
   }
   if (misses.length) {
+    // Print every one. Truncating here once hid three genuine regressions behind
+    // a count that had only moved by three -- the diagnostic has to show its work.
     console.log(`\nMisses (${misses.length}):`);
-    misses.slice(0, 30).forEach((m) => console.log(`  ${m}`));
+    misses.forEach((m) => console.log(`  ${m}`));
   }
 
   const regressed =

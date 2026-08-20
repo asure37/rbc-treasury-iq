@@ -36,7 +36,9 @@
         "nonOperationalDepositsPct": 18.1,
         "irrbbEveSensitivityPct": -2.06,
         "irrbbNiiSensitivityPct": -0.08,
-        "wholesaleFundingPct": 32.05
+        "wholesaleFundingPct": 32.05,
+        "tlacLeverageRatio": 8.5,
+        "dividendPayoutRatio": null
       },
       "notes": {
         "nsfr": "Net Stable Funding Ratio (NSFR) %, from the Q2 2026 SFI Highlights 'Capital and Liquidity Measures' 9-quarter trend.",
@@ -55,7 +57,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $171,775M (LCR common disclosure template, Scotiabank Q3 2024 Report to Shareholders) ÷ total balance-sheet deposits $949,201M = 18.1%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q3 2024 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = -$1,427mm (most adverse of the two disclosed scenarios; the -100bp EVE impact is positive) ÷ Net Tier 1 capital $69,299mm = -2.06%. This %-of-Tier-1 framing is ours for cross-bank comparability; Scotiabank discloses only the raw dollar figures.",
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = -$54mm ÷ Net Tier 1 capital $69,299mm = -0.08%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount).",
-        "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $270,764M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $178,595M (Consolidated Statement of Financial Position) = $449,359M ÷ total assets $1,402,000M = 32.05%. Both components disclosed quarterly in the Scotiabank Q3 2024 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.31%."
+        "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $270,764M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $178,595M (Consolidated Statement of Financial Position) = $449,359M ÷ total assets $1,402,000M = 32.05%. Both components disclosed quarterly in the Scotiabank Q3 2024 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.31%.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -181,6 +185,11 @@
           "page": 4,
           "searchText": "1,756",
           "anchorText": "net income attributable to"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "8.5",
+          "anchorText": "tlac leverage ratio"
         }
       }
     },
@@ -215,7 +224,9 @@
         "operationalDepositsPct": 12.17,
         "nonOperationalDepositsPct": 17.95,
         "irrbbEveSensitivityPct": -1.93,
-        "irrbbNiiSensitivityPct": -0.03
+        "irrbbNiiSensitivityPct": -0.03,
+        "tlacLeverageRatio": 8.8,
+        "dividendPayoutRatio": null
       },
       "notes": {
         "roe": "Reported ROE 8.3%; adjusted ROE was 10.6% for the quarter.",
@@ -232,7 +243,9 @@
         "nonOperationalDepositsPct": "T56 'Non-operational deposits (all counterparties)' unweighted value $169,414mm ÷ total deposits $943,849mm. Same caveat applies.",
         "irrbbEveSensitivityPct": "Scotiabank discloses only two shock scenarios (not the full Basel six): an immediate/sustained parallel +100bp and -100bp shock across major currencies (Table T50). FY2024 pre-tax EVE impact: +100bp = -$1,338mm (most adverse); -100bp = +$780mm. Most adverse (-$1,338mm) ÷ Tier 1 capital $69,499mm (Q4 2024 Supplementary Regulatory Capital Disclosure) = -1.93%. This %-of-Tier-1 computation is ours; Scotiabank itself only discloses the raw dollar figures and states results are 'within Board-approved limits' without disclosing the limit or a capital-ratio framing.",
         "irrbbNiiSensitivityPct": "Same +100bp parallel shock (Table T50): pre-tax 12-month NII impact = -$21mm (FY2024). Expressed as % of FY2024 reported net interest income ($19,252mm) = -0.11%. As % of Tier 1 capital instead: -0.03%. The -100bp scenario showed -$31mm (-0.16% of NII). [Re-based to % of Tier 1 capital = -0.03% (previously -0.11% of NII) for cross-bank consistency.]",
-        "newMetricsSource": "2024 Scotiabank Annual Report (Consolidated Financial Statements, Note 21 Deposits; Table T50 Structural Interest Sensitivity; Table T56 Bank's average LCR; Table T58 Wholesale Funding); Q4 2024 Supplementary Regulatory Capital Disclosure (Tier 1 capital) — https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf"
+        "newMetricsSource": "2024 Scotiabank Annual Report (Consolidated Financial Statements, Note 21 Deposits; Table T50 Structural Interest Sensitivity; Table T56 Bank's average LCR; Table T58 Wholesale Funding); Q4 2024 Supplementary Regulatory Capital Disclosure (Tier 1 capital) — https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -365,6 +378,12 @@
           "page": 37,
           "searchText": "1,521",
           "anchorText": "net income attributable to"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q4/Q424_Quarterly_Press_Release-EN.pdf",
+          "page": 3,
+          "searchText": "8.8",
+          "anchorText": "tlac leverage ratio"
         }
       }
     },
@@ -399,7 +418,9 @@
         "nonOperationalDepositsPct": 17.48,
         "irrbbEveSensitivityPct": -1.62,
         "irrbbNiiSensitivityPct": 0.14,
-        "wholesaleFundingPct": 32.05
+        "wholesaleFundingPct": 32.05,
+        "tlacLeverageRatio": 8.5,
+        "dividendPayoutRatio": null
       },
       "notes": {
         "roe": "Reported ROE 5.5%, depressed by a $1,362M impairment loss related to the announced sale of Colombia, Costa Rica, and Panama operations to Davivienda. Adjusted ROE was 11.8%.",
@@ -420,7 +441,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $168,839M (LCR common disclosure template, Scotiabank Q1 2025 Report to Shareholders) ÷ total balance-sheet deposits $966,049M = 17.48%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q1 2025 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = -$1,147mm (most adverse of the two disclosed scenarios; the -100bp EVE impact is positive) ÷ Net Tier 1 capital $70,592mm = -1.62%. This %-of-Tier-1 framing is ours for cross-bank comparability; Scotiabank discloses only the raw dollar figures.",
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = +$102mm ÷ Net Tier 1 capital $70,592mm = 0.14%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount).",
-        "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $278,878M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $182,259M (Consolidated Statement of Financial Position) = $461,137M ÷ total assets $1,439,000M = 32.05%. Both components disclosed quarterly in the Scotiabank Q1 2025 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.38%."
+        "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $278,878M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $182,259M (Consolidated Statement of Financial Position) = $461,137M ÷ total assets $1,439,000M = 32.05%. Both components disclosed quarterly in the Scotiabank Q1 2025 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.38%.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -543,6 +566,12 @@
           "page": 1,
           "searchText": "69.3",
           "anchorText": "productivity ratio"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "8.5",
+          "anchorText": "tlac leverage ratio"
         }
       }
     },
@@ -577,7 +606,9 @@
         "nonOperationalDepositsPct": 17.31,
         "irrbbEveSensitivityPct": -1.84,
         "irrbbNiiSensitivityPct": 0.25,
-        "wholesaleFundingPct": 31.73
+        "wholesaleFundingPct": 31.73,
+        "tlacLeverageRatio": 8.9,
+        "dividendPayoutRatio": null
       },
       "notes": {
         "roe": "Reported ROE 10.1%; adjusted ROE was 10.4%.",
@@ -595,7 +626,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $163,721M (LCR common disclosure template, Scotiabank Q2 2025 Report to Shareholders) ÷ total balance-sheet deposits $945,843M = 17.31%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q2 2025 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = -$1,299mm (most adverse of the two disclosed scenarios; the -100bp EVE impact is positive) ÷ Net Tier 1 capital $70,740mm = -1.84%. This %-of-Tier-1 framing is ours for cross-bank comparability; Scotiabank discloses only the raw dollar figures.",
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = +$174mm ÷ Net Tier 1 capital $70,740mm = 0.25%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount).",
-        "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $271,055M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $177,987M (Consolidated Statement of Financial Position) = $449,042M ÷ total assets $1,415,000M = 31.73%. Both components disclosed quarterly in the Scotiabank Q2 2025 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.16%."
+        "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $271,055M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $177,987M (Consolidated Statement of Financial Position) = $449,042M ÷ total assets $1,415,000M = 31.73%. Both components disclosed quarterly in the Scotiabank Q2 2025 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.16%.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -725,6 +758,11 @@
           "page": 4,
           "searchText": "1,841",
           "anchorText": "net income attributable to"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "8.9",
+          "anchorText": "tlac leverage ratio"
         }
       }
     },
@@ -759,7 +797,9 @@
         "nonOperationalDepositsPct": 17.19,
         "irrbbEveSensitivityPct": -2.22,
         "irrbbNiiSensitivityPct": 0.2,
-        "wholesaleFundingPct": 31.65
+        "wholesaleFundingPct": 31.65,
+        "tlacLeverageRatio": 8.6,
+        "dividendPayoutRatio": null
       },
       "notes": {
         "lcr": "Liquidity Coverage Ratio (LCR) %, from the Q2 2026 SFI Highlights 'Capital and Liquidity Measures' 9-quarter trend (quarterly average).",
@@ -778,7 +818,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $162,721M (LCR common disclosure template, Scotiabank Q3 2025 Report to Shareholders) ÷ total balance-sheet deposits $946,842M = 17.19%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q3 2025 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = -$1,559mm (most adverse of the two disclosed scenarios; the -100bp EVE impact is positive) ÷ Net Tier 1 capital $70,225mm = -2.22%. This %-of-Tier-1 framing is ours for cross-bank comparability; Scotiabank discloses only the raw dollar figures.",
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = +$137mm ÷ Net Tier 1 capital $70,225mm = 0.2%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount).",
-        "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $265,537M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $182,223M (Consolidated Statement of Financial Position) = $447,760M ÷ total assets $1,414,700M = 31.65%. Both components disclosed quarterly in the Scotiabank Q3 2025 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 18.77%."
+        "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $265,537M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $182,223M (Consolidated Statement of Financial Position) = $447,760M ÷ total assets $1,414,700M = 31.65%. Both components disclosed quarterly in the Scotiabank Q3 2025 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 18.77%.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -912,6 +954,11 @@
           "page": 4,
           "searchText": "2,313",
           "anchorText": "net income attributable to"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "8.6",
+          "anchorText": "tlac leverage ratio"
         }
       }
     },
@@ -946,7 +993,9 @@
         "operationalDepositsPct": 11.47,
         "nonOperationalDepositsPct": 16.49,
         "irrbbEveSensitivityPct": -2.15,
-        "irrbbNiiSensitivityPct": 0.32
+        "irrbbNiiSensitivityPct": 0.32,
+        "tlacLeverageRatio": 8.5,
+        "dividendPayoutRatio": null
       },
       "notes": {
         "roe": "Reported ROE 11.0%; adjusted ROE was 12.5%.",
@@ -963,7 +1012,9 @@
         "nonOperationalDepositsPct": "T56 'Non-operational deposits' unweighted value $159,368mm ÷ total deposits $966,279mm.",
         "irrbbEveSensitivityPct": "FY2025 Table T50: +100bp parallel shock EVE impact = -$1,568mm (most adverse of the two disclosed scenarios; -100bp gave +$1,201mm) ÷ Tier 1 capital $72,790mm (Q4 2025 Supplementary Regulatory Capital Disclosure, KM1 table) = -2.15%. Our computation; not a ratio Scotiabank itself discloses.",
         "irrbbNiiSensitivityPct": "Same +100bp shock: pre-tax 12-month NII impact = +$236mm (FY2025) ÷ FY2025 reported NII $21,522mm = +1.10%. As % of Tier 1 capital instead: +0.32%. The -100bp scenario showed -$245mm (-1.14% of NII). [Re-based to % of Tier 1 capital = 0.32% (previously 1.1% of NII) for cross-bank consistency.]",
-        "newMetricsSource": "2025 Scotiabank Annual Report (Note 21 Deposits; Table T50 Structural Interest Sensitivity; Table T56 Bank's average LCR; Table T58 Wholesale Funding); Q4 2025 Supplementary Regulatory Capital Disclosure (Tier 1 capital) — https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf"
+        "newMetricsSource": "2025 Scotiabank Annual Report (Note 21 Deposits; Table T50 Structural Interest Sensitivity; Table T56 Bank's average LCR; Table T58 Wholesale Funding); Q4 2025 Supplementary Regulatory Capital Disclosure (Tier 1 capital) — https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1096,6 +1147,11 @@
           "page": 40,
           "searchText": "2,104",
           "anchorText": "net income attributable to"
+        },
+        "tlacLeverageRatio": {
+          "page": 21,
+          "searchText": "8.5",
+          "anchorText": "tlac leverage ratio"
         }
       }
     },
@@ -1125,7 +1181,9 @@
         "retailDepositsPct": 30.38,
         "wholesaleDepositsPct": 69.62,
         "irrbbEveSensitivityPct": -2.2,
-        "irrbbNiiSensitivityPct": 0.29
+        "irrbbNiiSensitivityPct": 0.29,
+        "tlacLeverageRatio": 8.3,
+        "dividendPayoutRatio": null
       },
       "notes": {
         "roe": "Reported ROE 11.1%; adjusted ROE was 13.0%.",
@@ -1139,7 +1197,9 @@
         "wholesaleDepositsPct": "Business & government ($631,375mm) + Financial institutions ($45,108mm) ÷ total deposits.",
         "newMetricsSource": "Q2 2026 Supplementary Financial Information (Consolidated Statement of Financial Position, Spot Balances, 9-quarter trend) — https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q1 2026 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = -$1,603mm (most adverse of the two disclosed scenarios; the -100bp EVE impact is positive) ÷ Net Tier 1 capital $72,956mm = -2.2%. This %-of-Tier-1 framing is ours for cross-bank comparability; Scotiabank discloses only the raw dollar figures. (Q1 2026's own report renders T23 with non-decodable glyphs, so the figure is taken from the Q2 2026 report, which restates Jan-31-2026 as its prior-quarter column.)",
-        "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = +$215mm ÷ Net Tier 1 capital $72,956mm = 0.29%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount). (Q1 2026's own report renders T23 with non-decodable glyphs, so the figure is taken from the Q2 2026 report, which restates Jan-31-2026 as its prior-quarter column.)"
+        "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = +$215mm ÷ Net Tier 1 capital $72,956mm = 0.29%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount). (Q1 2026's own report renders T23 with non-decodable glyphs, so the figure is taken from the Q2 2026 report, which restates Jan-31-2026 as its prior-quarter column.)",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1229,6 +1289,12 @@
           "page": 12,
           "searchText": "2,155",
           "anchorText": "reported net income"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
+          "page": 4,
+          "searchText": "8.3",
+          "anchorText": "tlac leverage ratio"
         }
       }
     },
@@ -1263,7 +1329,9 @@
         "nonOperationalDepositsPct": 16.48,
         "irrbbEveSensitivityPct": -2.56,
         "irrbbNiiSensitivityPct": 0.27,
-        "wholesaleFundingPct": 35.29
+        "wholesaleFundingPct": 35.29,
+        "tlacLeverageRatio": 8.0,
+        "dividendPayoutRatio": null
       },
       "notes": {
         "roe": "Reported ROE 13.1%; adjusted ROE was 13.2%.",
@@ -1284,7 +1352,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $161,721M (LCR common disclosure template, Scotiabank Q2 2026 Report to Shareholders) ÷ total balance-sheet deposits $981,489M = 16.48%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q2 2026 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = -$1,871mm (most adverse of the two disclosed scenarios; the -100bp EVE impact is positive) ÷ Net Tier 1 capital $72,961mm = -2.56%. This %-of-Tier-1 framing is ours for cross-bank comparability; Scotiabank discloses only the raw dollar figures.",
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = +$197mm ÷ Net Tier 1 capital $72,961mm = 0.27%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount).",
-        "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $298,214M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $238,663M (Consolidated Statement of Financial Position) = $536,877M ÷ total assets $1,521,500M = 35.29%. Both components disclosed quarterly in the Scotiabank Q2 2026 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.6%."
+        "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $298,214M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $238,663M (Consolidated Statement of Financial Position) = $536,877M ÷ total assets $1,521,500M = 35.29%. Both components disclosed quarterly in the Scotiabank Q2 2026 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.6%.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1418,6 +1488,11 @@
           "page": 4,
           "searchText": "2,468",
           "anchorText": "net income attributable to"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "8.0",
+          "anchorText": "tlac leverage ratio"
         }
       }
     }

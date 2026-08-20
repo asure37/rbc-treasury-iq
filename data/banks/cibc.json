@@ -36,7 +36,9 @@
         "stableDepositsPct": 22.9,
         "lessStableDepositsPct": 27.05,
         "operationalDepositsPct": 25.47,
-        "nonOperationalDepositsPct": 24.58
+        "nonOperationalDepositsPct": 24.58,
+        "tlacLeverageRatio": 8.7,
+        "dividendPayoutRatio": 49.3
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
@@ -53,7 +55,9 @@
         "stableDepositsPct": "Stable deposits: unweighted $99,127M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 22.9%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
         "lessStableDepositsPct": "Less stable deposits: unweighted $117,113M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 27.05%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $110,273M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 25.47%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $106,399M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 24.58%. Denominator = sum of the four LCR categories, matching CIBC's existing method."
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $106,399M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 24.58%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -183,6 +187,18 @@
           "page": 7,
           "searchText": "1,021,407",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "8.7%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "49.3%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -217,7 +233,9 @@
         "operationalDepositsPct": 26.4,
         "nonOperationalDepositsPct": 23.91,
         "irrbbEveSensitivityPct": -2.74,
-        "irrbbNiiSensitivityPct": -0.49
+        "irrbbNiiSensitivityPct": -0.49,
+        "tlacLeverageRatio": 8.7,
+        "dividendPayoutRatio": 47.2
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
@@ -234,7 +252,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $104,552M (unweighted) / $437,287M.",
         "irrbbEveSensitivityPct": "CIBC does not disclose the full 6-scenario Basel/OSFI IRRBB1 template (parallel up/down, steepener, flattener, short rate up/down) — it only discloses a +/-100bp parallel shock under 'Structural Interest Rate Risk (SIRR)'. Most adverse of the two disclosed scenarios: +100bp parallel increase gives EVE impact of -$1,356M (pre-tax, total CAD+USD), vs -100bp giving +$1,237M. -$1,356M / Tier 1 capital $49,481M (Q4/25 Pillar 3 KM1 table, Q4/24 column) = -2.74%. Not equivalent to 'worst of six Basel scenarios' — CIBC only shows 2 of the 6 standard shocks.",
         "irrbbNiiSensitivityPct": "Same +/-100bp parallel shock table. Worse of the two scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$242M (pre-tax, total). As % of Tier 1 capital ($49,481M) for comparability = -0.49%; CIBC itself does not express NII sensitivity as a % of any capital or income base — this is a derived ratio.",
-        "newMetricsSource": "CIBC 2024 Annual Report (audited consolidated financial statements and MD&A) and CIBC Q4/25 Pillar 3 Report — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf"
+        "newMetricsSource": "CIBC 2024 Annual Report (audited consolidated financial statements and MD&A) and CIBC Q4/25 Pillar 3 Report — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -338,6 +358,18 @@
           "page": 7,
           "searchText": "30.3%",
           "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "page": 4,
+          "searchText": "8.7 %",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "47.2%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -372,7 +404,9 @@
         "stableDepositsPct": 21.86,
         "lessStableDepositsPct": 27.33,
         "operationalDepositsPct": 27.14,
-        "nonOperationalDepositsPct": 23.68
+        "nonOperationalDepositsPct": 23.68,
+        "tlacLeverageRatio": 8.9,
+        "dividendPayoutRatio": 44.1
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table; also confirmed in Q1 2026 news release comparative column (15.2%).",
@@ -388,7 +422,9 @@
         "stableDepositsPct": "Stable deposits: unweighted $100,045M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 21.86%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
         "lessStableDepositsPct": "Less stable deposits: unweighted $125,108M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 27.33%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $124,217M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 27.14%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $108,389M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 23.68%. Denominator = sum of the four LCR categories, matching CIBC's existing method."
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $108,389M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 23.68%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -518,6 +554,18 @@
           "page": 7,
           "searchText": "1,082,464",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "page": 7,
+          "searchText": "8.9%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "44.1%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -552,7 +600,9 @@
         "stableDepositsPct": 21.49,
         "lessStableDepositsPct": 28.13,
         "operationalDepositsPct": 27.44,
-        "nonOperationalDepositsPct": 22.94
+        "nonOperationalDepositsPct": 22.94,
+        "tlacLeverageRatio": 9.1,
+        "dividendPayoutRatio": 47.4
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
@@ -568,7 +618,9 @@
         "stableDepositsPct": "Stable deposits: unweighted $99,431M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 21.49%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
         "lessStableDepositsPct": "Less stable deposits: unweighted $130,149M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 28.13%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $126,997M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 27.44%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $106,165M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 22.94%. Denominator = sum of the four LCR categories, matching CIBC's existing method."
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $106,165M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 22.94%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -697,6 +749,18 @@
           "page": 7,
           "searchText": "1,090,143",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "9.1%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "47.4%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -731,7 +795,9 @@
         "stableDepositsPct": 21.73,
         "lessStableDepositsPct": 27.72,
         "operationalDepositsPct": 28.14,
-        "nonOperationalDepositsPct": 22.41
+        "nonOperationalDepositsPct": 22.41,
+        "tlacLeverageRatio": 9.2,
+        "dividendPayoutRatio": 44.9
       },
       "notes": {
         "roe": "Reported ROE (annualized) 14.2% per CIBC Supplementary Financial Information nine-quarter trend table (matches reported and adjusted ROE for this quarter).",
@@ -747,7 +813,9 @@
         "stableDepositsPct": "Stable deposits: unweighted $100,556M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 21.73%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
         "lessStableDepositsPct": "Less stable deposits: unweighted $128,284M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 27.72%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $130,187M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 28.14%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $103,695M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 22.41%. Denominator = sum of the four LCR categories, matching CIBC's existing method."
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $103,695M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 22.41%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -851,6 +919,18 @@
           "page": 7,
           "searchText": "1,102,255",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
+          "page": 4,
+          "searchText": "9.2 %",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "44.9%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -885,7 +965,9 @@
         "operationalDepositsPct": 29.78,
         "nonOperationalDepositsPct": 20.24,
         "irrbbEveSensitivityPct": -3.1,
-        "irrbbNiiSensitivityPct": -0.46
+        "irrbbNiiSensitivityPct": -0.46,
+        "tlacLeverageRatio": 9.0,
+        "dividendPayoutRatio": 43.8
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table (Q1 2026 vintage), cross-checked against Q4/FY2025 news release (14.1%, up from 13.3% YoY).",
@@ -901,7 +983,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $93,576M (unweighted) / $462,270M.",
         "irrbbEveSensitivityPct": "CIBC discloses only a +/-100bp parallel shock (not the 6-scenario Basel IRRBB1 template). Most adverse: +100bp parallel increase gives EVE impact of -$1,678M (pre-tax, total CAD+USD) vs -100bp giving +$1,525M. -$1,678M / Tier 1 capital $54,105M (Q4/25 Pillar 3 KM1 table) = -3.10%.",
         "irrbbNiiSensitivityPct": "Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$249M (pre-tax, total). As % of Tier 1 capital ($54,105M) = -0.46% — a derived ratio; CIBC does not itself express NII sensitivity as a percentage of any base.",
-        "newMetricsSource": "CIBC 2025 Annual Report (audited consolidated financial statements and MD&A) and CIBC Q4/25 Pillar 3 Report and Supplementary Regulatory Capital Disclosure — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf"
+        "newMetricsSource": "CIBC 2025 Annual Report (audited consolidated financial statements and MD&A) and CIBC Q4/25 Pillar 3 Report and Supplementary Regulatory Capital Disclosure — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1032,6 +1116,17 @@
           "page": 4,
           "searchText": "2,174",
           "anchorText": "net income attributable to"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "9.0 %",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "43.8%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -1066,7 +1161,9 @@
         "stableDepositsPct": 21.27,
         "lessStableDepositsPct": 28.06,
         "operationalDepositsPct": 29.89,
-        "nonOperationalDepositsPct": 20.78
+        "nonOperationalDepositsPct": 20.78,
+        "tlacLeverageRatio": 9.1,
+        "dividendPayoutRatio": 33.1
       },
       "notes": {
         "roe": "Reported ROE (GAAP, annualized) was unusually high at 20.2% mainly due to $422 million of income tax recoveries (capital gains distribution and utilization of capital losses) recognized in the quarter; adjusted ROE excluding this and other items of note was 17.4%. Used reported per instructions, but flagging the distortion.",
@@ -1082,7 +1179,9 @@
         "stableDepositsPct": "Stable deposits: unweighted $102,077M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 21.27%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
         "lessStableDepositsPct": "Less stable deposits: unweighted $134,672M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 28.06%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $143,468M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 29.89%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $99,715M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 20.78%. Denominator = sum of the four LCR categories, matching CIBC's existing method."
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $99,715M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 20.78%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1212,6 +1311,18 @@
           "page": 7,
           "searchText": "1,132,577",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
+          "page": 5,
+          "searchText": "9.1 %",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "33.1%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -1246,7 +1357,9 @@
         "stableDepositsPct": 20.79,
         "lessStableDepositsPct": 28.04,
         "operationalDepositsPct": 29.49,
-        "nonOperationalDepositsPct": 21.68
+        "nonOperationalDepositsPct": 21.68,
+        "tlacLeverageRatio": 8.9,
+        "dividendPayoutRatio": 41.9
       },
       "notes": {
         "roe": "Reported ROE (annualized) 16.4%, which equals adjusted ROE this quarter (up 250 bps YoY per management commentary).",
@@ -1262,7 +1375,9 @@
         "stableDepositsPct": "Stable deposits: unweighted $102,406M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 20.79%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
         "lessStableDepositsPct": "Less stable deposits: unweighted $138,131M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 28.04%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $145,304M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 29.49%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $106,834M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 21.68%. Denominator = sum of the four LCR categories, matching CIBC's existing method."
+        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $106,834M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 21.68%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1393,6 +1508,17 @@
           "page": 5,
           "searchText": "2,457",
           "anchorText": "net income attributable to"
+        },
+        "tlacLeverageRatio": {
+          "page": 5,
+          "searchText": "8.9 %",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "41.9%",
+          "anchorText": "dividend payout ratio"
         }
       }
     }

@@ -36,7 +36,9 @@
         "operationalDepositsPct": 20.79,
         "nonOperationalDepositsPct": 30.24,
         "irrbbEveSensitivityPct": -1.9,
-        "irrbbNiiSensitivityPct": -0.44
+        "irrbbNiiSensitivityPct": -0.44,
+        "tlacLeverageRatio": 8.3,
+        "dividendPayoutRatio": 46.0
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($971,797M) divided by total assets ($2,076,107M) as disclosed in the same report; not a directly stated ratio.",
@@ -51,7 +53,9 @@
         "nonOperationalDepositsPct": "LCR 'Non-operational deposits' ($247,916M) / LCR-classified total deposits ($819,796M).",
         "irrbbEveSensitivityPct": "RBC discloses only +/-100bps parallel shocks, not the 6 prescribed Basel scenarios. Worse of the two (+100bps parallel: -$1,822M before-tax total EVE impact) / Tier 1 capital as at July 31, 2024 ($95,724M, from Q4 2024 Pillar 3 KM1 table). This is a deviation from the strict 6-scenario definition since RBC does not publish that table.",
         "irrbbNiiSensitivityPct": "Worse of the two disclosed shocks (-100bps parallel: -$425M before-tax 12-month NII impact) / same Tier 1 capital base ($95,724M).",
-        "newMetricsSource": "Q3 2024 Report to Shareholders (MD&A: Liquidity and Funding Risk, Market Risk sections) — https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf"
+        "newMetricsSource": "Q3 2024 Report to Shareholders (MD&A: Liquidity and Funding Risk, Market Risk sections) — https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -182,6 +186,16 @@
           "page": 1,
           "searchText": "4,486",
           "anchorText": "net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "8.3%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 4,
+          "searchText": "46%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -216,7 +230,9 @@
         "operationalDepositsPct": 20.59,
         "nonOperationalDepositsPct": 30.81,
         "irrbbEveSensitivityPct": -2.12,
-        "irrbbNiiSensitivityPct": -0.51
+        "irrbbNiiSensitivityPct": -0.51,
+        "tlacLeverageRatio": 8.4,
+        "dividendPayoutRatio": 49.0
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($981,380M) divided by total assets ($2,171,582M).",
@@ -231,7 +247,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits $256,251M / $831,694M.",
         "irrbbEveSensitivityPct": "Only +/-100bps parallel shocks disclosed (not 6-scenario table). Worse scenario (+100bps: -$2,076M) / Tier 1 capital as at Oct 31, 2024 ($97,952M, Pillar 3 KM1 table).",
         "irrbbNiiSensitivityPct": "Worse scenario (-100bps: -$502M) / Tier 1 capital ($97,952M).",
-        "newMetricsSource": "2024 Annual Report (MD&A Tables 51/57/60), cross-checked vs. Q1 2025 Report to Shareholders comparative column — https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf"
+        "newMetricsSource": "2024 Annual Report (MD&A Tables 51/57/60), cross-checked vs. Q1 2025 Report to Shareholders comparative column — https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -362,6 +380,18 @@
           "page": 10,
           "searchText": "59.8%",
           "anchorText": "efficiency ratio"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "page": 4,
+          "searchText": "8.4%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "page": 4,
+          "searchText": "49%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -396,7 +426,9 @@
         "operationalDepositsPct": 19.79,
         "nonOperationalDepositsPct": 32.36,
         "irrbbEveSensitivityPct": -2.03,
-        "irrbbNiiSensitivityPct": -0.57
+        "irrbbNiiSensitivityPct": -0.57,
+        "tlacLeverageRatio": 8.9,
+        "dividendPayoutRatio": 42.0
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,006,050M) divided by total assets ($2,191,026M).",
@@ -410,7 +442,9 @@
         "nonOperationalDepositsPct": "$284,418M / $878,779M.",
         "irrbbEveSensitivityPct": "Only +/-100bps disclosed. Worse (+100bps: -$2,107M) / Tier 1 capital ($103,718M).",
         "irrbbNiiSensitivityPct": "Worse (-100bps: -$589M) / Tier 1 capital ($103,718M).",
-        "newMetricsSource": "Q1 2025 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf"
+        "newMetricsSource": "Q1 2025 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -541,6 +575,16 @@
           "page": 1,
           "searchText": "5,131",
           "anchorText": "net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "8.9%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 4,
+          "searchText": "42%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -575,7 +619,9 @@
         "operationalDepositsPct": 19.64,
         "nonOperationalDepositsPct": 33.42,
         "irrbbEveSensitivityPct": -2.36,
-        "irrbbNiiSensitivityPct": -0.5
+        "irrbbNiiSensitivityPct": -0.5,
+        "tlacLeverageRatio": 9.2,
+        "dividendPayoutRatio": 49.0
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,007,306M) divided by total assets ($2,242,133M).",
@@ -590,7 +636,9 @@
         "nonOperationalDepositsPct": "$298,343M / $892,902M.",
         "irrbbEveSensitivityPct": "Only +/-100bps disclosed. Worse (+100bps: -$2,436M) / Tier 1 capital ($103,194M).",
         "irrbbNiiSensitivityPct": "Worse (-100bps: -$521M) / Tier 1 capital ($103,194M).",
-        "newMetricsSource": "Q2 2025 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf"
+        "newMetricsSource": "Q2 2025 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -721,6 +769,16 @@
           "page": 1,
           "searchText": "4,390",
           "anchorText": "net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 5,
+          "searchText": "9.2%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 5,
+          "searchText": "49%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -755,7 +813,9 @@
         "operationalDepositsPct": 20.35,
         "nonOperationalDepositsPct": 34.67,
         "irrbbEveSensitivityPct": -2.34,
-        "irrbbNiiSensitivityPct": -0.36
+        "irrbbNiiSensitivityPct": -0.36,
+        "tlacLeverageRatio": 9.3,
+        "dividendPayoutRatio": 41.0
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,025,460M) divided by total assets ($2,227,893M).",
@@ -769,7 +829,9 @@
         "nonOperationalDepositsPct": "$313,956M / $905,651M.",
         "irrbbEveSensitivityPct": "Only +/-100bps disclosed. Worse (+100bps: -$2,506M) / Tier 1 capital ($107,155M).",
         "irrbbNiiSensitivityPct": "Worse (-100bps: -$389M) / Tier 1 capital ($107,155M).",
-        "newMetricsSource": "Q3 2025 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf"
+        "newMetricsSource": "Q3 2025 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -899,6 +961,16 @@
           "page": 2,
           "searchText": "5,414",
           "anchorText": "net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 5,
+          "searchText": "9.3%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 5,
+          "searchText": "41%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -933,7 +1005,9 @@
         "operationalDepositsPct": 20.18,
         "nonOperationalDepositsPct": 34.64,
         "irrbbEveSensitivityPct": -2.4,
-        "irrbbNiiSensitivityPct": -0.34
+        "irrbbNiiSensitivityPct": -0.34,
+        "tlacLeverageRatio": 9.2,
+        "dividendPayoutRatio": 41.0
       },
       "notes": {
         "efficiencyRatio": "Not stated as a single consolidated-bank line in this earnings release; computed as Non-interest expense ($9,374M) / Total revenue ($17,209M), consistent with RBC's own stated definition ('Efficiency ratio is calculated as Non-interest expense divided by Total revenue') confirmed in the Q3 2024 and Q1 2025 Reports to Shareholders, and validated against RBC-reported efficiency ratios in other quarters where both the computed and disclosed values were compared and matched.",
@@ -948,7 +1022,9 @@
         "nonOperationalDepositsPct": "$317,728M / $917,188M.",
         "irrbbEveSensitivityPct": "Only +/-100bps disclosed (Table 49 in 2025 Annual Report). Worse (+100bps: -$2,648M) / Tier 1 capital ($110,393M, Pillar 3 KM1 table).",
         "irrbbNiiSensitivityPct": "Worse (-100bps: -$373M) / Tier 1 capital ($110,393M).",
-        "newMetricsSource": "2025 Annual Report (MD&A Tables 49/55/58), cross-checked vs. Q1 2026 Report to Shareholders comparative column — https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf"
+        "newMetricsSource": "2025 Annual Report (MD&A Tables 49/55/58), cross-checked vs. Q1 2026 Report to Shareholders comparative column — https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1073,6 +1149,16 @@
           "page": 2,
           "searchText": "5,434",
           "anchorText": "net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 3,
+          "searchText": "9.2%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 3,
+          "searchText": "41%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -1107,7 +1193,9 @@
         "operationalDepositsPct": 20.35,
         "nonOperationalDepositsPct": 35.3,
         "irrbbEveSensitivityPct": -2.37,
-        "irrbbNiiSensitivityPct": -0.36
+        "irrbbNiiSensitivityPct": -0.36,
+        "tlacLeverageRatio": 9.0,
+        "dividendPayoutRatio": 41.0
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,054,881M) divided by total assets ($2,342,393M).",
@@ -1122,7 +1210,9 @@
         "nonOperationalDepositsPct": "$331,915M / $940,433M.",
         "irrbbEveSensitivityPct": "Only +/-100bps disclosed. Worse (+100bps: -$2,641M) / Tier 1 capital ($111,549M, Pillar 3 KM1 table).",
         "irrbbNiiSensitivityPct": "Worse (-100bps: -$397M) / Tier 1 capital ($111,549M).",
-        "newMetricsSource": "Q1 2026 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf"
+        "newMetricsSource": "Q1 2026 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1251,6 +1341,18 @@
           "page": 4,
           "searchText": "2,342,393",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
+          "page": 4,
+          "searchText": "9.0%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
+          "page": 4,
+          "searchText": "41%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -1285,7 +1387,9 @@
         "operationalDepositsPct": 20.08,
         "nonOperationalDepositsPct": 35.29,
         "irrbbEveSensitivityPct": -2.41,
-        "irrbbNiiSensitivityPct": -0.34
+        "irrbbNiiSensitivityPct": -0.34,
+        "tlacLeverageRatio": 9.0,
+        "dividendPayoutRatio": 42.0
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,077,949M) divided by total assets ($2,396,080M).",
@@ -1299,7 +1403,9 @@
         "nonOperationalDepositsPct": "$333,390M / $944,601M.",
         "irrbbEveSensitivityPct": "Only +/-100bps disclosed. Worse (+100bps: -$2,711M) / Tier 1 capital ($112,453M).",
         "irrbbNiiSensitivityPct": "Worse (-100bps: -$381M) / Tier 1 capital ($112,453M).",
-        "newMetricsSource": "Q2 2026 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf"
+        "newMetricsSource": "Q2 2026 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1429,6 +1535,16 @@
           "page": 4,
           "searchText": "5,509",
           "anchorText": "net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "9.0%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 4,
+          "searchText": "42%",
+          "anchorText": "dividend payout ratio"
         }
       }
     }

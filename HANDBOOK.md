@@ -32,7 +32,7 @@ Everything a new owner needs to run, change, and extend this application.
 
 ## 1. What this application is
 
-A peer-benchmarking dashboard comparing **RBC against the five other Canadian D-SIBs** — TD, Scotiabank, BMO, CIBC and National Bank — across 23 capital, liquidity, funding, profitability and interest-rate-risk metrics, over eight quarters (Q3 2024 → Q2 2026).
+A peer-benchmarking dashboard comparing **RBC against the five other Canadian D-SIBs** — TD, Scotiabank, BMO, CIBC and National Bank — across 25 capital, liquidity, funding, profitability and interest-rate-risk metrics, over eight quarters (Q3 2024 → Q2 2026).
 
 Plenty of tools can draw those charts. **The thing that makes this one worth maintaining is that every number on screen is clickable and traces to the page of the disclosure it came from.** Click a figure and the source PDF opens at the right page with the exact number highlighted. That property is load-bearing — most of the engineering below exists to protect it, and most of the bugs worth knowing about were violations of it.
 
@@ -40,7 +40,7 @@ Plenty of tools can draw those charts. **The thing that makes this one worth mai
 
 > **Never fabricate, estimate, or interpolate a metric.** Every figure either traces to a real, cited public disclosure, or it stays `null` and the UI says so.
 
-This is not a style preference. It is the product's entire claim. Anything that guesses — a highlight that lands on a plausible-looking number, a value carried forward from last quarter, a rank produced by a sort that doesn't follow from the cells — destroys the credibility of all 1,093 figures at once. When you are unsure whether to show something uncertain or show nothing, **show nothing and say why.**
+This is not a style preference. It is the product's entire claim. Anything that guesses — a highlight that lands on a plausible-looking number, a value carried forward from last quarter, a rank produced by a sort that doesn't follow from the cells — destroys the credibility of all 1,180 figures at once. When you are unsure whether to show something uncertain or show nothing, **show nothing and say why.**
 
 ### Current data coverage
 
@@ -48,13 +48,13 @@ This is not a style preference. It is the product's entire claim. Anything that 
 |---|---|
 | Banks | 6 (RBC, TD, Scotiabank, BMO, CIBC, National) |
 | Quarters | 8 per bank — Q3 2024 → Q2 2026 |
-| Metrics defined | 23 |
-| Populated values | 1,093 of 1,104 possible cells (99%) |
-| Source references | 1,034 (1,002 with a page number, 840 with a label anchor) |
-| Per-metric caveats | 690 free-text notes |
-| Distinct cited documents | 78, all on the issuing bank's own domain |
+| Metrics defined | 25 |
+| Populated values | 1,180 of 1,200 possible cells (98%) |
+| Source references | 1,121 (1,089 with a page number, 927 with a label anchor) |
+| Per-metric caveats | 786 free-text notes |
+| Distinct cited documents | 88, all on the issuing bank's own domain |
 | Credit ratings | 6 banks (Moody's / S&P / DBRS / Fitch) |
-| **Citations that highlight on their cited page** | **937 of 1,034 (90.6%)** — and **0** land on any other page |
+| **Citations that highlight on their cited page** | **1,024 of 1,121 (91.3%)** — and **0** land on any other page |
 
 That last row is the one to watch. 97 citations ring nothing (§12) — they open the right document at the right page and show no highlight, which is the honest failure. **What must never happen is a citation resolving somewhere it wasn't cited**, and that count is zero across the whole dataset.
 
@@ -88,7 +88,7 @@ src/
 └── types/                  metrics.ts (the data model), auth.ts, chart-spec.ts
 data/
 ├── banks/*.json            6 files — the entire dataset
-├── metrics-meta.json       23 metric definitions + regulatory thresholds
+├── metrics-meta.json       25 metric definitions + regulatory thresholds
 └── employees.json          login credentials
 scripts/
 ├── dataset-stats.py        measures the dataset (every number in §1)
@@ -208,7 +208,7 @@ interface SourceRef {
 }
 ```
 
-**`anchorText` is what stops the viewer highlighting the wrong number.** BMO's Q2 2026 report states both ROE and CET1 as 13.0%; without an anchor, a search for "13.0" highlights whichever comes first. With `anchorText: "cet1 ratio"`, the matcher requires the label and the figure to appear together. 840 of 1,034 refs have one — the rest are flagged `NO_ANCHOR` in exported evidence packs so a reviewer knows the match is weaker.
+**`anchorText` is what stops the viewer highlighting the wrong number.** BMO's Q2 2026 report states both ROE and CET1 as 13.0%; without an anchor, a search for "13.0" highlights whichever comes first. With `anchorText: "cet1 ratio"`, the matcher requires the label and the figure to appear together. 927 of 1,121 refs have one — the rest are flagged `NO_ANCHOR` in exported evidence packs so a reviewer knows the match is weaker.
 
 ### Fiscal calendar
 
@@ -225,7 +225,7 @@ Canadian D-SIBs have an **October 31 year end**. This trips up everyone:
 
 ### `metrics-meta.json`
 
-23 definitions carrying `label`, `shortLabel`, `unit` (`%` / `$B` / `$M`), `description`, `decimals`, `regulatoryMinimum`, `supervisoryTarget`, and:
+25 definitions carrying `label`, `shortLabel`, `unit` (`%` / `$B` / `$M`), `description`, `decimals`, `regulatoryMinimum`, `supervisoryTarget`, and:
 
 **`higherIsBetter: boolean | null`** — drives every ranking in the app. `false` for efficiency ratio and the IRRBB sensitivities (lower is better); `null` where it's genuinely context-dependent (balance-sheet mix). Get this wrong on a new metric and every rank, heat map cell and "leader" label inverts silently.
 
@@ -305,7 +305,7 @@ A real bug, worth internalising. Clicking BMO's Q2 2026 Basel III leverage ratio
 
 The leverage ratio is on page 7. Three defects compounded: the neighbour-page fallback raced ahead of the cited page's own search (canvas rendering is far slower than reading a neighbour's text layer, so the fallback always won); the matcher fell back to the first bare occurrence when the anchor was missing; and substring matching accepted fragments of longer numbers.
 
-Across the 723 refs whose documents were cached at the time, **62 were being relocated to a neighbouring page, 40 of them onto an unrelated number.** After the fix, the full 1,034-ref probe reports **zero relocations** — every citation that resolves at all resolves on the page it cites — with 97 refs honestly showing no highlight rather than a wrong one (§12).
+Across the 723 refs whose documents were cached at the time, **62 were being relocated to a neighbouring page, 40 of them onto an unrelated number.** After the fix, the full 1,121-ref probe reports **zero relocations** — every citation that resolves at all resolves on the page it cites — with 97 refs honestly showing no highlight rather than a wrong one (§12).
 
 The lesson generalises: **every loosening of these rules trades a visible "no highlight" for an invisible wrong one.** The first is a bug report; the second is a credibility failure nobody catches until a judge does.
 
@@ -331,7 +331,7 @@ Three things worth knowing:
 
 ### Quarterly refresh (`/api/refresh`)
 
-Finds each bank's next unreported quarter, extracts the 23 metrics from its new disclosure, sanity-checks each value against the prior quarter (`checkSanity` flags large moves, missing values, out-of-range), and verifies figures against the source PDF.
+Finds each bank's next unreported quarter, extracts the 25 metrics from its new disclosure, sanity-checks each value against the prior quarter (`checkSanity` flags large moves, missing values, out-of-range), and verifies figures against the source PDF.
 
 **It proposes; it never writes.** A human reviews each proposal in `RefreshDataPanel` and clicks Apply, which calls `/api/refresh/apply` — that route takes a timestamped backup of each bank file before writing, and guards `bankId` against path traversal.
 
@@ -455,11 +455,25 @@ Reproduce the table above with:
 python3 scripts/dataset-stats.py
 ```
 
-**Three keys are populated but absent from `metrics-meta.json`** — `adjustedEfficiencyRatio`, `fullYearNetIncomeMillions`, `tlacLeverageRatio`. They carry data but have no label, unit, threshold or polarity, so they cannot appear in the metric picker or the heat map. Add a meta entry before trying to chart one.
+**Two keys are populated but absent from `metrics-meta.json`** — `adjustedEfficiencyRatio` and `fullYearNetIncomeMillions`. They carry data but have no label, unit, threshold or polarity, so they cannot appear in the metric picker or the heat map. Add a meta entry before trying to chart one.
 
 **Comparability.** The pack proves transcription; it cannot prove that LCR means the same thing at six banks with different averaging conventions and deposit-bucket granularity. Today that limit is one line on the cover. It deserves a page.
 
-**97 refs highlight nothing** — 9.4% of the dataset. They cite a real page but ring no figure on it, and they split into two different problems:
+**`dividendPayoutRatio` is the sharpest example of that, and needs reading before use.** Unlike the capital and liquidity ratios, this one is not defined by a regulator, so the six issuers do not compute it the same way:
+
+| Bank | Basis | Watch for |
+|---|---|---|
+| RBC, CIBC | Single-quarter, reported | RBC prints only whole percents |
+| BMO | Single-quarter, reported (Supplementary line 23) | BMO also publishes an *adjusted* ratio on line 24 that differs by up to 29 points — do not mix the two |
+| TD | Single-quarter, reported | Q3 2024 is `n/m` (the AML provision caused a net loss) so the cell is **null**; Q2 2025 reads 16.6% because the Schwab gain inflated the denominator |
+| National | **Trailing four quarters** | Structurally different from the others; smoother by construction and not directly comparable |
+| Scotiabank | **Not disclosed quarterly** | All eight cells are **null**. Scotia reports a payout ratio only for the full fiscal year (71.0% FY2024; 73.7% reported / 60.7% adjusted FY2025) |
+
+Every one of these caveats is recorded in the per-metric `notes`, and the metric is defined with `higherIsBetter: null` so it never drives a rank or a heat map cell. **Resist the temptation to fill Scotia's column by computing dividends ÷ net income** — the inputs are disclosed, so it would be easy, and it would also be the first fabricated figure in the dataset. It stays null until Scotia publishes one.
+
+By contrast `tlacLeverageRatio` is clean: OSFI's TLAC guideline defines it, all six banks disclose it quarterly, and all 48 cells are populated and cross-checked against an overlapping Pillar 3 or supplementary disclosure.
+
+**97 refs highlight nothing** — 8.7% of the dataset. They cite a real page but ring no figure on it, and they split into two different problems:
 
 | | | |
 |---|---|---|
@@ -506,10 +520,10 @@ node scripts/lineage-probe.mts --bank rbc
 
 Crucially, **the probe imports `resolveRef` from `src/lib/source-match.ts` rather than reimplementing it.** It is checking the same decision procedure the viewer and the evidence pack use — a reimplementation would drift and start certifying matches the product would never make.
 
-The expected shape for the committed dataset, measured across all 1,034 refs:
+The expected shape for the committed dataset, measured across all 1,121 refs:
 
 ```
-resolve ON the cited page via anchor     829
+resolve ON the cited page via anchor     916
 resolve ON the cited page unanchored     108
 moved to a neighbour                       0
 no highlight (honest miss)                97
@@ -519,7 +533,7 @@ Miss breakdown:
   value_not_found                         16
 ```
 
-**90.6% of citations land on their cited page, and not one resolves anywhere else.** The two miss kinds are different problems and the probe never merges them: `no_search_text` is a gap in the *data* (no figure was recorded to look for), `value_not_found` is a gap in the *match* (a figure was recorded but isn't findable on that page).
+**91.3% of citations land on their cited page, and not one resolves anywhere else.** The two miss kinds are different problems and the probe never merges them: `no_search_text` is a gap in the *data* (no figure was recorded to look for), `value_not_found` is a gap in the *match* (a figure was recorded but isn't findable on that page).
 
 **"Moved to a neighbour" must stay 0, and misses must not climb.** Either movement means the matcher got looser and is relocating citations — the exact defect behind the leverage-ratio bug in §7. The probe exits non-zero in that case, so it can gate CI. A `--bank` or partially-cached run covers a subset and suppresses the baseline comparison rather than reporting a false regression.
 

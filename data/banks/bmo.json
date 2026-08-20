@@ -36,7 +36,9 @@
         "lessStableDepositsPct": 27.42,
         "operationalDepositsPct": 25.33,
         "nonOperationalDepositsPct": 23.26,
-        "wholesaleFundingPct": 17.86
+        "wholesaleFundingPct": 17.86,
+        "tlacLeverageRatio": 8.2,
+        "dividendPayoutRatio": 62.4
       },
       "notes": {
         "tier1CapitalRatio": "Tier 1 capital ratio %, BMO Q3 2024 Report to Shareholders capital table (Q3-2024).",
@@ -56,7 +58,9 @@
         "lessStableDepositsPct": "Less stable deposits: unweighted average $158.7B ÷ sum of the four LCR deposit categories ($578.8B) = 27.42%. From the LCR common disclosure template in the BMO Q3 2024 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $146.6B ÷ sum of the four LCR deposit categories ($578.8B) = 25.33%. From the LCR common disclosure template in the BMO Q3 2024 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $134.6B ÷ sum of the four LCR deposit categories ($578.8B) = 23.26%. From the LCR common disclosure template in the BMO Q3 2024 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
-        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $257.3 billion (Q3 2024 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1440.3 billion = 17.86%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter."
+        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $257.3 billion (Q3 2024 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1440.3 billion = 17.86%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters."
       },
       "sourceRefs": {
         "tier1CapitalRatio": {
@@ -180,6 +184,17 @@
           "page": 1,
           "searchText": "1,865",
           "anchorText": "net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 20,
+          "searchText": "8.2%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "searchText": "62.4 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -214,7 +229,9 @@
         "operationalDepositsPct": 25.76,
         "nonOperationalDepositsPct": 23.5,
         "irrbbEveSensitivityPct": -2.29,
-        "irrbbNiiSensitivityPct": -0.32
+        "irrbbNiiSensitivityPct": -0.32,
+        "tlacLeverageRatio": 8.3,
+        "dividendPayoutRatio": 52.6
       },
       "notes": {
         "roe": "reported ROE used (11.4%); adjusted ROE was notably lower (7.4%) this quarter due to a large positive one-time item (reversal of a prior legal provision) boosting reported income above adjusted income",
@@ -230,7 +247,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $140.0B ÷ $595.8B (same LCR Table 55 basis). LCR table also separately shows 'Unsecured debt' of $19.2B and 'Secured wholesale funding' (weighted only, $23.0B), excluded from this deposits-only denominator.",
         "irrbbEveSensitivityPct": "BMO does not disclose the 6-scenario Basel/OSFI IRRBB1 template at the consolidated enterprise level (confirmed absent from BMO's and CIBC's OSFI Pillar 3 disclosures alike). Its Annual Report/AIF Market Risk section (Table 45, 'Structural Interest Rate Sensitivity', as at Oct 31, 2024) discloses only 2 of the 6 scenarios: an immediate parallel +100bp and -100bp shift, constant balance sheet, pre-tax C$. More adverse scenario (+100bp): Economic Value Sensitivity Total = -$1,483mm ÷ Tier 1 Capital $64,735mm (Table 30, CC1) = -2.29%. Computed ratio; BMO does not itself express EVE sensitivity as % of Tier 1 capital.",
         "irrbbNiiSensitivityPct": "Most adverse (-100bp) 12-month NII sensitivity $-210M ÷ Tier 1 capital $64,735M = -0.32%. Re-based to % of Tier 1 capital (from the earlier % of annual NII) to match the cross-bank convention used by RBC/TD/CIBC/National.",
-        "newMetricsSource": "BMO 2024 Annual Report / Annual Information Form (Exhibit 99.2 to Form 40-F) — https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm"
+        "newMetricsSource": "BMO 2024 Annual Report / Annual Information Form (Exhibit 99.2 to Form 40-F) — https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -343,6 +362,18 @@
           "page": 1,
           "searchText": "2,304",
           "anchorText": "net income"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/SuppRegCapitalDisclosure_Q225.pdf",
+          "page": 15,
+          "searchText": "8.3%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "searchText": "52.6 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -377,7 +408,9 @@
         "lessStableDepositsPct": 27.11,
         "operationalDepositsPct": 26.02,
         "nonOperationalDepositsPct": 23.79,
-        "wholesaleFundingPct": 17.94
+        "wholesaleFundingPct": 17.94,
+        "tlacLeverageRatio": 8.5,
+        "dividendPayoutRatio": 56.1
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2025 = 128%, BMO Q1 2025 Report to Shareholders.",
@@ -396,7 +429,9 @@
         "lessStableDepositsPct": "Less stable deposits: unweighted average $168B ÷ sum of the four LCR deposit categories ($619.6B) = 27.11%. From the LCR common disclosure template in the BMO Q1 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $161.2B ÷ sum of the four LCR deposit categories ($619.6B) = 26.02%. From the LCR common disclosure template in the BMO Q1 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $147.4B ÷ sum of the four LCR deposit categories ($619.6B) = 23.79%. From the LCR common disclosure template in the BMO Q1 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
-        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $263.4 billion (Q1 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1468.093 billion = 17.94%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter."
+        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $263.4 billion (Q1 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1468.093 billion = 17.94%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters."
       },
       "sourceRefs": {
         "nim": {
@@ -526,6 +561,17 @@
           "page": 1,
           "searchText": "2,138",
           "anchorText": "reported net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 16,
+          "searchText": "8.5%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "searchText": "56.1 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -561,7 +607,9 @@
         "lessStableDepositsPct": 27.76,
         "operationalDepositsPct": 25.64,
         "nonOperationalDepositsPct": 23.05,
-        "wholesaleFundingPct": 17.97
+        "wholesaleFundingPct": 17.97,
+        "tlacLeverageRatio": 8.5,
+        "dividendPayoutRatio": 63.4
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended April 30, 2025 = 134%, BMO Q2 2025 Report to Shareholders.",
@@ -579,7 +627,9 @@
         "lessStableDepositsPct": "Less stable deposits: unweighted average $170.4B ÷ sum of the four LCR deposit categories ($613.9B) = 27.76%. From the LCR common disclosure template in the BMO Q2 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $157.4B ÷ sum of the four LCR deposit categories ($613.9B) = 25.64%. From the LCR common disclosure template in the BMO Q2 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $141.5B ÷ sum of the four LCR deposit categories ($613.9B) = 23.05%. From the LCR common disclosure template in the BMO Q2 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
-        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $258.8 billion (Q2 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1440.269 billion = 17.97%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter."
+        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $258.8 billion (Q2 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1440.269 billion = 17.97%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters."
       },
       "sourceRefs": {
         "efficiencyRatio": {
@@ -710,6 +760,17 @@
           "page": 1,
           "searchText": "1,962",
           "anchorText": "reported net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 18,
+          "searchText": "8.5%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "searchText": "63.4 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -745,7 +806,9 @@
         "lessStableDepositsPct": 27.36,
         "operationalDepositsPct": 26.19,
         "nonOperationalDepositsPct": 22.96,
-        "wholesaleFundingPct": 17.35
+        "wholesaleFundingPct": 17.35,
+        "tlacLeverageRatio": 8.5,
+        "dividendPayoutRatio": 51.9
       },
       "notes": {
         "efficiencyRatio": "Efficiency ratio %, BMO Q3 2025 Report to Shareholders Financial Highlights (Q3-2025).",
@@ -760,7 +823,9 @@
         "lessStableDepositsPct": "Less stable deposits: unweighted average $165.2B ÷ sum of the four LCR deposit categories ($603.7B) = 27.36%. From the LCR common disclosure template in the BMO Q3 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $158.1B ÷ sum of the four LCR deposit categories ($603.7B) = 26.19%. From the LCR common disclosure template in the BMO Q3 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $138.6B ÷ sum of the four LCR deposit categories ($603.7B) = 22.96%. From the LCR common disclosure template in the BMO Q3 2025 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
-        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $248.4 billion (Q3 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1431.6 billion = 17.35%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter."
+        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $248.4 billion (Q3 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1431.6 billion = 17.35%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters."
       },
       "sourceRefs": {
         "efficiencyRatio": {
@@ -885,6 +950,17 @@
           "page": 1,
           "searchText": "2,330",
           "anchorText": "reported net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 18,
+          "searchText": "8.5%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "searchText": "51.9 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -921,7 +997,9 @@
         "operationalDepositsPct": 26.73,
         "nonOperationalDepositsPct": 23.17,
         "irrbbEveSensitivityPct": -2.63,
-        "irrbbNiiSensitivityPct": -0.49
+        "irrbbNiiSensitivityPct": -0.49,
+        "tlacLeverageRatio": 8.5,
+        "dividendPayoutRatio": 54.7
       },
       "notes": {
         "roe": "reported ROE used (10.7%); adjusted ROE was 11.8%",
@@ -937,7 +1015,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $141.3B ÷ $609.8B (same LCR Table 52 basis).",
         "irrbbEveSensitivityPct": "Same scope caveat as Q4 2024 (only 2 of 6 Basel scenarios disclosed). Most adverse scenario in BMO's Table 44 ('Structural Interest Rate Sensitivity', as at Oct 31, 2025): +100bp Economic Value Sensitivity Total = -$1,736mm ÷ Tier 1 Capital $65,890mm = -2.63%.",
         "irrbbNiiSensitivityPct": "Most adverse (-100bp) 12-month NII sensitivity $-322M ÷ Tier 1 capital $65,890M = -0.49%. Re-based to % of Tier 1 capital (from the earlier % of annual NII) to match the cross-bank convention used by RBC/TD/CIBC/National.",
-        "newMetricsSource": "BMO 2025 Annual Report / Annual Information Form (Exhibit 99.2 to Form 40-F) — https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+        "newMetricsSource": "BMO 2025 Annual Report / Annual Information Form (Exhibit 99.2 to Form 40-F) — https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1050,6 +1130,18 @@
           "page": 1,
           "searchText": "2,295",
           "anchorText": "reported net income"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/SuppRegCapitalDisclosure_Q126.pdf",
+          "page": 15,
+          "searchText": "8.5%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "searchText": "54.7 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -1085,7 +1177,9 @@
         "lessStableDepositsPct": 26.16,
         "operationalDepositsPct": 27.88,
         "nonOperationalDepositsPct": 23.28,
-        "wholesaleFundingPct": 17.39
+        "wholesaleFundingPct": 17.39,
+        "tlacLeverageRatio": 8.6,
+        "dividendPayoutRatio": 49.1
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2026 = 126%, BMO Q1 2026 Report to Shareholders.",
@@ -1103,7 +1197,9 @@
         "lessStableDepositsPct": "Less stable deposits: unweighted average $162.8B ÷ sum of the four LCR deposit categories ($622.3B) = 26.16%. From the LCR common disclosure template in the BMO Q1 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $173.5B ÷ sum of the four LCR deposit categories ($622.3B) = 27.88%. From the LCR common disclosure template in the BMO Q1 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $144.9B ÷ sum of the four LCR deposit categories ($622.3B) = 23.28%. From the LCR common disclosure template in the BMO Q1 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
-        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $253.6 billion (Q1 2026 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1458.132 billion = 17.39%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter."
+        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $253.6 billion (Q1 2026 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1458.132 billion = 17.39%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters."
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -1233,6 +1329,17 @@
           "page": 1,
           "searchText": "2,489",
           "anchorText": "reported net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 15,
+          "searchText": "8.6%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "searchText": "49.1 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -1269,7 +1376,8 @@
         "lessStableDepositsPct": 25.91,
         "operationalDepositsPct": 27.28,
         "nonOperationalDepositsPct": 23.88,
-        "wholesaleFundingPct": 17.65
+        "wholesaleFundingPct": 17.65,
+        "dividendPayoutRatio": 47.2
       },
       "notes": {
         "tier1CapitalRatio": "Tier 1 capital ratio %, Q2 2026 Report to Shareholders capital table (Q2-2026). Anchors: Q1-2026=14.8 and Q2-2025=15.3 both match our existing values.",
@@ -1288,7 +1396,9 @@
         "lessStableDepositsPct": "Less stable deposits: unweighted average $157.9B ÷ sum of the four LCR deposit categories ($609.3B) = 25.91%. From the LCR common disclosure template in the BMO Q2 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
         "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $166.2B ÷ sum of the four LCR deposit categories ($609.3B) = 27.28%. From the LCR common disclosure template in the BMO Q2 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $145.5B ÷ sum of the four LCR deposit categories ($609.3B) = 23.88%. From the LCR common disclosure template in the BMO Q2 2026 Report to Shareholders (quarterly average). BMO discloses this template quarterly.",
-        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $264.6 billion (Q2 2026 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1499.5 billion = 17.65%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter."
+        "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $264.6 billion (Q2 2026 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1499.5 billion = 17.65%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters."
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -1412,6 +1522,17 @@
           "page": 1,
           "searchText": "2,630",
           "anchorText": "reported net income"
+        },
+        "tlacLeverageRatio": {
+          "page": 19,
+          "searchText": "8.4%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "searchText": "47.2 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     }

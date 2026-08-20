@@ -56,6 +56,16 @@
       "decimals": 1
     },
     {
+      "key": "tlacLeverageRatio",
+      "label": "TLAC Leverage Ratio",
+      "shortLabel": "TLAC Leverage",
+      "unit": "%",
+      "description": "Total loss-absorbing capacity as a percentage of leverage ratio exposure — the non-risk-weighted companion to the TLAC ratio. Calculated under OSFI's TLAC guideline; OSFI requires Canada's D-SIBs to hold at least 7.25%.",
+      "higherIsBetter": true,
+      "regulatoryMinimum": 7.25,
+      "decimals": 1
+    },
+    {
       "key": "lcr",
       "label": "Liquidity Coverage Ratio (LCR)",
       "shortLabel": "LCR",
@@ -82,6 +92,15 @@
       "unit": "%",
       "description": "Net income attributable to common shareholders as a percentage of average common shareholders' equity.",
       "higherIsBetter": true,
+      "decimals": 1
+    },
+    {
+      "key": "dividendPayoutRatio",
+      "label": "Dividend Payout Ratio",
+      "shortLabel": "Payout Ratio",
+      "unit": "%",
+      "description": "Common share dividends as a percentage of net income available to common shareholders. Context-dependent rather than better-when-higher: a higher payout returns more to shareholders but retains less capital. Bases differ by issuer — National Bank discloses a trailing four-quarter ratio, and Scotiabank does not disclose one quarterly.",
+      "higherIsBetter": null,
       "decimals": 1
     },
     {

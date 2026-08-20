@@ -36,7 +36,9 @@
         "operationalDepositsPct": 10.96,
         "nonOperationalDepositsPct": 22.1,
         "irrbbEveSensitivityPct": -1.67,
-        "irrbbNiiSensitivityPct": -0.52
+        "irrbbNiiSensitivityPct": -0.52,
+        "tlacLeverageRatio": 8.3,
+        "dividendPayoutRatio": 41.6
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.31%), as National Bank does not publish a single consolidated whole-bank NIM headline figure; segment NIM is the standard metric cited by the bank and analysts.",
@@ -53,7 +55,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $70,848M (LCR table) ÷ total deposits $320,587M. Same LCR-scope caveat.",
         "irrbbEveSensitivityPct": "National Bank discloses only a single +/-100bp parallel shock (not the full 6-scenario Basel/OSFI framework). Most adverse = +100bp increase scenario, EVE impact -$366M (before tax, total CAD+other currencies) as at Jul 31 2024, per 'Interest Rate Sensitivity - Non-Trading Activities' table. Bank does not itself express this as a %; computed here as -$366M / Tier 1 capital $21,855M (CC1 table, Q1 2025 supplementary disclosure trend column).",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease scenario, NII impact -$114M (before-tax, 12-month projection). +100bp scenario impact was +$80M. Computed as % of Tier 1 capital ($21,855M) for comparability; bank does not publish this as a ratio.",
-        "newMetricsSource": "Q3 2024 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf"
+        "newMetricsSource": "Q3 2024 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -181,6 +185,16 @@
           "page": 21,
           "searchText": "453.9",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "page": 11,
+          "searchText": "8.3 %",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 1,
+          "searchText": "41.6 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -215,7 +229,9 @@
         "operationalDepositsPct": 10.63,
         "nonOperationalDepositsPct": 22.53,
         "irrbbEveSensitivityPct": -1.94,
-        "irrbbNiiSensitivityPct": -0.61
+        "irrbbNiiSensitivityPct": -0.61,
+        "tlacLeverageRatio": 8.6,
+        "dividendPayoutRatio": 40.1
       },
       "notes": {
         "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
@@ -232,7 +248,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits $75,157M ÷ total deposits $333,545M.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$435M (before tax) as at Oct 31 2024, 'Interest Rate Sensitivity' table, 2024 Annual Report pp.93-94. Computed as % of Tier 1 capital $22,470M (CC1 table).",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$136M (before-tax, 12-month). +100bp scenario = +$99M. As % of FY2024 whole-bank consolidated Net Interest Income ($2,939M): -4.6%. As % of Tier 1 capital ($22,470M): -0.6%.",
-        "newMetricsSource": "2024 Annual Report (fiscal year ended October 31, 2024) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf"
+        "newMetricsSource": "2024 Annual Report (fiscal year ended October 31, 2024) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -362,6 +380,16 @@
           "page": 4,
           "searchText": "462",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "8.6%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 4,
+          "searchText": "40.1%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -396,7 +424,9 @@
         "operationalDepositsPct": 10.56,
         "nonOperationalDepositsPct": 21.49,
         "irrbbEveSensitivityPct": -1.99,
-        "irrbbNiiSensitivityPct": -0.56
+        "irrbbNiiSensitivityPct": -0.56,
+        "tlacLeverageRatio": 8.7,
+        "dividendPayoutRatio": 40.1
       },
       "notes": {
         "cwbAcquisition": "CWB acquisition closed Feb 3, 2025, after this period end (Jan 31, 2025); figures below do not yet reflect CWB consolidation.",
@@ -413,7 +443,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits $75,448M ÷ total deposits $351,095M.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$458M as at Jan 31 2025. Computed as % of Tier 1 capital $22,986M (CC1 table, Q1 2025 supplementary regulatory capital disclosure).",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$128M (before-tax, 12-month). +100bp = +$99M. As % of Tier 1 capital $22,986M.",
-        "newMetricsSource": "Q1 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf"
+        "newMetricsSource": "Q1 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -541,6 +573,16 @@
           "page": 18,
           "searchText": "483.8",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "page": 11,
+          "searchText": "8.7 %",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 1,
+          "searchText": "40.1 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -575,7 +617,9 @@
         "operationalDepositsPct": 9.67,
         "nonOperationalDepositsPct": 21.89,
         "irrbbEveSensitivityPct": -2.04,
-        "irrbbNiiSensitivityPct": -0.45
+        "irrbbNiiSensitivityPct": -0.45,
+        "tlacLeverageRatio": 8.8,
+        "dividendPayoutRatio": 42.2
       },
       "notes": {
         "cwbAcquisition": "First quarter reflecting CWB consolidation (closed Feb 3, 2025). Deposits, Tier 1 capital and wholesale funding all step up materially vs. Q1 2025.",
@@ -592,7 +636,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits $84,921M ÷ total deposits $387,974M.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$563M as at Apr 30 2025. As % of Tier 1 capital $27,603M (CC1 table trend, Q2 2026 supplementary regulatory capital disclosure).",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$125M. +100bp = +$111M. As % of Tier 1 capital $27,603M.",
-        "newMetricsSource": "Q2 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf"
+        "newMetricsSource": "Q2 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -720,6 +766,16 @@
           "page": 13,
           "searchText": "536",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "page": 13,
+          "searchText": "8.8 %",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 1,
+          "searchText": "42.2 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -754,7 +810,9 @@
         "operationalDepositsPct": 9.79,
         "nonOperationalDepositsPct": 21.61,
         "irrbbEveSensitivityPct": -2.16,
-        "irrbbNiiSensitivityPct": -0.35
+        "irrbbNiiSensitivityPct": -0.35,
+        "tlacLeverageRatio": 9.0,
+        "dividendPayoutRatio": 44.3
       },
       "notes": {
         "cwbAcquisition": "First full quarter with CWB fully consolidated for the entire reporting period (CWB closed Feb 3, 2025).",
@@ -771,7 +829,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits $86,933M ÷ total deposits $402,286M.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$616M as at Jul 31 2025. As % of Tier 1 capital $28,488M.",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$99M. +100bp = +$88M. As % of Tier 1 capital $28,488M.",
-        "newMetricsSource": "Q3 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf"
+        "newMetricsSource": "Q3 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -899,6 +959,16 @@
           "page": 23,
           "searchText": "552.6",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "page": 13,
+          "searchText": "9.0 %",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 1,
+          "searchText": "44.3 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -933,7 +1003,9 @@
         "operationalDepositsPct": 10.09,
         "nonOperationalDepositsPct": 20.72,
         "irrbbEveSensitivityPct": -2.39,
-        "irrbbNiiSensitivityPct": -0.35
+        "irrbbNiiSensitivityPct": -0.35,
+        "tlacLeverageRatio": 8.8,
+        "dividendPayoutRatio": 45.6
       },
       "notes": {
         "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
@@ -951,7 +1023,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits $88,687M ÷ total deposits $428,003M.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$683M (before tax) as at Oct 31 2025, 2025 Annual Report pp.99-100. As % of Tier 1 capital $28,559M (CC1 table).",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$99M. +100bp = +$86M. As % of FY2025 whole-bank consolidated Net Interest Income ($4,518M): -2.2%. As % of Tier 1 capital: -0.35%.",
-        "newMetricsSource": "2025 Annual Report (fiscal year ended October 31, 2025) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf"
+        "newMetricsSource": "2025 Annual Report (fiscal year ended October 31, 2025) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1075,6 +1149,17 @@
           "page": 4,
           "searchText": "1,059",
           "anchorText": "net income"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q2-2026.pdf",
+          "page": 18,
+          "searchText": "8.8%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 4,
+          "searchText": "45.6%",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -1109,7 +1194,9 @@
         "operationalDepositsPct": 10.34,
         "nonOperationalDepositsPct": 19.93,
         "irrbbEveSensitivityPct": -2.51,
-        "irrbbNiiSensitivityPct": -0.33
+        "irrbbNiiSensitivityPct": -0.33,
+        "tlacLeverageRatio": 9.2,
+        "dividendPayoutRatio": 45.1
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.27%); no single consolidated whole-bank NIM headline figure is published.",
@@ -1125,7 +1212,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits $88,853M ÷ total deposits $445,874M.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$719M as at Jan 31 2026. As % of Tier 1 capital $28,619M.",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$95M. +100bp = +$81M. As % of Tier 1 capital $28,619M.",
-        "newMetricsSource": "Q1 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf"
+        "newMetricsSource": "Q1 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1254,6 +1343,17 @@
           "page": 21,
           "searchText": "605.9",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q2-2026.pdf",
+          "page": 18,
+          "searchText": "9.2%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 1,
+          "searchText": "45.1 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     },
@@ -1288,7 +1388,9 @@
         "operationalDepositsPct": 10.39,
         "nonOperationalDepositsPct": 20.9,
         "irrbbEveSensitivityPct": -2.64,
-        "irrbbNiiSensitivityPct": -0.22
+        "irrbbNiiSensitivityPct": -0.22,
+        "tlacLeverageRatio": 9.0,
+        "dividendPayoutRatio": 42.3
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.26%); no single consolidated whole-bank NIM headline figure is published. On a total consolidated balance-sheet basis (including trading assets), National Bank's Supplementary Financial Information also discloses a lower 'Net Interest Margin' of 0.90% for Q2 2026 -- this reflects a different denominator (all average interest-bearing assets including trading books) and is not comparable to the P&C segment NIM used here.",
@@ -1305,7 +1407,9 @@
         "nonOperationalDepositsPct": "Non-operational deposits $94,210M ÷ total deposits $450,711M.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$765M as at Apr 30 2026 (largest sensitivity in the trend, consistent with continued balance-sheet growth post-CWB). As % of Tier 1 capital $28,925M.",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$64M (magnitude notably smaller than prior quarters; +100bp scenario = +$65M, near-symmetric). As % of Tier 1 capital $28,925M.",
-        "newMetricsSource": "Q2 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf"
+        "newMetricsSource": "Q2 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
+        "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1433,6 +1537,17 @@
           "page": 23,
           "searchText": "617.7",
           "anchorText": "total assets"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q2-2026.pdf",
+          "page": 18,
+          "searchText": "9.0%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "dividendPayoutRatio": {
+          "page": 1,
+          "searchText": "42.3 %",
+          "anchorText": "dividend payout ratio"
         }
       }
     }
