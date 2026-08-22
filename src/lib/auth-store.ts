@@ -1,6 +1,9 @@
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 
+// The login gate was removed: visitors land straight on the welcome screen.
+// "login" is retained so the flow can be restored by pointing the initial stage
+// back at it and re-rendering LoginScreen in AppGate.
 export type AuthStage = "login" | "welcome" | "dashboard";
 
 interface AuthState {
@@ -17,10 +20,10 @@ export const useAuthStore = create<AuthState>()(
     (set) => ({
       employeeId: null,
       firstName: null,
-      stage: "login",
+      stage: "welcome",
       login: (employeeId, firstName) => set({ employeeId, firstName, stage: "welcome" }),
       advanceToDashboard: () => set({ stage: "dashboard" }),
-      logout: () => set({ employeeId: null, firstName: null, stage: "login" }),
+      logout: () => set({ employeeId: null, firstName: null, stage: "welcome" }),
     }),
     {
       name: "rbc-tiq-auth",

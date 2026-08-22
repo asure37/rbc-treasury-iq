@@ -4,7 +4,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useAuthStore } from "@/lib/auth-store";
 import { useHasHydrated } from "@/lib/use-has-hydrated";
 import { DataProvider, type DashboardData } from "@/lib/data-context";
-import { LoginScreen } from "./LoginScreen";
 import { WelcomeScreen } from "./WelcomeScreen";
 import { Dashboard } from "@/components/dashboard/Dashboard";
 import { Mark } from "@/components/ui/Mark";
@@ -27,8 +26,7 @@ export function AppGate({ data }: { data: DashboardData }) {
   return (
     <DataProvider value={data}>
       <AnimatePresence mode="wait">
-        {stage === "login" && <LoginScreen key="login" />}
-        {stage === "welcome" && <WelcomeScreen key="welcome" onContinue={advanceToDashboard} />}
+        {stage !== "dashboard" && <WelcomeScreen key="welcome" onContinue={advanceToDashboard} />}
         {stage === "dashboard" && (
           <motion.div
             key="dashboard"

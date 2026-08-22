@@ -1,12 +1,12 @@
 # RBC Treasury Intelligence
 
-A peer-benchmarking dashboard comparing **RBC against the five other Canadian D-SIBs** — TD, Scotiabank, BMO, CIBC and National Bank — across 23 capital, liquidity, funding, profitability and interest-rate-risk metrics, over eight quarters.
+A peer-benchmarking dashboard comparing **RBC against the five other Canadian D-SIBs** — TD, Scotiabank, BMO, CIBC and National Bank — across 25 capital, liquidity, funding, profitability and interest-rate-risk metrics, over eight quarters.
 
 **Every number on screen is clickable and traces to the page of the disclosure it came from.** Click a figure and the source PDF opens at the right page with the exact number highlighted.
 
 Built for the RBC CFO Group Student Ambitious Ideas Competition by *Trustees of Treasury*.
 
-**Live:** https://rbc-treasury-iq.onrender.com — login `ctocmembers` / `rbc`
+**Live:** https://rbc-treasury-iq.onrender.com — no login required
 
 ---
 

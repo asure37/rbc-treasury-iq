@@ -21,7 +21,7 @@ Everything a new owner needs to run, change, and extend this application.
 7. [The lineage system — the most important part](#7-the-lineage-system--the-most-important-part)
 8. [The AI surfaces](#8-the-ai-surfaces)
 9. [Exports](#9-exports)
-10. [Authentication](#10-authentication)
+10. [Authentication — there is none](#10-authentication--there-is-none)
 11. [Runbooks — how to make common changes](#11-runbooks--how-to-make-common-changes)
 12. [Known limitations and traps](#12-known-limitations-and-traps)
 13. [Verification playbook](#13-verification-playbook)
@@ -138,7 +138,7 @@ For anything you intend to trust, use a production build — dev mode masks real
 npm run build && npm start
 ```
 
-Login: `ctocmembers` / `rbc`.
+No login — the app opens on the welcome screen (see [§10](#10-authentication--there-is-none)).
 
 ### Before every commit
 
@@ -361,15 +361,28 @@ Exception classes include `NO_ANCHOR`, `AMBIGUOUS`, `PAGE_DRIFT`, `DERIVED`, `VA
 
 ---
 
-## 10. Authentication
+## 10. Authentication — there is none
 
-`data/employees.json`: one shared `teamPasscode` plus 19 `{ employeeId, firstName }` records. Login takes an ID + the shared passcode; the welcome screen greets the user by first name. State lives in `auth-store.ts` (Zustand, `sessionStorage`, `skipHydration` to avoid SSR access).
+**The login gate was removed.** Visitors land directly on the welcome screen and click through to the dashboard. `auth-store.ts` starts at `stage: "welcome"`, and `AppGate` renders `WelcomeScreen` for any stage that isn't `"dashboard"`.
 
-This is a **demo gate, not security.** It keeps a casual visitor out of the UI. Note in particular:
+> **The whole application is public to anyone with the URL** — the dashboard, the exports, and the AI routes that spend Anthropic credits. The gate was never security (the API routes were never auth-gated), but it is now absent entirely. Treat the URL as the only control.
 
-> **The API routes are not auth-gated.** Anyone with the URL can spend Anthropic credits through `/api/chat` or `/api/discover`. Keep the URL private, or add a passcode check to the routes before wider distribution.
+### Restoring the gate
 
-The credential list is imported *statically* (`import employeesJson from ".../employees.json"`) so it is bundled at build time, with an on-disk read preferred at runtime. A bare `readFile(process.cwd()/…)` 500s wherever the deploy layout differs — that caused a production login outage once.
+Everything needed is still in the repo — nothing was deleted:
+
+1. `src/lib/auth-store.ts` — set the initial `stage` back to `"login"` (and `logout` back to `"login"`).
+2. `src/components/auth/AppGate.tsx` — re-import `LoginScreen` and restore the two-branch render:
+   ```tsx
+   {stage === "login" && <LoginScreen key="login" />}
+   {stage === "welcome" && <WelcomeScreen key="welcome" onContinue={advanceToDashboard} />}
+   ```
+3. `src/components/auth/WelcomeScreen.tsx` — swap `BRAND` back for the `firstName` greeting if you want the personalised version.
+4. `src/components/dashboard/Header.tsx` — restore the `Hi, {firstName}` label and the sign-out button.
+
+`LoginScreen.tsx`, its three animated backdrops, `POST /api/login`, and `data/employees.json` (one shared `teamPasscode` plus 32 `{ employeeId, firstName }` records) are all still present and functional — the login route still validates correctly, it simply has no UI pointing at it. Deploying an earlier commit on Render also restores the gate wholesale.
+
+One trap worth keeping in mind if you do restore it: the credential list is imported *statically* (`import employeesJson from ".../employees.json"`) so it is bundled at build time, with an on-disk read preferred at runtime. A bare `readFile(process.cwd()/…)` 500s wherever the deploy layout differs — that caused a production login outage once.
 
 ---
 

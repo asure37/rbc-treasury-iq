@@ -4,9 +4,10 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Mark } from "@/components/ui/Mark";
-import { useAuthStore } from "@/lib/auth-store";
 
-const WORDS = ["Welcome", "to", "Treasury", "IQ,"];
+// Rendered as two lines: WORDS in plain type, then BRAND in the gradient.
+const WORDS = ["Welcome", "to"];
+const BRAND = "RBC Treasury IQ";
 
 interface Particle {
   id: number;
@@ -18,7 +19,6 @@ interface Particle {
 }
 
 export function WelcomeScreen({ onContinue }: { onContinue: () => void }) {
-  const firstName = useAuthStore((s) => s.firstName) ?? "there";
   const [showButton, setShowButton] = useState(false);
 
   // Lazy useState initializer (not useMemo) because it must run exactly once
@@ -34,7 +34,7 @@ export function WelcomeScreen({ onContinue }: { onContinue: () => void }) {
     }))
   );
 
-  const allWords = [...WORDS, `${firstName}`];
+  const allWords = [...WORDS, BRAND];
   const revealDelay = 0.35;
   const stagger = 0.14;
   const lastWordDelay = revealDelay + (allWords.length - 1) * stagger;
@@ -110,7 +110,7 @@ export function WelcomeScreen({ onContinue }: { onContinue: () => void }) {
             onAnimationComplete={() => setShowButton(true)}
             className="text-gradient-blue shimmer-text"
           >
-            {firstName}
+            {BRAND}
           </motion.span>
         </h1>
 
