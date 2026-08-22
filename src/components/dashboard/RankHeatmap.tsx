@@ -242,17 +242,19 @@ export function RankHeatmap() {
             <tr>
               {visibleKeys.map((k) => {
                 const m = metaByKey.get(k)!;
-                const lowerBetter = m.higherIsBetter === false;
+                // A metric with no agreed direction gets a dash, not an arrow — an arrow
+                // would claim a "better" direction the column is deliberately not ranked on.
+                const direction = m.higherIsBetter === null ? "–" : m.higherIsBetter === false ? "↓" : "↑";
                 return (
                   <th
                     key={k}
                     onClick={() => goToMetric(k)}
-                    title={`${m.label} — click to compare peers`}
+                    title={`${m.label}${m.higherIsBetter === null ? " (unranked — no agreed better direction)" : ""} — click to compare peers`}
                     className="cursor-pointer px-1.5 py-1 text-center text-[11px] font-medium text-text-muted transition-colors hover:text-rbc-cyan"
                   >
                     <span className="inline-flex items-center gap-0.5">
                       {m.shortLabel}
-                      <span className="text-[9px] text-text-muted/70">{lowerBetter ? "↓" : "↑"}</span>
+                      <span className="text-[9px] text-text-muted/70">{direction}</span>
                     </span>
                   </th>
                 );
