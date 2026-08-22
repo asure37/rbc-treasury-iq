@@ -9,9 +9,9 @@ import type { MetricKey, MetricMeta } from "@/types/metrics";
 
 // Grouped set of headline metrics with an unambiguous "better" direction, so ranking is meaningful.
 const GROUPS: { label: string; accent: string; keys: MetricKey[] }[] = [
-  { label: "Capital", accent: "#0066cc", keys: ["cet1Ratio", "totalCapitalRatio", "leverageRatio", "tlacRatio"] },
+  { label: "Capital", accent: "#0066cc", keys: ["cet1Ratio", "dividendPayoutRatio", "leverageRatio", "tlacRatio"] },
   { label: "Liquidity", accent: "#00b6f1", keys: ["lcr", "nsfr"] },
-  { label: "Profitability", accent: "#ffc72c", keys: ["roe", "nim", "efficiencyRatio"] },
+  { label: "Profitability", accent: "#ffc72c", keys: ["roe", "roa", "nim", "efficiencyRatio"] },
 ];
 const KEYS: MetricKey[] = GROUPS.flatMap((g) => g.keys);
 
@@ -65,7 +65,14 @@ export function RankHeatmap() {
       const vals = banks.map((b) => ({ id: b.bankId, v: b.quarters.find((q) => q.period === period)?.metrics[key] ?? null }));
       const present = vals.filter((x): x is { id: string; v: number } => x.v != null);
       // higherIsBetter === false → lowest value ranks first (e.g. efficiency ratio).
-      const sorted = [...present].sort((p, q) => (meta.higherIsBetter === false ? p.v - q.v : q.v - p.v));
+      // higherIsBetter === null → no agreed direction (e.g. dividend payout ratio, where a
+      // higher payout returns more to shareholders but retains less capital). Such a metric
+      // is displayed but never ranked: ordering it would assert a judgement the data does
+      // not support, and it would then leak into the overall average-rank score.
+      const sorted =
+        meta.higherIsBetter === null
+          ? []
+          : [...present].sort((p, q) => (meta.higherIsBetter === false ? p.v - q.v : q.v - p.v));
       for (const b of banks) {
         const idx = sorted.findIndex((s) => s.id === b.bankId);
         (rankOf[b.bankId] ??= {})[key] = {
@@ -293,10 +300,24 @@ export function RankHeatmap() {
                   {/* Metric heat cells */}
                   {row.cells.map((c) => {
                     const m = metaByKey.get(c.key)!;
-                    if (c.value == null || c.rank == null) {
+                    if (c.value == null) {
                       return (
                         <td key={c.key} className="rounded-lg border border-border-soft bg-surface/40 text-center text-text-muted">
                           —
+                        </td>
+                      );
+                    }
+                    // Unranked-but-present: an unranked metric still shows its value, in
+                    // neutral styling, so the reader sees the number without a false order.
+                    if (c.rank == null) {
+                      return (
+                        <td
+                          key={c.key}
+                          title={`${m.label}: ${fmtVal(c.value, m)} — shown unranked (no agreed better direction)`}
+                          className="rounded-lg border border-border-soft bg-surface/40 px-1.5 py-1.5 text-center"
+                        >
+                          <div className="font-display text-[13px] font-semibold tabular-nums text-text-primary">{fmtVal(c.value, m)}</div>
+                          <div className="text-[10px] font-medium text-text-muted">unranked</div>
                         </td>
                       );
                     }
@@ -341,7 +362,8 @@ export function RankHeatmap() {
       </div>
 
       <p className="mt-3 text-[11px] text-text-muted">
-        Each cell shows the reported value and the bank&apos;s rank ({rows[0]?.cells[0]?.total ?? n} banks). ↑/↓ marks whether higher or lower is better.
+        Each cell shows the reported value and the bank&apos;s rank ({rows[0]?.cells[0]?.total ?? n} banks). ↑/↓ marks whether higher or lower is
+        better; metrics with no agreed direction are shown unranked and excluded from the overall score.
         Click any metric to open its full peer comparison.
       </p>
     </GlassCard>

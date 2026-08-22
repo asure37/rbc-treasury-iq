@@ -15,7 +15,18 @@ import { CreditRatingsSection } from "./CreditRatingsSection";
 import { peerAverage } from "@/lib/analytics";
 import type { MetricKey } from "@/types/metrics";
 
-const RADAR_METRICS: MetricKey[] = ["cet1Ratio", "totalCapitalRatio", "leverageRatio", "roe", "nim", "efficiencyRatio", "lcr"];
+// Axis order is deliberate — capital, then liquidity, then profitability — so the
+// shape reads consistently across banks. Keep this array's order when resolving meta.
+const RADAR_METRICS: MetricKey[] = [
+  "cet1Ratio",
+  "leverageRatio",
+  "lcr",
+  "nsfr",
+  "roe",
+  "roa",
+  "efficiencyRatio",
+  "nim",
+];
 const RANK_METRICS: MetricKey[] = ["cet1Ratio", "totalCapitalRatio", "tlacRatio", "leverageRatio", "lcr", "nsfr", "roe", "nim"];
 
 export function PeerCompareTab() {
@@ -34,7 +45,8 @@ export function PeerCompareTab() {
   const isLatest = period === latestPeriod;
   const periodsNewestFirst = [...periods].reverse();
 
-  const radarMeta = metricsMeta.filter((m) => RADAR_METRICS.includes(m.key));
+  // map, not filter — filtering would silently reorder the axes to metrics-meta order.
+  const radarMeta = RADAR_METRICS.map((k) => metricsMeta.find((m) => m.key === k)).filter((m) => m != null);
   const assetsMeta = metricsMeta.find((m) => m.key === "totalAssetsBillions")!;
   const netIncomeMeta = metricsMeta.find((m) => m.key === "netIncomeMillions")!;
   const cet1Meta = metricsMeta.find((m) => m.key === "cet1Ratio")!;

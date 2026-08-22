@@ -39,7 +39,6 @@ export function FundingTab() {
 
   const getMeta = (key: MetricKey) => metricsMeta.find((m) => m.key === key)!;
   const ltdMeta = getMeta("loanToDepositRatio");
-  const wholesaleFundingMeta = getMeta("wholesaleFundingPct");
   const retailMeta = getMeta("retailDepositsPct");
   const wholesaleDepMeta = getMeta("wholesaleDepositsPct");
   const stableMeta = getMeta("stableDepositsPct");
@@ -97,31 +96,24 @@ export function FundingTab() {
         </ExpandableChartCard>
 
         <ExpandableChartCard
-          title="Wholesale Funding — Peer Ranking"
+          title="Retail vs. Wholesale Deposits"
           subtitle={<span className="mb-3 block text-xs text-text-muted">{period}</span>}
-          context={{ ...chartContext, focusMetric: wholesaleFundingMeta.key }}
-          summaryPrompt={`Summarize the "Wholesale Funding — Peer Ranking" chart for ${period}, covering ${tickers}. Explain what reliance on wholesale funding (vs. deposits) means for a bank's funding stability, and give 2-4 insights about how the banks rank.`}
-          renderExpanded={() => <PeerBarChart banks={filteredBanks} period={period!} metric={wholesaleFundingMeta} height={480} />}
+          context={{ ...chartContext, focusMetric: retailMeta.key }}
+          summaryPrompt={`Summarize the "Retail vs. Wholesale Deposits" chart for ${period}, covering ${tickers}. Explain why the retail/wholesale deposit mix matters for funding stability and give 2-4 insights about how the banks compare.`}
+          renderExpanded={() => (
+            <DepositCompositionChart banks={filteredBanks} period={period!} metricA={retailMeta} metricB={wholesaleDepMeta} height={480} />
+          )}
         >
-          {period && <PeerBarChart banks={filteredBanks} period={period} metric={wholesaleFundingMeta} />}
+          {period && <DepositCompositionChart banks={filteredBanks} period={period} metricA={retailMeta} metricB={wholesaleDepMeta} />}
         </ExpandableChartCard>
       </div>
 
       <GlassCard className="p-5">
         <h3 className="mb-1 font-display text-base font-semibold text-text-primary">Deposit Composition</h3>
-        <p className="mb-3 text-xs text-text-muted">Share of total deposits by category &middot; {period}</p>
-        <div className="grid gap-4 lg:grid-cols-3">
-          <ExpandableChartCard
-            title="Retail vs. Wholesale Deposits"
-            context={{ ...chartContext, focusMetric: retailMeta.key }}
-            summaryPrompt={`Summarize the "Retail vs. Wholesale Deposits" chart for ${period}, covering ${tickers}. Explain why the retail/wholesale deposit mix matters for funding stability and give 2-4 insights about how the banks compare.`}
-            renderExpanded={() => (
-              <DepositCompositionChart banks={filteredBanks} period={period!} metricA={retailMeta} metricB={wholesaleDepMeta} height={420} />
-            )}
-          >
-            <DepositCompositionChart banks={filteredBanks} period={period} metricA={retailMeta} metricB={wholesaleDepMeta} height={220} />
-          </ExpandableChartCard>
-
+        <p className="mb-3 text-xs text-text-muted">
+          Each split is shown against its own book, so every bar totals 100% &middot; {period}
+        </p>
+        <div className="grid gap-4 lg:grid-cols-2">
           <ExpandableChartCard
             title="Stable vs. Less Stable Deposits"
             context={{ ...chartContext, focusMetric: stableMeta.key }}

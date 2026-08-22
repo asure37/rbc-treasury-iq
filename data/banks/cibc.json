@@ -33,12 +33,13 @@
         "irrbbEveSensitivityPct": -2.72,
         "irrbbNiiSensitivityPct": -0.56,
         "wholesaleFundingPct": 19.62,
-        "stableDepositsPct": 22.9,
-        "lessStableDepositsPct": 27.05,
-        "operationalDepositsPct": 25.47,
-        "nonOperationalDepositsPct": 24.58,
+        "stableDepositsPct": 45.84,
+        "lessStableDepositsPct": 54.16,
+        "operationalDepositsPct": 50.89,
+        "nonOperationalDepositsPct": 49.11,
         "tlacLeverageRatio": 8.7,
-        "dividendPayoutRatio": 49.3
+        "dividendPayoutRatio": 49.3,
+        "roa": 0.7
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
@@ -52,12 +53,13 @@
         "irrbbEveSensitivityPct": "CIBC \"Structural interest rate sensitivity – measures\" table (Q3 2024 Report to Shareholders, disclosed quarterly). CIBC discloses only a +/-100bp parallel shock (2 of the 6 Basel scenarios). Most adverse: +100bp parallel increase gives EVE impact of -$1,325M (pre-tax, total CAD+USD) ÷ Tier 1 capital $48,751M (same report's capital table / Pillar 3 KM1) = -2.72%. Not equivalent to the worst of six Basel scenarios — CIBC shows only 2 of the 6 standard shocks. This %-of-Tier-1 framing is ours.",
         "irrbbNiiSensitivityPct": "Same +/-100bp parallel-shock table. Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$271M (pre-tax, total CAD+USD) ÷ Tier 1 capital $48,751M = -0.56%. A derived ratio for cross-bank comparability; CIBC does not itself express NII sensitivity as a percentage of any base.",
         "wholesaleFundingPct": "CIBC's disclosed \"wholesale funding sources\" contractual-maturity table total of $200,394M at carrying value (Q3 2024 Report to Shareholders) ÷ total assets $1,021,407M = 19.62%. Excludes repo (CIBC's own table scope), matching CIBC's existing method. CIBC discloses this table every quarter.",
-        "stableDepositsPct": "Stable deposits: unweighted $99,127M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 22.9%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "lessStableDepositsPct": "Less stable deposits: unweighted $117,113M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 27.05%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $110,273M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 25.47%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $106,399M (OSFI LCR common disclosure template, average of the three months in Q3 2024, CIBC Q3 2024 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $432,912M) = 24.58%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "stableDepositsPct": "Stable deposits $99,127M as a share of total retail and small-business deposits $216,240M ($99,127M stable + $117,113M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $117,113M as a share of total retail and small-business deposits $216,240M ($99,127M stable + $117,113M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $110,273M as a share of total wholesale deposits $216,672M ($110,273M operational + $106,399M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $106,399M as a share of total wholesale deposits $216,672M ($110,273M operational + $106,399M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
+        "roa": "Computed, not disclosed: quarterly net income $1,786M annualised (x4) divided by period-end total assets $1,021.4B = 0.70%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -228,14 +230,15 @@
         "wholesaleFundingPct": 20.66,
         "retailDepositsPct": 33.06,
         "wholesaleDepositsPct": 66.94,
-        "stableDepositsPct": 22.55,
-        "lessStableDepositsPct": 27.15,
-        "operationalDepositsPct": 26.4,
-        "nonOperationalDepositsPct": 23.91,
+        "stableDepositsPct": 45.37,
+        "lessStableDepositsPct": 54.63,
+        "operationalDepositsPct": 52.47,
+        "nonOperationalDepositsPct": 47.53,
         "irrbbEveSensitivityPct": -2.74,
         "irrbbNiiSensitivityPct": -0.49,
         "tlacLeverageRatio": 8.7,
-        "dividendPayoutRatio": 47.2
+        "dividendPayoutRatio": 47.2,
+        "roa": 0.72
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
@@ -246,15 +249,16 @@
         "wholesaleFundingPct": "CIBC's own disclosed 'wholesale funding sources' contractual-maturity table (deposits from banks, CDs/commercial paper, bearer deposit notes/BAs, senior unsecured MTNs/structured notes, covered bonds, mortgage/cards securitization, subordinated liabilities) totaled $215,317M at carrying value as at Oct 31, 2024 ÷ total assets $1,041,985M. This CIBC-defined figure excludes repo ($110,153M); including repo per the broader task definition gives (215,317+110,153)/1,041,985 = 31.23%. Reporting the narrower, CIBC-labeled figure as primary.",
         "retailDepositsPct": "Personal deposits ($252,894M) ÷ total deposits ($764,857M), balance sheet basis.",
         "wholesaleDepositsPct": "Business & government ($435,499M) + Bank ($20,009M) + Secured borrowings ($56,455M) ÷ total deposits $764,857M, balance sheet basis. An alternative LCR-scope calc (see stable/less-stable/operational/non-operational below) gives retail 49.70%/wholesale 50.30% on a 3-month-average, LCR-defined-category basis — materially different because the LCR categorization uses average balances and different bucketing rules.",
-        "stableDepositsPct": "OSFI LCR common disclosure template, average of the three months ended Oct 31 2024: Stable deposits $98,592M (unweighted) as % of total LCR-scope deposits (stable+less stable+operational+non-operational = $437,287M).",
-        "lessStableDepositsPct": "Less stable deposits $118,722M (unweighted) / $437,287M LCR-scope deposit total.",
-        "operationalDepositsPct": "Operational deposits (all counterparties, incl. cooperative bank networks) $115,421M (unweighted) / $437,287M.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $104,552M (unweighted) / $437,287M.",
+        "stableDepositsPct": "Stable deposits $98,592M as a share of total retail and small-business deposits $217,314M ($98,592M stable + $118,722M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $118,722M as a share of total retail and small-business deposits $217,314M ($98,592M stable + $118,722M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $115,421M as a share of total wholesale deposits $219,973M ($115,421M operational + $104,552M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $104,552M as a share of total wholesale deposits $219,973M ($115,421M operational + $104,552M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "CIBC does not disclose the full 6-scenario Basel/OSFI IRRBB1 template (parallel up/down, steepener, flattener, short rate up/down) — it only discloses a +/-100bp parallel shock under 'Structural Interest Rate Risk (SIRR)'. Most adverse of the two disclosed scenarios: +100bp parallel increase gives EVE impact of -$1,356M (pre-tax, total CAD+USD), vs -100bp giving +$1,237M. -$1,356M / Tier 1 capital $49,481M (Q4/25 Pillar 3 KM1 table, Q4/24 column) = -2.74%. Not equivalent to 'worst of six Basel scenarios' — CIBC only shows 2 of the 6 standard shocks.",
         "irrbbNiiSensitivityPct": "Same +/-100bp parallel shock table. Worse of the two scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$242M (pre-tax, total). As % of Tier 1 capital ($49,481M) for comparability = -0.49%; CIBC itself does not express NII sensitivity as a % of any capital or income base — this is a derived ratio.",
         "newMetricsSource": "CIBC 2024 Annual Report (audited consolidated financial statements and MD&A) and CIBC Q4/25 Pillar 3 Report — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
+        "roa": "Computed, not disclosed: quarterly net income $1,874M annualised (x4) divided by period-end total assets $1,042.0B = 0.72%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -401,12 +405,13 @@
         "irrbbEveSensitivityPct": -2.94,
         "irrbbNiiSensitivityPct": -0.42,
         "wholesaleFundingPct": 20.75,
-        "stableDepositsPct": 21.86,
-        "lessStableDepositsPct": 27.33,
-        "operationalDepositsPct": 27.14,
-        "nonOperationalDepositsPct": 23.68,
+        "stableDepositsPct": 44.43,
+        "lessStableDepositsPct": 55.57,
+        "operationalDepositsPct": 53.4,
+        "nonOperationalDepositsPct": 46.6,
         "tlacLeverageRatio": 8.9,
-        "dividendPayoutRatio": 44.1
+        "dividendPayoutRatio": 44.1,
+        "roa": 0.8
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table; also confirmed in Q1 2026 news release comparative column (15.2%).",
@@ -419,12 +424,13 @@
         "irrbbEveSensitivityPct": "CIBC \"Structural interest rate sensitivity – measures\" table (Q1 2025 Report to Shareholders, disclosed quarterly). CIBC discloses only a +/-100bp parallel shock (2 of the 6 Basel scenarios). Most adverse: +100bp parallel increase gives EVE impact of -$1,515M (pre-tax, total CAD+USD) ÷ Tier 1 capital $51,574M (same report's capital table / Pillar 3 KM1) = -2.94%. Not equivalent to the worst of six Basel scenarios — CIBC shows only 2 of the 6 standard shocks. This %-of-Tier-1 framing is ours.",
         "irrbbNiiSensitivityPct": "Same +/-100bp parallel-shock table. Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$218M (pre-tax, total CAD+USD) ÷ Tier 1 capital $51,574M = -0.42%. A derived ratio for cross-bank comparability; CIBC does not itself express NII sensitivity as a percentage of any base.",
         "wholesaleFundingPct": "CIBC's disclosed \"wholesale funding sources\" contractual-maturity table total of $224,579M at carrying value (Q1 2025 Report to Shareholders) ÷ total assets $1,082,464M = 20.75%. Excludes repo (CIBC's own table scope), matching CIBC's existing method. CIBC discloses this table every quarter.",
-        "stableDepositsPct": "Stable deposits: unweighted $100,045M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 21.86%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "lessStableDepositsPct": "Less stable deposits: unweighted $125,108M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 27.33%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $124,217M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 27.14%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $108,389M (OSFI LCR common disclosure template, average of the three months in Q1 2025, CIBC Q1 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $457,759M) = 23.68%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "stableDepositsPct": "Stable deposits $100,045M as a share of total retail and small-business deposits $225,153M ($100,045M stable + $125,108M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $125,108M as a share of total retail and small-business deposits $225,153M ($100,045M stable + $125,108M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $124,217M as a share of total wholesale deposits $232,606M ($124,217M operational + $108,389M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $108,389M as a share of total wholesale deposits $232,606M ($124,217M operational + $108,389M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
+        "roa": "Computed, not disclosed: quarterly net income $2,163M annualised (x4) divided by period-end total assets $1,082.5B = 0.80%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -597,12 +603,13 @@
         "irrbbEveSensitivityPct": -2.92,
         "irrbbNiiSensitivityPct": -0.37,
         "wholesaleFundingPct": 20.73,
-        "stableDepositsPct": 21.49,
-        "lessStableDepositsPct": 28.13,
-        "operationalDepositsPct": 27.44,
-        "nonOperationalDepositsPct": 22.94,
+        "stableDepositsPct": 43.31,
+        "lessStableDepositsPct": 56.69,
+        "operationalDepositsPct": 54.47,
+        "nonOperationalDepositsPct": 45.53,
         "tlacLeverageRatio": 9.1,
-        "dividendPayoutRatio": 47.4
+        "dividendPayoutRatio": 47.4,
+        "roa": 0.73
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
@@ -615,12 +622,13 @@
         "irrbbEveSensitivityPct": "CIBC \"Structural interest rate sensitivity – measures\" table (Q2 2025 Report to Shareholders, disclosed quarterly). CIBC discloses only a +/-100bp parallel shock (2 of the 6 Basel scenarios). Most adverse: +100bp parallel increase gives EVE impact of -$1,512M (pre-tax, total CAD+USD) ÷ Tier 1 capital $51,756M (same report's capital table / Pillar 3 KM1) = -2.92%. Not equivalent to the worst of six Basel scenarios — CIBC shows only 2 of the 6 standard shocks. This %-of-Tier-1 framing is ours.",
         "irrbbNiiSensitivityPct": "Same +/-100bp parallel-shock table. Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$189M (pre-tax, total CAD+USD) ÷ Tier 1 capital $51,756M = -0.37%. A derived ratio for cross-bank comparability; CIBC does not itself express NII sensitivity as a percentage of any base.",
         "wholesaleFundingPct": "CIBC's disclosed \"wholesale funding sources\" contractual-maturity table total of $225,937M at carrying value (Q2 2025 Report to Shareholders) ÷ total assets $1,090,143M = 20.73%. Excludes repo (CIBC's own table scope), matching CIBC's existing method. CIBC discloses this table every quarter.",
-        "stableDepositsPct": "Stable deposits: unweighted $99,431M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 21.49%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "lessStableDepositsPct": "Less stable deposits: unweighted $130,149M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 28.13%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $126,997M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 27.44%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $106,165M (OSFI LCR common disclosure template, average of the three months in Q2 2025, CIBC Q2 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,742M) = 22.94%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "stableDepositsPct": "Stable deposits $99,431M as a share of total retail and small-business deposits $229,580M ($99,431M stable + $130,149M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $130,149M as a share of total retail and small-business deposits $229,580M ($99,431M stable + $130,149M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $126,997M as a share of total wholesale deposits $233,162M ($126,997M operational + $106,165M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $106,165M as a share of total wholesale deposits $233,162M ($126,997M operational + $106,165M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
+        "roa": "Computed, not disclosed: quarterly net income $1,998M annualised (x4) divided by period-end total assets $1,090.1B = 0.73%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -792,12 +800,13 @@
         "irrbbEveSensitivityPct": -2.84,
         "irrbbNiiSensitivityPct": -0.42,
         "wholesaleFundingPct": 20.92,
-        "stableDepositsPct": 21.73,
-        "lessStableDepositsPct": 27.72,
-        "operationalDepositsPct": 28.14,
-        "nonOperationalDepositsPct": 22.41,
+        "stableDepositsPct": 43.94,
+        "lessStableDepositsPct": 56.06,
+        "operationalDepositsPct": 55.66,
+        "nonOperationalDepositsPct": 44.34,
         "tlacLeverageRatio": 9.2,
-        "dividendPayoutRatio": 44.9
+        "dividendPayoutRatio": 44.9,
+        "roa": 0.76
       },
       "notes": {
         "roe": "Reported ROE (annualized) 14.2% per CIBC Supplementary Financial Information nine-quarter trend table (matches reported and adjusted ROE for this quarter).",
@@ -810,12 +819,13 @@
         "irrbbEveSensitivityPct": "CIBC \"Structural interest rate sensitivity – measures\" table (Q3 2025 Report to Shareholders, disclosed quarterly). CIBC discloses only a +/-100bp parallel shock (2 of the 6 Basel scenarios). Most adverse: +100bp parallel increase gives EVE impact of -$1,513M (pre-tax, total CAD+USD) ÷ Tier 1 capital $53,303M (same report's capital table / Pillar 3 KM1) = -2.84%. Not equivalent to the worst of six Basel scenarios — CIBC shows only 2 of the 6 standard shocks. This %-of-Tier-1 framing is ours.",
         "irrbbNiiSensitivityPct": "Same +/-100bp parallel-shock table. Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$225M (pre-tax, total CAD+USD) ÷ Tier 1 capital $53,303M = -0.42%. A derived ratio for cross-bank comparability; CIBC does not itself express NII sensitivity as a percentage of any base.",
         "wholesaleFundingPct": "CIBC's disclosed \"wholesale funding sources\" contractual-maturity table total of $230,581M at carrying value (Q3 2025 Report to Shareholders) ÷ total assets $1,102,255M = 20.92%. Excludes repo (CIBC's own table scope), matching CIBC's existing method. CIBC discloses this table every quarter.",
-        "stableDepositsPct": "Stable deposits: unweighted $100,556M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 21.73%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "lessStableDepositsPct": "Less stable deposits: unweighted $128,284M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 27.72%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $130,187M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 28.14%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $103,695M (OSFI LCR common disclosure template, average of the three months in Q3 2025, CIBC Q3 2025 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $462,722M) = 22.41%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "stableDepositsPct": "Stable deposits $100,556M as a share of total retail and small-business deposits $228,840M ($100,556M stable + $128,284M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $128,284M as a share of total retail and small-business deposits $228,840M ($100,556M stable + $128,284M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $130,187M as a share of total wholesale deposits $233,882M ($130,187M operational + $103,695M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $103,695M as a share of total wholesale deposits $233,882M ($130,187M operational + $103,695M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
+        "roa": "Computed, not disclosed: quarterly net income $2,094M annualised (x4) divided by period-end total assets $1,102.3B = 0.76%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -960,14 +970,15 @@
         "wholesaleFundingPct": 20.75,
         "retailDepositsPct": 31.94,
         "wholesaleDepositsPct": 68.06,
-        "stableDepositsPct": 21.72,
-        "lessStableDepositsPct": 28.26,
-        "operationalDepositsPct": 29.78,
-        "nonOperationalDepositsPct": 20.24,
+        "stableDepositsPct": 43.45,
+        "lessStableDepositsPct": 56.55,
+        "operationalDepositsPct": 59.53,
+        "nonOperationalDepositsPct": 40.47,
         "irrbbEveSensitivityPct": -3.1,
         "irrbbNiiSensitivityPct": -0.46,
         "tlacLeverageRatio": 9.0,
-        "dividendPayoutRatio": 43.8
+        "dividendPayoutRatio": 43.8,
+        "roa": 0.78
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table (Q1 2026 vintage), cross-checked against Q4/FY2025 news release (14.1%, up from 13.3% YoY).",
@@ -977,15 +988,16 @@
         "wholesaleFundingPct": "CIBC's disclosed 'wholesale funding sources' table totaled $231,802M at carrying value as at Oct 31, 2025 ÷ total assets $1,116,938M. Excludes repo ($130,042M); including repo would give (231,802+130,042)/1,116,938 = 32.39%.",
         "retailDepositsPct": "Personal deposits ($258,139M) ÷ total deposits ($808,124M), balance sheet basis.",
         "wholesaleDepositsPct": "Business & government ($457,284M) + Bank ($26,723M) + Secured borrowings ($65,978M) ÷ total deposits $808,124M, balance sheet basis. LCR-scope alternative (3-month average) gives retail 49.98%/wholesale 50.02% — different scope/methodology, not directly comparable to the balance-sheet split.",
-        "stableDepositsPct": "OSFI LCR common disclosure template, average of the three months ended Oct 31 2025: Stable deposits $100,387M (unweighted) / total LCR-scope deposits (stable+less stable+operational+non-operational = $462,270M).",
-        "lessStableDepositsPct": "Less stable deposits $130,642M (unweighted) / $462,270M.",
-        "operationalDepositsPct": "Operational deposits (all counterparties, incl. cooperative bank networks) $137,665M (unweighted) / $462,270M.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $93,576M (unweighted) / $462,270M.",
+        "stableDepositsPct": "Stable deposits $100,387M as a share of total retail and small-business deposits $231,029M ($100,387M stable + $130,642M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $130,642M as a share of total retail and small-business deposits $231,029M ($100,387M stable + $130,642M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $137,665M as a share of total wholesale deposits $231,241M ($137,665M operational + $93,576M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $93,576M as a share of total wholesale deposits $231,241M ($137,665M operational + $93,576M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "CIBC discloses only a +/-100bp parallel shock (not the 6-scenario Basel IRRBB1 template). Most adverse: +100bp parallel increase gives EVE impact of -$1,678M (pre-tax, total CAD+USD) vs -100bp giving +$1,525M. -$1,678M / Tier 1 capital $54,105M (Q4/25 Pillar 3 KM1 table) = -3.10%.",
         "irrbbNiiSensitivityPct": "Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$249M (pre-tax, total). As % of Tier 1 capital ($54,105M) = -0.46% — a derived ratio; CIBC does not itself express NII sensitivity as a percentage of any base.",
         "newMetricsSource": "CIBC 2025 Annual Report (audited consolidated financial statements and MD&A) and CIBC Q4/25 Pillar 3 Report and Supplementary Regulatory Capital Disclosure — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
+        "roa": "Computed, not disclosed: quarterly net income $2,174M annualised (x4) divided by period-end total assets $1,116.9B = 0.78%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1158,12 +1170,13 @@
         "irrbbEveSensitivityPct": -2.68,
         "irrbbNiiSensitivityPct": -0.54,
         "wholesaleFundingPct": 20.33,
-        "stableDepositsPct": 21.27,
-        "lessStableDepositsPct": 28.06,
-        "operationalDepositsPct": 29.89,
-        "nonOperationalDepositsPct": 20.78,
+        "stableDepositsPct": 43.12,
+        "lessStableDepositsPct": 56.88,
+        "operationalDepositsPct": 59.0,
+        "nonOperationalDepositsPct": 41.0,
         "tlacLeverageRatio": 9.1,
-        "dividendPayoutRatio": 33.1
+        "dividendPayoutRatio": 33.1,
+        "roa": 1.09
       },
       "notes": {
         "roe": "Reported ROE (GAAP, annualized) was unusually high at 20.2% mainly due to $422 million of income tax recoveries (capital gains distribution and utilization of capital losses) recognized in the quarter; adjusted ROE excluding this and other items of note was 17.4%. Used reported per instructions, but flagging the distortion.",
@@ -1176,12 +1189,13 @@
         "irrbbEveSensitivityPct": "CIBC \"Structural interest rate sensitivity – measures\" table (Q1 2026 Report to Shareholders, disclosed quarterly). CIBC discloses only a +/-100bp parallel shock (2 of the 6 Basel scenarios). Most adverse: +100bp parallel increase gives EVE impact of -$1,494M (pre-tax, total CAD+USD) ÷ Tier 1 capital $55,823M (same report's capital table / Pillar 3 KM1) = -2.68%. Not equivalent to the worst of six Basel scenarios — CIBC shows only 2 of the 6 standard shocks. This %-of-Tier-1 framing is ours.",
         "irrbbNiiSensitivityPct": "Same +/-100bp parallel-shock table. Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$303M (pre-tax, total CAD+USD) ÷ Tier 1 capital $55,823M = -0.54%. A derived ratio for cross-bank comparability; CIBC does not itself express NII sensitivity as a percentage of any base.",
         "wholesaleFundingPct": "CIBC's disclosed \"wholesale funding sources\" contractual-maturity table total of $230,299M at carrying value (Q1 2026 Report to Shareholders) ÷ total assets $1,132,577M = 20.33%. Excludes repo (CIBC's own table scope), matching CIBC's existing method. CIBC discloses this table every quarter.",
-        "stableDepositsPct": "Stable deposits: unweighted $102,077M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 21.27%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "lessStableDepositsPct": "Less stable deposits: unweighted $134,672M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 28.06%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $143,468M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 29.89%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $99,715M (OSFI LCR common disclosure template, average of the three months in Q1 2026, CIBC Q1 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $479,932M) = 20.78%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "stableDepositsPct": "Stable deposits $102,077M as a share of total retail and small-business deposits $236,749M ($102,077M stable + $134,672M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $134,672M as a share of total retail and small-business deposits $236,749M ($102,077M stable + $134,672M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $143,468M as a share of total wholesale deposits $243,183M ($143,468M operational + $99,715M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $99,715M as a share of total wholesale deposits $243,183M ($143,468M operational + $99,715M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
+        "roa": "Computed, not disclosed: quarterly net income $3,093M annualised (x4) divided by period-end total assets $1,132.6B = 1.09%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1354,12 +1368,13 @@
         "irrbbEveSensitivityPct": -2.75,
         "irrbbNiiSensitivityPct": -0.29,
         "wholesaleFundingPct": 19.6,
-        "stableDepositsPct": 20.79,
-        "lessStableDepositsPct": 28.04,
-        "operationalDepositsPct": 29.49,
-        "nonOperationalDepositsPct": 21.68,
+        "stableDepositsPct": 42.57,
+        "lessStableDepositsPct": 57.43,
+        "operationalDepositsPct": 57.63,
+        "nonOperationalDepositsPct": 42.37,
         "tlacLeverageRatio": 8.9,
-        "dividendPayoutRatio": 41.9
+        "dividendPayoutRatio": 41.9,
+        "roa": 0.85
       },
       "notes": {
         "roe": "Reported ROE (annualized) 16.4%, which equals adjusted ROE this quarter (up 250 bps YoY per management commentary).",
@@ -1372,12 +1387,13 @@
         "irrbbEveSensitivityPct": "CIBC \"Structural interest rate sensitivity – measures\" table (Q2 2026 Report to Shareholders, disclosed quarterly). CIBC discloses only a +/-100bp parallel shock (2 of the 6 Basel scenarios). Most adverse: +100bp parallel increase gives EVE impact of -$1,542M (pre-tax, total CAD+USD) ÷ Tier 1 capital $56,067M (same report's capital table / Pillar 3 KM1) = -2.75%. Not equivalent to the worst of six Basel scenarios — CIBC shows only 2 of the 6 standard shocks. This %-of-Tier-1 framing is ours.",
         "irrbbNiiSensitivityPct": "Same +/-100bp parallel-shock table. Worse of the two disclosed scenarios: -100bp parallel decrease gives projected 12-month NII impact of -$164M (pre-tax, total CAD+USD) ÷ Tier 1 capital $56,067M = -0.29%. A derived ratio for cross-bank comparability; CIBC does not itself express NII sensitivity as a percentage of any base.",
         "wholesaleFundingPct": "CIBC's disclosed \"wholesale funding sources\" contractual-maturity table total of $227,468M at carrying value (Q2 2026 Report to Shareholders) ÷ total assets $1,160,560M = 19.6%. Excludes repo (CIBC's own table scope), matching CIBC's existing method. CIBC discloses this table every quarter.",
-        "stableDepositsPct": "Stable deposits: unweighted $102,406M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 20.79%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "lessStableDepositsPct": "Less stable deposits: unweighted $138,131M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 28.04%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted $145,304M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 29.49%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted $106,834M (OSFI LCR common disclosure template, average of the three months in Q2 2026, CIBC Q2 2026 Report to Shareholders — disclosed quarterly) ÷ total LCR-scope deposits (stable+less stable+operational+non-operational = $492,675M) = 21.68%. Denominator = sum of the four LCR categories, matching CIBC's existing method.",
+        "stableDepositsPct": "Stable deposits $102,406M as a share of total retail and small-business deposits $240,537M ($102,406M stable + $138,131M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $138,131M as a share of total retail and small-business deposits $240,537M ($102,406M stable + $138,131M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $145,304M as a share of total wholesale deposits $252,138M ($145,304M operational + $106,834M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $106,834M as a share of total wholesale deposits $252,138M ($145,304M operational + $106,834M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table."
+        "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
+        "roa": "Computed, not disclosed: quarterly net income $2,457M annualised (x4) divided by period-end total assets $1,160.6B = 0.85%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {

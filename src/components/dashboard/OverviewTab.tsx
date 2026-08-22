@@ -9,18 +9,27 @@ import { getMetricSeries, latestQuarterWith, peerAverage, computeQoQChanges } fr
 import { GlassCard } from "@/components/ui/GlassCard";
 import type { MetricKey } from "@/types/metrics";
 
-const OVERVIEW_METRICS: MetricKey[] = [
-  "cet1Ratio",
-  "totalCapitalRatio",
-  "tlacRatio",
-  "leverageRatio",
-  "lcr",
-  "nsfr",
-  "roe",
-  "nim",
-  "efficiencyRatio",
-  "loansToAssetsPct",
+// The Overview is a complete scoreboard, grouped by family and shown side by side so a
+// reader can take in a whole discipline at once rather than scanning a flat grid.
+const SECTORS: { label: string; accent: string; keys: MetricKey[] }[] = [
+  {
+    label: "Capital",
+    accent: "#0066cc",
+    keys: ["cet1Ratio", "tier1CapitalRatio", "totalCapitalRatio", "leverageRatio", "tlacRatio", "tlacLeverageRatio"],
+  },
+  {
+    label: "Liquidity & Funding",
+    accent: "#00b6f1",
+    keys: ["lcr", "nsfr", "loanToDepositRatio", "wholesaleFundingPct", "retailDepositsPct", "loansToAssetsPct"],
+  },
+  {
+    label: "Profitability",
+    accent: "#ffc72c",
+    keys: ["roe", "roa", "nim", "efficiencyRatio", "dividendPayoutRatio", "netIncomeMillions"],
+  },
 ];
+
+const OVERVIEW_METRICS: MetricKey[] = SECTORS.flatMap((s) => s.keys);
 
 export function OverviewTab() {
   const { banks, metricsMeta } = useDashboardData();
@@ -43,6 +52,8 @@ export function OverviewTab() {
       return { meta, value, qoq, avg, history: series };
     }).filter((c) => c.meta);
   }, [home, banks, metricsMeta]);
+
+  const cardByKey = useMemo(() => new Map(cards.map((c) => [c.meta.key, c])), [cards]);
 
   if (!home) {
     return (
@@ -84,23 +95,40 @@ export function OverviewTab() {
         </div>
       </GlassCard>
 
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-        {cards.map((c, i) => (
-          <KpiCard
-            key={c.meta.key}
-            meta={c.meta}
-            value={c.value}
-            qoqDelta={c.qoq}
-            peerAvg={c.avg}
-            history={c.history}
-            delay={i * 0.04}
-            active={focusMetric === c.meta.key}
-            onClick={() => {
-              setFocusMetric(c.meta.key);
-              setActiveTab("trends");
-            }}
-          />
-        ))}
+      <div className="grid gap-4 lg:grid-cols-3">
+        {SECTORS.map((sector, si) => {
+          const sectorCards = sector.keys.map((k) => cardByKey.get(k)).filter((c) => c != null);
+          if (!sectorCards.length) return null;
+          return (
+            <GlassCard key={sector.label} className="p-4">
+              <div className="mb-3 flex items-center gap-2">
+                <span className="size-2 rounded-full" style={{ background: sector.accent }} />
+                <h3 className="font-display text-sm font-semibold text-text-primary">{sector.label}</h3>
+                <span className="ml-auto text-[10px] uppercase tracking-wide text-text-muted">
+                  {sectorCards.length} metric{sectorCards.length === 1 ? "" : "s"}
+                </span>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                {sectorCards.map((c, i) => (
+                  <KpiCard
+                    key={c.meta.key}
+                    meta={c.meta}
+                    value={c.value}
+                    qoqDelta={c.qoq}
+                    peerAvg={c.avg}
+                    history={c.history}
+                    delay={si * 0.06 + i * 0.03}
+                    active={focusMetric === c.meta.key}
+                    onClick={() => {
+                      setFocusMetric(c.meta.key);
+                      setActiveTab("trends");
+                    }}
+                  />
+                ))}
+              </div>
+            </GlassCard>
+          );
+        })}
       </div>
 
       <RankHeatmap />

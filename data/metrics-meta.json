@@ -95,6 +95,15 @@
       "decimals": 1
     },
     {
+      "key": "roa",
+      "label": "Return on Assets (ROA)",
+      "shortLabel": "ROA",
+      "unit": "%",
+      "description": "Quarterly net income annualised (x4) as a percentage of period-end total assets. Computed on one consistent basis for all six banks, because only BMO, CIBC and National Bank disclose an ROA and they do so on an average-assets basis.",
+      "higherIsBetter": true,
+      "decimals": 2
+    },
+    {
       "key": "dividendPayoutRatio",
       "label": "Dividend Payout Ratio",
       "shortLabel": "Payout Ratio",

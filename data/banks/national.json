@@ -31,14 +31,15 @@
         "wholesaleFundingPct": 30.43,
         "retailDepositsPct": 29.38,
         "wholesaleDepositsPct": 70.62,
-        "stableDepositsPct": 8.63,
-        "lessStableDepositsPct": 11.26,
-        "operationalDepositsPct": 10.96,
-        "nonOperationalDepositsPct": 22.1,
+        "stableDepositsPct": 43.39,
+        "lessStableDepositsPct": 56.61,
+        "operationalDepositsPct": 33.15,
+        "nonOperationalDepositsPct": 66.85,
         "irrbbEveSensitivityPct": -1.67,
         "irrbbNiiSensitivityPct": -0.52,
         "tlacLeverageRatio": 8.3,
-        "dividendPayoutRatio": 41.6
+        "dividendPayoutRatio": 41.6,
+        "roa": 0.91
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.31%), as National Bank does not publish a single consolidated whole-bank NIM headline figure; segment NIM is the standard metric cited by the bank and analysts.",
@@ -49,15 +50,16 @@
         "wholesaleFundingPct": "Computed as [Residual Contractual Maturities of Wholesale Funding table total, $96,324M: deposits from banks + CP/wholesale deposit notes + senior unsecured MTNs/structured notes + covered bonds + mortgage/credit-card securitization + subordinated debt] + [repo obligations $41,781M] = $138,105M, ÷ total assets $453,900M. EDTF table alone (excl. repo) = 21.2%.",
         "retailDepositsPct": "Personal deposits $94,186M ÷ total deposits $320,587M (Consolidated Balance Sheet, as at Jul 31, 2024).",
         "wholesaleDepositsPct": "Business and government deposits ($220,915M) + deposit-taking institutions ($5,486M) = $226,401M ÷ total deposits $320,587M.",
-        "stableDepositsPct": "From LCR Disclosure Requirements table (quarterly average unweighted values, quarter ended Jul 31 2024): stable retail deposits $27,654M ÷ total balance-sheet deposits $320,587M. Caveat: LCR unweighted values are 30-day-outflow-relevant quarterly-average balances, not the full point-in-time deposit base — retail+wholesale LCR-recognized balances ($178,067M) are well below total deposits since term deposits with maturity beyond 30 days can be excluded from LCR outflow assumptions. As % of the retail LCR bucket alone (stable/(stable+less stable)), stable = 43.4%.",
-        "lessStableDepositsPct": "Less stable retail deposits $36,084M (LCR table) ÷ total deposits $320,587M. Same LCR-scope caveat as stableDepositsPct.",
-        "operationalDepositsPct": "Operational deposits (all counterparties) $35,127M (LCR table) ÷ total deposits $320,587M. Same LCR-scope caveat.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties) $70,848M (LCR table) ÷ total deposits $320,587M. Same LCR-scope caveat.",
+        "stableDepositsPct": "Stable deposits $27,654M as a share of total retail and small-business deposits $63,738M ($27,654M stable + $36,084M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $36,084M as a share of total retail and small-business deposits $63,738M ($27,654M stable + $36,084M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $35,127M as a share of total wholesale deposits $105,975M ($35,127M operational + $70,848M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $70,848M as a share of total wholesale deposits $105,975M ($35,127M operational + $70,848M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "National Bank discloses only a single +/-100bp parallel shock (not the full 6-scenario Basel/OSFI framework). Most adverse = +100bp increase scenario, EVE impact -$366M (before tax, total CAD+other currencies) as at Jul 31 2024, per 'Interest Rate Sensitivity - Non-Trading Activities' table. Bank does not itself express this as a %; computed here as -$366M / Tier 1 capital $21,855M (CC1 table, Q1 2025 supplementary disclosure trend column).",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease scenario, NII impact -$114M (before-tax, 12-month projection). +100bp scenario impact was +$80M. Computed as % of Tier 1 capital ($21,855M) for comparability; bank does not publish this as a ratio.",
         "newMetricsSource": "Q3 2024 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "roa": "Computed, not disclosed: quarterly net income $1,033M annualised (x4) divided by period-end total assets $453.9B = 0.91%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -224,14 +226,15 @@
         "wholesaleFundingPct": 30.59,
         "retailDepositsPct": 28.54,
         "wholesaleDepositsPct": 71.46,
-        "stableDepositsPct": 8.33,
-        "lessStableDepositsPct": 11.06,
-        "operationalDepositsPct": 10.63,
-        "nonOperationalDepositsPct": 22.53,
+        "stableDepositsPct": 42.96,
+        "lessStableDepositsPct": 57.04,
+        "operationalDepositsPct": 32.05,
+        "nonOperationalDepositsPct": 67.95,
         "irrbbEveSensitivityPct": -1.94,
         "irrbbNiiSensitivityPct": -0.61,
         "tlacLeverageRatio": 8.6,
-        "dividendPayoutRatio": 40.1
+        "dividendPayoutRatio": 40.1,
+        "roa": 0.83
       },
       "notes": {
         "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
@@ -242,15 +245,16 @@
         "wholesaleFundingPct": "[EDTF wholesale funding table total $103,232M] + [repo obligations $38,177M] = $141,409M ÷ total assets $462,200M. EDTF table alone (excl. repo) = 22.3%.",
         "retailDepositsPct": "Personal deposits $95,181M (28.5% as directly disclosed) ÷ total deposits $333,545M, Table 12, 2024 Annual Report.",
         "wholesaleDepositsPct": "Business and government ($232,730M, 69.8% as disclosed) + deposit-taking institutions ($5,634M, 1.7%) = $238,364M ÷ $333,545M.",
-        "stableDepositsPct": "LCR table, quarter ended Oct 31 2024: stable retail deposits $27,781M ÷ total deposits $333,545M. Same LCR-scope caveat as Q3 2024. As % of retail LCR bucket alone: 43.0%.",
-        "lessStableDepositsPct": "Less stable retail deposits $36,883M ÷ total deposits $333,545M.",
-        "operationalDepositsPct": "Operational deposits $35,445M ÷ total deposits $333,545M.",
-        "nonOperationalDepositsPct": "Non-operational deposits $75,157M ÷ total deposits $333,545M.",
+        "stableDepositsPct": "Stable deposits $27,781M as a share of total retail and small-business deposits $64,664M ($27,781M stable + $36,883M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $36,883M as a share of total retail and small-business deposits $64,664M ($27,781M stable + $36,883M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $35,445M as a share of total wholesale deposits $110,602M ($35,445M operational + $75,157M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $75,157M as a share of total wholesale deposits $110,602M ($35,445M operational + $75,157M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$435M (before tax) as at Oct 31 2024, 'Interest Rate Sensitivity' table, 2024 Annual Report pp.93-94. Computed as % of Tier 1 capital $22,470M (CC1 table).",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$136M (before-tax, 12-month). +100bp scenario = +$99M. As % of FY2024 whole-bank consolidated Net Interest Income ($2,939M): -4.6%. As % of Tier 1 capital ($22,470M): -0.6%.",
         "newMetricsSource": "2024 Annual Report (fiscal year ended October 31, 2024) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "roa": "Computed, not disclosed: quarterly net income $955M annualised (x4) divided by period-end total assets $462.2B = 0.83%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -419,14 +423,15 @@
         "wholesaleFundingPct": 31.07,
         "retailDepositsPct": 28.16,
         "wholesaleDepositsPct": 71.84,
-        "stableDepositsPct": 8.12,
-        "lessStableDepositsPct": 11.29,
-        "operationalDepositsPct": 10.56,
-        "nonOperationalDepositsPct": 21.49,
+        "stableDepositsPct": 41.83,
+        "lessStableDepositsPct": 58.17,
+        "operationalDepositsPct": 32.94,
+        "nonOperationalDepositsPct": 67.06,
         "irrbbEveSensitivityPct": -1.99,
         "irrbbNiiSensitivityPct": -0.56,
         "tlacLeverageRatio": 8.7,
-        "dividendPayoutRatio": 40.1
+        "dividendPayoutRatio": 40.1,
+        "roa": 0.82
       },
       "notes": {
         "cwbAcquisition": "CWB acquisition closed Feb 3, 2025, after this period end (Jan 31, 2025); figures below do not yet reflect CWB consolidation.",
@@ -437,15 +442,16 @@
         "wholesaleFundingPct": "[EDTF wholesale funding table total $112,967M] + [repo $37,359M] = $150,326M ÷ total assets $483,800M. EDTF-only = 23.3%.",
         "retailDepositsPct": "Personal deposits $98,861M ÷ total deposits $351,095M.",
         "wholesaleDepositsPct": "Business and government $246,450M + deposit-taking institutions $5,784M = $252,234M ÷ $351,095M.",
-        "stableDepositsPct": "LCR table, quarter ended Jan 31 2025: stable retail deposits $28,502M ÷ total deposits $351,095M. Same LCR-scope caveat as other periods.",
-        "lessStableDepositsPct": "Less stable retail deposits $39,635M ÷ total deposits $351,095M.",
-        "operationalDepositsPct": "Operational deposits $37,067M ÷ total deposits $351,095M.",
-        "nonOperationalDepositsPct": "Non-operational deposits $75,448M ÷ total deposits $351,095M.",
+        "stableDepositsPct": "Stable deposits $28,502M as a share of total retail and small-business deposits $68,137M ($28,502M stable + $39,635M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $39,635M as a share of total retail and small-business deposits $68,137M ($28,502M stable + $39,635M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $37,067M as a share of total wholesale deposits $112,515M ($37,067M operational + $75,448M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $75,448M as a share of total wholesale deposits $112,515M ($37,067M operational + $75,448M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$458M as at Jan 31 2025. Computed as % of Tier 1 capital $22,986M (CC1 table, Q1 2025 supplementary regulatory capital disclosure).",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$128M (before-tax, 12-month). +100bp = +$99M. As % of Tier 1 capital $22,986M.",
         "newMetricsSource": "Q1 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "roa": "Computed, not disclosed: quarterly net income $997M annualised (x4) divided by period-end total assets $483.8B = 0.82%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -612,14 +618,15 @@
         "wholesaleFundingPct": 30.09,
         "retailDepositsPct": 31.45,
         "wholesaleDepositsPct": 68.55,
-        "stableDepositsPct": 7.85,
-        "lessStableDepositsPct": 13.26,
-        "operationalDepositsPct": 9.67,
-        "nonOperationalDepositsPct": 21.89,
+        "stableDepositsPct": 37.18,
+        "lessStableDepositsPct": 62.82,
+        "operationalDepositsPct": 30.64,
+        "nonOperationalDepositsPct": 69.36,
         "irrbbEveSensitivityPct": -2.04,
         "irrbbNiiSensitivityPct": -0.45,
         "tlacLeverageRatio": 8.8,
-        "dividendPayoutRatio": 42.2
+        "dividendPayoutRatio": 42.2,
+        "roa": 0.67
       },
       "notes": {
         "cwbAcquisition": "First quarter reflecting CWB consolidation (closed Feb 3, 2025). Deposits, Tier 1 capital and wholesale funding all step up materially vs. Q1 2025.",
@@ -630,15 +637,16 @@
         "wholesaleFundingPct": "[EDTF wholesale funding table total $120,372M] + [repo $40,984M] = $161,356M ÷ total assets $536,200M. EDTF-only = 22.5%.",
         "retailDepositsPct": "Personal deposits $122,008M ÷ total deposits $387,974M.",
         "wholesaleDepositsPct": "Business and government $258,089M + deposit-taking institutions $7,877M = $265,966M ÷ $387,974M.",
-        "stableDepositsPct": "LCR table, quarter ended Apr 30 2025: stable retail deposits $30,447M ÷ total deposits $387,974M.",
-        "lessStableDepositsPct": "Less stable retail deposits $51,449M ÷ total deposits $387,974M (jump from Q1 2025 reflects CWB retail deposit consolidation).",
-        "operationalDepositsPct": "Operational deposits $37,508M ÷ total deposits $387,974M.",
-        "nonOperationalDepositsPct": "Non-operational deposits $84,921M ÷ total deposits $387,974M.",
+        "stableDepositsPct": "Stable deposits $30,447M as a share of total retail and small-business deposits $81,896M ($30,447M stable + $51,449M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $51,449M as a share of total retail and small-business deposits $81,896M ($30,447M stable + $51,449M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $37,508M as a share of total wholesale deposits $122,429M ($37,508M operational + $84,921M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $84,921M as a share of total wholesale deposits $122,429M ($37,508M operational + $84,921M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$563M as at Apr 30 2025. As % of Tier 1 capital $27,603M (CC1 table trend, Q2 2026 supplementary regulatory capital disclosure).",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$125M. +100bp = +$111M. As % of Tier 1 capital $27,603M.",
         "newMetricsSource": "Q2 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "roa": "Computed, not disclosed: quarterly net income $896M annualised (x4) divided by period-end total assets $536.2B = 0.67%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -805,14 +813,15 @@
         "wholesaleFundingPct": 31.24,
         "retailDepositsPct": 30.31,
         "wholesaleDepositsPct": 69.69,
-        "stableDepositsPct": 7.68,
-        "lessStableDepositsPct": 13.01,
-        "operationalDepositsPct": 9.79,
-        "nonOperationalDepositsPct": 21.61,
+        "stableDepositsPct": 37.11,
+        "lessStableDepositsPct": 62.89,
+        "operationalDepositsPct": 31.17,
+        "nonOperationalDepositsPct": 68.83,
         "irrbbEveSensitivityPct": -2.16,
         "irrbbNiiSensitivityPct": -0.35,
         "tlacLeverageRatio": 9.0,
-        "dividendPayoutRatio": 44.3
+        "dividendPayoutRatio": 44.3,
+        "roa": 0.77
       },
       "notes": {
         "cwbAcquisition": "First full quarter with CWB fully consolidated for the entire reporting period (CWB closed Feb 3, 2025).",
@@ -823,15 +832,16 @@
         "wholesaleFundingPct": "[EDTF wholesale funding table total $126,584M] + [repo $46,031M] = $172,615M ÷ total assets $552,600M. EDTF-only = 22.9%.",
         "retailDepositsPct": "Personal deposits $121,921M ÷ total deposits $402,286M.",
         "wholesaleDepositsPct": "Business and government $274,461M + deposit-taking institutions $5,904M = $280,365M ÷ $402,286M.",
-        "stableDepositsPct": "LCR table, quarter ended Jul 31 2025: stable retail deposits $30,886M ÷ total deposits $402,286M.",
-        "lessStableDepositsPct": "Less stable retail deposits $52,348M ÷ total deposits $402,286M.",
-        "operationalDepositsPct": "Operational deposits $39,366M ÷ total deposits $402,286M.",
-        "nonOperationalDepositsPct": "Non-operational deposits $86,933M ÷ total deposits $402,286M.",
+        "stableDepositsPct": "Stable deposits $30,886M as a share of total retail and small-business deposits $83,234M ($30,886M stable + $52,348M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $52,348M as a share of total retail and small-business deposits $83,234M ($30,886M stable + $52,348M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $39,366M as a share of total wholesale deposits $126,299M ($39,366M operational + $86,933M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $86,933M as a share of total wholesale deposits $126,299M ($39,366M operational + $86,933M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$616M as at Jul 31 2025. As % of Tier 1 capital $28,488M.",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$99M. +100bp = +$88M. As % of Tier 1 capital $28,488M.",
         "newMetricsSource": "Q3 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "roa": "Computed, not disclosed: quarterly net income $1,065M annualised (x4) divided by period-end total assets $552.6B = 0.77%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -998,14 +1008,15 @@
         "wholesaleFundingPct": 31.37,
         "retailDepositsPct": 29.07,
         "wholesaleDepositsPct": 70.93,
-        "stableDepositsPct": 7.28,
-        "lessStableDepositsPct": 12.5,
-        "operationalDepositsPct": 10.09,
-        "nonOperationalDepositsPct": 20.72,
+        "stableDepositsPct": 36.8,
+        "lessStableDepositsPct": 63.2,
+        "operationalDepositsPct": 32.75,
+        "nonOperationalDepositsPct": 67.25,
         "irrbbEveSensitivityPct": -2.39,
         "irrbbNiiSensitivityPct": -0.35,
         "tlacLeverageRatio": 8.8,
-        "dividendPayoutRatio": 45.6
+        "dividendPayoutRatio": 45.6,
+        "roa": 0.73
       },
       "notes": {
         "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
@@ -1017,15 +1028,16 @@
         "wholesaleFundingPct": "[EDTF wholesale funding table total $139,622M] + [repo $41,356M] = $180,978M ÷ total assets $576,900M. EDTF-only = 24.2%.",
         "retailDepositsPct": "Personal deposits $124,417M (29.1% as directly disclosed) ÷ total deposits $428,003M, Table 12, 2025 Annual Report.",
         "wholesaleDepositsPct": "Business and government $297,512M (69.5% as disclosed) + deposit-taking institutions $6,074M (1.4%) = $303,586M ÷ $428,003M.",
-        "stableDepositsPct": "LCR table, quarter ended Oct 31 2025: stable retail deposits $31,166M ÷ total deposits $428,003M.",
-        "lessStableDepositsPct": "Less stable retail deposits $53,517M ÷ total deposits $428,003M.",
-        "operationalDepositsPct": "Operational deposits $43,187M ÷ total deposits $428,003M.",
-        "nonOperationalDepositsPct": "Non-operational deposits $88,687M ÷ total deposits $428,003M.",
+        "stableDepositsPct": "Stable deposits $31,166M as a share of total retail and small-business deposits $84,683M ($31,166M stable + $53,517M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $53,517M as a share of total retail and small-business deposits $84,683M ($31,166M stable + $53,517M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $43,187M as a share of total wholesale deposits $131,874M ($43,187M operational + $88,687M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $88,687M as a share of total wholesale deposits $131,874M ($43,187M operational + $88,687M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$683M (before tax) as at Oct 31 2025, 2025 Annual Report pp.99-100. As % of Tier 1 capital $28,559M (CC1 table).",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$99M. +100bp = +$86M. As % of FY2025 whole-bank consolidated Net Interest Income ($4,518M): -2.2%. As % of Tier 1 capital: -0.35%.",
         "newMetricsSource": "2025 Annual Report (fiscal year ended October 31, 2025) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "roa": "Computed, not disclosed: quarterly net income $1,059M annualised (x4) divided by period-end total assets $576.9B = 0.73%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1189,14 +1201,15 @@
         "wholesaleFundingPct": 34.38,
         "retailDepositsPct": 28.23,
         "wholesaleDepositsPct": 71.77,
-        "stableDepositsPct": 7.06,
-        "lessStableDepositsPct": 12.65,
-        "operationalDepositsPct": 10.34,
-        "nonOperationalDepositsPct": 19.93,
+        "stableDepositsPct": 35.82,
+        "lessStableDepositsPct": 64.18,
+        "operationalDepositsPct": 34.16,
+        "nonOperationalDepositsPct": 65.84,
         "irrbbEveSensitivityPct": -2.51,
         "irrbbNiiSensitivityPct": -0.33,
         "tlacLeverageRatio": 9.2,
-        "dividendPayoutRatio": 45.1
+        "dividendPayoutRatio": 45.1,
+        "roa": 0.83
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.27%); no single consolidated whole-bank NIM headline figure is published.",
@@ -1206,15 +1219,16 @@
         "wholesaleFundingPct": "[EDTF wholesale funding table total $149,645M] + [repo $58,661M] = $208,306M ÷ total assets $605,900M. Repo balance rose sharply vs prior quarters. EDTF-only = 24.7%.",
         "retailDepositsPct": "Personal deposits $125,878M ÷ total deposits $445,874M.",
         "wholesaleDepositsPct": "Business and government $313,895M + deposit-taking institutions $6,101M = $319,996M ÷ $445,874M.",
-        "stableDepositsPct": "LCR table, quarter ended Jan 31 2026: stable retail deposits $31,471M ÷ total deposits $445,874M.",
-        "lessStableDepositsPct": "Less stable retail deposits $56,387M ÷ total deposits $445,874M.",
-        "operationalDepositsPct": "Operational deposits $46,105M ÷ total deposits $445,874M.",
-        "nonOperationalDepositsPct": "Non-operational deposits $88,853M ÷ total deposits $445,874M.",
+        "stableDepositsPct": "Stable deposits $31,471M as a share of total retail and small-business deposits $87,858M ($31,471M stable + $56,387M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $56,387M as a share of total retail and small-business deposits $87,858M ($31,471M stable + $56,387M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $46,105M as a share of total wholesale deposits $134,958M ($46,105M operational + $88,853M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $88,853M as a share of total wholesale deposits $134,958M ($46,105M operational + $88,853M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$719M as at Jan 31 2026. As % of Tier 1 capital $28,619M.",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$95M. +100bp = +$81M. As % of Tier 1 capital $28,619M.",
         "newMetricsSource": "Q1 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "roa": "Computed, not disclosed: quarterly net income $1,254M annualised (x4) divided by period-end total assets $605.9B = 0.83%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1383,14 +1397,15 @@
         "wholesaleFundingPct": 33.37,
         "retailDepositsPct": 28.36,
         "wholesaleDepositsPct": 71.64,
-        "stableDepositsPct": 7.04,
-        "lessStableDepositsPct": 12.75,
-        "operationalDepositsPct": 10.39,
-        "nonOperationalDepositsPct": 20.9,
+        "stableDepositsPct": 35.58,
+        "lessStableDepositsPct": 64.42,
+        "operationalDepositsPct": 33.19,
+        "nonOperationalDepositsPct": 66.81,
         "irrbbEveSensitivityPct": -2.64,
         "irrbbNiiSensitivityPct": -0.22,
         "tlacLeverageRatio": 9.0,
-        "dividendPayoutRatio": 42.3
+        "dividendPayoutRatio": 42.3,
+        "roa": 0.8
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.26%); no single consolidated whole-bank NIM headline figure is published. On a total consolidated balance-sheet basis (including trading assets), National Bank's Supplementary Financial Information also discloses a lower 'Net Interest Margin' of 0.90% for Q2 2026 -- this reflects a different denominator (all average interest-bearing assets including trading books) and is not comparable to the P&C segment NIM used here.",
@@ -1401,15 +1416,16 @@
         "wholesaleFundingPct": "[EDTF wholesale funding table total $146,820M] + [repo $59,330M] = $206,150M ÷ total assets $617,700M. EDTF-only = 23.8%.",
         "retailDepositsPct": "Personal deposits $127,836M ÷ total deposits $450,711M.",
         "wholesaleDepositsPct": "Business and government $317,344M + deposit-taking institutions $5,531M = $322,875M ÷ $450,711M.",
-        "stableDepositsPct": "LCR table, quarter ended Apr 30 2026: stable retail deposits $31,731M ÷ total deposits $450,711M.",
-        "lessStableDepositsPct": "Less stable retail deposits $57,451M ÷ total deposits $450,711M.",
-        "operationalDepositsPct": "Operational deposits $46,808M ÷ total deposits $450,711M.",
-        "nonOperationalDepositsPct": "Non-operational deposits $94,210M ÷ total deposits $450,711M.",
+        "stableDepositsPct": "Stable deposits $31,731M as a share of total retail and small-business deposits $89,182M ($31,731M stable + $57,451M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $57,451M as a share of total retail and small-business deposits $89,182M ($31,731M stable + $57,451M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $46,808M as a share of total wholesale deposits $141,018M ($46,808M operational + $94,210M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $94,210M as a share of total wholesale deposits $141,018M ($46,808M operational + $94,210M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$765M as at Apr 30 2026 (largest sensitivity in the trend, consistent with continued balance-sheet growth post-CWB). As % of Tier 1 capital $28,925M.",
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$64M (magnitude notably smaller than prior quarters; +100bp scenario = +$65M, near-symmetric). As % of Tier 1 capital $28,925M.",
         "newMetricsSource": "Q2 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks."
+        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "roa": "Computed, not disclosed: quarterly net income $1,234M annualised (x4) divided by period-end total assets $617.7B = 0.80%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {

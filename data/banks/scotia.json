@@ -30,15 +30,16 @@
         "loanToDepositRatio": 80.68,
         "retailDepositsPct": 31.26,
         "wholesaleDepositsPct": 68.74,
-        "stableDepositsPct": 10.43,
-        "lessStableDepositsPct": 14.91,
-        "operationalDepositsPct": 12.4,
-        "nonOperationalDepositsPct": 18.1,
+        "stableDepositsPct": 41.16,
+        "lessStableDepositsPct": 58.84,
+        "operationalDepositsPct": 40.66,
+        "nonOperationalDepositsPct": 59.34,
         "irrbbEveSensitivityPct": -2.06,
         "irrbbNiiSensitivityPct": -0.08,
         "wholesaleFundingPct": 32.05,
         "tlacLeverageRatio": 8.5,
-        "dividendPayoutRatio": null
+        "dividendPayoutRatio": null,
+        "roa": 0.5
       },
       "notes": {
         "nsfr": "Net Stable Funding Ratio (NSFR) %, from the Q2 2026 SFI Highlights 'Capital and Liquidity Measures' 9-quarter trend.",
@@ -51,15 +52,16 @@
         "retailDepositsPct": "Personal deposits $296,750mm ÷ total deposits $949,201mm.",
         "wholesaleDepositsPct": "Business & government ($606,964mm) + Financial institutions ($45,487mm) deposits ÷ total deposits.",
         "newMetricsSource": "Q2 2026 Supplementary Financial Information (Consolidated Statement of Financial Position, Spot Balances, 9-quarter trend) — https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-        "stableDepositsPct": "Stable deposits: unweighted average $99,000M (LCR common disclosure template, Scotiabank Q3 2024 Report to Shareholders) ÷ total balance-sheet deposits $949,201M = 10.43%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "lessStableDepositsPct": "Less stable deposits: unweighted average $141,503M (LCR common disclosure template, Scotiabank Q3 2024 Report to Shareholders) ÷ total balance-sheet deposits $949,201M = 14.91%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $117,695M (LCR common disclosure template, Scotiabank Q3 2024 Report to Shareholders) ÷ total balance-sheet deposits $949,201M = 12.4%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $171,775M (LCR common disclosure template, Scotiabank Q3 2024 Report to Shareholders) ÷ total balance-sheet deposits $949,201M = 18.1%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
+        "stableDepositsPct": "Stable deposits $99,000M as a share of total retail and small-business deposits $240,503M ($99,000M stable + $141,503M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $141,503M as a share of total retail and small-business deposits $240,503M ($99,000M stable + $141,503M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $117,695M as a share of total wholesale deposits $289,470M ($117,695M operational + $171,775M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $171,775M as a share of total wholesale deposits $289,470M ($117,695M operational + $171,775M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q3 2024 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = -$1,427mm (most adverse of the two disclosed scenarios; the -100bp EVE impact is positive) ÷ Net Tier 1 capital $69,299mm = -2.06%. This %-of-Tier-1 framing is ours for cross-bank comparability; Scotiabank discloses only the raw dollar figures.",
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = -$54mm ÷ Net Tier 1 capital $69,299mm = -0.08%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount).",
         "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $270,764M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $178,595M (Consolidated Statement of Financial Position) = $449,359M ÷ total assets $1,402,000M = 32.05%. Both components disclosed quarterly in the Scotiabank Q3 2024 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.31%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists.",
+        "roa": "Computed, not disclosed: quarterly net income $1,756M annualised (x4) divided by period-end total assets $1,402.0B = 0.50%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -219,14 +221,15 @@
         "wholesaleFundingPct": 32.57,
         "retailDepositsPct": 31.66,
         "wholesaleDepositsPct": 68.34,
-        "stableDepositsPct": 10.7,
-        "lessStableDepositsPct": 15.1,
-        "operationalDepositsPct": 12.17,
-        "nonOperationalDepositsPct": 17.95,
+        "stableDepositsPct": 41.48,
+        "lessStableDepositsPct": 58.52,
+        "operationalDepositsPct": 40.41,
+        "nonOperationalDepositsPct": 59.59,
         "irrbbEveSensitivityPct": -1.93,
         "irrbbNiiSensitivityPct": -0.03,
         "tlacLeverageRatio": 8.8,
-        "dividendPayoutRatio": null
+        "dividendPayoutRatio": null,
+        "roa": 0.43
       },
       "notes": {
         "roe": "Reported ROE 8.3%; adjusted ROE was 10.6% for the quarter.",
@@ -237,15 +240,16 @@
         "wholesaleFundingPct": "Computed: Table T58 'Total wholesale funding sources' $269,507mm (bank deposits, bearer deposit notes/CP/CDs, ABCP, senior notes, bail-inable notes, ABS, covered bonds, mortgage securitization, subordinated debentures — excludes repo per T58 footnote 1) plus 'Obligations related to securities sold under repurchase agreements and securities lent' $190,449mm (balance sheet) = $459,956mm, divided by total assets $1,412,027mm = 32.57%. Excluding repo (Scotiabank's own T58 scope only) the figure is 19.09%.",
         "retailDepositsPct": "Personal deposits $298,821mm ÷ total deposits $943,849mm.",
         "wholesaleDepositsPct": "Business & government ($600,114mm) + Financial institutions ($44,914mm) ÷ total deposits $943,849mm.",
-        "stableDepositsPct": "LCR Table T56, 'Retail deposits and deposits from small business customers — Stable deposits' unweighted value $100,986mm ÷ total balance-sheet deposits $943,849mm = 10.70%. Caution: T56 unweighted values represent only balances maturing or callable within the next 30 days — i.e. this excludes term/GIC deposits with longer residual maturity, so it understates the true share of total deposits that would ultimately be classified stable if a full LCR-style categorization covered 100% of the deposit book. Sum of the four LCR categories here ($527,773mm) is only ~56% of total deposits; the remainder (mostly longer-dated term deposits and secured wholesale funding) is not captured by this table.",
-        "lessStableDepositsPct": "T56 'Less stable deposits' unweighted value $142,492mm ÷ total deposits $943,849mm. Same 30-day-window caveat as stableDepositsPct applies.",
-        "operationalDepositsPct": "T56 'Operational deposits (all counterparties) and deposits in networks of cooperative banks' unweighted value $114,881mm ÷ total deposits $943,849mm. Same caveat applies.",
-        "nonOperationalDepositsPct": "T56 'Non-operational deposits (all counterparties)' unweighted value $169,414mm ÷ total deposits $943,849mm. Same caveat applies.",
+        "stableDepositsPct": "Stable deposits $100,986M as a share of total retail and small-business deposits $243,478M ($100,986M stable + $142,492M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $142,492M as a share of total retail and small-business deposits $243,478M ($100,986M stable + $142,492M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $114,881M as a share of total wholesale deposits $284,295M ($114,881M operational + $169,414M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $169,414M as a share of total wholesale deposits $284,295M ($114,881M operational + $169,414M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Scotiabank discloses only two shock scenarios (not the full Basel six): an immediate/sustained parallel +100bp and -100bp shock across major currencies (Table T50). FY2024 pre-tax EVE impact: +100bp = -$1,338mm (most adverse); -100bp = +$780mm. Most adverse (-$1,338mm) ÷ Tier 1 capital $69,499mm (Q4 2024 Supplementary Regulatory Capital Disclosure) = -1.93%. This %-of-Tier-1 computation is ours; Scotiabank itself only discloses the raw dollar figures and states results are 'within Board-approved limits' without disclosing the limit or a capital-ratio framing.",
         "irrbbNiiSensitivityPct": "Same +100bp parallel shock (Table T50): pre-tax 12-month NII impact = -$21mm (FY2024). Expressed as % of FY2024 reported net interest income ($19,252mm) = -0.11%. As % of Tier 1 capital instead: -0.03%. The -100bp scenario showed -$31mm (-0.16% of NII). [Re-based to % of Tier 1 capital = -0.03% (previously -0.11% of NII) for cross-bank consistency.]",
         "newMetricsSource": "2024 Scotiabank Annual Report (Consolidated Financial Statements, Note 21 Deposits; Table T50 Structural Interest Sensitivity; Table T56 Bank's average LCR; Table T58 Wholesale Funding); Q4 2024 Supplementary Regulatory Capital Disclosure (Tier 1 capital) — https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists.",
+        "roa": "Computed, not disclosed: quarterly net income $1,521M annualised (x4) divided by period-end total assets $1,412.0B = 0.43%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -412,15 +416,16 @@
         "loanToDepositRatio": 80.03,
         "retailDepositsPct": 31.45,
         "wholesaleDepositsPct": 68.55,
-        "stableDepositsPct": 10.69,
-        "lessStableDepositsPct": 15.13,
-        "operationalDepositsPct": 11.7,
-        "nonOperationalDepositsPct": 17.48,
+        "stableDepositsPct": 41.42,
+        "lessStableDepositsPct": 58.58,
+        "operationalDepositsPct": 40.1,
+        "nonOperationalDepositsPct": 59.9,
         "irrbbEveSensitivityPct": -1.62,
         "irrbbNiiSensitivityPct": 0.14,
         "wholesaleFundingPct": 32.05,
         "tlacLeverageRatio": 8.5,
-        "dividendPayoutRatio": null
+        "dividendPayoutRatio": null,
+        "roa": 0.28
       },
       "notes": {
         "roe": "Reported ROE 5.5%, depressed by a $1,362M impairment loss related to the announced sale of Colombia, Costa Rica, and Panama operations to Davivienda. Adjusted ROE was 11.8%.",
@@ -435,15 +440,16 @@
         "wholesaleDepositsPct": "Business & government ($617,874mm) + Financial institutions ($44,377mm) ÷ total deposits.",
         "newMetricsSource": "Q2 2026 Supplementary Financial Information (Consolidated Statement of Financial Position, Spot Balances, 9-quarter trend) — https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
         "nsfr": "Net Stable Funding Ratio (NSFR) %, from the Q2 2026 SFI Highlights 'Capital and Liquidity Measures' 9-quarter trend.",
-        "stableDepositsPct": "Stable deposits: unweighted average $103,304M (LCR common disclosure template, Scotiabank Q1 2025 Report to Shareholders) ÷ total balance-sheet deposits $966,049M = 10.69%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "lessStableDepositsPct": "Less stable deposits: unweighted average $146,126M (LCR common disclosure template, Scotiabank Q1 2025 Report to Shareholders) ÷ total balance-sheet deposits $966,049M = 15.13%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $113,037M (LCR common disclosure template, Scotiabank Q1 2025 Report to Shareholders) ÷ total balance-sheet deposits $966,049M = 11.7%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $168,839M (LCR common disclosure template, Scotiabank Q1 2025 Report to Shareholders) ÷ total balance-sheet deposits $966,049M = 17.48%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
+        "stableDepositsPct": "Stable deposits $103,304M as a share of total retail and small-business deposits $249,430M ($103,304M stable + $146,126M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $146,126M as a share of total retail and small-business deposits $249,430M ($103,304M stable + $146,126M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $113,037M as a share of total wholesale deposits $281,876M ($113,037M operational + $168,839M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $168,839M as a share of total wholesale deposits $281,876M ($113,037M operational + $168,839M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q1 2025 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = -$1,147mm (most adverse of the two disclosed scenarios; the -100bp EVE impact is positive) ÷ Net Tier 1 capital $70,592mm = -1.62%. This %-of-Tier-1 framing is ours for cross-bank comparability; Scotiabank discloses only the raw dollar figures.",
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = +$102mm ÷ Net Tier 1 capital $70,592mm = 0.14%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount).",
         "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $278,878M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $182,259M (Consolidated Statement of Financial Position) = $461,137M ÷ total assets $1,439,000M = 32.05%. Both components disclosed quarterly in the Scotiabank Q1 2025 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.38%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists.",
+        "roa": "Computed, not disclosed: quarterly net income $993M annualised (x4) divided by period-end total assets $1,439.0B = 0.28%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -600,15 +606,16 @@
         "loanToDepositRatio": 80.72,
         "retailDepositsPct": 31.83,
         "wholesaleDepositsPct": 68.17,
-        "stableDepositsPct": 11.14,
-        "lessStableDepositsPct": 16.25,
-        "operationalDepositsPct": 11.98,
-        "nonOperationalDepositsPct": 17.31,
+        "stableDepositsPct": 40.67,
+        "lessStableDepositsPct": 59.33,
+        "operationalDepositsPct": 40.91,
+        "nonOperationalDepositsPct": 59.09,
         "irrbbEveSensitivityPct": -1.84,
         "irrbbNiiSensitivityPct": 0.25,
         "wholesaleFundingPct": 31.73,
         "tlacLeverageRatio": 8.9,
-        "dividendPayoutRatio": null
+        "dividendPayoutRatio": null,
+        "roa": 0.52
       },
       "notes": {
         "roe": "Reported ROE 10.1%; adjusted ROE was 10.4%.",
@@ -620,15 +627,16 @@
         "retailDepositsPct": "Personal deposits $301,069mm ÷ total deposits $945,843mm.",
         "wholesaleDepositsPct": "Business & government ($604,307mm) + Financial institutions ($40,467mm) ÷ total deposits.",
         "newMetricsSource": "Q2 2026 Supplementary Financial Information (Consolidated Statement of Financial Position, Spot Balances, 9-quarter trend) — https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-        "stableDepositsPct": "Stable deposits: unweighted average $105,364M (LCR common disclosure template, Scotiabank Q2 2025 Report to Shareholders) ÷ total balance-sheet deposits $945,843M = 11.14%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "lessStableDepositsPct": "Less stable deposits: unweighted average $153,729M (LCR common disclosure template, Scotiabank Q2 2025 Report to Shareholders) ÷ total balance-sheet deposits $945,843M = 16.25%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $113,351M (LCR common disclosure template, Scotiabank Q2 2025 Report to Shareholders) ÷ total balance-sheet deposits $945,843M = 11.98%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $163,721M (LCR common disclosure template, Scotiabank Q2 2025 Report to Shareholders) ÷ total balance-sheet deposits $945,843M = 17.31%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
+        "stableDepositsPct": "Stable deposits $105,364M as a share of total retail and small-business deposits $259,093M ($105,364M stable + $153,729M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $153,729M as a share of total retail and small-business deposits $259,093M ($105,364M stable + $153,729M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $113,351M as a share of total wholesale deposits $277,072M ($113,351M operational + $163,721M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $163,721M as a share of total wholesale deposits $277,072M ($113,351M operational + $163,721M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q2 2025 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = -$1,299mm (most adverse of the two disclosed scenarios; the -100bp EVE impact is positive) ÷ Net Tier 1 capital $70,740mm = -1.84%. This %-of-Tier-1 framing is ours for cross-bank comparability; Scotiabank discloses only the raw dollar figures.",
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = +$174mm ÷ Net Tier 1 capital $70,740mm = 0.25%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount).",
         "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $271,055M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $177,987M (Consolidated Statement of Financial Position) = $449,042M ÷ total assets $1,415,000M = 31.73%. Both components disclosed quarterly in the Scotiabank Q2 2025 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.16%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists.",
+        "roa": "Computed, not disclosed: quarterly net income $1,841M annualised (x4) divided by period-end total assets $1,415.0B = 0.52%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -791,15 +799,16 @@
         "loanToDepositRatio": 81.19,
         "retailDepositsPct": 31.84,
         "wholesaleDepositsPct": 68.16,
-        "stableDepositsPct": 11.25,
-        "lessStableDepositsPct": 16.49,
-        "operationalDepositsPct": 11.63,
-        "nonOperationalDepositsPct": 17.19,
+        "stableDepositsPct": 40.55,
+        "lessStableDepositsPct": 59.45,
+        "operationalDepositsPct": 40.37,
+        "nonOperationalDepositsPct": 59.63,
         "irrbbEveSensitivityPct": -2.22,
         "irrbbNiiSensitivityPct": 0.2,
         "wholesaleFundingPct": 31.65,
         "tlacLeverageRatio": 8.6,
-        "dividendPayoutRatio": null
+        "dividendPayoutRatio": null,
+        "roa": 0.65
       },
       "notes": {
         "lcr": "Liquidity Coverage Ratio (LCR) %, from the Q2 2026 SFI Highlights 'Capital and Liquidity Measures' 9-quarter trend (quarterly average).",
@@ -812,15 +821,16 @@
         "retailDepositsPct": "Personal deposits $301,464mm ÷ total deposits $946,842mm.",
         "wholesaleDepositsPct": "Business & government ($605,934mm) + Financial institutions ($39,444mm) ÷ total deposits.",
         "newMetricsSource": "Q2 2026 Supplementary Financial Information (Consolidated Statement of Financial Position, Spot Balances, 9-quarter trend) — https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-        "stableDepositsPct": "Stable deposits: unweighted average $106,518M (LCR common disclosure template, Scotiabank Q3 2025 Report to Shareholders) ÷ total balance-sheet deposits $946,842M = 11.25%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "lessStableDepositsPct": "Less stable deposits: unweighted average $156,135M (LCR common disclosure template, Scotiabank Q3 2025 Report to Shareholders) ÷ total balance-sheet deposits $946,842M = 16.49%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $110,141M (LCR common disclosure template, Scotiabank Q3 2025 Report to Shareholders) ÷ total balance-sheet deposits $946,842M = 11.63%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $162,721M (LCR common disclosure template, Scotiabank Q3 2025 Report to Shareholders) ÷ total balance-sheet deposits $946,842M = 17.19%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
+        "stableDepositsPct": "Stable deposits $106,518M as a share of total retail and small-business deposits $262,653M ($106,518M stable + $156,135M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $156,135M as a share of total retail and small-business deposits $262,653M ($106,518M stable + $156,135M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $110,141M as a share of total wholesale deposits $272,862M ($110,141M operational + $162,721M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $162,721M as a share of total wholesale deposits $272,862M ($110,141M operational + $162,721M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q3 2025 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = -$1,559mm (most adverse of the two disclosed scenarios; the -100bp EVE impact is positive) ÷ Net Tier 1 capital $70,225mm = -2.22%. This %-of-Tier-1 framing is ours for cross-bank comparability; Scotiabank discloses only the raw dollar figures.",
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = +$137mm ÷ Net Tier 1 capital $70,225mm = 0.2%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount).",
         "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $265,537M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $182,223M (Consolidated Statement of Financial Position) = $447,760M ÷ total assets $1,414,700M = 31.65%. Both components disclosed quarterly in the Scotiabank Q3 2025 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 18.77%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists.",
+        "roa": "Computed, not disclosed: quarterly net income $2,313M annualised (x4) divided by period-end total assets $1,414.7B = 0.65%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -988,14 +998,15 @@
         "wholesaleFundingPct": 31.5,
         "retailDepositsPct": 31.22,
         "wholesaleDepositsPct": 68.78,
-        "stableDepositsPct": 11.06,
-        "lessStableDepositsPct": 16.36,
-        "operationalDepositsPct": 11.47,
-        "nonOperationalDepositsPct": 16.49,
+        "stableDepositsPct": 40.32,
+        "lessStableDepositsPct": 59.68,
+        "operationalDepositsPct": 41.02,
+        "nonOperationalDepositsPct": 58.98,
         "irrbbEveSensitivityPct": -2.15,
         "irrbbNiiSensitivityPct": 0.32,
         "tlacLeverageRatio": 8.5,
-        "dividendPayoutRatio": null
+        "dividendPayoutRatio": null,
+        "roa": 0.58
       },
       "notes": {
         "roe": "Reported ROE 11.0%; adjusted ROE was 12.5%.",
@@ -1006,15 +1017,16 @@
         "wholesaleFundingPct": "Computed: Table T58 total wholesale funding sources $270,771mm (excludes repo) + repo obligations $189,144mm = $459,915mm ÷ total assets $1,460,042mm = 31.50%. Excluding repo (Scotiabank's own T58 scope): 18.55%.",
         "retailDepositsPct": "Personal deposits $301,718mm ÷ total deposits $966,279mm.",
         "wholesaleDepositsPct": "Business & government ($627,667mm) + Financial institutions ($36,894mm) ÷ total deposits $966,279mm.",
-        "stableDepositsPct": "LCR Table T56 (quarter ended Oct 31, 2025) 'Stable deposits' unweighted value $106,841mm ÷ total deposits $966,279mm = 11.06%. Same 30-day-window scope caveat as Q4 2024 applies (T56 excludes deposits not maturing/callable within 30 days, so this understates full-book share).",
-        "lessStableDepositsPct": "T56 'Less stable deposits' unweighted value $158,125mm ÷ total deposits $966,279mm.",
-        "operationalDepositsPct": "T56 'Operational deposits' unweighted value $110,842mm ÷ total deposits $966,279mm.",
-        "nonOperationalDepositsPct": "T56 'Non-operational deposits' unweighted value $159,368mm ÷ total deposits $966,279mm.",
+        "stableDepositsPct": "Stable deposits $106,841M as a share of total retail and small-business deposits $264,966M ($106,841M stable + $158,125M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $158,125M as a share of total retail and small-business deposits $264,966M ($106,841M stable + $158,125M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $110,842M as a share of total wholesale deposits $270,210M ($110,842M operational + $159,368M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $159,368M as a share of total wholesale deposits $270,210M ($110,842M operational + $159,368M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "FY2025 Table T50: +100bp parallel shock EVE impact = -$1,568mm (most adverse of the two disclosed scenarios; -100bp gave +$1,201mm) ÷ Tier 1 capital $72,790mm (Q4 2025 Supplementary Regulatory Capital Disclosure, KM1 table) = -2.15%. Our computation; not a ratio Scotiabank itself discloses.",
         "irrbbNiiSensitivityPct": "Same +100bp shock: pre-tax 12-month NII impact = +$236mm (FY2025) ÷ FY2025 reported NII $21,522mm = +1.10%. As % of Tier 1 capital instead: +0.32%. The -100bp scenario showed -$245mm (-1.14% of NII). [Re-based to % of Tier 1 capital = 0.32% (previously 1.1% of NII) for cross-bank consistency.]",
         "newMetricsSource": "2025 Scotiabank Annual Report (Note 21 Deposits; Table T50 Structural Interest Sensitivity; Table T56 Bank's average LCR; Table T58 Wholesale Funding); Q4 2025 Supplementary Regulatory Capital Disclosure (Tier 1 capital) — https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists.",
+        "roa": "Computed, not disclosed: quarterly net income $2,104M annualised (x4) divided by period-end total assets $1,460.0B = 0.58%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1183,7 +1195,8 @@
         "irrbbEveSensitivityPct": -2.2,
         "irrbbNiiSensitivityPct": 0.29,
         "tlacLeverageRatio": 8.3,
-        "dividendPayoutRatio": null
+        "dividendPayoutRatio": null,
+        "roa": 0.58
       },
       "notes": {
         "roe": "Reported ROE 11.1%; adjusted ROE was 13.0%.",
@@ -1199,7 +1212,8 @@
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q1 2026 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = -$1,603mm (most adverse of the two disclosed scenarios; the -100bp EVE impact is positive) ÷ Net Tier 1 capital $72,956mm = -2.2%. This %-of-Tier-1 framing is ours for cross-bank comparability; Scotiabank discloses only the raw dollar figures. (Q1 2026's own report renders T23 with non-decodable glyphs, so the figure is taken from the Q2 2026 report, which restates Jan-31-2026 as its prior-quarter column.)",
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = +$215mm ÷ Net Tier 1 capital $72,956mm = 0.29%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount). (Q1 2026's own report renders T23 with non-decodable glyphs, so the figure is taken from the Q2 2026 report, which restates Jan-31-2026 as its prior-quarter column.)",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists.",
+        "roa": "Computed, not disclosed: quarterly net income $2,155M annualised (x4) divided by period-end total assets $1,476.0B = 0.58%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1323,15 +1337,16 @@
         "loanToDepositRatio": 77.9,
         "retailDepositsPct": 30.08,
         "wholesaleDepositsPct": 69.92,
-        "stableDepositsPct": 10.77,
-        "lessStableDepositsPct": 16.46,
-        "operationalDepositsPct": 12.08,
-        "nonOperationalDepositsPct": 16.48,
+        "stableDepositsPct": 39.55,
+        "lessStableDepositsPct": 60.45,
+        "operationalDepositsPct": 42.3,
+        "nonOperationalDepositsPct": 57.7,
         "irrbbEveSensitivityPct": -2.56,
         "irrbbNiiSensitivityPct": 0.27,
         "wholesaleFundingPct": 35.29,
         "tlacLeverageRatio": 8.0,
-        "dividendPayoutRatio": null
+        "dividendPayoutRatio": null,
+        "roa": 0.65
       },
       "notes": {
         "roe": "Reported ROE 13.1%; adjusted ROE was 13.2%.",
@@ -1346,15 +1361,16 @@
         "retailDepositsPct": "Personal deposits $295,240mm ÷ total deposits $981,489mm.",
         "wholesaleDepositsPct": "Business & government ($644,305mm) + Financial institutions ($41,944mm) ÷ total deposits.",
         "newMetricsSource": "Q2 2026 Supplementary Financial Information (Consolidated Statement of Financial Position, Spot Balances, 9-quarter trend) — https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-        "stableDepositsPct": "Stable deposits: unweighted average $105,699M (LCR common disclosure template, Scotiabank Q2 2026 Report to Shareholders) ÷ total balance-sheet deposits $981,489M = 10.77%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "lessStableDepositsPct": "Less stable deposits: unweighted average $161,551M (LCR common disclosure template, Scotiabank Q2 2026 Report to Shareholders) ÷ total balance-sheet deposits $981,489M = 16.46%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "operationalDepositsPct": "Operational deposits (all counterparties): unweighted average $118,568M (LCR common disclosure template, Scotiabank Q2 2026 Report to Shareholders) ÷ total balance-sheet deposits $981,489M = 12.08%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
-        "nonOperationalDepositsPct": "Non-operational deposits (all counterparties): unweighted average $161,721M (LCR common disclosure template, Scotiabank Q2 2026 Report to Shareholders) ÷ total balance-sheet deposits $981,489M = 16.48%. Scotiabank discloses this template quarterly. Denominator = total deposits, matching Scotiabank's existing method.",
+        "stableDepositsPct": "Stable deposits $105,699M as a share of total retail and small-business deposits $267,250M ($105,699M stable + $161,551M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $161,551M as a share of total retail and small-business deposits $267,250M ($105,699M stable + $161,551M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $118,568M as a share of total wholesale deposits $280,289M ($118,568M operational + $161,721M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $161,721M as a share of total wholesale deposits $280,289M ($118,568M operational + $161,721M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q2 2026 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = -$1,871mm (most adverse of the two disclosed scenarios; the -100bp EVE impact is positive) ÷ Net Tier 1 capital $72,961mm = -2.56%. This %-of-Tier-1 framing is ours for cross-bank comparability; Scotiabank discloses only the raw dollar figures.",
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = +$197mm ÷ Net Tier 1 capital $72,961mm = 0.27%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount).",
         "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $298,214M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $238,663M (Consolidated Statement of Financial Position) = $536,877M ÷ total assets $1,521,500M = 35.29%. Both components disclosed quarterly in the Scotiabank Q2 2026 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.6%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists."
+        "dividendPayoutRatio": "Not disclosed quarterly. Scotiabank reports a dividend payout ratio only for the full fiscal year (71.0% for 2024; 73.7% reported / 60.7% adjusted for 2025), so no comparable quarterly figure exists.",
+        "roa": "Computed, not disclosed: quarterly net income $2,468M annualised (x4) divided by period-end total assets $1,521.5B = 0.65%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
