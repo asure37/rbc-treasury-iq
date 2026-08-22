@@ -68,7 +68,7 @@ export function RankHeatmap() {
       // higherIsBetter === null → no agreed direction (e.g. dividend payout ratio, where a
       // higher payout returns more to shareholders but retains less capital). Such a metric
       // is displayed but never ranked: ordering it would assert a judgement the data does
-      // not support, and it would then leak into the overall average-rank score.
+      // not support, and it would then leak into the row ordering.
       const sorted =
         meta.higherIsBetter === null
           ? []
@@ -87,7 +87,7 @@ export function RankHeatmap() {
     const visibleKeys = KEYS.filter((k) => !hiddenKeys.has(k));
     const visibleGroups = GROUPS.map((g) => ({ ...g, keys: g.keys.filter((k) => !hiddenKeys.has(k)) })).filter((g) => g.keys.length > 0);
 
-    // Rows + the "overall" score reflect only the metrics currently shown.
+    // avgRank orders the peer rows only; it is no longer displayed as a column.
     const rows = banks
       .map((bank) => {
         const cells = visibleKeys.map((k) => rankOf[bank.bankId][k]);
@@ -95,7 +95,13 @@ export function RankHeatmap() {
         const avgRank = ranked.length ? ranked.reduce((s, c) => s + (c.rank as number), 0) / ranked.length : Infinity;
         return { bank, cells, avgRank };
       })
-      .sort((a, b) => a.avgRank - b.avgRank);
+      // The home institution is pinned to the top as the subject of the comparison —
+      // it is a reading order, not a standing. Everyone else follows in average-rank
+      // order so the table still carries information beyond the per-metric cells.
+      .sort((a, b) => {
+        if (a.bank.isHomeInstitution !== b.bank.isHomeInstitution) return a.bank.isHomeInstitution ? -1 : 1;
+        return a.avgRank - b.avgRank;
+      });
 
     return { rows, metaByKey, visibleKeys, visibleGroups };
   }, [banks, metricsMeta, period, hiddenKeys]);
@@ -103,12 +109,6 @@ export function RankHeatmap() {
   const n = rows.length;
   if (!n || !period) return null;
 
-  // Colour the "overall" standing by the actual average-rank score (not row position) so
-  // near-tied banks read as near-identical shades — showing how close the race really is.
-  const finite = rows.map((r) => r.avgRank).filter((v) => Number.isFinite(v));
-  const minAvg = Math.min(...finite);
-  const maxAvg = Math.max(...finite);
-  const scoreT = (avg: number) => (maxAvg > minAvg && Number.isFinite(avg) ? (avg - minAvg) / (maxAvg - minAvg) : 0);
 
   const goToMetric = (key: MetricKey) => {
     setFocusMetric(key);
@@ -128,7 +128,7 @@ export function RankHeatmap() {
     });
   };
 
-  const tableMinWidth = 224 + visibleKeys.length * 86 + 108 + (visibleKeys.length + 2) * 4;
+  const tableMinWidth = 224 + visibleKeys.length * 86 + (visibleKeys.length + 1) * 4;
 
   return (
     <GlassCard className="p-5 sm:p-6">
@@ -173,7 +173,7 @@ export function RankHeatmap() {
         </div>
       </div>
 
-      {/* Metric picker — toggle any metric off; the ranking & overall recompute on what's shown. Default: all on. */}
+      {/* Metric picker — toggle any metric off; ranking recomputes on what's shown. Default: all on. */}
       <div className="mb-4 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-border-soft pt-3">
         <span className="text-[10px] font-semibold uppercase tracking-wider text-text-muted">Metrics</span>
         {GROUPS.map((g) => (
@@ -214,12 +214,11 @@ export function RankHeatmap() {
           style={{ minWidth: tableMinWidth }}
         >
           <colgroup>
-            {/* Institution, then equal-width metric columns, then a slightly wider Overall column. */}
+            {/* Institution, then equal-width metric columns. */}
             <col style={{ width: 224 }} />
             {visibleKeys.map((k) => (
               <col key={k} style={{ width: 86 }} />
             ))}
-            <col style={{ width: 108 }} />
           </colgroup>
           <thead>
             <tr>
@@ -239,9 +238,6 @@ export function RankHeatmap() {
                   {g.label}
                 </th>
               ))}
-              <th rowSpan={2} className="px-2 pb-1 text-center align-bottom text-[11px] font-semibold uppercase tracking-wider text-text-secondary">
-                Overall
-              </th>
             </tr>
             <tr>
               {visibleKeys.map((k) => {
@@ -266,7 +262,6 @@ export function RankHeatmap() {
           <tbody>
             {rows.map((row, ri) => {
               const isHome = row.bank.isHomeInstitution;
-              const [pr, pg, pb] = heatRgb(scoreT(row.avgRank));
               return (
                 <tr
                   key={row.bank.bankId}
@@ -280,13 +275,13 @@ export function RankHeatmap() {
                     )}
                   >
                     <div className="flex items-center gap-2.5">
+                      {/* No position number: with the home institution pinned to the top, an
+                          index would read as a standing the bank has not earned. Ranking now
+                          lives only in the per-metric cells, where it is actually computed. */}
                       <span
-                        className="grid size-6 shrink-0 place-items-center rounded-full text-[11px] font-bold tabular-nums"
-                        style={{ background: `rgba(${pr},${pg},${pb},0.18)`, color: `rgb(${pr},${pg},${pb})`, boxShadow: `inset 0 0 0 1px rgba(${pr},${pg},${pb},0.5)` }}
-                      >
-                        {ri + 1}
-                      </span>
-                      <span className="size-2.5 shrink-0 rounded-full" style={{ background: row.bank.colorHex }} />
+                        className="size-3 shrink-0 rounded-full"
+                        style={{ background: row.bank.colorHex, boxShadow: `0 0 0 3px ${row.bank.colorHex}22` }}
+                      />
                       <div className="min-w-0">
                         <div className="flex items-center gap-1 font-semibold text-text-primary">
                           {row.bank.ticker}
@@ -343,17 +338,6 @@ export function RankHeatmap() {
                     );
                   })}
 
-                  {/* Overall composite */}
-                  <td
-                    className="rounded-lg border px-2 py-1.5 text-center"
-                    style={{ background: `rgba(${pr},${pg},${pb},0.13)`, borderColor: `rgba(${pr},${pg},${pb},0.4)` }}
-                    title={`Average rank across ${row.cells.filter((c) => c.rank != null).length} metrics`}
-                  >
-                    <div className="font-display text-[13px] font-bold tabular-nums" style={{ color: `rgb(${pr},${pg},${pb})` }}>
-                      {Number.isFinite(row.avgRank) ? row.avgRank.toFixed(1) : "—"}
-                    </div>
-                    <div className="text-[9px] uppercase tracking-wide text-text-muted">avg rank</div>
-                  </td>
                 </tr>
               );
             })}
@@ -363,7 +347,8 @@ export function RankHeatmap() {
 
       <p className="mt-3 text-[11px] text-text-muted">
         Each cell shows the reported value and the bank&apos;s rank ({rows[0]?.cells[0]?.total ?? n} banks). ↑/↓ marks whether higher or lower is
-        better; metrics with no agreed direction are shown unranked and excluded from the overall score.
+        better; metrics with no agreed direction are shown unranked. RBC is pinned to the top row as the subject of the
+        comparison — that position is not a standing; peers below it follow in average-rank order.
         Click any metric to open its full peer comparison.
       </p>
     </GlassCard>
