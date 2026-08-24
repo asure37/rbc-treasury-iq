@@ -41,7 +41,8 @@
         "dividendPayoutRatio": 62.4,
         "roa": 0.54,
         "adjustedOperatingLeverage": 5.2,
-        "rotce": 13.9
+        "rotce": 13.9,
+        "equityMultiplier": 19.17
       },
       "notes": {
         "tier1CapitalRatio": "Tier 1 capital ratio %, BMO Q3 2024 Report to Shareholders capital table (Q3-2024).",
@@ -66,7 +67,8 @@
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.54% return on average assets, read from the supplementary financial information (page 7), in the column headed Q3 2024. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +5.2% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "Disclosed: 13.9% return on tangible common equity (reported basis, not the adjusted row), read from page 7 of the cited document in the column for Q3 2024. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
+        "rotce": "Disclosed: 13.9% return on tangible common equity (reported basis, not the adjusted row), read from page 7 of the cited document in the column for Q3 2024. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,385,866M divided by average common equity $72,305M = 19.17x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "tier1CapitalRatio": {
@@ -218,6 +220,11 @@
           "page": 7,
           "searchText": "13.9",
           "anchorText": "return on tangible common equity"
+        },
+        "equityMultiplier": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -257,7 +264,8 @@
         "dividendPayoutRatio": 52.6,
         "roa": 0.65,
         "adjustedOperatingLeverage": 2.4,
-        "rotce": 15.6
+        "rotce": 15.6,
+        "equityMultiplier": 18.92
       },
       "notes": {
         "roe": "reported ROE used (11.4%); adjusted ROE was notably lower (7.4%) this quarter due to a large positive one-time item (reversal of a prior legal provision) boosting reported income above adjusted income",
@@ -278,7 +286,8 @@
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.65% return on average assets, read from the supplementary financial information (page 7), in the column headed Q4 2024. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +2.4% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "Disclosed: 15.6% return on tangible common equity (reported basis, not the adjusted row), read from page 5 of the cited document in the column for Q4 2024. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
+        "rotce": "Disclosed: 15.6% return on tangible common equity (reported basis, not the adjusted row), read from page 5 of the cited document in the column for Q4 2024. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,418,952M divided by average common equity $74,992M = 18.92x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -420,6 +429,11 @@
           "page": 5,
           "searchText": "15.6",
           "anchorText": "return on tangible common equity"
+        },
+        "equityMultiplier": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -459,7 +473,8 @@
         "dividendPayoutRatio": 56.1,
         "roa": 0.56,
         "adjustedOperatingLeverage": 8.9,
-        "rotce": 14.4
+        "rotce": 14.4,
+        "equityMultiplier": 19.58
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2025 = 128%, BMO Q1 2025 Report to Shareholders.",
@@ -483,7 +498,8 @@
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.56% return on average assets, read from the supplementary financial information (page 7), in the column headed Q1 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +8.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "Disclosed: 14.4% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q1 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
+        "rotce": "Disclosed: 14.4% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q1 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,521,514M divided by average common equity $77,693M = 19.58x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "nim": {
@@ -641,6 +657,11 @@
           "page": 6,
           "searchText": "14.4",
           "anchorText": "return on tangible common equity"
+        },
+        "equityMultiplier": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -681,7 +702,8 @@
         "dividendPayoutRatio": 63.4,
         "roa": 0.53,
         "adjustedOperatingLeverage": 2.7,
-        "rotce": 12.8
+        "rotce": 12.8,
+        "equityMultiplier": 18.96
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended April 30, 2025 = 134%, BMO Q2 2025 Report to Shareholders.",
@@ -704,7 +726,8 @@
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.53% return on average assets, read from the supplementary financial information (page 7), in the column headed Q2 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +2.7% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "Disclosed: 12.8% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q2 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
+        "rotce": "Disclosed: 12.8% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q2 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,503,683M divided by average common equity $79,288M = 18.96x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "efficiencyRatio": {
@@ -863,6 +886,11 @@
           "page": 6,
           "searchText": "12.8",
           "anchorText": "return on tangible common equity"
+        },
+        "equityMultiplier": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -903,7 +931,8 @@
         "dividendPayoutRatio": 51.9,
         "roa": 0.64,
         "adjustedOperatingLeverage": 2.9,
-        "rotce": 15.6
+        "rotce": 15.6,
+        "equityMultiplier": 18.61
       },
       "notes": {
         "efficiencyRatio": "Efficiency ratio %, BMO Q3 2025 Report to Shareholders Financial Highlights (Q3-2025).",
@@ -923,7 +952,8 @@
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.64% return on average assets, read from the supplementary financial information (page 7), in the column headed Q3 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +2.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "Disclosed: 15.6% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q3 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
+        "rotce": "Disclosed: 15.6% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q3 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,433,742M divided by average common equity $77,048M = 18.61x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "efficiencyRatio": {
@@ -1076,6 +1106,11 @@
           "page": 6,
           "searchText": "15.6",
           "anchorText": "return on tangible common equity"
+        },
+        "equityMultiplier": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -1117,7 +1152,8 @@
         "dividendPayoutRatio": 54.7,
         "roa": 0.62,
         "adjustedOperatingLeverage": 3.0,
-        "rotce": 14.7
+        "rotce": 14.7,
+        "equityMultiplier": 18.65
       },
       "notes": {
         "roe": "reported ROE used (10.7%); adjusted ROE was 11.8%",
@@ -1138,7 +1174,8 @@
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.62% return on average assets, read from the supplementary financial information (page 7), in the column headed Q4 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +3.0% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "Disclosed: 14.7% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q4 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles. Note: BMO's own Q4 2025 earnings release printed 14.4% for this quarter; the Q1 2026 report restates it as 14.7%. The later disclosure is used here."
+        "rotce": "Disclosed: 14.7% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q4 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles. Note: BMO's own Q4 2025 earnings release printed 14.4% for this quarter; the Q1 2026 report restates it as 14.7%. The later disclosure is used here.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,464,058M divided by average common equity $78,511M = 18.65x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1281,6 +1318,11 @@
           "page": 6,
           "searchText": "14.7",
           "anchorText": "return on tangible common equity"
+        },
+        "equityMultiplier": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -1321,7 +1363,8 @@
         "dividendPayoutRatio": 49.1,
         "roa": 0.65,
         "adjustedOperatingLeverage": -2.8,
-        "rotce": 16.2
+        "rotce": 16.2,
+        "equityMultiplier": 19.13
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2026 = 126%, BMO Q1 2026 Report to Shareholders.",
@@ -1344,7 +1387,8 @@
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.65% return on average assets, read from the supplementary financial information (page 7), in the column headed Q1 2026. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: -2.8% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "Disclosed: 16.2% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q1 2026. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
+        "rotce": "Disclosed: 16.2% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q1 2026. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,512,341M divided by average common equity $79,075M = 19.13x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -1502,6 +1546,11 @@
           "page": 6,
           "searchText": "16.2",
           "anchorText": "return on tangible common equity"
+        },
+        "equityMultiplier": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -1542,7 +1591,8 @@
         "dividendPayoutRatio": 47.2,
         "roa": 0.71,
         "adjustedOperatingLeverage": 4.1,
-        "rotce": 17.3
+        "rotce": 17.3,
+        "equityMultiplier": 19.38
       },
       "notes": {
         "tier1CapitalRatio": "Tier 1 capital ratio %, Q2 2026 Report to Shareholders capital table (Q2-2026). Anchors: Q1-2026=14.8 and Q2-2025=15.3 both match our existing values.",
@@ -1566,7 +1616,8 @@
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.71% return on average assets, read from the supplementary financial information (page 7), in the column headed Q2 2026. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.1% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "Disclosed: 17.3% return on tangible common equity (reported basis, not the adjusted row), read from page 7 of the cited document in the column for Q2 2026. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
+        "rotce": "Disclosed: 17.3% return on tangible common equity (reported basis, not the adjusted row), read from page 7 of the cited document in the column for Q2 2026. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,524,176M divided by average common equity $78,641M = 19.38x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -1718,6 +1769,11 @@
           "page": 7,
           "searchText": "17.3",
           "anchorText": "return on tangible common equity"
+        },
+        "equityMultiplier": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 8,
+          "anchorText": "average common equity"
         }
       }
     }

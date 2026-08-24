@@ -24,7 +24,8 @@ function heatRgb(t: number): [number, number, number] {
   return [0, 1, 2].map((i) => Math.round(a[i] + (b[i] - a[i]) * lt)) as unknown as [number, number, number];
 }
 
-const fmtVal = (v: number, m: MetricMeta) => `${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : ""}`;
+const fmtVal = (v: number, m: MetricMeta) =>
+  `${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : m.unit === "x" ? "x" : ""}`;
 
 interface Cell {
   key: MetricKey;

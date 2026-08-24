@@ -41,7 +41,8 @@
         "dividendPayoutRatio": 41.6,
         "roa": 0.89,
         "adjustedOperatingLeverage": 9.2,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 21.43
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.31%), as National Bank does not publish a single consolidated whole-bank NIM headline figure; segment NIM is the standard metric cited by the bank and analysts.",
@@ -63,7 +64,8 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.89% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q3 2024. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +9.2% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists."
+        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $461,504M divided by average common equity $21,539M = 21.43x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -213,6 +215,11 @@
           "page": 4,
           "searchText": "9.2",
           "anchorText": "operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -252,7 +259,8 @@
         "dividendPayoutRatio": 40.1,
         "roa": 0.81,
         "adjustedOperatingLeverage": 4.9,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 21.18
       },
       "notes": {
         "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
@@ -274,7 +282,8 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.81% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q4 2024. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.9% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists."
+        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $469,795M divided by average common equity $22,179M = 21.18x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -426,6 +435,11 @@
           "page": 4,
           "searchText": "4.9",
           "anchorText": "operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -465,7 +479,8 @@
         "dividendPayoutRatio": 40.1,
         "roa": 0.81,
         "adjustedOperatingLeverage": 7.4,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 21.39
       },
       "notes": {
         "cwbAcquisition": "CWB acquisition closed Feb 3, 2025, after this period end (Jan 31, 2025); figures below do not yet reflect CWB consolidation.",
@@ -487,7 +502,8 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.81% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q1 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +7.4% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists."
+        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $488,208M divided by average common equity $22,819M = 21.39x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -637,6 +653,11 @@
           "page": 4,
           "searchText": "7.4",
           "anchorText": "operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -676,7 +697,8 @@
         "dividendPayoutRatio": 42.2,
         "roa": 0.67,
         "adjustedOperatingLeverage": 10.4,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 18.72
       },
       "notes": {
         "cwbAcquisition": "First quarter reflecting CWB consolidation (closed Feb 3, 2025). Deposits, Tier 1 capital and wholesale funding all step up materially vs. Q1 2025.",
@@ -698,7 +720,8 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.67% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q2 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +10.4% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists."
+        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $551,432M divided by average common equity $29,461M = 18.72x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -848,6 +871,11 @@
           "page": 4,
           "searchText": "10.4",
           "anchorText": "operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -887,7 +915,8 @@
         "dividendPayoutRatio": 44.3,
         "roa": 0.75,
         "adjustedOperatingLeverage": 1.7,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 18.95
       },
       "notes": {
         "cwbAcquisition": "First full quarter with CWB fully consolidated for the entire reporting period (CWB closed Feb 3, 2025).",
@@ -909,7 +938,8 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.75% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q3 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +1.7% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists."
+        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $567,070M divided by average common equity $29,931M = 18.95x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1059,6 +1089,11 @@
           "page": 4,
           "searchText": "1.7",
           "anchorText": "operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -1098,7 +1133,8 @@
         "dividendPayoutRatio": 45.6,
         "roa": 0.72,
         "adjustedOperatingLeverage": 4.4,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 19.14
       },
       "notes": {
         "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
@@ -1121,7 +1157,8 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.72% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q4 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.4% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists."
+        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $583,295M divided by average common equity $30,473M = 19.14x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1268,6 +1305,11 @@
           "page": 4,
           "searchText": "4.4",
           "anchorText": "operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -1307,7 +1349,8 @@
         "dividendPayoutRatio": 45.1,
         "roa": 0.82,
         "adjustedOperatingLeverage": 2.0,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 19.65
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.27%); no single consolidated whole-bank NIM headline figure is published.",
@@ -1328,7 +1371,8 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.82% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q1 2026. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +2.0% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists."
+        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $603,457M divided by average common equity $30,712M = 19.65x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1480,6 +1524,11 @@
           "page": 4,
           "searchText": "2.0",
           "anchorText": "operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -1519,7 +1568,8 @@
         "dividendPayoutRatio": 42.3,
         "roa": 0.8,
         "adjustedOperatingLeverage": -2.5,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 20.49
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.26%); no single consolidated whole-bank NIM headline figure is published. On a total consolidated balance-sheet basis (including trading assets), National Bank's Supplementary Financial Information also discloses a lower 'Net Interest Margin' of 0.90% for Q2 2026 -- this reflects a different denominator (all average interest-bearing assets including trading books) and is not comparable to the P&C segment NIM used here.",
@@ -1541,7 +1591,8 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.80% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q2 2026. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: -2.5% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists."
+        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $631,995M divided by average common equity $30,845M = 20.49x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1692,6 +1743,11 @@
           "page": 4,
           "searchText": "(2.5)",
           "anchorText": "operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     }

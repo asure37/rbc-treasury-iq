@@ -38,7 +38,7 @@ export function PeerBarChart({ banks, period, metric, height = 320 }: PeerBarCha
 
   // Average of the banks actually shown (needs ≥2 to be meaningful).
   const peerAvg = data.length >= 2 ? data.reduce((s, d) => s + d.value!, 0) / data.length : null;
-  const unitSuffix = metric.unit === "%" ? "%" : "";
+  const unitSuffix = metric.unit === "%" ? "%" : metric.unit === "x" ? "x" : "";
 
   // Recharts gives negative bars a negative width (x stays on the zero baseline), so a
   // fixed position="right" drops the label at the bar's far tip — on top of the bank

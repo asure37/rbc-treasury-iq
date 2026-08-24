@@ -113,6 +113,15 @@
       "decimals": 1
     },
     {
+      "key": "equityMultiplier",
+      "label": "Equity Multiplier (Avg Assets / Avg Equity)",
+      "shortLabel": "Equity Mult.",
+      "unit": "x",
+      "description": "Average total assets divided by average common equity — balance-sheet leverage, and the DuPont term linking ROA to ROE. Computed from two figures each issuer discloses in its financial supplement. Context-dependent rather than better-when-higher: more leverage lifts ROE but thins the equity cushion.",
+      "higherIsBetter": null,
+      "decimals": 2
+    },
+    {
       "key": "dividendPayoutRatio",
       "label": "Dividend Payout Ratio",
       "shortLabel": "Payout Ratio",

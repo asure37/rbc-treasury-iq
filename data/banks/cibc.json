@@ -41,7 +41,8 @@
         "dividendPayoutRatio": 49.3,
         "roa": 0.71,
         "adjustedOperatingLeverage": 0.6,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 19.49
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
@@ -63,7 +64,8 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.71% return on average assets, read from the supplementary financial information (page 6), in the column headed Q3 2024. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +0.6% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published."
+        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,012,012M divided by average common equity $51,916M = 19.49x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -217,6 +219,11 @@
           "page": 6,
           "searchText": "0.6",
           "anchorText": "adjusted operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -256,7 +263,8 @@
         "dividendPayoutRatio": 47.2,
         "roa": 0.72,
         "adjustedOperatingLeverage": 1.8,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 19.27
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
@@ -278,7 +286,8 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.72% return on average assets, read from the supplementary financial information (page 6), in the column headed Q4 2024. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +1.8% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published."
+        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,035,847M divided by average common equity $53,763M = 19.27x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -406,6 +415,11 @@
           "page": 6,
           "searchText": "1.8",
           "anchorText": "adjusted operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -445,7 +459,8 @@
         "dividendPayoutRatio": 44.1,
         "roa": 0.78,
         "adjustedOperatingLeverage": 1.9,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 20.29
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table; also confirmed in Q1 2026 news release comparative column (15.2%).",
@@ -466,7 +481,8 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.78% return on average assets, read from the supplementary financial information (page 6), in the column headed Q1 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +1.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published."
+        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,098,807M divided by average common equity $54,163M = 20.29x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -620,6 +636,11 @@
           "page": 6,
           "searchText": "1.9",
           "anchorText": "adjusted operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -659,7 +680,8 @@
         "dividendPayoutRatio": 47.4,
         "roa": 0.75,
         "adjustedOperatingLeverage": 4.3,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 19.24
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
@@ -680,7 +702,8 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.75% return on average assets, read from the supplementary financial information (page 6), in the column headed Q2 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published."
+        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,096,006M divided by average common equity $56,959M = 19.24x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -833,6 +856,11 @@
           "page": 6,
           "searchText": "4.3",
           "anchorText": "adjusted operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -872,7 +900,8 @@
         "dividendPayoutRatio": 44.9,
         "roa": 0.75,
         "adjustedOperatingLeverage": 1.7,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 19.6
       },
       "notes": {
         "roe": "Reported ROE (annualized) 14.2% per CIBC Supplementary Financial Information nine-quarter trend table (matches reported and adjusted ROE for this quarter).",
@@ -893,7 +922,8 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.75% return on average assets, read from the supplementary financial information (page 6), in the column headed Q3 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +1.7% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published."
+        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,103,447M divided by average common equity $56,289M = 19.60x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1021,6 +1051,11 @@
           "page": 6,
           "searchText": "1.7",
           "anchorText": "adjusted operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -1060,7 +1095,8 @@
         "dividendPayoutRatio": 43.8,
         "roa": 0.77,
         "adjustedOperatingLeverage": 4.3,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 19.32
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table (Q1 2026 vintage), cross-checked against Q4/FY2025 news release (14.1%, up from 13.3% YoY).",
@@ -1081,7 +1117,8 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.77% return on average assets, read from the supplementary financial information (page 6), in the column headed Q4 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published."
+        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,118,611M divided by average common equity $57,896M = 19.32x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1235,6 +1272,11 @@
           "page": 6,
           "searchText": "4.3",
           "anchorText": "adjusted operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -1274,7 +1316,8 @@
         "dividendPayoutRatio": 33.1,
         "roa": 1.06,
         "adjustedOperatingLeverage": 3.6,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 19.72
       },
       "notes": {
         "roe": "Reported ROE (GAAP, annualized) was unusually high at 20.2% mainly due to $422 million of income tax recoveries (capital gains distribution and utilization of capital losses) recognized in the quarter; adjusted ROE excluding this and other items of note was 17.4%. Used reported per instructions, but flagging the distortion.",
@@ -1295,7 +1338,8 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 1.06% return on average assets, read from the supplementary financial information (page 6), in the column headed Q1 2026. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +3.6% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published."
+        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,154,882M divided by average common equity $58,566M = 19.72x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1449,6 +1493,11 @@
           "page": 6,
           "searchText": "3.6",
           "anchorText": "adjusted operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     },
@@ -1488,7 +1537,8 @@
         "dividendPayoutRatio": 41.9,
         "roa": 0.87,
         "adjustedOperatingLeverage": 4.0,
-        "rotce": null
+        "rotce": null,
+        "equityMultiplier": 19.8
       },
       "notes": {
         "roe": "Reported ROE (annualized) 16.4%, which equals adjusted ROE this quarter (up 250 bps YoY per management commentary).",
@@ -1509,7 +1559,8 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.87% return on average assets, read from the supplementary financial information (page 6), in the column headed Q2 2026. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.0% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published."
+        "rotce": "CIBC does not disclose return on tangible common equity. A scan of every cached CIBC document returns the term zero times; 495 hits on the bare word 'tangible' are all 'intangible assets'. The inputs ARE disclosed (average common shareholders' equity, goodwill, and software/other intangible assets, all in the Q2 2026 supplementary financial information), so it could be derived on request -- but a derived figure would not match CIBC's own definition and is not published.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,161,512M divided by average common equity $58,659M = 19.80x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1663,6 +1714,11 @@
           "page": 6,
           "searchText": "4.0",
           "anchorText": "adjusted operating leverage"
+        },
+        "equityMultiplier": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "anchorText": "average common equity"
         }
       }
     }

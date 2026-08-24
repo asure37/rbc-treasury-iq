@@ -65,7 +65,7 @@ export function SourcesTab() {
           entity: bank.bankName,
           period: q.period,
           metric: m.label,
-          value: `${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : ""}`,
+          value: `${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : m.unit === "x" ? "x" : ""}`,
           documentName: name,
           documentUrl: url,
           page: ref?.page,
@@ -218,7 +218,7 @@ export function SourcesTab() {
                               )}
                             </p>
                             <p className="font-mono text-sm font-semibold text-text-primary tabular-nums">
-                              {v != null ? `${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : ""}` : "—"}
+                              {v != null ? `${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : m.unit === "x" ? "x" : ""}` : "—"}
                             </p>
                             {note && <p className="mt-0.5 text-[10px] leading-snug text-warn">{note}</p>}
                           </button>
