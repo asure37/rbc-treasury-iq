@@ -228,6 +228,7 @@
         }
       },
       "derived": {
+        "dividendPayoutRatio": true,
         "equityMultiplier": true,
         "lessStableDepositsPct": true,
         "loansToAssetsPct": true,
@@ -235,8 +236,7 @@
         "operationalDepositsPct": true,
         "roa": true,
         "stableDepositsPct": true,
-        "wholesaleFundingPct": true,
-        "dividendPayoutRatio": true
+        "wholesaleFundingPct": true
       }
     },
     {
@@ -468,6 +468,7 @@
         }
       },
       "derived": {
+        "dividendPayoutRatio": true,
         "equityMultiplier": true,
         "lessStableDepositsPct": true,
         "loansToAssetsPct": true,
@@ -475,8 +476,7 @@
         "operationalDepositsPct": true,
         "roa": true,
         "stableDepositsPct": true,
-        "wholesaleFundingPct": true,
-        "dividendPayoutRatio": true
+        "wholesaleFundingPct": true
       }
     },
     {
@@ -704,14 +704,14 @@
         }
       },
       "derived": {
+        "dividendPayoutRatio": true,
         "equityMultiplier": true,
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
         "roa": true,
         "stableDepositsPct": true,
-        "wholesaleFundingPct": true,
-        "dividendPayoutRatio": true
+        "wholesaleFundingPct": true
       }
     },
     {
@@ -940,14 +940,14 @@
         }
       },
       "derived": {
+        "dividendPayoutRatio": true,
         "equityMultiplier": true,
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
         "roa": true,
         "stableDepositsPct": true,
-        "wholesaleFundingPct": true,
-        "dividendPayoutRatio": true
+        "wholesaleFundingPct": true
       }
     },
     {
@@ -1181,14 +1181,14 @@
         }
       },
       "derived": {
+        "dividendPayoutRatio": true,
         "equityMultiplier": true,
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
         "roa": true,
         "stableDepositsPct": true,
-        "wholesaleFundingPct": true,
-        "dividendPayoutRatio": true
+        "wholesaleFundingPct": true
       }
     },
     {
@@ -1419,6 +1419,7 @@
         }
       },
       "derived": {
+        "dividendPayoutRatio": true,
         "equityMultiplier": true,
         "lessStableDepositsPct": true,
         "loansToAssetsPct": true,
@@ -1426,8 +1427,7 @@
         "operationalDepositsPct": true,
         "roa": true,
         "stableDepositsPct": true,
-        "wholesaleFundingPct": true,
-        "dividendPayoutRatio": true
+        "wholesaleFundingPct": true
       }
     },
     {
@@ -1610,10 +1610,10 @@
         }
       },
       "derived": {
+        "dividendPayoutRatio": true,
         "equityMultiplier": true,
         "loansToAssetsPct": true,
-        "roa": true,
-        "dividendPayoutRatio": true
+        "roa": true
       }
     },
     {
@@ -1849,14 +1849,14 @@
         }
       },
       "derived": {
+        "dividendPayoutRatio": true,
         "equityMultiplier": true,
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
         "roa": true,
         "stableDepositsPct": true,
-        "wholesaleFundingPct": true,
-        "dividendPayoutRatio": true
+        "wholesaleFundingPct": true
       }
     }
   ],

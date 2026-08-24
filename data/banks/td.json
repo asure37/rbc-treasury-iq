@@ -200,9 +200,8 @@
         }
       },
       "derived": {
+        "efficiencyRatio": true,
         "equityMultiplier": true,
-        "irrbbEveSensitivityPct": true,
-        "irrbbNiiSensitivityPct": true,
         "lessStableDepositsPct": true,
         "loanToDepositRatio": true,
         "loansToAssetsPct": true,
@@ -432,7 +431,6 @@
       },
       "derived": {
         "equityMultiplier": true,
-        "irrbbEveSensitivityPct": true,
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
@@ -651,8 +649,6 @@
       },
       "derived": {
         "equityMultiplier": true,
-        "irrbbEveSensitivityPct": true,
-        "irrbbNiiSensitivityPct": true,
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
@@ -870,9 +866,8 @@
         }
       },
       "derived": {
+        "efficiencyRatio": true,
         "equityMultiplier": true,
-        "irrbbEveSensitivityPct": true,
-        "irrbbNiiSensitivityPct": true,
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
@@ -1092,8 +1087,6 @@
       },
       "derived": {
         "equityMultiplier": true,
-        "irrbbEveSensitivityPct": true,
-        "irrbbNiiSensitivityPct": true,
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
@@ -1321,7 +1314,6 @@
       },
       "derived": {
         "equityMultiplier": true,
-        "irrbbEveSensitivityPct": true,
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
@@ -1541,8 +1533,6 @@
       },
       "derived": {
         "equityMultiplier": true,
-        "irrbbEveSensitivityPct": true,
-        "irrbbNiiSensitivityPct": true,
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
@@ -1760,8 +1750,6 @@
       },
       "derived": {
         "equityMultiplier": true,
-        "irrbbEveSensitivityPct": true,
-        "irrbbNiiSensitivityPct": true,
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,

@@ -244,7 +244,6 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true,
         "wholesaleFundingPct": true
       }
@@ -489,7 +488,6 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true
       }
     },
@@ -730,7 +728,6 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true
       }
     },
@@ -972,7 +969,6 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true
       }
     },
@@ -1212,7 +1208,6 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true
       }
     },
@@ -1449,7 +1444,6 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true
       }
     },
@@ -1691,7 +1685,6 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true
       }
     },
@@ -1931,7 +1924,6 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true
       }
     }

@@ -241,7 +241,6 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true
       }
     },
@@ -463,13 +462,11 @@
       },
       "derived": {
         "equityMultiplier": true,
-        "irrbbEveSensitivityPct": true,
         "lessStableDepositsPct": true,
         "loanToDepositRatio": true,
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true
       }
     },
@@ -714,10 +711,7 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "retailDepositsPct": true,
-        "roa": true,
-        "stableDepositsPct": true,
-        "wholesaleDepositsPct": true
+        "stableDepositsPct": true
       }
     },
     {
@@ -962,10 +956,7 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "retailDepositsPct": true,
-        "roa": true,
-        "stableDepositsPct": true,
-        "wholesaleDepositsPct": true
+        "stableDepositsPct": true
       }
     },
     {
@@ -1201,10 +1192,7 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "retailDepositsPct": true,
-        "roa": true,
-        "stableDepositsPct": true,
-        "wholesaleDepositsPct": true
+        "stableDepositsPct": true
       }
     },
     {
@@ -1433,10 +1421,7 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "retailDepositsPct": true,
-        "roa": true,
-        "stableDepositsPct": true,
-        "wholesaleDepositsPct": true
+        "stableDepositsPct": true
       }
     },
     {
@@ -1680,10 +1665,7 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "retailDepositsPct": true,
-        "roa": true,
-        "stableDepositsPct": true,
-        "wholesaleDepositsPct": true
+        "stableDepositsPct": true
       }
     },
     {
@@ -1922,10 +1904,7 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "retailDepositsPct": true,
-        "roa": true,
-        "stableDepositsPct": true,
-        "wholesaleDepositsPct": true
+        "stableDepositsPct": true
       }
     }
   ],
