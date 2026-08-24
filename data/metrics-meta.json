@@ -131,6 +131,15 @@
       "decimals": 1
     },
     {
+      "key": "adjustedOperatingLeverage",
+      "label": "Adjusted Operating Leverage",
+      "shortLabel": "Adj. Op. Leverage",
+      "unit": "%",
+      "description": "Adjusted revenue growth less adjusted non-interest expense growth. Positive means revenue is growing faster than costs. Disclosed quarterly by RBC, BMO, CIBC and National Bank; Scotiabank publishes it only annually and TD only qualitatively, so both are shown as not disclosed.",
+      "higherIsBetter": true,
+      "decimals": 1
+    },
+    {
       "key": "loansToAssetsPct",
       "label": "Loans as % of Total Assets",
       "shortLabel": "Loans/Assets",

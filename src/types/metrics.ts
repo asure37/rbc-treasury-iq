@@ -15,6 +15,7 @@ export type MetricKey =
   | "nim"
   | "dividendPayoutRatio"
   | "efficiencyRatio"
+  | "adjustedOperatingLeverage"
   | "loansToAssetsPct"
   | "totalAssetsBillions"
   | "netIncomeMillions"

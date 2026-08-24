@@ -39,7 +39,8 @@
         "irrbbNiiSensitivityPct": -0.52,
         "tlacLeverageRatio": 8.3,
         "dividendPayoutRatio": 41.6,
-        "roa": 0.89
+        "roa": 0.89,
+        "adjustedOperatingLeverage": 9.2
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.31%), as National Bank does not publish a single consolidated whole-bank NIM headline figure; segment NIM is the standard metric cited by the bank and analysts.",
@@ -59,7 +60,8 @@
         "newMetricsSource": "Q3 2024 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Disclosed by the issuer: 0.89% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q3 2024. Not computed."
+        "roa": "Disclosed by the issuer: 0.89% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q3 2024. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +9.2% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -203,6 +205,12 @@
           "page": 7,
           "searchText": "0.89",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "9.2",
+          "anchorText": "operating leverage"
         }
       }
     },
@@ -240,7 +248,8 @@
         "irrbbNiiSensitivityPct": -0.61,
         "tlacLeverageRatio": 8.6,
         "dividendPayoutRatio": 40.1,
-        "roa": 0.81
+        "roa": 0.81,
+        "adjustedOperatingLeverage": 4.9
       },
       "notes": {
         "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
@@ -260,7 +269,8 @@
         "newMetricsSource": "2024 Annual Report (fiscal year ended October 31, 2024) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Disclosed by the issuer: 0.81% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q4 2024. Not computed."
+        "roa": "Disclosed by the issuer: 0.81% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q4 2024. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +4.9% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -406,6 +416,12 @@
           "page": 7,
           "searchText": "0.81",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "4.9",
+          "anchorText": "operating leverage"
         }
       }
     },
@@ -443,7 +459,8 @@
         "irrbbNiiSensitivityPct": -0.56,
         "tlacLeverageRatio": 8.7,
         "dividendPayoutRatio": 40.1,
-        "roa": 0.81
+        "roa": 0.81,
+        "adjustedOperatingLeverage": 7.4
       },
       "notes": {
         "cwbAcquisition": "CWB acquisition closed Feb 3, 2025, after this period end (Jan 31, 2025); figures below do not yet reflect CWB consolidation.",
@@ -463,7 +480,8 @@
         "newMetricsSource": "Q1 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Disclosed by the issuer: 0.81% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q1 2025. Not computed."
+        "roa": "Disclosed by the issuer: 0.81% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q1 2025. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +7.4% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -607,6 +625,12 @@
           "page": 7,
           "searchText": "0.81",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "7.4",
+          "anchorText": "operating leverage"
         }
       }
     },
@@ -644,7 +668,8 @@
         "irrbbNiiSensitivityPct": -0.45,
         "tlacLeverageRatio": 8.8,
         "dividendPayoutRatio": 42.2,
-        "roa": 0.67
+        "roa": 0.67,
+        "adjustedOperatingLeverage": 10.4
       },
       "notes": {
         "cwbAcquisition": "First quarter reflecting CWB consolidation (closed Feb 3, 2025). Deposits, Tier 1 capital and wholesale funding all step up materially vs. Q1 2025.",
@@ -664,7 +689,8 @@
         "newMetricsSource": "Q2 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Disclosed by the issuer: 0.67% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q2 2025. Not computed."
+        "roa": "Disclosed by the issuer: 0.67% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q2 2025. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +10.4% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -808,6 +834,12 @@
           "page": 7,
           "searchText": "0.67",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "10.4",
+          "anchorText": "operating leverage"
         }
       }
     },
@@ -845,7 +877,8 @@
         "irrbbNiiSensitivityPct": -0.35,
         "tlacLeverageRatio": 9.0,
         "dividendPayoutRatio": 44.3,
-        "roa": 0.75
+        "roa": 0.75,
+        "adjustedOperatingLeverage": 1.7
       },
       "notes": {
         "cwbAcquisition": "First full quarter with CWB fully consolidated for the entire reporting period (CWB closed Feb 3, 2025).",
@@ -865,7 +898,8 @@
         "newMetricsSource": "Q3 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Disclosed by the issuer: 0.75% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q3 2025. Not computed."
+        "roa": "Disclosed by the issuer: 0.75% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q3 2025. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +1.7% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1009,6 +1043,12 @@
           "page": 7,
           "searchText": "0.75",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "1.7",
+          "anchorText": "operating leverage"
         }
       }
     },
@@ -1046,7 +1086,8 @@
         "irrbbNiiSensitivityPct": -0.35,
         "tlacLeverageRatio": 8.8,
         "dividendPayoutRatio": 45.6,
-        "roa": 0.72
+        "roa": 0.72,
+        "adjustedOperatingLeverage": 4.4
       },
       "notes": {
         "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
@@ -1067,7 +1108,8 @@
         "newMetricsSource": "2025 Annual Report (fiscal year ended October 31, 2025) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Disclosed by the issuer: 0.72% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q4 2025. Not computed."
+        "roa": "Disclosed by the issuer: 0.72% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q4 2025. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +4.4% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1208,6 +1250,12 @@
           "page": 7,
           "searchText": "0.72",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "4.4",
+          "anchorText": "operating leverage"
         }
       }
     },
@@ -1245,7 +1293,8 @@
         "irrbbNiiSensitivityPct": -0.33,
         "tlacLeverageRatio": 9.2,
         "dividendPayoutRatio": 45.1,
-        "roa": 0.82
+        "roa": 0.82,
+        "adjustedOperatingLeverage": 2.0
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.27%); no single consolidated whole-bank NIM headline figure is published.",
@@ -1264,7 +1313,8 @@
         "newMetricsSource": "Q1 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Disclosed by the issuer: 0.82% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q1 2026. Not computed."
+        "roa": "Disclosed by the issuer: 0.82% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q1 2026. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +2.0% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1410,6 +1460,12 @@
           "page": 7,
           "searchText": "0.82",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "2.0",
+          "anchorText": "operating leverage"
         }
       }
     },
@@ -1447,7 +1503,8 @@
         "irrbbNiiSensitivityPct": -0.22,
         "tlacLeverageRatio": 9.0,
         "dividendPayoutRatio": 42.3,
-        "roa": 0.8
+        "roa": 0.8,
+        "adjustedOperatingLeverage": -2.5
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.26%); no single consolidated whole-bank NIM headline figure is published. On a total consolidated balance-sheet basis (including trading assets), National Bank's Supplementary Financial Information also discloses a lower 'Net Interest Margin' of 0.90% for Q2 2026 -- this reflects a different denominator (all average interest-bearing assets including trading books) and is not comparable to the P&C segment NIM used here.",
@@ -1467,7 +1524,8 @@
         "newMetricsSource": "Q2 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Disclosed by the issuer: 0.80% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q2 2026. Not computed."
+        "roa": "Disclosed by the issuer: 0.80% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q2 2026. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: -2.5% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1612,6 +1670,12 @@
           "page": 7,
           "searchText": "0.80",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "(2.5)",
+          "anchorText": "operating leverage"
         }
       }
     }

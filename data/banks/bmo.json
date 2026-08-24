@@ -39,7 +39,8 @@
         "wholesaleFundingPct": 17.86,
         "tlacLeverageRatio": 8.2,
         "dividendPayoutRatio": 62.4,
-        "roa": 0.54
+        "roa": 0.54,
+        "adjustedOperatingLeverage": 5.2
       },
       "notes": {
         "tier1CapitalRatio": "Tier 1 capital ratio %, BMO Q3 2024 Report to Shareholders capital table (Q3-2024).",
@@ -62,7 +63,8 @@
         "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $257.3 billion (Q3 2024 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1440.3 billion = 17.86%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
-        "roa": "Disclosed by the issuer: 0.54% return on average assets, read from the supplementary financial information (page 7), in the column headed Q3 2024. Not computed."
+        "roa": "Disclosed by the issuer: 0.54% return on average assets, read from the supplementary financial information (page 7), in the column headed Q3 2024. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +5.2% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
       },
       "sourceRefs": {
         "tier1CapitalRatio": {
@@ -203,6 +205,12 @@
           "page": 7,
           "searchText": "0.54",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "5.2",
+          "anchorText": "adjusted operating leverage"
         }
       }
     },
@@ -240,7 +248,8 @@
         "irrbbNiiSensitivityPct": -0.32,
         "tlacLeverageRatio": 8.3,
         "dividendPayoutRatio": 52.6,
-        "roa": 0.65
+        "roa": 0.65,
+        "adjustedOperatingLeverage": 2.4
       },
       "notes": {
         "roe": "reported ROE used (11.4%); adjusted ROE was notably lower (7.4%) this quarter due to a large positive one-time item (reversal of a prior legal provision) boosting reported income above adjusted income",
@@ -259,7 +268,8 @@
         "newMetricsSource": "BMO 2024 Annual Report / Annual Information Form (Exhibit 99.2 to Form 40-F) — https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
-        "roa": "Disclosed by the issuer: 0.65% return on average assets, read from the supplementary financial information (page 7), in the column headed Q4 2024. Not computed."
+        "roa": "Disclosed by the issuer: 0.65% return on average assets, read from the supplementary financial information (page 7), in the column headed Q4 2024. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +2.4% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -390,6 +400,12 @@
           "page": 7,
           "searchText": "0.65",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "2.4",
+          "anchorText": "adjusted operating leverage"
         }
       }
     },
@@ -427,7 +443,8 @@
         "wholesaleFundingPct": 17.94,
         "tlacLeverageRatio": 8.5,
         "dividendPayoutRatio": 56.1,
-        "roa": 0.56
+        "roa": 0.56,
+        "adjustedOperatingLeverage": 8.9
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2025 = 128%, BMO Q1 2025 Report to Shareholders.",
@@ -449,7 +466,8 @@
         "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $263.4 billion (Q1 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1468.093 billion = 17.94%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
-        "roa": "Disclosed by the issuer: 0.56% return on average assets, read from the supplementary financial information (page 7), in the column headed Q1 2025. Not computed."
+        "roa": "Disclosed by the issuer: 0.56% return on average assets, read from the supplementary financial information (page 7), in the column headed Q1 2025. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +8.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
       },
       "sourceRefs": {
         "nim": {
@@ -596,6 +614,12 @@
           "page": 7,
           "searchText": "0.56",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "8.9",
+          "anchorText": "adjusted operating leverage"
         }
       }
     },
@@ -634,7 +658,8 @@
         "wholesaleFundingPct": 17.97,
         "tlacLeverageRatio": 8.5,
         "dividendPayoutRatio": 63.4,
-        "roa": 0.53
+        "roa": 0.53,
+        "adjustedOperatingLeverage": 2.7
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended April 30, 2025 = 134%, BMO Q2 2025 Report to Shareholders.",
@@ -655,7 +680,8 @@
         "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $258.8 billion (Q2 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1440.269 billion = 17.97%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
-        "roa": "Disclosed by the issuer: 0.53% return on average assets, read from the supplementary financial information (page 7), in the column headed Q2 2025. Not computed."
+        "roa": "Disclosed by the issuer: 0.53% return on average assets, read from the supplementary financial information (page 7), in the column headed Q2 2025. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +2.7% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
       },
       "sourceRefs": {
         "efficiencyRatio": {
@@ -803,6 +829,12 @@
           "page": 7,
           "searchText": "0.53",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "2.7",
+          "anchorText": "adjusted operating leverage"
         }
       }
     },
@@ -841,7 +873,8 @@
         "wholesaleFundingPct": 17.35,
         "tlacLeverageRatio": 8.5,
         "dividendPayoutRatio": 51.9,
-        "roa": 0.64
+        "roa": 0.64,
+        "adjustedOperatingLeverage": 2.9
       },
       "notes": {
         "efficiencyRatio": "Efficiency ratio %, BMO Q3 2025 Report to Shareholders Financial Highlights (Q3-2025).",
@@ -859,7 +892,8 @@
         "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $248.4 billion (Q3 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1431.6 billion = 17.35%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
-        "roa": "Disclosed by the issuer: 0.64% return on average assets, read from the supplementary financial information (page 7), in the column headed Q3 2025. Not computed."
+        "roa": "Disclosed by the issuer: 0.64% return on average assets, read from the supplementary financial information (page 7), in the column headed Q3 2025. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +2.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
       },
       "sourceRefs": {
         "efficiencyRatio": {
@@ -1001,6 +1035,12 @@
           "page": 7,
           "searchText": "0.64",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "2.9",
+          "anchorText": "adjusted operating leverage"
         }
       }
     },
@@ -1040,7 +1080,8 @@
         "irrbbNiiSensitivityPct": -0.49,
         "tlacLeverageRatio": 8.5,
         "dividendPayoutRatio": 54.7,
-        "roa": 0.62
+        "roa": 0.62,
+        "adjustedOperatingLeverage": 3.0
       },
       "notes": {
         "roe": "reported ROE used (10.7%); adjusted ROE was 11.8%",
@@ -1059,7 +1100,8 @@
         "newMetricsSource": "BMO 2025 Annual Report / Annual Information Form (Exhibit 99.2 to Form 40-F) — https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
-        "roa": "Disclosed by the issuer: 0.62% return on average assets, read from the supplementary financial information (page 7), in the column headed Q4 2025. Not computed."
+        "roa": "Disclosed by the issuer: 0.62% return on average assets, read from the supplementary financial information (page 7), in the column headed Q4 2025. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +3.0% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1190,6 +1232,12 @@
           "page": 7,
           "searchText": "0.62",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "3.0",
+          "anchorText": "adjusted operating leverage"
         }
       }
     },
@@ -1228,7 +1276,8 @@
         "wholesaleFundingPct": 17.39,
         "tlacLeverageRatio": 8.6,
         "dividendPayoutRatio": 49.1,
-        "roa": 0.65
+        "roa": 0.65,
+        "adjustedOperatingLeverage": -2.8
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2026 = 126%, BMO Q1 2026 Report to Shareholders.",
@@ -1249,7 +1298,8 @@
         "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $253.6 billion (Q1 2026 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1458.132 billion = 17.39%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
-        "roa": "Disclosed by the issuer: 0.65% return on average assets, read from the supplementary financial information (page 7), in the column headed Q1 2026. Not computed."
+        "roa": "Disclosed by the issuer: 0.65% return on average assets, read from the supplementary financial information (page 7), in the column headed Q1 2026. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: -2.8% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -1396,6 +1446,12 @@
           "page": 7,
           "searchText": "0.65",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "(2.8)",
+          "anchorText": "adjusted operating leverage"
         }
       }
     },
@@ -1434,7 +1490,8 @@
         "nonOperationalDepositsPct": 46.62,
         "wholesaleFundingPct": 17.65,
         "dividendPayoutRatio": 47.2,
-        "roa": 0.71
+        "roa": 0.71,
+        "adjustedOperatingLeverage": 4.1
       },
       "notes": {
         "tier1CapitalRatio": "Tier 1 capital ratio %, Q2 2026 Report to Shareholders capital table (Q2-2026). Anchors: Q1-2026=14.8 and Q2-2025=15.3 both match our existing values.",
@@ -1456,7 +1513,8 @@
         "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $264.6 billion (Q2 2026 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1499.5 billion = 17.65%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
-        "roa": "Disclosed by the issuer: 0.71% return on average assets, read from the supplementary financial information (page 7), in the column headed Q2 2026. Not computed."
+        "roa": "Disclosed by the issuer: 0.71% return on average assets, read from the supplementary financial information (page 7), in the column headed Q2 2026. Not computed.",
+        "adjustedOperatingLeverage": "Disclosed: +4.1% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -1597,6 +1655,12 @@
           "page": 7,
           "searchText": "0.71",
           "anchorText": "return on average assets"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "4.1",
+          "anchorText": "adjusted operating leverage"
         }
       }
     }
