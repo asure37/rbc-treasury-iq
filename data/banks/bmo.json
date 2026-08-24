@@ -40,7 +40,8 @@
         "tlacLeverageRatio": 8.2,
         "dividendPayoutRatio": 62.4,
         "roa": 0.54,
-        "adjustedOperatingLeverage": 5.2
+        "adjustedOperatingLeverage": 5.2,
+        "rotce": 13.9
       },
       "notes": {
         "tier1CapitalRatio": "Tier 1 capital ratio %, BMO Q3 2024 Report to Shareholders capital table (Q3-2024).",
@@ -64,7 +65,8 @@
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.54% return on average assets, read from the supplementary financial information (page 7), in the column headed Q3 2024. Not computed.",
-        "adjustedOperatingLeverage": "Disclosed: +5.2% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
+        "adjustedOperatingLeverage": "Disclosed: +5.2% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
+        "rotce": "Disclosed: 13.9% return on tangible common equity (reported basis, not the adjusted row), read from page 7 of the cited document in the column for Q3 2024. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
       },
       "sourceRefs": {
         "tier1CapitalRatio": {
@@ -211,6 +213,11 @@
           "page": 7,
           "searchText": "5.2",
           "anchorText": "adjusted operating leverage"
+        },
+        "rotce": {
+          "page": 7,
+          "searchText": "13.9",
+          "anchorText": "return on tangible common equity"
         }
       }
     },
@@ -249,7 +256,8 @@
         "tlacLeverageRatio": 8.3,
         "dividendPayoutRatio": 52.6,
         "roa": 0.65,
-        "adjustedOperatingLeverage": 2.4
+        "adjustedOperatingLeverage": 2.4,
+        "rotce": 15.6
       },
       "notes": {
         "roe": "reported ROE used (11.4%); adjusted ROE was notably lower (7.4%) this quarter due to a large positive one-time item (reversal of a prior legal provision) boosting reported income above adjusted income",
@@ -269,7 +277,8 @@
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.65% return on average assets, read from the supplementary financial information (page 7), in the column headed Q4 2024. Not computed.",
-        "adjustedOperatingLeverage": "Disclosed: +2.4% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
+        "adjustedOperatingLeverage": "Disclosed: +2.4% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
+        "rotce": "Disclosed: 15.6% return on tangible common equity (reported basis, not the adjusted row), read from page 5 of the cited document in the column for Q4 2024. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -406,6 +415,11 @@
           "page": 7,
           "searchText": "2.4",
           "anchorText": "adjusted operating leverage"
+        },
+        "rotce": {
+          "page": 5,
+          "searchText": "15.6",
+          "anchorText": "return on tangible common equity"
         }
       }
     },
@@ -444,7 +458,8 @@
         "tlacLeverageRatio": 8.5,
         "dividendPayoutRatio": 56.1,
         "roa": 0.56,
-        "adjustedOperatingLeverage": 8.9
+        "adjustedOperatingLeverage": 8.9,
+        "rotce": 14.4
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2025 = 128%, BMO Q1 2025 Report to Shareholders.",
@@ -467,7 +482,8 @@
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.56% return on average assets, read from the supplementary financial information (page 7), in the column headed Q1 2025. Not computed.",
-        "adjustedOperatingLeverage": "Disclosed: +8.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
+        "adjustedOperatingLeverage": "Disclosed: +8.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
+        "rotce": "Disclosed: 14.4% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q1 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
       },
       "sourceRefs": {
         "nim": {
@@ -620,6 +636,11 @@
           "page": 7,
           "searchText": "8.9",
           "anchorText": "adjusted operating leverage"
+        },
+        "rotce": {
+          "page": 6,
+          "searchText": "14.4",
+          "anchorText": "return on tangible common equity"
         }
       }
     },
@@ -659,7 +680,8 @@
         "tlacLeverageRatio": 8.5,
         "dividendPayoutRatio": 63.4,
         "roa": 0.53,
-        "adjustedOperatingLeverage": 2.7
+        "adjustedOperatingLeverage": 2.7,
+        "rotce": 12.8
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended April 30, 2025 = 134%, BMO Q2 2025 Report to Shareholders.",
@@ -681,7 +703,8 @@
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.53% return on average assets, read from the supplementary financial information (page 7), in the column headed Q2 2025. Not computed.",
-        "adjustedOperatingLeverage": "Disclosed: +2.7% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
+        "adjustedOperatingLeverage": "Disclosed: +2.7% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
+        "rotce": "Disclosed: 12.8% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q2 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
       },
       "sourceRefs": {
         "efficiencyRatio": {
@@ -835,6 +858,11 @@
           "page": 7,
           "searchText": "2.7",
           "anchorText": "adjusted operating leverage"
+        },
+        "rotce": {
+          "page": 6,
+          "searchText": "12.8",
+          "anchorText": "return on tangible common equity"
         }
       }
     },
@@ -874,7 +902,8 @@
         "tlacLeverageRatio": 8.5,
         "dividendPayoutRatio": 51.9,
         "roa": 0.64,
-        "adjustedOperatingLeverage": 2.9
+        "adjustedOperatingLeverage": 2.9,
+        "rotce": 15.6
       },
       "notes": {
         "efficiencyRatio": "Efficiency ratio %, BMO Q3 2025 Report to Shareholders Financial Highlights (Q3-2025).",
@@ -893,7 +922,8 @@
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.64% return on average assets, read from the supplementary financial information (page 7), in the column headed Q3 2025. Not computed.",
-        "adjustedOperatingLeverage": "Disclosed: +2.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
+        "adjustedOperatingLeverage": "Disclosed: +2.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
+        "rotce": "Disclosed: 15.6% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q3 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
       },
       "sourceRefs": {
         "efficiencyRatio": {
@@ -1041,6 +1071,11 @@
           "page": 7,
           "searchText": "2.9",
           "anchorText": "adjusted operating leverage"
+        },
+        "rotce": {
+          "page": 6,
+          "searchText": "15.6",
+          "anchorText": "return on tangible common equity"
         }
       }
     },
@@ -1081,7 +1116,8 @@
         "tlacLeverageRatio": 8.5,
         "dividendPayoutRatio": 54.7,
         "roa": 0.62,
-        "adjustedOperatingLeverage": 3.0
+        "adjustedOperatingLeverage": 3.0,
+        "rotce": 14.7
       },
       "notes": {
         "roe": "reported ROE used (10.7%); adjusted ROE was 11.8%",
@@ -1101,7 +1137,8 @@
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.62% return on average assets, read from the supplementary financial information (page 7), in the column headed Q4 2025. Not computed.",
-        "adjustedOperatingLeverage": "Disclosed: +3.0% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
+        "adjustedOperatingLeverage": "Disclosed: +3.0% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
+        "rotce": "Disclosed: 14.7% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q4 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles. Note: BMO's own Q4 2025 earnings release printed 14.4% for this quarter; the Q1 2026 report restates it as 14.7%. The later disclosure is used here."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1238,6 +1275,12 @@
           "page": 7,
           "searchText": "3.0",
           "anchorText": "adjusted operating leverage"
+        },
+        "rotce": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "page": 6,
+          "searchText": "14.7",
+          "anchorText": "return on tangible common equity"
         }
       }
     },
@@ -1277,7 +1320,8 @@
         "tlacLeverageRatio": 8.6,
         "dividendPayoutRatio": 49.1,
         "roa": 0.65,
-        "adjustedOperatingLeverage": -2.8
+        "adjustedOperatingLeverage": -2.8,
+        "rotce": 16.2
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2026 = 126%, BMO Q1 2026 Report to Shareholders.",
@@ -1299,7 +1343,8 @@
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.65% return on average assets, read from the supplementary financial information (page 7), in the column headed Q1 2026. Not computed.",
-        "adjustedOperatingLeverage": "Disclosed: -2.8% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
+        "adjustedOperatingLeverage": "Disclosed: -2.8% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
+        "rotce": "Disclosed: 16.2% return on tangible common equity (reported basis, not the adjusted row), read from page 6 of the cited document in the column for Q1 2026. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -1452,6 +1497,11 @@
           "page": 7,
           "searchText": "(2.8)",
           "anchorText": "adjusted operating leverage"
+        },
+        "rotce": {
+          "page": 6,
+          "searchText": "16.2",
+          "anchorText": "return on tangible common equity"
         }
       }
     },
@@ -1491,7 +1541,8 @@
         "wholesaleFundingPct": 17.65,
         "dividendPayoutRatio": 47.2,
         "roa": 0.71,
-        "adjustedOperatingLeverage": 4.1
+        "adjustedOperatingLeverage": 4.1,
+        "rotce": 17.3
       },
       "notes": {
         "tier1CapitalRatio": "Tier 1 capital ratio %, Q2 2026 Report to Shareholders capital table (Q2-2026). Anchors: Q1-2026=14.8 and Q2-2025=15.3 both match our existing values.",
@@ -1514,7 +1565,8 @@
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
         "roa": "Disclosed by the issuer: 0.71% return on average assets, read from the supplementary financial information (page 7), in the column headed Q2 2026. Not computed.",
-        "adjustedOperatingLeverage": "Disclosed: +4.1% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs."
+        "adjustedOperatingLeverage": "Disclosed: +4.1% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
+        "rotce": "Disclosed: 17.3% return on tangible common equity (reported basis, not the adjusted row), read from page 7 of the cited document in the column for Q2 2026. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles."
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -1661,6 +1713,11 @@
           "page": 7,
           "searchText": "4.1",
           "anchorText": "adjusted operating leverage"
+        },
+        "rotce": {
+          "page": 7,
+          "searchText": "17.3",
+          "anchorText": "return on tangible common equity"
         }
       }
     }

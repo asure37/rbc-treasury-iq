@@ -12,6 +12,7 @@ export type MetricKey =
   | "nsfr"
   | "roe"
   | "roa"
+  | "rotce"
   | "nim"
   | "dividendPayoutRatio"
   | "efficiencyRatio"

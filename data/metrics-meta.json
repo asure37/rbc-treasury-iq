@@ -104,6 +104,15 @@
       "decimals": 2
     },
     {
+      "key": "rotce",
+      "label": "Return on Tangible Common Equity (ROTCE)",
+      "shortLabel": "ROTCE",
+      "unit": "%",
+      "description": "Net income available to common shareholders as a percentage of average common equity less goodwill and intangible assets. Reported basis. Disclosed by RBC, BMO, Scotiabank and TD; CIBC and National Bank do not publish it.",
+      "higherIsBetter": true,
+      "decimals": 1
+    },
+    {
       "key": "dividendPayoutRatio",
       "label": "Dividend Payout Ratio",
       "shortLabel": "Payout Ratio",
