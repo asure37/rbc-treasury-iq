@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { Download, Image as ImageIcon } from "lucide-react";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { TrendLineChart } from "@/components/charts/TrendLineChart";
@@ -20,6 +20,13 @@ interface TrendChartPanelProps {
 // shared TrendLineChart. Two of these sit side-by-side in the Historical Trends tab so
 // the user can compare two different metrics over the same banks and time window.
 export function TrendChartPanel({ metricsMeta, metric, onMetricChange, banks, periods, badge }: TrendChartPanelProps) {
+  // Alphabetical by the label the reader actually sees. Sort a COPY: metricsMeta comes
+  // from shared context, and sorting it in place would reorder the heat map and the
+  // lineage tab too.
+  const metricOptions = useMemo(
+    () => [...metricsMeta].sort((a, b) => a.label.localeCompare(b.label)),
+    [metricsMeta]
+  );
   const chartRef = useRef<HTMLDivElement>(null);
   const [exporting, setExporting] = useState(false);
 
@@ -48,7 +55,7 @@ export function TrendChartPanel({ metricsMeta, metric, onMetricChange, banks, pe
             aria-label="Select metric"
             className="max-w-[16rem] truncate rounded-lg border border-border-soft bg-surface px-3 py-1.5 text-sm font-medium text-text-primary outline-none focus:border-rbc-cyan/60"
           >
-            {metricsMeta.map((m) => (
+            {metricOptions.map((m) => (
               <option key={m.key} value={m.key}>
                 {m.label}
               </option>

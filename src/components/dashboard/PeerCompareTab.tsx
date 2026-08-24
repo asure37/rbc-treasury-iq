@@ -47,6 +47,11 @@ export function PeerCompareTab() {
 
   // map, not filter — filtering would silently reorder the axes to metrics-meta order.
   const radarMeta = RADAR_METRICS.map((k) => metricsMeta.find((m) => m.key === k)).filter((m) => m != null);
+  // Alphabetical by displayed label; a copy, so shared context ordering is untouched.
+  const metricOptions = useMemo(
+    () => [...metricsMeta].sort((a, b) => a.label.localeCompare(b.label)),
+    [metricsMeta]
+  );
   const assetsMeta = metricsMeta.find((m) => m.key === "totalAssetsBillions")!;
   const netIncomeMeta = metricsMeta.find((m) => m.key === "netIncomeMillions")!;
   const cet1Meta = metricsMeta.find((m) => m.key === "cet1Ratio")!;
@@ -81,7 +86,7 @@ export function PeerCompareTab() {
             onChange={(e) => setFocusMetric(e.target.value as MetricKey)}
             className="rounded-lg border border-border-soft bg-surface px-3 py-1.5 text-sm text-text-primary outline-none focus:border-rbc-cyan/60"
           >
-            {metricsMeta.map((m) => (
+            {metricOptions.map((m) => (
               <option key={m.key} value={m.key}>
                 {m.label}
               </option>
