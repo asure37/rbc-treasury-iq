@@ -41,7 +41,7 @@
         "dividendPayoutRatio": 41.6,
         "roa": 0.89,
         "adjustedOperatingLeverage": 9.2,
-        "rotce": null,
+        "rotce": 20.9,
         "equityMultiplier": 21.43
       },
       "notes": {
@@ -64,7 +64,7 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.89% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q3 2024. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +9.2% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "rotce": "COMPUTED, not disclosed -- NATIONAL publishes no ROTCE. Net income attributable to common shareholders $993M, annualised over 92 days, divided by average tangible common equity $18,882M (average common equity $21,539M less goodwill and intangibles $2,657M) = 20.9%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $461,504M divided by average common equity $21,539M = 21.43x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
@@ -220,6 +220,11 @@
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
           "page": 7,
           "anchorText": "average common equity"
+        },
+        "rotce": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common shareholders' equity"
         }
       }
     },
@@ -259,7 +264,7 @@
         "dividendPayoutRatio": 40.1,
         "roa": 0.81,
         "adjustedOperatingLeverage": 4.9,
-        "rotce": null,
+        "rotce": 18.6,
         "equityMultiplier": 21.18
       },
       "notes": {
@@ -282,7 +287,7 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.81% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q4 2024. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.9% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "rotce": "COMPUTED, not disclosed -- NATIONAL publishes no ROTCE. Net income attributable to common shareholders $915M, annualised over 92 days, divided by average tangible common equity $19,523M (average common equity $22,179M less goodwill and intangibles $2,656M) = 18.6%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $469,795M divided by average common equity $22,179M = 21.18x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
@@ -440,6 +445,11 @@
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
           "page": 7,
           "anchorText": "average common equity"
+        },
+        "rotce": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common shareholders' equity"
         }
       }
     },
@@ -479,7 +489,7 @@
         "dividendPayoutRatio": 40.1,
         "roa": 0.81,
         "adjustedOperatingLeverage": 7.4,
-        "rotce": null,
+        "rotce": 18.9,
         "equityMultiplier": 21.39
       },
       "notes": {
@@ -502,7 +512,7 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.81% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q1 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +7.4% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "rotce": "COMPUTED, not disclosed -- NATIONAL publishes no ROTCE. Net income attributable to common shareholders $958M, annualised over 92 days, divided by average tangible common equity $20,162M (average common equity $22,819M less goodwill and intangibles $2,657M) = 18.9%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $488,208M divided by average common equity $22,819M = 21.39x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
@@ -658,6 +668,11 @@
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
           "page": 7,
           "anchorText": "average common equity"
+        },
+        "rotce": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common shareholders' equity"
         }
       }
     },
@@ -697,7 +712,7 @@
         "dividendPayoutRatio": 42.2,
         "roa": 0.67,
         "adjustedOperatingLeverage": 10.4,
-        "rotce": null,
+        "rotce": 14.1,
         "equityMultiplier": 18.72
       },
       "notes": {
@@ -720,7 +735,7 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.67% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q2 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +10.4% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "rotce": "COMPUTED, not disclosed -- NATIONAL publishes no ROTCE. Net income attributable to common shareholders $853M, annualised over 89 days, divided by average tangible common equity $24,756M (average common equity $29,461M less goodwill and intangibles $4,705M) = 14.1%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $551,432M divided by average common equity $29,461M = 18.72x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
@@ -876,6 +891,11 @@
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
           "page": 7,
           "anchorText": "average common equity"
+        },
+        "rotce": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common shareholders' equity"
         }
       }
     },
@@ -915,7 +935,7 @@
         "dividendPayoutRatio": 44.3,
         "roa": 0.75,
         "adjustedOperatingLeverage": 1.7,
-        "rotce": null,
+        "rotce": 16.0,
         "equityMultiplier": 18.95
       },
       "notes": {
@@ -938,7 +958,7 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.75% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q3 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +1.7% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "rotce": "COMPUTED, not disclosed -- NATIONAL publishes no ROTCE. Net income attributable to common shareholders $1,023M, annualised over 92 days, divided by average tangible common equity $25,352M (average common equity $29,931M less goodwill and intangibles $4,579M) = 16.0%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $567,070M divided by average common equity $29,931M = 18.95x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
@@ -1094,6 +1114,11 @@
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
           "page": 7,
           "anchorText": "average common equity"
+        },
+        "rotce": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common shareholders' equity"
         }
       }
     },
@@ -1133,7 +1158,7 @@
         "dividendPayoutRatio": 45.6,
         "roa": 0.72,
         "adjustedOperatingLeverage": 4.4,
-        "rotce": null,
+        "rotce": 15.6,
         "equityMultiplier": 19.14
       },
       "notes": {
@@ -1157,7 +1182,7 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.72% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q4 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.4% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "rotce": "COMPUTED, not disclosed -- NATIONAL publishes no ROTCE. Net income attributable to common shareholders $1,018M, annualised over 92 days, divided by average tangible common equity $25,957M (average common equity $30,473M less goodwill and intangibles $4,516M) = 15.6%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $583,295M divided by average common equity $30,473M = 19.14x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
@@ -1310,6 +1335,11 @@
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
           "page": 7,
           "anchorText": "average common equity"
+        },
+        "rotce": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common shareholders' equity"
         }
       }
     },
@@ -1349,7 +1379,7 @@
         "dividendPayoutRatio": 45.1,
         "roa": 0.82,
         "adjustedOperatingLeverage": 2.0,
-        "rotce": null,
+        "rotce": 18.4,
         "equityMultiplier": 19.65
       },
       "notes": {
@@ -1371,7 +1401,7 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.82% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q1 2026. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +2.0% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "rotce": "COMPUTED, not disclosed -- NATIONAL publishes no ROTCE. Net income attributable to common shareholders $1,217M, annualised over 92 days, divided by average tangible common equity $26,215M (average common equity $30,712M less goodwill and intangibles $4,497M) = 18.4%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $603,457M divided by average common equity $30,712M = 19.65x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
@@ -1529,6 +1559,11 @@
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
           "page": 7,
           "anchorText": "average common equity"
+        },
+        "rotce": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common shareholders' equity"
         }
       }
     },
@@ -1568,7 +1603,7 @@
         "dividendPayoutRatio": 42.3,
         "roa": 0.8,
         "adjustedOperatingLeverage": -2.5,
-        "rotce": null,
+        "rotce": 18.6,
         "equityMultiplier": 20.49
       },
       "notes": {
@@ -1591,7 +1626,7 @@
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
         "roa": "Disclosed by the issuer: 0.80% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q2 2026. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: -2.5% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
-        "rotce": "National Bank does not disclose return on tangible common equity. The inputs ARE disclosed (average common shareholders' equity is in its Q2 2026 supplementary financial information p7), so it could be derived on request, but no published figure exists.",
+        "rotce": "COMPUTED, not disclosed -- NATIONAL publishes no ROTCE. Net income attributable to common shareholders $1,197M, annualised over 89 days, divided by average tangible common equity $26,374M (average common equity $30,845M less goodwill and intangibles $4,471M) = 18.6%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $631,995M divided by average common equity $30,845M = 20.49x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
       },
       "sourceRefs": {
@@ -1748,6 +1783,11 @@
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
           "page": 7,
           "anchorText": "average common equity"
+        },
+        "rotce": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "anchorText": "average common shareholders' equity"
         }
       }
     }
