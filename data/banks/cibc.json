@@ -41,7 +41,7 @@
         "dividendPayoutRatio": 49.3,
         "roa": 0.71,
         "adjustedOperatingLeverage": 0.6,
-        "rotce": 16.5,
+        "rotce": 17.1,
         "equityMultiplier": 19.49,
         "adjustedDilutedEps": 1.93
       },
@@ -65,7 +65,7 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.71% return on average assets, read from the supplementary financial information (page 6), in the column headed Q3 2024. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +0.6% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "COMPUTED, not disclosed -- CIBC publishes no ROTCE. Net income attributable to common shareholders $1,823M, annualised over 92 days, divided by average tangible common equity $43,782M (average common equity $51,916M less goodwill and intangibles $8,134M) = 16.5%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
+        "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $1,886M, annualised over 92 days, divided by average tangible common equity $43,782M (average common equity $51,916M less goodwill and intangibles $8,134M) = 17.1%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,012,012M divided by average common equity $51,916M = 19.49x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.93 adjusted diluted earnings per share for Q3 2024. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
@@ -229,7 +229,7 @@
         },
         "rotce": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
-          "page": 7,
+          "page": 5,
           "anchorText": "average common shareholders' equity"
         },
         "adjustedDilutedEps": {
@@ -285,7 +285,7 @@
         "dividendPayoutRatio": 47.2,
         "roa": 0.72,
         "adjustedOperatingLeverage": 1.8,
-        "rotce": 15.8,
+        "rotce": 16.4,
         "equityMultiplier": 19.27,
         "adjustedDilutedEps": 1.91
       },
@@ -309,7 +309,7 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.72% return on average assets, read from the supplementary financial information (page 6), in the column headed Q4 2024. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +1.8% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "COMPUTED, not disclosed -- CIBC publishes no ROTCE. Net income attributable to common shareholders $1,809M, annualised over 92 days, divided by average tangible common equity $45,490M (average common equity $53,763M less goodwill and intangibles $8,273M) = 15.8%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
+        "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $1,881M, annualised over 92 days, divided by average tangible common equity $45,490M (average common equity $53,763M less goodwill and intangibles $8,273M) = 16.4%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,035,847M divided by average common equity $53,763M = 19.27x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.91 adjusted diluted earnings per share for Q4 2024. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
@@ -447,7 +447,7 @@
         },
         "rotce": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
-          "page": 7,
+          "page": 5,
           "anchorText": "average common shareholders' equity"
         },
         "adjustedDilutedEps": {
@@ -502,7 +502,7 @@
         "dividendPayoutRatio": 44.1,
         "roa": 0.78,
         "adjustedOperatingLeverage": 1.9,
-        "rotce": 18.1,
+        "rotce": 18.8,
         "equityMultiplier": 20.29,
         "adjustedDilutedEps": 2.2
       },
@@ -525,7 +525,7 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.78% return on average assets, read from the supplementary financial information (page 6), in the column headed Q1 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +1.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "COMPUTED, not disclosed -- CIBC publishes no ROTCE. Net income attributable to common shareholders $2,083M, annualised over 92 days, divided by average tangible common equity $45,719M (average common equity $54,163M less goodwill and intangibles $8,444M) = 18.1%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
+        "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $2,171M, annualised over 92 days, divided by average tangible common equity $45,719M (average common equity $54,163M less goodwill and intangibles $8,444M) = 18.8%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,098,807M divided by average common equity $54,163M = 20.29x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.20 adjusted diluted earnings per share for Q1 2025. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
@@ -689,7 +689,7 @@
         },
         "rotce": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
-          "page": 7,
+          "page": 5,
           "anchorText": "average common shareholders' equity"
         },
         "adjustedDilutedEps": {
@@ -744,7 +744,7 @@
         "dividendPayoutRatio": 47.4,
         "roa": 0.75,
         "adjustedOperatingLeverage": 4.3,
-        "rotce": 16.2,
+        "rotce": 16.9,
         "equityMultiplier": 19.24,
         "adjustedDilutedEps": 2.05
       },
@@ -767,7 +767,7 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.75% return on average assets, read from the supplementary financial information (page 6), in the column headed Q2 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "COMPUTED, not disclosed -- CIBC publishes no ROTCE. Net income attributable to common shareholders $1,929M, annualised over 89 days, divided by average tangible common equity $48,746M (average common equity $56,959M less goodwill and intangibles $8,213M) = 16.2%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
+        "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $2,007M, annualised over 89 days, divided by average tangible common equity $48,746M (average common equity $56,959M less goodwill and intangibles $8,213M) = 16.9%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,096,006M divided by average common equity $56,959M = 19.24x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.05 adjusted diluted earnings per share for Q2 2025. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
@@ -930,7 +930,7 @@
         },
         "rotce": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
-          "page": 7,
+          "page": 5,
           "anchorText": "average common shareholders' equity"
         },
         "adjustedDilutedEps": {
@@ -985,7 +985,7 @@
         "dividendPayoutRatio": 44.9,
         "roa": 0.75,
         "adjustedOperatingLeverage": 1.7,
-        "rotce": 16.7,
+        "rotce": 17.4,
         "equityMultiplier": 19.6,
         "adjustedDilutedEps": 2.16
       },
@@ -1008,7 +1008,7 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.75% return on average assets, read from the supplementary financial information (page 6), in the column headed Q3 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +1.7% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "COMPUTED, not disclosed -- CIBC publishes no ROTCE. Net income attributable to common shareholders $2,020M, annualised over 92 days, divided by average tangible common equity $48,037M (average common equity $56,289M less goodwill and intangibles $8,252M) = 16.7%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
+        "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $2,102M, annualised over 92 days, divided by average tangible common equity $48,037M (average common equity $56,289M less goodwill and intangibles $8,252M) = 17.4%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,103,447M divided by average common equity $56,289M = 19.60x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.16 adjusted diluted earnings per share for Q3 2025. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
@@ -1146,7 +1146,7 @@
         },
         "rotce": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
-          "page": 7,
+          "page": 5,
           "anchorText": "average common shareholders' equity"
         },
         "adjustedDilutedEps": {
@@ -1201,7 +1201,7 @@
         "dividendPayoutRatio": 43.8,
         "roa": 0.77,
         "adjustedOperatingLeverage": 4.3,
-        "rotce": 16.5,
+        "rotce": 17.5,
         "equityMultiplier": 19.32,
         "adjustedDilutedEps": 2.21
       },
@@ -1224,7 +1224,7 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.77% return on average assets, read from the supplementary financial information (page 6), in the column headed Q4 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "COMPUTED, not disclosed -- CIBC publishes no ROTCE. Net income attributable to common shareholders $2,066M, annualised over 92 days, divided by average tangible common equity $49,527M (average common equity $57,896M less goodwill and intangibles $8,369M) = 16.5%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
+        "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $2,182M, annualised over 92 days, divided by average tangible common equity $49,527M (average common equity $57,896M less goodwill and intangibles $8,369M) = 17.5%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,118,611M divided by average common equity $57,896M = 19.32x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.21 adjusted diluted earnings per share for Q4 2025. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
@@ -1388,7 +1388,7 @@
         },
         "rotce": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
-          "page": 7,
+          "page": 5,
           "anchorText": "average common shareholders' equity"
         },
         "adjustedDilutedEps": {
@@ -1443,7 +1443,7 @@
         "dividendPayoutRatio": 33.1,
         "roa": 1.06,
         "adjustedOperatingLeverage": 3.6,
-        "rotce": 20.3,
+        "rotce": 21.1,
         "equityMultiplier": 19.72,
         "adjustedDilutedEps": 2.76
       },
@@ -1466,7 +1466,7 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 1.06% return on average assets, read from the supplementary financial information (page 6), in the column headed Q1 2026. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +3.6% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "COMPUTED, not disclosed -- CIBC publishes no ROTCE. Net income attributable to common shareholders $2,572M, annualised over 92 days, divided by average tangible common equity $50,353M (average common equity $58,566M less goodwill and intangibles $8,213M) = 20.3%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
+        "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $2,678M, annualised over 92 days, divided by average tangible common equity $50,353M (average common equity $58,566M less goodwill and intangibles $8,213M) = 21.1%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,154,882M divided by average common equity $58,566M = 19.72x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.76 adjusted diluted earnings per share for Q1 2026. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
@@ -1630,7 +1630,7 @@
         },
         "rotce": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
-          "page": 7,
+          "page": 5,
           "anchorText": "average common shareholders' equity"
         },
         "adjustedDilutedEps": {
@@ -1685,7 +1685,7 @@
         "dividendPayoutRatio": 41.9,
         "roa": 0.87,
         "adjustedOperatingLeverage": 4.0,
-        "rotce": 19.1,
+        "rotce": 20.0,
         "equityMultiplier": 19.8,
         "adjustedDilutedEps": 2.54
       },
@@ -1708,7 +1708,7 @@
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
         "roa": "Disclosed by the issuer: 0.87% return on average assets, read from the supplementary financial information (page 6), in the column headed Q2 2026. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.0% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
-        "rotce": "COMPUTED, not disclosed -- CIBC publishes no ROTCE. Net income attributable to common shareholders $2,349M, annualised over 89 days, divided by average tangible common equity $50,437M (average common equity $58,659M less goodwill and intangibles $8,222M) = 19.1%. All three operands are disclosed. Caveat: the goodwill/intangibles deduction is a period-end balance applied against an average equity base, because neither bank publishes an average deduction the way RBC does; goodwill moves slowly, so the effect is small but it is an approximation. Not directly comparable to the four banks that publish their own ROTCE.",
+        "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $2,463M, annualised over 89 days, divided by average tangible common equity $50,437M (average common equity $58,659M less goodwill and intangibles $8,222M) = 20.0%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,161,512M divided by average common equity $58,659M = 19.80x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.54 adjusted diluted earnings per share for Q2 2026. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
@@ -1872,7 +1872,7 @@
         },
         "rotce": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
-          "page": 7,
+          "page": 5,
           "anchorText": "average common shareholders' equity"
         },
         "adjustedDilutedEps": {

@@ -28,7 +28,7 @@ const SECTORS: { label: string; accent: string; keys: MetricKey[] }[] = [
   {
     label: "Liquidity & Funding",
     accent: "#00b6f1",
-    keys: ["lcr", "nsfr", "loanToDepositRatio", "wholesaleFundingPct", "retailDepositsPct", "loansToAssetsPct"],
+    keys: ["lcr", "nsfr", "loanToDepositRatio", "loansToAssetsPct", "retailDepositsPct", "wholesaleFundingPct"],
   },
   {
     label: "Profitability",

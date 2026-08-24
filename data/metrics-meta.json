@@ -105,10 +105,10 @@
     },
     {
       "key": "rotce",
-      "label": "Return on Tangible Common Equity (ROTCE)",
-      "shortLabel": "ROTCE",
+      "label": "Adjusted Return on Tangible Common Equity (ROTCE)",
+      "shortLabel": "Adj. ROTCE",
       "unit": "%",
-      "description": "Net income available to common shareholders as a percentage of average common equity less goodwill and intangible assets. Reported basis. Disclosed by RBC, BMO, Scotiabank and TD; CIBC and National Bank do not publish it.",
+      "description": "Adjusted net income available to common shareholders as a percentage of average common equity less goodwill and intangible assets. Adjusted basis throughout. RBC, BMO, Scotiabank and TD publish it; CIBC and National Bank do not, so theirs is computed from their own disclosed adjusted net income and equity.",
       "higherIsBetter": true,
       "decimals": 1
     },
@@ -124,7 +124,7 @@
     {
       "key": "dividendPayoutRatio",
       "label": "Dividend Payout Ratio",
-      "shortLabel": "Payout Ratio",
+      "shortLabel": "Dividend Payout Ratio",
       "unit": "%",
       "description": "Common share dividends as a percentage of net income available to common shareholders. Context-dependent rather than better-when-higher: a higher payout returns more to shareholders but retains less capital. Bases differ by issuer — National Bank discloses a trailing four-quarter ratio, and Scotiabank publishes none quarterly, so its figures are computed from its own disclosed dividends and net income (the same formula reproduces Scotiabank's published annual payout exactly).",
       "higherIsBetter": null,
