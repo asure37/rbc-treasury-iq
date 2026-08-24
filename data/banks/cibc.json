@@ -230,6 +230,17 @@
           "page": 7,
           "anchorText": "average common shareholders' equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "irrbbNiiSensitivityPct": true,
+        "lessStableDepositsPct": true,
+        "loanToDepositRatio": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "rotce": true,
+        "stableDepositsPct": true
       }
     },
     {
@@ -431,6 +442,16 @@
           "page": 7,
           "anchorText": "average common shareholders' equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "irrbbNiiSensitivityPct": true,
+        "lessStableDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "rotce": true,
+        "stableDepositsPct": true
       }
     },
     {
@@ -657,6 +678,16 @@
           "page": 7,
           "anchorText": "average common shareholders' equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "irrbbNiiSensitivityPct": true,
+        "lessStableDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "rotce": true,
+        "stableDepositsPct": true
       }
     },
     {
@@ -882,6 +913,16 @@
           "page": 7,
           "anchorText": "average common shareholders' equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "irrbbNiiSensitivityPct": true,
+        "lessStableDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "rotce": true,
+        "stableDepositsPct": true
       }
     },
     {
@@ -1082,6 +1123,16 @@
           "page": 7,
           "anchorText": "average common shareholders' equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "irrbbNiiSensitivityPct": true,
+        "lessStableDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "rotce": true,
+        "stableDepositsPct": true
       }
     },
     {
@@ -1308,6 +1359,16 @@
           "page": 7,
           "anchorText": "average common shareholders' equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "irrbbNiiSensitivityPct": true,
+        "lessStableDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "rotce": true,
+        "stableDepositsPct": true
       }
     },
     {
@@ -1534,6 +1595,16 @@
           "page": 7,
           "anchorText": "average common shareholders' equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "irrbbNiiSensitivityPct": true,
+        "lessStableDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "rotce": true,
+        "stableDepositsPct": true
       }
     },
     {
@@ -1760,6 +1831,16 @@
           "page": 7,
           "anchorText": "average common shareholders' equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "irrbbNiiSensitivityPct": true,
+        "lessStableDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "rotce": true,
+        "stableDepositsPct": true
       }
     }
   ],

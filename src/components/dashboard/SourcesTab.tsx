@@ -109,6 +109,10 @@ export function SourcesTab() {
             <p className="mt-1 flex items-center gap-1.5 text-[11px] text-text-muted">
               <span className="inline-block size-1.5 rounded-full bg-rbc-cyan" /> Click any figure to open its exact source page
             </p>
+            <p className="mt-0.5 text-[11px] text-text-muted">
+              <span className="text-rbc-cyan">*</span> marks a figure the issuer does not publish, computed from figures it does — the
+              note beneath each one gives the formula and the operands.
+            </p>
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -219,6 +223,14 @@ export function SourcesTab() {
                             </p>
                             <p className="font-mono text-sm font-semibold text-text-primary tabular-nums">
                               {v != null ? `${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : m.unit === "x" ? "x" : ""}` : "—"}
+                              {q.derived?.[m.key] && (
+                                <span
+                                  className="ml-0.5 cursor-help text-rbc-cyan"
+                                  title="Computed, not disclosed by this bank — see the note below for the formula and operands."
+                                >
+                                  *
+                                </span>
+                              )}
                             </p>
                             {note && <p className="mt-0.5 text-[10px] leading-snug text-warn">{note}</p>}
                           </button>

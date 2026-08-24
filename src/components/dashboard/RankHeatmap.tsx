@@ -32,6 +32,8 @@ interface Cell {
   value: number | null;
   rank: number | null;
   total: number;
+  /** Issuer does not publish this metric; the value was computed from ones it does. */
+  derived: boolean;
 }
 
 export function RankHeatmap() {
@@ -63,8 +65,11 @@ export function RankHeatmap() {
     // Rank every metric column (rank within a column is independent of what's shown).
     for (const key of KEYS) {
       const meta = metaByKey.get(key)!;
-      const vals = banks.map((b) => ({ id: b.bankId, v: b.quarters.find((q) => q.period === period)?.metrics[key] ?? null }));
-      const present = vals.filter((x): x is { id: string; v: number } => x.v != null);
+      const vals = banks.map((b) => {
+        const q = b.quarters.find((qq) => qq.period === period);
+        return { id: b.bankId, v: q?.metrics[key] ?? null, derived: q?.derived?.[key] === true };
+      });
+      const present = vals.filter((x): x is { id: string; v: number; derived: boolean } => x.v != null);
       // higherIsBetter === false → lowest value ranks first (e.g. efficiency ratio).
       // higherIsBetter === null → no agreed direction (e.g. dividend payout ratio, where a
       // higher payout returns more to shareholders but retains less capital). Such a metric
@@ -76,11 +81,13 @@ export function RankHeatmap() {
           : [...present].sort((p, q) => (meta.higherIsBetter === false ? p.v - q.v : q.v - p.v));
       for (const b of banks) {
         const idx = sorted.findIndex((s) => s.id === b.bankId);
+        const own = vals.find((x) => x.id === b.bankId)!;
         (rankOf[b.bankId] ??= {})[key] = {
           key,
-          value: vals.find((x) => x.id === b.bankId)!.v,
+          value: own.v,
           rank: idx >= 0 ? idx + 1 : null,
           total: sorted.length,
+          derived: own.derived,
         };
       }
     }
@@ -314,7 +321,10 @@ export function RankHeatmap() {
                           title={`${m.label}: ${fmtVal(c.value, m)} — shown unranked (no agreed better direction)`}
                           className="rounded-lg border border-border-soft bg-surface/40 px-1.5 py-1.5 text-center"
                         >
-                          <div className="font-display text-[13px] font-semibold tabular-nums text-text-primary">{fmtVal(c.value, m)}</div>
+                          <div className="font-display text-[13px] font-semibold tabular-nums text-text-primary">
+                            {fmtVal(c.value, m)}
+                            {c.derived && <span className="text-rbc-cyan">*</span>}
+                          </div>
                           <div className="text-[10px] font-medium text-text-muted">unranked</div>
                         </td>
                       );
@@ -325,7 +335,7 @@ export function RankHeatmap() {
                     return (
                       <td
                         key={c.key}
-                        title={`${m.label}: ${fmtVal(c.value, m)} — rank ${c.rank} of ${c.total}`}
+                        title={`${m.label}: ${fmtVal(c.value, m)} — rank ${c.rank} of ${c.total}${c.derived ? " — computed, not disclosed by this bank" : ""}`}
                         className="rounded-lg border px-1.5 py-1.5 text-center transition-transform duration-150 hover:z-10 hover:scale-[1.06]"
                         style={{
                           background: `rgba(${r},${g},${b},0.17)`,
@@ -333,7 +343,10 @@ export function RankHeatmap() {
                           boxShadow: isTop ? `0 0 14px -5px rgba(${r},${g},${b},0.75)` : undefined,
                         }}
                       >
-                        <div className="font-display text-[13px] font-semibold tabular-nums text-text-primary">{fmtVal(c.value, m)}</div>
+                        <div className="font-display text-[13px] font-semibold tabular-nums text-text-primary">
+                          {fmtVal(c.value, m)}
+                          {c.derived && <span className="text-rbc-cyan">*</span>}
+                        </div>
                         <div className="text-[10px] font-medium tabular-nums" style={{ color: `rgb(${r},${g},${b})` }}>
                           #{c.rank}
                         </div>
@@ -351,7 +364,9 @@ export function RankHeatmap() {
       <p className="mt-3 text-[11px] text-text-muted">
         Each cell shows the reported value and the bank&apos;s rank ({rows[0]?.cells[0]?.total ?? n} banks). ↑/↓ marks whether higher or lower is
         better; metrics with no agreed direction are shown unranked. RBC is pinned to the top row as the subject of the
-        comparison — that position is not a standing; peers below it follow in average-rank order.
+        comparison — that position is not a standing; peers below it follow in average-rank order.{" "}
+        <span className="text-rbc-cyan">*</span> marks a figure the bank does not publish, computed from figures it does —
+        the Data Lineage tab carries the formula and the operands.
         Click any metric to open its full peer comparison.
       </p>
     </GlassCard>

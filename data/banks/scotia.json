@@ -214,6 +214,16 @@
           "page": 40,
           "anchorText": "average common equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "lessStableDepositsPct": true,
+        "loansToAssetsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "stableDepositsPct": true,
+        "wholesaleFundingPct": true
       }
     },
     {
@@ -431,6 +441,16 @@
           "page": 40,
           "anchorText": "average common equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "lessStableDepositsPct": true,
+        "loansToAssetsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "stableDepositsPct": true,
+        "wholesaleFundingPct": true
       }
     },
     {
@@ -643,6 +663,15 @@
           "page": 40,
           "anchorText": "average common equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "lessStableDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "stableDepositsPct": true,
+        "wholesaleFundingPct": true
       }
     },
     {
@@ -857,6 +886,15 @@
           "page": 40,
           "anchorText": "average common equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "lessStableDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "stableDepositsPct": true,
+        "wholesaleFundingPct": true
       }
     },
     {
@@ -1076,6 +1114,15 @@
           "page": 40,
           "anchorText": "average common equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "lessStableDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "stableDepositsPct": true,
+        "wholesaleFundingPct": true
       }
     },
     {
@@ -1292,6 +1339,16 @@
           "page": 40,
           "anchorText": "average common equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "lessStableDepositsPct": true,
+        "loansToAssetsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "stableDepositsPct": true,
+        "wholesaleFundingPct": true
       }
     },
     {
@@ -1459,6 +1516,11 @@
           "page": 40,
           "anchorText": "average common equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "loansToAssetsPct": true,
+        "roa": true
       }
     },
     {
@@ -1680,6 +1742,15 @@
           "page": 40,
           "anchorText": "average common equity"
         }
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "lessStableDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "stableDepositsPct": true,
+        "wholesaleFundingPct": true
       }
     }
   ],

@@ -68,6 +68,10 @@ export interface QuarterMetrics {
   retrievedAt: string; // ISO datetime this data point was ingested/verified
   metrics: Partial<Record<MetricKey, number | null>>;
   notes?: Partial<Record<MetricKey, string>>; // per-metric caveats (e.g., "not disclosed this quarter")
+  // Metrics this issuer does NOT publish, whose value we computed from figures it does
+  // publish. Structural, not inferred from note text: the UI marks these with an
+  // asterisk so a reader never mistakes a derived ratio for a disclosed one.
+  derived?: Partial<Record<MetricKey, true>>;
   sourceRefs?: Partial<Record<MetricKey, SourceRef>>; // precise page/location within the source, where known
 }
 

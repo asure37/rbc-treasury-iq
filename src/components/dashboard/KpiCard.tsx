@@ -16,9 +16,11 @@ interface KpiCardProps {
   delay?: number;
   onClick?: () => void;
   active?: boolean;
+  /** This issuer does not publish the metric; the value was computed from figures it does. */
+  derived?: boolean;
 }
 
-export function KpiCard({ meta, value, qoqDelta, peerAvg, history, delay, onClick, active }: KpiCardProps) {
+export function KpiCard({ meta, value, qoqDelta, peerAvg, history, delay, onClick, active, derived }: KpiCardProps) {
   const vsRegMin = meta.regulatoryMinimum != null && value != null ? value - meta.regulatoryMinimum : null;
   const belowMin = vsRegMin != null && vsRegMin < 0;
   const vsPeer = peerAvg != null && value != null ? value - peerAvg : null;
@@ -35,7 +37,17 @@ export function KpiCard({ meta, value, qoqDelta, peerAvg, history, delay, onClic
     >
       <div className="flex items-start justify-between gap-2">
         <div>
-          <p className="text-xs font-medium uppercase tracking-wider text-text-muted">{meta.shortLabel}</p>
+          <p className="text-xs font-medium uppercase tracking-wider text-text-muted">
+            {meta.shortLabel}
+            {derived && (
+              <span
+                className="ml-0.5 cursor-help text-rbc-cyan"
+                title={`Computed, not disclosed. ${meta.label} is not published by this bank; the value is derived from figures it does disclose. See the Data Lineage tab for the formula and operands.`}
+              >
+                *
+              </span>
+            )}
+          </p>
           <div className="mt-1.5 flex items-baseline gap-1 font-display">
             {value != null ? (
               <AnimatedNumber value={value} decimals={meta.decimals} suffix={meta.unit === "%" ? "%" : ""} prefix={meta.unit === "$B" || meta.unit === "$M" ? "$" : ""} className="text-2xl font-semibold tabular-nums text-text-primary" />
