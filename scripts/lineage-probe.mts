@@ -39,10 +39,13 @@ const CACHE = path.join(ROOT, ".cache", "pdfs");
  * Update deliberately when the data genuinely changes -- never to make a red run pass.
  */
 const BASELINE = {
-  anchored_cited_page: 916,
+  anchored_cited_page: 948,
   unanchored_cited_page: 108,
   neighbour: 0,
-  misses: 97, // 81 refs record no searchText at all; 16 record one that isn't on the page
+  // 97 refs record no searchText at all -- 81 legacy derived figures plus TD's and
+  // Scotiabank's 16 ROA refs, which cite the page disclosing the average-assets
+  // operand but have no printed ratio to highlight. 16 record a value not on the page.
+  misses: 113,
 };
 
 interface Probe {
