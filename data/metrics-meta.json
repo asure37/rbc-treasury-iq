@@ -126,7 +126,7 @@
       "label": "Dividend Payout Ratio",
       "shortLabel": "Payout Ratio",
       "unit": "%",
-      "description": "Common share dividends as a percentage of net income available to common shareholders. Context-dependent rather than better-when-higher: a higher payout returns more to shareholders but retains less capital. Bases differ by issuer — National Bank discloses a trailing four-quarter ratio, and Scotiabank does not disclose one quarterly.",
+      "description": "Common share dividends as a percentage of net income available to common shareholders. Context-dependent rather than better-when-higher: a higher payout returns more to shareholders but retains less capital. Bases differ by issuer — National Bank discloses a trailing four-quarter ratio, and Scotiabank publishes none quarterly, so its figures are computed from its own disclosed dividends and net income (the same formula reproduces Scotiabank's published annual payout exactly).",
       "higherIsBetter": null,
       "decimals": 1
     },
