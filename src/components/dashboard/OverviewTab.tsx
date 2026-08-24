@@ -15,7 +15,15 @@ const SECTORS: { label: string; accent: string; keys: MetricKey[] }[] = [
   {
     label: "Capital",
     accent: "#0066cc",
-    keys: ["cet1Ratio", "tier1CapitalRatio", "totalCapitalRatio", "leverageRatio", "tlacRatio", "tlacLeverageRatio"],
+    keys: [
+      "cet1Ratio",
+      "tier1CapitalRatio",
+      "totalCapitalRatio",
+      "leverageRatio",
+      "tlacRatio",
+      "tlacLeverageRatio",
+      "equityMultiplier",
+    ],
   },
   {
     label: "Liquidity & Funding",
@@ -25,7 +33,16 @@ const SECTORS: { label: string; accent: string; keys: MetricKey[] }[] = [
   {
     label: "Profitability",
     accent: "#ffc72c",
-    keys: ["roe", "roa", "nim", "efficiencyRatio", "dividendPayoutRatio", "netIncomeMillions"],
+    keys: [
+      "roe",
+      "roa",
+      "rotce",
+      "nim",
+      "efficiencyRatio",
+      "adjustedOperatingLeverage",
+      "dividendPayoutRatio",
+      "netIncomeMillions",
+    ],
   },
 ];
 
