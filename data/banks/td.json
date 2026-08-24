@@ -41,7 +41,8 @@
         "roa": -0.04,
         "adjustedOperatingLeverage": null,
         "rotce": -1.0,
-        "equityMultiplier": 19.55
+        "equityMultiplier": 19.55,
+        "adjustedDilutedEps": 2.05
       },
       "notes": {
         "roe": "Reported ROE was negative (-1.0%) this quarter due to a reported net loss of $181 million, driven primarily by a US$2.6 billion provision related to the U.S. BSA/AML investigations. Adjusted ROE (non-GAAP) was 14.1% for comparison. Net income figure shown is the reported consolidated net income (loss); net income attributable to common shareholders (reported) was -$250 million.",
@@ -63,7 +64,8 @@
         "roa": "Computed: TD does not disclose an ROA. Net income after tax $-181M, annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $1,968,000M = -0.04%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed: -1.0% return on tangible common equity (reported basis, not the adjusted row), read from page 4 of the cited document in the column for Q3 2024. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,968,000M divided by average common equity $100,677M = 19.55x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,968,000M divided by average common equity $100,677M = 19.55x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $2.05 adjusted diluted earnings per share for Q3 2024. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -190,6 +192,11 @@
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "page": 1,
+          "searchText": "2.05",
+          "anchorText": "adjusted diluted earnings per share"
         }
       },
       "derived": {
@@ -242,7 +249,8 @@
         "roa": 0.71,
         "adjustedOperatingLeverage": null,
         "rotce": 17.8,
-        "equityMultiplier": 19.94
+        "equityMultiplier": 19.94,
+        "adjustedDilutedEps": 1.72
       },
       "notes": {
         "roe": "Reported (GAAP) ROE shown; adjusted ROE was 11.7% for this quarter.",
@@ -263,7 +271,8 @@
         "roa": "Computed: TD does not disclose an ROA. Net income after tax $3,635M, annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $2,035,000M = 0.71%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed: 17.8% return on tangible common equity (reported basis, not the adjusted row), read from page 4 of the cited document in the column for Q4 2024. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,035,000M divided by average common equity $102,051M = 19.94x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,035,000M divided by average common equity $102,051M = 19.94x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $1.72 adjusted diluted earnings per share for Q4 2024. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -414,6 +423,11 @@
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "page": 1,
+          "searchText": "1.72",
+          "anchorText": "adjusted diluted earnings per share"
         }
       },
       "derived": {
@@ -462,7 +476,8 @@
         "roa": 0.54,
         "adjustedOperatingLeverage": null,
         "rotce": 13.4,
-        "equityMultiplier": 19.44
+        "equityMultiplier": 19.44,
+        "adjustedDilutedEps": 2.02
       },
       "notes": {
         "roe": "Reported (GAAP) ROE shown; adjusted ROE was 13.2% for this quarter.",
@@ -482,7 +497,8 @@
         "roa": "Computed: TD does not disclose an ROA. Net income after tax $2,793M, annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $2,063,000M = 0.54%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed: 13.4% return on tangible common equity (reported basis, not the adjusted row), read from page 5 of the cited document in the column for Q1 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,063,000M divided by average common equity $106,133M = 19.44x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,063,000M divided by average common equity $106,133M = 19.44x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $2.02 adjusted diluted earnings per share for Q1 2025. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -626,6 +642,11 @@
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "page": 1,
+          "searchText": "2.02",
+          "anchorText": "adjusted diluted earnings per share"
         }
       },
       "derived": {
@@ -675,7 +696,8 @@
         "roa": 2.12,
         "adjustedOperatingLeverage": null,
         "rotce": 48.0,
-        "equityMultiplier": 18.82
+        "equityMultiplier": 18.82,
+        "adjustedDilutedEps": 1.97
       },
       "notes": {
         "roe": "Reported ROE of 39.1% and reported net income of $11,129 million are both massively inflated by a large one-time gain on the sale of TD's remaining investment in The Charles Schwab Corporation, which increased CET1 capital by ~238 bps. Adjusted (non-GAAP) ROE, which excludes this item of note, was 12.3% and adjusted net income was $3,626 million -- likely more representative of underlying performance for benchmarking purposes.",
@@ -695,7 +717,8 @@
         "roa": "Computed: TD does not disclose an ROA. Net income after tax $11,129M, annualised over 89 days in the quarter (x365/89), divided by the bank's own disclosed average total assets $2,156,000M = 2.12%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed: 48.0% return on tangible common equity (reported basis, not the adjusted row), read from page 5 of the cited document in the column for Q2 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,156,000M divided by average common equity $114,585M = 18.82x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,156,000M divided by average common equity $114,585M = 18.82x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $1.97 adjusted diluted earnings per share for Q2 2025. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -839,6 +862,11 @@
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "page": 1,
+          "searchText": "1.97",
+          "anchorText": "adjusted diluted earnings per share"
         }
       },
       "derived": {
@@ -888,7 +916,8 @@
         "roa": 0.63,
         "adjustedOperatingLeverage": null,
         "rotce": 13.6,
-        "equityMultiplier": 18.51
+        "equityMultiplier": 18.51,
+        "adjustedDilutedEps": 2.2
       },
       "notes": {
         "roe": "Reported (GAAP) ROE shown; adjusted ROE was 13.2% for this quarter.",
@@ -908,7 +937,8 @@
         "roa": "Computed: TD does not disclose an ROA. Net income after tax $3,336M, annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $2,112,000M = 0.63%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed: 13.6% return on tangible common equity (reported basis, not the adjusted row), read from page 4 of the cited document in the column for Q3 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,112,000M divided by average common equity $114,115M = 18.51x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,112,000M divided by average common equity $114,115M = 18.51x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $2.20 adjusted diluted earnings per share for Q3 2025. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1053,6 +1083,11 @@
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "page": 1,
+          "searchText": "2.20",
+          "anchorText": "adjusted diluted earnings per share"
         }
       },
       "derived": {
@@ -1103,7 +1138,8 @@
         "roa": 0.62,
         "adjustedOperatingLeverage": null,
         "rotce": 12.9,
-        "equityMultiplier": 18.29
+        "equityMultiplier": 18.29,
+        "adjustedDilutedEps": 2.18
       },
       "notes": {
         "roe": "Reported (GAAP) ROE shown; adjusted ROE was 12.8% for this quarter. Full fiscal-year 2025 reported ROE was 17.8% (inflated by the Q2 2025 Schwab sale gain); FY2025 adjusted ROE was 12.9%.",
@@ -1124,7 +1160,8 @@
         "roa": "Computed: TD does not disclose an ROA. Net income after tax $3,280M, annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $2,102,000M = 0.62%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed: 12.9% return on tangible common equity (reported basis, not the adjusted row), read from page 4 of the cited document in the column for Q4 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,102,000M divided by average common equity $114,939M = 18.29x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,102,000M divided by average common equity $114,939M = 18.29x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $2.18 adjusted diluted earnings per share for Q4 2025. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1275,6 +1312,11 @@
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "page": 1,
+          "searchText": "2.18",
+          "anchorText": "adjusted diluted earnings per share"
         }
       },
       "derived": {
@@ -1323,7 +1365,8 @@
         "roa": 0.76,
         "adjustedOperatingLeverage": null,
         "rotce": 16.3,
-        "equityMultiplier": 18.4
+        "equityMultiplier": 18.4,
+        "adjustedDilutedEps": 2.44
       },
       "notes": {
         "roe": "Reported (GAAP) ROE shown; adjusted ROE was 14.2% for this quarter.",
@@ -1343,7 +1386,8 @@
         "roa": "Computed: TD does not disclose an ROA. Net income after tax $4,043M, annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $2,121,000M = 0.76%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed: 16.3% return on tangible common equity (reported basis, not the adjusted row), read from page 5 of the cited document in the column for Q1 2026. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,121,000M divided by average common equity $115,250M = 18.40x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,121,000M divided by average common equity $115,250M = 18.40x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $2.44 adjusted diluted earnings per share for Q1 2026. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1488,6 +1532,11 @@
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "page": 1,
+          "searchText": "2.44",
+          "anchorText": "adjusted diluted earnings per share"
         }
       },
       "derived": {
@@ -1537,7 +1586,8 @@
         "roa": 0.83,
         "adjustedOperatingLeverage": null,
         "rotce": 17.7,
-        "equityMultiplier": 18.52
+        "equityMultiplier": 18.52,
+        "adjustedDilutedEps": 2.38
       },
       "notes": {
         "roe": "Reported (GAAP) ROE shown; adjusted ROE was 14.4% for this quarter.",
@@ -1557,7 +1607,8 @@
         "roa": "Computed: TD does not disclose an ROA. Net income after tax $4,251M, annualised over 89 days in the quarter (x365/89), divided by the bank's own disclosed average total assets $2,098,000M = 0.83%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed: 17.7% return on tangible common equity (reported basis, not the adjusted row), read from page 5 of the cited document in the column for Q2 2026. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,098,000M divided by average common equity $113,288M = 18.52x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,098,000M divided by average common equity $113,288M = 18.52x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $2.38 adjusted diluted earnings per share for Q2 2026. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1700,6 +1751,11 @@
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-financial-supppack-en.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "page": 1,
+          "searchText": "2.38",
+          "anchorText": "adjusted diluted earnings per share"
         }
       },
       "derived": {

@@ -14,6 +14,7 @@ export type MetricKey =
   | "roa"
   | "rotce"
   | "equityMultiplier"
+  | "adjustedDilutedEps"
   | "nim"
   | "dividendPayoutRatio"
   | "efficiencyRatio"
@@ -36,7 +37,7 @@ export interface MetricMeta {
   key: MetricKey;
   label: string;
   shortLabel: string;
-  unit: "%" | "$B" | "$M" | "x"; // "x" = a plain multiple, e.g. an equity multiplier of 20.0x
+  unit: "%" | "$B" | "$M" | "x" | "$"; // "x" = a plain multiple, e.g. an equity multiplier of 20.0x
   description: string;
   higherIsBetter: boolean | null; // null = context-dependent (e.g., balance sheet mix)
   regulatoryMinimum?: number; // Basel III / OSFI floor, in same unit as value

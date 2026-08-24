@@ -185,6 +185,15 @@
       "decimals": 0
     },
     {
+      "key": "adjustedDilutedEps",
+      "label": "Adjusted Diluted EPS",
+      "shortLabel": "Adj. Diluted EPS",
+      "unit": "$",
+      "description": "Adjusted net income per diluted common share, as each issuer publishes it. Adjusted measures strip out each bank's own items of note, so the adjustments are not identical across the six even though every figure is the bank's own published number.",
+      "higherIsBetter": true,
+      "decimals": 2
+    },
+    {
       "key": "loanToDepositRatio",
       "label": "Loan-to-Deposit Ratio",
       "shortLabel": "Loan/Deposit",

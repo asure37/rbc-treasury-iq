@@ -50,7 +50,7 @@ export function KpiCard({ meta, value, qoqDelta, peerAvg, history, delay, onClic
           </p>
           <div className="mt-1.5 flex items-baseline gap-1 font-display">
             {value != null ? (
-              <AnimatedNumber value={value} decimals={meta.decimals} suffix={meta.unit === "%" ? "%" : ""} prefix={meta.unit === "$B" || meta.unit === "$M" ? "$" : ""} className="text-2xl font-semibold tabular-nums text-text-primary" />
+              <AnimatedNumber value={value} decimals={meta.decimals} suffix={meta.unit === "%" ? "%" : ""} prefix={meta.unit === "$B" || meta.unit === "$M" || meta.unit === "$" ? "$" : ""} className="text-2xl font-semibold tabular-nums text-text-primary" />
             ) : (
               <span className="text-2xl font-semibold text-text-muted">—</span>
             )}

@@ -65,7 +65,7 @@ export function SourcesTab() {
           entity: bank.bankName,
           period: q.period,
           metric: m.label,
-          value: `${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : m.unit === "x" ? "x" : ""}`,
+          value: `${m.unit === "$" ? "$" : ""}${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : m.unit === "x" ? "x" : ""}`,
           documentName: name,
           documentUrl: url,
           page: ref?.page,
@@ -222,7 +222,7 @@ export function SourcesTab() {
                               )}
                             </p>
                             <p className="font-mono text-sm font-semibold text-text-primary tabular-nums">
-                              {v != null ? `${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : m.unit === "x" ? "x" : ""}` : "—"}
+                              {v != null ? `${m.unit === "$" ? "$" : ""}${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : m.unit === "x" ? "x" : ""}` : "—"}
                               {q.derived?.[m.key] && (
                                 <span
                                   className="ml-0.5 cursor-help text-rbc-cyan"

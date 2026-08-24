@@ -42,7 +42,8 @@
         "roa": 0.85,
         "adjustedOperatingLeverage": 3.3,
         "rotce": 19.9,
-        "equityMultiplier": 18.83
+        "equityMultiplier": 18.83,
+        "adjustedDilutedEps": 3.26
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($971,797M) divided by total assets ($2,076,107M) as disclosed in the same report; not a directly stated ratio.",
@@ -63,7 +64,8 @@
         "roa": "Disclosed by the issuer: 0.85% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q3 2024. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +3.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed: 19.9% return on tangible common equity (reported basis, not the adjusted row), read from page 4 of the cited document in the column for Q3 2024. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,110,500M divided by average common equity $112,100M = 18.83x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,110,500M divided by average common equity $112,100M = 18.83x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $3.26 adjusted diluted earnings per share for Q3 2024. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -227,6 +229,12 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "3.26",
+          "anchorText": "diluted adjusted"
         }
       },
       "derived": {
@@ -278,7 +286,8 @@
         "roa": 0.79,
         "adjustedOperatingLeverage": 4.3,
         "rotce": 18.1,
-        "equityMultiplier": 18.59
+        "equityMultiplier": 18.59,
+        "adjustedDilutedEps": 3.07
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($981,380M) divided by total assets ($2,171,582M).",
@@ -299,7 +308,8 @@
         "roa": "Disclosed by the issuer: 0.79% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q4 2024. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed: 18.1% return on tangible common equity (reported basis, not the adjusted row), read from page 4 of the cited document in the column for Q4 2024. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,132,800M divided by average common equity $114,750M = 18.59x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,132,800M divided by average common equity $114,750M = 18.59x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $3.07 adjusted diluted earnings per share for Q4 2024. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -465,6 +475,12 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "3.07",
+          "anchorText": "diluted adjusted"
         }
       },
       "derived": {
@@ -514,7 +530,8 @@
         "roa": 0.85,
         "adjustedOperatingLeverage": 7.7,
         "rotce": 21.2,
-        "equityMultiplier": 20.12
+        "equityMultiplier": 20.12,
+        "adjustedDilutedEps": 3.62
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,006,050M) divided by total assets ($2,191,026M).",
@@ -534,7 +551,8 @@
         "roa": "Disclosed by the issuer: 0.85% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q1 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +7.7% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed: 21.2% return on tangible common equity (reported basis, not the adjusted row), read from page 4 of the cited document in the column for Q1 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,385,200M divided by average common equity $118,550M = 20.12x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,385,200M divided by average common equity $118,550M = 20.12x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $3.62 adjusted diluted earnings per share for Q1 2025. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -698,6 +716,12 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "3.62",
+          "anchorText": "diluted adjusted"
         }
       },
       "derived": {
@@ -747,7 +771,8 @@
         "roa": 0.76,
         "adjustedOperatingLeverage": 3.1,
         "rotce": 17.8,
-        "equityMultiplier": 19.14
+        "equityMultiplier": 19.14,
+        "adjustedDilutedEps": 3.12
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,007,306M) divided by total assets ($2,242,133M).",
@@ -768,7 +793,8 @@
         "roa": "Disclosed by the issuer: 0.76% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q2 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +3.1% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed: 17.8% return on tangible common equity (reported basis, not the adjusted row), read from page 4 of the cited document in the column for Q2 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,360,000M divided by average common equity $123,300M = 19.14x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,360,000M divided by average common equity $123,300M = 19.14x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $3.12 adjusted diluted earnings per share for Q2 2025. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -932,6 +958,12 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "3.12",
+          "anchorText": "diluted adjusted"
         }
       },
       "derived": {
@@ -981,7 +1013,8 @@
         "roa": 0.89,
         "adjustedOperatingLeverage": 6.5,
         "rotce": 21.6,
-        "equityMultiplier": 19.78
+        "equityMultiplier": 19.78,
+        "adjustedDilutedEps": 3.84
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,025,460M) divided by total assets ($2,227,893M).",
@@ -1001,7 +1034,8 @@
         "roa": "Disclosed by the issuer: 0.89% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q3 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +6.5% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed: 21.6% return on tangible common equity (reported basis, not the adjusted row), read from page 4 of the cited document in the column for Q3 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,402,500M divided by average common equity $121,450M = 19.78x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,402,500M divided by average common equity $121,450M = 19.78x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $3.84 adjusted diluted earnings per share for Q3 2025. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1164,6 +1198,12 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "3.84",
+          "anchorText": "diluted adjusted"
         }
       },
       "derived": {
@@ -1213,7 +1253,8 @@
         "roa": 0.88,
         "adjustedOperatingLeverage": 8.5,
         "rotce": 20.9,
-        "equityMultiplier": 19.57
+        "equityMultiplier": 19.57,
+        "adjustedDilutedEps": 3.85
       },
       "notes": {
         "efficiencyRatio": "Not stated as a single consolidated-bank line in this earnings release; computed as Non-interest expense ($9,374M) / Total revenue ($17,209M), consistent with RBC's own stated definition ('Efficiency ratio is calculated as Non-interest expense divided by Total revenue') confirmed in the Q3 2024 and Q1 2025 Reports to Shareholders, and validated against RBC-reported efficiency ratios in other quarters where both the computed and disclosed values were compared and matched.",
@@ -1234,7 +1275,8 @@
         "roa": "Disclosed by the issuer: 0.88% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q4 2025. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +8.5% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed: 20.9% return on tangible common equity (reported basis, not the adjusted row), read from page 4 of the cited document in the column for Q4 2025. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,444,700M divided by average common equity $124,900M = 19.57x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,444,700M divided by average common equity $124,900M = 19.57x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $3.85 adjusted diluted earnings per share for Q4 2025. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1392,6 +1434,12 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "3.85",
+          "anchorText": "diluted adjusted"
         }
       },
       "derived": {
@@ -1442,7 +1490,8 @@
         "roa": 0.89,
         "adjustedOperatingLeverage": 4.3,
         "rotce": 21.5,
-        "equityMultiplier": 20.18
+        "equityMultiplier": 20.18,
+        "adjustedDilutedEps": 4.08
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,054,881M) divided by total assets ($2,342,393M).",
@@ -1463,7 +1512,8 @@
         "roa": "Disclosed by the issuer: 0.89% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q1 2026. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +4.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed: 21.5% return on tangible common equity (reported basis, not the adjusted row), read from page 4 of the cited document in the column for Q1 2026. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,569,500M divided by average common equity $127,350M = 20.18x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,569,500M divided by average common equity $127,350M = 20.18x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $4.08 adjusted diluted earnings per share for Q1 2026. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1627,6 +1677,12 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "4.08",
+          "anchorText": "diluted adjusted"
         }
       },
       "derived": {
@@ -1676,7 +1732,8 @@
         "roa": 0.88,
         "adjustedOperatingLeverage": 2.2,
         "rotce": 20.9,
-        "equityMultiplier": 20.02
+        "equityMultiplier": 20.02,
+        "adjustedDilutedEps": 3.9
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,077,949M) divided by total assets ($2,396,080M).",
@@ -1696,7 +1753,8 @@
         "roa": "Disclosed by the issuer: 0.88% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q2 2026. Not computed.",
         "adjustedOperatingLeverage": "Disclosed: +2.2% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed: 20.9% return on tangible common equity (reported basis, not the adjusted row), read from page 4 of the cited document in the column for Q2 2026. ROTCE is net income available to common shareholders over average common equity less goodwill and intangibles.",
-        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,570,300M divided by average common equity $128,400M = 20.02x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE)."
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,570,300M divided by average common equity $128,400M = 20.02x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $3.90 adjusted diluted earnings per share for Q2 2026. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1859,6 +1917,12 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 5,
           "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "3.90",
+          "anchorText": "diluted adjusted"
         }
       },
       "derived": {

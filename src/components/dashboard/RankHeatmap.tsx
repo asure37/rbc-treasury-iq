@@ -25,7 +25,7 @@ function heatRgb(t: number): [number, number, number] {
 }
 
 const fmtVal = (v: number, m: MetricMeta) =>
-  `${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : m.unit === "x" ? "x" : ""}`;
+  `${m.unit === "$" ? "$" : ""}${v.toFixed(m.decimals)}${m.unit === "%" ? "%" : m.unit === "x" ? "x" : ""}`;
 
 interface Cell {
   key: MetricKey;

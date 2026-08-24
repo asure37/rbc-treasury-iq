@@ -41,6 +41,7 @@ const SECTORS: { label: string; accent: string; keys: MetricKey[] }[] = [
       "efficiencyRatio",
       "adjustedOperatingLeverage",
       "dividendPayoutRatio",
+      "adjustedDilutedEps",
       "netIncomeMillions",
     ],
   },
