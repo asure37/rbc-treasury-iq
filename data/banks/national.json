@@ -39,7 +39,7 @@
         "irrbbNiiSensitivityPct": -0.52,
         "tlacLeverageRatio": 8.3,
         "dividendPayoutRatio": 41.6,
-        "roa": 0.91
+        "roa": 0.89
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.31%), as National Bank does not publish a single consolidated whole-bank NIM headline figure; segment NIM is the standard metric cited by the bank and analysts.",
@@ -59,7 +59,7 @@
         "newMetricsSource": "Q3 2024 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Computed, not disclosed: quarterly net income $1,033M annualised (x4) divided by period-end total assets $453.9B = 0.91%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.89% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q3 2024. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -197,6 +197,12 @@
           "page": 1,
           "searchText": "41.6 %",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "searchText": "0.89",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -234,7 +240,7 @@
         "irrbbNiiSensitivityPct": -0.61,
         "tlacLeverageRatio": 8.6,
         "dividendPayoutRatio": 40.1,
-        "roa": 0.83
+        "roa": 0.81
       },
       "notes": {
         "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
@@ -254,7 +260,7 @@
         "newMetricsSource": "2024 Annual Report (fiscal year ended October 31, 2024) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Computed, not disclosed: quarterly net income $955M annualised (x4) divided by period-end total assets $462.2B = 0.83%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.81% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q4 2024. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -394,6 +400,12 @@
           "page": 4,
           "searchText": "40.1%",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "searchText": "0.81",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -431,7 +443,7 @@
         "irrbbNiiSensitivityPct": -0.56,
         "tlacLeverageRatio": 8.7,
         "dividendPayoutRatio": 40.1,
-        "roa": 0.82
+        "roa": 0.81
       },
       "notes": {
         "cwbAcquisition": "CWB acquisition closed Feb 3, 2025, after this period end (Jan 31, 2025); figures below do not yet reflect CWB consolidation.",
@@ -451,7 +463,7 @@
         "newMetricsSource": "Q1 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Computed, not disclosed: quarterly net income $997M annualised (x4) divided by period-end total assets $483.8B = 0.82%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.81% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q1 2025. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -589,6 +601,12 @@
           "page": 1,
           "searchText": "40.1 %",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "searchText": "0.81",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -646,7 +664,7 @@
         "newMetricsSource": "Q2 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Computed, not disclosed: quarterly net income $896M annualised (x4) divided by period-end total assets $536.2B = 0.67%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.67% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q2 2025. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -784,6 +802,12 @@
           "page": 1,
           "searchText": "42.2 %",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "searchText": "0.67",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -821,7 +845,7 @@
         "irrbbNiiSensitivityPct": -0.35,
         "tlacLeverageRatio": 9.0,
         "dividendPayoutRatio": 44.3,
-        "roa": 0.77
+        "roa": 0.75
       },
       "notes": {
         "cwbAcquisition": "First full quarter with CWB fully consolidated for the entire reporting period (CWB closed Feb 3, 2025).",
@@ -841,7 +865,7 @@
         "newMetricsSource": "Q3 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Computed, not disclosed: quarterly net income $1,065M annualised (x4) divided by period-end total assets $552.6B = 0.77%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.75% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q3 2025. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -979,6 +1003,12 @@
           "page": 1,
           "searchText": "44.3 %",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "searchText": "0.75",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -1016,7 +1046,7 @@
         "irrbbNiiSensitivityPct": -0.35,
         "tlacLeverageRatio": 8.8,
         "dividendPayoutRatio": 45.6,
-        "roa": 0.73
+        "roa": 0.72
       },
       "notes": {
         "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
@@ -1037,7 +1067,7 @@
         "newMetricsSource": "2025 Annual Report (fiscal year ended October 31, 2025) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Computed, not disclosed: quarterly net income $1,059M annualised (x4) divided by period-end total assets $576.9B = 0.73%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.72% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q4 2025. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1172,6 +1202,12 @@
           "page": 4,
           "searchText": "45.6%",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "searchText": "0.72",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -1209,7 +1245,7 @@
         "irrbbNiiSensitivityPct": -0.33,
         "tlacLeverageRatio": 9.2,
         "dividendPayoutRatio": 45.1,
-        "roa": 0.83
+        "roa": 0.82
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.27%); no single consolidated whole-bank NIM headline figure is published.",
@@ -1228,7 +1264,7 @@
         "newMetricsSource": "Q1 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Computed, not disclosed: quarterly net income $1,254M annualised (x4) divided by period-end total assets $605.9B = 0.83%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.82% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q1 2026. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1368,6 +1404,12 @@
           "page": 1,
           "searchText": "45.1 %",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "searchText": "0.82",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -1425,7 +1467,7 @@
         "newMetricsSource": "Q2 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
-        "roa": "Computed, not disclosed: quarterly net income $1,234M annualised (x4) divided by period-end total assets $617.7B = 0.80%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.80% return on average assets, read from the Q2 2026 supplementary financial information (page 7), in the column headed Q2 2026. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1564,6 +1606,12 @@
           "page": 1,
           "searchText": "42.3 %",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 7,
+          "searchText": "0.80",
+          "anchorText": "return on average assets"
         }
       }
     }

@@ -39,7 +39,7 @@
         "nonOperationalDepositsPct": 49.11,
         "tlacLeverageRatio": 8.7,
         "dividendPayoutRatio": 49.3,
-        "roa": 0.7
+        "roa": 0.71
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
@@ -59,7 +59,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $106,399M as a share of total wholesale deposits $216,672M ($110,273M operational + $106,399M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
-        "roa": "Computed, not disclosed: quarterly net income $1,786M annualised (x4) divided by period-end total assets $1,021.4B = 0.70%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.71% return on average assets, read from the supplementary financial information (page 6), in the column headed Q3 2024. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -201,6 +201,12 @@
           "page": 6,
           "searchText": "49.3%",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "0.71",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -258,7 +264,7 @@
         "newMetricsSource": "CIBC 2024 Annual Report (audited consolidated financial statements and MD&A) and CIBC Q4/25 Pillar 3 Report — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
-        "roa": "Computed, not disclosed: quarterly net income $1,874M annualised (x4) divided by period-end total assets $1,042.0B = 0.72%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.72% return on average assets, read from the supplementary financial information (page 6), in the column headed Q4 2024. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -374,6 +380,12 @@
           "page": 6,
           "searchText": "47.2%",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "0.72",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -411,7 +423,7 @@
         "nonOperationalDepositsPct": 46.6,
         "tlacLeverageRatio": 8.9,
         "dividendPayoutRatio": 44.1,
-        "roa": 0.8
+        "roa": 0.78
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table; also confirmed in Q1 2026 news release comparative column (15.2%).",
@@ -430,7 +442,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $108,389M as a share of total wholesale deposits $232,606M ($124,217M operational + $108,389M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
-        "roa": "Computed, not disclosed: quarterly net income $2,163M annualised (x4) divided by period-end total assets $1,082.5B = 0.80%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.78% return on average assets, read from the supplementary financial information (page 6), in the column headed Q1 2025. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -572,6 +584,12 @@
           "page": 6,
           "searchText": "44.1%",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "0.78",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -609,7 +627,7 @@
         "nonOperationalDepositsPct": 45.53,
         "tlacLeverageRatio": 9.1,
         "dividendPayoutRatio": 47.4,
-        "roa": 0.73
+        "roa": 0.75
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table.",
@@ -628,7 +646,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $106,165M as a share of total wholesale deposits $233,162M ($126,997M operational + $106,165M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
-        "roa": "Computed, not disclosed: quarterly net income $1,998M annualised (x4) divided by period-end total assets $1,090.1B = 0.73%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.75% return on average assets, read from the supplementary financial information (page 6), in the column headed Q2 2025. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -769,6 +787,12 @@
           "page": 6,
           "searchText": "47.4%",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "0.75",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -806,7 +830,7 @@
         "nonOperationalDepositsPct": 44.34,
         "tlacLeverageRatio": 9.2,
         "dividendPayoutRatio": 44.9,
-        "roa": 0.76
+        "roa": 0.75
       },
       "notes": {
         "roe": "Reported ROE (annualized) 14.2% per CIBC Supplementary Financial Information nine-quarter trend table (matches reported and adjusted ROE for this quarter).",
@@ -825,7 +849,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $103,695M as a share of total wholesale deposits $233,882M ($130,187M operational + $103,695M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
-        "roa": "Computed, not disclosed: quarterly net income $2,094M annualised (x4) divided by period-end total assets $1,102.3B = 0.76%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.75% return on average assets, read from the supplementary financial information (page 6), in the column headed Q3 2025. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -941,6 +965,12 @@
           "page": 6,
           "searchText": "44.9%",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "0.75",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -978,7 +1008,7 @@
         "irrbbNiiSensitivityPct": -0.46,
         "tlacLeverageRatio": 9.0,
         "dividendPayoutRatio": 43.8,
-        "roa": 0.78
+        "roa": 0.77
       },
       "notes": {
         "roe": "Reported ROE (annualized) per CIBC Supplementary Financial Information nine-quarter trend table (Q1 2026 vintage), cross-checked against Q4/FY2025 news release (14.1%, up from 13.3% YoY).",
@@ -997,7 +1027,7 @@
         "newMetricsSource": "CIBC 2025 Annual Report (audited consolidated financial statements and MD&A) and CIBC Q4/25 Pillar 3 Report and Supplementary Regulatory Capital Disclosure — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
-        "roa": "Computed, not disclosed: quarterly net income $2,174M annualised (x4) divided by period-end total assets $1,116.9B = 0.78%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.77% return on average assets, read from the supplementary financial information (page 6), in the column headed Q4 2025. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1139,6 +1169,12 @@
           "page": 6,
           "searchText": "43.8%",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "0.77",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -1176,7 +1212,7 @@
         "nonOperationalDepositsPct": 41.0,
         "tlacLeverageRatio": 9.1,
         "dividendPayoutRatio": 33.1,
-        "roa": 1.09
+        "roa": 1.06
       },
       "notes": {
         "roe": "Reported ROE (GAAP, annualized) was unusually high at 20.2% mainly due to $422 million of income tax recoveries (capital gains distribution and utilization of capital losses) recognized in the quarter; adjusted ROE excluding this and other items of note was 17.4%. Used reported per instructions, but flagging the distortion.",
@@ -1195,7 +1231,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $99,715M as a share of total wholesale deposits $243,183M ($143,468M operational + $99,715M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
-        "roa": "Computed, not disclosed: quarterly net income $3,093M annualised (x4) divided by period-end total assets $1,132.6B = 1.09%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 1.06% return on average assets, read from the supplementary financial information (page 6), in the column headed Q1 2026. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1337,6 +1373,12 @@
           "page": 6,
           "searchText": "33.1%",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "1.06",
+          "anchorText": "return on average assets"
         }
       }
     },
@@ -1374,7 +1416,7 @@
         "nonOperationalDepositsPct": 42.37,
         "tlacLeverageRatio": 8.9,
         "dividendPayoutRatio": 41.9,
-        "roa": 0.85
+        "roa": 0.87
       },
       "notes": {
         "roe": "Reported ROE (annualized) 16.4%, which equals adjusted ROE this quarter (up 250 bps YoY per management commentary).",
@@ -1393,7 +1435,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $106,834M as a share of total wholesale deposits $252,138M ($145,304M operational + $106,834M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Reported basis, from CIBC's Supplementary Financial Information financial-highlights table.",
-        "roa": "Computed, not disclosed: quarterly net income $2,457M annualised (x4) divided by period-end total assets $1,160.6B = 0.85%. Applied uniformly to all six banks so the comparison is on one basis. BMO, CIBC and National Bank publish their own ROA on an average-assets basis, which differs by roughly 0.02pp; RBC, Scotiabank and TD do not publish one at all."
+        "roa": "Disclosed by the issuer: 0.87% return on average assets, read from the supplementary financial information (page 6), in the column headed Q2 2026. Not computed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1535,6 +1577,12 @@
           "page": 6,
           "searchText": "41.9%",
           "anchorText": "dividend payout ratio"
+        },
+        "roa": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 6,
+          "searchText": "0.87",
+          "anchorText": "return on average assets"
         }
       }
     }
