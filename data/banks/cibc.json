@@ -45,7 +45,8 @@
         "equityMultiplier": 19.49,
         "adjustedDilutedEps": 1.93,
         "lcrBufferBillions": 39.1,
-        "adjustedEfficiencyRatio": 55.5
+        "adjustedEfficiencyRatio": 55.5,
+        "riskWeightedAssetsMillions": 329202
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.0% adjusted return on common shareholders' equity for Q3 2024, read from the supplementary financial information (page 6), the second ROE row (footnote (2) only -- the reported row carries footnotes (1)(2)). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS. CIBC's own commentary already noted this quarter's reported and adjusted ROE coincide.",
@@ -71,7 +72,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,012,012M divided by average common equity $51,916M = 19.49x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.93 adjusted diluted earnings per share for Q3 2024. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $187,428.0M less net cash outflows $148,338.0M = $39.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 44), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 55.5% adjusted efficiency ratio for Q3 2024, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 55.5% adjusted efficiency ratio for Q3 2024, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $1,021,407M for Q3 2024. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $329,202M for Q3 2024, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -253,6 +256,12 @@
           "page": 6,
           "searchText": "55.5",
           "anchorText": "adjusted efficiency ratio"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "329,202",
+          "anchorText": "total risk-weighted assets (rwa)"
         }
       },
       "derived": {
@@ -309,7 +318,8 @@
         "equityMultiplier": 19.27,
         "adjustedDilutedEps": 1.91,
         "lcrBufferBillions": 44.9,
-        "adjustedEfficiencyRatio": 57.2
+        "adjustedEfficiencyRatio": 57.2,
+        "riskWeightedAssetsMillions": 333502
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 13.4% adjusted return on common shareholders' equity for Q4 2024, read from the supplementary financial information (page 6), the second ROE row (footnote (2) only -- the reported row carries footnotes (1)(2)). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS. CIBC's own commentary already noted this quarter's reported and adjusted ROE coincide.",
@@ -335,7 +345,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,035,847M divided by average common equity $53,763M = 19.27x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.91 adjusted diluted earnings per share for Q4 2024. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $198,395.0M less net cash outflows $153,489.0M = $44.9B. Both operands are disclosed in the issuer's LCR common disclosure template (page 91), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.2% adjusted efficiency ratio for Q4 2024, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.2% adjusted efficiency ratio for Q4 2024, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $1,041,985M for Q4 2024. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $333,502M for Q4 2024, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -423,8 +435,8 @@
           "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/q424newsrelease-en.pdf",
-          "page": 4,
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
           "searchText": "1,041,985",
           "anchorText": "total assets"
         },
@@ -490,6 +502,12 @@
           "page": 6,
           "searchText": "57.2",
           "anchorText": "adjusted efficiency ratio"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "333,502",
+          "anchorText": "total risk-weighted assets (rwa)"
         }
       },
       "derived": {
@@ -545,7 +563,8 @@
         "equityMultiplier": 20.29,
         "adjustedDilutedEps": 2.2,
         "lcrBufferBillions": 51.1,
-        "adjustedEfficiencyRatio": 53.1
+        "adjustedEfficiencyRatio": 53.1,
+        "riskWeightedAssetsMillions": 341930
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 15.3% adjusted return on common shareholders' equity for Q1 2025, read from the supplementary financial information (page 6), the second ROE row (footnote (2) only -- the reported row carries footnotes (1)(2)). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS. CIBC's own commentary already noted this quarter's reported and adjusted ROE coincide.",
@@ -570,7 +589,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,098,807M divided by average common equity $54,163M = 20.29x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.20 adjusted diluted earnings per share for Q1 2025. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $212,665.0M less net cash outflows $161,581.0M = $51.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 38), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 53.1% adjusted efficiency ratio for Q1 2025, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 53.1% adjusted efficiency ratio for Q1 2025, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $1,082,464M for Q1 2025. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $341,930M for Q1 2025, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -697,7 +718,7 @@
           "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
           "page": 7,
           "searchText": "1,082,464",
           "anchorText": "total assets"
@@ -752,6 +773,12 @@
           "page": 6,
           "searchText": "53.1",
           "anchorText": "adjusted efficiency ratio"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "341,930",
+          "anchorText": "total risk-weighted assets (rwa)"
         }
       },
       "derived": {
@@ -807,7 +834,8 @@
         "equityMultiplier": 19.24,
         "adjustedDilutedEps": 2.05,
         "lcrBufferBillions": 50.1,
-        "adjustedEfficiencyRatio": 54.2
+        "adjustedEfficiencyRatio": 54.2,
+        "riskWeightedAssetsMillions": 341204
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 13.9% adjusted return on common shareholders' equity for Q2 2025, read from the supplementary financial information (page 6), the second ROE row (footnote (2) only -- the reported row carries footnotes (1)(2)). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS. CIBC's own commentary already noted this quarter's reported and adjusted ROE coincide.",
@@ -832,7 +860,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,096,006M divided by average common equity $56,959M = 19.24x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.05 adjusted diluted earnings per share for Q2 2025. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $211,847.0M less net cash outflows $161,768.0M = $50.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 42), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.2% adjusted efficiency ratio for Q2 2025, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.2% adjusted efficiency ratio for Q2 2025, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $1,090,143M for Q2 2025. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $341,204M for Q2 2025, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1013,6 +1043,12 @@
           "page": 6,
           "searchText": "54.2",
           "anchorText": "adjusted efficiency ratio"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "341,204",
+          "anchorText": "total risk-weighted assets (rwa)"
         }
       },
       "derived": {
@@ -1068,7 +1104,8 @@
         "equityMultiplier": 19.6,
         "adjustedDilutedEps": 2.16,
         "lcrBufferBillions": 42.7,
-        "adjustedEfficiencyRatio": 54.7
+        "adjustedEfficiencyRatio": 54.7,
+        "riskWeightedAssetsMillions": 347712
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.2% adjusted return on common shareholders' equity for Q3 2025, read from the supplementary financial information (page 6), the second ROE row (footnote (2) only -- the reported row carries footnotes (1)(2)). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS. CIBC's own commentary already noted this quarter's reported and adjusted ROE coincide.",
@@ -1093,7 +1130,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,103,447M divided by average common equity $56,289M = 19.60x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.16 adjusted diluted earnings per share for Q3 2025. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $200,482.0M less net cash outflows $157,823.0M = $42.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 42), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.7% adjusted efficiency ratio for Q3 2025, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.7% adjusted efficiency ratio for Q3 2025, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $1,102,255M for Q3 2025. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $347,712M for Q3 2025, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1248,6 +1287,12 @@
           "page": 6,
           "searchText": "54.7",
           "anchorText": "adjusted efficiency ratio"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "347,712",
+          "anchorText": "total risk-weighted assets (rwa)"
         }
       },
       "derived": {
@@ -1303,7 +1348,8 @@
         "equityMultiplier": 19.32,
         "adjustedDilutedEps": 2.21,
         "lcrBufferBillions": 48.4,
-        "adjustedEfficiencyRatio": 55.0
+        "adjustedEfficiencyRatio": 55.0,
+        "riskWeightedAssetsMillions": 357803
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.1% adjusted return on common shareholders' equity for Q4 2025, read from the supplementary financial information (page 6), the second ROE row (footnote (2) only -- the reported row carries footnotes (1)(2)). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS. CIBC's own commentary already noted this quarter's reported and adjusted ROE coincide.",
@@ -1328,7 +1374,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,118,611M divided by average common equity $57,896M = 19.32x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.21 adjusted diluted earnings per share for Q4 2025. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $200,399.0M less net cash outflows $151,959.0M = $48.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 85), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 55.0% adjusted efficiency ratio for Q4 2025, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 55.0% adjusted efficiency ratio for Q4 2025, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $1,116,938M for Q4 2025. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $357,803M for Q4 2025, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1449,8 +1497,8 @@
           "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2025/q425newsrelease-en.pdf",
-          "page": 4,
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
           "searchText": "1,116,938",
           "anchorText": "total assets"
         },
@@ -1509,6 +1557,12 @@
           "page": 6,
           "searchText": "55.0",
           "anchorText": "adjusted efficiency ratio"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "357,803",
+          "anchorText": "total risk-weighted assets (rwa)"
         }
       },
       "derived": {
@@ -1564,7 +1618,8 @@
         "equityMultiplier": 19.72,
         "adjustedDilutedEps": 2.76,
         "lcrBufferBillions": 50.8,
-        "adjustedEfficiencyRatio": 51.4
+        "adjustedEfficiencyRatio": 51.4,
+        "riskWeightedAssetsMillions": 361829
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 17.4% adjusted return on common shareholders' equity for Q1 2026, read from the supplementary financial information (page 6), the second ROE row (footnote (2) only -- the reported row carries footnotes (1)(2)). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS. CIBC's own commentary already noted this quarter's reported and adjusted ROE coincide.",
@@ -1589,7 +1644,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,154,882M divided by average common equity $58,566M = 19.72x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.76 adjusted diluted earnings per share for Q1 2026. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $205,851.0M less net cash outflows $155,082.0M = $50.8B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 51.4% adjusted efficiency ratio for Q1 2026, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 51.4% adjusted efficiency ratio for Q1 2026, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $1,132,577M for Q1 2026. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $361,829M for Q1 2026, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1716,7 +1773,7 @@
           "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q126financials-en.pdf",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
           "page": 7,
           "searchText": "1,132,577",
           "anchorText": "total assets"
@@ -1771,6 +1828,12 @@
           "page": 6,
           "searchText": "51.4",
           "anchorText": "adjusted efficiency ratio"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "361,829",
+          "anchorText": "total risk-weighted assets (rwa)"
         }
       },
       "derived": {
@@ -1826,7 +1889,8 @@
         "equityMultiplier": 19.8,
         "adjustedDilutedEps": 2.54,
         "lcrBufferBillions": 48.8,
-        "adjustedEfficiencyRatio": 52.3
+        "adjustedEfficiencyRatio": 52.3,
+        "riskWeightedAssetsMillions": 358396
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 16.4% adjusted return on common shareholders' equity for Q2 2026, read from the supplementary financial information (page 6), the second ROE row (footnote (2) only -- the reported row carries footnotes (1)(2)). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS. CIBC's own commentary already noted this quarter's reported and adjusted ROE coincide.",
@@ -1851,7 +1915,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,161,512M divided by average common equity $58,659M = 19.80x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.54 adjusted diluted earnings per share for Q2 2026. CIBC supplementary financial information p5, row \"adjusted diluted EPS ($)\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $204,468.0M less net cash outflows $155,702.0M = $48.8B. Both operands are disclosed in the issuer's LCR common disclosure template (page 44), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 52.3% adjusted efficiency ratio for Q2 2026, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 52.3% adjusted efficiency ratio for Q2 2026, read from the supplementary financial information (page 6), row \"Adjusted efficiency ratio\" (the reported row is labelled \"Reported efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $1,160,560M for Q2 2026. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $358,396M for Q2 2026, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1972,8 +2038,8 @@
           "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226report-en.pdf",
-          "page": 5,
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
           "searchText": "1,160,560",
           "anchorText": "total assets"
         },
@@ -2031,6 +2097,12 @@
           "page": 6,
           "searchText": "52.3",
           "anchorText": "adjusted efficiency ratio"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "page": 7,
+          "searchText": "358,396",
+          "anchorText": "total risk-weighted assets (rwa)"
         }
       },
       "derived": {

@@ -4,13 +4,18 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Download, Presentation } from "lucide-react";
 import { useDashboardData } from "@/lib/data-context";
-import { exportRawCsv } from "@/lib/export";
+import { exportRawCsv, exportPeerCompCsv } from "@/lib/export";
 import { Mark } from "@/components/ui/Mark";
 import { ExportDeckPage } from "./ExportDeckPage";
 
 export function Header() {
-  const { banks, metricsMeta } = useDashboardData();
+  const { banks, metricsMeta, periods } = useDashboardData();
   const [deckOpen, setDeckOpen] = useState(false);
+  // Peer-comp export covers ONE quarter, so it needs its own period choice. Defaults
+  // to the newest quarter any bank has reported, which is what an analyst pulling a
+  // current peer sheet wants; older quarters stay available for back-filling a deck.
+  const latestPeriod = periods[periods.length - 1]?.period ?? "";
+  const [peerCompPeriod, setPeerCompPeriod] = useState<string>(latestPeriod);
 
   return (
     <motion.header
@@ -43,6 +48,28 @@ export function Header() {
             <Download className="size-3.5" />
             Export Data
           </button>
+          <div className="flex items-center gap-1.5 rounded-full border border-border-soft bg-surface/70 py-1 pl-2 pr-1">
+            <select
+              value={peerCompPeriod}
+              onChange={(e) => setPeerCompPeriod(e.target.value)}
+              aria-label="Quarter for peer comparison export"
+              className="cursor-pointer rounded-full bg-transparent px-1 text-xs font-medium text-text-secondary outline-none focus:text-text-primary"
+            >
+              {[...periods].reverse().map((p) => (
+                <option key={p.period} value={p.period}>
+                  {p.period}
+                </option>
+              ))}
+            </select>
+            <button
+              onClick={() => exportPeerCompCsv(banks, peerCompPeriod)}
+              title={`Download the ${peerCompPeriod} peer-comparison table, with quarter-over-quarter deltas`}
+              className="flex items-center gap-1.5 rounded-full border border-rbc-cyan/40 bg-rbc-cyan/10 px-2.5 py-1 text-xs font-semibold text-rbc-cyan transition-colors hover:bg-rbc-cyan/20"
+            >
+              <Download className="size-3.5" />
+              Peer Comp
+            </button>
+          </div>
           <button
             onClick={() => setDeckOpen(true)}
             className="flex items-center gap-1.5 rounded-full border border-rbc-cyan/40 bg-rbc-cyan/10 px-3.5 py-1.5 text-xs font-semibold text-rbc-cyan transition-colors hover:bg-rbc-cyan/20"

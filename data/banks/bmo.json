@@ -25,7 +25,7 @@
         "nim": 1.51,
         "efficiencyRatio": 57.3,
         "loansToAssetsPct": 48.11,
-        "totalAssetsBillions": 1440.3,
+        "totalAssetsBillions": 1400.47,
         "netIncomeMillions": 1865,
         "retailDepositsPct": 34.02,
         "wholesaleDepositsPct": 65.98,
@@ -45,7 +45,8 @@
         "equityMultiplier": 19.17,
         "adjustedDilutedEps": 2.64,
         "lcrBufferBillions": 54.4,
-        "adjustedEfficiencyRatio": 57.3
+        "adjustedEfficiencyRatio": 57.3,
+        "riskWeightedAssetsMillions": 428860
       },
       "notes": {
         "tier1CapitalRatio": "Tier 1 capital ratio %, BMO Q3 2024 Report to Shareholders capital table (Q3-2024).",
@@ -74,7 +75,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,385,866M divided by average common equity $72,305M = 19.17x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.64 adjusted diluted earnings per share for Q3 2024. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $244.1B less net cash outflows $189.7B = $54.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 45), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.3% for Q3 2024, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row)."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.3% for Q3 2024, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row).",
+        "totalAssetsBillions": "Total assets $1,400,470M for Q3 2024. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $428,860M for Q3 2024, as disclosed."
       },
       "sourceRefs": {
         "tier1CapitalRatio": {
@@ -247,6 +250,18 @@
           "page": 7,
           "searchText": "57.3",
           "anchorText": "efficiency ratio 28"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "1,400,470",
+          "anchorText": "total assets 1"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "428,860",
+          "anchorText": "risk-weighted assets 14"
         }
       },
       "derived": {
@@ -279,7 +294,7 @@
         "nim": 1.7,
         "efficiencyRatio": 49.4,
         "loansToAssetsPct": 48.12,
-        "totalAssetsBillions": 1409.6,
+        "totalAssetsBillions": 1409.647,
         "netIncomeMillions": 2304,
         "loanToDepositRatio": 69.46,
         "wholesaleFundingPct": 18.13,
@@ -299,7 +314,8 @@
         "equityMultiplier": 18.92,
         "adjustedDilutedEps": 1.9,
         "lcrBufferBillions": 61.0,
-        "adjustedEfficiencyRatio": 58.3
+        "adjustedEfficiencyRatio": 58.3,
+        "riskWeightedAssetsMillions": 420838
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 7.4% for Q4 2024, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -324,7 +340,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,418,952M divided by average common equity $74,992M = 18.92x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.90 adjusted diluted earnings per share for Q4 2024. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $253.4B less net cash outflows $192.4B = $61.0B. Both operands are disclosed in the issuer's LCR common disclosure template (page 37), and the pair reproduces the LCR percentage printed on that same page. Q4 is the prior-period column of the following Q1 report, which is where BMO publishes it.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 58.3% for Q4 2024, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row)."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 58.3% for Q4 2024, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row).",
+        "totalAssetsBillions": "Total assets $1,409,647M for Q4 2024. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $420,838M for Q4 2024, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -488,6 +506,18 @@
           "page": 7,
           "searchText": "58.3",
           "anchorText": "efficiency ratio 28"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "1,409,647",
+          "anchorText": "total assets 1"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "420,838",
+          "anchorText": "risk-weighted assets 14"
         }
       },
       "derived": {
@@ -541,7 +571,8 @@
         "equityMultiplier": 19.58,
         "adjustedDilutedEps": 3.04,
         "lcrBufferBillions": 56.3,
-        "adjustedEfficiencyRatio": 56.3
+        "adjustedEfficiencyRatio": 56.3,
+        "riskWeightedAssetsMillions": 433944
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2025 = 128%, BMO Q1 2025 Report to Shareholders.",
@@ -549,7 +580,7 @@
         "roe": "Disclosed by the issuer, ADJUSTED basis: 11.3% for Q1 2025, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "nim": "Net interest margin on average earning assets %, BMO Q1 2025 Report to Shareholders Financial Highlights (Q1-2025).",
         "efficiencyRatio": "reported efficiency ratio (58.6%, confirmed as unchanged year-over-year in the Q1 2026 release); adjusted efficiency ratio was 56.3%",
-        "totalAssetsBillions": "Total assets as at Jan 31 2025, BMO Q1 2025 Report to Shareholders Consolidated Balance Sheet ($1,468,093M).",
+        "totalAssetsBillions": "Total assets $1,468,093M for Q1 2025. Stored in $B at full precision so an export in $MM is exact.",
         "loansToAssetsPct": "Computed: net loans and acceptances ($689,235M) ÷ total assets ($1,468,093M) as at Jan 31 2025, BMO Q1 2025 Report to Shareholders.",
         "retailDepositsPct": "Individuals (personal) deposits $329,201M ÷ total deposits $996,832M, from the BMO Q1 2025 Report to Shareholders Deposits note + balance sheet. Renormalized: 33.02% of TOTAL deposits becomes 35.01% of the retail+wholesale book, because this issuer's deposit table carries a further 5.7% that is neither retail nor wholesale, so the two would not otherwise sum to 100%.",
         "wholesaleDepositsPct": "Bank ($32,616M) + Business & government ($578,369M) deposits ÷ total deposits $996,832M, BMO Q1 2025 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.) Renormalized: 61.29% of TOTAL deposits becomes 64.99% of the retail+wholesale book, because this issuer's deposit table carries a further 5.7% that is neither retail nor wholesale, so the two would not otherwise sum to 100%.",
@@ -569,7 +600,8 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,521,514M divided by average common equity $77,693M = 19.58x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.04 adjusted diluted earnings per share for Q1 2025. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $259.5B less net cash outflows $203.2B = $56.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 37), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 56.3% for Q1 2025, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row)."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 56.3% for Q1 2025, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row).",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $433,944M for Q1 2025, as disclosed."
       },
       "sourceRefs": {
         "nim": {
@@ -579,10 +611,10 @@
           "anchorText": "net interest margin"
         },
         "totalAssetsBillions": {
-          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "page": 15,
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
           "searchText": "1,468,093",
-          "anchorText": "total assets"
+          "anchorText": "total assets 1"
         },
         "lcr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
@@ -748,6 +780,12 @@
           "page": 7,
           "searchText": "56.3",
           "anchorText": "efficiency ratio 28"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "433,944",
+          "anchorText": "risk-weighted assets 14"
         }
       },
       "derived": {
@@ -800,14 +838,15 @@
         "rotce": 12.8,
         "equityMultiplier": 18.96,
         "adjustedDilutedEps": 2.62,
-        "lcrBufferBillions": 65.2
+        "lcrBufferBillions": 65.2,
+        "riskWeightedAssetsMillions": 425066
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended April 30, 2025 = 134%, BMO Q2 2025 Report to Shareholders.",
         "nsfr": "NSFR = 117% as at April 30, 2025, BMO Q2 2025 Report to Shareholders.",
         "roe": "Disclosed by the issuer, ADJUSTED basis: 9.8% for Q2 2025, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "efficiencyRatio": "Efficiency ratio %, Q2 2026 Report to Shareholders Financial Highlights (Table 1, Q2-2025 column). Anchor: Q1-2026 column (58.6) matches our existing Q1 2026 value.",
-        "totalAssetsBillions": "Total assets as at Apr 30 2025, BMO Q2 2025 Report to Shareholders Consolidated Balance Sheet ($1,440,269M).",
+        "totalAssetsBillions": "Total assets $1,440,269M for Q2 2025. Stored in $B at full precision so an export in $MM is exact.",
         "loansToAssetsPct": "Computed: net loans and acceptances ($676,142M) ÷ total assets ($1,440,269M) as at Apr 30 2025, BMO Q2 2025 Report to Shareholders.",
         "retailDepositsPct": "Individuals (personal) deposits $317,797M ÷ total deposits $958,267M, from the BMO Q2 2025 Report to Shareholders Deposits note + balance sheet. Renormalized: 33.16% of TOTAL deposits becomes 35.06% of the retail+wholesale book, because this issuer's deposit table carries a further 5.4% that is neither retail nor wholesale, so the two would not otherwise sum to 100%.",
         "wholesaleDepositsPct": "Bank ($27,781M) + Business & government ($560,755M) deposits ÷ total deposits $958,267M, BMO Q2 2025 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.) Renormalized: 61.42% of TOTAL deposits becomes 64.94% of the retail+wholesale book, because this issuer's deposit table carries a further 5.4% that is neither retail nor wholesale, so the two would not otherwise sum to 100%.",
@@ -827,7 +866,8 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,503,683M divided by average common equity $79,288M = 18.96x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.62 adjusted diluted earnings per share for Q2 2025. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $258.7B less net cash outflows $193.5B = $65.2B. Both operands are disclosed in the issuer's LCR common disclosure template (page 38), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 56.5% for Q2 2025, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row)."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 56.5% for Q2 2025, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row).",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $425,066M for Q2 2025, as disclosed."
       },
       "sourceRefs": {
         "efficiencyRatio": {
@@ -837,10 +877,10 @@
           "anchorText": "efficiency ratio"
         },
         "totalAssetsBillions": {
-          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "page": 16,
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
           "searchText": "1,440,269",
-          "anchorText": "total assets"
+          "anchorText": "total assets 1"
         },
         "lcr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
@@ -1007,6 +1047,12 @@
           "page": 7,
           "searchText": "56.5",
           "anchorText": "efficiency ratio 28"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "425,066",
+          "anchorText": "risk-weighted assets 14"
         }
       },
       "derived": {
@@ -1039,7 +1085,7 @@
         "nim": 1.69,
         "efficiencyRatio": 56.8,
         "loansToAssetsPct": 47.33,
-        "totalAssetsBillions": 1431.6,
+        "totalAssetsBillions": 1431.553,
         "netIncomeMillions": 2330,
         "adjustedEfficiencyRatio": 55.8,
         "retailDepositsPct": 34.66,
@@ -1059,7 +1105,8 @@
         "rotce": 15.6,
         "equityMultiplier": 18.61,
         "adjustedDilutedEps": 3.23,
-        "lcrBufferBillions": 58.1
+        "lcrBufferBillions": 58.1,
+        "riskWeightedAssetsMillions": 430134
       },
       "notes": {
         "efficiencyRatio": "Efficiency ratio %, BMO Q3 2025 Report to Shareholders Financial Highlights (Q3-2025).",
@@ -1083,7 +1130,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,433,742M divided by average common equity $77,048M = 18.61x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.23 adjusted diluted earnings per share for Q3 2025. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $252.1B less net cash outflows $194.0B = $58.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 41), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 55.8% for Q3 2025, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row)."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 55.8% for Q3 2025, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row).",
+        "totalAssetsBillions": "Total assets $1,431,553M for Q3 2025. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $430,134M for Q3 2025, as disclosed."
       },
       "sourceRefs": {
         "efficiencyRatio": {
@@ -1257,6 +1306,18 @@
           "page": 7,
           "searchText": "55.8",
           "anchorText": "efficiency ratio 28"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "1,431,553",
+          "anchorText": "total assets 1"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "430,134",
+          "anchorText": "risk-weighted assets 14"
         }
       },
       "derived": {
@@ -1289,7 +1350,7 @@
         "nim": 1.67,
         "efficiencyRatio": 59.5,
         "loansToAssetsPct": 45.9,
-        "totalAssetsBillions": 1476.8,
+        "totalAssetsBillions": 1476.802,
         "netIncomeMillions": 2295,
         "adjustedEfficiencyRatio": 56.7,
         "fullYearNetIncomeMillions": 8725,
@@ -1310,7 +1371,8 @@
         "rotce": 15.4,
         "equityMultiplier": 18.65,
         "adjustedDilutedEps": 3.28,
-        "lcrBufferBillions": 60.7
+        "lcrBufferBillions": 60.7,
+        "riskWeightedAssetsMillions": 437945
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 11.8% for Q4 2025, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -1335,7 +1397,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,464,058M divided by average common equity $78,511M = 18.65x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.28 adjusted diluted earnings per share for Q4 2025. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $252.1B less net cash outflows $191.4B = $60.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 33), and the pair reproduces the LCR percentage printed on that same page. Q4 is the prior-period column of the following Q1 report, which is where BMO publishes it.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 56.7% for Q4 2025, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row)."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 56.7% for Q4 2025, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row).",
+        "totalAssetsBillions": "Total assets $1,476,802M for Q4 2025. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $437,945M for Q4 2025, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1499,6 +1563,18 @@
           "page": 7,
           "searchText": "56.7",
           "anchorText": "efficiency ratio 28"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "1,476,802",
+          "anchorText": "total assets 1"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "437,945",
+          "anchorText": "risk-weighted assets 14"
         }
       },
       "derived": {
@@ -1552,14 +1628,15 @@
         "rotce": 16.1,
         "equityMultiplier": 19.13,
         "adjustedDilutedEps": 3.48,
-        "lcrBufferBillions": 52.1
+        "lcrBufferBillions": 52.1,
+        "riskWeightedAssetsMillions": 442058
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2026 = 126%, BMO Q1 2026 Report to Shareholders.",
         "nsfr": "NSFR = 116% as at January 31, 2026, BMO Q1 2026 Report to Shareholders.",
         "roe": "Disclosed by the issuer, ADJUSTED basis: 12.4% for Q1 2026, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "nim": "Net interest margin on average earning assets %, Q2 2026 Report to Shareholders Financial Highlights (Table 1, Q1-2026 column).",
-        "totalAssetsBillions": "Total assets as at Jan 31 2026, BMO Q1 2026 Report to Shareholders Consolidated Balance Sheet ($1,458,132M).",
+        "totalAssetsBillions": "Total assets $1,458,132M for Q1 2026. Stored in $B at full precision so an export in $MM is exact.",
         "loansToAssetsPct": "Computed: net loans and acceptances ($669,316M) ÷ total assets ($1,458,132M) as at Jan 31 2026, BMO Q1 2026 Report to Shareholders.",
         "retailDepositsPct": "Individuals (personal) deposits $297,789M ÷ total deposits $954,789M, from the BMO Q1 2026 Report to Shareholders Deposits note + balance sheet. Renormalized: 31.19% of TOTAL deposits becomes 33.20% of the retail+wholesale book, because this issuer's deposit table carries a further 6.0% that is neither retail nor wholesale, so the two would not otherwise sum to 100%.",
         "wholesaleDepositsPct": "Bank ($27,500M) + Business & government ($571,700M) deposits ÷ total deposits $954,789M, BMO Q1 2026 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.) Renormalized: 62.76% of TOTAL deposits becomes 66.80% of the retail+wholesale book, because this issuer's deposit table carries a further 6.0% that is neither retail nor wholesale, so the two would not otherwise sum to 100%.",
@@ -1579,7 +1656,8 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,512,341M divided by average common equity $79,075M = 19.13x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.48 adjusted diluted earnings per share for Q1 2026. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $252.9B less net cash outflows $200.8B = $52.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 33), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.8% for Q1 2026, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row)."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.8% for Q1 2026, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row).",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $442,058M for Q1 2026, as disclosed."
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -1631,10 +1709,10 @@
           "anchorText": "net interest margin"
         },
         "totalAssetsBillions": {
-          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "page": 14,
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
           "searchText": "1,458,132",
-          "anchorText": "total assets"
+          "anchorText": "total assets 1"
         },
         "lcr": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
@@ -1758,6 +1836,12 @@
           "page": 7,
           "searchText": "57.8",
           "anchorText": "efficiency ratio 28"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "442,058",
+          "anchorText": "risk-weighted assets 14"
         }
       },
       "derived": {
@@ -1790,7 +1874,7 @@
         "nim": 1.61,
         "efficiencyRatio": 55.7,
         "loansToAssetsPct": 45.34,
-        "totalAssetsBillions": 1499.5,
+        "totalAssetsBillions": 1499.543,
         "netIncomeMillions": 2630,
         "adjustedEfficiencyRatio": 54.4,
         "tlacLeverageRatio": 8.4,
@@ -1810,7 +1894,8 @@
         "rotce": 17.6,
         "equityMultiplier": 19.38,
         "adjustedDilutedEps": 3.67,
-        "lcrBufferBillions": 55.6
+        "lcrBufferBillions": 55.6,
+        "riskWeightedAssetsMillions": 443711
       },
       "notes": {
         "tier1CapitalRatio": "Tier 1 capital ratio %, Q2 2026 Report to Shareholders capital table (Q2-2026). Anchors: Q1-2026=14.8 and Q2-2025=15.3 both match our existing values.",
@@ -1838,7 +1923,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,524,176M divided by average common equity $78,641M = 19.38x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.67 adjusted diluted earnings per share for Q2 2026. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $256.2B less net cash outflows $200.6B = $55.6B. Both operands are disclosed in the issuer's LCR common disclosure template (page 38), and the pair reproduces the LCR percentage printed on that same page.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.4% for Q2 2026, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row)."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.4% for Q2 2026, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row).",
+        "totalAssetsBillions": "Total assets $1,499,543M for Q2 2026. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $443,711M for Q2 2026, as disclosed."
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -2011,6 +2098,18 @@
           "page": 7,
           "searchText": "54.4",
           "anchorText": "efficiency ratio 28"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "1,499,543",
+          "anchorText": "total assets 1"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "443,711",
+          "anchorText": "risk-weighted assets 14"
         }
       },
       "derived": {
@@ -2049,7 +2148,7 @@
         "dividendPayoutRatio": 43.1,
         "adjustedDilutedEps": 3.96,
         "netIncomeMillions": 1750,
-        "totalAssetsBillions": 1538.7,
+        "totalAssetsBillions": 1538.685,
         "lcrBufferBillions": 51.4,
         "loansToAssetsPct": 45.36,
         "loanToDepositRatio": 69.09,
@@ -2063,7 +2162,8 @@
         "roa": 0.72,
         "equityMultiplier": 19.89,
         "retailDepositsPct": 31.05,
-        "wholesaleDepositsPct": 68.95
+        "wholesaleDepositsPct": 68.95,
+        "riskWeightedAssetsMillions": 454757
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.0% for Q3 2026, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -2084,7 +2184,9 @@
         "retailDepositsPct": "Individuals (personal) deposits $295,968M / total deposits $1,017,834M, from the BMO Q3 2026 Report to Shareholders Deposits note + balance sheet. Renormalized: 29.08% of TOTAL deposits becomes 31.05% of the retail+wholesale book, because this issuer's deposit table carries a further 6.4% that is neither retail nor wholesale, so the two would not otherwise sum to 100%.",
         "wholesaleDepositsPct": "Banks ($34,862M) + Business & government ($622,325M) deposits / total deposits $1,017,834M, BMO Q3 2026 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.) Renormalized: 65.57% of TOTAL deposits becomes 68.95% of the retail+wholesale book.",
         "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 43.1% for Q3 2026, read from BMO's supplementary financial information, line 24 (\"Dividend payout ratio\" under \"Adjusted Profitability Measures\" -- line 23 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.9% for Q3 2026, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row)."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.9% for Q3 2026, read from the supplementary financial information, line 28 (\"Efficiency ratio\" under \"Adjusted Profitability Measures\" -- line 15 is the reported row).",
+        "totalAssetsBillions": "Total assets $1,538,685M for Q3 2026. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $454,757M for Q3 2026, as disclosed."
       },
       "derived": {
         "lcrBufferBillions": true,
@@ -2191,9 +2293,10 @@
           "anchorText": "net income"
         },
         "totalAssetsBillions": {
-          "page": 7,
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
           "searchText": "1,538,685",
-          "anchorText": "assets"
+          "anchorText": "total assets 1"
         },
         "lcrBufferBillions": {
           "page": 38,
@@ -2255,6 +2358,12 @@
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/Q326_ReportToShareholders.pdf",
           "page": 55,
           "anchorText": "business and government"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "454,757",
+          "anchorText": "risk-weighted assets 14"
         }
       }
     }

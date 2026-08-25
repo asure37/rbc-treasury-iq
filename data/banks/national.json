@@ -25,7 +25,7 @@
         "nim": 2.31,
         "efficiencyRatio": 51.4,
         "loansToAssetsPct": 53.1,
-        "totalAssetsBillions": 453.9,
+        "totalAssetsBillions": 453.933,
         "netIncomeMillions": 1033,
         "loanToDepositRatio": 75.13,
         "wholesaleFundingPct": 30.43,
@@ -45,7 +45,8 @@
         "equityMultiplier": 21.43,
         "adjustedDilutedEps": 2.68,
         "lcrBufferBillions": 26.9,
-        "adjustedEfficiencyRatio": 53.1
+        "adjustedEfficiencyRatio": 53.1,
+        "riskWeightedAssetsMillions": 138918
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.31%), as National Bank does not publish a single consolidated whole-bank NIM headline figure; segment NIM is the standard metric cited by the bank and analysts.",
@@ -72,7 +73,9 @@
         "adjustedDilutedEps": "Disclosed: $2.68 adjusted diluted earnings per share for Q3 2024. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $80,724.0M less net cash outflows $53,799.0M = $26.9B. Both operands are disclosed in the issuer's LCR common disclosure template (page 38), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
         "roe": "Disclosed by the issuer, ADJUSTED basis: 17.0% for Q3 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 53.1% for Q3 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 53.1% for Q3 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $453,933M for Q3 2024. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $138,918M for Q3 2024, as disclosed. Cited to the Q2 2025 Pillar 3 pack, whose five-quarter template is the earliest one covering this quarter."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -197,9 +200,9 @@
           "anchorText": "net income"
         },
         "totalAssetsBillions": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
-          "page": 21,
-          "searchText": "453.9",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "453,933",
           "anchorText": "total assets"
         },
         "tlacLeverageRatio": {
@@ -249,6 +252,12 @@
           "page": 4,
           "searchText": "53.1",
           "anchorText": "efficiency ratio (1) – adjusted"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-regulatory-capital-q2-2025.pdf",
+          "page": 5,
+          "searchText": "138,918",
+          "anchorText": "total risk - weighted assets (pre - floor)"
         }
       },
       "derived": {
@@ -286,7 +295,7 @@
         "nim": 2.3,
         "efficiencyRatio": 54.1,
         "loansToAssetsPct": 52.9,
-        "totalAssetsBillions": 462.2,
+        "totalAssetsBillions": 462.226,
         "netIncomeMillions": 955,
         "loanToDepositRatio": 73.27,
         "wholesaleFundingPct": 30.59,
@@ -306,7 +315,8 @@
         "equityMultiplier": 21.18,
         "adjustedDilutedEps": 2.58,
         "lcrBufferBillions": 28.4,
-        "adjustedEfficiencyRatio": 54.6
+        "adjustedEfficiencyRatio": 54.6,
+        "riskWeightedAssetsMillions": 140975
       },
       "notes": {
         "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
@@ -333,7 +343,9 @@
         "adjustedDilutedEps": "Disclosed: $2.58 adjusted diluted earnings per share for Q4 2024. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $86,929.0M less net cash outflows $58,517.0M = $28.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 36), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
         "roe": "Disclosed by the issuer, ADJUSTED basis: 15.9% for Q4 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.6% for Q4 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.6% for Q4 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $462,226M for Q4 2024. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $140,975M for Q4 2024, as disclosed. Cited to the Q2 2025 Pillar 3 pack, whose five-quarter template is the earliest one covering this quarter."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -459,9 +471,9 @@
           "anchorText": "net income"
         },
         "totalAssetsBillions": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
           "page": 4,
-          "searchText": "462",
+          "searchText": "462,226",
           "anchorText": "total assets"
         },
         "tlacLeverageRatio": {
@@ -512,6 +524,12 @@
           "page": 4,
           "searchText": "54.6",
           "anchorText": "efficiency ratio (1) – adjusted"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-regulatory-capital-q2-2025.pdf",
+          "page": 5,
+          "searchText": "140,975",
+          "anchorText": "total risk - weighted assets (pre - floor)"
         }
       },
       "derived": {
@@ -548,7 +566,7 @@
         "nim": 2.28,
         "efficiencyRatio": 51.7,
         "loansToAssetsPct": 51.3,
-        "totalAssetsBillions": 483.8,
+        "totalAssetsBillions": 483.833,
         "netIncomeMillions": 997,
         "loanToDepositRatio": 70.67,
         "wholesaleFundingPct": 31.07,
@@ -568,7 +586,8 @@
         "equityMultiplier": 21.39,
         "adjustedDilutedEps": 2.93,
         "lcrBufferBillions": 30.6,
-        "adjustedEfficiencyRatio": 50.2
+        "adjustedEfficiencyRatio": 50.2,
+        "riskWeightedAssetsMillions": 148464
       },
       "notes": {
         "cwbAcquisition": "CWB acquisition closed Feb 3, 2025, after this period end (Jan 31, 2025); figures below do not yet reflect CWB consolidation.",
@@ -595,7 +614,9 @@
         "adjustedDilutedEps": "Disclosed: $2.93 adjusted diluted earnings per share for Q1 2025. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $89,902.0M less net cash outflows $59,284.0M = $30.6B. Both operands are disclosed in the issuer's LCR common disclosure template (page 36), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
         "roe": "Disclosed by the issuer, ADJUSTED basis: 17.6% for Q1 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 50.2% for Q1 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 50.2% for Q1 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $483,833M for Q1 2025. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $148,464M for Q1 2025, as disclosed. Cited to the Q2 2025 Pillar 3 pack, whose five-quarter template is the earliest one covering this quarter."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -720,9 +741,9 @@
           "anchorText": "net income"
         },
         "totalAssetsBillions": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
-          "page": 18,
-          "searchText": "483.8",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "483,833",
           "anchorText": "total assets"
         },
         "tlacLeverageRatio": {
@@ -772,6 +793,12 @@
           "page": 4,
           "searchText": "50.2",
           "anchorText": "efficiency ratio (1) – adjusted"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-regulatory-capital-q2-2025.pdf",
+          "page": 5,
+          "searchText": "148,464",
+          "anchorText": "total risk - weighted assets (pre - floor)"
         }
       },
       "derived": {
@@ -808,7 +835,7 @@
         "nim": 2.3,
         "efficiencyRatio": 53.2,
         "loansToAssetsPct": 53.6,
-        "totalAssetsBillions": 536.2,
+        "totalAssetsBillions": 536.194,
         "netIncomeMillions": 896,
         "loanToDepositRatio": 74.15,
         "wholesaleFundingPct": 30.09,
@@ -828,7 +855,8 @@
         "equityMultiplier": 18.72,
         "adjustedDilutedEps": 2.85,
         "lcrBufferBillions": 36.3,
-        "adjustedEfficiencyRatio": 49.3
+        "adjustedEfficiencyRatio": 49.3,
+        "riskWeightedAssetsMillions": 182772
       },
       "notes": {
         "cwbAcquisition": "First quarter reflecting CWB consolidation (closed Feb 3, 2025). Deposits, Tier 1 capital and wholesale funding all step up materially vs. Q1 2025.",
@@ -855,7 +883,9 @@
         "adjustedDilutedEps": "Disclosed: $2.85 adjusted diluted earnings per share for Q2 2025. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $98,206.0M less net cash outflows $61,930.0M = $36.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
         "roe": "Disclosed by the issuer, ADJUSTED basis: 15.6% for Q2 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 49.3% for Q2 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 49.3% for Q2 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $536,194M for Q2 2025. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $182,772M for Q2 2025, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -980,9 +1010,9 @@
           "anchorText": "net income"
         },
         "totalAssetsBillions": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
-          "page": 13,
-          "searchText": "536",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "536,194",
           "anchorText": "total assets"
         },
         "tlacLeverageRatio": {
@@ -1032,6 +1062,12 @@
           "page": 4,
           "searchText": "49.3",
           "anchorText": "efficiency ratio (1) – adjusted"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q2-2026.pdf",
+          "page": 5,
+          "searchText": "182,772",
+          "anchorText": "total risk - weighted assets (pre - floor)"
         }
       },
       "derived": {
@@ -1068,7 +1104,7 @@
         "nim": 2.25,
         "efficiencyRatio": 55.8,
         "loansToAssetsPct": 53.3,
-        "totalAssetsBillions": 552.6,
+        "totalAssetsBillions": 552.621,
         "netIncomeMillions": 1065,
         "loanToDepositRatio": 73.26,
         "wholesaleFundingPct": 31.24,
@@ -1088,7 +1124,8 @@
         "equityMultiplier": 18.95,
         "adjustedDilutedEps": 2.68,
         "lcrBufferBillions": 34.6,
-        "adjustedEfficiencyRatio": 52.4
+        "adjustedEfficiencyRatio": 52.4,
+        "riskWeightedAssetsMillions": 183110
       },
       "notes": {
         "cwbAcquisition": "First full quarter with CWB fully consolidated for the entire reporting period (CWB closed Feb 3, 2025).",
@@ -1115,7 +1152,9 @@
         "adjustedDilutedEps": "Disclosed: $2.68 adjusted diluted earnings per share for Q3 2025. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $98,259.0M less net cash outflows $63,669.0M = $34.6B. Both operands are disclosed in the issuer's LCR common disclosure template (page 41), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.1% for Q3 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 52.4% for Q3 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 52.4% for Q3 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $552,621M for Q3 2025. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $183,110M for Q3 2025, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1240,9 +1279,9 @@
           "anchorText": "net income"
         },
         "totalAssetsBillions": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
-          "page": 23,
-          "searchText": "552.6",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "552,621",
           "anchorText": "total assets"
         },
         "tlacLeverageRatio": {
@@ -1292,6 +1331,12 @@
           "page": 4,
           "searchText": "52.4",
           "anchorText": "efficiency ratio (1) – adjusted"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q2-2026.pdf",
+          "page": 5,
+          "searchText": "183,110",
+          "anchorText": "total risk - weighted assets (pre - floor)"
         }
       },
       "derived": {
@@ -1328,7 +1373,7 @@
         "nim": 2.25,
         "efficiencyRatio": 56.4,
         "loansToAssetsPct": 52.8,
-        "totalAssetsBillions": 576.9,
+        "totalAssetsBillions": 576.919,
         "netIncomeMillions": 1059,
         "loanToDepositRatio": 71.2,
         "wholesaleFundingPct": 31.37,
@@ -1348,7 +1393,8 @@
         "equityMultiplier": 19.14,
         "adjustedDilutedEps": 2.82,
         "lcrBufferBillions": 42.9,
-        "adjustedEfficiencyRatio": 52.7
+        "adjustedEfficiencyRatio": 52.7,
+        "riskWeightedAssetsMillions": 188756
       },
       "notes": {
         "reportName": "National Bank does not publish a standalone 'Report to Shareholders' document for Q4/fiscal year-end; Q4 results are disclosed via earnings press release and the Supplementary Financial Information / Supplementary Regulatory Capital Disclosure packages, plus the Annual Report / MD&A.",
@@ -1376,7 +1422,9 @@
         "adjustedDilutedEps": "Disclosed: $2.82 adjusted diluted earnings per share for Q4 2025. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $107,109.0M less net cash outflows $64,227.0M = $42.9B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.6% for Q4 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 52.7% for Q4 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 52.7% for Q4 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $576,919M for Q4 2025. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $188,756M for Q4 2025, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1550,6 +1598,18 @@
           "page": 4,
           "searchText": "52.7",
           "anchorText": "efficiency ratio (1) – adjusted"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "576,919",
+          "anchorText": "total assets"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q2-2026.pdf",
+          "page": 5,
+          "searchText": "188,756",
+          "anchorText": "total risk - weighted assets (pre - floor)"
         }
       },
       "derived": {
@@ -1586,7 +1646,7 @@
         "nim": 2.27,
         "efficiencyRatio": 51.7,
         "loansToAssetsPct": 50.6,
-        "totalAssetsBillions": 605.9,
+        "totalAssetsBillions": 605.871,
         "netIncomeMillions": 1254,
         "loanToDepositRatio": 68.7,
         "wholesaleFundingPct": 34.38,
@@ -1606,7 +1666,8 @@
         "equityMultiplier": 19.65,
         "adjustedDilutedEps": 3.25,
         "lcrBufferBillions": 47.8,
-        "adjustedEfficiencyRatio": 49.3
+        "adjustedEfficiencyRatio": 49.3,
+        "riskWeightedAssetsMillions": 189354
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.27%); no single consolidated whole-bank NIM headline figure is published.",
@@ -1632,7 +1693,9 @@
         "adjustedDilutedEps": "Disclosed: $3.25 adjusted diluted earnings per share for Q1 2026. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $109,759.0M less net cash outflows $61,943.0M = $47.8B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
         "roe": "Disclosed by the issuer, ADJUSTED basis: 16.6% for Q1 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 49.3% for Q1 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 49.3% for Q1 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $605,871M for Q1 2026. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $189,354M for Q1 2026, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1758,9 +1821,9 @@
           "anchorText": "net income"
         },
         "totalAssetsBillions": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
-          "page": 21,
-          "searchText": "605.9",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "605,871",
           "anchorText": "total assets"
         },
         "tlacLeverageRatio": {
@@ -1811,6 +1874,12 @@
           "page": 4,
           "searchText": "49.3",
           "anchorText": "efficiency ratio (1) – adjusted"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q2-2026.pdf",
+          "page": 5,
+          "searchText": "189,354",
+          "anchorText": "total risk - weighted assets (pre - floor)"
         }
       },
       "derived": {
@@ -1847,7 +1916,7 @@
         "nim": 2.26,
         "efficiencyRatio": 52.7,
         "loansToAssetsPct": 50.9,
-        "totalAssetsBillions": 617.7,
+        "totalAssetsBillions": 617.734,
         "netIncomeMillions": 1234,
         "loanToDepositRatio": 69.72,
         "wholesaleFundingPct": 33.37,
@@ -1867,7 +1936,8 @@
         "equityMultiplier": 20.49,
         "adjustedDilutedEps": 3.23,
         "lcrBufferBillions": 44.9,
-        "adjustedEfficiencyRatio": 50.4
+        "adjustedEfficiencyRatio": 50.4,
+        "riskWeightedAssetsMillions": 194491
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.26%); no single consolidated whole-bank NIM headline figure is published. On a total consolidated balance-sheet basis (including trading assets), National Bank's Supplementary Financial Information also discloses a lower 'Net Interest Margin' of 0.90% for Q2 2026 -- this reflects a different denominator (all average interest-bearing assets including trading books) and is not comparable to the P&C segment NIM used here.",
@@ -1893,7 +1963,9 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $631,995M divided by average common equity $30,845M = 20.49x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.23 adjusted diluted earnings per share for Q2 2026. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $116,644.0M less net cash outflows $71,732.0M = $44.9B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
-        "adjustedEfficiencyRatio": "Disclosed by the issuer: 50.4% for Q2 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\")."
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 50.4% for Q2 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – adjusted (3)\" (the reported row above it is \"Efficiency ratio (1)\").",
+        "totalAssetsBillions": "Total assets $617,734M for Q2 2026. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $194,491M for Q2 2026, as disclosed."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -2018,9 +2090,9 @@
           "anchorText": "net income"
         },
         "totalAssetsBillions": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
-          "page": 23,
-          "searchText": "617.7",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "617,734",
           "anchorText": "total assets"
         },
         "tlacLeverageRatio": {
@@ -2071,6 +2143,12 @@
           "page": 4,
           "searchText": "50.4",
           "anchorText": "efficiency ratio (1) – adjusted"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q2-2026.pdf",
+          "page": 5,
+          "searchText": "194,491",
+          "anchorText": "total risk - weighted assets (pre - floor)"
         }
       },
       "derived": {

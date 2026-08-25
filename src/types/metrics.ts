@@ -23,6 +23,7 @@ export type MetricKey =
   | "adjustedOperatingLeverage"
   | "loansToAssetsPct"
   | "totalAssetsBillions"
+  | "riskWeightedAssetsMillions"
   | "netIncomeMillions"
   | "loanToDepositRatio"
   | "wholesaleFundingPct"

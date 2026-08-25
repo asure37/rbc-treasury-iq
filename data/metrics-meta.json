@@ -194,6 +194,15 @@
       "decimals": 0
     },
     {
+      "key": "riskWeightedAssetsMillions",
+      "label": "Total Risk-Weighted Assets",
+      "shortLabel": "Total RWA",
+      "unit": "$M",
+      "description": "Total risk-weighted assets (RWA), the denominator of the CET1, Tier 1 and Total Capital ratios. Disclosed in exact $MM by RBC, BMO, Scotiabank, CIBC and National Bank; TD publishes RWA only in $ billions to one decimal, so its figure is exact to the nearest $100M and is marked accordingly.",
+      "higherIsBetter": null,
+      "decimals": 0
+    },
+    {
       "key": "netIncomeMillions",
       "label": "Net Income",
       "shortLabel": "Net Income",
