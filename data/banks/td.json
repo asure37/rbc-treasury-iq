@@ -25,7 +25,7 @@
         "nim": 1.7,
         "efficiencyRatio": 77.7,
         "loansToAssetsPct": 47.7,
-        "totalAssetsBillions": 1967.2,
+        "totalAssetsBillions": 1967.181,
         "netIncomeMillions": -181,
         "loanToDepositRatio": 77.52,
         "retailDepositsPct": 51.67,
@@ -45,7 +45,7 @@
         "adjustedDilutedEps": 2.05,
         "lcrBufferBillions": 75.3,
         "adjustedEfficiencyRatio": 57.3,
-        "riskWeightedAssetsMillions": 610500
+        "riskWeightedAssetsMillions": 610482
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.1% for Q3 2024, read from TD's own Q3 2024 report to shareholders (page 4), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -71,8 +71,8 @@
         "adjustedDilutedEps": "Disclosed: $2.05 adjusted diluted earnings per share for Q3 2024. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $337,631.0M less net cash outflows $262,308.0M = $75.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 121), and the pair reproduces the LCR percentage printed on that same page.",
         "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.3% for Q3 2024, read from TD's own Q3 2024 report to shareholders (page 4), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row).",
-        "totalAssetsBillions": "Total assets $1,967,200M for Q3 2024. Stored in $B at full precision so an export in $MM is exact. NOTE: TD publishes total assets only in $ BILLIONS to one decimal, so the $MM figure is that value x1000 and is exact only to the nearest $100M -- no finer figure is disclosed.",
-        "riskWeightedAssetsMillions": "Total risk-weighted assets $610,500M for Q3 2024, as disclosed. NOTE: TD publishes RWA only in $ BILLIONS to one decimal, so this is that value x1000 and is exact only to the nearest $100M."
+        "totalAssetsBillions": "Total assets $1,967,181M for Q3 2024, from TD's Interim Consolidated Balance Sheet (page 22 of the Q3 2024 Report to Shareholders). Exact $MM. The dataset's own document for this quarter is TD's news release, which carries no balance sheet, so the fuller report is cited instead.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $610,482M for Q3 2024, from the capital section (page 27). Exact $MM -- TD's Highlights page rounds RWA to $B, but this table does not."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -226,13 +226,15 @@
           "anchorText": "efficiency ratio – adjusted"
         },
         "totalAssetsBillions": {
-          "page": 4,
-          "searchText": "1,967.2",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
+          "page": 22,
+          "searchText": "1,967,181",
           "anchorText": "total assets"
         },
         "riskWeightedAssetsMillions": {
-          "page": 4,
-          "searchText": "610.5",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q3/2024-q3-reports-shareholders-en.pdf",
+          "page": 27,
+          "searchText": "610,482",
           "anchorText": "risk-weighted assets"
         }
       },
@@ -247,10 +249,6 @@
         "roa": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "totalAssetsBillions": true,
-        "riskWeightedAssetsMillions": true
       }
     },
     {
@@ -320,7 +318,7 @@
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $361,452.0M less net cash outflows $261,900.0M = $99.6B. Both operands are disclosed in the issuer's LCR common disclosure template (page 121), and the pair reproduces the LCR percentage printed on that same page.",
         "adjustedEfficiencyRatio": "Disclosed by the issuer: 61.7% for Q4 2024, read from TD's own Q4 2024 report to shareholders (page 4), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row).",
         "totalAssetsBillions": "Total assets $2,061,751M for Q4 2024, from TD's Interim Consolidated Balance Sheet (page 24 of the Q1 2025 report, prior-year-end column). Exact $MM -- TD's Highlights page rounds to $B, but its balance sheet does not.",
-        "riskWeightedAssetsMillions": "Total risk-weighted assets $630,900M for Q4 2024, as disclosed. NOTE: TD publishes RWA only in $ BILLIONS to one decimal, so this is that value x1000 and is exact only to the nearest $100M."
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $630,900M for Q4 2024, from the capital section (page 30 of the Q1 2025 report, prior-period column). Exact $MM -- TD's Highlights page rounds RWA to $B, but this table does not."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -492,8 +490,9 @@
           "anchorText": "total assets"
         },
         "riskWeightedAssetsMillions": {
-          "page": 4,
-          "searchText": "630.9",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
+          "page": 30,
+          "searchText": "630,900",
           "anchorText": "risk-weighted assets"
         }
       },
@@ -505,9 +504,6 @@
         "roa": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "riskWeightedAssetsMillions": true
       }
     },
     {
@@ -550,7 +546,7 @@
         "adjustedDilutedEps": 2.02,
         "lcrBufferBillions": 111.7,
         "adjustedEfficiencyRatio": 59.0,
-        "riskWeightedAssetsMillions": 649000
+        "riskWeightedAssetsMillions": 649043
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 13.2% for Q1 2025, read from TD's own Q1 2025 report to shareholders (page 5), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -575,7 +571,7 @@
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $381,731.0M less net cash outflows $270,041.0M = $111.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 41), and the pair reproduces the LCR percentage printed on that same page.",
         "adjustedEfficiencyRatio": "Disclosed by the issuer: 59.0% for Q1 2025, read from TD's own Q1 2025 report to shareholders (page 5), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row).",
         "totalAssetsBillions": "Total assets $2,093,554M for Q1 2025, from TD's Interim Consolidated Balance Sheet (page 24). Exact $MM -- TD's Highlights page rounds to $B, but its balance sheet does not.",
-        "riskWeightedAssetsMillions": "Total risk-weighted assets $649,000M for Q1 2025, as disclosed. NOTE: TD publishes RWA only in $ BILLIONS to one decimal, so this is that value x1000 and is exact only to the nearest $100M."
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $649,043M for Q1 2025, from the capital section (page 30). Exact $MM -- TD's Highlights page rounds RWA to $B, but this table does not."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -738,8 +734,8 @@
           "anchorText": "total assets"
         },
         "riskWeightedAssetsMillions": {
-          "page": 5,
-          "searchText": "649.0",
+          "page": 30,
+          "searchText": "649,043",
           "anchorText": "risk-weighted assets"
         }
       },
@@ -751,9 +747,6 @@
         "roa": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "riskWeightedAssetsMillions": true
       }
     },
     {
@@ -796,7 +789,7 @@
         "adjustedDilutedEps": 1.97,
         "lcrBufferBillions": 112.1,
         "adjustedEfficiencyRatio": 57.6,
-        "riskWeightedAssetsMillions": 624600
+        "riskWeightedAssetsMillions": 624636
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 12.3% for Q2 2025, read from TD's own Q2 2025 report to shareholders (page 5), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -821,7 +814,7 @@
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $382,814.0M less net cash outflows $270,720.0M = $112.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 43), and the pair reproduces the LCR percentage printed on that same page.",
         "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.6% for Q2 2025, read from TD's own Q2 2025 report to shareholders (page 5), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row).",
         "totalAssetsBillions": "Total assets $2,064,274M for Q2 2025, from TD's Interim Consolidated Balance Sheet (page 27). Exact $MM -- TD's Highlights page rounds to $B, but its balance sheet does not.",
-        "riskWeightedAssetsMillions": "Total risk-weighted assets $624,600M for Q2 2025, as disclosed. NOTE: TD publishes RWA only in $ BILLIONS to one decimal, so this is that value x1000 and is exact only to the nearest $100M."
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $624,636M for Q2 2025, from the capital section (page 32). Exact $MM -- TD's Highlights page rounds RWA to $B, but this table does not."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -984,8 +977,8 @@
           "anchorText": "total assets"
         },
         "riskWeightedAssetsMillions": {
-          "page": 5,
-          "searchText": "624.6",
+          "page": 32,
+          "searchText": "624,636",
           "anchorText": "risk-weighted assets"
         }
       },
@@ -998,9 +991,6 @@
         "roa": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "riskWeightedAssetsMillions": true
       }
     },
     {
@@ -1023,7 +1013,7 @@
         "nim": 1.82,
         "efficiencyRatio": 55.7,
         "loansToAssetsPct": 46,
-        "totalAssetsBillions": 2035.2,
+        "totalAssetsBillions": 2035.162,
         "netIncomeMillions": 3336,
         "loanToDepositRatio": 75.17,
         "retailDepositsPct": 51.73,
@@ -1043,7 +1033,7 @@
         "adjustedDilutedEps": 2.2,
         "lcrBufferBillions": 99.7,
         "adjustedEfficiencyRatio": 57.8,
-        "riskWeightedAssetsMillions": 627200
+        "riskWeightedAssetsMillions": 627248
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 13.2% for Q3 2025, read from TD's own Q3 2025 report to shareholders (page 4), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -1067,8 +1057,8 @@
         "adjustedDilutedEps": "Disclosed: $2.20 adjusted diluted earnings per share for Q3 2025. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $361,014.0M less net cash outflows $261,288.0M = $99.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 119), and the pair reproduces the LCR percentage printed on that same page.",
         "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.8% for Q3 2025, read from TD's own Q3 2025 report to shareholders (page 4), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row).",
-        "totalAssetsBillions": "Total assets $2,035,200M for Q3 2025. Stored in $B at full precision so an export in $MM is exact. NOTE: TD publishes total assets only in $ BILLIONS to one decimal, so the $MM figure is that value x1000 and is exact only to the nearest $100M -- no finer figure is disclosed.",
-        "riskWeightedAssetsMillions": "Total risk-weighted assets $627,200M for Q3 2025, as disclosed. NOTE: TD publishes RWA only in $ BILLIONS to one decimal, so this is that value x1000 and is exact only to the nearest $100M."
+        "totalAssetsBillions": "Total assets $2,035,162M for Q3 2025, from TD's Interim Consolidated Balance Sheet (page 26 of the Q3 2025 Report to Shareholders). Exact $MM. The dataset's own document for this quarter is TD's news release, which carries no balance sheet, so the fuller report is cited instead.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $627,248M for Q3 2025, from the capital section (page 32). Exact $MM -- TD's Highlights page rounds RWA to $B, but this table does not."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1228,13 +1218,15 @@
           "anchorText": "efficiency ratio – adjusted"
         },
         "totalAssetsBillions": {
-          "page": 4,
-          "searchText": "2,035.2",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
+          "page": 26,
+          "searchText": "2,035,162",
           "anchorText": "total assets"
         },
         "riskWeightedAssetsMillions": {
-          "page": 4,
-          "searchText": "627.2",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/2025-q3-report-to-shareholders-en.pdf",
+          "page": 32,
+          "searchText": "627,248",
           "anchorText": "risk-weighted assets"
         }
       },
@@ -1246,10 +1238,6 @@
         "roa": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "totalAssetsBillions": true,
-        "riskWeightedAssetsMillions": true
       }
     },
     {
@@ -1293,7 +1281,7 @@
         "adjustedDilutedEps": 2.18,
         "lcrBufferBillions": 80.5,
         "adjustedEfficiencyRatio": 59.2,
-        "riskWeightedAssetsMillions": 636400
+        "riskWeightedAssetsMillions": 636424
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 12.8% for Q4 2025, read from TD's own Q4 2025 report to shareholders (page 4), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -1319,7 +1307,7 @@
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $346,383.0M less net cash outflows $265,844.0M = $80.5B. Both operands are disclosed in the issuer's LCR common disclosure template (page 119), and the pair reproduces the LCR percentage printed on that same page.",
         "adjustedEfficiencyRatio": "Disclosed by the issuer: 59.2% for Q4 2025, read from TD's own Q4 2025 report to shareholders (page 4), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row).",
         "totalAssetsBillions": "Total assets $2,094,558M for Q4 2025, from TD's Interim Consolidated Balance Sheet (page 21). Exact $MM -- TD's Highlights page rounds to $B, but its balance sheet does not.",
-        "riskWeightedAssetsMillions": "Total risk-weighted assets $636,400M for Q4 2025, as disclosed. NOTE: TD publishes RWA only in $ BILLIONS to one decimal, so this is that value x1000 and is exact only to the nearest $100M."
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $636,424M for Q4 2025, from the capital section (page 28 of the Q1 2026 report, prior-period column). Exact $MM -- TD's Highlights page rounds RWA to $B, but this table does not."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1490,8 +1478,9 @@
           "anchorText": "total assets"
         },
         "riskWeightedAssetsMillions": {
-          "page": 4,
-          "searchText": "636.4",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+          "page": 28,
+          "searchText": "636,424",
           "anchorText": "risk-weighted assets"
         }
       },
@@ -1503,9 +1492,6 @@
         "roa": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "riskWeightedAssetsMillions": true
       }
     },
     {
@@ -1548,7 +1534,7 @@
         "adjustedDilutedEps": 2.44,
         "lcrBufferBillions": 92.3,
         "adjustedEfficiencyRatio": 57.1,
-        "riskWeightedAssetsMillions": 635200
+        "riskWeightedAssetsMillions": 635191
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.2% for Q1 2026, read from TD's own Q1 2026 report to shareholders (page 5), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -1573,7 +1559,7 @@
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $341,809.0M less net cash outflows $249,469.0M = $92.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page.",
         "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.1% for Q1 2026, read from TD's own Q1 2026 report to shareholders (page 5), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row).",
         "totalAssetsBillions": "Total assets $2,099,306M for Q1 2026, from TD's Interim Consolidated Balance Sheet (page 22). Exact $MM -- TD's Highlights page rounds to $B, but its balance sheet does not.",
-        "riskWeightedAssetsMillions": "Total risk-weighted assets $635,200M for Q1 2026, as disclosed. NOTE: TD publishes RWA only in $ BILLIONS to one decimal, so this is that value x1000 and is exact only to the nearest $100M."
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $635,191M for Q1 2026, from the capital section (page 28). Exact $MM -- TD's Highlights page rounds RWA to $B, but this table does not."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1737,8 +1723,8 @@
           "anchorText": "total assets"
         },
         "riskWeightedAssetsMillions": {
-          "page": 5,
-          "searchText": "635.2",
+          "page": 28,
+          "searchText": "635,191",
           "anchorText": "risk-weighted assets"
         }
       },
@@ -1750,9 +1736,6 @@
         "roa": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "riskWeightedAssetsMillions": true
       }
     },
     {
@@ -1795,7 +1778,7 @@
         "adjustedDilutedEps": 2.38,
         "lcrBufferBillions": 78.0,
         "adjustedEfficiencyRatio": 57.0,
-        "riskWeightedAssetsMillions": 641400
+        "riskWeightedAssetsMillions": 641358
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.4% for Q2 2026, read from TD's own Q2 2026 report to shareholders (page 5), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -1820,7 +1803,7 @@
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $336,237.0M less net cash outflows $258,225.0M = $78.0B. Both operands are disclosed in the issuer's LCR common disclosure template (page 41), and the pair reproduces the LCR percentage printed on that same page.",
         "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.0% for Q2 2026, read from TD's own Q2 2026 report to shareholders (page 5), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row).",
         "totalAssetsBillions": "Total assets $2,085,105M for Q2 2026, from TD's Interim Consolidated Balance Sheet (page 25). Exact $MM -- TD's Highlights page rounds to $B, but its balance sheet does not.",
-        "riskWeightedAssetsMillions": "Total risk-weighted assets $641,400M for Q2 2026, as disclosed. NOTE: TD publishes RWA only in $ BILLIONS to one decimal, so this is that value x1000 and is exact only to the nearest $100M."
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $641,358M for Q2 2026, from the capital section (page 30). Exact $MM -- TD's Highlights page rounds RWA to $B, but this table does not."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1983,8 +1966,8 @@
           "anchorText": "total assets"
         },
         "riskWeightedAssetsMillions": {
-          "page": 5,
-          "searchText": "641.4",
+          "page": 30,
+          "searchText": "641,358",
           "anchorText": "risk-weighted assets"
         }
       },
@@ -1996,9 +1979,6 @@
         "roa": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "riskWeightedAssetsMillions": true
       }
     }
   ],
