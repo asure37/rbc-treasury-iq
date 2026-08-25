@@ -21,7 +21,7 @@
         "tlacRatio": 29.7,
         "lcr": 152,
         "nsfr": 120,
-        "roe": 18.4,
+        "roe": 17.0,
         "nim": 2.31,
         "efficiencyRatio": 51.4,
         "loansToAssetsPct": 53.1,
@@ -69,7 +69,8 @@
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $960M, annualised over 92 days, divided by average tangible common equity $18,882M (average common equity $21,539M less goodwill and intangibles $2,657M) = 20.2%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $461,504M divided by average common equity $21,539M = 21.43x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.68 adjusted diluted earnings per share for Q3 2024. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $80,724.0M less net cash outflows $53,799.0M = $26.9B. Both operands are disclosed in the issuer's LCR common disclosure template (page 38), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $80,724.0M less net cash outflows $53,799.0M = $26.9B. Both operands are disclosed in the issuer's LCR common disclosure template (page 38), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 17.0% for Q3 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -182,9 +183,10 @@
           "anchorText": "efficiency ratio"
         },
         "roe": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
-          "page": 1,
-          "searchText": "18.4 %"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "17.0",
+          "anchorText": "return on common shareholders' equity – adjusted"
         },
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
@@ -269,7 +271,7 @@
         "tlacRatio": 31.2,
         "lcr": 150,
         "nsfr": 122,
-        "roe": 16.4,
+        "roe": 15.9,
         "nim": 2.3,
         "efficiencyRatio": 54.1,
         "loansToAssetsPct": 52.9,
@@ -317,7 +319,8 @@
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $928M, annualised over 92 days, divided by average tangible common equity $19,523M (average common equity $22,179M less goodwill and intangibles $2,656M) = 18.9%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $469,795M divided by average common equity $22,179M = 21.18x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.58 adjusted diluted earnings per share for Q4 2024. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $86,929.0M less net cash outflows $58,517.0M = $28.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 36), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $86,929.0M less net cash outflows $58,517.0M = $28.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 36), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 15.9% for Q4 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -431,10 +434,10 @@
           "anchorText": "total capital ratio"
         },
         "roe": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
           "page": 4,
-          "searchText": "16.4%",
-          "anchorText": "return on common shareholders' equity"
+          "searchText": "15.9",
+          "anchorText": "return on common shareholders' equity – adjusted"
         },
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
@@ -519,7 +522,7 @@
         "tlacRatio": 31.2,
         "lcr": 154,
         "nsfr": 123,
-        "roe": 16.7,
+        "roe": 17.6,
         "nim": 2.28,
         "efficiencyRatio": 51.7,
         "loansToAssetsPct": 51.3,
@@ -567,7 +570,8 @@
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $1,050M, annualised over 92 days, divided by average tangible common equity $20,162M (average common equity $22,819M less goodwill and intangibles $2,657M) = 20.7%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $488,208M divided by average common equity $22,819M = 21.39x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.93 adjusted diluted earnings per share for Q1 2025. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $89,902.0M less net cash outflows $59,284.0M = $30.6B. Both operands are disclosed in the issuer's LCR common disclosure template (page 36), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $89,902.0M less net cash outflows $59,284.0M = $30.6B. Both operands are disclosed in the issuer's LCR common disclosure template (page 36), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 17.6% for Q1 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -668,9 +672,10 @@
           "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
-          "page": 1,
-          "searchText": "16.7",
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "17.6",
+          "anchorText": "return on common shareholders' equity – adjusted"
         },
         "nim": {
           "page": 2,
@@ -766,7 +771,7 @@
         "tlacRatio": 28.2,
         "lcr": 166,
         "nsfr": 127,
-        "roe": 11.9,
+        "roe": 15.6,
         "nim": 2.3,
         "efficiencyRatio": 53.2,
         "loansToAssetsPct": 53.6,
@@ -814,7 +819,8 @@
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $1,166M, annualised over 89 days, divided by average tangible common equity $24,756M (average common equity $29,461M less goodwill and intangibles $4,705M) = 19.3%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $551,432M divided by average common equity $29,461M = 18.72x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.85 adjusted diluted earnings per share for Q2 2025. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $98,206.0M less net cash outflows $61,930.0M = $36.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $98,206.0M less net cash outflows $61,930.0M = $36.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 15.6% for Q2 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -927,9 +933,10 @@
           "anchorText": "efficiency ratio"
         },
         "roe": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
-          "page": 1,
-          "searchText": "11.9 %"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "15.6",
+          "anchorText": "return on common shareholders' equity – adjusted"
         },
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
@@ -1013,7 +1020,7 @@
         "tlacRatio": 30,
         "lcr": 161,
         "nsfr": 123,
-        "roe": 13.6,
+        "roe": 14.1,
         "nim": 2.25,
         "efficiencyRatio": 55.8,
         "loansToAssetsPct": 53.3,
@@ -1061,7 +1068,8 @@
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $1,104M, annualised over 92 days, divided by average tangible common equity $25,352M (average common equity $29,931M less goodwill and intangibles $4,579M) = 17.3%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $567,070M divided by average common equity $29,931M = 18.95x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.68 adjusted diluted earnings per share for Q3 2025. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $98,259.0M less net cash outflows $63,669.0M = $34.6B. Both operands are disclosed in the issuer's LCR common disclosure template (page 41), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $98,259.0M less net cash outflows $63,669.0M = $34.6B. Both operands are disclosed in the issuer's LCR common disclosure template (page 41), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 14.1% for Q3 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1174,9 +1182,10 @@
           "anchorText": "efficiency ratio"
         },
         "roe": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
-          "page": 1,
-          "searchText": "13.6 %"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "14.1",
+          "anchorText": "return on common shareholders' equity – adjusted"
         },
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
@@ -1260,7 +1269,7 @@
         "tlacRatio": 29.7,
         "lcr": 173,
         "nsfr": 124,
-        "roe": 13.3,
+        "roe": 14.6,
         "nim": 2.25,
         "efficiencyRatio": 56.4,
         "loansToAssetsPct": 52.8,
@@ -1309,7 +1318,8 @@
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $1,159M, annualised over 92 days, divided by average tangible common equity $25,957M (average common equity $30,473M less goodwill and intangibles $4,516M) = 17.7%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $583,295M divided by average common equity $30,473M = 19.14x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.82 adjusted diluted earnings per share for Q4 2025. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $107,109.0M less net cash outflows $64,227.0M = $42.9B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $107,109.0M less net cash outflows $64,227.0M = $42.9B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 14.6% for Q4 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1423,10 +1433,10 @@
           "anchorText": "total capital ratio"
         },
         "roe": {
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
           "page": 4,
-          "searchText": "13.3%",
-          "anchorText": "return on common shareholders' equity"
+          "searchText": "14.6",
+          "anchorText": "return on common shareholders' equity – adjusted"
         },
         "netIncomeMillions": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
@@ -1506,7 +1516,7 @@
         "tlacRatio": 32.5,
         "lcr": 189,
         "nsfr": 120,
-        "roe": 15.7,
+        "roe": 16.6,
         "nim": 2.27,
         "efficiencyRatio": 51.7,
         "loansToAssetsPct": 50.6,
@@ -1553,7 +1563,8 @@
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $1,320M, annualised over 92 days, divided by average tangible common equity $26,215M (average common equity $30,712M less goodwill and intangibles $4,497M) = 20.0%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $603,457M divided by average common equity $30,712M = 19.65x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.25 adjusted diluted earnings per share for Q1 2026. National Bank supplementary financial information p6, row \"diluted earnings per share - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $109,759.0M less net cash outflows $61,943.0M = $47.8B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $109,759.0M less net cash outflows $61,943.0M = $47.8B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 16.6% for Q1 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1649,9 +1660,10 @@
           "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
-          "page": 15,
-          "searchText": "15.7",
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "16.6",
+          "anchorText": "return on common shareholders' equity – adjusted"
         },
         "nim": {
           "page": 2,
@@ -1754,7 +1766,7 @@
         "tlacRatio": 31.5,
         "lcr": 170,
         "nsfr": 118,
-        "roe": 15.9,
+        "roe": 16.8,
         "nim": 2.26,
         "efficiencyRatio": 52.7,
         "loansToAssetsPct": 50.9,
@@ -1781,7 +1793,7 @@
       },
       "notes": {
         "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.26%); no single consolidated whole-bank NIM headline figure is published. On a total consolidated balance-sheet basis (including trading assets), National Bank's Supplementary Financial Information also discloses a lower 'Net Interest Margin' of 0.90% for Q2 2026 -- this reflects a different denominator (all average interest-bearing assets including trading books) and is not comparable to the P&C segment NIM used here.",
-        "roe": "Reported (non-adjusted) ROE of 15.9%; adjusted ROE (excluding specified items mainly related to the CWB acquisition) was 16.8% for the quarter.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 16.8% for Q2 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity — adjusted (3)\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "loansToAssetsPct": "Computed as gross loans (sum of loan categories before allowance for credit losses, per Consolidated Balance Sheet) divided by total assets.",
         "source": "Primary source: National Bank's own Q2 2026 Report to Shareholders and Supplementary Financial Information package, published May 27, 2026.",
         "loanToDepositRatio": "Gross loans $314,250M ÷ total deposits $450,711M, as at Apr 30, 2026.",
@@ -1898,9 +1910,10 @@
           "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
-          "page": 1,
-          "searchText": "15.9",
-          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "16.8",
+          "anchorText": "return on common shareholders' equity – adjusted"
         },
         "nim": {
           "page": 2,

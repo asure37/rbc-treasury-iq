@@ -21,7 +21,7 @@
         "tlacRatio": 29.1,
         "lcr": 129,
         "nsfr": 115,
-        "roe": -1,
+        "roe": 14.1,
         "nim": 1.7,
         "efficiencyRatio": 77.7,
         "loansToAssetsPct": 47.7,
@@ -37,7 +37,7 @@
         "operationalDepositsPct": 38.44,
         "nonOperationalDepositsPct": 61.56,
         "tlacLeverageRatio": 8.3,
-        "dividendPayoutRatio": null,
+        "dividendPayoutRatio": 49.7,
         "roa": 0.74,
         "adjustedOperatingLeverage": null,
         "rotce": 18.8,
@@ -46,7 +46,7 @@
         "lcrBufferBillions": 75.3
       },
       "notes": {
-        "roe": "Reported ROE was negative (-1.0%) this quarter due to a reported net loss of $181 million, driven primarily by a US$2.6 billion provision related to the U.S. BSA/AML investigations. Adjusted ROE (non-GAAP) was 14.1% for comparison. Net income figure shown is the reported consolidated net income (loss); net income attributable to common shareholders (reported) was -$250 million.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 14.1% for Q3 2024, read from TD's own Q3 2024 report to shareholders (page 4), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "efficiencyRatio": "Reported efficiency ratio of 77.7% was elevated due to the AML-related charge; adjusted efficiency ratio net of ISE was 57.3%.",
         "cet1Ratio": "Figures for this quarter were sourced from the comparative-period columns in TD's Q4 2025 Supplemental Financial Information package (which restates/repeats prior quarters), cross-checked against the Q3 2024 earnings release commentary.",
         "loansToAssetsPct": "Computed as loans net of allowance for loan losses ($938,325mm) divided by total assets ($1,967,181mm) per the Q2 2026 SFI balance sheet table (which carries 8 quarters of comparatives).",
@@ -61,7 +61,7 @@
         "operationalDepositsPct": "Operational deposits $128,024M as a share of total wholesale deposits $333,081M ($128,024M operational + $205,057M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
         "nonOperationalDepositsPct": "Non-operational deposits $205,057M as a share of total wholesale deposits $333,081M ($128,024M operational + $205,057M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 49.7% for Q3 2024, read from TD's own Q3 2024 report to shareholders (page 4), the \"Dividend payout ratio\" row under \"Common share information — adjusted\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "COMPUTED on an ADJUSTED basis -- TD does not disclose an ROA. Adjusted net income after tax $3,646M (TD's own adjusted figure, not reported), annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $1,968,000M = 0.74%. Average assets are cited; the ratio is derived. Switched from reported to adjusted net income for consistency with ROTCE, operating leverage and diluted EPS, which are adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed, ADJUSTED basis: 18.8% adjusted return on tangible common equity for Q3 2024, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -204,6 +204,16 @@
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
           "page": 121,
           "anchorText": "total net cash outflows"
+        },
+        "roe": {
+          "page": 4,
+          "searchText": "14.1",
+          "anchorText": "return on common equity – adjusted"
+        },
+        "dividendPayoutRatio": {
+          "page": 4,
+          "searchText": "49.7",
+          "anchorText": "common share information – adjusted"
         }
       },
       "derived": {
@@ -235,7 +245,7 @@
         "tlacRatio": 28.7,
         "lcr": 138,
         "nsfr": 116,
-        "roe": 13.4,
+        "roe": 11.7,
         "nim": 1.72,
         "efficiencyRatio": 51.9,
         "loansToAssetsPct": 46.06,
@@ -252,7 +262,7 @@
         "irrbbEveSensitivityPct": -2.67,
         "irrbbNiiSensitivityPct": 0.77,
         "tlacLeverageRatio": 8.1,
-        "dividendPayoutRatio": 51.8,
+        "dividendPayoutRatio": 59.2,
         "roa": 0.62,
         "adjustedOperatingLeverage": null,
         "rotce": 15.4,
@@ -261,7 +271,7 @@
         "lcrBufferBillions": 99.6
       },
       "notes": {
-        "roe": "Reported (GAAP) ROE shown; adjusted ROE was 11.7% for this quarter.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 11.7% for Q4 2024, read from TD's own Q4 2024 report to shareholders (page 4), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "netIncomeMillions": "Net income - reported (consolidated). Net income attributable to common shareholders (reported) was $3,442 million.",
         "loanToDepositRatio": "Gross loans $957,643mm / total deposits $1,268,680mm, from Q2 2026 SFI Balance Sheet table comparative column (as at Oct 31, 2024). Matches the deposit total independently found in the 2024 and 2025 Annual Reports' balance-sheet maturity tables.",
         "retailDepositsPct": "Personal deposits (non-term $497,909mm + term $143,758mm = $641,667mm) / total deposits ($1,268,680mm). This figure independently matches the 'Personal' deposit-funding figure in the FY2024 and FY2025 Annual Reports.",
@@ -275,7 +285,7 @@
         "irrbbNiiSensitivityPct": "Same Table 45: +100bps parallel increase → NII impact +$720mm / Tier 1 Capital $93,248mm = 0.77%. The -100bps decrease scenario gave NII -$983mm (-1.05% of T1), a larger-magnitude (more adverse) NII impact than the increase scenario.",
         "newMetricsSource": "TD Bank Group Annual Report 2024 (Management's Discussion and Analysis) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 59.2% for Q4 2024, read from TD's own Q4 2024 report to shareholders (page 4), the \"Dividend payout ratio\" row under \"Common share information — adjusted\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "COMPUTED on an ADJUSTED basis -- TD does not disclose an ROA. Adjusted net income after tax $3,205M (TD's own adjusted figure, not reported), annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $2,035,000M = 0.62%. Average assets are cited; the ratio is derived. Switched from reported to adjusted net income for consistency with ROTCE, operating leverage and diluted EPS, which are adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed, ADJUSTED basis: 15.4% adjusted return on tangible common equity for Q4 2024, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -373,9 +383,8 @@
         },
         "roe": {
           "page": 4,
-          "searchText": "13.4",
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-q4-earnings-newsrelease-en.pdf",
-          "anchorText": "return on common equity (roe)"
+          "searchText": "11.7",
+          "anchorText": "return on common equity – adjusted"
         },
         "efficiencyRatio": {
           "page": 4,
@@ -413,10 +422,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
-          "page": 5,
-          "searchText": "51.8",
-          "anchorText": "dividend payout ratio"
+          "page": 4,
+          "searchText": "59.2",
+          "anchorText": "common share information – adjusted"
         },
         "roa": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
@@ -470,7 +478,7 @@
         "tlacRatio": 29.5,
         "lcr": 141,
         "nsfr": 116,
-        "roe": 10.1,
+        "roe": 13.2,
         "nim": 1.66,
         "efficiencyRatio": 57.4,
         "loansToAssetsPct": 46.11,
@@ -486,7 +494,7 @@
         "operationalDepositsPct": 36.74,
         "nonOperationalDepositsPct": 63.26,
         "tlacLeverageRatio": 8.5,
-        "dividendPayoutRatio": 67.8,
+        "dividendPayoutRatio": 51.9,
         "roa": 0.7,
         "adjustedOperatingLeverage": null,
         "rotce": 17.2,
@@ -495,7 +503,7 @@
         "lcrBufferBillions": 111.7
       },
       "notes": {
-        "roe": "Reported (GAAP) ROE shown; adjusted ROE was 13.2% for this quarter.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 13.2% for Q1 2025, read from TD's own Q1 2025 report to shareholders (page 5), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "netIncomeMillions": "Net income - reported (consolidated). Net income attributable to common shareholders (reported) was $2,707 million.",
         "loanToDepositRatio": "Gross loans $973,966mm / total deposits $1,290,486mm, from Q2 2026 SFI Balance Sheet table comparative column (as at Jan 31, 2025).",
         "retailDepositsPct": "Personal (non-term $518,578mm + term $141,894mm = $660,472mm) / total deposits ($1,290,486mm).",
@@ -508,7 +516,7 @@
         "operationalDepositsPct": "Operational deposits $137,010M as a share of total wholesale deposits $372,913M ($137,010M operational + $235,903M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
         "nonOperationalDepositsPct": "Non-operational deposits $235,903M as a share of total wholesale deposits $372,913M ($137,010M operational + $235,903M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 51.9% for Q1 2025, read from TD's own Q1 2025 report to shareholders (page 5), the \"Dividend payout ratio\" row under \"Common share information — adjusted\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "COMPUTED on an ADJUSTED basis -- TD does not disclose an ROA. Adjusted net income after tax $3,623M (TD's own adjusted figure, not reported), annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $2,063,000M = 0.70%. Average assets are cited; the ratio is derived. Switched from reported to adjusted net income for consistency with ROTCE, operating leverage and diluted EPS, which are adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed, ADJUSTED basis: 17.2% adjusted return on tangible common equity for Q1 2025, read from page 5 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -576,9 +584,8 @@
         },
         "roe": {
           "page": 5,
-          "searchText": "10.1",
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q1/2025-q1-reports-shareholders-en.pdf",
-          "anchorText": "return on common equity (roe)"
+          "searchText": "13.2",
+          "anchorText": "return on common equity – adjusted"
         },
         "nim": {
           "page": 23,
@@ -639,10 +646,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
           "page": 5,
-          "searchText": "67.8",
-          "anchorText": "dividend payout ratio"
+          "searchText": "51.9",
+          "anchorText": "common share information – adjusted"
         },
         "roa": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
@@ -695,7 +701,7 @@
         "tlacRatio": 31,
         "lcr": 141,
         "nsfr": 119,
-        "roe": 39.1,
+        "roe": 12.3,
         "nim": 1.76,
         "efficiencyRatio": 35.5,
         "loansToAssetsPct": 45.36,
@@ -711,7 +717,7 @@
         "operationalDepositsPct": 38.19,
         "nonOperationalDepositsPct": 61.81,
         "tlacLeverageRatio": 8.7,
-        "dividendPayoutRatio": 16.6,
+        "dividendPayoutRatio": 53.0,
         "roa": 0.69,
         "adjustedOperatingLeverage": null,
         "rotce": 15.0,
@@ -720,7 +726,7 @@
         "lcrBufferBillions": 112.1
       },
       "notes": {
-        "roe": "Reported ROE of 39.1% and reported net income of $11,129 million are both massively inflated by a large one-time gain on the sale of TD's remaining investment in The Charles Schwab Corporation, which increased CET1 capital by ~238 bps. Adjusted (non-GAAP) ROE, which excludes this item of note, was 12.3% and adjusted net income was $3,626 million -- likely more representative of underlying performance for benchmarking purposes.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 12.3% for Q2 2025, read from TD's own Q2 2025 report to shareholders (page 5), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "efficiencyRatio": "Reported efficiency ratio of 35.5% is similarly distorted by the Schwab sale gain inflating revenue; adjusted efficiency ratio net of ISE was 57.6%.",
         "loanToDepositRatio": "Gross loans $944,991mm / total deposits $1,267,748mm, from Q2 2026 SFI Balance Sheet table comparative column (as at Apr 30, 2025).",
         "retailDepositsPct": "Personal (non-term $510,591mm + term $137,913mm = $648,504mm) / total deposits ($1,267,748mm).",
@@ -733,7 +739,7 @@
         "operationalDepositsPct": "Operational deposits $141,371M as a share of total wholesale deposits $370,149M ($141,371M operational + $228,778M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
         "nonOperationalDepositsPct": "Non-operational deposits $228,778M as a share of total wholesale deposits $370,149M ($141,371M operational + $228,778M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 53.0% for Q2 2025, read from TD's own Q2 2025 report to shareholders (page 5), the \"Dividend payout ratio\" row under \"Common share information — adjusted\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "COMPUTED on an ADJUSTED basis -- TD does not disclose an ROA. Adjusted net income after tax $3,626M (TD's own adjusted figure, not reported), annualised over 89 days in the quarter (x365/89), divided by the bank's own disclosed average total assets $2,156,000M = 0.69%. Average assets are cited; the ratio is derived. Switched from reported to adjusted net income for consistency with ROTCE, operating leverage and diluted EPS, which are adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed, ADJUSTED basis: 15.0% adjusted return on tangible common equity for Q2 2025, read from page 5 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -801,9 +807,8 @@
         },
         "roe": {
           "page": 5,
-          "searchText": "39.1",
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q2/2025-q2-reports-shareholders-en.pdf",
-          "anchorText": "return on common equity (roe)"
+          "searchText": "12.3",
+          "anchorText": "return on common equity – adjusted"
         },
         "nim": {
           "page": 26,
@@ -864,10 +869,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
           "page": 5,
-          "searchText": "16.6",
-          "anchorText": "dividend payout ratio"
+          "searchText": "53.0",
+          "anchorText": "common share information – adjusted"
         },
         "roa": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
@@ -921,7 +925,7 @@
         "tlacRatio": 30.9,
         "lcr": 138,
         "nsfr": 117,
-        "roe": 11.3,
+        "roe": 13.2,
         "nim": 1.82,
         "efficiencyRatio": 55.7,
         "loansToAssetsPct": 46,
@@ -937,7 +941,7 @@
         "operationalDepositsPct": 38.69,
         "nonOperationalDepositsPct": 61.31,
         "tlacLeverageRatio": 8.7,
-        "dividendPayoutRatio": 55.4,
+        "dividendPayoutRatio": 47.5,
         "roa": 0.73,
         "adjustedOperatingLeverage": null,
         "rotce": 15.8,
@@ -946,7 +950,7 @@
         "lcrBufferBillions": 99.7
       },
       "notes": {
-        "roe": "Reported (GAAP) ROE shown; adjusted ROE was 13.2% for this quarter.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 13.2% for Q3 2025, read from TD's own Q3 2025 report to shareholders (page 4), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "netIncomeMillions": "Net income - reported (consolidated). Net income attributable to common shareholders (reported) was $3,248 million.",
         "loanToDepositRatio": "Gross loans $944,772mm / total deposits $1,256,922mm, from Q2 2026 SFI Balance Sheet table comparative column (as at Jul 31, 2025).",
         "retailDepositsPct": "Personal (non-term $512,993mm + term $137,192mm = $650,185mm) / total deposits ($1,256,922mm).",
@@ -959,7 +963,7 @@
         "operationalDepositsPct": "Operational deposits $141,728M as a share of total wholesale deposits $366,294M ($141,728M operational + $224,566M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
         "nonOperationalDepositsPct": "Non-operational deposits $224,566M as a share of total wholesale deposits $366,294M ($141,728M operational + $224,566M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 47.5% for Q3 2025, read from TD's own Q3 2025 report to shareholders (page 4), the \"Dividend payout ratio\" row under \"Common share information — adjusted\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "COMPUTED on an ADJUSTED basis -- TD does not disclose an ROA. Adjusted net income after tax $3,871M (TD's own adjusted figure, not reported), annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $2,112,000M = 0.73%. Average assets are cited; the ratio is derived. Switched from reported to adjusted net income for consistency with ROTCE, operating leverage and diluted EPS, which are adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed, ADJUSTED basis: 15.8% adjusted return on tangible common equity for Q3 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -1015,9 +1019,8 @@
         },
         "roe": {
           "page": 4,
-          "searchText": "11.3",
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q3/q3-2025-news-release-en.pdf",
-          "anchorText": "return on common equity (roe)"
+          "searchText": "13.2",
+          "anchorText": "return on common equity – adjusted"
         },
         "efficiencyRatio": {
           "page": 4,
@@ -1091,10 +1094,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
-          "page": 5,
-          "searchText": "55.4",
-          "anchorText": "dividend payout ratio"
+          "page": 4,
+          "searchText": "47.5",
+          "anchorText": "common share information – adjusted"
         },
         "roa": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
@@ -1148,7 +1150,7 @@
         "tlacRatio": 31.8,
         "lcr": 130,
         "nsfr": 117,
-        "roe": 10.7,
+        "roe": 12.8,
         "nim": 1.82,
         "efficiencyRatio": 56.8,
         "loansToAssetsPct": 45.5,
@@ -1165,7 +1167,7 @@
         "irrbbEveSensitivityPct": -2.41,
         "irrbbNiiSensitivityPct": 0.76,
         "tlacLeverageRatio": 8.9,
-        "dividendPayoutRatio": 57.6,
+        "dividendPayoutRatio": 47.9,
         "roa": 0.74,
         "adjustedOperatingLeverage": null,
         "rotce": 15.4,
@@ -1174,7 +1176,7 @@
         "lcrBufferBillions": 80.5
       },
       "notes": {
-        "roe": "Reported (GAAP) ROE shown; adjusted ROE was 12.8% for this quarter. Full fiscal-year 2025 reported ROE was 17.8% (inflated by the Q2 2025 Schwab sale gain); FY2025 adjusted ROE was 12.9%.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 12.8% for Q4 2025, read from TD's own Q4 2025 report to shareholders (page 4), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "netIncomeMillions": "Net income - reported (consolidated). Net income attributable to common shareholders (reported) was $3,089 million. Full fiscal year 2025 reported net income was $20,538 million.",
         "loanToDepositRatio": "Gross loans $961,701mm / total deposits $1,267,104mm, from Table 58 'Remaining Contractual Maturity' (2025 Annual Report) and cross-checked against the Q2 2026 SFI Balance Sheet table (identical figures).",
         "retailDepositsPct": "Personal deposits $650,396mm / total deposits $1,267,104mm. This figure independently matches Table 55 'Summary of Deposit Funding' in the 2025 Annual Report ('Personal' channel deposits).",
@@ -1188,7 +1190,7 @@
         "irrbbNiiSensitivityPct": "Same Table 45: +100bps parallel increase → NII impact +$790mm (CAD +$400mm + USD +$390mm) / Tier 1 Capital $104,502mm = 0.76%. The -100bps decrease scenario gave NII -$860mm (-0.82% of T1), a larger-magnitude, more adverse NII impact than the increase scenario. Effective July 31, 2025, TD began reporting these sensitivities split by currency.",
         "newMetricsSource": "TD Bank Group Annual Report 2025 (Management's Discussion and Analysis) and Q4 2025 Supplemental Regulatory Disclosure (Pillar 3) — https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 47.9% for Q4 2025, read from TD's own Q4 2025 report to shareholders (page 4), the \"Dividend payout ratio\" row under \"Common share information — adjusted\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "COMPUTED on an ADJUSTED basis -- TD does not disclose an ROA. Adjusted net income after tax $3,905M (TD's own adjusted figure, not reported), annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $2,102,000M = 0.74%. Average assets are cited; the ratio is derived. Switched from reported to adjusted net income for consistency with ROTCE, operating leverage and diluted EPS, which are adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed, ADJUSTED basis: 15.4% adjusted return on tangible common equity for Q4 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -1286,9 +1288,8 @@
         },
         "roe": {
           "page": 4,
-          "searchText": "10.7",
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-news-release-en.pdf",
-          "anchorText": "return on common equity (roe)"
+          "searchText": "12.8",
+          "anchorText": "return on common equity – adjusted"
         },
         "efficiencyRatio": {
           "page": 4,
@@ -1326,10 +1327,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/q4-2025-supplemental-financial-information-en.pdf",
-          "page": 5,
-          "searchText": "57.6",
-          "anchorText": "dividend payout ratio"
+          "page": 4,
+          "searchText": "47.9",
+          "anchorText": "common share information – adjusted"
         },
         "roa": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
@@ -1383,7 +1383,7 @@
         "tlacRatio": 31.1,
         "lcr": 137,
         "nsfr": 115,
-        "roe": 13.6,
+        "roe": 14.2,
         "nim": 1.85,
         "efficiencyRatio": 52.8,
         "loansToAssetsPct": 45.66,
@@ -1399,7 +1399,7 @@
         "operationalDepositsPct": 40.23,
         "nonOperationalDepositsPct": 59.77,
         "tlacLeverageRatio": 8.6,
-        "dividendPayoutRatio": 45.9,
+        "dividendPayoutRatio": 44.0,
         "roa": 0.79,
         "adjustedOperatingLeverage": null,
         "rotce": 16.9,
@@ -1408,7 +1408,7 @@
         "lcrBufferBillions": 92.3
       },
       "notes": {
-        "roe": "Reported (GAAP) ROE shown; adjusted ROE was 14.2% for this quarter.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 14.2% for Q1 2026, read from TD's own Q1 2026 report to shareholders (page 5), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "netIncomeMillions": "Net income - reported (consolidated). Net income attributable to common shareholders (reported) was $3,942 million.",
         "loanToDepositRatio": "Gross loans $967,052mm / total deposits $1,245,144mm, from Q2 2026 SFI Balance Sheet table comparative column (as at Jan 31, 2026).",
         "retailDepositsPct": "Personal (non-term $505,962mm + term $132,464mm = $638,426mm) / total deposits ($1,245,144mm).",
@@ -1421,7 +1421,7 @@
         "operationalDepositsPct": "Operational deposits $151,468M as a share of total wholesale deposits $376,542M ($151,468M operational + $225,074M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
         "nonOperationalDepositsPct": "Non-operational deposits $225,074M as a share of total wholesale deposits $376,542M ($151,468M operational + $225,074M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 44.0% for Q1 2026, read from TD's own Q1 2026 report to shareholders (page 5), the \"Dividend payout ratio\" row under \"Common share information — adjusted\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "COMPUTED on an ADJUSTED basis -- TD does not disclose an ROA. Adjusted net income after tax $4,216M (TD's own adjusted figure, not reported), annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $2,121,000M = 0.79%. Average assets are cited; the ratio is derived. Switched from reported to adjusted net income for consistency with ROTCE, operating leverage and diluted EPS, which are adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed, ADJUSTED basis: 16.9% adjusted return on tangible common equity for Q1 2026, read from page 5 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -1524,10 +1524,9 @@
           "anchorText": "net stable funding ratio"
         },
         "roe": {
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
           "page": 5,
-          "searchText": "13.6 %",
-          "anchorText": "return on common equity (roe)"
+          "searchText": "14.2",
+          "anchorText": "return on common equity – adjusted"
         },
         "nim": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
@@ -1553,10 +1552,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
           "page": 5,
-          "searchText": "45.9",
-          "anchorText": "dividend payout ratio"
+          "searchText": "44.0",
+          "anchorText": "common share information – adjusted"
         },
         "roa": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
@@ -1609,7 +1607,7 @@
         "tlacRatio": 31.1,
         "lcr": 130,
         "nsfr": 117,
-        "roe": 14.7,
+        "roe": 14.4,
         "nim": 1.95,
         "efficiencyRatio": 53,
         "loansToAssetsPct": 46.25,
@@ -1625,7 +1623,7 @@
         "operationalDepositsPct": 39.62,
         "nonOperationalDepositsPct": 60.38,
         "tlacLeverageRatio": 8.8,
-        "dividendPayoutRatio": 44.1,
+        "dividendPayoutRatio": 45.0,
         "roa": 0.81,
         "adjustedOperatingLeverage": null,
         "rotce": 17.2,
@@ -1634,7 +1632,7 @@
         "lcrBufferBillions": 78.0
       },
       "notes": {
-        "roe": "Reported (GAAP) ROE shown; adjusted ROE was 14.4% for this quarter.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 14.4% for Q2 2026, read from TD's own Q2 2026 report to shareholders (page 5), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "netIncomeMillions": "Net income - reported (consolidated). Net income attributable to common shareholders (reported) was $4,049 million.",
         "loanToDepositRatio": "Gross loans $972,708mm / total deposits $1,243,431mm, from Q2 2026 SFI Balance Sheet table (as at Apr 30, 2026).",
         "retailDepositsPct": "Personal (non-term $509,217mm + term $132,610mm = $641,827mm) / total deposits ($1,243,431mm).",
@@ -1647,7 +1645,7 @@
         "operationalDepositsPct": "Operational deposits $144,650M as a share of total wholesale deposits $365,114M ($144,650M operational + $220,464M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100%.",
         "nonOperationalDepositsPct": "Non-operational deposits $220,464M as a share of total wholesale deposits $365,114M ($144,650M operational + $220,464M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis (TD also publishes an adjusted payout ratio). Q3 2024 is disclosed as n/m because the AML provision produced a net loss; Q2 2025 is depressed by the Schwab disposition gain.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 45.0% for Q2 2026, read from TD's own Q2 2026 report to shareholders (page 5), the \"Dividend payout ratio\" row under \"Common share information — adjusted\" (the reported row above it is what this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "COMPUTED on an ADJUSTED basis -- TD does not disclose an ROA. Adjusted net income after tax $4,168M (TD's own adjusted figure, not reported), annualised over 89 days in the quarter (x365/89), divided by the bank's own disclosed average total assets $2,098,000M = 0.81%. Average assets are cited; the ratio is derived. Switched from reported to adjusted net income for consistency with ROTCE, operating leverage and diluted EPS, which are adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. It is stated only qualitatively ('fourth consecutive quarter of positive operating leverage, on an adjusted basis') and as a forward target, in the earnings release, the report to shareholders, the financial supplement and the Q2 2026 investor presentation. TD's own glossary defines the measure as adjusted revenue growth less adjusted expense growth, but never tabulates it.",
         "rotce": "Disclosed, ADJUSTED basis: 17.2% adjusted return on tangible common equity for Q2 2026, read from page 5 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -1750,10 +1748,9 @@
           "anchorText": "net stable funding ratio"
         },
         "roe": {
-          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
           "page": 5,
-          "searchText": "14.7 %",
-          "anchorText": "return on common equity (roe)"
+          "searchText": "14.4",
+          "anchorText": "return on common equity – adjusted"
         },
         "nim": {
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q2/2026-q2-report-shareholders-en.pdf",
@@ -1780,8 +1777,8 @@
         },
         "dividendPayoutRatio": {
           "page": 5,
-          "searchText": "44.1",
-          "anchorText": "dividend payout ratio"
+          "searchText": "45.0",
+          "anchorText": "common share information – adjusted"
         },
         "roa": {
           "page": 24,

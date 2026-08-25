@@ -39,8 +39,8 @@ const CACHE = path.join(ROOT, ".cache", "pdfs");
  * Update deliberately when the data genuinely changes -- never to make a red run pass.
  */
 const BASELINE = {
-  anchored_cited_page: 1103,
-  unanchored_cited_page: 108,
+  anchored_cited_page: 1116,
+  unanchored_cited_page: 97,
   neighbour: 0,
   // 217 refs record no searchText at all (48 of them the LCR buffer, a computed
   // surplus whose ref cites the page disclosing HQLA and outflows): 81 legacy derived figures, TD's and

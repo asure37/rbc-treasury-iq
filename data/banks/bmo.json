@@ -21,7 +21,7 @@
         "tlacRatio": 28.5,
         "lcr": 129,
         "nsfr": 116,
-        "roe": 10,
+        "roe": 10.6,
         "nim": 1.51,
         "efficiencyRatio": 57.3,
         "loansToAssetsPct": 48.11,
@@ -38,7 +38,7 @@
         "nonOperationalDepositsPct": 47.86,
         "wholesaleFundingPct": 17.86,
         "tlacLeverageRatio": 8.2,
-        "dividendPayoutRatio": 62.4,
+        "dividendPayoutRatio": 58.6,
         "roa": 0.57,
         "adjustedOperatingLeverage": 5.2,
         "rotce": 14.2,
@@ -52,7 +52,7 @@
         "tlacRatio": "risk-based TLAC ratio; TLAC leverage ratio was 8.2% (not included as separate field)",
         "lcr": "Average daily LCR for the quarter ended July 31, 2024 = 129%, BMO Q3 2024 Report to Shareholders Liquidity and Funding Risk section.",
         "nsfr": "NSFR = 116% as at July 31, 2024, BMO Q3 2024 Report to Shareholders Liquidity and Funding Risk section.",
-        "roe": "reported ROE used (10.0%); adjusted ROE was 10.6%",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 10.6% for Q3 2024, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "efficiencyRatio": "adjusted efficiency ratio (57.3%); reported efficiency ratio not found in accessible sources",
         "loansToAssetsPct": "Computed: net loans and acceptances ($673,719M) ÷ total assets ($1,400,470M) as at July 31, 2024, from the BMO Q3 2024 Report to Shareholders Consolidated Balance Sheet. (Note: the total-assets figure shown elsewhere in this dataset for Q3 2024 appears to be a prior data-entry error; this ratio uses the balance-sheet figures from BMO's own Q3 2024 report.)",
         "retailDepositsPct": "Individuals (personal) deposits $328,380M ÷ total deposits $965,239M, from the BMO Q3 2024 Report to Shareholders Deposits note + balance sheet.",
@@ -66,7 +66,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $134M as a share of total wholesale deposits $280M ($146M operational + $134M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $257.3 billion (Q3 2024 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1440.3 billion = 17.86%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 58.6% for Q3 2024, read from BMO's supplementary financial information, line 24 (\"Dividend payout ratio\" under \"Adjusted Profitability Measures\" -- line 23 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.57% adjusted return on average assets for Q3 2024, read from the supplementary financial information (page 7), line 24 (\"Return on average assets\" under \"Adjusted Profitability Measures\" -- line 11 is the reported row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +5.2% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 14.2% adjusted return on tangible common equity for Q3 2024, read from page 7 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -174,10 +174,10 @@
           "anchorText": "tlac ratio"
         },
         "roe": {
-          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
-          "page": 1,
-          "searchText": "10.0%",
-          "anchorText": "return on equity (roe)"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "10.6",
+          "anchorText": "return on common equity 22"
         },
         "nim": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q3/Q324_ReportToShareholders.pdf",
@@ -205,8 +205,8 @@
         "dividendPayoutRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
           "page": 8,
-          "searchText": "62.4 %",
-          "anchorText": "dividend payout ratio"
+          "searchText": "58.6",
+          "anchorText": "dividend payout ratio (2) 24"
         },
         "roa": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
@@ -267,7 +267,7 @@
         "tlacRatio": 29.3,
         "lcr": 132,
         "nsfr": 117,
-        "roe": 11.4,
+        "roe": 7.4,
         "nim": 1.7,
         "efficiencyRatio": 49.4,
         "loansToAssetsPct": 48.12,
@@ -284,7 +284,7 @@
         "irrbbEveSensitivityPct": -2.29,
         "irrbbNiiSensitivityPct": -0.32,
         "tlacLeverageRatio": 8.3,
-        "dividendPayoutRatio": 52.6,
+        "dividendPayoutRatio": 81.5,
         "roa": 0.43,
         "adjustedOperatingLeverage": 2.4,
         "rotce": 9.7,
@@ -293,7 +293,7 @@
         "lcrBufferBillions": 61.0
       },
       "notes": {
-        "roe": "reported ROE used (11.4%); adjusted ROE was notably lower (7.4%) this quarter due to a large positive one-time item (reversal of a prior legal provision) boosting reported income above adjusted income",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 7.4% for Q4 2024, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "efficiencyRatio": "reported efficiency ratio (49.4%), unusually low this quarter due to the same one-time reported-income boost; adjusted efficiency ratio was 58.3%",
         "loansToAssetsPct": "Computed: net loans and acceptances at Oct 31 2024 ($678,375M, from the BMO Q1 2025 Report to Shareholders balance sheet prior-year-end column) ÷ total assets ($1,409,647M).",
         "loanToDepositRatio": "Computed: gross loans $682,372mm (Table 26, Net Loans) ÷ total deposits $982,440mm (Table 27, Deposits), both as at Oct 31, 2024. Not a figure BMO discloses directly as a ratio.",
@@ -308,7 +308,7 @@
         "irrbbNiiSensitivityPct": "Most adverse (-100bp) 12-month NII sensitivity $-210M ÷ Tier 1 capital $64,735M = -0.32%. Re-based to % of Tier 1 capital (from the earlier % of annual NII) to match the cross-bank convention used by RBC/TD/CIBC/National.",
         "newMetricsSource": "BMO 2024 Annual Report / Annual Information Form (Exhibit 99.2 to Form 40-F) — https://www.sec.gov/Archives/edgar/data/927971/000119312524271395/d878486dex992.htm",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 81.5% for Q4 2024, read from BMO's supplementary financial information, line 24 (\"Dividend payout ratio\" under \"Adjusted Profitability Measures\" -- line 23 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.43% adjusted return on average assets for Q4 2024, read from the supplementary financial information (page 7), line 24 (\"Return on average assets\" under \"Adjusted Profitability Measures\" -- line 11 is the reported row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +2.4% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 9.7% adjusted return on tangible common equity for Q4 2024, read from page 5 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -405,10 +405,10 @@
           "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
-          "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
-          "page": 1,
-          "searchText": "11.4%",
-          "anchorText": "return on equity (roe)"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "7.4",
+          "anchorText": "return on common equity 22"
         },
         "nim": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2024-q4/Q424_EarningsRelease.pdf",
@@ -437,8 +437,8 @@
         "dividendPayoutRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
           "page": 8,
-          "searchText": "52.6 %",
-          "anchorText": "dividend payout ratio"
+          "searchText": "81.5",
+          "anchorText": "dividend payout ratio (2) 24"
         },
         "roa": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
@@ -501,7 +501,7 @@
         "tlacRatio": 29.8,
         "lcr": 128,
         "nsfr": 116,
-        "roe": 10.6,
+        "roe": 11.3,
         "nim": 1.62,
         "efficiencyRatio": 58.6,
         "loansToAssetsPct": 46.95,
@@ -518,7 +518,7 @@
         "nonOperationalDepositsPct": 47.73,
         "wholesaleFundingPct": 17.94,
         "tlacLeverageRatio": 8.5,
-        "dividendPayoutRatio": 56.1,
+        "dividendPayoutRatio": 52.3,
         "roa": 0.6,
         "adjustedOperatingLeverage": 8.9,
         "rotce": 14.9,
@@ -529,7 +529,7 @@
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2025 = 128%, BMO Q1 2025 Report to Shareholders.",
         "nsfr": "NSFR = 116% as at January 31, 2025, BMO Q1 2025 Report to Shareholders.",
-        "roe": "reported ROE used (10.6%); adjusted ROE was 11.3%",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 11.3% for Q1 2025, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "nim": "Net interest margin on average earning assets %, BMO Q1 2025 Report to Shareholders Financial Highlights (Q1-2025).",
         "efficiencyRatio": "reported efficiency ratio (58.6%, confirmed as unchanged year-over-year in the Q1 2026 release); adjusted efficiency ratio was 56.3%",
         "totalAssetsBillions": "Total assets as at Jan 31 2025, BMO Q1 2025 Report to Shareholders Consolidated Balance Sheet ($1,468,093M).",
@@ -545,7 +545,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $147M as a share of total wholesale deposits $308M ($161M operational + $147M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $263.4 billion (Q1 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1468.093 billion = 17.94%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 52.3% for Q1 2025, read from BMO's supplementary financial information, line 24 (\"Dividend payout ratio\" under \"Adjusted Profitability Measures\" -- line 23 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.60% adjusted return on average assets for Q1 2025, read from the supplementary financial information (page 7), line 24 (\"Return on average assets\" under \"Adjusted Profitability Measures\" -- line 11 is the reported row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +8.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 14.9% adjusted return on tangible common equity for Q1 2025, read from page 6 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -665,10 +665,10 @@
           "anchorText": "tlac ratio"
         },
         "roe": {
-          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
-          "page": 1,
-          "searchText": "10.6%",
-          "anchorText": "return on equity (roe)"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "11.3",
+          "anchorText": "return on common equity 22"
         },
         "efficiencyRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
@@ -690,8 +690,8 @@
         "dividendPayoutRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
           "page": 8,
-          "searchText": "56.1 %",
-          "anchorText": "dividend payout ratio"
+          "searchText": "52.3",
+          "anchorText": "dividend payout ratio (2) 24"
         },
         "roa": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
@@ -752,7 +752,7 @@
         "tlacRatio": 29.9,
         "lcr": 134,
         "nsfr": 117,
-        "roe": 9.4,
+        "roe": 9.8,
         "nim": 1.6,
         "efficiencyRatio": 57.8,
         "loansToAssetsPct": 46.95,
@@ -770,7 +770,7 @@
         "nonOperationalDepositsPct": 47.32,
         "wholesaleFundingPct": 17.97,
         "tlacLeverageRatio": 8.5,
-        "dividendPayoutRatio": 63.4,
+        "dividendPayoutRatio": 60.6,
         "roa": 0.56,
         "adjustedOperatingLeverage": 2.7,
         "rotce": 12.8,
@@ -781,7 +781,7 @@
       "notes": {
         "lcr": "Average daily LCR for the quarter ended April 30, 2025 = 134%, BMO Q2 2025 Report to Shareholders.",
         "nsfr": "NSFR = 117% as at April 30, 2025, BMO Q2 2025 Report to Shareholders.",
-        "roe": "reported ROE used (9.4%); adjusted ROE was 9.8%",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 9.8% for Q2 2025, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "efficiencyRatio": "Efficiency ratio %, Q2 2026 Report to Shareholders Financial Highlights (Table 1, Q2-2025 column). Anchor: Q1-2026 column (58.6) matches our existing Q1 2026 value.",
         "totalAssetsBillions": "Total assets as at Apr 30 2025, BMO Q2 2025 Report to Shareholders Consolidated Balance Sheet ($1,440,269M).",
         "loansToAssetsPct": "Computed: net loans and acceptances ($676,142M) ÷ total assets ($1,440,269M) as at Apr 30 2025, BMO Q2 2025 Report to Shareholders.",
@@ -796,7 +796,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $141M as a share of total wholesale deposits $298M ($157M operational + $141M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $258.8 billion (Q2 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1440.269 billion = 17.97%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 60.6% for Q2 2025, read from BMO's supplementary financial information, line 24 (\"Dividend payout ratio\" under \"Adjusted Profitability Measures\" -- line 23 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.56% adjusted return on average assets for Q2 2025, read from the supplementary financial information (page 7), line 24 (\"Return on average assets\" under \"Adjusted Profitability Measures\" -- line 11 is the reported row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +2.7% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 12.8% adjusted return on tangible common equity for Q2 2025, read from page 6 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -917,10 +917,10 @@
           "anchorText": "tlac ratio"
         },
         "roe": {
-          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
-          "page": 1,
-          "searchText": "9.4%",
-          "anchorText": "reported return on equity (roe)"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "9.8",
+          "anchorText": "return on common equity 22"
         },
         "nim": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q2/Q225_ReportToShareholders.pdf",
@@ -942,8 +942,8 @@
         "dividendPayoutRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
           "page": 8,
-          "searchText": "63.4 %",
-          "anchorText": "dividend payout ratio"
+          "searchText": "60.6",
+          "anchorText": "dividend payout ratio (2) 24"
         },
         "roa": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
@@ -1004,7 +1004,7 @@
         "tlacRatio": 29.5,
         "lcr": 130,
         "nsfr": 118,
-        "roe": 11.6,
+        "roe": 12.0,
         "nim": 1.69,
         "efficiencyRatio": 56.8,
         "loansToAssetsPct": 47.33,
@@ -1022,7 +1022,7 @@
         "nonOperationalDepositsPct": 46.62,
         "wholesaleFundingPct": 17.35,
         "tlacLeverageRatio": 8.5,
-        "dividendPayoutRatio": 51.9,
+        "dividendPayoutRatio": 50.3,
         "roa": 0.66,
         "adjustedOperatingLeverage": 2.9,
         "rotce": 15.6,
@@ -1032,7 +1032,7 @@
       },
       "notes": {
         "efficiencyRatio": "Efficiency ratio %, BMO Q3 2025 Report to Shareholders Financial Highlights (Q3-2025).",
-        "roe": "reported ROE used (11.6%); adjusted ROE was 12.0%",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 12.0% for Q3 2025, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "loansToAssetsPct": "Computed: net loans and acceptances ($677,585M) ÷ total assets ($1,431,553M) as at Jul 31 2025, BMO Q3 2025 Report to Shareholders.",
         "retailDepositsPct": "Individuals (personal) deposits $312,144M ÷ total deposits $955,363M, from the BMO Q3 2025 Report to Shareholders Deposits note + balance sheet. Renormalized: 32.67% of TOTAL deposits becomes 34.66% of the retail+wholesale book, because this issuer's deposit table carries a further 5.7% that is neither retail nor wholesale, so the two would not otherwise sum to 100%.",
         "wholesaleDepositsPct": "Bank ($31,033M) + Business & government ($557,410M) deposits ÷ total deposits $955,363M, BMO Q3 2025 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.) Renormalized: 61.59% of TOTAL deposits becomes 65.34% of the retail+wholesale book, because this issuer's deposit table carries a further 5.7% that is neither retail nor wholesale, so the two would not otherwise sum to 100%.",
@@ -1045,7 +1045,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $138M as a share of total wholesale deposits $296M ($158M operational + $138M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $248.4 billion (Q3 2025 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1431.6 billion = 17.35%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 50.3% for Q3 2025, read from BMO's supplementary financial information, line 24 (\"Dividend payout ratio\" under \"Adjusted Profitability Measures\" -- line 23 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.66% adjusted return on average assets for Q3 2025, read from the supplementary financial information (page 7), line 24 (\"Return on average assets\" under \"Adjusted Profitability Measures\" -- line 11 is the reported row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +2.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 15.6% adjusted return on tangible common equity for Q3 2025, read from page 6 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -1160,10 +1160,10 @@
           "anchorText": "net stable funding ratio (nsfr)"
         },
         "roe": {
-          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
-          "page": 1,
-          "searchText": "11.6%",
-          "anchorText": "reported return on equity (roe)"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "12.0",
+          "anchorText": "return on common equity 22"
         },
         "nim": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q3/Q325_ReportToShareholders.pdf",
@@ -1185,8 +1185,8 @@
         "dividendPayoutRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
           "page": 8,
-          "searchText": "51.9 %",
-          "anchorText": "dividend payout ratio"
+          "searchText": "50.3",
+          "anchorText": "dividend payout ratio (2) 24"
         },
         "roa": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
@@ -1247,7 +1247,7 @@
         "tlacRatio": 29.7,
         "lcr": 132,
         "nsfr": 117,
-        "roe": 10.7,
+        "roe": 11.8,
         "nim": 1.67,
         "efficiencyRatio": 59.5,
         "loansToAssetsPct": 45.9,
@@ -1266,7 +1266,7 @@
         "irrbbEveSensitivityPct": -2.63,
         "irrbbNiiSensitivityPct": -0.49,
         "tlacLeverageRatio": 8.5,
-        "dividendPayoutRatio": 54.7,
+        "dividendPayoutRatio": 49.6,
         "roa": 0.68,
         "adjustedOperatingLeverage": 3.0,
         "rotce": 15.4,
@@ -1275,7 +1275,7 @@
         "lcrBufferBillions": 60.7
       },
       "notes": {
-        "roe": "reported ROE used (10.7%); adjusted ROE was 11.8%",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 11.8% for Q4 2025, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "netIncomeMillions": "quarterly reported net income; full fiscal-year 2025 reported net income was $8,725 million (see fullYearNetIncomeMillions)",
         "loansToAssetsPct": "Computed: net loans and acceptances at Oct 31 2025 ($677,872M, from the BMO Q1 2026 Report to Shareholders balance sheet prior-year-end column) ÷ total assets ($1,476,802M).",
         "loanToDepositRatio": "Computed: gross loans $682,922mm (Table 25, Net Loans and Acceptances) ÷ total deposits $976,202mm (Table 26, Deposits), both as at Oct 31, 2025.",
@@ -1290,7 +1290,7 @@
         "irrbbNiiSensitivityPct": "Most adverse (-100bp) 12-month NII sensitivity $-322M ÷ Tier 1 capital $65,890M = -0.49%. Re-based to % of Tier 1 capital (from the earlier % of annual NII) to match the cross-bank convention used by RBC/TD/CIBC/National.",
         "newMetricsSource": "BMO 2025 Annual Report / Annual Information Form (Exhibit 99.2 to Form 40-F) — https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 49.6% for Q4 2025, read from BMO's supplementary financial information, line 24 (\"Dividend payout ratio\" under \"Adjusted Profitability Measures\" -- line 23 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.68% adjusted return on average assets for Q4 2025, read from the supplementary financial information (page 7), line 24 (\"Return on average assets\" under \"Adjusted Profitability Measures\" -- line 11 is the reported row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +3.0% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 15.4% adjusted return on tangible common equity for Q4 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -1387,10 +1387,10 @@
           "anchorText": "net stable funding ratio"
         },
         "roe": {
-          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
-          "page": 1,
-          "searchText": "10.7%",
-          "anchorText": "reported return on equity (roe)"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "11.8",
+          "anchorText": "return on common equity 22"
         },
         "nim": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q4/Q425_EarningsRelease.pdf",
@@ -1419,8 +1419,8 @@
         "dividendPayoutRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
           "page": 8,
-          "searchText": "54.7 %",
-          "anchorText": "dividend payout ratio"
+          "searchText": "49.6",
+          "anchorText": "dividend payout ratio (2) 24"
         },
         "roa": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
@@ -1483,7 +1483,7 @@
         "tlacRatio": 29.1,
         "lcr": 126,
         "nsfr": 116,
-        "roe": 12.1,
+        "roe": 12.4,
         "nim": 1.68,
         "efficiencyRatio": 58.6,
         "loansToAssetsPct": 45.9,
@@ -1501,7 +1501,7 @@
         "nonOperationalDepositsPct": 45.43,
         "wholesaleFundingPct": 17.39,
         "tlacLeverageRatio": 8.6,
-        "dividendPayoutRatio": 49.1,
+        "dividendPayoutRatio": 47.9,
         "roa": 0.67,
         "adjustedOperatingLeverage": -2.8,
         "rotce": 16.1,
@@ -1512,7 +1512,7 @@
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2026 = 126%, BMO Q1 2026 Report to Shareholders.",
         "nsfr": "NSFR = 116% as at January 31, 2026, BMO Q1 2026 Report to Shareholders.",
-        "roe": "reported ROE used (12.1%); adjusted ROE was 12.4%",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 12.4% for Q1 2026, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "nim": "Net interest margin on average earning assets %, Q2 2026 Report to Shareholders Financial Highlights (Table 1, Q1-2026 column).",
         "totalAssetsBillions": "Total assets as at Jan 31 2026, BMO Q1 2026 Report to Shareholders Consolidated Balance Sheet ($1,458,132M).",
         "loansToAssetsPct": "Computed: net loans and acceptances ($669,316M) ÷ total assets ($1,458,132M) as at Jan 31 2026, BMO Q1 2026 Report to Shareholders.",
@@ -1527,7 +1527,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $144M as a share of total wholesale deposits $317M ($173M operational + $144M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $253.6 billion (Q1 2026 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1458.132 billion = 17.39%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 47.9% for Q1 2026, read from BMO's supplementary financial information, line 24 (\"Dividend payout ratio\" under \"Adjusted Profitability Measures\" -- line 23 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.67% adjusted return on average assets for Q1 2026, read from the supplementary financial information (page 7), line 24 (\"Return on average assets\" under \"Adjusted Profitability Measures\" -- line 11 is the reported row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: -2.8% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 16.1% adjusted return on tangible common equity for Q1 2026, read from page 6 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -1567,10 +1567,10 @@
           "anchorText": "tlac ratio"
         },
         "roe": {
-          "page": 1,
-          "searchText": "12.1",
-          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
-          "anchorText": "reported return on equity (roe)"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "12.4",
+          "anchorText": "return on common equity 22"
         },
         "efficiencyRatio": {
           "page": 6,
@@ -1672,8 +1672,8 @@
         "dividendPayoutRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
           "page": 8,
-          "searchText": "49.1 %",
-          "anchorText": "dividend payout ratio"
+          "searchText": "47.9",
+          "anchorText": "dividend payout ratio (2) 24"
         },
         "roa": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
@@ -1734,7 +1734,7 @@
         "tlacRatio": 29,
         "lcr": 128,
         "nsfr": 114,
-        "roe": 13,
+        "roe": 13.5,
         "nim": 1.61,
         "efficiencyRatio": 55.7,
         "loansToAssetsPct": 45.34,
@@ -1752,7 +1752,7 @@
         "operationalDepositsPct": 53.38,
         "nonOperationalDepositsPct": 46.62,
         "wholesaleFundingPct": 17.65,
-        "dividendPayoutRatio": 47.2,
+        "dividendPayoutRatio": 45.3,
         "roa": 0.73,
         "adjustedOperatingLeverage": 4.1,
         "rotce": 17.6,
@@ -1765,7 +1765,7 @@
         "totalCapitalRatio": "Total capital ratio %, Q2 2026 Report to Shareholders capital table (Q2-2026). Anchors: Q1-2026=16.9 and Q2-2025=17.9 both match our existing values.",
         "lcr": "Average daily LCR for the quarter ended April 30, 2026 = 128%, stated in the Liquidity and Funding Risk section of the Q2 2026 Report to Shareholders.",
         "nsfr": "NSFR = 114% as at April 30, 2026 (a $95.2B surplus above the 100% minimum), stated in the Liquidity and Funding Risk section of the Q2 2026 Report to Shareholders.",
-        "roe": "reported ROE used (13.0%); adjusted ROE was 13.5%",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 13.5% for Q2 2026, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "nim": "Net interest margin on average earning assets %, Q2 2026 Report to Shareholders Financial Highlights (Table 1, Q2-2026). Whole-bank basis (BMO also discloses an 'excluding Global Markets and Insurance' NIM of 2.29% — not used here for consistency).",
         "loansToAssetsPct": "Computed: net loans and acceptances ($679,945M) ÷ total assets ($1,499,543M) as at April 30, 2026, from the Q2 2026 Report to Shareholders Consolidated Balance Sheet. Consistent with the net-loans/total-assets method used for other banks.",
         "retailDepositsPct": "Individuals (personal) deposits $294,037M ÷ total deposits $966,901M, from the BMO Q2 2026 Report to Shareholders Deposits note + balance sheet. Renormalized: 30.41% of TOTAL deposits becomes 32.51% of the retail+wholesale book, because this issuer's deposit table carries a further 6.5% that is neither retail nor wholesale, so the two would not otherwise sum to 100%.",
@@ -1779,7 +1779,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $145M as a share of total wholesale deposits $311M ($166M operational + $145M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "wholesaleFundingPct": "BMO's own disclosed \"Total secured and unsecured wholesale funding outstanding\" of $264.6 billion (Q2 2026 Report to Shareholders, Liquidity and Funding Risk narrative) ÷ total assets $1499.5 billion = 17.65%. Same scope as BMO's annual figure: excludes repo transactions and bankers' acceptances. BMO discloses this headline figure every quarter.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Reported basis, from BMO's Supplementary Financial Information (line 23). BMO also publishes an adjusted payout ratio on line 24, which differs materially in some quarters.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 45.3% for Q2 2026, read from BMO's supplementary financial information, line 24 (\"Dividend payout ratio\" under \"Adjusted Profitability Measures\" -- line 23 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.73% adjusted return on average assets for Q2 2026, read from the supplementary financial information (page 7), line 24 (\"Return on average assets\" under \"Adjusted Profitability Measures\" -- line 11 is the reported row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +4.1% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 17.6% adjusted return on tangible common equity for Q2 2026, read from page 7 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -1807,10 +1807,10 @@
           "anchorText": "tlac ratio"
         },
         "roe": {
-          "page": 1,
-          "searchText": "13.0",
-          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Q226_ReportToShareholders.pdf",
-          "anchorText": "reported return on equity (roe)"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
+          "page": 7,
+          "searchText": "13.5",
+          "anchorText": "return on common equity 22"
         },
         "efficiencyRatio": {
           "page": 7,
@@ -1918,8 +1918,8 @@
         "dividendPayoutRatio": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
           "page": 8,
-          "searchText": "47.2 %",
-          "anchorText": "dividend payout ratio"
+          "searchText": "45.3",
+          "anchorText": "dividend payout ratio (2) 24"
         },
         "roa": {
           "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q2/Suppq226.pdf",
@@ -1981,13 +1981,13 @@
         "tlacLeverageRatio": 8.4,
         "lcr": 125,
         "nsfr": 114,
-        "roe": 8.4,
+        "roe": 14.0,
         "rotce": 18.0,
         "nim": 1.6,
         "efficiencyRatio": 67.5,
         "adjustedEfficiencyRatio": 54.9,
         "adjustedOperatingLeverage": 1.6,
-        "dividendPayoutRatio": 71.7,
+        "dividendPayoutRatio": 43.1,
         "adjustedDilutedEps": 3.96,
         "netIncomeMillions": 1750,
         "totalAssetsBillions": 1538.7,
@@ -2007,7 +2007,7 @@
         "wholesaleDepositsPct": 68.95
       },
       "notes": {
-        "roe": "Reported ROE of 8.4% for Q3 2026 (adjusted ROE was 14.0%). The reported figure is depressed by the announced divestiture; BMO's adjusted net income rose 19% year over year.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 14.0% for Q3 2026, read from the supplementary financial information, line 22 (\"Return on common equity\" under \"Adjusted Profitability Measures\" -- line 9 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
         "rotce": "Disclosed, ADJUSTED basis: 18.0% adjusted return on tangible common equity, Q3 2026 Report to Shareholders p7, first column (quarter ended 31 July 2026).",
         "netIncomeMillions": "Reported net income $1,750M for Q3 2026, down 25% year over year, reflecting the announced divestiture. Adjusted net income was $2,859M, up 19%.",
         "lcrBufferBillions": "COMPUTED: HQLA $257.4B less total net cash outflows $206.0B = $51.4B, the cushion above the 100% LCR minimum. Both operands from the LCR common disclosure template (p38); the pair reproduces the 125% LCR printed on that page.",
@@ -2023,7 +2023,8 @@
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.72% adjusted return on average assets for Q3 2026, read from the supplementary financial information (page 7), line 24 (\"Return on average assets\" under \"Adjusted Profitability Measures\" -- line 11 is the reported row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,570,474M divided by average common equity $78,960M = 19.89x. Both operands are published in the issuer's own financial supplementary information (page 8). Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "retailDepositsPct": "Individuals (personal) deposits $295,968M / total deposits $1,017,834M, from the BMO Q3 2026 Report to Shareholders Deposits note + balance sheet. Renormalized: 29.08% of TOTAL deposits becomes 31.05% of the retail+wholesale book, because this issuer's deposit table carries a further 6.4% that is neither retail nor wholesale, so the two would not otherwise sum to 100%.",
-        "wholesaleDepositsPct": "Banks ($34,862M) + Business & government ($622,325M) deposits / total deposits $1,017,834M, BMO Q3 2026 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.) Renormalized: 65.57% of TOTAL deposits becomes 68.95% of the retail+wholesale book."
+        "wholesaleDepositsPct": "Banks ($34,862M) + Business & government ($622,325M) deposits / total deposits $1,017,834M, BMO Q3 2026 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.) Renormalized: 65.57% of TOTAL deposits becomes 68.95% of the retail+wholesale book.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 43.1% for Q3 2026, read from BMO's supplementary financial information, line 24 (\"Dividend payout ratio\" under \"Adjusted Profitability Measures\" -- line 23 is the reported row this dataset previously used). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS."
       },
       "derived": {
         "lcrBufferBillions": true,
@@ -2082,9 +2083,10 @@
           "anchorText": "net stable funding ratio"
         },
         "roe": {
-          "page": 1,
-          "searchText": "8.4",
-          "anchorText": "return on equity"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 7,
+          "searchText": "14.0",
+          "anchorText": "return on common equity 22"
         },
         "rotce": {
           "page": 7,
@@ -2112,9 +2114,10 @@
           "anchorText": "adjusted operating leverage"
         },
         "dividendPayoutRatio": {
-          "page": 7,
-          "searchText": "71.7",
-          "anchorText": "dividend payout ratio"
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "searchText": "43.1",
+          "anchorText": "dividend payout ratio (2) 24"
         },
         "adjustedDilutedEps": {
           "page": 7,
