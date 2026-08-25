@@ -1963,6 +1963,212 @@
         "stableDepositsPct": true,
         "lcrBufferBillions": true
       }
+    },
+    {
+      "period": "Q3 2026",
+      "periodEnd": "2026-07-31",
+      "reportName": "Q3 2026 Report to Shareholders",
+      "reportUrl": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/Q326_ReportToShareholders.pdf",
+      "supplementaryReportName": "Q3 2026 Earnings Release",
+      "supplementaryReportUrl": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/Q326_EarningsRelease.pdf",
+      "retrievedAt": "2026-08-25T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.0,
+        "tier1CapitalRatio": 14.7,
+        "totalCapitalRatio": 16.6,
+        "leverageRatio": 4.2,
+        "tlacRatio": 29.2,
+        "tlacLeverageRatio": 8.4,
+        "lcr": 125,
+        "nsfr": 114,
+        "roe": 8.4,
+        "rotce": 18.0,
+        "nim": 1.6,
+        "efficiencyRatio": 67.5,
+        "adjustedEfficiencyRatio": 54.9,
+        "adjustedOperatingLeverage": 1.6,
+        "dividendPayoutRatio": 71.7,
+        "adjustedDilutedEps": 3.96,
+        "netIncomeMillions": 1750,
+        "totalAssetsBillions": 1538.7,
+        "lcrBufferBillions": 51.4,
+        "loansToAssetsPct": 45.36,
+        "loanToDepositRatio": 69.09,
+        "wholesaleFundingPct": 18.88,
+        "stableDepositsPct": 47.77,
+        "lessStableDepositsPct": 52.23,
+        "operationalDepositsPct": 53.44,
+        "nonOperationalDepositsPct": 46.56,
+        "irrbbEveSensitivityPct": -3.16,
+        "irrbbNiiSensitivityPct": -0.48,
+        "roa": null,
+        "equityMultiplier": null,
+        "retailDepositsPct": null,
+        "wholesaleDepositsPct": null
+      },
+      "notes": {
+        "roe": "Reported ROE of 8.4% for Q3 2026 (adjusted ROE was 14.0%). The reported figure is depressed by the announced divestiture; BMO's adjusted net income rose 19% year over year.",
+        "rotce": "Disclosed, ADJUSTED basis: 18.0% adjusted return on tangible common equity, Q3 2026 Report to Shareholders p7, first column (quarter ended 31 July 2026).",
+        "netIncomeMillions": "Reported net income $1,750M for Q3 2026, down 25% year over year, reflecting the announced divestiture. Adjusted net income was $2,859M, up 19%.",
+        "lcrBufferBillions": "COMPUTED: HQLA $257.4B less total net cash outflows $206.0B = $51.4B, the cushion above the 100% LCR minimum. Both operands from the LCR common disclosure template (p38); the pair reproduces the 125% LCR printed on that page.",
+        "loansToAssetsPct": "Computed: net loans and acceptances $697,927M / total assets $1,538,685M as at 31 July 2026 = 45.36%.",
+        "loanToDepositRatio": "Computed: gross loans and acceptances $703,174M / total deposits $1,017,834M = 69.09%.",
+        "wholesaleFundingPct": "BMO's own disclosed total wholesale funding outstanding of $290.5B as at 31 July 2026 (Liquidity and Funding Risk narrative, p36) / total assets $1538.7B = 18.88%.",
+        "stableDepositsPct": "Computed: stable deposits $143.3B as a share of retail/small-business deposits ($143.3B stable + $156.7B less stable) = 47.77%. Unweighted LCR template values, p38, renormalized so the retail pair totals 100%.",
+        "lessStableDepositsPct": "Computed: less stable deposits $156.7B as a share of retail/small-business deposits = 52.23%. Renormalized so the retail pair totals 100%.",
+        "operationalDepositsPct": "Computed: operational deposits $171.6B as a share of unsecured wholesale deposits ($171.6B operational + $149.5B non-operational) = 53.44%. Renormalized so the wholesale pair totals 100%.",
+        "nonOperationalDepositsPct": "Computed: non-operational deposits $149.5B as a share of unsecured wholesale deposits = 46.56%.",
+        "irrbbEveSensitivityPct": "Most adverse of BMO's two disclosed shocks (+/-100bp parallel) Economic Value Sensitivity, Total = $-2110M, / Tier 1 capital $66,864M = -3.16%. Structural Interest Rate Sensitivity table, p34.",
+        "irrbbNiiSensitivityPct": "Most adverse of BMO's two disclosed shocks Earnings (12-month NII) Sensitivity, Total = $-318M, / Tier 1 capital $66,864M = -0.48%. Structural Interest Rate Sensitivity table, p34.",
+        "roa": "Not yet available: BMO discloses ROA in its Supplementary Financial Information, which has not been published for Q3 2026. Computing it another way would switch BMO's basis mid-series.",
+        "equityMultiplier": "Not yet available: needs average total assets and average common equity from BMO's Supplementary Financial Information, not yet published for Q3 2026.",
+        "retailDepositsPct": "Not yet available for Q3 2026: needs the personal vs business-and-government split from the Deposits note, whose comparative column is the fiscal year end rather than the prior quarter.",
+        "wholesaleDepositsPct": "Not yet available for Q3 2026: see the retail deposits note."
+      },
+      "derived": {
+        "lcrBufferBillions": true,
+        "loansToAssetsPct": true,
+        "loanToDepositRatio": true,
+        "wholesaleFundingPct": true,
+        "stableDepositsPct": true,
+        "lessStableDepositsPct": true,
+        "operationalDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "irrbbEveSensitivityPct": true,
+        "irrbbNiiSensitivityPct": true
+      },
+      "sourceRefs": {
+        "cet1Ratio": {
+          "page": 7,
+          "searchText": "13.0",
+          "anchorText": "common equity tier 1 ratio"
+        },
+        "tier1CapitalRatio": {
+          "page": 7,
+          "searchText": "14.7",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "page": 7,
+          "searchText": "16.6",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "page": 7,
+          "searchText": "4.2",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "page": 7,
+          "searchText": "29.2",
+          "anchorText": "tlac ratio"
+        },
+        "tlacLeverageRatio": {
+          "page": 18,
+          "searchText": "8.4",
+          "anchorText": "tlac leverage ratio"
+        },
+        "lcr": {
+          "page": 7,
+          "searchText": "125",
+          "anchorText": "liquidity coverage ratio"
+        },
+        "nsfr": {
+          "page": 7,
+          "searchText": "114",
+          "anchorText": "net stable funding ratio"
+        },
+        "roe": {
+          "page": 1,
+          "searchText": "8.4",
+          "anchorText": "return on equity"
+        },
+        "rotce": {
+          "page": 7,
+          "searchText": "18.0",
+          "anchorText": "adjusted return on tangible common equity"
+        },
+        "nim": {
+          "page": 7,
+          "searchText": "1.60",
+          "anchorText": "net interest margin on average earning assets"
+        },
+        "efficiencyRatio": {
+          "page": 7,
+          "searchText": "67.5",
+          "anchorText": "efficiency ratio"
+        },
+        "adjustedEfficiencyRatio": {
+          "page": 7,
+          "searchText": "54.9",
+          "anchorText": "adjusted efficiency ratio"
+        },
+        "adjustedOperatingLeverage": {
+          "page": 7,
+          "searchText": "1.6",
+          "anchorText": "adjusted operating leverage"
+        },
+        "dividendPayoutRatio": {
+          "page": 7,
+          "searchText": "71.7",
+          "anchorText": "dividend payout ratio"
+        },
+        "adjustedDilutedEps": {
+          "page": 7,
+          "searchText": "3.96",
+          "anchorText": "adjusted diluted earnings per share"
+        },
+        "netIncomeMillions": {
+          "page": 1,
+          "searchText": "1,750",
+          "anchorText": "net income"
+        },
+        "totalAssetsBillions": {
+          "page": 7,
+          "searchText": "1,538,685",
+          "anchorText": "assets"
+        },
+        "lcrBufferBillions": {
+          "page": 38,
+          "anchorText": "total net cash outflows"
+        },
+        "loansToAssetsPct": {
+          "page": 7,
+          "anchorText": "net loans and acceptances"
+        },
+        "loanToDepositRatio": {
+          "page": 7,
+          "anchorText": "gross loans and acceptances"
+        },
+        "wholesaleFundingPct": {
+          "page": 36,
+          "anchorText": "wholesale funding outstanding"
+        },
+        "stableDepositsPct": {
+          "page": 38,
+          "anchorText": "stable deposits"
+        },
+        "lessStableDepositsPct": {
+          "page": 38,
+          "anchorText": "less stable deposits"
+        },
+        "operationalDepositsPct": {
+          "page": 38,
+          "anchorText": "operational deposits"
+        },
+        "nonOperationalDepositsPct": {
+          "page": 38,
+          "anchorText": "non-operational deposits"
+        },
+        "irrbbEveSensitivityPct": {
+          "page": 34,
+          "anchorText": "100 basis point increase"
+        },
+        "irrbbNiiSensitivityPct": {
+          "page": 34,
+          "anchorText": "100 basis point decrease"
+        }
+      }
     }
   ],
   "irrbbDisclosureNote": "BMO discloses interest rate risk in the banking book every quarter, in the Structural (Non-Trading) Market Risk section of its Report to Shareholders (and Annual Report) under 'Structural Interest Rate Sensitivity'. It shows 2 of the 6 Basel shock scenarios — an immediate parallel +100bp and -100bp shift (rates floored at zero, constant balance sheet) — reporting both Economic Value Sensitivity (ΔEVE) and 12-month Earnings Sensitivity (ΔNII), split by Canada and the United States, pre-tax in C$ millions. BMO does not itself express these as a percentage of Tier 1 capital; the %-of-Tier-1 figures in this dataset are computed by dividing BMO's disclosed dollar sensitivities by its Tier 1 capital, matching the normalization used for the other banks.",

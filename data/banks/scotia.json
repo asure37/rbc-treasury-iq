@@ -1917,6 +1917,169 @@
         "wholesaleFundingPct": true,
         "lcrBufferBillions": true
       }
+    },
+    {
+      "period": "Q3 2026",
+      "periodEnd": "2026-07-31",
+      "reportName": "Q3 2026 Report to Shareholders",
+      "reportUrl": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Shareholders_Report-EN.pdf",
+      "supplementaryReportName": "Q3 2026 Supplementary Financial Information",
+      "supplementaryReportUrl": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+      "retrievedAt": "2026-08-25T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.1,
+        "tier1CapitalRatio": 15.1,
+        "totalCapitalRatio": 16.9,
+        "leverageRatio": 4.3,
+        "tlacRatio": 28.6,
+        "tlacLeverageRatio": 8.2,
+        "lcr": 126,
+        "nsfr": 116,
+        "roe": 14.1,
+        "rotce": 17.2,
+        "nim": 2.49,
+        "efficiencyRatio": 52.7,
+        "adjustedDilutedEps": 2.28,
+        "netIncomeMillions": 2778,
+        "lcrBufferBillions": 64.2,
+        "roa": 0.7,
+        "equityMultiplier": 20.26,
+        "dividendPayoutRatio": 50.1,
+        "loansToAssetsPct": null,
+        "loanToDepositRatio": null,
+        "wholesaleFundingPct": null,
+        "retailDepositsPct": null,
+        "wholesaleDepositsPct": null,
+        "stableDepositsPct": null,
+        "lessStableDepositsPct": null,
+        "operationalDepositsPct": null,
+        "nonOperationalDepositsPct": null,
+        "irrbbEveSensitivityPct": null,
+        "irrbbNiiSensitivityPct": null,
+        "totalAssetsBillions": null,
+        "adjustedOperatingLeverage": null
+      },
+      "notes": {
+        "roe": "Reported ROE 14.1% (Supplementary Financial Information p40); adjusted ROE was 14.2%.",
+        "rotce": "Disclosed, ADJUSTED basis: 17.2% adjusted return on tangible common equity, Q3 2026 Report to Shareholders p4, first column.",
+        "efficiencyRatio": "Scotiabank labels this the productivity ratio: 52.7% for Q3 2026.",
+        "netIncomeMillions": "Net income attributable to common shareholders, reported basis, Q3 2026 Report to Shareholders p4.",
+        "lcrBufferBillions": "COMPUTED: HQLA $311,181M less total net cash outflows $246,974M = $64.2B, the cushion above the 100% LCR minimum. Both operands from the LCR common disclosure template (p48); the pair reproduces the 126% LCR printed on that page.",
+        "roa": "COMPUTED: Scotiabank does not disclose an ROA. Net income after tax $2,778M, annualised over 92 days in the quarter (x365/92), divided by its own disclosed average total assets $1,584,546M = 0.7%. Average assets are cited; the ratio is derived.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,584,546M divided by average common equity $78,217M = 20.26x. Both operands are published in the issuer's own financial supplement.",
+        "dividendPayoutRatio": "COMPUTED, not disclosed quarterly -- Scotiabank publishes a payout ratio only for the full fiscal year. Common dividends paid $1,391M divided by net income attributable to common shareholders $2,778M = 50.1%. Both operands from the Q3 2026 supplementary financial information.",
+        "loansToAssetsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "loanToDepositRatio": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "wholesaleFundingPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "retailDepositsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "wholesaleDepositsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "stableDepositsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "lessStableDepositsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "operationalDepositsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "nonOperationalDepositsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "irrbbEveSensitivityPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "irrbbNiiSensitivityPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "totalAssetsBillions": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "adjustedOperatingLeverage": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass."
+      },
+      "derived": {
+        "lcrBufferBillions": true,
+        "roa": true,
+        "equityMultiplier": true,
+        "dividendPayoutRatio": true
+      },
+      "sourceRefs": {
+        "cet1Ratio": {
+          "page": 52,
+          "searchText": "13.1",
+          "anchorText": "common equity tier 1 capital ratio"
+        },
+        "tier1CapitalRatio": {
+          "page": 4,
+          "searchText": "15.1",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "page": 4,
+          "searchText": "16.9",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "page": 4,
+          "searchText": "4.3",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "page": 4,
+          "searchText": "28.6",
+          "anchorText": "total loss absorbing capacity"
+        },
+        "tlacLeverageRatio": {
+          "page": 4,
+          "searchText": "8.2",
+          "anchorText": "tlac leverage ratio"
+        },
+        "lcr": {
+          "page": 4,
+          "searchText": "126",
+          "anchorText": "liquidity coverage ratio"
+        },
+        "nsfr": {
+          "page": 4,
+          "searchText": "116",
+          "anchorText": "net stable funding ratio"
+        },
+        "roe": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 40,
+          "searchText": "14.1",
+          "anchorText": "return on equity"
+        },
+        "rotce": {
+          "page": 4,
+          "searchText": "17.2",
+          "anchorText": "adjusted return on tangible common equity"
+        },
+        "nim": {
+          "page": 4,
+          "searchText": "2.49",
+          "anchorText": "net interest margin"
+        },
+        "efficiencyRatio": {
+          "page": 4,
+          "searchText": "52.7",
+          "anchorText": "productivity ratio"
+        },
+        "adjustedDilutedEps": {
+          "page": 4,
+          "searchText": "2.28",
+          "anchorText": "adjusted diluted earnings per share"
+        },
+        "netIncomeMillions": {
+          "page": 4,
+          "searchText": "2,778",
+          "anchorText": "net income attributable to common shareholders"
+        },
+        "lcrBufferBillions": {
+          "page": 48,
+          "anchorText": "total net cash outflows"
+        },
+        "roa": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 41,
+          "anchorText": "average total assets"
+        },
+        "equityMultiplier": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 41,
+          "anchorText": "average total assets"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 6,
+          "anchorText": "common dividends paid"
+        }
+      }
     }
   ],
   "irrbbDisclosureNote": "Scotiabank discloses IRRBB every quarter in its Report to Shareholders MD&A (Table T23 'Structural interest sensitivity'), and again at fiscal year-end (Oct 31) in the Annual Report (Table T50) and the audited financial-statement notes. It shows only two prescribed shocks — an immediate, sustained +100bp and -100bp parallel rate shock across major currencies — not the full Basel/OSFI six-scenario set (no steepener, flattener, or short-rate shocks are separately disclosed publicly). Both ΔEVE (present value of net assets) and ΔNII (next-12-month net interest income) are shown, pre-tax, on a constant balance-sheet basis with no management-action mitigation assumed, broken out by Canadian dollar vs. other currencies. Scotiabank states results are within 'Board-approved limits' but does not disclose those limits or express the sensitivities as a percentage of any capital measure — the %-of-Tier-1-capital figures in this dataset are computed by us, not sourced directly.",
