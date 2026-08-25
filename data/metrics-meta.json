@@ -76,6 +76,15 @@
       "decimals": 0
     },
     {
+      "key": "lcrBufferBillions",
+      "label": "LCR Buffer (Surplus over 100%)",
+      "shortLabel": "LCR Buffer",
+      "unit": "$B",
+      "description": "High-quality liquid assets less total net cash outflows: the dollar cushion a bank holds above the 100% LCR minimum. Computed from two figures every bank discloses in its LCR common disclosure template; the pair reproduces each bank's own printed LCR on the same page.",
+      "higherIsBetter": true,
+      "decimals": 1
+    },
+    {
       "key": "nsfr",
       "label": "Net Stable Funding Ratio (NSFR)",
       "shortLabel": "NSFR",

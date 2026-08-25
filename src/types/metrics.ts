@@ -9,6 +9,7 @@ export type MetricKey =
   | "tlacRatio"
   | "tlacLeverageRatio"
   | "lcr"
+  | "lcrBufferBillions"
   | "nsfr"
   | "roe"
   | "roa"

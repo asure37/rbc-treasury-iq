@@ -42,11 +42,12 @@ const BASELINE = {
   anchored_cited_page: 1060,
   unanchored_cited_page: 108,
   neighbour: 0,
-  // 169 refs record no searchText at all: 81 legacy derived figures, TD's and
+  // 217 refs record no searchText at all (48 of them the LCR buffer, a computed
+  // surplus whose ref cites the page disclosing HQLA and outflows): 81 legacy derived figures, TD's and
   // Scotiabank's 16 computed ROA refs, and the 48 equity-multiplier refs. Each of
   // those cites the page where its OPERANDS are disclosed; the ratio itself is
   // never printed, so there is nothing to highlight. 16 record a value not on the page.
-  misses: 185,
+  misses: 233,
 };
 
 interface Probe {

@@ -43,7 +43,8 @@
         "adjustedOperatingLeverage": 5.2,
         "rotce": 14.2,
         "equityMultiplier": 19.17,
-        "adjustedDilutedEps": 2.64
+        "adjustedDilutedEps": 2.64,
+        "lcrBufferBillions": 54.4
       },
       "notes": {
         "tier1CapitalRatio": "Tier 1 capital ratio %, BMO Q3 2024 Report to Shareholders capital table (Q3-2024).",
@@ -70,7 +71,8 @@
         "adjustedOperatingLeverage": "Disclosed: +5.2% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 14.2% adjusted return on tangible common equity for Q3 2024, read from page 7 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,385,866M divided by average common equity $72,305M = 19.17x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
-        "adjustedDilutedEps": "Disclosed: $2.64 adjusted diluted earnings per share for Q3 2024. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
+        "adjustedDilutedEps": "Disclosed: $2.64 adjusted diluted earnings per share for Q3 2024. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $244.1B less net cash outflows $189.7B = $54.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 45), and the pair reproduces the LCR percentage printed on that same page."
       },
       "sourceRefs": {
         "tier1CapitalRatio": {
@@ -233,6 +235,10 @@
           "page": 7,
           "searchText": "2.64",
           "anchorText": "diluted earnings per share"
+        },
+        "lcrBufferBillions": {
+          "page": 45,
+          "anchorText": "total net cash outflows"
         }
       },
       "derived": {
@@ -241,7 +247,8 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "stableDepositsPct": true
+        "stableDepositsPct": true,
+        "lcrBufferBillions": true
       }
     },
     {
@@ -282,7 +289,8 @@
         "adjustedOperatingLeverage": 2.4,
         "rotce": 9.7,
         "equityMultiplier": 18.92,
-        "adjustedDilutedEps": 1.9
+        "adjustedDilutedEps": 1.9,
+        "lcrBufferBillions": 61.0
       },
       "notes": {
         "roe": "reported ROE used (11.4%); adjusted ROE was notably lower (7.4%) this quarter due to a large positive one-time item (reversal of a prior legal provision) boosting reported income above adjusted income",
@@ -305,7 +313,8 @@
         "adjustedOperatingLeverage": "Disclosed: +2.4% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 9.7% adjusted return on tangible common equity for Q4 2024, read from page 5 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,418,952M divided by average common equity $74,992M = 18.92x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
-        "adjustedDilutedEps": "Disclosed: $1.90 adjusted diluted earnings per share for Q4 2024. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
+        "adjustedDilutedEps": "Disclosed: $1.90 adjusted diluted earnings per share for Q4 2024. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $253.4B less net cash outflows $192.4B = $61.0B. Both operands are disclosed in the issuer's LCR common disclosure template (page 37), and the pair reproduces the LCR percentage printed on that same page. Q4 is the prior-period column of the following Q1 report, which is where BMO publishes it."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -458,6 +467,11 @@
           "page": 7,
           "searchText": "1.90",
           "anchorText": "diluted earnings per share"
+        },
+        "lcrBufferBillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2025-q1/Q125_ReportToShareholders.pdf",
+          "page": 37,
+          "anchorText": "total net cash outflows"
         }
       },
       "derived": {
@@ -467,7 +481,8 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "stableDepositsPct": true
+        "stableDepositsPct": true,
+        "lcrBufferBillions": true
       }
     },
     {
@@ -508,7 +523,8 @@
         "adjustedOperatingLeverage": 8.9,
         "rotce": 14.9,
         "equityMultiplier": 19.58,
-        "adjustedDilutedEps": 3.04
+        "adjustedDilutedEps": 3.04,
+        "lcrBufferBillions": 56.3
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2025 = 128%, BMO Q1 2025 Report to Shareholders.",
@@ -534,7 +550,8 @@
         "adjustedOperatingLeverage": "Disclosed: +8.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 14.9% adjusted return on tangible common equity for Q1 2025, read from page 6 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,521,514M divided by average common equity $77,693M = 19.58x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
-        "adjustedDilutedEps": "Disclosed: $3.04 adjusted diluted earnings per share for Q1 2025. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
+        "adjustedDilutedEps": "Disclosed: $3.04 adjusted diluted earnings per share for Q1 2025. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $259.5B less net cash outflows $203.2B = $56.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 37), and the pair reproduces the LCR percentage printed on that same page."
       },
       "sourceRefs": {
         "nim": {
@@ -703,6 +720,10 @@
           "page": 7,
           "searchText": "3.04",
           "anchorText": "diluted earnings per share"
+        },
+        "lcrBufferBillions": {
+          "page": 37,
+          "anchorText": "total net cash outflows"
         }
       },
       "derived": {
@@ -711,7 +732,8 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "stableDepositsPct": true
+        "stableDepositsPct": true,
+        "lcrBufferBillions": true
       }
     },
     {
@@ -753,7 +775,8 @@
         "adjustedOperatingLeverage": 2.7,
         "rotce": 12.8,
         "equityMultiplier": 18.96,
-        "adjustedDilutedEps": 2.62
+        "adjustedDilutedEps": 2.62,
+        "lcrBufferBillions": 65.2
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended April 30, 2025 = 134%, BMO Q2 2025 Report to Shareholders.",
@@ -778,7 +801,8 @@
         "adjustedOperatingLeverage": "Disclosed: +2.7% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 12.8% adjusted return on tangible common equity for Q2 2025, read from page 6 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,503,683M divided by average common equity $79,288M = 18.96x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
-        "adjustedDilutedEps": "Disclosed: $2.62 adjusted diluted earnings per share for Q2 2025. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
+        "adjustedDilutedEps": "Disclosed: $2.62 adjusted diluted earnings per share for Q2 2025. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $258.7B less net cash outflows $193.5B = $65.2B. Both operands are disclosed in the issuer's LCR common disclosure template (page 38), and the pair reproduces the LCR percentage printed on that same page."
       },
       "sourceRefs": {
         "efficiencyRatio": {
@@ -948,6 +972,10 @@
           "page": 7,
           "searchText": "2.62",
           "anchorText": "diluted earnings per share"
+        },
+        "lcrBufferBillions": {
+          "page": 38,
+          "anchorText": "total net cash outflows"
         }
       },
       "derived": {
@@ -956,7 +984,8 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "stableDepositsPct": true
+        "stableDepositsPct": true,
+        "lcrBufferBillions": true
       }
     },
     {
@@ -998,7 +1027,8 @@
         "adjustedOperatingLeverage": 2.9,
         "rotce": 15.6,
         "equityMultiplier": 18.61,
-        "adjustedDilutedEps": 3.23
+        "adjustedDilutedEps": 3.23,
+        "lcrBufferBillions": 58.1
       },
       "notes": {
         "efficiencyRatio": "Efficiency ratio %, BMO Q3 2025 Report to Shareholders Financial Highlights (Q3-2025).",
@@ -1020,7 +1050,8 @@
         "adjustedOperatingLeverage": "Disclosed: +2.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 15.6% adjusted return on tangible common equity for Q3 2025, read from page 6 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,433,742M divided by average common equity $77,048M = 18.61x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
-        "adjustedDilutedEps": "Disclosed: $3.23 adjusted diluted earnings per share for Q3 2025. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
+        "adjustedDilutedEps": "Disclosed: $3.23 adjusted diluted earnings per share for Q3 2025. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $252.1B less net cash outflows $194.0B = $58.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 41), and the pair reproduces the LCR percentage printed on that same page."
       },
       "sourceRefs": {
         "efficiencyRatio": {
@@ -1184,6 +1215,10 @@
           "page": 7,
           "searchText": "3.23",
           "anchorText": "diluted earnings per share"
+        },
+        "lcrBufferBillions": {
+          "page": 41,
+          "anchorText": "total net cash outflows"
         }
       },
       "derived": {
@@ -1192,7 +1227,8 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "stableDepositsPct": true
+        "stableDepositsPct": true,
+        "lcrBufferBillions": true
       }
     },
     {
@@ -1235,7 +1271,8 @@
         "adjustedOperatingLeverage": 3.0,
         "rotce": 15.4,
         "equityMultiplier": 18.65,
-        "adjustedDilutedEps": 3.28
+        "adjustedDilutedEps": 3.28,
+        "lcrBufferBillions": 60.7
       },
       "notes": {
         "roe": "reported ROE used (10.7%); adjusted ROE was 11.8%",
@@ -1258,7 +1295,8 @@
         "adjustedOperatingLeverage": "Disclosed: +3.0% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 15.4% adjusted return on tangible common equity for Q4 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,464,058M divided by average common equity $78,511M = 18.65x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
-        "adjustedDilutedEps": "Disclosed: $3.28 adjusted diluted earnings per share for Q4 2025. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
+        "adjustedDilutedEps": "Disclosed: $3.28 adjusted diluted earnings per share for Q4 2025. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $252.1B less net cash outflows $191.4B = $60.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 33), and the pair reproduces the LCR percentage printed on that same page. Q4 is the prior-period column of the following Q1 report, which is where BMO publishes it."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1411,6 +1449,11 @@
           "page": 7,
           "searchText": "3.28",
           "anchorText": "diluted earnings per share"
+        },
+        "lcrBufferBillions": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q1/Q126_ReportToShareholders.pdf",
+          "page": 33,
+          "anchorText": "total net cash outflows"
         }
       },
       "derived": {
@@ -1420,7 +1463,8 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "stableDepositsPct": true
+        "stableDepositsPct": true,
+        "lcrBufferBillions": true
       }
     },
     {
@@ -1462,7 +1506,8 @@
         "adjustedOperatingLeverage": -2.8,
         "rotce": 16.1,
         "equityMultiplier": 19.13,
-        "adjustedDilutedEps": 3.48
+        "adjustedDilutedEps": 3.48,
+        "lcrBufferBillions": 52.1
       },
       "notes": {
         "lcr": "Average daily LCR for the quarter ended January 31, 2026 = 126%, BMO Q1 2026 Report to Shareholders.",
@@ -1487,7 +1532,8 @@
         "adjustedOperatingLeverage": "Disclosed: -2.8% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 16.1% adjusted return on tangible common equity for Q1 2026, read from page 6 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,512,341M divided by average common equity $79,075M = 19.13x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
-        "adjustedDilutedEps": "Disclosed: $3.48 adjusted diluted earnings per share for Q1 2026. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
+        "adjustedDilutedEps": "Disclosed: $3.48 adjusted diluted earnings per share for Q1 2026. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $252.9B less net cash outflows $200.8B = $52.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 33), and the pair reproduces the LCR percentage printed on that same page."
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -1656,6 +1702,10 @@
           "page": 7,
           "searchText": "3.48",
           "anchorText": "diluted earnings per share"
+        },
+        "lcrBufferBillions": {
+          "page": 33,
+          "anchorText": "total net cash outflows"
         }
       },
       "derived": {
@@ -1664,7 +1714,8 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "stableDepositsPct": true
+        "stableDepositsPct": true,
+        "lcrBufferBillions": true
       }
     },
     {
@@ -1706,7 +1757,8 @@
         "adjustedOperatingLeverage": 4.1,
         "rotce": 17.6,
         "equityMultiplier": 19.38,
-        "adjustedDilutedEps": 3.67
+        "adjustedDilutedEps": 3.67,
+        "lcrBufferBillions": 55.6
       },
       "notes": {
         "tier1CapitalRatio": "Tier 1 capital ratio %, Q2 2026 Report to Shareholders capital table (Q2-2026). Anchors: Q1-2026=14.8 and Q2-2025=15.3 both match our existing values.",
@@ -1732,7 +1784,8 @@
         "adjustedOperatingLeverage": "Disclosed: +4.1% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 7) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 17.6% adjusted return on tangible common equity for Q2 2026, read from page 7 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,524,176M divided by average common equity $78,641M = 19.38x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
-        "adjustedDilutedEps": "Disclosed: $3.67 adjusted diluted earnings per share for Q2 2026. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number."
+        "adjustedDilutedEps": "Disclosed: $3.67 adjusted diluted earnings per share for Q2 2026. BMO supplementary p7 line 21, inside the \"adjusted profitability measures\" block (line 8 is the reported figure). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $256.2B less net cash outflows $200.6B = $55.6B. Both operands are disclosed in the issuer's LCR common disclosure template (page 38), and the pair reproduces the LCR percentage printed on that same page."
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -1895,6 +1948,10 @@
           "page": 7,
           "searchText": "3.67",
           "anchorText": "diluted earnings per share"
+        },
+        "lcrBufferBillions": {
+          "page": 38,
+          "anchorText": "total net cash outflows"
         }
       },
       "derived": {
@@ -1903,7 +1960,8 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "stableDepositsPct": true
+        "stableDepositsPct": true,
+        "lcrBufferBillions": true
       }
     }
   ],
