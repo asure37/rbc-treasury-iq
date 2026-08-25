@@ -198,7 +198,7 @@
       "label": "Net Income",
       "shortLabel": "Net Income",
       "unit": "$M",
-      "description": "Net income attributable to shareholders for the quarter, in millions of reporting currency.",
+      "description": "Net income for the quarter, in millions of reporting currency. Deliberately kept on the REPORTED basis for every bank, unlike ROE, ROA, efficiency ratio and dividend payout ratio, which are all adjusted -- a true same-basis adjusted swap is not available here. RBC discloses an adjusted figure only for net income available to COMMON shareholders, not total-bank net income; CIBC discloses an adjusted total figure and an adjusted-to-common figure, but neither matches its reported basis (net income attributable to equity shareholders). Switching would mean changing what the number represents, not just its basis, for most of the six banks. Also note: the REPORTED figures already sit on three different bases across banks -- RBC, TD, BMO and National Bank report total bank net income; CIBC reports net income attributable to equity shareholders (total less non-controlling interests); Scotiabank reports net income attributable to common shareholders (also net of preferred dividends). This predates the adjusted-basis project and was not changed.",
       "higherIsBetter": true,
       "decimals": 0
     },
