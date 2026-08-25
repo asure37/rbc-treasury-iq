@@ -2001,10 +2001,10 @@
         "nonOperationalDepositsPct": 46.56,
         "irrbbEveSensitivityPct": -3.16,
         "irrbbNiiSensitivityPct": -0.48,
-        "roa": null,
-        "equityMultiplier": null,
-        "retailDepositsPct": null,
-        "wholesaleDepositsPct": null
+        "roa": 0.44,
+        "equityMultiplier": 19.89,
+        "retailDepositsPct": 31.05,
+        "wholesaleDepositsPct": 68.95
       },
       "notes": {
         "roe": "Reported ROE of 8.4% for Q3 2026 (adjusted ROE was 14.0%). The reported figure is depressed by the announced divestiture; BMO's adjusted net income rose 19% year over year.",
@@ -2020,10 +2020,10 @@
         "nonOperationalDepositsPct": "Computed: non-operational deposits $149.5B as a share of unsecured wholesale deposits = 46.56%.",
         "irrbbEveSensitivityPct": "Most adverse of BMO's two disclosed shocks (+/-100bp parallel) Economic Value Sensitivity, Total = $-2110M, / Tier 1 capital $66,864M = -3.16%. Structural Interest Rate Sensitivity table, p34.",
         "irrbbNiiSensitivityPct": "Most adverse of BMO's two disclosed shocks Earnings (12-month NII) Sensitivity, Total = $-318M, / Tier 1 capital $66,864M = -0.48%. Structural Interest Rate Sensitivity table, p34.",
-        "roa": "Not yet available: BMO discloses ROA in its Supplementary Financial Information, which has not been published for Q3 2026. Computing it another way would switch BMO's basis mid-series.",
-        "equityMultiplier": "Not yet available: needs average total assets and average common equity from BMO's Supplementary Financial Information, not yet published for Q3 2026.",
-        "retailDepositsPct": "Not yet available for Q3 2026: needs the personal vs business-and-government split from the Deposits note, whose comparative column is the fiscal year end rather than the prior quarter.",
-        "wholesaleDepositsPct": "Not yet available for Q3 2026: see the retail deposits note."
+        "roa": "Disclosed by the issuer: 0.44% return on average assets, read from the Q3 2026 supplementary financial information (page 7), reported basis. Not computed.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $1,570,474M divided by average common equity $78,960M = 19.89x. Both operands are published in the issuer's own financial supplementary information (page 8). Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "retailDepositsPct": "Individuals (personal) deposits $295,968M / total deposits $1,017,834M, from the BMO Q3 2026 Report to Shareholders Deposits note + balance sheet. Renormalized: 29.08% of TOTAL deposits becomes 31.05% of the retail+wholesale book, because this issuer's deposit table carries a further 6.4% that is neither retail nor wholesale, so the two would not otherwise sum to 100%.",
+        "wholesaleDepositsPct": "Banks ($34,862M) + Business & government ($622,325M) deposits / total deposits $1,017,834M, BMO Q3 2026 Report to Shareholders Deposits note. (Any remainder to 100% is deposits at FVTPL, not classified by depositor type.) Renormalized: 65.57% of TOTAL deposits becomes 68.95% of the retail+wholesale book."
       },
       "derived": {
         "lcrBufferBillions": true,
@@ -2035,7 +2035,10 @@
         "operationalDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "irrbbEveSensitivityPct": true,
-        "irrbbNiiSensitivityPct": true
+        "irrbbNiiSensitivityPct": true,
+        "equityMultiplier": true,
+        "retailDepositsPct": true,
+        "wholesaleDepositsPct": true
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -2167,6 +2170,27 @@
         "irrbbNiiSensitivityPct": {
           "page": 34,
           "anchorText": "100 basis point decrease"
+        },
+        "roa": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 7,
+          "searchText": "0.44",
+          "anchorText": "return on average assets"
+        },
+        "equityMultiplier": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/SuppQ326.pdf",
+          "page": 8,
+          "anchorText": "average common equity"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/Q326_ReportToShareholders.pdf",
+          "page": 55,
+          "anchorText": "individuals"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.bmo.com/ir/qtrinfo/1/2026-q3/Q326_ReportToShareholders.pdf",
+          "page": 55,
+          "anchorText": "business and government"
         }
       }
     }
