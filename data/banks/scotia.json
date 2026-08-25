@@ -39,7 +39,7 @@
         "wholesaleFundingPct": 32.05,
         "tlacLeverageRatio": 8.5,
         "dividendPayoutRatio": 74.3,
-        "roa": 0.49,
+        "roa": 0.61,
         "adjustedOperatingLeverage": null,
         "rotce": 13.7,
         "equityMultiplier": 19.86,
@@ -66,7 +66,7 @@
         "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $270,764M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $178,595M (Consolidated Statement of Financial Position) = $449,359M ÷ total assets $1,402,000M = 32.05%. Both components disclosed quarterly in the Scotiabank Q3 2024 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.31%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "COMPUTED, not disclosed quarterly -- Scotiabank publishes a payout ratio only for the full fiscal year. Common dividends paid $1,304M divided by net income attributable to common shareholders $1,756M = 74.3%. Both operands are from Scotiabank's own Q2 2026 supplementary financial information (dividends p6, net income p5). The same formula reproduces Scotiabank's disclosed annual payout exactly: FY2025 5,369/7,283 = 73.7% against its published 73.7%, FY2024 5,198/7,286 = 71.3% against its published 71%.",
-        "roa": "Computed: SCOTIA does not disclose an ROA. Net income after tax $1,756M, annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $1,422,740M = 0.49%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.61% adjusted ROA for Q3 2024, read from the Q3 2026 supplementary financial information (page 5), the \"ROA (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS. No longer computed: Scotiabank does disclose ROA directly, unlike TD.",
         "adjustedOperatingLeverage": "Scotiabank does not publish a quarterly adjusted operating leverage. It discloses the adjusted figure only for the full fiscal year (3.0% for 2025, 2.3% for 2024, Annual Report p21 / Q4 press release p3) and refers to the quarterly number only in prose in its earnings releases. No comparable quarterly series exists.",
         "rotce": "Disclosed, ADJUSTED basis: 13.7% adjusted return on tangible common equity for Q3 2024, read from page 14 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,422,740M divided by average common equity $71,651M = 19.86x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -204,9 +204,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "roa": {
-          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "page": 41,
-          "anchorText": "average total assets"
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "0.61",
+          "anchorText": "roa (%) 0.74 0.72"
         },
         "rotce": {
           "page": 14,
@@ -240,7 +241,6 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true,
         "wholesaleFundingPct": true,
         "lcrBufferBillions": true
@@ -280,7 +280,7 @@
         "irrbbNiiSensitivityPct": -0.03,
         "tlacLeverageRatio": 8.8,
         "dividendPayoutRatio": 86.3,
-        "roa": 0.43,
+        "roa": 0.59,
         "adjustedOperatingLeverage": null,
         "rotce": 12.8,
         "equityMultiplier": 19.39,
@@ -305,7 +305,7 @@
         "newMetricsSource": "2024 Scotiabank Annual Report (Consolidated Financial Statements, Note 21 Deposits; Table T50 Structural Interest Sensitivity; Table T56 Bank's average LCR; Table T58 Wholesale Funding); Q4 2024 Supplementary Regulatory Capital Disclosure (Tier 1 capital) — https://www.scotiabank.com/content/dam/scotiabank/corporate/BNS_Annual_Report_2024_EN.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "COMPUTED, not disclosed quarterly -- Scotiabank publishes a payout ratio only for the full fiscal year. Common dividends paid $1,312M divided by net income attributable to common shareholders $1,521M = 86.3%. Both operands are from Scotiabank's own Q2 2026 supplementary financial information (dividends p6, net income p5). The same formula reproduces Scotiabank's disclosed annual payout exactly: FY2025 5,369/7,283 = 73.7% against its published 73.7%, FY2024 5,198/7,286 = 71.3% against its published 71%.",
-        "roa": "Computed: SCOTIA does not disclose an ROA. Net income after tax $1,521M, annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $1,418,795M = 0.43%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.59% adjusted ROA for Q4 2024, read from the Q3 2026 supplementary financial information (page 5), the \"ROA (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS. No longer computed: Scotiabank does disclose ROA directly, unlike TD.",
         "adjustedOperatingLeverage": "Scotiabank does not publish a quarterly adjusted operating leverage. It discloses the adjusted figure only for the full fiscal year (3.0% for 2025, 2.3% for 2024, Annual Report p21 / Q4 press release p3) and refers to the quarterly number only in prose in its earnings releases. No comparable quarterly series exists.",
         "rotce": "Disclosed, ADJUSTED basis: 12.8% adjusted return on tangible common equity for Q4 2024, read from page 31 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,418,795M divided by average common equity $73,158M = 19.39x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -451,9 +451,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "roa": {
-          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "page": 41,
-          "anchorText": "average total assets"
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "0.59",
+          "anchorText": "roa (%) 0.74 0.72"
         },
         "rotce": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2024/q4/Q424_Quarterly_Press_Release-EN.pdf",
@@ -488,7 +489,6 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true,
         "wholesaleFundingPct": true,
         "lcrBufferBillions": true
@@ -528,7 +528,7 @@
         "wholesaleFundingPct": 32.05,
         "tlacLeverageRatio": 8.5,
         "dividendPayoutRatio": 128.8,
-        "roa": 0.27,
+        "roa": 0.64,
         "adjustedOperatingLeverage": null,
         "rotce": 14.3,
         "equityMultiplier": 19.72,
@@ -557,7 +557,7 @@
         "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $278,878M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $182,259M (Consolidated Statement of Financial Position) = $461,137M ÷ total assets $1,439,000M = 32.05%. Both components disclosed quarterly in the Scotiabank Q1 2025 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.38%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "COMPUTED, not disclosed quarterly -- Scotiabank publishes a payout ratio only for the full fiscal year. Common dividends paid $1,320M divided by net income attributable to common shareholders $1,025M = 128.8%. Both operands are from Scotiabank's own Q2 2026 supplementary financial information (dividends p6, net income p5). The same formula reproduces Scotiabank's disclosed annual payout exactly: FY2025 5,369/7,283 = 73.7% against its published 73.7%, FY2024 5,198/7,286 = 71.3% against its published 71%. Q1 2025 exceeds 100% because net income to common was depressed that quarter, not because the dividend rose.",
-        "roa": "Computed: SCOTIA does not disclose an ROA. Net income after tax $993M, annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $1,460,615M = 0.27%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.64% adjusted ROA for Q1 2025, read from the Q3 2026 supplementary financial information (page 5), the \"ROA (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS. No longer computed: Scotiabank does disclose ROA directly, unlike TD.",
         "adjustedOperatingLeverage": "Scotiabank does not publish a quarterly adjusted operating leverage. It discloses the adjusted figure only for the full fiscal year (3.0% for 2025, 2.3% for 2024, Annual Report p21 / Q4 press release p3) and refers to the quarterly number only in prose in its earnings releases. No comparable quarterly series exists.",
         "rotce": "Disclosed, ADJUSTED basis: 14.3% adjusted return on tangible common equity for Q1 2025, read from page 14 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,460,615M divided by average common equity $74,077M = 19.72x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -693,9 +693,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "roa": {
-          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "page": 41,
-          "anchorText": "average total assets"
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "0.64",
+          "anchorText": "roa (%) 0.74 0.72"
         },
         "rotce": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q2/Q225_Shareholders_Report-EN.pdf",
@@ -731,7 +732,6 @@
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true,
         "wholesaleFundingPct": true,
         "lcrBufferBillions": true
@@ -771,7 +771,7 @@
         "wholesaleFundingPct": 31.73,
         "tlacLeverageRatio": 8.9,
         "dividendPayoutRatio": 71.8,
-        "roa": 0.51,
+        "roa": 0.58,
         "adjustedOperatingLeverage": null,
         "rotce": 12.7,
         "equityMultiplier": 19.68,
@@ -797,7 +797,7 @@
         "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $271,055M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $177,987M (Consolidated Statement of Financial Position) = $449,042M ÷ total assets $1,415,000M = 31.73%. Both components disclosed quarterly in the Scotiabank Q2 2025 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.16%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "COMPUTED, not disclosed quarterly -- Scotiabank publishes a payout ratio only for the full fiscal year. Common dividends paid $1,321M divided by net income attributable to common shareholders $1,841M = 71.8%. Both operands are from Scotiabank's own Q2 2026 supplementary financial information (dividends p6, net income p5). The same formula reproduces Scotiabank's disclosed annual payout exactly: FY2025 5,369/7,283 = 73.7% against its published 73.7%, FY2024 5,198/7,286 = 71.3% against its published 71%.",
-        "roa": "Computed: SCOTIA does not disclose an ROA. Net income after tax $1,841M, annualised over 89 days in the quarter (x365/89), divided by the bank's own disclosed average total assets $1,468,310M = 0.51%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.58% adjusted ROA for Q2 2025, read from the Q3 2026 supplementary financial information (page 5), the \"ROA (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS. No longer computed: Scotiabank does disclose ROA directly, unlike TD.",
         "adjustedOperatingLeverage": "Scotiabank does not publish a quarterly adjusted operating leverage. It discloses the adjusted figure only for the full fiscal year (3.0% for 2025, 2.3% for 2024, Annual Report p21 / Q4 press release p3) and refers to the quarterly number only in prose in its earnings releases. No comparable quarterly series exists.",
         "rotce": "Disclosed, ADJUSTED basis: 12.7% adjusted return on tangible common equity for Q2 2025, read from page 14 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,468,310M divided by average common equity $74,625M = 19.68x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -939,9 +939,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "roa": {
-          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "page": 41,
-          "anchorText": "average total assets"
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "0.58",
+          "anchorText": "roa (%) 0.74 0.72"
         },
         "rotce": {
           "page": 14,
@@ -974,7 +975,6 @@
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true,
         "wholesaleFundingPct": true,
         "lcrBufferBillions": true
@@ -1014,7 +1014,7 @@
         "wholesaleFundingPct": 31.65,
         "tlacLeverageRatio": 8.6,
         "dividendPayoutRatio": 59.1,
-        "roa": 0.63,
+        "roa": 0.69,
         "adjustedOperatingLeverage": null,
         "rotce": 15.1,
         "equityMultiplier": 19.29,
@@ -1041,7 +1041,7 @@
         "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $265,537M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $182,223M (Consolidated Statement of Financial Position) = $447,760M ÷ total assets $1,414,700M = 31.65%. Both components disclosed quarterly in the Scotiabank Q3 2025 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 18.77%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "COMPUTED, not disclosed quarterly -- Scotiabank publishes a payout ratio only for the full fiscal year. Common dividends paid $1,367M divided by net income attributable to common shareholders $2,313M = 59.1%. Both operands are from Scotiabank's own Q2 2026 supplementary financial information (dividends p6, net income p5). The same formula reproduces Scotiabank's disclosed annual payout exactly: FY2025 5,369/7,283 = 73.7% against its published 73.7%, FY2024 5,198/7,286 = 71.3% against its published 71%.",
-        "roa": "Computed: SCOTIA does not disclose an ROA. Net income after tax $2,313M, annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $1,445,858M = 0.63%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.69% adjusted ROA for Q3 2025, read from the Q3 2026 supplementary financial information (page 5), the \"ROA (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS. No longer computed: Scotiabank does disclose ROA directly, unlike TD.",
         "adjustedOperatingLeverage": "Scotiabank does not publish a quarterly adjusted operating leverage. It discloses the adjusted figure only for the full fiscal year (3.0% for 2025, 2.3% for 2024, Annual Report p21 / Q4 press release p3) and refers to the quarterly number only in prose in its earnings releases. No comparable quarterly series exists.",
         "rotce": "Disclosed, ADJUSTED basis: 15.1% adjusted return on tangible common equity for Q3 2025, read from page 15 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,445,858M divided by average common equity $74,972M = 19.29x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -1187,9 +1187,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "roa": {
-          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "page": 41,
-          "anchorText": "average total assets"
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "0.69",
+          "anchorText": "roa (%) 0.74 0.72"
         },
         "rotce": {
           "page": 15,
@@ -1222,7 +1223,6 @@
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true,
         "wholesaleFundingPct": true,
         "lcrBufferBillions": true
@@ -1262,7 +1262,7 @@
         "irrbbNiiSensitivityPct": 0.32,
         "tlacLeverageRatio": 8.5,
         "dividendPayoutRatio": 64.7,
-        "roa": 0.56,
+        "roa": 0.68,
         "adjustedOperatingLeverage": null,
         "rotce": 15.2,
         "equityMultiplier": 19.54,
@@ -1287,7 +1287,7 @@
         "newMetricsSource": "2025 Scotiabank Annual Report (Note 21 Deposits; Table T50 Structural Interest Sensitivity; Table T56 Bank's average LCR; Table T58 Wholesale Funding); Q4 2025 Supplementary Regulatory Capital Disclosure (Tier 1 capital) — https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Annual_Report_2025_EN.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "COMPUTED, not disclosed quarterly -- Scotiabank publishes a payout ratio only for the full fiscal year. Common dividends paid $1,361M divided by net income attributable to common shareholders $2,104M = 64.7%. Both operands are from Scotiabank's own Q2 2026 supplementary financial information (dividends p6, net income p5). The same formula reproduces Scotiabank's disclosed annual payout exactly: FY2025 5,369/7,283 = 73.7% against its published 73.7%, FY2024 5,198/7,286 = 71.3% against its published 71%.",
-        "roa": "Computed: SCOTIA does not disclose an ROA. Net income after tax $2,104M, annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $1,486,529M = 0.56%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.68% adjusted ROA for Q4 2025, read from the Q3 2026 supplementary financial information (page 5), the \"ROA (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS. No longer computed: Scotiabank does disclose ROA directly, unlike TD.",
         "adjustedOperatingLeverage": "Scotiabank does not publish a quarterly adjusted operating leverage. It discloses the adjusted figure only for the full fiscal year (3.0% for 2025, 2.3% for 2024, Annual Report p21 / Q4 press release p3) and refers to the quarterly number only in prose in its earnings releases. No comparable quarterly series exists.",
         "rotce": "Disclosed, ADJUSTED basis: 15.2% adjusted return on tangible common equity for Q4 2025, read from page 32 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,486,529M divided by average common equity $76,093M = 19.54x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -1432,9 +1432,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "roa": {
-          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "page": 41,
-          "anchorText": "average total assets"
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "0.68",
+          "anchorText": "roa (%) 0.74 0.72"
         },
         "rotce": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q4/Q425_Quarterly_Press_Release-EN.pdf",
@@ -1469,7 +1470,6 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true,
         "wholesaleFundingPct": true,
         "lcrBufferBillions": true
@@ -1504,7 +1504,7 @@
         "irrbbNiiSensitivityPct": 0.29,
         "tlacLeverageRatio": 8.3,
         "dividendPayoutRatio": 63.0,
-        "roa": 0.57,
+        "roa": 0.71,
         "adjustedOperatingLeverage": null,
         "rotce": 15.8,
         "equityMultiplier": 19.38,
@@ -1526,7 +1526,7 @@
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock: 12-month NII impact = +$215mm ÷ Net Tier 1 capital $72,956mm = 0.29%. Re-based to % of Tier 1 capital for consistency with the other banks (Scotiabank itself frames this as a dollar amount). (Q1 2026's own report renders T23 with non-decodable glyphs, so the figure is taken from the Q2 2026 report, which restates Jan-31-2026 as its prior-quarter column.)",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "COMPUTED, not disclosed quarterly -- Scotiabank publishes a payout ratio only for the full fiscal year. Common dividends paid $1,358M divided by net income attributable to common shareholders $2,155M = 63.0%. Both operands are from Scotiabank's own Q2 2026 supplementary financial information (dividends p6, net income p5). The same formula reproduces Scotiabank's disclosed annual payout exactly: FY2025 5,369/7,283 = 73.7% against its published 73.7%, FY2024 5,198/7,286 = 71.3% against its published 71%.",
-        "roa": "Computed: SCOTIA does not disclose an ROA. Net income after tax $2,155M, annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $1,497,957M = 0.57%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.71% adjusted ROA for Q1 2026, read from the Q3 2026 supplementary financial information (page 5), the \"ROA (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS. No longer computed: Scotiabank does disclose ROA directly, unlike TD.",
         "adjustedOperatingLeverage": "Scotiabank does not publish a quarterly adjusted operating leverage. It discloses the adjusted figure only for the full fiscal year (3.0% for 2025, 2.3% for 2024, Annual Report p21 / Q4 press release p3) and refers to the quarterly number only in prose in its earnings releases. No comparable quarterly series exists.",
         "rotce": "Disclosed, ADJUSTED basis: 15.8% adjusted return on tangible common equity for Q1 2026, read from page 15 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,497,957M divided by average common equity $77,288M = 19.38x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -1629,9 +1629,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "roa": {
-          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "page": 41,
-          "anchorText": "average total assets"
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "0.71",
+          "anchorText": "roa (%) 0.74 0.72"
         },
         "rotce": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
@@ -1664,7 +1665,6 @@
         "dividendPayoutRatio": true,
         "equityMultiplier": true,
         "loansToAssetsPct": true,
-        "roa": true,
         "lcrBufferBillions": true
       }
     },
@@ -1702,7 +1702,7 @@
         "wholesaleFundingPct": 35.29,
         "tlacLeverageRatio": 8.0,
         "dividendPayoutRatio": 54.8,
-        "roa": 0.67,
+        "roa": 0.72,
         "adjustedOperatingLeverage": null,
         "rotce": 16.0,
         "equityMultiplier": 19.6,
@@ -1731,7 +1731,7 @@
         "wholesaleFundingPct": "Computed: Table T58 \"Total wholesale funding sources\" $298,214M (excludes repo per T58 footnote) + period-end \"Obligations related to securities sold under repurchase agreements and securities lent\" $238,663M (Consolidated Statement of Financial Position) = $536,877M ÷ total assets $1,521,500M = 35.29%. Both components disclosed quarterly in the Scotiabank Q2 2026 Report to Shareholders; matches Scotiabank's existing Q4 method. Excluding repo (T58's own scope): 19.6%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "COMPUTED, not disclosed quarterly -- Scotiabank publishes a payout ratio only for the full fiscal year. Common dividends paid $1,352M divided by net income attributable to common shareholders $2,468M = 54.8%. Both operands are from Scotiabank's own Q2 2026 supplementary financial information (dividends p6, net income p5). The same formula reproduces Scotiabank's disclosed annual payout exactly: FY2025 5,369/7,283 = 73.7% against its published 73.7%, FY2024 5,198/7,286 = 71.3% against its published 71%.",
-        "roa": "Computed: SCOTIA does not disclose an ROA. Net income after tax $2,468M, annualised over 89 days in the quarter (x365/89), divided by the bank's own disclosed average total assets $1,517,380M = 0.67%. Average assets are cited; the ratio is derived. Day-count annualisation reproduces the disclosed ROA of issuers that publish one to within 0.01pp.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.72% adjusted ROA for Q2 2026, read from the Q3 2026 supplementary financial information (page 5), the \"ROA (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS. No longer computed: Scotiabank does disclose ROA directly, unlike TD.",
         "adjustedOperatingLeverage": "Scotiabank does not publish a quarterly adjusted operating leverage. It discloses the adjusted figure only for the full fiscal year (3.0% for 2025, 2.3% for 2024, Annual Report p21 / Q4 press release p3) and refers to the quarterly number only in prose in its earnings releases. No comparable quarterly series exists.",
         "rotce": "Disclosed, ADJUSTED basis: 16.0% adjusted return on tangible common equity for Q2 2026, read from page 15 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,517,380M divided by average common equity $77,436M = 19.60x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -1877,9 +1877,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "roa": {
-          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Supplementary_Financial_Information-EN.pdf",
-          "page": 41,
-          "anchorText": "average total assets"
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "0.72",
+          "anchorText": "11.3 roa (%)"
         },
         "rotce": {
           "page": 15,
@@ -1912,7 +1913,6 @@
         "lessStableDepositsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "roa": true,
         "stableDepositsPct": true,
         "wholesaleFundingPct": true,
         "lcrBufferBillions": true
@@ -1942,7 +1942,7 @@
         "adjustedDilutedEps": 2.28,
         "netIncomeMillions": 2778,
         "lcrBufferBillions": 64.2,
-        "roa": 0.7,
+        "roa": 0.74,
         "equityMultiplier": 20.26,
         "dividendPayoutRatio": 50.1,
         "loansToAssetsPct": 49.78,
@@ -1965,7 +1965,7 @@
         "efficiencyRatio": "Scotiabank labels this the productivity ratio: 52.7% for Q3 2026.",
         "netIncomeMillions": "Net income attributable to common shareholders, reported basis, Q3 2026 Report to Shareholders p4.",
         "lcrBufferBillions": "COMPUTED: HQLA $311,181M less total net cash outflows $246,974M = $64.2B, the cushion above the 100% LCR minimum. Both operands from the LCR common disclosure template (p48); the pair reproduces the 126% LCR printed on that page.",
-        "roa": "COMPUTED: Scotiabank does not disclose an ROA. Net income after tax $2,778M, annualised over 92 days in the quarter (x365/92), divided by its own disclosed average total assets $1,584,546M = 0.7%. Average assets are cited; the ratio is derived.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.74% adjusted ROA for Q3 2026, read from the Q3 2026 supplementary financial information (page 5), the \"ROA (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS. No longer computed: Scotiabank does disclose ROA directly, unlike TD.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,584,546M divided by average common equity $78,217M = 20.26x. Both operands are published in the issuer's own financial supplement.",
         "dividendPayoutRatio": "COMPUTED, not disclosed quarterly -- Scotiabank publishes a payout ratio only for the full fiscal year. Common dividends paid $1,391M divided by net income attributable to common shareholders $2,778M = 50.1%. Both operands from the Q3 2026 supplementary financial information.",
         "loansToAssetsPct": "Net loans and acceptances $770.7B / total assets $1,548.3B, both from the Q3 2026 SFI Highlights 9-quarter trend. Consistent with the net-loans/total-assets method used for other Scotiabank quarters.",
@@ -1984,7 +1984,6 @@
       },
       "derived": {
         "lcrBufferBillions": true,
-        "roa": true,
         "equityMultiplier": true,
         "dividendPayoutRatio": true,
         "loansToAssetsPct": true,
@@ -2077,8 +2076,9 @@
         },
         "roa": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
-          "page": 41,
-          "anchorText": "average total assets"
+          "page": 5,
+          "searchText": "0.74",
+          "anchorText": "11.3 roa (%)"
         },
         "equityMultiplier": {
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",

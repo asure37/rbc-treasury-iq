@@ -39,7 +39,7 @@
         "irrbbNiiSensitivityPct": -0.44,
         "tlacLeverageRatio": 8.3,
         "dividendPayoutRatio": 46.0,
-        "roa": 0.85,
+        "roa": 0.89,
         "adjustedOperatingLeverage": 3.3,
         "rotce": 20.4,
         "equityMultiplier": 18.83,
@@ -62,7 +62,7 @@
         "newMetricsSource": "Q3 2024 Report to Shareholders (MD&A: Liquidity and Funding Risk, Market Risk sections) — https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
-        "roa": "Disclosed by the issuer: 0.85% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q3 2024. Not computed.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.89% adjusted return on assets for Q3 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +3.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 20.4% adjusted return on tangible common equity for Q3 2024, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,110,500M divided by average common equity $112,100M = 18.83x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -212,8 +212,8 @@
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 4,
-          "searchText": "0.85",
-          "anchorText": "return on assets"
+          "searchText": "0.89",
+          "anchorText": "adjusted roa"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -289,7 +289,7 @@
         "irrbbNiiSensitivityPct": -0.51,
         "tlacLeverageRatio": 8.4,
         "dividendPayoutRatio": 49.0,
-        "roa": 0.79,
+        "roa": 0.83,
         "adjustedOperatingLeverage": 4.3,
         "rotce": 18.7,
         "equityMultiplier": 18.59,
@@ -312,7 +312,7 @@
         "newMetricsSource": "2024 Annual Report (MD&A Tables 51/57/60), cross-checked vs. Q1 2025 Report to Shareholders comparative column — https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
-        "roa": "Disclosed by the issuer: 0.79% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q4 2024. Not computed.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.83% adjusted return on assets for Q4 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +4.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 18.7% adjusted return on tangible common equity for Q4 2024, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,132,800M divided by average common equity $114,750M = 18.59x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -464,8 +464,8 @@
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 4,
-          "searchText": "0.79",
-          "anchorText": "return on assets"
+          "searchText": "0.83",
+          "anchorText": "adjusted roa"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -540,7 +540,7 @@
         "irrbbNiiSensitivityPct": -0.57,
         "tlacLeverageRatio": 8.9,
         "dividendPayoutRatio": 42.0,
-        "roa": 0.85,
+        "roa": 0.87,
         "adjustedOperatingLeverage": 7.7,
         "rotce": 21.2,
         "equityMultiplier": 20.12,
@@ -562,7 +562,7 @@
         "newMetricsSource": "Q1 2025 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
-        "roa": "Disclosed by the issuer: 0.85% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q1 2025. Not computed.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.87% adjusted return on assets for Q1 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +7.7% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 21.2% adjusted return on tangible common equity for Q1 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,385,200M divided by average common equity $118,550M = 20.12x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -712,8 +712,8 @@
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 4,
-          "searchText": "0.85",
-          "anchorText": "return on assets"
+          "searchText": "0.87",
+          "anchorText": "adjusted roa"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -787,7 +787,7 @@
         "irrbbNiiSensitivityPct": -0.5,
         "tlacLeverageRatio": 9.2,
         "dividendPayoutRatio": 49.0,
-        "roa": 0.76,
+        "roa": 0.79,
         "adjustedOperatingLeverage": 3.1,
         "rotce": 17.9,
         "equityMultiplier": 19.14,
@@ -810,7 +810,7 @@
         "newMetricsSource": "Q2 2025 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
-        "roa": "Disclosed by the issuer: 0.76% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q2 2025. Not computed.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.79% adjusted return on assets for Q2 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +3.1% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 17.9% adjusted return on tangible common equity for Q2 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,360,000M divided by average common equity $123,300M = 19.14x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -960,8 +960,8 @@
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 4,
-          "searchText": "0.76",
-          "anchorText": "return on assets"
+          "searchText": "0.79",
+          "anchorText": "adjusted roa"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -1036,7 +1036,7 @@
         "irrbbNiiSensitivityPct": -0.36,
         "tlacLeverageRatio": 9.3,
         "dividendPayoutRatio": 41.0,
-        "roa": 0.89,
+        "roa": 0.91,
         "adjustedOperatingLeverage": 6.5,
         "rotce": 21.6,
         "equityMultiplier": 19.78,
@@ -1058,7 +1058,7 @@
         "newMetricsSource": "Q3 2025 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
-        "roa": "Disclosed by the issuer: 0.89% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q3 2025. Not computed.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.91% adjusted return on assets for Q3 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +6.5% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 21.6% adjusted return on tangible common equity for Q3 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,402,500M divided by average common equity $121,450M = 19.78x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -1207,8 +1207,8 @@
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 4,
-          "searchText": "0.89",
-          "anchorText": "return on assets"
+          "searchText": "0.91",
+          "anchorText": "adjusted roa"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -1282,7 +1282,7 @@
         "irrbbNiiSensitivityPct": -0.34,
         "tlacLeverageRatio": 9.2,
         "dividendPayoutRatio": 41.0,
-        "roa": 0.88,
+        "roa": 0.9,
         "adjustedOperatingLeverage": 8.5,
         "rotce": 20.9,
         "equityMultiplier": 19.57,
@@ -1305,7 +1305,7 @@
         "newMetricsSource": "2025 Annual Report (MD&A Tables 49/55/58), cross-checked vs. Q1 2026 Report to Shareholders comparative column — https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
-        "roa": "Disclosed by the issuer: 0.88% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q4 2025. Not computed.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.90% adjusted return on assets for Q4 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +8.5% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 20.9% adjusted return on tangible common equity for Q4 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,444,700M divided by average common equity $124,900M = 19.57x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -1449,8 +1449,8 @@
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 4,
-          "searchText": "0.88",
-          "anchorText": "return on assets"
+          "searchText": "0.90",
+          "anchorText": "adjusted roa"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -1526,7 +1526,7 @@
         "irrbbNiiSensitivityPct": -0.36,
         "tlacLeverageRatio": 9.0,
         "dividendPayoutRatio": 41.0,
-        "roa": 0.89,
+        "roa": 0.9,
         "adjustedOperatingLeverage": 4.3,
         "rotce": 21.5,
         "equityMultiplier": 20.18,
@@ -1549,7 +1549,7 @@
         "newMetricsSource": "Q1 2026 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
-        "roa": "Disclosed by the issuer: 0.89% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q1 2026. Not computed.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.90% adjusted return on assets for Q1 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +4.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 21.5% adjusted return on tangible common equity for Q1 2026, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,569,500M divided by average common equity $127,350M = 20.18x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -1699,8 +1699,8 @@
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 4,
-          "searchText": "0.89",
-          "anchorText": "return on assets"
+          "searchText": "0.90",
+          "anchorText": "adjusted roa"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -1775,7 +1775,7 @@
         "irrbbNiiSensitivityPct": -0.34,
         "tlacLeverageRatio": 9.0,
         "dividendPayoutRatio": 42.0,
-        "roa": 0.88,
+        "roa": 0.89,
         "adjustedOperatingLeverage": 2.2,
         "rotce": 20.9,
         "equityMultiplier": 20.02,
@@ -1797,7 +1797,7 @@
         "newMetricsSource": "Q2 2026 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
-        "roa": "Disclosed by the issuer: 0.88% return on average assets, read from the Q2 2026 supplementary financial information (page 4), in the column headed Q2 2026. Not computed.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.89% adjusted return on assets for Q2 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +2.2% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 20.9% adjusted return on tangible common equity for Q2 2026, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,570,300M divided by average common equity $128,400M = 20.02x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -1946,8 +1946,8 @@
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
           "page": 4,
-          "searchText": "0.88",
-          "anchorText": "return on assets"
+          "searchText": "0.89",
+          "anchorText": "adjusted roa"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
