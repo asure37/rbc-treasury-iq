@@ -96,19 +96,19 @@
     },
     {
       "key": "roe",
-      "label": "Return on Equity (ROE)",
-      "shortLabel": "ROE",
+      "label": "Adjusted Return on Equity (ROE)",
+      "shortLabel": "Adj. ROE",
       "unit": "%",
-      "description": "Net income attributable to common shareholders as a percentage of average common shareholders' equity.",
+      "description": "Adjusted net income attributable to common shareholders as a percentage of average common shareholders' equity. Adjusted basis for all six banks -- each bank's own reported and adjusted rows are directly beside each other in its disclosures.",
       "higherIsBetter": true,
       "decimals": 1
     },
     {
       "key": "roa",
-      "label": "Return on Assets (ROA)",
-      "shortLabel": "ROA",
+      "label": "Adjusted Return on Assets (ROA)",
+      "shortLabel": "Adj. ROA",
       "unit": "%",
-      "description": "Quarterly net income annualised (x4) as a percentage of period-end total assets. Computed on one consistent basis for all six banks, because only BMO, CIBC and National Bank disclose an ROA and they do so on an average-assets basis.",
+      "description": "Adjusted net income as a percentage of average total assets. Disclosed by RBC, BMO, Scotiabank and National Bank on an adjusted basis; computed for TD (which discloses no ROA at all) from TD's own adjusted net income over its disclosed average assets. CIBC is the one exception: it publishes no adjusted ROA, so its figure stays on the reported basis -- watch for this one cell reading differently from the rest of the row.",
       "higherIsBetter": true,
       "decimals": 2
     },
@@ -132,10 +132,10 @@
     },
     {
       "key": "dividendPayoutRatio",
-      "label": "Dividend Payout Ratio",
-      "shortLabel": "Dividend Payout Ratio",
+      "label": "Adjusted Dividend Payout Ratio",
+      "shortLabel": "Adj. Payout Ratio",
       "unit": "%",
-      "description": "Common share dividends as a percentage of net income available to common shareholders. Context-dependent rather than better-when-higher: a higher payout returns more to shareholders but retains less capital. Bases differ by issuer — National Bank discloses a trailing four-quarter ratio, and Scotiabank publishes none quarterly, so its figures are computed from its own disclosed dividends and net income (the same formula reproduces Scotiabank's published annual payout exactly).",
+      "description": "Adjusted common share dividends as a percentage of adjusted net income available to common shareholders. Context-dependent rather than better-when-higher: a higher payout returns more to shareholders but retains less capital. Disclosed on an adjusted basis by TD, BMO and CIBC; computed for Scotiabank (which discloses no payout ratio quarterly) from its own adjusted net income and disclosed dividends. RBC discloses no adjusted payout ratio, and National Bank's is on a trailing four-quarter basis -- both of those two stay on the reported/as-disclosed basis, so those two cells read differently from the rest of the row.",
       "higherIsBetter": null,
       "decimals": 1
     },
