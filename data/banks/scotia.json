@@ -1945,18 +1945,18 @@
         "roa": 0.7,
         "equityMultiplier": 20.26,
         "dividendPayoutRatio": 50.1,
-        "loansToAssetsPct": null,
-        "loanToDepositRatio": null,
-        "wholesaleFundingPct": null,
-        "retailDepositsPct": null,
-        "wholesaleDepositsPct": null,
-        "stableDepositsPct": null,
-        "lessStableDepositsPct": null,
-        "operationalDepositsPct": null,
-        "nonOperationalDepositsPct": null,
-        "irrbbEveSensitivityPct": null,
-        "irrbbNiiSensitivityPct": null,
-        "totalAssetsBillions": null,
+        "loansToAssetsPct": 49.78,
+        "loanToDepositRatio": 77.32,
+        "wholesaleFundingPct": 34.11,
+        "retailDepositsPct": 29.63,
+        "wholesaleDepositsPct": 70.37,
+        "stableDepositsPct": 43.66,
+        "lessStableDepositsPct": 56.34,
+        "operationalDepositsPct": 44.19,
+        "nonOperationalDepositsPct": 55.81,
+        "irrbbEveSensitivityPct": -2.46,
+        "irrbbNiiSensitivityPct": 0.3,
+        "totalAssetsBillions": 1548.3,
         "adjustedOperatingLeverage": null
       },
       "notes": {
@@ -1968,17 +1968,17 @@
         "roa": "COMPUTED: Scotiabank does not disclose an ROA. Net income after tax $2,778M, annualised over 92 days in the quarter (x365/92), divided by its own disclosed average total assets $1,584,546M = 0.7%. Average assets are cited; the ratio is derived.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,584,546M divided by average common equity $78,217M = 20.26x. Both operands are published in the issuer's own financial supplement.",
         "dividendPayoutRatio": "COMPUTED, not disclosed quarterly -- Scotiabank publishes a payout ratio only for the full fiscal year. Common dividends paid $1,391M divided by net income attributable to common shareholders $2,778M = 50.1%. Both operands from the Q3 2026 supplementary financial information.",
-        "loansToAssetsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
-        "loanToDepositRatio": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
-        "wholesaleFundingPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
-        "retailDepositsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
-        "wholesaleDepositsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
-        "stableDepositsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
-        "lessStableDepositsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
-        "operationalDepositsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
-        "nonOperationalDepositsPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
-        "irrbbEveSensitivityPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
-        "irrbbNiiSensitivityPct": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "loansToAssetsPct": "Net loans and acceptances $770.7B / total assets $1,548.3B, both from the Q3 2026 SFI Highlights 9-quarter trend. Consistent with the net-loans/total-assets method used for other Scotiabank quarters.",
+        "loanToDepositRatio": "Gross loans (loans to customers sub-total) $777,884M / total deposits $1,006,015M, spot balance as at 31 July 2026.",
+        "wholesaleFundingPct": "Computed: Table T34 \"Total wholesale funding sources\" $301,841M + period-end \"Securities sold under repurchase agreements and securities lent\" $226,261M (Consolidated Statement of Financial Position) = $528,102M / total assets $1,548,267M = 34.11%. Both components disclosed quarterly in the Scotiabank Q3 2026 Report to Shareholders; matches Scotiabank's existing method. Excluding repo (T34's own scope): 19.5%.",
+        "retailDepositsPct": "Personal deposits $298,070M / total deposits $1,006,015M.",
+        "wholesaleDepositsPct": "Business & government ($668,662M) + Financial institutions ($39,283M) / total deposits $1,006,015M.",
+        "stableDepositsPct": "Stable deposits $118,470M as a share of total retail and small-business deposits $271,374M ($118,470M stable + $152,904M less stable). Denominator is the retail and small-business book, so this bucket and less-stable deposits sum to 100% by construction. LCR common disclosure template, p48.",
+        "lessStableDepositsPct": "Less stable deposits $152,904M as a share of total retail and small-business deposits $271,374M. LCR common disclosure template, p48.",
+        "operationalDepositsPct": "Operational deposits $127,772M as a share of total wholesale deposits $289,130M ($127,772M operational + $161,358M non-operational). Denominator is the wholesale book, so this bucket and non-operational deposits sum to 100% by construction. LCR common disclosure template, p48.",
+        "nonOperationalDepositsPct": "Non-operational deposits $161,358M as a share of total wholesale deposits $289,130M. LCR common disclosure template, p48.",
+        "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q3 2026 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = $-1836M (most adverse of the two disclosed scenarios; -100bp gives +$1,575M) / Net Tier 1 capital $74,494M = -2.46%. Re-based to % of Tier 1 capital for consistency with the other banks.",
+        "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock (same scenario as the EVE figure, not independently chosen): 12-month NII impact = +$222M / Net Tier 1 capital $74,494M = 0.3%.",
         "totalAssetsBillions": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
         "adjustedOperatingLeverage": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass."
       },
@@ -1986,7 +1986,18 @@
         "lcrBufferBillions": true,
         "roa": true,
         "equityMultiplier": true,
-        "dividendPayoutRatio": true
+        "dividendPayoutRatio": true,
+        "loansToAssetsPct": true,
+        "loanToDepositRatio": true,
+        "wholesaleFundingPct": true,
+        "stableDepositsPct": true,
+        "lessStableDepositsPct": true,
+        "operationalDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "irrbbEveSensitivityPct": true,
+        "irrbbNiiSensitivityPct": true,
+        "retailDepositsPct": true,
+        "wholesaleDepositsPct": true
       },
       "sourceRefs": {
         "cet1Ratio": {
@@ -2078,6 +2089,60 @@
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
           "page": 6,
           "anchorText": "common dividends paid"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "1,548.3",
+          "anchorText": "total assets"
+        },
+        "loansToAssetsPct": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "anchorText": "net loans and acceptances"
+        },
+        "loanToDepositRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 18,
+          "anchorText": "loans to customers"
+        },
+        "wholesaleFundingPct": {
+          "page": 51,
+          "anchorText": "total wholesale funding sources"
+        },
+        "stableDepositsPct": {
+          "page": 48,
+          "anchorText": "stable deposits"
+        },
+        "lessStableDepositsPct": {
+          "page": 48,
+          "anchorText": "less stable deposits"
+        },
+        "operationalDepositsPct": {
+          "page": 48,
+          "anchorText": "operational deposits"
+        },
+        "nonOperationalDepositsPct": {
+          "page": 48,
+          "anchorText": "non-operational deposits"
+        },
+        "irrbbEveSensitivityPct": {
+          "page": 44,
+          "anchorText": "structural interest sensitivity"
+        },
+        "irrbbNiiSensitivityPct": {
+          "page": 44,
+          "anchorText": "structural interest sensitivity"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 18,
+          "anchorText": "personal"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 18,
+          "anchorText": "business and government"
         }
       }
     }
