@@ -59,16 +59,14 @@ export function OverviewTab() {
 
   // The dropdown lists every period ANY bank has reported (getAllPeriods in
   // src/lib/data.ts is a union across banks), so a quarter another bank has already
-  // published is selectable here even before the home institution has -- that's what
-  // lets a reader pick it and see the "hasn't reported yet" state below. But the
-  // DEFAULT view must reflect the home institution's own latest quarter, not
-  // whichever bank happened to report last: defaulting to the global latest would
-  // land RBC on a blank "not yet reported" screen the moment a peer gets ahead of it.
-  const homeLatestPeriod = home?.quarters[home.quarters.length - 1]?.period;
+  // published is selectable here even before the home institution has. The page
+  // defaults to that global latest too: if RBC hasn't reported it yet, the
+  // "hasn't reported" state below is exactly what should greet a reader by
+  // default -- it's the truthful answer to "what's the most current quarter."
   const globalLatestPeriod = periods[periods.length - 1]?.period;
   const [selectedPeriod, setSelectedPeriod] = useState<string | null>(null);
-  const period = selectedPeriod ?? homeLatestPeriod ?? globalLatestPeriod;
-  const isLatest = period === homeLatestPeriod;
+  const period = selectedPeriod ?? globalLatestPeriod;
+  const isLatest = period === globalLatestPeriod;
   const periodsNewestFirst = [...periods].reverse();
   const periodEnd = periods.find((p) => p.period === period)?.periodEnd;
 
