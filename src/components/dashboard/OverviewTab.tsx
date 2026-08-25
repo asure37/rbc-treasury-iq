@@ -91,7 +91,8 @@ export function OverviewTab() {
       const qoq = value != null && prevValue != null ? value - prevValue : null;
       const avg = peerAverage(banks, key, period, home.bankId);
       const derived = homeQuarter.derived?.[key] === true;
-      return { meta, value, qoq, avg, history, derived };
+      const offBasis = homeQuarter.offBasis?.[key] === true;
+      return { meta, value, qoq, avg, history, derived, offBasis };
     }).filter((c) => c.meta);
   }, [home, homeQuarter, homeQuarterIndex, periodEnd, period, banks, metricsMeta]);
 
@@ -209,6 +210,7 @@ export function OverviewTab() {
                       history={c.history}
                       delay={si * 0.06 + i * 0.03}
                       derived={c.derived}
+                      offBasis={c.offBasis}
                       active={focusMetric === c.meta.key}
                       onClick={() => {
                         setFocusMetric(c.meta.key);

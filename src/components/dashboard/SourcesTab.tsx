@@ -111,7 +111,9 @@ export function SourcesTab() {
             </p>
             <p className="mt-0.5 text-[11px] text-text-muted">
               <span className="text-rbc-cyan">*</span> marks a figure the issuer does not publish, computed from figures it does — the
-              note beneath each one gives the formula and the operands.
+              note beneath each one gives the formula and the operands.{" "}
+              <span className="text-warn">&dagger;</span> marks a metric labelled &ldquo;Adj.&rdquo; where this issuer discloses no
+              adjusted figure, so the value is its reported one instead.
             </p>
           </div>
         </div>
@@ -229,6 +231,14 @@ export function SourcesTab() {
                                   title="Computed, not disclosed by this bank — see the note below for the formula and operands."
                                 >
                                   *
+                                </span>
+                              )}
+                              {q.offBasis?.[m.key] && (
+                                <span
+                                  className="ml-0.5 cursor-help text-warn"
+                                  title="Reported, not adjusted — this bank discloses no adjusted figure for this metric, unlike the rest of the row. See the note below."
+                                >
+                                  &dagger;
                                 </span>
                               )}
                             </p>

@@ -256,6 +256,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "roa": true
       }
     },
     {
@@ -481,6 +484,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "roa": true
       }
     },
     {
@@ -732,6 +738,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "roa": true
       }
     },
     {
@@ -982,6 +991,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "roa": true
       }
     },
     {
@@ -1206,6 +1218,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "roa": true
       }
     },
     {
@@ -1456,6 +1471,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "roa": true
       }
     },
     {
@@ -1707,6 +1725,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "roa": true
       }
     },
     {
@@ -1956,6 +1977,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "roa": true
       }
     }
   ],

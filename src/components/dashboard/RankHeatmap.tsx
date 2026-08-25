@@ -34,6 +34,8 @@ interface Cell {
   total: number;
   /** Issuer does not publish this metric; the value was computed from ones it does. */
   derived: boolean;
+  /** Issuer discloses no adjusted figure for this metric; the value shown is reported/as-disclosed. */
+  offBasis: boolean;
 }
 
 export function RankHeatmap() {
@@ -67,9 +69,16 @@ export function RankHeatmap() {
       const meta = metaByKey.get(key)!;
       const vals = banks.map((b) => {
         const q = b.quarters.find((qq) => qq.period === period);
-        return { id: b.bankId, v: q?.metrics[key] ?? null, derived: q?.derived?.[key] === true };
+        return {
+          id: b.bankId,
+          v: q?.metrics[key] ?? null,
+          derived: q?.derived?.[key] === true,
+          offBasis: q?.offBasis?.[key] === true,
+        };
       });
-      const present = vals.filter((x): x is { id: string; v: number; derived: boolean } => x.v != null);
+      const present = vals.filter(
+        (x): x is { id: string; v: number; derived: boolean; offBasis: boolean } => x.v != null
+      );
       // higherIsBetter === false → lowest value ranks first (e.g. efficiency ratio).
       // higherIsBetter === null → no agreed direction (e.g. dividend payout ratio, where a
       // higher payout returns more to shareholders but retains less capital). Such a metric
@@ -88,6 +97,7 @@ export function RankHeatmap() {
           rank: idx >= 0 ? idx + 1 : null,
           total: sorted.length,
           derived: own.derived,
+          offBasis: own.offBasis,
         };
       }
     }
@@ -318,12 +328,13 @@ export function RankHeatmap() {
                       return (
                         <td
                           key={c.key}
-                          title={`${m.label}: ${fmtVal(c.value, m)} — shown unranked (no agreed better direction)`}
+                          title={`${m.label}: ${fmtVal(c.value, m)} — shown unranked (no agreed better direction)${c.offBasis ? " — reported, not adjusted, unlike the rest of this row" : ""}`}
                           className="rounded-lg border border-border-soft bg-surface/40 px-1.5 py-1.5 text-center"
                         >
                           <div className="font-display text-[13px] font-semibold tabular-nums text-text-primary">
                             {fmtVal(c.value, m)}
                             {c.derived && <span className="text-rbc-cyan">*</span>}
+                            {c.offBasis && <span className="text-warn">&dagger;</span>}
                           </div>
                           <div className="text-[10px] font-medium text-text-muted">unranked</div>
                         </td>
@@ -335,7 +346,7 @@ export function RankHeatmap() {
                     return (
                       <td
                         key={c.key}
-                        title={`${m.label}: ${fmtVal(c.value, m)} — rank ${c.rank} of ${c.total}${c.derived ? " — computed, not disclosed by this bank" : ""}`}
+                        title={`${m.label}: ${fmtVal(c.value, m)} — rank ${c.rank} of ${c.total}${c.derived ? " — computed, not disclosed by this bank" : ""}${c.offBasis ? " — reported, not adjusted, unlike the rest of this row" : ""}`}
                         className="rounded-lg border px-1.5 py-1.5 text-center transition-transform duration-150 hover:z-10 hover:scale-[1.06]"
                         style={{
                           background: `rgba(${r},${g},${b},0.17)`,
@@ -346,6 +357,7 @@ export function RankHeatmap() {
                         <div className="font-display text-[13px] font-semibold tabular-nums text-text-primary">
                           {fmtVal(c.value, m)}
                           {c.derived && <span className="text-rbc-cyan">*</span>}
+                          {c.offBasis && <span className="text-warn">&dagger;</span>}
                         </div>
                         <div className="text-[10px] font-medium tabular-nums" style={{ color: `rgb(${r},${g},${b})` }}>
                           #{c.rank}
@@ -366,7 +378,9 @@ export function RankHeatmap() {
         better; metrics with no agreed direction are shown unranked. RBC is pinned to the top row as the subject of the
         comparison — that position is not a standing; peers below it follow in average-rank order.{" "}
         <span className="text-rbc-cyan">*</span> marks a figure the bank does not publish, computed from figures it does —
-        the Data Lineage tab carries the formula and the operands.
+        the Data Lineage tab carries the formula and the operands.{" "}
+        <span className="text-warn">&dagger;</span> marks a metric labelled &ldquo;Adj.&rdquo; where this bank
+        discloses no adjusted figure, so the value shown is its reported one, unlike the rest of the row.
         Click any metric to open its full peer comparison.
       </p>
     </GlassCard>

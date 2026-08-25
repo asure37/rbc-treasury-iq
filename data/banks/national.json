@@ -253,6 +253,9 @@
         "stableDepositsPct": true,
         "wholesaleFundingPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "dividendPayoutRatio": true
       }
     },
     {
@@ -504,6 +507,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "dividendPayoutRatio": true
       }
     },
     {
@@ -753,6 +759,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "dividendPayoutRatio": true
       }
     },
     {
@@ -1002,6 +1011,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "dividendPayoutRatio": true
       }
     },
     {
@@ -1251,6 +1263,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "dividendPayoutRatio": true
       }
     },
     {
@@ -1498,6 +1513,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "dividendPayoutRatio": true
       }
     },
     {
@@ -1748,6 +1766,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "dividendPayoutRatio": true
       }
     },
     {
@@ -1997,6 +2018,9 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      },
+      "offBasis": {
+        "dividendPayoutRatio": true
       }
     }
   ],

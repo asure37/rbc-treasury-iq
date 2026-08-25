@@ -74,6 +74,13 @@ export interface QuarterMetrics {
   // publish. Structural, not inferred from note text: the UI marks these with an
   // asterisk so a reader never mistakes a derived ratio for a disclosed one.
   derived?: Partial<Record<MetricKey, true>>;
+  // Metrics labelled "adjusted" throughout the dataset (Adj. ROE, Adj. ROA, Adj.
+  // Payout Ratio, ...) for which THIS issuer discloses no adjusted figure, so the
+  // value here is its reported/as-disclosed one instead -- e.g. CIBC's ROA, or
+  // RBC's and National's dividend payout ratio. Distinct from `derived`: these are
+  // disclosed, not computed; the mismatch is basis, not provenance. The UI marks
+  // these with a dagger so a reader never assumes every "Adj." column is uniform.
+  offBasis?: Partial<Record<MetricKey, true>>;
   sourceRefs?: Partial<Record<MetricKey, SourceRef>>; // precise page/location within the source, where known
 }
 

@@ -18,9 +18,11 @@ interface KpiCardProps {
   active?: boolean;
   /** This issuer does not publish the metric; the value was computed from figures it does. */
   derived?: boolean;
+  /** This "Adj." metric has no adjusted figure for this issuer; the value shown is reported/as-disclosed. */
+  offBasis?: boolean;
 }
 
-export function KpiCard({ meta, value, qoqDelta, peerAvg, history, delay, onClick, active, derived }: KpiCardProps) {
+export function KpiCard({ meta, value, qoqDelta, peerAvg, history, delay, onClick, active, derived, offBasis }: KpiCardProps) {
   const vsRegMin = meta.regulatoryMinimum != null && value != null ? value - meta.regulatoryMinimum : null;
   const belowMin = vsRegMin != null && vsRegMin < 0;
   const vsPeer = peerAvg != null && value != null ? value - peerAvg : null;
@@ -45,6 +47,14 @@ export function KpiCard({ meta, value, qoqDelta, peerAvg, history, delay, onClic
                 title={`Computed, not disclosed. ${meta.label} is not published by this bank; the value is derived from figures it does disclose. See the Data Lineage tab for the formula and operands.`}
               >
                 *
+              </span>
+            )}
+            {offBasis && (
+              <span
+                className="ml-0.5 cursor-help text-warn"
+                title={`Reported, not adjusted. This bank publishes no adjusted figure for ${meta.label}, unlike the rest of this row -- the value shown is its reported/as-disclosed one.`}
+              >
+                †
               </span>
             )}
           </p>
