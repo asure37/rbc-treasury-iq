@@ -44,7 +44,8 @@
         "rotce": 20.4,
         "equityMultiplier": 18.83,
         "adjustedDilutedEps": 3.26,
-        "lcrBufferBillions": 80.9
+        "lcrBufferBillions": 80.9,
+        "adjustedEfficiencyRatio": 56.6
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($971,797M) divided by total assets ($2,076,107M) as disclosed in the same report; not a directly stated ratio.",
@@ -68,7 +69,8 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,110,500M divided by average common equity $112,100M = 18.83x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.26 adjusted diluted earnings per share for Q3 2024. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $389,190.0M less net cash outflows $308,325.0M = $80.9B. Both operands are disclosed in the issuer's LCR common disclosure template (page 37), and the pair reproduces the LCR percentage printed on that same page.",
-        "roe": "Disclosed by the issuer, ADJUSTED basis: 16.4% adjusted ROE for Q3 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 16.4% adjusted ROE for Q3 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 56.6% adjusted efficiency ratio for Q3 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted efficiency ratio\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -242,6 +244,12 @@
         "lcrBufferBillions": {
           "page": 37,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "56.6",
+          "anchorText": "adjusted efficiency ratio"
         }
       },
       "derived": {
@@ -298,7 +306,8 @@
         "rotce": 18.7,
         "equityMultiplier": 18.59,
         "adjustedDilutedEps": 3.07,
-        "lcrBufferBillions": 86.4
+        "lcrBufferBillions": 86.4,
+        "adjustedEfficiencyRatio": 57.9
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($981,380M) divided by total assets ($2,171,582M).",
@@ -322,7 +331,8 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,132,800M divided by average common equity $114,750M = 18.59x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.07 adjusted diluted earnings per share for Q4 2024. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $399,835.0M less net cash outflows $313,441.0M = $86.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 98), and the pair reproduces the LCR percentage printed on that same page.",
-        "roe": "Disclosed by the issuer, ADJUSTED basis: 15.1% adjusted ROE for Q4 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 15.1% adjusted ROE for Q4 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.9% adjusted efficiency ratio for Q4 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted efficiency ratio\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -499,6 +509,12 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
           "page": 98,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "57.9",
+          "anchorText": "adjusted efficiency ratio"
         }
       },
       "derived": {
@@ -553,7 +569,8 @@
         "rotce": 21.2,
         "equityMultiplier": 20.12,
         "adjustedDilutedEps": 3.62,
-        "lcrBufferBillions": 91.2
+        "lcrBufferBillions": 91.2,
+        "adjustedEfficiencyRatio": 54.3
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,006,050M) divided by total assets ($2,191,026M).",
@@ -576,7 +593,8 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,385,200M divided by average common equity $118,550M = 20.12x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.62 adjusted diluted earnings per share for Q1 2025. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $419,334.0M less net cash outflows $328,139.0M = $91.2B. Both operands are disclosed in the issuer's LCR common disclosure template (page 33), and the pair reproduces the LCR percentage printed on that same page.",
-        "roe": "Disclosed by the issuer, ADJUSTED basis: 17.2% adjusted ROE for Q1 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 17.2% adjusted ROE for Q1 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.3% adjusted efficiency ratio for Q1 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted efficiency ratio\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -750,6 +768,12 @@
         "lcrBufferBillions": {
           "page": 33,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "54.3",
+          "anchorText": "adjusted efficiency ratio"
         }
       },
       "derived": {
@@ -804,7 +828,8 @@
         "rotce": 17.9,
         "equityMultiplier": 19.14,
         "adjustedDilutedEps": 3.12,
-        "lcrBufferBillions": 106.5
+        "lcrBufferBillions": 106.5,
+        "adjustedEfficiencyRatio": 54.5
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,007,306M) divided by total assets ($2,242,133M).",
@@ -828,7 +853,8 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,360,000M divided by average common equity $123,300M = 19.14x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.12 adjusted diluted earnings per share for Q2 2025. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $446,512.0M less net cash outflows $340,008.0M = $106.5B. Both operands are disclosed in the issuer's LCR common disclosure template (page 37), and the pair reproduces the LCR percentage printed on that same page.",
-        "roe": "Disclosed by the issuer, ADJUSTED basis: 14.7% adjusted ROE for Q2 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 14.7% adjusted ROE for Q2 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.5% adjusted efficiency ratio for Q2 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted efficiency ratio\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1003,6 +1029,12 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
           "page": 37,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "54.5",
+          "anchorText": "adjusted efficiency ratio"
         }
       },
       "derived": {
@@ -1057,7 +1089,8 @@
         "rotce": 21.6,
         "equityMultiplier": 19.78,
         "adjustedDilutedEps": 3.84,
-        "lcrBufferBillions": 103.4
+        "lcrBufferBillions": 103.4,
+        "adjustedEfficiencyRatio": 53.5
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,025,460M) divided by total assets ($2,227,893M).",
@@ -1080,7 +1113,8 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,402,500M divided by average common equity $121,450M = 19.78x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.84 adjusted diluted earnings per share for Q3 2025. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $462,083.0M less net cash outflows $358,716.0M = $103.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 37), and the pair reproduces the LCR percentage printed on that same page.",
-        "roe": "Disclosed by the issuer, ADJUSTED basis: 17.7% adjusted ROE for Q3 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 17.7% adjusted ROE for Q3 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 53.5% adjusted efficiency ratio for Q3 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted efficiency ratio\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1253,6 +1287,12 @@
         "lcrBufferBillions": {
           "page": 37,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "53.5",
+          "anchorText": "adjusted efficiency ratio"
         }
       },
       "derived": {
@@ -1307,7 +1347,8 @@
         "rotce": 20.9,
         "equityMultiplier": 19.57,
         "adjustedDilutedEps": 3.85,
-        "lcrBufferBillions": 97.1
+        "lcrBufferBillions": 97.1,
+        "adjustedEfficiencyRatio": 53.6
       },
       "notes": {
         "efficiencyRatio": "Not stated as a single consolidated-bank line in this earnings release; computed as Non-interest expense ($9,374M) / Total revenue ($17,209M), consistent with RBC's own stated definition ('Efficiency ratio is calculated as Non-interest expense divided by Total revenue') confirmed in the Q3 2024 and Q1 2025 Reports to Shareholders, and validated against RBC-reported efficiency ratios in other quarters where both the computed and disclosed values were compared and matched.",
@@ -1331,7 +1372,8 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,444,700M divided by average common equity $124,900M = 19.57x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.85 adjusted diluted earnings per share for Q4 2025. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $458,576.0M less net cash outflows $361,519.0M = $97.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 98), and the pair reproduces the LCR percentage printed on that same page.",
-        "roe": "Disclosed by the issuer, ADJUSTED basis: 17.2% adjusted ROE for Q4 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 17.2% adjusted ROE for Q4 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 53.6% adjusted efficiency ratio for Q4 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted efficiency ratio\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1500,6 +1542,12 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
           "page": 98,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "53.6",
+          "anchorText": "adjusted efficiency ratio"
         }
       },
       "derived": {
@@ -1555,7 +1603,8 @@
         "rotce": 21.5,
         "equityMultiplier": 20.18,
         "adjustedDilutedEps": 4.08,
-        "lcrBufferBillions": 90.7
+        "lcrBufferBillions": 90.7,
+        "adjustedEfficiencyRatio": 52.1
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,054,881M) divided by total assets ($2,342,393M).",
@@ -1579,7 +1628,8 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,569,500M divided by average common equity $127,350M = 20.18x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $4.08 adjusted diluted earnings per share for Q1 2026. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $468,324.0M less net cash outflows $377,577.0M = $90.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 33), and the pair reproduces the LCR percentage printed on that same page.",
-        "roe": "Disclosed by the issuer, ADJUSTED basis: 17.8% adjusted ROE for Q1 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 17.8% adjusted ROE for Q1 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 52.1% adjusted efficiency ratio for Q1 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted efficiency ratio\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1755,6 +1805,12 @@
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
           "page": 33,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "52.1",
+          "anchorText": "adjusted efficiency ratio"
         }
       },
       "derived": {
@@ -1809,7 +1865,8 @@
         "rotce": 20.9,
         "equityMultiplier": 20.02,
         "adjustedDilutedEps": 3.9,
-        "lcrBufferBillions": 96.3
+        "lcrBufferBillions": 96.3,
+        "adjustedEfficiencyRatio": 53.5
       },
       "notes": {
         "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,077,949M) divided by total assets ($2,396,080M).",
@@ -1832,7 +1889,8 @@
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,570,300M divided by average common equity $128,400M = 20.02x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $3.90 adjusted diluted earnings per share for Q2 2026. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $469,804.0M less net cash outflows $373,537.0M = $96.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 35), and the pair reproduces the LCR percentage printed on that same page.",
-        "roe": "Disclosed by the issuer, ADJUSTED basis: 17.4% adjusted ROE for Q2 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS."
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 17.4% adjusted ROE for Q2 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (directly beside the reported ROE row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 53.5% adjusted efficiency ratio for Q2 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted efficiency ratio\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -2005,6 +2063,12 @@
         "lcrBufferBillions": {
           "page": 35,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
+          "page": 4,
+          "searchText": "53.5",
+          "anchorText": "adjusted efficiency ratio"
         }
       },
       "derived": {

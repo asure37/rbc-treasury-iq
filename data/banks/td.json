@@ -43,7 +43,8 @@
         "rotce": 18.8,
         "equityMultiplier": 19.55,
         "adjustedDilutedEps": 2.05,
-        "lcrBufferBillions": 75.3
+        "lcrBufferBillions": 75.3,
+        "adjustedEfficiencyRatio": 57.3
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.1% for Q3 2024, read from TD's own Q3 2024 report to shareholders (page 4), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -67,7 +68,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 18.8% adjusted return on tangible common equity for Q3 2024, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,968,000M divided by average common equity $100,677M = 19.55x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.05 adjusted diluted earnings per share for Q3 2024. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $337,631.0M less net cash outflows $262,308.0M = $75.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 121), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $337,631.0M less net cash outflows $262,308.0M = $75.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 121), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.3% for Q3 2024, read from TD's own Q3 2024 report to shareholders (page 4), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -214,6 +216,11 @@
           "page": 4,
           "searchText": "49.7",
           "anchorText": "common share information – adjusted"
+        },
+        "adjustedEfficiencyRatio": {
+          "page": 4,
+          "searchText": "57.3",
+          "anchorText": "efficiency ratio – adjusted"
         }
       },
       "derived": {
@@ -268,7 +275,8 @@
         "rotce": 15.4,
         "equityMultiplier": 19.94,
         "adjustedDilutedEps": 1.72,
-        "lcrBufferBillions": 99.6
+        "lcrBufferBillions": 99.6,
+        "adjustedEfficiencyRatio": 61.7
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 11.7% for Q4 2024, read from TD's own Q4 2024 report to shareholders (page 4), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -291,7 +299,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 15.4% adjusted return on tangible common equity for Q4 2024, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,035,000M divided by average common equity $102,051M = 19.94x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.72 adjusted diluted earnings per share for Q4 2024. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $361,452.0M less net cash outflows $261,900.0M = $99.6B. Both operands are disclosed in the issuer's LCR common disclosure template (page 121), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $361,452.0M less net cash outflows $261,900.0M = $99.6B. Both operands are disclosed in the issuer's LCR common disclosure template (page 121), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 61.7% for Q4 2024, read from TD's own Q4 2024 report to shareholders (page 4), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -450,6 +459,11 @@
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2024/q4/2024-annual-report-en.pdf",
           "page": 121,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "page": 4,
+          "searchText": "61.7",
+          "anchorText": "efficiency ratio – adjusted"
         }
       },
       "derived": {
@@ -500,7 +514,8 @@
         "rotce": 17.2,
         "equityMultiplier": 19.44,
         "adjustedDilutedEps": 2.02,
-        "lcrBufferBillions": 111.7
+        "lcrBufferBillions": 111.7,
+        "adjustedEfficiencyRatio": 59.0
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 13.2% for Q1 2025, read from TD's own Q1 2025 report to shareholders (page 5), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -522,7 +537,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 17.2% adjusted return on tangible common equity for Q1 2025, read from page 5 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,063,000M divided by average common equity $106,133M = 19.44x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.02 adjusted diluted earnings per share for Q1 2025. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $381,731.0M less net cash outflows $270,041.0M = $111.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 41), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $381,731.0M less net cash outflows $270,041.0M = $111.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 41), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 59.0% for Q1 2025, read from TD's own Q1 2025 report to shareholders (page 5), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -673,6 +689,11 @@
         "lcrBufferBillions": {
           "page": 41,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "page": 5,
+          "searchText": "59.0",
+          "anchorText": "efficiency ratio – adjusted"
         }
       },
       "derived": {
@@ -723,7 +744,8 @@
         "rotce": 15.0,
         "equityMultiplier": 18.82,
         "adjustedDilutedEps": 1.97,
-        "lcrBufferBillions": 112.1
+        "lcrBufferBillions": 112.1,
+        "adjustedEfficiencyRatio": 57.6
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 12.3% for Q2 2025, read from TD's own Q2 2025 report to shareholders (page 5), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -745,7 +767,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 15.0% adjusted return on tangible common equity for Q2 2025, read from page 5 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,156,000M divided by average common equity $114,585M = 18.82x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.97 adjusted diluted earnings per share for Q2 2025. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $382,814.0M less net cash outflows $270,720.0M = $112.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 43), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $382,814.0M less net cash outflows $270,720.0M = $112.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 43), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.6% for Q2 2025, read from TD's own Q2 2025 report to shareholders (page 5), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -896,6 +919,11 @@
         "lcrBufferBillions": {
           "page": 43,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "page": 5,
+          "searchText": "57.6",
+          "anchorText": "efficiency ratio – adjusted"
         }
       },
       "derived": {
@@ -947,7 +975,8 @@
         "rotce": 15.8,
         "equityMultiplier": 18.51,
         "adjustedDilutedEps": 2.2,
-        "lcrBufferBillions": 99.7
+        "lcrBufferBillions": 99.7,
+        "adjustedEfficiencyRatio": 57.8
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 13.2% for Q3 2025, read from TD's own Q3 2025 report to shareholders (page 4), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -969,7 +998,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 15.8% adjusted return on tangible common equity for Q3 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,112,000M divided by average common equity $114,115M = 18.51x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.20 adjusted diluted earnings per share for Q3 2025. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $361,014.0M less net cash outflows $261,288.0M = $99.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 119), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $361,014.0M less net cash outflows $261,288.0M = $99.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 119), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.8% for Q3 2025, read from TD's own Q3 2025 report to shareholders (page 4), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1122,6 +1152,11 @@
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
           "page": 119,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "page": 4,
+          "searchText": "57.8",
+          "anchorText": "efficiency ratio – adjusted"
         }
       },
       "derived": {
@@ -1173,7 +1208,8 @@
         "rotce": 15.4,
         "equityMultiplier": 18.29,
         "adjustedDilutedEps": 2.18,
-        "lcrBufferBillions": 80.5
+        "lcrBufferBillions": 80.5,
+        "adjustedEfficiencyRatio": 59.2
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 12.8% for Q4 2025, read from TD's own Q4 2025 report to shareholders (page 4), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -1196,7 +1232,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 15.4% adjusted return on tangible common equity for Q4 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,102,000M divided by average common equity $114,939M = 18.29x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.18 adjusted diluted earnings per share for Q4 2025. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $346,383.0M less net cash outflows $265,844.0M = $80.5B. Both operands are disclosed in the issuer's LCR common disclosure template (page 119), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $346,383.0M less net cash outflows $265,844.0M = $80.5B. Both operands are disclosed in the issuer's LCR common disclosure template (page 119), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 59.2% for Q4 2025, read from TD's own Q4 2025 report to shareholders (page 4), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1355,6 +1392,11 @@
           "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2025/q4/2025-annual-report-en.pdf",
           "page": 119,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "page": 4,
+          "searchText": "59.2",
+          "anchorText": "efficiency ratio – adjusted"
         }
       },
       "derived": {
@@ -1405,7 +1447,8 @@
         "rotce": 16.9,
         "equityMultiplier": 18.4,
         "adjustedDilutedEps": 2.44,
-        "lcrBufferBillions": 92.3
+        "lcrBufferBillions": 92.3,
+        "adjustedEfficiencyRatio": 57.1
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.2% for Q1 2026, read from TD's own Q1 2026 report to shareholders (page 5), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -1427,7 +1470,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 16.9% adjusted return on tangible common equity for Q1 2026, read from page 5 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,121,000M divided by average common equity $115,250M = 18.40x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.44 adjusted diluted earnings per share for Q1 2026. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $341,809.0M less net cash outflows $249,469.0M = $92.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $341,809.0M less net cash outflows $249,469.0M = $92.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.1% for Q1 2026, read from TD's own Q1 2026 report to shareholders (page 5), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1579,6 +1623,11 @@
         "lcrBufferBillions": {
           "page": 39,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "page": 5,
+          "searchText": "57.1",
+          "anchorText": "efficiency ratio – adjusted"
         }
       },
       "derived": {
@@ -1629,7 +1678,8 @@
         "rotce": 17.2,
         "equityMultiplier": 18.52,
         "adjustedDilutedEps": 2.38,
-        "lcrBufferBillions": 78.0
+        "lcrBufferBillions": 78.0,
+        "adjustedEfficiencyRatio": 57.0
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.4% for Q2 2026, read from TD's own Q2 2026 report to shareholders (page 5), row \"Return on common equity — adjusted\" (directly beside the reported row this dataset previously used). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -1651,7 +1701,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 17.2% adjusted return on tangible common equity for Q2 2026, read from page 5 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $2,098,000M divided by average common equity $113,288M = 18.52x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.38 adjusted diluted earnings per share for Q2 2026. TD states this in the earnings-release highlights rather than a table (\"adjusted diluted earnings per share were $X, compared with $Y\"). Each quarter's year-ago comparison reproduces the figure recorded four quarters earlier, at all four joins. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $336,237.0M less net cash outflows $258,225.0M = $78.0B. Both operands are disclosed in the issuer's LCR common disclosure template (page 41), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $336,237.0M less net cash outflows $258,225.0M = $78.0B. Both operands are disclosed in the issuer's LCR common disclosure template (page 41), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 57.0% for Q2 2026, read from TD's own Q2 2026 report to shareholders (page 5), row \"Efficiency ratio — adjusted, net of ISE\" (directly beside the reported row)."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1802,6 +1853,11 @@
         "lcrBufferBillions": {
           "page": 41,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "page": 5,
+          "searchText": "57.0",
+          "anchorText": "efficiency ratio – adjusted"
         }
       },
       "derived": {

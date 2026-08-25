@@ -158,6 +158,15 @@
       "decimals": 1
     },
     {
+      "key": "adjustedEfficiencyRatio",
+      "label": "Adjusted Efficiency Ratio",
+      "shortLabel": "Adj. Efficiency",
+      "unit": "%",
+      "description": "Adjusted non-interest expense as a percentage of adjusted revenue. Lower is better -- less cost per dollar of revenue. Disclosed by all six banks; Scotiabank calls the concept \"productivity ratio\" rather than efficiency ratio.",
+      "higherIsBetter": false,
+      "decimals": 1
+    },
+    {
       "key": "adjustedOperatingLeverage",
       "label": "Adjusted Operating Leverage",
       "shortLabel": "Adj. Op. Leverage",

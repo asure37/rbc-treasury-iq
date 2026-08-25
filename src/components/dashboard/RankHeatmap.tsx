@@ -11,7 +11,7 @@ import type { MetricKey, MetricMeta } from "@/types/metrics";
 const GROUPS: { label: string; accent: string; keys: MetricKey[] }[] = [
   { label: "Capital", accent: "#0066cc", keys: ["cet1Ratio", "dividendPayoutRatio", "leverageRatio", "tlacRatio"] },
   { label: "Liquidity", accent: "#00b6f1", keys: ["lcr", "nsfr"] },
-  { label: "Profitability", accent: "#ffc72c", keys: ["roe", "roa", "nim", "efficiencyRatio"] },
+  { label: "Profitability", accent: "#ffc72c", keys: ["roe", "roa", "nim", "adjustedEfficiencyRatio"] },
 ];
 const KEYS: MetricKey[] = GROUPS.flatMap((g) => g.keys);
 

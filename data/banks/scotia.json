@@ -44,7 +44,8 @@
         "rotce": 13.7,
         "equityMultiplier": 19.86,
         "adjustedDilutedEps": 1.63,
-        "lcrBufferBillions": 67.5
+        "lcrBufferBillions": 67.5,
+        "adjustedEfficiencyRatio": 56.0
       },
       "notes": {
         "nsfr": "Net Stable Funding Ratio (NSFR) %, from the Q2 2026 SFI Highlights 'Capital and Liquidity Measures' 9-quarter trend.",
@@ -71,7 +72,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 13.7% adjusted return on tangible common equity for Q3 2024, read from page 14 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,422,740M divided by average common equity $71,651M = 19.86x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.63 adjusted diluted earnings per share for Q3 2024. Scotiabank quarterly report p4, row \"adjusted diluted earnings per share ($)\". Q1 2025 and Q1 2026 are the prior-quarter column of the following report, since Scotiabank's Q1 releases omit the row. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $271,540.0M less net cash outflows $204,037.0M = $67.5B. Both operands are disclosed in the issuer's LCR common disclosure template (page 45), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $271,540.0M less net cash outflows $204,037.0M = $67.5B. Both operands are disclosed in the issuer's LCR common disclosure template (page 45), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 56.0% adjusted productivity ratio (Scotiabank's term for efficiency ratio) for Q3 2024, read from the Q3 2026 supplementary financial information (page 5), the row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", carries a footnote marker this row lacks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -232,6 +234,12 @@
         "lcrBufferBillions": {
           "page": 45,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "56.0",
+          "anchorText": "productivity ratio (%) 52.5"
         }
       },
       "derived": {
@@ -285,7 +293,8 @@
         "rotce": 12.8,
         "equityMultiplier": 19.39,
         "adjustedDilutedEps": 1.57,
-        "lcrBufferBillions": 61.4
+        "lcrBufferBillions": 61.4,
+        "adjustedEfficiencyRatio": 56.1
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 10.6% for Q4 2024, read from the Q3 2026 supplementary financial information (page 5), the \"ROE (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -310,7 +319,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 12.8% adjusted return on tangible common equity for Q4 2024, read from page 31 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,418,795M divided by average common equity $73,158M = 19.39x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.57 adjusted diluted earnings per share for Q4 2024. Scotiabank quarterly report p4, row \"adjusted diluted earnings per share ($)\". Q1 2025 and Q1 2026 are the prior-quarter column of the following report, since Scotiabank's Q1 releases omit the row. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $261,820.0M less net cash outflows $200,386.0M = $61.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 103), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $261,820.0M less net cash outflows $200,386.0M = $61.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 103), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 56.1% adjusted productivity ratio (Scotiabank's term for efficiency ratio) for Q4 2024, read from the Q3 2026 supplementary financial information (page 5), the row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", carries a footnote marker this row lacks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -480,6 +490,12 @@
         "lcrBufferBillions": {
           "page": 103,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "56.1",
+          "anchorText": "productivity ratio (%) 52.5"
         }
       },
       "derived": {
@@ -533,7 +549,8 @@
         "rotce": 14.3,
         "equityMultiplier": 19.72,
         "adjustedDilutedEps": 1.76,
-        "lcrBufferBillions": 57.7
+        "lcrBufferBillions": 57.7,
+        "adjustedEfficiencyRatio": 54.5
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 11.8% for Q1 2025, read from the Q3 2026 supplementary financial information (page 5), the \"ROE (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -562,7 +579,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 14.3% adjusted return on tangible common equity for Q1 2025, read from page 14 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,460,615M divided by average common equity $74,077M = 19.72x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.76 adjusted diluted earnings per share for Q1 2025. Scotiabank quarterly report p4, row \"adjusted diluted earnings per share ($)\". Q1 2025 and Q1 2026 are the prior-quarter column of the following report, since Scotiabank's Q1 releases omit the row. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $263,213.0M less net cash outflows $205,545.0M = $57.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 40), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $263,213.0M less net cash outflows $205,545.0M = $57.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 40), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.5% adjusted productivity ratio (Scotiabank's term for efficiency ratio) for Q1 2025, read from the Q3 2026 supplementary financial information (page 5), the row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", carries a footnote marker this row lacks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -724,6 +742,12 @@
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2025/q1/Q125_Shareholders_Report-EN.pdf",
           "page": 40,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "54.5",
+          "anchorText": "productivity ratio (%) 52.5"
         }
       },
       "derived": {
@@ -776,7 +800,8 @@
         "rotce": 12.7,
         "equityMultiplier": 19.68,
         "adjustedDilutedEps": 1.52,
-        "lcrBufferBillions": 66.1
+        "lcrBufferBillions": 66.1,
+        "adjustedEfficiencyRatio": 55.7
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 10.4% for Q2 2025, read from the Q3 2026 supplementary financial information (page 5), the \"ROE (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -802,7 +827,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 12.7% adjusted return on tangible common equity for Q2 2025, read from page 14 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,468,310M divided by average common equity $74,625M = 19.68x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.52 adjusted diluted earnings per share for Q2 2025. Scotiabank quarterly report p4, row \"adjusted diluted earnings per share ($)\". Q1 2025 and Q1 2026 are the prior-quarter column of the following report, since Scotiabank's Q1 releases omit the row. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $275,824.0M less net cash outflows $209,768.0M = $66.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 46), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $275,824.0M less net cash outflows $209,768.0M = $66.1B. Both operands are disclosed in the issuer's LCR common disclosure template (page 46), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 55.7% adjusted productivity ratio (Scotiabank's term for efficiency ratio) for Q2 2025, read from the Q3 2026 supplementary financial information (page 5), the row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", carries a footnote marker this row lacks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -967,6 +993,12 @@
         "lcrBufferBillions": {
           "page": 46,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "55.7",
+          "anchorText": "productivity ratio (%) 52.5"
         }
       },
       "derived": {
@@ -1019,7 +1051,8 @@
         "rotce": 15.1,
         "equityMultiplier": 19.29,
         "adjustedDilutedEps": 1.88,
-        "lcrBufferBillions": 53.8
+        "lcrBufferBillions": 53.8,
+        "adjustedEfficiencyRatio": 53.7
       },
       "notes": {
         "lcr": "Liquidity Coverage Ratio (LCR) %, from the Q2 2026 SFI Highlights 'Capital and Liquidity Measures' 9-quarter trend (quarterly average).",
@@ -1046,7 +1079,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 15.1% adjusted return on tangible common equity for Q3 2025, read from page 15 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,445,858M divided by average common equity $74,972M = 19.29x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.88 adjusted diluted earnings per share for Q3 2025. Scotiabank quarterly report p4, row \"adjusted diluted earnings per share ($)\". Q1 2025 and Q1 2026 are the prior-quarter column of the following report, since Scotiabank's Q1 releases omit the row. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $262,449.0M less net cash outflows $208,670.0M = $53.8B. Both operands are disclosed in the issuer's LCR common disclosure template (page 47), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $262,449.0M less net cash outflows $208,670.0M = $53.8B. Both operands are disclosed in the issuer's LCR common disclosure template (page 47), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 53.7% adjusted productivity ratio (Scotiabank's term for efficiency ratio) for Q3 2025, read from the Q3 2026 supplementary financial information (page 5), the row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", carries a footnote marker this row lacks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1215,6 +1249,12 @@
         "lcrBufferBillions": {
           "page": 47,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "53.7",
+          "anchorText": "productivity ratio (%) 52.5"
         }
       },
       "derived": {
@@ -1267,7 +1307,8 @@
         "rotce": 15.2,
         "equityMultiplier": 19.54,
         "adjustedDilutedEps": 1.93,
-        "lcrBufferBillions": 59.3
+        "lcrBufferBillions": 59.3,
+        "adjustedEfficiencyRatio": 54.3
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 12.5% for Q4 2025, read from the Q3 2026 supplementary financial information (page 5), the \"ROE (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -1292,7 +1333,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 15.2% adjusted return on tangible common equity for Q4 2025, read from page 32 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,486,529M divided by average common equity $76,093M = 19.54x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $1.93 adjusted diluted earnings per share for Q4 2025. Scotiabank quarterly report p4, row \"adjusted diluted earnings per share ($)\". Q1 2025 and Q1 2026 are the prior-quarter column of the following report, since Scotiabank's Q1 releases omit the row. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $269,168.0M less net cash outflows $209,907.0M = $59.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 108), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $269,168.0M less net cash outflows $209,907.0M = $59.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 108), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 54.3% adjusted productivity ratio (Scotiabank's term for efficiency ratio) for Q4 2025, read from the Q3 2026 supplementary financial information (page 5), the row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", carries a footnote marker this row lacks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1461,6 +1503,12 @@
         "lcrBufferBillions": {
           "page": 108,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "54.3",
+          "anchorText": "productivity ratio (%) 52.5"
         }
       },
       "derived": {
@@ -1509,7 +1557,8 @@
         "rotce": 15.8,
         "equityMultiplier": 19.38,
         "adjustedDilutedEps": 2.05,
-        "lcrBufferBillions": 50.4
+        "lcrBufferBillions": 50.4,
+        "adjustedEfficiencyRatio": 52.3
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 13.0% for Q1 2026, read from the Q3 2026 supplementary financial information (page 5), the \"ROE (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -1531,7 +1580,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 15.8% adjusted return on tangible common equity for Q1 2026, read from page 15 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,497,957M divided by average common equity $77,288M = 19.38x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.05 adjusted diluted earnings per share for Q1 2026. Scotiabank quarterly report p4, row \"adjusted diluted earnings per share ($)\". Q1 2025 and Q1 2026 are the prior-quarter column of the following report, since Scotiabank's Q1 releases omit the row. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $275,292.0M less net cash outflows $224,937.0M = $50.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 42), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $275,292.0M less net cash outflows $224,937.0M = $50.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 42), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 52.3% adjusted productivity ratio (Scotiabank's term for efficiency ratio) for Q1 2026, read from the Q3 2026 supplementary financial information (page 5), the row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", carries a footnote marker this row lacks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1659,6 +1709,12 @@
         "lcrBufferBillions": {
           "page": 42,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "52.3",
+          "anchorText": "productivity ratio (%) 52.5"
         }
       },
       "derived": {
@@ -1707,7 +1763,8 @@
         "rotce": 16.0,
         "equityMultiplier": 19.6,
         "adjustedDilutedEps": 2.02,
-        "lcrBufferBillions": 56.7
+        "lcrBufferBillions": 56.7,
+        "adjustedEfficiencyRatio": 52.5
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 13.2% for Q2 2026, read from the Q3 2026 supplementary financial information (page 5), the \"ROE (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -1736,7 +1793,8 @@
         "rotce": "Disclosed, ADJUSTED basis: 16.0% adjusted return on tangible common equity for Q2 2026, read from page 15 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,517,380M divided by average common equity $77,436M = 19.60x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.02 adjusted diluted earnings per share for Q2 2026. Scotiabank quarterly report p4, row \"adjusted diluted earnings per share ($)\". Q1 2025 and Q1 2026 are the prior-quarter column of the following report, since Scotiabank's Q1 releases omit the row. Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
-        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $290,089.0M less net cash outflows $233,382.0M = $56.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 48), and the pair reproduces the LCR percentage printed on that same page."
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $290,089.0M less net cash outflows $233,382.0M = $56.7B. Both operands are disclosed in the issuer's LCR common disclosure template (page 48), and the pair reproduces the LCR percentage printed on that same page.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 52.5% adjusted productivity ratio (Scotiabank's term for efficiency ratio) for Q2 2026, read from the Q3 2026 supplementary financial information (page 5), the row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", carries a footnote marker this row lacks."
       },
       "sourceRefs": {
         "loanToDepositRatio": {
@@ -1905,6 +1963,12 @@
         "lcrBufferBillions": {
           "page": 48,
           "anchorText": "total net cash outflows"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "52.5",
+          "anchorText": "0.61 productivity ratio (%)"
         }
       },
       "derived": {
@@ -1957,7 +2021,8 @@
         "irrbbEveSensitivityPct": -2.46,
         "irrbbNiiSensitivityPct": 0.3,
         "totalAssetsBillions": 1548.3,
-        "adjustedOperatingLeverage": null
+        "adjustedOperatingLeverage": null,
+        "adjustedEfficiencyRatio": 52.5
       },
       "notes": {
         "roe": "Disclosed by the issuer, ADJUSTED basis: 14.2% for Q3 2026, read from the Q3 2026 supplementary financial information (page 5), the \"ROE (%)\" row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", is what this dataset previously used. Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
@@ -1980,7 +2045,8 @@
         "irrbbEveSensitivityPct": "Scotiabank Table T23 \"Structural interest sensitivity\" (Q3 2026 Report to Shareholders, disclosed quarterly). +100bp parallel shock EVE impact = $-1836M (most adverse of the two disclosed scenarios; -100bp gives +$1,575M) / Net Tier 1 capital $74,494M = -2.46%. Re-based to % of Tier 1 capital for consistency with the other banks.",
         "irrbbNiiSensitivityPct": "Same Table T23, +100bp parallel shock (same scenario as the EVE figure, not independently chosen): 12-month NII impact = +$222M / Net Tier 1 capital $74,494M = 0.3%.",
         "totalAssetsBillions": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
-        "adjustedOperatingLeverage": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass."
+        "adjustedOperatingLeverage": "Not yet extracted for Q3 2026: this figure needs the balance-sheet and LCR-template detail, which is being added in a follow-up pass.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 52.5% adjusted productivity ratio (Scotiabank's term for efficiency ratio) for Q3 2026, read from the Q3 2026 supplementary financial information (page 5), the row under \"Adjusted ($ millions)\" -- the reported row above it, under \"Reported ($ millions)\", carries a footnote marker this row lacks."
       },
       "derived": {
         "lcrBufferBillions": true,
@@ -2143,6 +2209,12 @@
           "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
           "page": 18,
           "anchorText": "business and government"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Supplementary_Financial_Information-EN.pdf",
+          "page": 5,
+          "searchText": "52.5",
+          "anchorText": "0.61 productivity ratio (%)"
         }
       }
     }
