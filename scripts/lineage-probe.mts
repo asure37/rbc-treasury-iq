@@ -35,19 +35,19 @@ const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const CACHE = path.join(ROOT, ".cache", "pdfs");
 
 /**
- * Expected counts for the committed dataset, measured across all 1,034 refs.
+ * Expected counts for the committed dataset, measured across all 1,615 refs.
  * Update deliberately when the data genuinely changes -- never to make a red run pass.
  */
 const BASELINE = {
-  anchored_cited_page: 1237,
-  unanchored_cited_page: 97,
+  anchored_cited_page: 1265,
+  unanchored_cited_page: 99,
   neighbour: 0,
-  // 217 refs record no searchText at all (48 of them the LCR buffer, a computed
-  // surplus whose ref cites the page disclosing HQLA and outflows): 81 legacy derived figures, TD's and
-  // Scotiabank's 16 computed ROA refs, and the 48 equity-multiplier refs. Each of
-  // those cites the page where its OPERANDS are disclosed; the ratio itself is
-  // never printed, so there is nothing to highlight. 16 record a value not on the page.
-  misses: 248,
+  // 237 refs record no searchText at all -- each cites the page where its OPERANDS are
+  // disclosed, because the figure itself is never printed: the equity multiplier and the
+  // LCR buffer (51 each), the wholesale-funding share (23), ROTCE (17), loans/assets (14),
+  // and the remaining computed shares and sensitivities. 14 more record a value that is
+  // not on the page. Together: 251.
+  misses: 251,
 };
 
 interface Probe {

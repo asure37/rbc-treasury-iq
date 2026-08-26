@@ -43,3 +43,6 @@ next-env.d.ts
 
 # lineage probe PDF cache (scripts/lineage-probe.mts)
 .cache/
+
+# pre-mutation dataset backups (see HANDBOOK: back up before editing data/banks/*.json)
+data/.backups/

@@ -38,7 +38,7 @@
         "irrbbEveSensitivityPct": -1.67,
         "irrbbNiiSensitivityPct": -0.52,
         "tlacLeverageRatio": 8.3,
-        "dividendPayoutRatio": 41.6,
+        "dividendPayoutRatio": 41.2,
         "roa": 0.83,
         "adjustedOperatingLeverage": 9.2,
         "rotce": 20.2,
@@ -65,7 +65,7 @@
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease scenario, NII impact -$114M (before-tax, 12-month projection). +100bp scenario impact was +$80M. Computed as % of Tier 1 capital ($21,855M) for comparability; bank does not publish this as a ratio.",
         "newMetricsSource": "Q3 2024 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/report-shareholder-q3-2024.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 41.2% for Q3 2024, read from that quarter's own Supplementary Financial Information (page 4), row \"Dividend payout ratio (1) – Adjusted (trailing 4 quarters) (3)\". The reported row above it prints 41.6%. REMAINING CAVEAT: National Bank discloses this ratio on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is still not directly comparable to the single-quarter ratios the other five banks report. Cross-validated: every quarter's own supplement agrees with the corresponding historical column of the Q3 2026 supplement.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.83% adjusted return on average assets for Q3 2024, read from the Q2 2026 supplementary financial information (page 7), row \"Return on average assets (3) – adjusted (4)\" -- the reported row above it is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +9.2% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $960M, annualised over 92 days, divided by average tangible common equity $18,882M (average common equity $21,539M less goodwill and intangibles $2,657M) = 20.2%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
@@ -211,9 +211,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "page": 1,
-          "searchText": "41.6 %",
-          "anchorText": "dividend payout ratio"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q3-2024.pdf",
+          "page": 4,
+          "searchText": "41.2%",
+          "anchorText": "payout ratio (1) – adjusted (trailing 4 quarters) (3)"
         },
         "roa": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
@@ -270,9 +271,6 @@
         "stableDepositsPct": true,
         "wholesaleFundingPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "dividendPayoutRatio": true
       }
     },
     {
@@ -308,7 +306,7 @@
         "irrbbEveSensitivityPct": -1.94,
         "irrbbNiiSensitivityPct": -0.61,
         "tlacLeverageRatio": 8.6,
-        "dividendPayoutRatio": 40.1,
+        "dividendPayoutRatio": 41.2,
         "roa": 0.79,
         "adjustedOperatingLeverage": 4.9,
         "rotce": 18.9,
@@ -335,7 +333,7 @@
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$136M (before-tax, 12-month). +100bp scenario = +$99M. As % of FY2024 whole-bank consolidated Net Interest Income ($2,939M): -4.6%. As % of Tier 1 capital ($22,470M): -0.6%.",
         "newMetricsSource": "2024 Annual Report (fiscal year ended October 31, 2024) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2025/na-annual-report-2024.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 41.2% for Q4 2024, read from that quarter's own Supplementary Financial Information (page 4), row \"Dividend payout ratio (1) – Adjusted (trailing 4 quarters) (3)\". The reported row above it prints 40.1%. REMAINING CAVEAT: National Bank discloses this ratio on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is still not directly comparable to the single-quarter ratios the other five banks report. Cross-validated: every quarter's own supplement agrees with the corresponding historical column of the Q3 2026 supplement.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.79% adjusted return on average assets for Q4 2024, read from the Q2 2026 supplementary financial information (page 7), row \"Return on average assets (3) – adjusted (4)\" -- the reported row above it is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +4.9% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $928M, annualised over 92 days, divided by average tangible common equity $19,523M (average common equity $22,179M less goodwill and intangibles $2,656M) = 18.9%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
@@ -482,9 +480,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2024/suppack-q4-2024.pdf",
           "page": 4,
-          "searchText": "40.1%",
-          "anchorText": "dividend payout ratio"
+          "searchText": "41.2%",
+          "anchorText": "payout ratio (1) – adjusted (trailing 4 quarters) (3)"
         },
         "roa": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
@@ -541,9 +540,6 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "dividendPayoutRatio": true
       }
     },
     {
@@ -579,7 +575,7 @@
         "irrbbEveSensitivityPct": -1.99,
         "irrbbNiiSensitivityPct": -0.56,
         "tlacLeverageRatio": 8.7,
-        "dividendPayoutRatio": 40.1,
+        "dividendPayoutRatio": 40.6,
         "roa": 0.85,
         "adjustedOperatingLeverage": 7.4,
         "rotce": 20.7,
@@ -606,7 +602,7 @@
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$128M (before-tax, 12-month). +100bp = +$99M. As % of Tier 1 capital $22,986M.",
         "newMetricsSource": "Q1 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q1-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 40.6% for Q1 2025, read from that quarter's own Supplementary Financial Information (page 4), row \"Dividend payout ratio (1) – Adjusted (trailing 4 quarters) (3)\". The reported row above it prints 40.1%. REMAINING CAVEAT: National Bank discloses this ratio on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is still not directly comparable to the single-quarter ratios the other five banks report. Cross-validated: every quarter's own supplement agrees with the corresponding historical column of the Q3 2026 supplement.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.85% adjusted return on average assets for Q1 2025, read from the Q2 2026 supplementary financial information (page 7), row \"Return on average assets (3) – adjusted (4)\" -- the reported row above it is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +7.4% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $1,050M, annualised over 92 days, divided by average tangible common equity $20,162M (average common equity $22,819M less goodwill and intangibles $2,657M) = 20.7%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
@@ -752,9 +748,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "page": 1,
-          "searchText": "40.1 %",
-          "anchorText": "dividend payout ratio"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q1-2025.pdf",
+          "page": 4,
+          "searchText": "40.6%",
+          "anchorText": "payout ratio (1) – adjusted (trailing 4 quarters) (3)"
         },
         "roa": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
@@ -810,9 +807,6 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "dividendPayoutRatio": true
       }
     },
     {
@@ -848,7 +842,7 @@
         "irrbbEveSensitivityPct": -2.04,
         "irrbbNiiSensitivityPct": -0.45,
         "tlacLeverageRatio": 8.8,
-        "dividendPayoutRatio": 42.2,
+        "dividendPayoutRatio": 40.1,
         "roa": 0.87,
         "adjustedOperatingLeverage": 10.4,
         "rotce": 19.3,
@@ -875,7 +869,7 @@
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$125M. +100bp = +$111M. As % of Tier 1 capital $27,603M.",
         "newMetricsSource": "Q2 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q2-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 40.1% for Q2 2025, read from that quarter's own Supplementary Financial Information (page 4), row \"Dividend payout ratio (1) – Adjusted (trailing 4 quarters) (3)\". The reported row above it prints 42.2%. REMAINING CAVEAT: National Bank discloses this ratio on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is still not directly comparable to the single-quarter ratios the other five banks report. Cross-validated: every quarter's own supplement agrees with the corresponding historical column of the Q3 2026 supplement.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.87% adjusted return on average assets for Q2 2025, read from the Q2 2026 supplementary financial information (page 7), row \"Return on average assets (3) – adjusted (4)\" -- the reported row above it is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +10.4% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $1,166M, annualised over 89 days, divided by average tangible common equity $24,756M (average common equity $29,461M less goodwill and intangibles $4,705M) = 19.3%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
@@ -1021,9 +1015,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "page": 1,
-          "searchText": "42.2 %",
-          "anchorText": "dividend payout ratio"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q2-2025.pdf",
+          "page": 4,
+          "searchText": "40.1%",
+          "anchorText": "payout ratio (1) – adjusted (trailing 4 quarters) (3)"
         },
         "roa": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
@@ -1079,9 +1074,6 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "dividendPayoutRatio": true
       }
     },
     {
@@ -1117,7 +1109,7 @@
         "irrbbEveSensitivityPct": -2.16,
         "irrbbNiiSensitivityPct": -0.35,
         "tlacLeverageRatio": 9.0,
-        "dividendPayoutRatio": 44.3,
+        "dividendPayoutRatio": 40.9,
         "roa": 0.77,
         "adjustedOperatingLeverage": 1.7,
         "rotce": 17.3,
@@ -1144,7 +1136,7 @@
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$99M. +100bp = +$88M. As % of Tier 1 capital $28,488M.",
         "newMetricsSource": "Q3 2025 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/report-shareholder-q3-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 40.9% for Q3 2025, read from that quarter's own Supplementary Financial Information (page 4), row \"Dividend payout ratio (1) – Adjusted (trailing 4 quarters) (3)\". The reported row above it prints 44.3%. REMAINING CAVEAT: National Bank discloses this ratio on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is still not directly comparable to the single-quarter ratios the other five banks report. Cross-validated: every quarter's own supplement agrees with the corresponding historical column of the Q3 2026 supplement.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.77% adjusted return on average assets for Q3 2025, read from the Q2 2026 supplementary financial information (page 7), row \"Return on average assets (3) – adjusted (4)\" -- the reported row above it is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +1.7% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $1,104M, annualised over 92 days, divided by average tangible common equity $25,352M (average common equity $29,931M less goodwill and intangibles $4,579M) = 17.3%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
@@ -1290,9 +1282,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "page": 1,
-          "searchText": "44.3 %",
-          "anchorText": "dividend payout ratio"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q3-2025.pdf",
+          "page": 4,
+          "searchText": "40.9%",
+          "anchorText": "payout ratio (1) – adjusted (trailing 4 quarters) (3)"
         },
         "roa": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
@@ -1348,9 +1341,6 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "dividendPayoutRatio": true
       }
     },
     {
@@ -1386,7 +1376,7 @@
         "irrbbEveSensitivityPct": -2.39,
         "irrbbNiiSensitivityPct": -0.35,
         "tlacLeverageRatio": 8.8,
-        "dividendPayoutRatio": 45.6,
+        "dividendPayoutRatio": 40.7,
         "roa": 0.79,
         "adjustedOperatingLeverage": 4.4,
         "rotce": 17.7,
@@ -1414,7 +1404,7 @@
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$99M. +100bp = +$86M. As % of FY2025 whole-bank consolidated Net Interest Income ($4,518M): -2.2%. As % of Tier 1 capital: -0.35%.",
         "newMetricsSource": "2025 Annual Report (fiscal year ended October 31, 2025) — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/assemblee-annuelle/2026/na-annual-report-2025.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 40.7% for Q4 2025, read from that quarter's own Supplementary Financial Information (page 4), row \"Dividend payout ratio (1) – Adjusted (trailing 4 quarters) (3)\". The reported row above it prints 45.6%. REMAINING CAVEAT: National Bank discloses this ratio on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is still not directly comparable to the single-quarter ratios the other five banks report. Cross-validated: every quarter's own supplement agrees with the corresponding historical column of the Q3 2026 supplement.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.79% adjusted return on average assets for Q4 2025, read from the Q2 2026 supplementary financial information (page 7), row \"Return on average assets (3) – adjusted (4)\" -- the reported row above it is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +4.4% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $1,159M, annualised over 92 days, divided by average tangible common equity $25,957M (average common equity $30,473M less goodwill and intangibles $4,516M) = 17.7%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
@@ -1556,9 +1546,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2025/suppack-q4-2025.pdf",
           "page": 4,
-          "searchText": "45.6%",
-          "anchorText": "dividend payout ratio"
+          "searchText": "40.7%",
+          "anchorText": "payout ratio (1) – adjusted (trailing 4 quarters) (3)"
         },
         "roa": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
@@ -1621,9 +1612,6 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "dividendPayoutRatio": true
       }
     },
     {
@@ -1659,7 +1647,7 @@
         "irrbbEveSensitivityPct": -2.51,
         "irrbbNiiSensitivityPct": -0.33,
         "tlacLeverageRatio": 9.2,
-        "dividendPayoutRatio": 45.1,
+        "dividendPayoutRatio": 40.4,
         "roa": 0.87,
         "adjustedOperatingLeverage": 2.0,
         "rotce": 20.0,
@@ -1685,7 +1673,7 @@
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$95M. +100bp = +$81M. As % of Tier 1 capital $28,619M.",
         "newMetricsSource": "Q1 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q1-2026.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 40.4% for Q1 2026, read from that quarter's own Supplementary Financial Information (page 4), row \"Dividend payout ratio (1) – Adjusted (trailing 4 quarters) (3)\". The reported row above it prints 45.1%. REMAINING CAVEAT: National Bank discloses this ratio on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is still not directly comparable to the single-quarter ratios the other five banks report. Cross-validated: every quarter's own supplement agrees with the corresponding historical column of the Q3 2026 supplement.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.87% adjusted return on average assets for Q1 2026, read from the Q2 2026 supplementary financial information (page 7), row \"Return on average assets (3) – adjusted (4)\" -- the reported row above it is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: +2.0% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $1,320M, annualised over 92 days, divided by average tangible common equity $26,215M (average common equity $30,712M less goodwill and intangibles $4,497M) = 20.0%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
@@ -1833,9 +1821,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "page": 1,
-          "searchText": "45.1 %",
-          "anchorText": "dividend payout ratio"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q1-2026.pdf",
+          "page": 4,
+          "searchText": "40.4%",
+          "anchorText": "payout ratio (1) – adjusted (trailing 4 quarters) (3)"
         },
         "roa": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
@@ -1891,9 +1880,6 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
-      },
-      "offBasis": {
-        "dividendPayoutRatio": true
       }
     },
     {
@@ -1929,7 +1915,7 @@
         "irrbbEveSensitivityPct": -2.64,
         "irrbbNiiSensitivityPct": -0.22,
         "tlacLeverageRatio": 9.0,
-        "dividendPayoutRatio": 42.3,
+        "dividendPayoutRatio": 39.9,
         "roa": 0.85,
         "adjustedOperatingLeverage": -2.5,
         "rotce": 20.3,
@@ -1956,7 +1942,7 @@
         "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$64M (magnitude notably smaller than prior quarters; +100bp scenario = +$65M, near-symmetric). As % of Tier 1 capital $28,925M.",
         "newMetricsSource": "Q2 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q2-2026.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "National Bank discloses this on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is not directly comparable to the single-quarter ratios reported by the other five banks.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 39.9% for Q2 2026, read from that quarter's own Supplementary Financial Information (page 4), row \"Dividend payout ratio (1) – Adjusted (trailing 4 quarters) (3)\". The reported row above it prints 42.3%. REMAINING CAVEAT: National Bank discloses this ratio on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is still not directly comparable to the single-quarter ratios the other five banks report. Cross-validated: every quarter's own supplement agrees with the corresponding historical column of the Q3 2026 supplement.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.85% adjusted return on average assets for Q2 2026, read from the Q2 2026 supplementary financial information (page 7), row \"Return on average assets (3) – adjusted (4)\" -- the reported row above it is what this dataset previously used. Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
         "adjustedOperatingLeverage": "Disclosed: -2.5% operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. National Bank labels this row 'operating leverage - adjusted'.",
         "rotce": "COMPUTED on an ADJUSTED basis -- NATIONAL publishes no ROTCE. Adjusted net income attributable to common shareholders $1,303M, annualised over 89 days, divided by average tangible common equity $26,374M (average common equity $30,845M less goodwill and intangibles $4,471M) = 20.3%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
@@ -2102,9 +2088,10 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "page": 1,
-          "searchText": "42.3 %",
-          "anchorText": "dividend payout ratio"
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
+          "page": 4,
+          "searchText": "39.9%",
+          "anchorText": "payout ratio (1) – adjusted (trailing 4 quarters) (3)"
         },
         "roa": {
           "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q2-2026.pdf",
@@ -2160,9 +2147,282 @@
         "rotce": true,
         "stableDepositsPct": true,
         "lcrBufferBillions": true
+      }
+    },
+    {
+      "period": "Q3 2026",
+      "periodEnd": "2026-07-31",
+      "reportName": "Q3 2026 Report to Shareholders",
+      "reportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+      "supplementaryReportName": "Q3 2026 Supplementary Regulatory Capital Disclosure",
+      "supplementaryReportUrl": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q3-2026.pdf",
+      "retrievedAt": "2026-08-26T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.5,
+        "tier1CapitalRatio": 15.1,
+        "totalCapitalRatio": 17.2,
+        "leverageRatio": 4.2,
+        "tlacRatio": 33.1,
+        "tlacLeverageRatio": 9.3,
+        "lcr": 161,
+        "lcrBufferBillions": 40.9,
+        "nsfr": 118,
+        "roe": 16.8,
+        "roa": 0.84,
+        "rotce": 20.1,
+        "equityMultiplier": 20.57,
+        "adjustedDilutedEps": 3.39,
+        "nim": 2.19,
+        "dividendPayoutRatio": 38.8,
+        "efficiencyRatio": 51.6,
+        "adjustedEfficiencyRatio": 49.8,
+        "adjustedOperatingLeverage": 5.8,
+        "loansToAssetsPct": 51.5,
+        "totalAssetsBillions": 635.159,
+        "riskWeightedAssetsMillions": 198746,
+        "netIncomeMillions": 1307,
+        "loanToDepositRatio": 70.34,
+        "wholesaleFundingPct": 34.59,
+        "retailDepositsPct": 27.71,
+        "wholesaleDepositsPct": 72.29,
+        "stableDepositsPct": 35.61,
+        "lessStableDepositsPct": 64.39,
+        "operationalDepositsPct": 36.46,
+        "nonOperationalDepositsPct": 63.54,
+        "irrbbEveSensitivityPct": -2.61,
+        "irrbbNiiSensitivityPct": -0.24
       },
-      "offBasis": {
-        "dividendPayoutRatio": true
+      "notes": {
+        "source": "Primary source: National Bank's own Q3 2026 Report to Shareholders, Supplementary Financial Information and Supplementary Regulatory Capital and Pillar 3 Disclosure, for the quarter ended July 31, 2026.",
+        "nim": "Net interest margin reported at the Personal & Commercial banking segment level (2.19%, down from 2.25% a year ago); no single consolidated whole-bank NIM headline figure is published. On a total consolidated balance-sheet basis (including trading assets), National Bank's Supplementary Financial Information also discloses a lower 'Net Interest Margin' of 0.82% for Q3 2026 -- this reflects a different denominator (all average interest-bearing assets including trading books) and is not comparable to the P&C segment NIM used here.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 16.8% for Q3 2026, read from the Q3 2026 supplementary financial information (page 4), row \"Return on common shareholders' equity – Adjusted (3)\" (the reported row above it prints 16.1%). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.84% adjusted return on average assets for Q3 2026, read from the Q3 2026 supplementary financial information (page 7), row \"Return on average assets (3) – Adjusted (4)\" (the reported row above it prints 0.81%). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
+        "rotce": "COMPUTED on an ADJUSTED basis -- National publishes no ROTCE. Adjusted net income $1,362M, annualised over 92 days, divided by average tangible common equity $26,826M (average common equity $31,261M less the regulatory goodwill and intangibles deduction $4,435M = goodwill net of related tax liability $3,109M plus other intangibles net of related tax liability $1,326M, per CC1 on page 13 of the regulatory capital pack) = 20.1%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since the bank publishes no average deduction.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $643,021M divided by average common equity $31,261M = 20.57x. Both operands are published in the issuer's own financial supplementary information (page 7). Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $3.39 adjusted diluted earnings per share for Q3 2026. National Bank supplementary financial information p6, row \"Earnings per share – Adjusted ... - Diluted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
+        "adjustedOperatingLeverage": "Disclosed: 5.8% operating leverage for Q3 2026, read from the issuer's Q3 2026 supplementary financial information (page 4) in the column headed Q3, row \"Operating leverage (1) – Adjusted (3)\". Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. The reported (non-adjusted) row prints 8.8%.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 49.8% for Q3 2026, read from the Q3 2026 supplementary financial information (page 4), row \"Efficiency ratio (1) – Adjusted (3)\" (the reported row above it prints 51.6%).",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 38.8% for Q3 2026, read from that quarter's own Supplementary Financial Information (page 4), row \"Dividend payout ratio (1) – Adjusted (trailing 4 quarters) (3)\". The reported row above it prints 41.1%. REMAINING CAVEAT: National Bank discloses this ratio on a TRAILING FOUR-QUARTER basis, not a single-quarter basis, so it is still not directly comparable to the single-quarter ratios the other five banks report. Cross-validated: every quarter's own supplement agrees with the corresponding historical column of the Q3 2026 supplement.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $198,746M for Q3 2026, as disclosed in KM1 (page 5) of the Q3 2026 regulatory capital pack.",
+        "totalAssetsBillions": "Total assets $635,159M as at July 31, 2026. Stored in $B at full precision so an export in $MM is exact.",
+        "loansToAssetsPct": "Computed as gross loans $326,882M (sum of loan categories before the $2,338M allowance for credit losses, per the Consolidated Balance Sheet) divided by total assets $635,159M.",
+        "loanToDepositRatio": "Gross loans $326,882M ÷ total deposits $464,732M, as at July 31, 2026.",
+        "wholesaleFundingPct": "[EDTF wholesale funding table total $156,435M, page 41] + [obligations related to securities sold under repurchase agreements and securities loaned $63,242M, balance sheet page 50] = $219,677M ÷ total assets $635,159M. EDTF-only = 24.6%.",
+        "retailDepositsPct": "Personal deposits $128,797M ÷ total deposits $464,732M (Note 8 – Deposits, page 76).",
+        "wholesaleDepositsPct": "Business and government $330,196M + deposit-taking institutions $5,739M = $335,935M ÷ $464,732M (Note 8 – Deposits, page 76).",
+        "stableDepositsPct": "Stable deposits $32,277M as a share of total retail and small-business deposits $90,650M ($32,277M stable + $58,373M less stable), unweighted values from the LCR common disclosure template (page 39). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $58,373M as a share of total retail and small-business deposits $90,650M ($32,277M stable + $58,373M less stable), unweighted values from the LCR common disclosure template (page 39). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $51,817M as a share of total wholesale deposits $142,113M ($51,817M operational + $90,296M non-operational), unweighted values from the LCR common disclosure template (page 39). The denominator excludes the $8,577M unsecured debt line, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $90,296M as a share of total wholesale deposits $142,113M ($51,817M operational + $90,296M non-operational), unweighted values from the LCR common disclosure template (page 39). The denominator excludes the $8,577M unsecured debt line, so this bucket and operational deposits sum to 100%.",
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $114,057.0M less net cash outflows $73,191.0M = $40.9B. Both operands are disclosed in the issuer's LCR common disclosure template (page 39), and the pair reproduces the LCR percentage printed on that same page. National Bank's headline LCR is the average of DAILY ratios, which is not the same as this ratio of quarterly averages, so HQLA/outflows sits a few points below its stated LCR.",
+        "irrbbEveSensitivityPct": "Most adverse = +100bp increase, EVE impact -$783M as at July 31, 2026 (CAD -$637M plus other currencies -$146M), from the interest rate sensitivity table on page 36. As % of Tier 1 capital $30,018M.",
+        "irrbbNiiSensitivityPct": "Most adverse = -100bp decrease, NII impact -$71M over the next 12 months (CAD -$106M offset by other currencies +$35M); the +100bp scenario is +$71M, exactly symmetric this quarter. From the interest rate sensitivity table on page 36. As % of Tier 1 capital $30,018M.",
+        "newMetricsSource": "Q3 2026 Report to Shareholders — https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf"
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "lcrBufferBillions": true,
+        "lessStableDepositsPct": true,
+        "loansToAssetsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "rotce": true,
+        "stableDepositsPct": true
+      },
+      "sourceRefs": {
+        "cet1Ratio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 1,
+          "searchText": "13.5",
+          "anchorText": "cet1 capital ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 13,
+          "searchText": "15.1 %"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 30,
+          "searchText": "17.2",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 1,
+          "searchText": "4.2",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 13,
+          "searchText": "33.1",
+          "anchorText": "tlac ratio"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q3-2026.pdf",
+          "page": 18,
+          "searchText": "9.3%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "lcr": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 13,
+          "searchText": "161",
+          "anchorText": "liquidity coverage ratio (lcr)"
+        },
+        "lcrBufferBillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 39,
+          "anchorText": "total net cash outflows"
+        },
+        "nsfr": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 13,
+          "searchText": "118",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "roe": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q3-2026.pdf",
+          "page": 4,
+          "searchText": "16.8",
+          "anchorText": "return on common shareholders' equity – adjusted"
+        },
+        "roa": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q3-2026.pdf",
+          "page": 7,
+          "searchText": "0.84",
+          "anchorText": "average assets (3) – adjusted"
+        },
+        "rotce": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q3-2026.pdf",
+          "page": 4,
+          "anchorText": "average common shareholders' equity"
+        },
+        "equityMultiplier": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q3-2026.pdf",
+          "page": 7,
+          "anchorText": "average common shareholders' equity"
+        },
+        "adjustedDilutedEps": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q3-2026.pdf",
+          "page": 6,
+          "searchText": "3.39",
+          "anchorText": "earnings per share – adjusted"
+        },
+        "nim": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 2,
+          "searchText": "2.19",
+          "anchorText": "net interest margin"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q3-2026.pdf",
+          "page": 4,
+          "searchText": "38.8%",
+          "anchorText": "payout ratio (1) – adjusted (trailing 4 quarters) (3)"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 13,
+          "searchText": "51.6",
+          "anchorText": "efficiency ratio"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q3-2026.pdf",
+          "page": 4,
+          "searchText": "49.8",
+          "anchorText": "efficiency ratio (1) – adjusted"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q3-2026.pdf",
+          "page": 4,
+          "searchText": "5.8",
+          "anchorText": "operating leverage (1) – adjusted"
+        },
+        "loansToAssetsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 50,
+          "searchText": "326,882",
+          "anchorText": "business and government"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-q3-2026.pdf",
+          "page": 4,
+          "searchText": "635,159",
+          "anchorText": "total assets"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/suppack-regulatory-capital-q3-2026.pdf",
+          "page": 5,
+          "searchText": "198,746",
+          "anchorText": "total risk-weighted assets (pre-floor)"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 1,
+          "searchText": "1,307",
+          "anchorText": "net income"
+        },
+        "loanToDepositRatio": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 65,
+          "searchText": "326,882",
+          "anchorText": "total loans"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 41,
+          "searchText": "156,435"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 76,
+          "searchText": "128,797",
+          "anchorText": "personal"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 76,
+          "searchText": "330,196",
+          "anchorText": "business and government"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 39,
+          "searchText": "32,277",
+          "anchorText": "stable deposits"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 39,
+          "searchText": "58,373",
+          "anchorText": "less stable deposits"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 39,
+          "searchText": "51,817",
+          "anchorText": "operational deposits (all counterparties)"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 39,
+          "searchText": "90,296",
+          "anchorText": "non-operational deposits (all counterparties)"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 36,
+          "searchText": "(783)",
+          "anchorText": "impact on equity"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.nbc.ca/content/dam/bnc/a-propos-de-nous/relations-investisseurs/resultats-trimestriels/2026/report-shareholder-q3-2026.pdf",
+          "page": 36,
+          "searchText": "(71)",
+          "anchorText": "impact on net interest income"
+        }
       }
     }
   ],

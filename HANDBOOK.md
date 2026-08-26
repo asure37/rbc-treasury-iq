@@ -32,7 +32,7 @@ Everything a new owner needs to run, change, and extend this application.
 
 ## 1. What this application is
 
-A peer-benchmarking dashboard comparing **RBC against the five other Canadian D-SIBs** — TD, Scotiabank, BMO, CIBC and National Bank — across 25 capital, liquidity, funding, profitability and interest-rate-risk metrics, over eight quarters (Q3 2024 → Q2 2026).
+A peer-benchmarking dashboard comparing **RBC against the five other Canadian D-SIBs** — TD, Scotiabank, BMO, CIBC and National Bank — across 33 capital, liquidity, funding, profitability and interest-rate-risk metrics, over nine quarters (Q3 2024 → Q3 2026).
 
 Plenty of tools can draw those charts. **The thing that makes this one worth maintaining is that every number on screen is clickable and traces to the page of the disclosure it came from.** Click a figure and the source PDF opens at the right page with the exact number highlighted. That property is load-bearing — most of the engineering below exists to protect it, and most of the bugs worth knowing about were violations of it.
 
@@ -40,23 +40,23 @@ Plenty of tools can draw those charts. **The thing that makes this one worth mai
 
 > **Never fabricate, estimate, or interpolate a metric.** Every figure either traces to a real, cited public disclosure, or it stays `null` and the UI says so.
 
-This is not a style preference. It is the product's entire claim. Anything that guesses — a highlight that lands on a plausible-looking number, a value carried forward from last quarter, a rank produced by a sort that doesn't follow from the cells — destroys the credibility of all 1,180 figures at once. When you are unsure whether to show something uncertain or show nothing, **show nothing and say why.**
+This is not a style preference. It is the product's entire claim. Anything that guesses — a highlight that lands on a plausible-looking number, a value carried forward from last quarter, a rank produced by a sort that doesn't follow from the cells — destroys the credibility of all 1,655 figures at once. When you are unsure whether to show something uncertain or show nothing, **show nothing and say why.**
 
 ### Current data coverage
 
 | | |
 |---|---|
 | Banks | 6 (RBC, TD, Scotiabank, BMO, CIBC, National) |
-| Quarters | 8 per bank — Q3 2024 → Q2 2026 |
-| Metrics defined | 25 |
-| Populated values | 1,180 of 1,200 possible cells (98%) |
-| Source references | 1,121 (1,089 with a page number, 927 with a label anchor) |
-| Per-metric caveats | 786 free-text notes |
-| Distinct cited documents | 88, all on the issuing bank's own domain |
+| Quarters | Q3 2024 → Q3 2026 — 9 for BMO, Scotiabank and National; 8 for RBC, TD and CIBC, which have not yet reported Q3 2026 |
+| Metrics defined | 33 |
+| Populated values | 1,655 of 1,683 possible cells (98%) |
+| Source references | 1,615 (1,583 with a page number, 1,432 with a label anchor) |
+| Per-metric caveats | 1,293 free-text notes |
+| Distinct cited documents | 94, all on the issuing bank's own domain |
 | Credit ratings | 6 banks (Moody's / S&P / DBRS / Fitch) |
-| **Citations that highlight on their cited page** | **1,024 of 1,121 (91.3%)** — and **0** land on any other page |
+| **Citations that highlight on their cited page** | **1,364 of 1,615 (84.5%)** — and **0** land on any other page |
 
-That last row is the one to watch. 97 citations ring nothing (§12) — they open the right document at the right page and show no highlight, which is the honest failure. **What must never happen is a citation resolving somewhere it wasn't cited**, and that count is zero across the whole dataset.
+That last row is the one to watch. 251 citations ring nothing (§12) — they open the right document at the right page and show no highlight, which is the honest failure. **What must never happen is a citation resolving somewhere it wasn't cited**, and that count is zero across the whole dataset.
 
 Every number in that table is measured, not asserted:
 
@@ -208,7 +208,7 @@ interface SourceRef {
 }
 ```
 
-**`anchorText` is what stops the viewer highlighting the wrong number.** BMO's Q2 2026 report states both ROE and CET1 as 13.0%; without an anchor, a search for "13.0" highlights whichever comes first. With `anchorText: "cet1 ratio"`, the matcher requires the label and the figure to appear together. 927 of 1,121 refs have one — the rest are flagged `NO_ANCHOR` in exported evidence packs so a reviewer knows the match is weaker.
+**`anchorText` is what stops the viewer highlighting the wrong number.** BMO's Q2 2026 report states both ROE and CET1 as 13.0%; without an anchor, a search for "13.0" highlights whichever comes first. With `anchorText: "cet1 ratio"`, the matcher requires the label and the figure to appear together. 1,432 of 1,615 refs have one — the rest are flagged `NO_ANCHOR` in exported evidence packs so a reviewer knows the match is weaker.
 
 ### Fiscal calendar
 
