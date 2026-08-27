@@ -35,19 +35,19 @@ const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const CACHE = path.join(ROOT, ".cache", "pdfs");
 
 /**
- * Expected counts for the committed dataset, measured across all 1,615 refs.
+ * Expected counts for the committed dataset, measured across all 1,712 refs.
  * Update deliberately when the data genuinely changes -- never to make a red run pass.
  */
 const BASELINE = {
-  anchored_cited_page: 1265,
-  unanchored_cited_page: 99,
+  anchored_cited_page: 1347,
+  unanchored_cited_page: 106,
   neighbour: 0,
-  // 237 refs record no searchText at all -- each cites the page where its OPERANDS are
+  // 245 refs record no searchText at all -- each cites the page where its OPERANDS are
   // disclosed, because the figure itself is never printed: the equity multiplier and the
-  // LCR buffer (51 each), the wholesale-funding share (23), ROTCE (17), loans/assets (14),
+  // LCR buffer (54 each), the wholesale-funding share (23), ROTCE (18), loans/assets (14),
   // and the remaining computed shares and sensitivities. 14 more record a value that is
-  // not on the page. Together: 251.
-  misses: 251,
+  // not on the page. Together: 259.
+  misses: 259,
 };
 
 interface Probe {

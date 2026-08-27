@@ -2148,6 +2148,285 @@
       "offBasis": {
         "dividendPayoutRatio": true
       }
+    },
+    {
+      "period": "Q3 2026",
+      "periodEnd": "2026-07-31",
+      "reportName": "Q3 2026 Report to Shareholders",
+      "reportUrl": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+      "supplementaryReportName": "Q3 2026 Supplementary Financial Information",
+      "supplementaryReportUrl": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
+      "retrievedAt": "2026-08-27T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 13.5,
+        "tier1CapitalRatio": 14.9,
+        "totalCapitalRatio": 16.7,
+        "leverageRatio": 4.3,
+        "tlacRatio": 30.9,
+        "tlacLeverageRatio": 8.9,
+        "lcr": 125,
+        "lcrBufferBillions": 98.3,
+        "nsfr": 112,
+        "roe": 18.1,
+        "roa": 0.89,
+        "rotce": 21.7,
+        "equityMultiplier": 20.79,
+        "adjustedDilutedEps": 4.28,
+        "nim": 1.49,
+        "dividendPayoutRatio": 41.0,
+        "efficiencyRatio": 52.8,
+        "adjustedEfficiencyRatio": 52.2,
+        "adjustedOperatingLeverage": 2.4,
+        "loansToAssetsPct": 44.37,
+        "totalAssetsBillions": 2498.817,
+        "riskWeightedAssetsMillions": 777987,
+        "netIncomeMillions": 6024,
+        "loanToDepositRatio": 67.87,
+        "wholesaleFundingPct": 31.7,
+        "retailDepositsPct": 44.11,
+        "wholesaleDepositsPct": 55.89,
+        "stableDepositsPct": 32.19,
+        "lessStableDepositsPct": 67.81,
+        "operationalDepositsPct": 35.31,
+        "nonOperationalDepositsPct": 64.69,
+        "irrbbEveSensitivityPct": -2.16,
+        "irrbbNiiSensitivityPct": -0.48
+      },
+      "notes": {
+        "source": "Primary source: RBC's own Q3 2026 Report to Shareholders and Q3 2026 Supplementary Financial Information, for the quarter ended July 31, 2026 (released August 27, 2026).",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 18.1% adjusted ROE for Q3 2026, read from the Q3 2026 supplementary financial information (page 4), row \"Adjusted ROE\" (the reported ROE row beside it prints 17.9%). Adjusted, for consistency with ROA, ROTCE, operating leverage and diluted EPS.",
+        "roa": "Disclosed by the issuer, ADJUSTED basis: 0.89% adjusted return on assets for Q3 2026, read from the Q3 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (the reported ROA row beside it prints 0.88%). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS.",
+        "rotce": "Disclosed, ADJUSTED basis: 21.7% adjusted return on tangible common equity for Q3 2026, read from page 4 of the supplementary financial information, row \"Adjusted ROTCE\". This quarter the reported and adjusted ROTCE are both 21.7%.",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,714,000M divided by average common equity $130,550M = 20.79x. Both operands are published on page 6 of the issuer's own supplementary financial information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $4.28 adjusted diluted earnings per share for Q3 2026. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
+        "adjustedOperatingLeverage": "Disclosed: +2.4% adjusted operating leverage for Q3 2026, read from the issuer's Q3 2026 supplementary financial information (page 4) in the column headed Q3/26. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. The reported (non-adjusted) row prints 3.1%.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 52.2% adjusted efficiency ratio for Q3 2026, read from the Q3 2026 supplementary financial information (page 4), row \"Adjusted efficiency ratio\" (the reported row beside it prints 52.8%).",
+        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent. RBC publishes no ADJUSTED payout ratio -- only this single reported measure appears in its supplementary financial information (page 5) and Report to Shareholders (page 4) -- which is why this metric stays off the adjusted basis used elsewhere in the row.",
+        "netIncomeMillions": "Reported net income $6,024M for Q3 2026. Kept on the reported basis by choice; the issuer's adjusted net income for the quarter was $6,101M.",
+        "totalAssetsBillions": "Total assets $2,498,817M as at July 31, 2026. Stored in $B at full precision so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $777,987M for Q3 2026, as disclosed on page 4 of the Report to Shareholders.",
+        "nim": "Net interest margin on average earning assets, net: 1.49% for Q3 2026, down from 1.58% in Q2. This is the issuer's headline consolidated NIM; RBC also discloses 2.07% excluding trading and insurance assets, and 1.28% on total average assets, neither of which is used here.",
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $486,851.0M less net cash outflows $388,550.0M = $98.3B. Both operands are disclosed in the issuer's LCR common disclosure template (page 37), and the pair reproduces the LCR percentage printed on that same page.",
+        "loanToDepositRatio": "Gross loans ($1,116,159M) / total deposits ($1,644,573M) as at July 31, 2026.",
+        "loansToAssetsPct": "Computed from loans, net of allowance for loan losses ($1,108,730M = gross $1,116,159M less the $7,429M allowance) divided by total assets ($2,498,817M).",
+        "wholesaleFundingPct": "Wholesale funding table ($466,968M, excl. repo, page 35) + repo ($325,185M, balance sheet obligations related to assets sold under repurchase agreements and securities loaned) = $792,153M / total assets ($2,498,817M). RBC's own table alone: 18.69%.",
+        "retailDepositsPct": "$427,888M / LCR total ($427,888M + $191,417M + $350,694M = $969,999M).",
+        "wholesaleDepositsPct": "Operational $191,417M + non-operational $350,694M = $542,111M / LCR total $969,999M.",
+        "stableDepositsPct": "Stable deposits $137,747M as a share of total retail and small-business deposits $427,888M ($137,747M stable + $290,141M less stable). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $290,141M as a share of total retail and small-business deposits $427,888M ($137,747M stable + $290,141M less stable). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $191,417M as a share of total wholesale deposits $542,111M ($191,417M operational + $350,694M non-operational). Denominator is the wholesale book -- it excludes the $19,517M unsecured debt line -- so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $350,694M as a share of total wholesale deposits $542,111M ($191,417M operational + $350,694M non-operational). Denominator is the wholesale book -- it excludes the $19,517M unsecured debt line -- so this bucket and operational deposits sum to 100%.",
+        "irrbbEveSensitivityPct": "Only +/-100bps disclosed. Worse (+100bps: -$2,511M total, being -$2,066M Canadian dollar and -$445M U.S. dollar and other) / Tier 1 capital ($116,072M). The issuer's own narrative confirms the figure: an immediate and sustained +100bps shock would have had a negative EVE impact of $2,511 million, down from $2,711 million last quarter.",
+        "irrbbNiiSensitivityPct": "Worse (-100bps: -$558M total, being -$324M Canadian dollar and -$234M U.S. dollar and other) / Tier 1 capital ($116,072M). The issuer's own narrative confirms the figure: a -100bps shock would have had a negative NII impact of $558 million, up from $381 million last quarter."
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "lcrBufferBillions": true,
+        "lessStableDepositsPct": true,
+        "loansToAssetsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "stableDepositsPct": true
+      },
+      "offBasis": {
+        "dividendPayoutRatio": true
+      },
+      "sourceRefs": {
+        "cet1Ratio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 1,
+          "searchText": "13.5",
+          "anchorText": "cet1 ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 4,
+          "searchText": "14.9",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 4,
+          "searchText": "16.7",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 4,
+          "searchText": "4.3",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 4,
+          "searchText": "30.9",
+          "anchorText": "tlac ratio"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 4,
+          "searchText": "8.9%",
+          "anchorText": "tlac leverage ratio"
+        },
+        "lcr": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 1,
+          "searchText": "125",
+          "anchorText": "lcr"
+        },
+        "lcrBufferBillions": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 37,
+          "anchorText": "total net cash outflows"
+        },
+        "nsfr": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 4,
+          "searchText": "112",
+          "anchorText": "net stable funding ratio (nsfr)"
+        },
+        "roe": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
+          "page": 4,
+          "searchText": "18.1",
+          "anchorText": "adjusted roe"
+        },
+        "roa": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
+          "page": 4,
+          "searchText": "0.89",
+          "anchorText": "adjusted roa"
+        },
+        "rotce": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
+          "page": 4,
+          "searchText": "21.7",
+          "anchorText": "adjusted rotce"
+        },
+        "equityMultiplier": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
+          "page": 6,
+          "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
+          "page": 4,
+          "searchText": "4.28",
+          "anchorText": "diluted adjusted"
+        },
+        "nim": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 4,
+          "searchText": "1.49",
+          "anchorText": "net interest margin (nim)"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 4,
+          "searchText": "41%",
+          "anchorText": "dividend payout ratio"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 11,
+          "searchText": "52.8",
+          "anchorText": "efficiency ratio"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
+          "page": 4,
+          "searchText": "52.2",
+          "anchorText": "adjusted efficiency ratio"
+        },
+        "adjustedOperatingLeverage": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
+          "page": 4,
+          "searchText": "2.4",
+          "anchorText": "adjusted operating leverage"
+        },
+        "loansToAssetsPct": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 49,
+          "searchText": "1,108,730",
+          "anchorText": "allowance for loan losses"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
+          "page": 6,
+          "searchText": "2,498,817",
+          "anchorText": "total assets"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 4,
+          "searchText": "777,987",
+          "anchorText": "total risk-weighted assets"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 4,
+          "searchText": "6,024",
+          "anchorText": "net income"
+        },
+        "loanToDepositRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 49,
+          "searchText": "1,116,159"
+        },
+        "wholesaleFundingPct": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 35,
+          "searchText": "466,968"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 37,
+          "searchText": "427,888",
+          "anchorText": "retail deposits"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 37,
+          "searchText": "191,417",
+          "anchorText": "banks"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 37,
+          "searchText": "137,747",
+          "anchorText": "stable deposits"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 37,
+          "searchText": "290,141",
+          "anchorText": "less stable deposits"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 37,
+          "searchText": "191,417",
+          "anchorText": "operational deposits (all counterparties"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 37,
+          "searchText": "350,694",
+          "anchorText": "non-operational deposits"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 29,
+          "searchText": "(2,511)",
+          "anchorText": "100 bps increase in rates"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "page": 29,
+          "searchText": "(558)",
+          "anchorText": "100 bps decrease in rates"
+        }
+      }
     }
   ],
   "irrbbDisclosureNote": "RBC assesses IRRBB using two primary metrics — Net Interest Income (NII) risk and Economic Value of Equity (EVE) risk — under a range of market shocks internally, but its published disclosure ('Market risk measures - IRRBB sensitivities', in every quarterly Report to Shareholders MD&A and the Annual Report) shows only two scenarios: an immediate and sustained +100bps and -100bps parallel rate shock. It does not publish the full Basel/OSFI six-scenario table (parallel up/down, steepener, flattener, short-rate up/down). For each scenario RBC discloses before-tax dollar impacts on EVE and on 12-month NII, split by Canadian-dollar and U.S.-dollar-and-other currency impact plus a total; it does not itself express these as a percentage of Tier 1 capital — that conversion was computed by us using Tier 1 capital dollar figures separately disclosed in RBC's Pillar 3 KM1 tables. Disclosure frequency is quarterly, not merely annual — better coverage than most peers.",

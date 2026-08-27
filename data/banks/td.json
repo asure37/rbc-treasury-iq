@@ -1980,6 +1980,268 @@
         "stableDepositsPct": true,
         "lcrBufferBillions": true
       }
+    },
+    {
+      "period": "Q3 2026",
+      "periodEnd": "2026-07-31",
+      "reportName": "Q3 2026 Report to Shareholders",
+      "reportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+      "supplementaryReportName": "Q3 2026 Supplementary Financial Information",
+      "supplementaryReportUrl": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-financial-supppack-en.pdf",
+      "retrievedAt": "2026-08-27T00:00:00.000Z",
+      "metrics": {
+        "cet1Ratio": 14.3,
+        "tier1CapitalRatio": 16.1,
+        "totalCapitalRatio": 17.9,
+        "leverageRatio": 4.5,
+        "tlacRatio": 31.1,
+        "tlacLeverageRatio": 8.8,
+        "lcr": 133,
+        "lcrBufferBillions": 82.4,
+        "nsfr": 117,
+        "roe": 16.0,
+        "roa": 0.86,
+        "rotce": 19.1,
+        "equityMultiplier": 18.86,
+        "adjustedDilutedEps": 2.77,
+        "nim": 1.93,
+        "dividendPayoutRatio": 40.2,
+        "efficiencyRatio": 50.2,
+        "adjustedEfficiencyRatio": 55.2,
+        "adjustedOperatingLeverage": null,
+        "loansToAssetsPct": 46.93,
+        "totalAssetsBillions": 2111.861,
+        "riskWeightedAssetsMillions": 653368,
+        "netIncomeMillions": 4615,
+        "loanToDepositRatio": 79.28,
+        "retailDepositsPct": 51.17,
+        "wholesaleDepositsPct": 48.83,
+        "stableDepositsPct": 54.08,
+        "lessStableDepositsPct": 45.92,
+        "operationalDepositsPct": 39.53,
+        "nonOperationalDepositsPct": 60.47,
+        "irrbbEveSensitivityPct": -3.61,
+        "irrbbNiiSensitivityPct": 0.32
+      },
+      "notes": {
+        "source": "Primary source: TD's own Q3 2026 Report to Shareholders and Q3 2026 Supplementary Financial Information, for the quarter ended July 31, 2026.",
+        "roe": "Disclosed by the issuer, ADJUSTED basis: 16.0% for Q3 2026, read from TD's own Q3 2026 Report to Shareholders (page 5, Table 1), row \"Return on common equity – adjusted\" (the reported row above it prints 15.8%). Adjusted, for consistency with ROA, ROTCE and diluted EPS.",
+        "roa": "COMPUTED on an ADJUSTED basis -- TD does not disclose an ROA. Adjusted net income after tax $4,671M (TD's own adjusted figure, not reported), annualised over 92 days in the quarter (x365/92), divided by the bank's own disclosed average total assets $2,147,000M = 0.86%. Average assets are cited; the ratio is derived. Uses adjusted net income for consistency with ROTCE and diluted EPS, which are adjusted throughout this dataset.",
+        "rotce": "Disclosed, ADJUSTED basis: 19.1% adjusted return on tangible common equity for Q3 2026, read from page 5 (Table 1) of the cited document, row \"Return on tangible common equity – adjusted\" (the reported row above it prints 19.0%).",
+        "equityMultiplier": "Computed from two disclosed figures: average total assets $2,147,000M divided by average common equity $113,810M = 18.86x. Both operands are published in the issuer's own disclosures (average assets in the Report to Shareholders page 24; average common equity in the financial supplement page 5). Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
+        "adjustedDilutedEps": "Disclosed: $2.77 adjusted diluted earnings per share for Q3 2026. TD states this in the earnings-release highlights on page 1 (\"adjusted diluted earnings per share were $2.77, compared with $2.20\") and tabulates it on page 5 under \"Common share information - adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks.",
+        "adjustedOperatingLeverage": "TD does not publish a numeric quarterly operating leverage. Re-checked against the Q3 2026 Report to Shareholders and financial supplement: it appears only in the glossary as a definition (\"the difference between the % change in adjusted revenue and the % change in adjusted expenses\") and qualitatively in the earnings-release narrative, never as a tabulated figure. Left null rather than derived, since TD's own revenue and expense growth bases are not stated on a like-for-like footing in the quarterly filings.",
+        "adjustedEfficiencyRatio": "Disclosed by the issuer: 55.2% for Q3 2026, read from TD's own Q3 2026 Report to Shareholders (page 5, Table 1), row \"Efficiency ratio - adjusted, net of ISE\" (the reported row above it prints 50.2%). TD computes this as adjusted non-interest expenses divided by adjusted total revenue net of insurance service expenses; the Q3 2026 denominator it discloses is $15,280M.",
+        "efficiencyRatio": "Reported efficiency ratio 50.2% for Q3 2026. Note this is NOT net of insurance service expenses, whereas TD's adjusted ratio is -- which is why the two sit far apart for this issuer.",
+        "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 40.2% for Q3 2026, read from TD's own Q3 2026 Report to Shareholders (page 5), the \"Dividend payout ratio\" row under \"Common share information - adjusted\" (the reported row above it prints 40.7%). Adjusted, for consistency with ROA, ROE, ROTCE and diluted EPS.",
+        "netIncomeMillions": "Reported net income $4,615M for Q3 2026. Kept on the reported basis by choice; the issuer's adjusted net income for the quarter was $4,671M.",
+        "totalAssetsBillions": "Total assets $2,111,861M as at July 31, 2026, taken at full precision from the balance sheet rather than the $B-rounded 2,111.9 printed in Table 1, so an export in $MM is exact.",
+        "riskWeightedAssetsMillions": "Total risk-weighted assets $653,368M as at July 31, 2026, taken at full precision from the Basel III capital table (page 30) rather than the $B-rounded 653.4 printed in Table 1.",
+        "nim": "Net interest margin 1.93% for Q3 2026 (Report to Shareholders page 24), down from 1.95% in Q2. This is the reported row; TD also discloses an adjusted NIM of 1.94%, which this series does not use so that the NIM history stays on one basis.",
+        "lcrBufferBillions": "COMPUTED: high-quality liquid assets less total net cash outflows -- the cushion above the 100% LCR requirement. HQLA $333,143.0M less net cash outflows $250,709.0M = $82.4B. Both operands are disclosed in the issuer's LCR common disclosure template (page 41), and the pair reproduces the LCR percentage printed on that same page.",
+        "loanToDepositRatio": "Gross loans $999,544M / total deposits $1,260,724M, from the Q3 2026 financial supplement balance sheet (page 19, as at July 31, 2026).",
+        "loansToAssetsPct": "Loans net of the $8,508M allowance for loan losses ($991,036M) divided by total assets ($2,111,861M).",
+        "wholesaleFundingPct": "Not populated. TD's wholesale funding table is an ANNUAL-only disclosure -- it is absent from the quarterly Report to Shareholders and the quarterly financial supplement -- so no quarterly figure exists to cite. Left out rather than estimated.",
+        "retailDepositsPct": "Personal deposits (non-term $510,686M + term $134,487M = $645,173M) / total deposits ($1,260,724M), financial supplement page 19.",
+        "wholesaleDepositsPct": "Banks $36,065M + business and government $579,486M = $615,551M / total deposits $1,260,724M, financial supplement page 19.",
+        "stableDepositsPct": "Stable deposits $279,366M as a share of total retail and small-business deposits $516,548M ($279,366M stable + $237,182M less stable), unweighted values from the LCR common disclosure template (page 41). Denominator is the retail and small-business book, so this bucket and less stable deposits sum to 100%.",
+        "lessStableDepositsPct": "Less stable deposits $237,182M as a share of total retail and small-business deposits $516,548M ($279,366M stable + $237,182M less stable), unweighted values from the LCR common disclosure template (page 41). Denominator is the retail and small-business book, so this bucket and stable deposits sum to 100%.",
+        "operationalDepositsPct": "Operational deposits $145,078M as a share of total wholesale deposits $367,043M ($145,078M operational + $221,965M non-operational), unweighted values from the LCR common disclosure template (page 41). The denominator excludes the $24,838M unsecured debt line, so this bucket and non-operational deposits sum to 100%.",
+        "nonOperationalDepositsPct": "Non-operational deposits $221,965M as a share of total wholesale deposits $367,043M ($145,078M operational + $221,965M non-operational), unweighted values from the LCR common disclosure template (page 41). The denominator excludes the $24,838M unsecured debt line, so this bucket and operational deposits sum to 100%.",
+        "irrbbEveSensitivityPct": "TD Table 30 \"Non-trading Interest Rate Sensitivity Measures\" (Q3 2026 Report to Shareholders page 36, disclosed quarterly). TD discloses only a +/-100bp parallel shock, not the six-scenario Basel/OSFI IRRBB template. Most adverse: +100bp parallel increase, before-tax EVE impact -$3,806M total (Canadian dollar -$1,444M, U.S. dollar -$2,362M) / Net Tier 1 Capital $105,319M (Basel III capital table, page 30) = -3.61%. This %-of-Tier-1 framing is computed here, not disclosed by TD.",
+        "irrbbNiiSensitivityPct": "Same Table 30: +100bp parallel increase -> 12-month NII impact +$341M total / Net Tier 1 Capital $105,319M = 0.32%. Recorded at the +100bp shock (the same direction as the EVE figure) for consistency with the rest of TD's series; a derived ratio, not published by TD. For completeness, TD's -100bp scenario would reduce NII by $371M."
+      },
+      "derived": {
+        "equityMultiplier": true,
+        "lcrBufferBillions": true,
+        "lessStableDepositsPct": true,
+        "nonOperationalDepositsPct": true,
+        "operationalDepositsPct": true,
+        "roa": true,
+        "stableDepositsPct": true
+      },
+      "sourceRefs": {
+        "cet1Ratio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 2,
+          "searchText": "14.3%",
+          "anchorText": "common equity tier 1 capital ratio"
+        },
+        "tier1CapitalRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "16.1",
+          "anchorText": "tier 1 capital ratio"
+        },
+        "totalCapitalRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "17.9",
+          "anchorText": "total capital ratio"
+        },
+        "leverageRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "4.5",
+          "anchorText": "leverage ratio"
+        },
+        "tlacRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "31.1",
+          "anchorText": "total loss absorbing capacity (tlac) ratio"
+        },
+        "tlacLeverageRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "8.8",
+          "anchorText": "tlac leverage ratio"
+        },
+        "lcr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 41,
+          "searchText": "133 %",
+          "anchorText": "liquidity coverage ratio"
+        },
+        "lcrBufferBillions": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 41,
+          "anchorText": "total net cash outflows"
+        },
+        "nsfr": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 42,
+          "searchText": "117 %",
+          "anchorText": "net stable funding ratio"
+        },
+        "roe": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "16.0",
+          "anchorText": "return on common equity – adjusted"
+        },
+        "roa": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 24,
+          "anchorText": "average total assets"
+        },
+        "rotce": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "19.1",
+          "anchorText": "return on tangible common equity – adjusted"
+        },
+        "equityMultiplier": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-financial-supppack-en.pdf",
+          "page": 5,
+          "anchorText": "average common equity"
+        },
+        "adjustedDilutedEps": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 1,
+          "searchText": "2.77",
+          "anchorText": "adjusted diluted earnings per share"
+        },
+        "nim": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 24,
+          "searchText": "1.93 %",
+          "anchorText": "net interest margin"
+        },
+        "dividendPayoutRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "40.2",
+          "anchorText": "common share information – adjusted"
+        },
+        "efficiencyRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "50.2",
+          "anchorText": "efficiency ratio"
+        },
+        "adjustedEfficiencyRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 5,
+          "searchText": "55.2",
+          "anchorText": "efficiency ratio – adjusted"
+        },
+        "loansToAssetsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-financial-supppack-en.pdf",
+          "page": 19,
+          "searchText": "991,036",
+          "anchorText": "loans, net of allowance for loan losses"
+        },
+        "totalAssetsBillions": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 25,
+          "searchText": "2,111,861",
+          "anchorText": "total assets"
+        },
+        "riskWeightedAssetsMillions": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 30,
+          "searchText": "653,368",
+          "anchorText": "risk-weighted assets"
+        },
+        "netIncomeMillions": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 1,
+          "searchText": "4,615",
+          "anchorText": "reported net income"
+        },
+        "loanToDepositRatio": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-financial-supppack-en.pdf",
+          "page": 19,
+          "searchText": "999,544"
+        },
+        "retailDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-financial-supppack-en.pdf",
+          "page": 19,
+          "searchText": "510,686"
+        },
+        "wholesaleDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-financial-supppack-en.pdf",
+          "page": 19,
+          "searchText": "36,065"
+        },
+        "stableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 41,
+          "searchText": "279,366",
+          "anchorText": "stable deposits"
+        },
+        "lessStableDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 41,
+          "searchText": "237,182",
+          "anchorText": "less stable deposits"
+        },
+        "operationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 41,
+          "searchText": "145,078",
+          "anchorText": "operational deposits (all counterparties"
+        },
+        "nonOperationalDepositsPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 41,
+          "searchText": "221,965",
+          "anchorText": "non-operational deposits (all counterparties"
+        },
+        "irrbbEveSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 36,
+          "searchText": "(3,806)",
+          "anchorText": "100 bps increase in rates"
+        },
+        "irrbbNiiSensitivityPct": {
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q3/2026-q3-report-shareholders-en.pdf",
+          "page": 36,
+          "searchText": "341",
+          "anchorText": "100 bps increase in rates"
+        }
+      }
     }
   ],
   "irrbbDisclosureNote": "TD discloses IRRBB every quarter in its Report to Shareholders MD&A under the 'Structural Interest Rate Sensitivity Measures' table (Table 31 in the interim reports; Table 45 in the year-end Annual Report). It does not use the standardized six-scenario Basel/OSFI IRRBB1 template (parallel up, parallel down, steepener, flattener, short rate up, short rate down) — that template could not be found in TD's quarterly Reports to Shareholders, the FY2024/FY2025 Annual Reports, or the Q4 2025 Pillar 3 Supplemental Regulatory Disclosure, despite TD being a G-SIB/D-SIB subject to OSFI's Pillar 3 guideline. Instead, TD shows both Economic Value of Shareholders' Equity (EVE) Sensitivity and Net Interest Income (NII) Sensitivity for a single prescribed shock: an immediate and sustained +/-100 basis point parallel shift, before-tax. Effective July 31, 2025, TD began splitting the two sensitivity measures by currency (Canadian dollar vs. U.S. dollar) in addition to the total. Both measures explicitly exclude exposures from the Wholesale Banking segment. TD does not itself express either sensitivity as a percentage of any capital base — the %-of-Tier-1 figures in this dataset were computed by dividing TD's disclosed dollar sensitivity by TD's Net Tier 1 Capital from the same quarter's Basel III Capital Position (CC1) table.",
