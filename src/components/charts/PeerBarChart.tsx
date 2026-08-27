@@ -36,8 +36,11 @@ export function PeerBarChart({ banks, period, metric, height = 320 }: PeerBarCha
     .filter((d) => d.value != null)
     .sort((a, b) => (metric.higherIsBetter === false ? a.value! - b.value! : b.value! - a.value!));
 
-  // Average of the banks actually shown (needs ≥2 to be meaningful).
-  const peerAvg = data.length >= 2 ? data.reduce((s, d) => s + d.value!, 0) / data.length : null;
+  // Average of the PEERS actually shown, excluding the home institution -- it is the
+  // subject of the comparison, not a member of the group it is being compared against
+  // (needs ≥2 peers to be meaningful).
+  const peers = data.filter((d) => !d.home);
+  const peerAvg = peers.length >= 2 ? peers.reduce((s, d) => s + d.value!, 0) / peers.length : null;
   const unitSuffix = metric.unit === "%" ? "%" : metric.unit === "x" ? "x" : "";
 
   // Recharts gives negative bars a negative width (x stays on the zero baseline), so a

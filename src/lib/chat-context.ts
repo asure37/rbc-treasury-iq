@@ -14,6 +14,9 @@ export interface ChatViewContext {
 // what the chatbot reasons about.
 function buildAnomalyDigest(banks: BankData[], metrics: MetricMeta[]): string {
   const lines: string[] = [];
+  // Peer baselines exclude the home institution, matching the Variance tab -- so the
+  // digest the model reasons over and the figures the analyst sees are the same numbers.
+  const homeBankId = banks.find((b) => b.isHomeInstitution)?.bankId;
 
   for (const metric of metrics) {
     const anomalies = detectTimeSeriesAnomalies(banks, metric.key, { watchZ: 1.5, alertZ: 2.25 });
@@ -31,7 +34,11 @@ function buildAnomalyDigest(banks: BankData[], metrics: MetricMeta[]): string {
 
   for (const period of latestPeriods) {
     for (const metric of metrics) {
-      const outliers = detectPeerOutliers(banks, metric.key, period, { z: 1.5, regulatoryMinimum: metric.regulatoryMinimum });
+      const outliers = detectPeerOutliers(banks, metric.key, period, {
+        z: 1.5,
+        regulatoryMinimum: metric.regulatoryMinimum,
+        baselineExcludeBankId: homeBankId,
+      });
       for (const o of outliers.slice(0, 3)) {
         lines.push(
           `- [Peer outlier ${period}] ${o.bankName} ${metric.label} = ${formatMetricValue(o.value, metric.unit, metric.decimals)} vs peer mean ${formatMetricValue(o.peerMean, metric.unit, metric.decimals)} (z=${o.zScore.toFixed(2)})${o.belowRegMinimum ? " — BELOW REGULATORY MINIMUM" : ""}`

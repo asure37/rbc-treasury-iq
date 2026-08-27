@@ -10,7 +10,7 @@
       "description": "Core equity capital as a percentage of risk-weighted assets. The primary measure of a bank's capital strength and loss-absorbing capacity.",
       "higherIsBetter": true,
       "regulatoryMinimum": 7.0,
-      "supervisoryTarget": 11.0,
+      "supervisoryTarget": 11.1,
       "decimals": 1
     },
     {
@@ -21,7 +21,7 @@
       "description": "CET1 plus Additional Tier 1 capital, as a percentage of risk-weighted assets.",
       "higherIsBetter": true,
       "regulatoryMinimum": 8.5,
-      "supervisoryTarget": 12.5,
+      "supervisoryTarget": 12.6,
       "decimals": 1
     },
     {
@@ -32,7 +32,7 @@
       "description": "Tier 1 plus Tier 2 capital, as a percentage of risk-weighted assets. Broadest regulatory capital adequacy measure.",
       "higherIsBetter": true,
       "regulatoryMinimum": 10.5,
-      "supervisoryTarget": 14.5,
+      "supervisoryTarget": 14.6,
       "decimals": 1
     },
     {
@@ -53,7 +53,8 @@
       "description": "Capital and eligible long-term debt available to absorb losses in a resolution scenario, as a percentage of risk-weighted assets. Applies to Canada's D-SIBs.",
       "higherIsBetter": true,
       "regulatoryMinimum": 21.5,
-      "decimals": 1
+      "decimals": 1,
+      "supervisoryTarget": 24.6
     },
     {
       "key": "tlacLeverageRatio",

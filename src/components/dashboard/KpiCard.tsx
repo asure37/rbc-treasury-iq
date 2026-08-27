@@ -23,8 +23,14 @@ interface KpiCardProps {
 }
 
 export function KpiCard({ meta, value, qoqDelta, peerAvg, history, delay, onClick, active, derived, offBasis }: KpiCardProps) {
-  const vsRegMin = meta.regulatoryMinimum != null && value != null ? value - meta.regulatoryMinimum : null;
-  const belowMin = vsRegMin != null && vsRegMin < 0;
+  // The requirement a D-SIB actually has to clear is not the bare Pillar 1 floor: for the
+  // risk-based ratios it is Pillar 1 PLUS the capital conservation buffer, the countercyclical
+  // buffer, the D-SIB surcharge and OSFI's Domestic Stability Buffer. That combined figure is
+  // stored as `supervisoryTarget`. Metrics with no buffer stack on top (leverage, TLAC
+  // leverage, LCR, NSFR) have none, and fall back to the Pillar 1 minimum, which for them
+  // already IS the requirement.
+  const osfiRequirement = meta.supervisoryTarget ?? meta.regulatoryMinimum ?? null;
+  const belowMin = osfiRequirement != null && value != null && value < osfiRequirement;
   const vsPeer = peerAvg != null && value != null ? value - peerAvg : null;
 
   return (
@@ -86,8 +92,8 @@ export function KpiCard({ meta, value, qoqDelta, peerAvg, history, delay, onClic
             "—"
           )}
         </span>
-        {meta.regulatoryMinimum != null && (
-          <span className={belowMin ? "font-semibold text-down" : ""}>min {meta.regulatoryMinimum}%</span>
+        {osfiRequirement != null && (
+          <span className={belowMin ? "font-semibold text-down" : ""}>OSFI min {osfiRequirement}%</span>
         )}
       </div>
     </GlassCard>

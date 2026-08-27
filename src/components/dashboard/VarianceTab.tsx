@@ -16,6 +16,8 @@ export function VarianceTab() {
   const [severityFilter, setSeverityFilter] = useState<"all" | "alert" | "watch">("all");
 
   const latestPeriod = periods[periods.length - 1]?.period;
+  // The peer baseline excludes the home institution -- see detectPeerOutliers.
+  const homeBankId = banks.find((b) => b.isHomeInstitution)?.bankId;
 
   const timeSeriesAnomalies = useMemo(() => {
     return metricsMeta.flatMap((m) => detectTimeSeriesAnomalies(banks, m.key));
@@ -24,9 +26,12 @@ export function VarianceTab() {
   const peerOutliers = useMemo(() => {
     if (!latestPeriod) return [];
     return metricsMeta.flatMap((m) =>
-      detectPeerOutliers(banks, m.key, latestPeriod, { regulatoryMinimum: m.regulatoryMinimum })
+      detectPeerOutliers(banks, m.key, latestPeriod, {
+        regulatoryMinimum: m.regulatoryMinimum,
+        baselineExcludeBankId: homeBankId,
+      })
     );
-  }, [banks, metricsMeta, latestPeriod]);
+  }, [banks, metricsMeta, latestPeriod, homeBankId]);
 
   const filteredTs = timeSeriesAnomalies.filter((a) => severityFilter === "all" || a.severity === severityFilter);
 

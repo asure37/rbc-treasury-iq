@@ -126,7 +126,11 @@ export function detectPeerOutliers(
   banks: BankData[],
   key: MetricKey,
   period: string,
-  { z = 1.5, regulatoryMinimum }: { z?: number; regulatoryMinimum?: number } = {}
+  {
+    z = 1.5,
+    regulatoryMinimum,
+    baselineExcludeBankId,
+  }: { z?: number; regulatoryMinimum?: number; baselineExcludeBankId?: string } = {}
 ): PeerOutlier[] {
   const points = banks
     .map((b) => {
@@ -138,7 +142,15 @@ export function detectPeerOutliers(
 
   if (points.length < 3) return [];
 
-  const values = points.map((p) => p.value);
+  // The comparator is the PEER group. `baselineExcludeBankId` drops the home institution
+  // from the mean and standard deviation so it is scored AGAINST its peers rather than
+  // against a group it is itself a member of -- otherwise a bank that is far from the
+  // others drags the baseline toward itself and shrinks its own z-score. Every bank is
+  // still scored; only the baseline changes.
+  const baseline = points.filter((p) => p.bankId !== baselineExcludeBankId);
+  if (baseline.length < 3) return [];
+
+  const values = baseline.map((p) => p.value);
   const m = mean(values);
   const sd = stdev(values, m);
   if (sd === 0) return [];

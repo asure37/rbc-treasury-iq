@@ -37,24 +37,27 @@ const DISPLAY_NAME: Record<string, string> = {
 const displayName = (bankId: string) => DISPLAY_NAME[bankId] ?? bankId;
 
 export function TrendLineChart({ banks, periods, metric, height = 380 }: TrendLineChartProps) {
-  // Only worth drawing an average line when there are at least two banks to average.
-  const showPeerAvg = banks.length >= 2;
+  const homeId = banks.find((b) => b.isHomeInstitution)?.bankId;
+
+  // "Peer average" means the PEERS. The home institution is the subject being benchmarked,
+  // so folding it into its own comparator drags the line toward RBC and understates every
+  // gap the chart exists to show. Only worth drawing when at least two peers remain.
+  const showPeerAvg = banks.filter((b) => b.bankId !== homeId).length >= 2;
 
   const data = periods.map((period) => {
     const row: Record<string, string | number | null> = { period };
-    const present: number[] = [];
+    const peerValues: number[] = [];
     for (const bank of banks) {
       const q = bank.quarters.find((q) => q.period === period);
       const value = q?.metrics[metric.key] ?? null;
       row[bank.bankId] = value;
-      if (value != null) present.push(value);
+      if (value != null && bank.bankId !== homeId) peerValues.push(value);
     }
-    // Average across the banks that actually reported this period (needs ≥2 to be meaningful).
-    row.__peerAvg = showPeerAvg && present.length >= 2 ? present.reduce((s, v) => s + v, 0) / present.length : null;
+    // Average across the PEERS that actually reported this period (needs ≥2 to be meaningful).
+    row.__peerAvg =
+      showPeerAvg && peerValues.length >= 2 ? peerValues.reduce((s, v) => s + v, 0) / peerValues.length : null;
     return row;
   });
-
-  const homeId = banks.find((b) => b.isHomeInstitution)?.bankId;
 
   return (
     <ResponsiveContainer width="100%" height={height}>
