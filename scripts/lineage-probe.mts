@@ -39,15 +39,19 @@ const CACHE = path.join(ROOT, ".cache", "pdfs");
  * Update deliberately when the data genuinely changes -- never to make a red run pass.
  */
 const BASELINE = {
-  anchored_cited_page: 1347,
+  anchored_cited_page: 1329,
   unanchored_cited_page: 106,
   neighbour: 0,
-  // 245 refs record no searchText at all -- each cites the page where its OPERANDS are
+  // 263 refs record no searchText at all -- each cites the page where its OPERANDS are
   // disclosed, because the figure itself is never printed: the equity multiplier and the
-  // LCR buffer (54 each), the wholesale-funding share (23), ROTCE (18), loans/assets (14),
-  // and the remaining computed shares and sensitivities. 14 more record a value that is
-  // not on the page. Together: 259.
-  misses: 259,
+  // LCR buffer (54 each), the wholesale-funding share (23), ROA / ROTCE / the dividend
+  // payout ratio (18 each), loans/assets (14), and the remaining computed shares and
+  // sensitivities. 14 more record a value that is not on the page. Together: 277.
+  //
+  // This count RISES when a metric moves from disclosed to computed, and that is the
+  // honest direction: RBC's payout ratio and CIBC's ROA used to cite the reported figure
+  // printed in the filing, which is no longer the number shown.
+  misses: 277,
 };
 
 interface Probe {

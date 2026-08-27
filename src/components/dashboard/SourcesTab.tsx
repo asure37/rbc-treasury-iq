@@ -44,6 +44,12 @@ export function SourcesTab() {
     return list.sort((a, b) => b.q.periodEnd.localeCompare(a.q.periodEnd));
   }, [banks, bankFilter, periodFilter]);
 
+  // Explain a marker only while it is actually reachable in the current filter. Every
+  // "Adj." metric is now either disclosed on the adjusted basis or computed onto it, so
+  // nothing carries the dagger — a legend for an absent marker sends readers hunting.
+  const anyDerived = useMemo(() => rows.some(({ q }) => Object.keys(q.derived ?? {}).length > 0), [rows]);
+  const anyOffBasis = useMemo(() => rows.some(({ q }) => Object.keys(q.offBasis ?? {}).length > 0), [rows]);
+
   // Every figure currently in view, in the order it is shown, as evidence items.
   const evidenceItems = useMemo<EvidenceItem[]>(() => {
     const out: EvidenceItem[] = [];
@@ -109,12 +115,22 @@ export function SourcesTab() {
             <p className="mt-1 flex items-center gap-1.5 text-[11px] text-text-muted">
               <span className="inline-block size-1.5 rounded-full bg-rbc-cyan" /> Click any figure to open its exact source page
             </p>
-            <p className="mt-0.5 text-[11px] text-text-muted">
-              <span className="text-rbc-cyan">*</span> marks a figure the issuer does not publish, computed from figures it does — the
-              note beneath each one gives the formula and the operands.{" "}
-              <span className="text-warn">&dagger;</span> marks a metric labelled &ldquo;Adj.&rdquo; where this issuer discloses no
-              adjusted figure, so the value is its reported one instead.
-            </p>
+            {(anyDerived || anyOffBasis) && (
+              <p className="mt-0.5 text-[11px] text-text-muted">
+                {anyDerived && (
+                  <>
+                    <span className="text-rbc-cyan">*</span> marks a figure the issuer does not publish, computed from
+                    figures it does — the note beneath each one gives the formula and the operands.{" "}
+                  </>
+                )}
+                {anyOffBasis && (
+                  <>
+                    <span className="text-warn">&dagger;</span> marks a metric labelled &ldquo;Adj.&rdquo; where this
+                    issuer discloses no adjusted figure, so the value is its reported one instead.
+                  </>
+                )}
+              </p>
+            )}
           </div>
         </div>
         <div className="flex items-center gap-2">

@@ -38,7 +38,7 @@
         "irrbbEveSensitivityPct": -1.9,
         "irrbbNiiSensitivityPct": -0.44,
         "tlacLeverageRatio": 8.3,
-        "dividendPayoutRatio": 46.0,
+        "dividendPayoutRatio": 43.5,
         "roa": 0.89,
         "adjustedOperatingLeverage": 3.3,
         "rotce": 20.4,
@@ -63,7 +63,7 @@
         "irrbbNiiSensitivityPct": "Worse of the two disclosed shocks (-100bps parallel: -$425M before-tax 12-month NII impact) / same Tier 1 capital base ($95,724M).",
         "newMetricsSource": "Q3 2024 Report to Shareholders (MD&A: Liquidity and Funding Risk, Market Risk sections) — https://www.rbc.com/investor-relations/_assets-custom/pdf/2024q3_report.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
+        "dividendPayoutRatio": "COMPUTED on an ADJUSTED basis -- RBC publishes only a REPORTED payout ratio (46% for Q3 2024), never an adjusted one. Common dividends $2,009M divided by ADJUSTED net income available to common shareholders $4,618M = 43.50%. Both operands are the issuer's own, from the Q3 2026 supplementary financial information (adjusted net income available to common shareholders, page 4; common dividends, page 5), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula run on RBC's REPORTED net income available to common shareholders ($4,377M) gives 45.90%, which reproduces RBC's own printed reported ratio of 46% -- and does so in all nine quarters, so the construction is RBC's, only the numerator basis differs. RBC prints its ratio to the nearest whole percent; this is carried at two decimals.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.89% adjusted return on assets for Q3 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +3.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 20.4% adjusted return on tangible common equity for Q3 2024, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -211,9 +211,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
           "page": 4,
-          "searchText": "46%",
-          "anchorText": "dividend payout ratio"
+          "anchorText": "adjusted net income available to common shareholders"
         },
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -269,9 +269,7 @@
         "operationalDepositsPct": true,
         "stableDepositsPct": true,
         "wholesaleFundingPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "dividendPayoutRatio": true
       }
     },
@@ -308,7 +306,7 @@
         "irrbbEveSensitivityPct": -2.12,
         "irrbbNiiSensitivityPct": -0.51,
         "tlacLeverageRatio": 8.4,
-        "dividendPayoutRatio": 49.0,
+        "dividendPayoutRatio": 46.26,
         "roa": 0.83,
         "adjustedOperatingLeverage": 4.3,
         "rotce": 18.7,
@@ -333,7 +331,7 @@
         "irrbbNiiSensitivityPct": "Worse scenario (-100bps: -$502M) / Tier 1 capital ($97,952M).",
         "newMetricsSource": "2024 Annual Report (MD&A Tables 51/57/60), cross-checked vs. Q1 2025 Report to Shareholders comparative column — https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2024_e.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
+        "dividendPayoutRatio": "COMPUTED on an ADJUSTED basis -- RBC publishes only a REPORTED payout ratio (49% for Q4 2024), never an adjusted one. Common dividends $2,010M divided by ADJUSTED net income available to common shareholders $4,345M = 46.26%. Both operands are the issuer's own, from the Q3 2026 supplementary financial information (adjusted net income available to common shareholders, page 4; common dividends, page 5), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula run on RBC's REPORTED net income available to common shareholders ($4,128M) gives 48.69%, which reproduces RBC's own printed reported ratio of 49% -- and does so in all nine quarters, so the construction is RBC's, only the numerator basis differs. RBC prints its ratio to the nearest whole percent; this is carried at two decimals.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.83% adjusted return on assets for Q4 2024, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +4.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 18.7% adjusted return on tangible common equity for Q4 2024, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -482,10 +480,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
           "page": 4,
-          "searchText": "49%",
-          "anchorText": "dividend payout ratio"
+          "anchorText": "adjusted net income available to common shareholders"
         },
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -540,9 +537,7 @@
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "dividendPayoutRatio": true
       }
     },
@@ -579,7 +574,7 @@
         "irrbbEveSensitivityPct": -2.03,
         "irrbbNiiSensitivityPct": -0.57,
         "tlacLeverageRatio": 8.9,
-        "dividendPayoutRatio": 42.0,
+        "dividendPayoutRatio": 40.75,
         "roa": 0.87,
         "adjustedOperatingLeverage": 7.7,
         "rotce": 21.2,
@@ -603,7 +598,7 @@
         "irrbbNiiSensitivityPct": "Worse (-100bps: -$589M) / Tier 1 capital ($103,718M).",
         "newMetricsSource": "Q1 2025 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q1_report.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
+        "dividendPayoutRatio": "COMPUTED on an ADJUSTED basis -- RBC publishes only a REPORTED payout ratio (42% for Q1 2025), never an adjusted one. Common dividends $2,092M divided by ADJUSTED net income available to common shareholders $5,134M = 40.75%. Both operands are the issuer's own, from the Q3 2026 supplementary financial information (adjusted net income available to common shareholders, page 4; common dividends, page 5), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula run on RBC's REPORTED net income available to common shareholders ($5,011M) gives 41.75%, which reproduces RBC's own printed reported ratio of 42% -- and does so in all nine quarters, so the construction is RBC's, only the numerator basis differs. RBC prints its ratio to the nearest whole percent; this is carried at two decimals.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.87% adjusted return on assets for Q1 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +7.7% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 21.2% adjusted return on tangible common equity for Q1 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -751,9 +746,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
           "page": 4,
-          "searchText": "42%",
-          "anchorText": "dividend payout ratio"
+          "anchorText": "adjusted net income available to common shareholders"
         },
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -807,9 +802,7 @@
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "dividendPayoutRatio": true
       }
     },
@@ -846,7 +839,7 @@
         "irrbbEveSensitivityPct": -2.36,
         "irrbbNiiSensitivityPct": -0.5,
         "tlacLeverageRatio": 9.2,
-        "dividendPayoutRatio": 49.0,
+        "dividendPayoutRatio": 47.3,
         "roa": 0.79,
         "adjustedOperatingLeverage": 3.1,
         "rotce": 17.9,
@@ -871,7 +864,7 @@
         "irrbbNiiSensitivityPct": "Worse (-100bps: -$521M) / Tier 1 capital ($103,194M).",
         "newMetricsSource": "Q2 2025 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q2_report.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
+        "dividendPayoutRatio": "COMPUTED on an ADJUSTED basis -- RBC publishes only a REPORTED payout ratio (49% for Q2 2025), never an adjusted one. Common dividends $2,087M divided by ADJUSTED net income available to common shareholders $4,412M = 47.30%. Both operands are the issuer's own, from the Q3 2026 supplementary financial information (adjusted net income available to common shareholders, page 4; common dividends, page 5), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula run on RBC's REPORTED net income available to common shareholders ($4,274M) gives 48.83%, which reproduces RBC's own printed reported ratio of 49% -- and does so in all nine quarters, so the construction is RBC's, only the numerator basis differs. RBC prints its ratio to the nearest whole percent; this is carried at two decimals.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.79% adjusted return on assets for Q2 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +3.1% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 17.9% adjusted return on tangible common equity for Q2 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -1019,9 +1012,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "page": 5,
-          "searchText": "49%",
-          "anchorText": "dividend payout ratio"
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
+          "page": 4,
+          "anchorText": "adjusted net income available to common shareholders"
         },
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -1076,9 +1069,7 @@
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "dividendPayoutRatio": true
       }
     },
@@ -1115,7 +1106,7 @@
         "irrbbEveSensitivityPct": -2.34,
         "irrbbNiiSensitivityPct": -0.36,
         "tlacLeverageRatio": 9.3,
-        "dividendPayoutRatio": 41.0,
+        "dividendPayoutRatio": 40.02,
         "roa": 0.91,
         "adjustedOperatingLeverage": 6.5,
         "rotce": 21.6,
@@ -1139,7 +1130,7 @@
         "irrbbNiiSensitivityPct": "Worse (-100bps: -$389M) / Tier 1 capital ($107,155M).",
         "newMetricsSource": "Q3 2025 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q3_report.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
+        "dividendPayoutRatio": "COMPUTED on an ADJUSTED basis -- RBC publishes only a REPORTED payout ratio (41% for Q3 2025), never an adjusted one. Common dividends $2,165M divided by ADJUSTED net income available to common shareholders $5,410M = 40.02%. Both operands are the issuer's own, from the Q3 2026 supplementary financial information (adjusted net income available to common shareholders, page 4; common dividends, page 5), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula run on RBC's REPORTED net income available to common shareholders ($5,290M) gives 40.93%, which reproduces RBC's own printed reported ratio of 41% -- and does so in all nine quarters, so the construction is RBC's, only the numerator basis differs. RBC prints its ratio to the nearest whole percent; this is carried at two decimals.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.91% adjusted return on assets for Q3 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +6.5% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 21.6% adjusted return on tangible common equity for Q3 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -1286,9 +1277,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "page": 5,
-          "searchText": "41%",
-          "anchorText": "dividend payout ratio"
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
+          "page": 4,
+          "anchorText": "adjusted net income available to common shareholders"
         },
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -1342,9 +1333,7 @@
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "dividendPayoutRatio": true
       }
     },
@@ -1381,7 +1370,7 @@
         "irrbbEveSensitivityPct": -2.4,
         "irrbbNiiSensitivityPct": -0.34,
         "tlacLeverageRatio": 9.2,
-        "dividendPayoutRatio": 41.0,
+        "dividendPayoutRatio": 39.87,
         "roa": 0.9,
         "adjustedOperatingLeverage": 8.5,
         "rotce": 20.9,
@@ -1406,7 +1395,7 @@
         "irrbbNiiSensitivityPct": "Worse (-100bps: -$373M) / Tier 1 capital ($110,393M).",
         "newMetricsSource": "2025 Annual Report (MD&A Tables 49/55/58), cross-checked vs. Q1 2026 Report to Shareholders comparative column — https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
+        "dividendPayoutRatio": "COMPUTED on an ADJUSTED basis -- RBC publishes only a REPORTED payout ratio (41% for Q4 2025), never an adjusted one. Common dividends $2,158M divided by ADJUSTED net income available to common shareholders $5,413M = 39.87%. Both operands are the issuer's own, from the Q3 2026 supplementary financial information (adjusted net income available to common shareholders, page 4; common dividends, page 5), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula run on RBC's REPORTED net income available to common shareholders ($5,293M) gives 40.77%, which reproduces RBC's own printed reported ratio of 41% -- and does so in all nine quarters, so the construction is RBC's, only the numerator basis differs. RBC prints its ratio to the nearest whole percent; this is carried at two decimals.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.90% adjusted return on assets for Q4 2025, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +8.5% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 20.9% adjusted return on tangible common equity for Q4 2025, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -1548,9 +1537,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "page": 3,
-          "searchText": "41%",
-          "anchorText": "dividend payout ratio"
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
+          "page": 4,
+          "anchorText": "adjusted net income available to common shareholders"
         },
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -1606,9 +1595,7 @@
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "dividendPayoutRatio": true
       }
     },
@@ -1645,7 +1632,7 @@
         "irrbbEveSensitivityPct": -2.37,
         "irrbbNiiSensitivityPct": -0.36,
         "tlacLeverageRatio": 9.0,
-        "dividendPayoutRatio": 41.0,
+        "dividendPayoutRatio": 40.08,
         "roa": 0.9,
         "adjustedOperatingLeverage": 4.3,
         "rotce": 21.5,
@@ -1670,7 +1657,7 @@
         "irrbbNiiSensitivityPct": "Worse (-100bps: -$397M) / Tier 1 capital ($111,549M).",
         "newMetricsSource": "Q1 2026 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
+        "dividendPayoutRatio": "COMPUTED on an ADJUSTED basis -- RBC publishes only a REPORTED payout ratio (41% for Q1 2026), never an adjusted one. Common dividends $2,292M divided by ADJUSTED net income available to common shareholders $5,719M = 40.08%. Both operands are the issuer's own, from the Q3 2026 supplementary financial information (adjusted net income available to common shareholders, page 4; common dividends, page 5), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula run on RBC's REPORTED net income available to common shareholders ($5,643M) gives 40.62%, which reproduces RBC's own printed reported ratio of 41% -- and does so in all nine quarters, so the construction is RBC's, only the numerator basis differs. RBC prints its ratio to the nearest whole percent; this is carried at two decimals.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.90% adjusted return on assets for Q1 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +4.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 21.5% adjusted return on tangible common equity for Q1 2026, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -1818,10 +1805,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
           "page": 4,
-          "searchText": "41%",
-          "anchorText": "dividend payout ratio"
+          "anchorText": "adjusted net income available to common shareholders"
         },
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -1877,9 +1863,7 @@
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "dividendPayoutRatio": true
       }
     },
@@ -1916,7 +1900,7 @@
         "irrbbEveSensitivityPct": -2.41,
         "irrbbNiiSensitivityPct": -0.34,
         "tlacLeverageRatio": 9.0,
-        "dividendPayoutRatio": 42.0,
+        "dividendPayoutRatio": 41.85,
         "roa": 0.89,
         "adjustedOperatingLeverage": 2.2,
         "rotce": 20.9,
@@ -1940,7 +1924,7 @@
         "irrbbNiiSensitivityPct": "Worse (-100bps: -$381M) / Tier 1 capital ($112,453M).",
         "newMetricsSource": "Q2 2026 Report to Shareholders — https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q2_report.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
-        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent.",
+        "dividendPayoutRatio": "COMPUTED on an ADJUSTED basis -- RBC publishes only a REPORTED payout ratio (42% for Q2 2026), never an adjusted one. Common dividends $2,279M divided by ADJUSTED net income available to common shareholders $5,446M = 41.85%. Both operands are the issuer's own, from the Q3 2026 supplementary financial information (adjusted net income available to common shareholders, page 4; common dividends, page 5), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula run on RBC's REPORTED net income available to common shareholders ($5,372M) gives 42.42%, which reproduces RBC's own printed reported ratio of 42% -- and does so in all nine quarters, so the construction is RBC's, only the numerator basis differs. RBC prints its ratio to the nearest whole percent; this is carried at two decimals.",
         "roa": "Disclosed by the issuer, ADJUSTED basis: 0.89% adjusted return on assets for Q2 2026, read from the Q2 2026 supplementary financial information (page 4), row \"Adjusted ROA\" (directly beside the reported ROA row this dataset previously used). Adjusted basis, for consistency with ROTCE, operating leverage and diluted EPS, all of which are also adjusted throughout this dataset.",
         "adjustedOperatingLeverage": "Disclosed: +2.2% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 4) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "Disclosed, ADJUSTED basis: 20.9% adjusted return on tangible common equity for Q2 2026, read from page 4 of the cited document. Taken from the issuer's \"adjusted\" ROTCE row, which sits directly beside its reported one. Adjusted measures remove each bank's own items of note, so the adjustments differ between issuers.",
@@ -2087,9 +2071,9 @@
           "anchorText": "tlac leverage ratio"
         },
         "dividendPayoutRatio": {
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
           "page": 4,
-          "searchText": "42%",
-          "anchorText": "dividend payout ratio"
+          "anchorText": "adjusted net income available to common shareholders"
         },
         "roa": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q2supp.pdf",
@@ -2143,9 +2127,7 @@
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "dividendPayoutRatio": true
       }
     },
@@ -2173,7 +2155,7 @@
         "equityMultiplier": 20.79,
         "adjustedDilutedEps": 4.28,
         "nim": 1.49,
-        "dividendPayoutRatio": 41.0,
+        "dividendPayoutRatio": 40.93,
         "efficiencyRatio": 52.8,
         "adjustedEfficiencyRatio": 52.2,
         "adjustedOperatingLeverage": 2.4,
@@ -2201,7 +2183,7 @@
         "adjustedDilutedEps": "Disclosed: $4.28 adjusted diluted earnings per share for Q3 2026. RBC supplementary financial information p4, row \"- diluted adjusted\". Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks even though every figure here is the bank's own published number.",
         "adjustedOperatingLeverage": "Disclosed: +2.4% adjusted operating leverage for Q3 2026, read from the issuer's Q3 2026 supplementary financial information (page 4) in the column headed Q3/26. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs. The reported (non-adjusted) row prints 3.1%.",
         "adjustedEfficiencyRatio": "Disclosed by the issuer: 52.2% adjusted efficiency ratio for Q3 2026, read from the Q3 2026 supplementary financial information (page 4), row \"Adjusted efficiency ratio\" (the reported row beside it prints 52.8%).",
-        "dividendPayoutRatio": "Common dividends as a percentage of net income available to common shareholders. Reported basis; RBC prints this to the nearest whole percent. RBC publishes no ADJUSTED payout ratio -- only this single reported measure appears in its supplementary financial information (page 5) and Report to Shareholders (page 4) -- which is why this metric stays off the adjusted basis used elsewhere in the row.",
+        "dividendPayoutRatio": "COMPUTED on an ADJUSTED basis -- RBC publishes only a REPORTED payout ratio (41% for Q3 2026), never an adjusted one. Common dividends $2,438M divided by ADJUSTED net income available to common shareholders $5,956M = 40.93%. Both operands are the issuer's own, from the Q3 2026 supplementary financial information (adjusted net income available to common shareholders, page 4; common dividends, page 5), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula run on RBC's REPORTED net income available to common shareholders ($5,879M) gives 41.47%, which reproduces RBC's own printed reported ratio of 41% -- and does so in all nine quarters, so the construction is RBC's, only the numerator basis differs. RBC prints its ratio to the nearest whole percent; this is carried at two decimals.",
         "netIncomeMillions": "Reported net income $6,024M for Q3 2026. Kept on the reported basis by choice; the issuer's adjusted net income for the quarter was $6,101M.",
         "totalAssetsBillions": "Total assets $2,498,817M as at July 31, 2026. Stored in $B at full precision so an export in $MM is exact.",
         "riskWeightedAssetsMillions": "Total risk-weighted assets $777,987M for Q3 2026, as disclosed on page 4 of the Report to Shareholders.",
@@ -2226,9 +2208,7 @@
         "loansToAssetsPct": true,
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
-        "stableDepositsPct": true
-      },
-      "offBasis": {
+        "stableDepositsPct": true,
         "dividendPayoutRatio": true
       },
       "sourceRefs": {
@@ -2321,10 +2301,9 @@
           "anchorText": "net interest margin (nim)"
         },
         "dividendPayoutRatio": {
-          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/26q3supp.pdf",
           "page": 4,
-          "searchText": "41%",
-          "anchorText": "dividend payout ratio"
+          "anchorText": "adjusted net income available to common shareholders"
         },
         "efficiencyRatio": {
           "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q3_report.pdf",

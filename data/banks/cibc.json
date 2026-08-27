@@ -39,7 +39,7 @@
         "nonOperationalDepositsPct": 49.11,
         "tlacLeverageRatio": 8.7,
         "dividendPayoutRatio": 46.6,
-        "roa": 0.71,
+        "roa": 0.74,
         "adjustedOperatingLeverage": 0.6,
         "rotce": 17.1,
         "equityMultiplier": 19.49,
@@ -66,7 +66,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $106,399M as a share of total wholesale deposits $216,672M ($110,273M operational + $106,399M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 46.6% for Q3 2024, read from the supplementary financial information (page 6), the second \"dividend payout ratio\" row (no footnote marker -- the reported row carries footnote (1)). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
-        "roa": "Disclosed by the issuer: 0.71% return on average assets for Q3 2024. CIBC's own \"Selected financial results and measures - adjusted\" section (same supplementary page) lists adjusted net income, EPS, ROE, efficiency ratio, operating leverage and dividend payout ratio, but NO adjusted ROA -- CIBC simply does not publish one. This is the only bank in the dataset where ROA stays on the reported basis for that reason (every other bank's ROA is now adjusted, for consistency with ROTCE, operating leverage and diluted EPS).",
+        "roa": "COMPUTED on an ADJUSTED basis -- CIBC publishes only a REPORTED return on average assets (0.71% for Q3 2024); its \"Selected financial results and measures - adjusted\" block carries eight measures, none of them ROA. Adjusted net income $1,895M, annualised over 92 days (x365/92), divided by the issuer's own disclosed average total assets $1,012,012M = 0.74%. Operands from the Q3 2026 supplementary financial information (adjusted net income, page 6; average total assets, condensed average balance sheet, page 19), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula on CIBC's REPORTED net income ($1,795M) gives 0.70%, reproducing CIBC's own printed reported ROA in eight of the nine quarters, so the construction is CIBC's own; only the numerator basis differs. CAVEAT for this quarter only: the same formula on REPORTED net income gives 0.70%, where CIBC prints 0.71% -- a 0.01pp gap at a rounding boundary. Both operands were re-checked against two independent CIBC packs (Q4 2025 and Q3 2026), which agree, so this is not a restatement; the eight other quarters reconcile exactly.",
         "adjustedOperatingLeverage": "Disclosed: +0.6% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q3 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $1,886M, annualised over 92 days, divided by average tangible common equity $43,782M (average common equity $51,916M less goodwill and intangibles $8,134M) = 17.1%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,012,012M divided by average common equity $51,916M = 19.49x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -219,10 +219,9 @@
           "anchorText": "adjusted dividend payout ratio"
         },
         "roa": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326financials-en.pdf",
           "page": 6,
-          "searchText": "0.71",
-          "anchorText": "return on average assets"
+          "anchorText": "adjusted net income"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
@@ -272,9 +271,7 @@
         "operationalDepositsPct": true,
         "rotce": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "roa": true
       }
     },
@@ -339,7 +336,7 @@
         "newMetricsSource": "CIBC 2024 Annual Report (audited consolidated financial statements and MD&A) and CIBC Q4/25 Pillar 3 Report — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2024/ar-24-en.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 47.0% for Q4 2024, read from the supplementary financial information (page 6), the second \"dividend payout ratio\" row (no footnote marker -- the reported row carries footnote (1)). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
-        "roa": "Disclosed by the issuer: 0.72% return on average assets for Q4 2024. CIBC's own \"Selected financial results and measures - adjusted\" section (same supplementary page) lists adjusted net income, EPS, ROE, efficiency ratio, operating leverage and dividend payout ratio, but NO adjusted ROA -- CIBC simply does not publish one. This is the only bank in the dataset where ROA stays on the reported basis for that reason (every other bank's ROA is now adjusted, for consistency with ROTCE, operating leverage and diluted EPS).",
+        "roa": "COMPUTED on an ADJUSTED basis -- CIBC publishes only a REPORTED return on average assets (0.72% for Q4 2024); its \"Selected financial results and measures - adjusted\" block carries eight measures, none of them ROA. Adjusted net income $1,889M, annualised over 92 days (x365/92), divided by the issuer's own disclosed average total assets $1,035,847M = 0.72%. Operands from the Q3 2026 supplementary financial information (adjusted net income, page 6; average total assets, condensed average balance sheet, page 19), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula on CIBC's REPORTED net income ($1,882M) gives 0.72%, reproducing CIBC's own printed reported ROA in eight of the nine quarters, so the construction is CIBC's own; only the numerator basis differs.",
         "adjustedOperatingLeverage": "Disclosed: +1.8% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q4 2024. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $1,881M, annualised over 92 days, divided by average tangible common equity $45,490M (average common equity $53,763M less goodwill and intangibles $8,273M) = 16.4%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,035,847M divided by average common equity $53,763M = 19.27x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -465,10 +462,9 @@
           "anchorText": "adjusted dividend payout ratio"
         },
         "roa": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326financials-en.pdf",
           "page": 6,
-          "searchText": "0.72",
-          "anchorText": "return on average assets"
+          "anchorText": "adjusted net income"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
@@ -517,9 +513,7 @@
         "operationalDepositsPct": true,
         "rotce": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "roa": true
       }
     },
@@ -557,7 +551,7 @@
         "nonOperationalDepositsPct": 46.6,
         "tlacLeverageRatio": 8.9,
         "dividendPayoutRatio": 43.9,
-        "roa": 0.78,
+        "roa": 0.79,
         "adjustedOperatingLeverage": 1.9,
         "rotce": 18.8,
         "equityMultiplier": 20.29,
@@ -583,7 +577,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $108,389M as a share of total wholesale deposits $232,606M ($124,217M operational + $108,389M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 43.9% for Q1 2025, read from the supplementary financial information (page 6), the second \"dividend payout ratio\" row (no footnote marker -- the reported row carries footnote (1)). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
-        "roa": "Disclosed by the issuer: 0.78% return on average assets for Q1 2025. CIBC's own \"Selected financial results and measures - adjusted\" section (same supplementary page) lists adjusted net income, EPS, ROE, efficiency ratio, operating leverage and dividend payout ratio, but NO adjusted ROA -- CIBC simply does not publish one. This is the only bank in the dataset where ROA stays on the reported basis for that reason (every other bank's ROA is now adjusted, for consistency with ROTCE, operating leverage and diluted EPS).",
+        "roa": "COMPUTED on an ADJUSTED basis -- CIBC publishes only a REPORTED return on average assets (0.78% for Q1 2025); its \"Selected financial results and measures - adjusted\" block carries eight measures, none of them ROA. Adjusted net income $2,179M, annualised over 92 days (x365/92), divided by the issuer's own disclosed average total assets $1,098,807M = 0.79%. Operands from the Q3 2026 supplementary financial information (adjusted net income, page 6; average total assets, condensed average balance sheet, page 19), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula on CIBC's REPORTED net income ($2,171M) gives 0.78%, reproducing CIBC's own printed reported ROA in eight of the nine quarters, so the construction is CIBC's own; only the numerator basis differs.",
         "adjustedOperatingLeverage": "Disclosed: +1.9% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q1 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $2,171M, annualised over 92 days, divided by average tangible common equity $45,719M (average common equity $54,163M less goodwill and intangibles $8,444M) = 18.8%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,098,807M divided by average common equity $54,163M = 20.29x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -736,10 +730,9 @@
           "anchorText": "adjusted dividend payout ratio"
         },
         "roa": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326financials-en.pdf",
           "page": 6,
-          "searchText": "0.78",
-          "anchorText": "return on average assets"
+          "anchorText": "adjusted net income"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
@@ -788,9 +781,7 @@
         "operationalDepositsPct": true,
         "rotce": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "roa": true
       }
     },
@@ -854,7 +845,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $106,165M as a share of total wholesale deposits $233,162M ($126,997M operational + $106,165M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 47.2% for Q2 2025, read from the supplementary financial information (page 6), the second \"dividend payout ratio\" row (no footnote marker -- the reported row carries footnote (1)). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
-        "roa": "Disclosed by the issuer: 0.75% return on average assets for Q2 2025. CIBC's own \"Selected financial results and measures - adjusted\" section (same supplementary page) lists adjusted net income, EPS, ROE, efficiency ratio, operating leverage and dividend payout ratio, but NO adjusted ROA -- CIBC simply does not publish one. This is the only bank in the dataset where ROA stays on the reported basis for that reason (every other bank's ROA is now adjusted, for consistency with ROTCE, operating leverage and diluted EPS).",
+        "roa": "COMPUTED on an ADJUSTED basis -- CIBC publishes only a REPORTED return on average assets (0.75% for Q2 2025); its \"Selected financial results and measures - adjusted\" block carries eight measures, none of them ROA. Adjusted net income $2,016M, annualised over 89 days (x365/89), divided by the issuer's own disclosed average total assets $1,096,006M = 0.75%. Operands from the Q3 2026 supplementary financial information (adjusted net income, page 6; average total assets, condensed average balance sheet, page 19), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula on CIBC's REPORTED net income ($2,007M) gives 0.75%, reproducing CIBC's own printed reported ROA in eight of the nine quarters, so the construction is CIBC's own; only the numerator basis differs.",
         "adjustedOperatingLeverage": "Disclosed: +4.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q2 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $2,007M, annualised over 89 days, divided by average tangible common equity $48,746M (average common equity $56,959M less goodwill and intangibles $8,213M) = 16.9%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,096,006M divided by average common equity $56,959M = 19.24x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -1006,10 +997,9 @@
           "anchorText": "adjusted dividend payout ratio"
         },
         "roa": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326financials-en.pdf",
           "page": 6,
-          "searchText": "0.75",
-          "anchorText": "return on average assets"
+          "anchorText": "adjusted net income"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
@@ -1058,9 +1048,7 @@
         "operationalDepositsPct": true,
         "rotce": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "roa": true
       }
     },
@@ -1098,7 +1086,7 @@
         "nonOperationalDepositsPct": 44.34,
         "tlacLeverageRatio": 9.2,
         "dividendPayoutRatio": 44.7,
-        "roa": 0.75,
+        "roa": 0.76,
         "adjustedOperatingLeverage": 1.7,
         "rotce": 17.4,
         "equityMultiplier": 19.6,
@@ -1124,7 +1112,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $103,695M as a share of total wholesale deposits $233,882M ($130,187M operational + $103,695M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 44.7% for Q3 2025, read from the supplementary financial information (page 6), the second \"dividend payout ratio\" row (no footnote marker -- the reported row carries footnote (1)). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
-        "roa": "Disclosed by the issuer: 0.75% return on average assets for Q3 2025. CIBC's own \"Selected financial results and measures - adjusted\" section (same supplementary page) lists adjusted net income, EPS, ROE, efficiency ratio, operating leverage and dividend payout ratio, but NO adjusted ROA -- CIBC simply does not publish one. This is the only bank in the dataset where ROA stays on the reported basis for that reason (every other bank's ROA is now adjusted, for consistency with ROTCE, operating leverage and diluted EPS).",
+        "roa": "COMPUTED on an ADJUSTED basis -- CIBC publishes only a REPORTED return on average assets (0.75% for Q3 2025); its \"Selected financial results and measures - adjusted\" block carries eight measures, none of them ROA. Adjusted net income $2,104M, annualised over 92 days (x365/92), divided by the issuer's own disclosed average total assets $1,103,447M = 0.76%. Operands from the Q3 2026 supplementary financial information (adjusted net income, page 6; average total assets, condensed average balance sheet, page 19), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula on CIBC's REPORTED net income ($2,096M) gives 0.75%, reproducing CIBC's own printed reported ROA in eight of the nine quarters, so the construction is CIBC's own; only the numerator basis differs.",
         "adjustedOperatingLeverage": "Disclosed: +1.7% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q3 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $2,102M, annualised over 92 days, divided by average tangible common equity $48,037M (average common equity $56,289M less goodwill and intangibles $8,252M) = 17.4%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,103,447M divided by average common equity $56,289M = 19.60x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -1250,10 +1238,9 @@
           "anchorText": "adjusted dividend payout ratio"
         },
         "roa": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326financials-en.pdf",
           "page": 6,
-          "searchText": "0.75",
-          "anchorText": "return on average assets"
+          "anchorText": "adjusted net income"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
@@ -1302,9 +1289,7 @@
         "operationalDepositsPct": true,
         "rotce": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "roa": true
       }
     },
@@ -1342,7 +1327,7 @@
         "irrbbNiiSensitivityPct": -0.46,
         "tlacLeverageRatio": 9.0,
         "dividendPayoutRatio": 43.6,
-        "roa": 0.77,
+        "roa": 0.78,
         "adjustedOperatingLeverage": 4.3,
         "rotce": 17.5,
         "equityMultiplier": 19.32,
@@ -1368,7 +1353,7 @@
         "newMetricsSource": "CIBC 2025 Annual Report (audited consolidated financial statements and MD&A) and CIBC Q4/25 Pillar 3 Report and Supplementary Regulatory Capital Disclosure — https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/annual_meetings/ar-25-en.pdf",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 43.6% for Q4 2025, read from the supplementary financial information (page 6), the second \"dividend payout ratio\" row (no footnote marker -- the reported row carries footnote (1)). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
-        "roa": "Disclosed by the issuer: 0.77% return on average assets for Q4 2025. CIBC's own \"Selected financial results and measures - adjusted\" section (same supplementary page) lists adjusted net income, EPS, ROE, efficiency ratio, operating leverage and dividend payout ratio, but NO adjusted ROA -- CIBC simply does not publish one. This is the only bank in the dataset where ROA stays on the reported basis for that reason (every other bank's ROA is now adjusted, for consistency with ROTCE, operating leverage and diluted EPS).",
+        "roa": "COMPUTED on an ADJUSTED basis -- CIBC publishes only a REPORTED return on average assets (0.77% for Q4 2025); its \"Selected financial results and measures - adjusted\" block carries eight measures, none of them ROA. Adjusted net income $2,188M, annualised over 92 days (x365/92), divided by the issuer's own disclosed average total assets $1,118,611M = 0.78%. Operands from the Q3 2026 supplementary financial information (adjusted net income, page 6; average total assets, condensed average balance sheet, page 19), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula on CIBC's REPORTED net income ($2,180M) gives 0.77%, reproducing CIBC's own printed reported ROA in eight of the nine quarters, so the construction is CIBC's own; only the numerator basis differs.",
         "adjustedOperatingLeverage": "Disclosed: +4.3% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q4 2025. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $2,182M, annualised over 92 days, divided by average tangible common equity $49,527M (average common equity $57,896M less goodwill and intangibles $8,369M) = 17.5%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,118,611M divided by average common equity $57,896M = 19.32x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -1520,10 +1505,9 @@
           "anchorText": "adjusted dividend payout ratio"
         },
         "roa": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326financials-en.pdf",
           "page": 6,
-          "searchText": "0.77",
-          "anchorText": "return on average assets"
+          "anchorText": "adjusted net income"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
@@ -1572,9 +1556,7 @@
         "operationalDepositsPct": true,
         "rotce": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "roa": true
       }
     },
@@ -1612,7 +1594,7 @@
         "nonOperationalDepositsPct": 41.0,
         "tlacLeverageRatio": 9.1,
         "dividendPayoutRatio": 38.5,
-        "roa": 1.06,
+        "roa": 0.92,
         "adjustedOperatingLeverage": 3.6,
         "rotce": 21.1,
         "equityMultiplier": 19.72,
@@ -1638,7 +1620,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $99,715M as a share of total wholesale deposits $243,183M ($143,468M operational + $99,715M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 38.5% for Q1 2026, read from the supplementary financial information (page 6), the second \"dividend payout ratio\" row (no footnote marker -- the reported row carries footnote (1)). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
-        "roa": "Disclosed by the issuer: 1.06% return on average assets for Q1 2026. CIBC's own \"Selected financial results and measures - adjusted\" section (same supplementary page) lists adjusted net income, EPS, ROE, efficiency ratio, operating leverage and dividend payout ratio, but NO adjusted ROA -- CIBC simply does not publish one. This is the only bank in the dataset where ROA stays on the reported basis for that reason (every other bank's ROA is now adjusted, for consistency with ROTCE, operating leverage and diluted EPS).",
+        "roa": "COMPUTED on an ADJUSTED basis -- CIBC publishes only a REPORTED return on average assets (1.06% for Q1 2026); its \"Selected financial results and measures - adjusted\" block carries eight measures, none of them ROA. Adjusted net income $2,685M, annualised over 92 days (x365/92), divided by the issuer's own disclosed average total assets $1,154,882M = 0.92%. Operands from the Q3 2026 supplementary financial information (adjusted net income, page 6; average total assets, condensed average balance sheet, page 19), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula on CIBC's REPORTED net income ($3,100M) gives 1.06%, reproducing CIBC's own printed reported ROA in eight of the nine quarters, so the construction is CIBC's own; only the numerator basis differs.",
         "adjustedOperatingLeverage": "Disclosed: +3.6% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q1 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $2,678M, annualised over 92 days, divided by average tangible common equity $50,353M (average common equity $58,566M less goodwill and intangibles $8,213M) = 21.1%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,154,882M divided by average common equity $58,566M = 19.72x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -1791,10 +1773,9 @@
           "anchorText": "adjusted dividend payout ratio"
         },
         "roa": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326financials-en.pdf",
           "page": 6,
-          "searchText": "1.06",
-          "anchorText": "return on average assets"
+          "anchorText": "adjusted net income"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
@@ -1843,9 +1824,7 @@
         "operationalDepositsPct": true,
         "rotce": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "roa": true
       }
     },
@@ -1909,7 +1888,7 @@
         "nonOperationalDepositsPct": "Non-operational deposits $106,834M as a share of total wholesale deposits $252,138M ($145,304M operational + $106,834M non-operational). Denominator is the wholesale book, so this bucket and operational deposits sum to 100%.",
         "tlacLeverageRatio": "TLAC as a percentage of leverage ratio exposure, per OSFI's TLAC guideline. Cross-checked against an overlapping supplementary/Pillar 3 disclosure.",
         "dividendPayoutRatio": "Disclosed by the issuer, ADJUSTED basis: 41.8% for Q2 2026, read from the supplementary financial information (page 6), the second \"dividend payout ratio\" row (no footnote marker -- the reported row carries footnote (1)). Adjusted, for consistency with ROA, ROE, ROTCE, operating leverage and diluted EPS.",
-        "roa": "Disclosed by the issuer: 0.87% return on average assets for Q2 2026. CIBC's own \"Selected financial results and measures - adjusted\" section (same supplementary page) lists adjusted net income, EPS, ROE, efficiency ratio, operating leverage and dividend payout ratio, but NO adjusted ROA -- CIBC simply does not publish one. This is the only bank in the dataset where ROA stays on the reported basis for that reason (every other bank's ROA is now adjusted, for consistency with ROTCE, operating leverage and diluted EPS).",
+        "roa": "COMPUTED on an ADJUSTED basis -- CIBC publishes only a REPORTED return on average assets (0.87% for Q2 2026); its \"Selected financial results and measures - adjusted\" block carries eight measures, none of them ROA. Adjusted net income $2,471M, annualised over 89 days (x365/89), divided by the issuer's own disclosed average total assets $1,161,512M = 0.87%. Operands from the Q3 2026 supplementary financial information (adjusted net income, page 6; average total assets, condensed average balance sheet, page 19), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula on CIBC's REPORTED net income ($2,465M) gives 0.87%, reproducing CIBC's own printed reported ROA in eight of the nine quarters, so the construction is CIBC's own; only the numerator basis differs.",
         "adjustedOperatingLeverage": "Disclosed: +4.0% adjusted operating leverage, read from the issuer's Q2 2026 financial supplementary information (page 6) in the column headed Q2 2026. Operating leverage is the difference between revenue growth and expense growth, so positive means revenue grew faster than costs.",
         "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income attributable to common shareholders $2,463M, annualised over 89 days, divided by average tangible common equity $50,437M (average common equity $58,659M less goodwill and intangibles $8,222M) = 20.0%. Uses the issuer's ADJUSTED net income so it lines up with the four banks that publish an adjusted ROTCE. Caveat: the goodwill deduction is a period-end balance against an average equity base, since neither bank publishes an average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,161,512M divided by average common equity $58,659M = 19.80x. Both operands are published in the issuer's own financial supplementary information. Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
@@ -2061,10 +2040,9 @@
           "anchorText": "adjusted dividend payout ratio"
         },
         "roa": {
-          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326financials-en.pdf",
           "page": 6,
-          "searchText": "0.87",
-          "anchorText": "return on average assets"
+          "anchorText": "adjusted net income"
         },
         "adjustedOperatingLeverage": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q226financials-en.pdf",
@@ -2112,9 +2090,7 @@
         "operationalDepositsPct": true,
         "rotce": true,
         "stableDepositsPct": true,
-        "lcrBufferBillions": true
-      },
-      "offBasis": {
+        "lcrBufferBillions": true,
         "roa": true
       }
     },
@@ -2137,7 +2113,7 @@
         "lcrBufferBillions": 44.5,
         "nsfr": 113,
         "roe": 16.8,
-        "roa": 0.8,
+        "roa": 0.88,
         "rotce": 20.6,
         "equityMultiplier": 20.1,
         "adjustedDilutedEps": 2.73,
@@ -2164,7 +2140,7 @@
       "notes": {
         "source": "Primary source: CIBC's own Q3 2026 Report to Shareholders and Q3 2026 Supplementary Financial Information, for the quarter ended July 31, 2026.",
         "roe": "Disclosed by the issuer, ADJUSTED basis: 16.8% adjusted return on common shareholders' equity for Q3 2026, read from the supplementary financial information (page 6), row \"Adjusted return on common shareholders' equity\" (the reported row prints 15.2%). Adjusted, for consistency with ROTCE, operating leverage and diluted EPS.",
-        "roa": "Disclosed by the issuer: 0.80% return on average assets for Q3 2026. CIBC's own \"Selected financial results and measures - adjusted\" block (same supplementary page) lists adjusted net income, adjusted net income attributable to common shareholders, efficiency ratio, operating leverage, ROE, effective tax rate, diluted EPS and dividend payout ratio -- but NO adjusted ROA. CIBC simply does not publish one, re-confirmed against the Q3 2026 pack. This is the only bank in the dataset where ROA stays on the reported basis for that reason.",
+        "roa": "COMPUTED on an ADJUSTED basis -- CIBC publishes only a REPORTED return on average assets (0.80% for Q3 2026); its \"Selected financial results and measures - adjusted\" block carries eight measures, none of them ROA. Adjusted net income $2,648M, annualised over 92 days (x365/92), divided by the issuer's own disclosed average total assets $1,189,801M = 0.88%. Operands from the Q3 2026 supplementary financial information (adjusted net income, page 6; average total assets, condensed average balance sheet, page 19), whose tables carry all nine quarters in this dataset. METHOD VALIDATED: the same formula on CIBC's REPORTED net income ($2,409M) gives 0.80%, reproducing CIBC's own printed reported ROA in eight of the nine quarters, so the construction is CIBC's own; only the numerator basis differs.",
         "rotce": "COMPUTED on an ADJUSTED basis -- CIBC publishes no ROTCE. Adjusted net income less non-controlling interests ($2,648M - $10M = $2,638M), annualised over 92 days, divided by average tangible common equity $50,850M (average common shareholders' equity $59,203M less goodwill $5,437M and software and other intangible assets $2,916M) = 20.6%. Uses the issuer's ADJUSTED net income so it lines up with the banks that publish an adjusted ROTCE, and follows the same formula as every earlier quarter in CIBC's series. Caveat: the goodwill deduction is a period-end balance against an average equity base, since CIBC publishes no average deduction.",
         "equityMultiplier": "Computed from two disclosed figures: average total assets $1,189,801M divided by average common shareholders' equity $59,203M = 20.10x. Both operands are published in the issuer's own financial supplementary information (average balance sheet page 19; average common equity page 7). Average COMMON equity is the denominator so the DuPont identity holds against the ROE and ROA already in this dataset (ROA x multiplier is approximately ROE).",
         "adjustedDilutedEps": "Disclosed: $2.73 adjusted diluted earnings per share for Q3 2026. CIBC supplementary financial information page 6, row \"Adjusted diluted EPS ($)\" (the reported diluted EPS row prints $2.47). Adjusted measures remove each issuer's own items of note, so the adjustments differ between banks.",
@@ -2196,9 +2172,7 @@
         "nonOperationalDepositsPct": true,
         "operationalDepositsPct": true,
         "rotce": true,
-        "stableDepositsPct": true
-      },
-      "offBasis": {
+        "stableDepositsPct": true,
         "roa": true
       },
       "sourceRefs": {
@@ -2264,8 +2238,7 @@
         "roa": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326financials-en.pdf",
           "page": 6,
-          "searchText": "0.80",
-          "anchorText": "return on average assets"
+          "anchorText": "adjusted net income"
         },
         "rotce": {
           "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326financials-en.pdf",

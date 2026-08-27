@@ -54,9 +54,9 @@ This is not a style preference. It is the product's entire claim. Anything that 
 | Per-metric caveats | 1,370 free-text notes |
 | Distinct cited documents | 105, all on the issuing bank's own domain |
 | Credit ratings | 6 banks (Moody's / S&P / DBRS / Fitch) |
-| **Citations that highlight on their cited page** | **1,453 of 1,712 (84.9%)** — and **0** land on any other page |
+| **Citations that highlight on their cited page** | **1,435 of 1,712 (83.8%)** — and **0** land on any other page |
 
-That last row is the one to watch. 259 citations ring nothing (§12) — they open the right document at the right page and show no highlight, which is the honest failure. **What must never happen is a citation resolving somewhere it wasn't cited**, and that count is zero across the whole dataset.
+That last row is the one to watch. 277 citations ring nothing (§12) — they open the right document at the right page and show no highlight, which is the honest failure. **What must never happen is a citation resolving somewhere it wasn't cited**, and that count is zero across the whole dataset.
 
 Every number in that table is measured, not asserted:
 

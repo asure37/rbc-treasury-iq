@@ -148,6 +148,12 @@ export function RankHeatmap() {
 
   const tableMinWidth = 224 + visibleKeys.length * 86 + (visibleKeys.length + 1) * 4;
 
+  // Each marker is explained only when it is actually on screen. Every "Adj." metric is
+  // now either disclosed on the adjusted basis or computed onto it, so no cell currently
+  // carries the dagger — describing a marker the reader cannot find is its own confusion.
+  const anyDerived = rows.some((r) => r.cells.some((c) => c.derived));
+  const anyOffBasis = rows.some((r) => r.cells.some((c) => c.offBasis));
+
   return (
     <GlassCard className="p-5 sm:p-6">
       <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
@@ -377,10 +383,18 @@ export function RankHeatmap() {
         Each cell shows the reported value and the bank&apos;s rank ({rows[0]?.cells[0]?.total ?? n} banks). ↑/↓ marks whether higher or lower is
         better; metrics with no agreed direction are shown unranked. RBC is pinned to the top row as the subject of the
         comparison — that position is not a standing; peers below it follow in average-rank order.{" "}
-        <span className="text-rbc-cyan">*</span> marks a figure the bank does not publish, computed from figures it does —
-        the Data Lineage tab carries the formula and the operands.{" "}
-        <span className="text-warn">&dagger;</span> marks a metric labelled &ldquo;Adj.&rdquo; where this bank
-        discloses no adjusted figure, so the value shown is its reported one, unlike the rest of the row.
+        {anyDerived && (
+          <>
+            <span className="text-rbc-cyan">*</span> marks a figure the bank does not publish, computed from figures it
+            does — the Data Lineage tab carries the formula and the operands.{" "}
+          </>
+        )}
+        {anyOffBasis && (
+          <>
+            <span className="text-warn">&dagger;</span> marks a metric labelled &ldquo;Adj.&rdquo; where this bank
+            discloses no adjusted figure, so the value shown is its reported one, unlike the rest of the row.{" "}
+          </>
+        )}
         Click any metric to open its full peer comparison.
       </p>
     </GlassCard>
